@@ -8,4 +8,4 @@ This repository is for organising our collaboration better: wikis, issues etc.
 
 # Updating data
 
-Trigger rebuild at [https://travis-ci.org/github/slo-covid-19/data](Travis CI)
+Trigger rebuild at [Travis CI](https://travis-ci.org/github/slo-covid-19/data)
