@@ -1,0 +1,18 @@
+language: python
+os: linux
+dist: bionic
+python: 3.7
+
+branches:
+  only:
+  - master
+
+cache: 
+  pip: true
+      
+install: pip install -r requirements.txt
+script: 
+  - python update.py
+  - git config --global user.email "travis@travis-ci.org"
+  - git config --global user.name "Travis CI"
+  - sh ci-push.sh
