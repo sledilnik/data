@@ -37,7 +37,7 @@ if __name__ == "__main__":
          api_key=GOOGLE_API_KEY,
         key_prefix='region',
         key_cols=[1,0],
-        filename="data/csv/regions.csv"
+        filename="csv/regions.csv"
         )
     except Exception as e:
         print("Failed to import regions.csv")
