@@ -10,7 +10,7 @@ branches:
 cache: 
   pip: true
       
-install: pip install -r requirements.txt
+install: pip install git+https://github.com/slo-covid-19/sheet2csv.git
 script: 
   - python update.py
   - git config --global user.email "travis@travis-ci.org"
