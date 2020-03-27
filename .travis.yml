@@ -16,3 +16,7 @@ script:
   - git config --global user.email "travis@travis-ci.org"
   - git config --global user.name "Travis CI"
   - sh ci-push.sh
+
+notifications:
+  slack:
+    secure: "GWvgFpJZ6JBvjxb93RCi1yT+jF35XKEJt5w3OK7Spn4F+YrMoChrOJYxRNdrPF4EmK4UrgtFjg61K5+aLUgvqPx8HRF9HO38D/5VsP4NesizO91s5Qz44qV6F9Y34zowbnYaJ6EVcqdksPjCq4++/qKzF6B5VD/nZwHLbB4xLo/7x7K2AvTHoA/f7Yoj8lvvhJ8a/bffizoyf/NIY2r6GVdthScAk/pSouDOYm9rzJZ3PetxYDU5GGzZtzNq7i2mlMi4agHppq7LfiXcz4e5kM2xpI6cI/Mv489ZYUj/Qs2lxXrfnKAukQzPt67HtKKIs2MKKirsxe+F2IgWMK9M3xCfuQ/IB2zq/VbdNZK9wlUVGbWGQBnzO6YnRGE+qhsJqo3bIQlQOoEaFU/WQIKd97wlYELKRno99y3mRjEnOqY8wC08oLUxO6qv6AA8yeB+I+StnoDQ0ffZhXWvXBjFDTQ7LN+9JRWR2pqs8d16z/HBNMsoWoIZkDtBQHbv+z3HHKohLRfVtdnDHMpet0c92ZLXI2wBMv/NTKioPJWAvHoqFHKOemA0BmzVxt2O3ImiKr3KHodsEAlW5CVZE99XfiMXMTiPuQJA+RvZ8f6/SBXJif0tBaRIUvpLzCux/RFZAxwtYMu5iVQeJIHnDklkQiotuDvmHKzd7vzNMD0/zZs="
