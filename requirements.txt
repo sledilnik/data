@@ -1,0 +1,2 @@
+-i https://pypi.org/simple
+git+https://github.com/slo-covid-19/sheet2csv.git@cd8afcc1a0de945e573eddd4028771525aafbf31#egg=sheet2csv

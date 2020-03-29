@@ -1,0 +1,25 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "ddbeb4d34d99ed97b6802828b4673257d8fbb7e8bd385d0c2a12c4f4efd286d4"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.7"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "sheet2csv": {
+            "git": "https://github.com/slo-covid-19/sheet2csv.git",
+            "ref": "cd8afcc1a0de945e573eddd4028771525aafbf31"
+        }
+    },
+    "develop": {}
+}
