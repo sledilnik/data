@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-sheet2csv = {git = "https://github.com/slo-covid-19/sheet2csv.git",ref = "old-import"}
+sheet2csv = {git = "https://github.com/slo-covid-19/sheet2csv.git",ref = "master"}
 
 [requires]
 python_version = "3.7"

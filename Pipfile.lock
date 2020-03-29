@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ddbeb4d34d99ed97b6802828b4673257d8fbb7e8bd385d0c2a12c4f4efd286d4"
+            "sha256": "c77be596d736408761f5bef9eb84a39d8165a85b6ec91e089deb991e170b6bdd"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -18,7 +18,7 @@
     "default": {
         "sheet2csv": {
             "git": "https://github.com/slo-covid-19/sheet2csv.git",
-            "ref": "cd8afcc1a0de945e573eddd4028771525aafbf31"
+            "ref": "053fb10d301e7fd717829abaf994d4569e3bd210"
         }
     },
     "develop": {}
