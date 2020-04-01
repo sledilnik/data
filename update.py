@@ -53,25 +53,3 @@ if __name__ == "__main__":
     import_sheet(update_time, RAGNE_PATIENTS, "csv/patients.csv")
     import_sheet(update_time, RANGE_HOSPITALS, "csv/hospitals.csv")
     import_sheet(update_time, RANGE_REGIONS, "csv/regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
-
-    # pathlib.Path("csv").mkdir(parents=True, exist_ok=True)
-    # try:
-    #     sheet2csv.sheet2csv2(id=SHEET_ID, range=RANGE_STATS, api_key=GOOGLE_API_KEY, filename="csv/stats.csv")
-    # except Exception as e:
-    #     print("Failed to import stats.csv")
-    #     raise e
-    # try:
-    #     sheet2csv.sheet2csv2(id=SHEET_ID, range=RAGNE_PATIENTS, api_key=GOOGLE_API_KEY, filename='csv/patients.csv')
-    # except Exception as e:
-    #     print("Failed to import patients.csv")
-    #     raise e
-    # try:
-    #     values = sheet2csv.sheet2csv2(id=SHEET_ID_PROD, range=RANGE_REGIONS, api_key=GOOGLE_API_KEY, rotate=True, key_mapper=key_mapper_kraji, filename='csv/regions.csv', sort_keys=True)
-    # except Exception as e:
-    #     print("Failed to import regions.csv")
-    #     raise e
-    # try:
-    #     values = sheet2csv.sheet2csv2(id=SHEET_ID_PROD, range=RANGE_HOSPITALS, api_key=GOOGLE_API_KEY, filename='csv/hospitals.csv')
-    # except Exception as e:
-    #     print("Failed to import hospitals.csv")
-    #     raise e
