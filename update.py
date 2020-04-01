@@ -1,5 +1,8 @@
 import pathlib
 import os
+import os.path
+import hashlib
+import time
 
 import sheet2csv
 
@@ -15,6 +18,12 @@ RANGE_HOSPITALS = "Zdr.sistem!A3:ZZ"
 
 GOOGLE_API_KEY = os.environ["GOOGLE_API_KEY"]
 
+def sha1sum(fname):
+    h = hashlib.sha1()
+    with open(fname, "rb") as f:
+        for chunk in iter(lambda: f.read(4096), b""):
+            h.update(chunk)
+    return h.hexdigest()
 
 def key_mapper_kraji(values):
   def clean(x):
@@ -25,25 +34,44 @@ def key_mapper_kraji(values):
 
   return keys, values[2:]
 
+def import_sheet(update_time, range, filename, **kwargs):
+    pathlib.Path(os.path.dirname(filename)).mkdir(parents=True, exist_ok=True)
+    old_hash = sha1sum(filename)
+    try:
+        sheet2csv.sheet2csv2(id=SHEET_ID, range=range, api_key=GOOGLE_API_KEY, filename=filename, **kwargs)
+    except Exception as e:
+        print("Failed to import {}".format(filename))
+        raise e
+    new_hash = sha1sum(filename)
+    if old_hash != new_hash:
+        with open("{}.timestamp".format(filename), "w") as f:
+            f.write(str(update_time))
+
 if __name__ == "__main__":
-    pathlib.Path("data/csv").mkdir(parents=True, exist_ok=True)
-    try:
-        sheet2csv.sheet2csv2(id=SHEET_ID, range=RANGE_STATS, api_key=GOOGLE_API_KEY, filename="csv/stats.csv")
-    except Exception as e:
-        print("Failed to import stats.csv")
-        raise e
-    try:
-        sheet2csv.sheet2csv2(id=SHEET_ID, range=RAGNE_PATIENTS, api_key=GOOGLE_API_KEY, filename='csv/patients.csv')
-    except Exception as e:
-        print("Failed to import patients.csv")
-        raise e
-    try:
-        values = sheet2csv.sheet2csv2(id=SHEET_ID_PROD, range=RANGE_REGIONS, api_key=GOOGLE_API_KEY, rotate=True, key_mapper=key_mapper_kraji, filename='csv/regions.csv', sort_keys=True)
-    except Exception as e:
-        print("Failed to import regions.csv")
-        raise e
-    try:
-        values = sheet2csv.sheet2csv2(id=SHEET_ID_PROD, range=RANGE_HOSPITALS, api_key=GOOGLE_API_KEY, filename='csv/hospitals.csv')
-    except Exception as e:
-        print("Failed to import hospitals.csv")
-        raise e
+    update_time = int(time.time())
+    import_sheet(update_time, RANGE_STATS, "csv/stats.csv")
+    import_sheet(update_time, RAGNE_PATIENTS, "csv/patients.csv")
+    import_sheet(update_time, RANGE_HOSPITALS, "csv/hospitals.csv")
+    import_sheet(update_time, RANGE_REGIONS, "csv/regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
+
+    # pathlib.Path("csv").mkdir(parents=True, exist_ok=True)
+    # try:
+    #     sheet2csv.sheet2csv2(id=SHEET_ID, range=RANGE_STATS, api_key=GOOGLE_API_KEY, filename="csv/stats.csv")
+    # except Exception as e:
+    #     print("Failed to import stats.csv")
+    #     raise e
+    # try:
+    #     sheet2csv.sheet2csv2(id=SHEET_ID, range=RAGNE_PATIENTS, api_key=GOOGLE_API_KEY, filename='csv/patients.csv')
+    # except Exception as e:
+    #     print("Failed to import patients.csv")
+    #     raise e
+    # try:
+    #     values = sheet2csv.sheet2csv2(id=SHEET_ID_PROD, range=RANGE_REGIONS, api_key=GOOGLE_API_KEY, rotate=True, key_mapper=key_mapper_kraji, filename='csv/regions.csv', sort_keys=True)
+    # except Exception as e:
+    #     print("Failed to import regions.csv")
+    #     raise e
+    # try:
+    #     values = sheet2csv.sheet2csv2(id=SHEET_ID_PROD, range=RANGE_HOSPITALS, api_key=GOOGLE_API_KEY, filename='csv/hospitals.csv')
+    # except Exception as e:
+    #     print("Failed to import hospitals.csv")
+    #     raise e
