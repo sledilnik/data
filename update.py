@@ -15,15 +15,20 @@ RANGE_STATS = "Podatki!A3:ZZ"
 RAGNE_PATIENTS = "Pacienti!A3:ZZ"
 RANGE_REGIONS = "Kraji!A1:ZZ"
 RANGE_HOSPITALS = "Zdr.sistem!A3:ZZ"
+RANGE_SAFETY_MEASURES = "Ukrepi!A2:ZZ"
+RANGE_DSO = "DSO!A3:ZZ"
 
 GOOGLE_API_KEY = os.environ["GOOGLE_API_KEY"]
 
 def sha1sum(fname):
     h = hashlib.sha1()
-    with open(fname, "rb") as f:
-        for chunk in iter(lambda: f.read(4096), b""):
-            h.update(chunk)
-    return h.hexdigest()
+    try:
+        with open(fname, "rb") as f:
+            for chunk in iter(lambda: f.read(4096), b""):
+                h.update(chunk)
+        return h.hexdigest()
+    except FileNotFoundError:
+        return None
 
 def key_mapper_kraji(values):
   def clean(x):
@@ -38,7 +43,7 @@ def import_sheet(update_time, range, filename, **kwargs):
     pathlib.Path(os.path.dirname(filename)).mkdir(parents=True, exist_ok=True)
     old_hash = sha1sum(filename)
     try:
-        sheet2csv.sheet2csv2(id=SHEET_ID, range=range, api_key=GOOGLE_API_KEY, filename=filename, **kwargs)
+        sheet2csv.sheet2csv(id=SHEET_ID, range=range, api_key=GOOGLE_API_KEY, filename=filename, **kwargs)
     except Exception as e:
         print("Failed to import {}".format(filename))
         raise e
@@ -53,3 +58,5 @@ if __name__ == "__main__":
     import_sheet(update_time, RAGNE_PATIENTS, "csv/patients.csv")
     import_sheet(update_time, RANGE_HOSPITALS, "csv/hospitals.csv")
     import_sheet(update_time, RANGE_REGIONS, "csv/regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
+    import_sheet(update_time, RANGE_SAFETY_MEASURES, "csv/safety_measures.csv")
+    import_sheet(update_time, RANGE_DSO, "csv/retirement_homes.csv")

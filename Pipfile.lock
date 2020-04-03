@@ -18,7 +18,7 @@
     "default": {
         "sheet2csv": {
             "git": "https://github.com/slo-covid-19/sheet2csv.git",
-            "ref": "053fb10d301e7fd717829abaf994d4569e3bd210"
+            "ref": "d5bcc6029368166bbe4e4a31bf4aa5d1c7533501"
         }
     },
     "develop": {}
