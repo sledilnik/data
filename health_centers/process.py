@@ -56,11 +56,11 @@ for sheet in sheets:
         # make sure the name is always there
         assert row[1].value is not None, sheet
         # make sure the date is always there
-        if row[2].value is None:
+        if row[2].value is None:  # some cells are missing dates
             search = re.search(r'<Worksheet "(\d{1,2})\.(\d{1,2})\.">', str(sheet))
             assert datetime.datetime.now().year == 2020  # this extraction logic could be broken in 2021
             date = datetime.datetime(year=2020, month=int(search.group(2)), day=int(search.group(1))).date()
-        else:  # some cells are missing dates
+        else:
             date = row[2].value.date()
         entities.append(dataclass.Entity(
             name=row[1].value,
