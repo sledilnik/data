@@ -8,11 +8,18 @@ import mappings
 def validate_number_type(number):
     if isinstance(number, (int, float)):
         return int(number)
-    if isinstance(number, str) and number.lower() == 'np':  # NP = Ni Podatka
-        return None
+    if isinstance(number, str):
+        if number.lower() in ['np', 'np*', 'ni podatka']:  # NP = Ni Podatka
+            return None
+        if number.lower() == 'o':   # typo
+            return 0
+        if number.startswith('10 (od tega 2 kontrolna)'):  # TODO handle in a different way
+            return 10
+        if number.startswith('1 (kontrolni)'):  # TODO handle in a different way
+            return 1
     if number is None:
         return None
-    raise ValueError
+    raise ValueError(number)
 
 
 @dataclasses.dataclass
