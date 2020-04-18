@@ -1,129 +1,129 @@
-#,id,name,region,type,occupants,employees,url,url-social
-1,spj,Dom upokojencev Šmarje pri Jelšah,CE,J,214,122,http://dusmarje.si/,https://www.facebook.com/dusmarje.si/
-2,met,Dom starejših občanov Metlika,NM,J,172,98,http://www.dso-metlika.si/,https://www.facebook.com/dsometlika/
-3,bok,"Dom starejših občanov Ljubljana Vič-Rudnik, matična enota Bokalci",LJ,J,378,215,https://www.dso-vic.si/,https://www.facebook.com/dsoljubljana/
-4,nak,"Dom starejših občanov Preddvor, enota Naklo",KR,J,46,26,http://www.dso-preddvor.si/splosno-o-enoti-naklo.html,https://www.facebook.com/Dom-starej%C5%A1ih-ob%C4%8Danov-Preddvor-273173100207567/
-5,hor,"DEOS Ljubljana, PE Center starejših občanov Horjul",LJ,Z,96,55,http://www.deos.si/horjul-center.html,
-6,kol,"Dom starejših občanov Ljubljana Vič-Rudnik, enota Kolezija",LJ,J,192,109,https://www.dso-vic.si/,https://www.facebook.com/dsoljubljana/
-7,sto,"Dom Lipa Celje, Dom Štore",CE,Z,124,71,http://www.domlipa.si/,https://www.facebook.com/domlipa.si/
-8,trn,"DEOS Ljubljana, PE Center starejših Trnovo",LJ,Z,150,86,https://www.deos.si/trnovo,
-9,ljt,Dom starejših Ljutomer,MS,J,155,88,http://www.dso-ljutomer.si/,https://www.facebook.com/dsoljutomer/
-10,tkp,Talita kum zavod Postojna,KP,Z,40,23,https://www.talitakum.si/,
-11,mbd,"IMP, d.d., medgeneracijski center Bistrica, Domžale",LJ,D,101,58,http://www.mgc-bistrica.si/,https://www.facebook.com/Mgc-Bistrica-307762100123632/
-12,trs,Trst,T,,,,slovenski zaposleni v tujih domovih,
-13,aus,Avstrija,T,,,,slovenski zaposleni v tujih domovih,
-14,dom,Dom upokojencev Domžale,LJ,J,170,97,http://www.dom-upokojencev-domzale.com/,https://www.facebook.com/domdomzale
-15,zal,"Dom Nine Pokorn Grmovje, Žalec",CE,P,246,140,http://www.dnpg.si/,
-16,osc,"Dom ob Savinji, Celje",CE,J,252,144,https://www.domobsavinji.si/,
-17,las,"THERMANA d.d., Dom starejših, Laško",CE,Z,150,86,,https://www.facebook.com/domstarejsihlasko/
-18,sen,Dom starejših Šentjur,CE,J,167,95,,https://www.facebook.com/domsentjur/
-19,sjc,Dom sv. Jožefa Celje,CE,Z,110,63,http://www.jozef.si/kategorija/varstvo-starejsih/,
-20,plz,Dom upokojencev Polzela,CE,J,224,128,http://www.dupolzela.si/,
-21,voj,"Contraco d.o.o., Špeson dom Vojnik",CE,Z,154,88,http://www.dom-vojnik.si/,
-22,slk,"""Lambrechtov dom"" Slovenske Konjice",CE,J,160,91,,https://www.facebook.com/lambrechtovdom/
-23,rgs,"Comett domovi Lj., Pegazov dom Rogaška Slatina",CE,Z,119,68,http://www.pegazov-dom.si/,
-24,vra,"Zavod sv. Rafaela, Vransko",CE,Z,60,34,http://www.nasdom-vransko.com/,
-25,ajd,Dom starejših občanov Ajdovščina,NG,J,151,86,http://www.dso-ajdovscina.si/,
-26,grd,"Dom upokojencev Gradišče, Nova Gorica",NG,J,146,83,https://www.domgradisce.si/,
-27,ng,"Dom upokojencev Nova Gorica, matična enota",NG,J,230,131,,https://www.facebook.com/domnovagorica/
-28,ngs,"Dom upokojencev Nova Gorica, enota Podsabotin, Brda",NG,J,94,54,,https://www.facebook.com/domnovagorica/
-29,pdb,"Dom upokojencev Podbrdo, matična enota",NG,J,129,74,http://www.dompodbrdo.si/,
-30,pdbt,"Dom upokojencev Podbrdo, enota Tolmin",NG,J,139,79,http://www.dompodbrdo.si/,
-31,pdpb,"Dom upokojencev Podbrdo, enota Petrovo Brdo, posebni",NG,J,95,54,http://www.dompodbrdo.si/,
-32,mtr,Medichotel Turzis Renče,NG,Z,32,18,http://www.medichotel.com/,
-33,zpv,"Zavod Pristan, Center starejših Pristan, Vipava",NG,Z,100,57,https://www.pristan.si/novice/,
-34,krs,Dom starejših občanov Krško,KK,J,219,125,http://www.dsokrsko.si/,
-35,bre,"Dom upokojencev in oskrbovancev Impoljca, enota Brežice",KK,J,116,66,http://www.impoljca.si/,
-36,imp,"Dom upokojencev in oskrbovancev Impoljca, matična enota",KK,J,295,168,http://www.impoljca.si/,
-37,sev,"Dom upokojencev in oskrbovancev Impoljca, enota Sevnica",KK,J,95,54,http://www.impoljca.si/,
-38,zdm,"Trubarjev dom upokojencev Loka pri Zidanem mostu, Sevni",KK,J,221,126,,https://www.facebook.com/Trubarjev-dom-upokojencev-Loka-pri-Zidanem-Mostu-764512863674997/
-39,luc,"Center za starejše občane Lucija, Piran",KP,Z,164,93,https://www.center-lucija.si/,
-40,sma,"Dom Danica, Gažon, Šmarje",KP,P,,,,https://www.facebook.com/DomDanicaGazon
-41,dut,"Socialnovarstveni zavod Dutovlje, matična enota",KP,P,138,79,http://www.domnakrasu.si/,
-42,duts,"Socialnovarstveni zavod Dutovlje, enota Sežana",KP,P,24,14,http://www.domnakrasu.si/,
-43,dutp,"Socialnovarstveni zavod Dutovlje, enota Postojna",KP,P,11,6,http://www.domnakrasu.si/,
-44,ilb,Dom starejših občanov Ilirska Bistrica,KP,J,231,132,http://www.dso-ilb.si/,
-45,izo,Dom upokojencev Izola,KP,J,215,123,http://dom-izola.si/,
-46,pos,Dom upokojencev Postojna,KP,J,160,91,https://www.du-po.si/,
-47,pkp,"Dom upokojencev Ptuj, enota Olmo, Koper",KP,J,150,86,http://www.dom-upokojencev.si/o-nas/nase-enote/koper/,
-48,sez,Dom upokojencev Sežana,KP,J,189,108,http://www.dus.si/,
-49,kp,Obalni dom upokojencev Koper,KP,J,203,116,http://www.odu-koper.si/,
-50,css,Center slepih in slabovidnih in starejših Škofja Loka,KR,J,220,125,http://www.css-sl.si/,
-51,rdl,Dom dr. Janka Benedika Radovljica,KR,J,225,128,http://www.dom-drjankabenedika.si/,
-52,trz,Dom Petra Uzarja Tržič,KR,J,180,103,http://www.dputrzic.si/,
-53,prd,"Dom starejših občanov Preddvor, matična enota",KR,J,187,107,http://www.dso-preddvor.si/,
-54,fbj,Dom upokojencev dr. Franceta Bergelja Jesenice,KR,J,196,112,http://www.dom-jesenice.si/,
-55,kr,Dom upokojencev Kranj,KR,J,211,120,http://www.du-kranj.si/,
-56,krg,"Comett domovi Lj., Dom Viharnik Kranjska Gora",KR,Z,128,73,https://www.dom-viharnik.si/,
-57,cert,SVZ Taber Cerklje,KR,Z,150,86,http://www.domtaber.si/,
-58,boh,"Dom sv. Martina, Srednja vas, Bohinj",KR,Z,60,34,http://www.zavodsvetegamartina.si/,
-59,cer,"DEOS Ljubljana, PE Center starejših Cerknica",LJ,Z,150,86,https://www.deos.si/cerknica,
-60,crn,"DEOS Ljubljana, PE Center starejših Črnuče",LJ,Z,150,86,https://www.deos.si/crnuce,
-61,mdv,"DEOS Ljubljana, PE Medvode",LJ,Z,186,106,http://www.deos.si/medvode-center.html,
-62,ngo,"DEOS Ljubljana, PE Center starejših Notranje Gorice",LJ,Z,150,86,https://www.deos.si/notranje-gorice,
-63,jkt,"Dom Janeza Krstnika, Trnovo, Ljubljana",LJ,Z,60,34,http://www.dom-janeza-krstnika.si/,
-64,dml,Dom Marije in Marte Logatec,LJ,Z,65,37,http://zupnija-dolnji-logatec.rkc.si/dom-marije-in-marte/,
-65,men,"Dom počitka Mengeš, matična enota",LJ,J,204,116,http://www.dpm.si/,
-66,ment,"Dom počitka Mengeš, enota Trzin",LJ,J,57,32,http://www.dpm.si/,
-67,hra,Dom starejših Hrastnik,LJ,J,131,75,http://www.dom-hrastnik.si/,
-68,log,Dom starejših Logatec,LJ,J,164,93,http://www.ds-logatec.si/,
-69,fuz,"Dom starejših občanov Fužine, Ljubljana",LJ,J,171,97,http://www.dso-fuzine.si/,
-70,gro,"Dom starejših občanov Grosuplje, matična enota",LJ,J,178,101,http://www.dso-grosuplje.si/,
-71,grol,"Dom starejših občanov Grosuplje, enota Loški potok",LJ,J,60,34,http://www.dso-grosuplje.si/,
-72,kam,Dom starejših občanov Kamnik,LJ,J,223,127,http://www.dso-kamnik.si/,
-73,koc,Dom starejših občanov Kočevje,LJ,J,163,93,https://www.dsokocevje.si/,
-74,sis,Dom starejših občanov Ljubljana - Šiška,LJ,J,230,131,,https://www.facebook.com/DSOLjubljanaSiska
-75,bez,Dom starejših občanov Ljubljana - Bežigrad,LJ,J,227,129,http://www.dsolj-bezigrad.si/,
-76,lmp,Dom starejših občanov Ljubljana Moste-Polje,LJ,J,212,121,,https://www.facebook.com/Dom-starej%C5%A1ih-ob%C4%8Danov-Ljubljana-Moste-Polje-629168113883662/
-77,izl,"Dom starejših občanov ""Polde Eberl-Jamski"" Izlake **",LJ,J,188,107,http://www.dso-izlake.si/,
-78,rib,"RIVE, Dom starejših občanov Ribnica",LJ,Z,134,76,http://www.dsoribnica.si/,
-79,sml,"Dom ""Tisje"" Šmartno pri Litiji",LJ,J,193,110,http://www.dom-tisje.com/,
-80,pol,"Dom upokojencev Center, Tabor-Poljane, enota Poljane",LJ,J,164,93,http://duc.si/poljane,
-81,tab,"Dom upokojencev Center, Tabor-Poljane, matična enota Tabor",LJ,J,321,183,http://duc.si/tabor,
-82,trb,"Dom upokojencev ""Franca Salamona"" Trbovlje",LJ,J,204,116,http://www.dufs.eu/,
-83,prb,"Dom upokojencev ""Franca Salamona"" Trbovlje, enota Prebold",LJ,J,155,88,http://www.dufs.eu/enota-prebold/,
-84,idr,"Dom upokojencev Idrija, d.o.o., enota Idrija, za starejše",LJ,Z,153,87,http://www.duidrija.si,
-85,ima,"Dom upokojencev Idrija, d.o.o., enota Marof, posebna enota",LJ,Z,148,84,http://www.duidrija.si,
-86,vrh,Dom upokojencev Vrhnika,LJ,J,244,139,http://www.du-vrhnika.si/,
-87,ppo,"Delovnovarstveni zavod Prizma, Ponikve",LJ,P,146,83,http://www.prizma-ponikve.si/,
-88,bor,"SVZ Vitadom, PE Dom za starejše Bor, Črni vrh nad Idrijo",LJ,Z,131,75,https://bor.vitadom.si/,
-89,sko,"SVZ Vitadom, PE Dom starejših Škofljica",LJ,Z,150,86,https://skofljica.vitadom.si/,
-90,dbp,"Zavod sv. Terezije, Videm",LJ,Z,70,40,http://www.domstarejsihvidem.si,
-91,orm,Center za starejše Ormož,MB,Z,153,87,http://www.cso-ormoz.si/,
-92,jpp,Dom dr. Jožeta Potrča Poljčane,MB,J,295,168,http://www.dom-poljcane.si,
-93,lnt,"Dom Lenart, d.o.o.",MB,Z,150,86,http://www.domlenart.si/,
-94,pgm,"Dom pod Gorco, Maribor",MB,Z,150,86,,https://www.facebook.com/Dom-pod-gorco-199602410101148
-95,jar,"Dom starejših Idila, Jarenina",MB,Z,150,86,http://www.domstarejsihidila.si/,
-96,tez,"Dom starejših Tezno, Maribor",MB,J,208,119,http://www.dso-tezno.si/aktualno/,
-97,dmm,"Dom ""Danice Vogrinec"" Maribor, matična enota Pobrežje",MB,J,609,347,,https://www.facebook.com/domdanicevogrinecmaribor/
-98,dmt,"Dom ""Danice Vogrinec"" Maribor, enota Tabor",MB,J,200,114,,https://www.facebook.com/domdanicevogrinecmaribor/
-99,pt,"Dom upokojencev Ptuj, matična enota",MB,J,368,210,http://www.dom-upokojencev.si/,
-100,ptj,"Dom upokojencev Ptuj, enota Juršinci",MB,J,56,32,http://www.dom-upokojencev.si/o-nas/nase-enote/jursinci/,
-101,ptk,"Dom upokojencev Ptuj, enota Kidričevo",MB,J,69,39,http://www.dom-upokojencev.si/o-nas/nase-enote/kidricevo/,
-102,ptm,"Dom upokojencev Ptuj, enota Muretinci",MB,J,134,76,http://www.dom-upokojencev.si/o-nas/nase-enote/muretinci/,
-103,sdm,Sončni dom Maribor,MB,Z,151,86,http://www.soncnidom.si/,
-104,zhr,"Zavod Hrastovec-Trate, matična enota",MB,P,614,350,,https://www.facebook.com/svzhrastovec/
-105,zhrh,"Zavod Hrastovec-Trate, enota Hodoš",MB,P,67,38,,https://www.facebook.com/svzhrastovec/
-106,vpo,"Zavod Karion, Dom Velika Polana",MS,Z,60,34,,https://www.facebook.com/DDHVP/
-107,belt,"Zavod sv. Cirila in Metoda, Beltinci",MS,Z,77,44,http://www.zcm.si,https://www.facebook.com/domjanka.skrabana
-108,kuz,Dom Kuzma d.o.o.,MS,Z,58,33,,https://www.facebook.com/dom.kuzma/
-109,luk,Dom Lukavci,MS,P,310,177,http://www.lukavci.si/,
-110,ldv,Dom starejših Lendava,MS,J,172,98,http://www.dslendava.si/,
-111,gra,Dom starejših občanov Gornja Radgona,MS,Z,120,68,http://www.dso-gr.si/,
-112,rad,"DOSOR, Dom starejših občanov Radenci",MS,Z,120,68,,https://www.facebook.com/DomStarejsihObcanovRadenciDOSOR/
-113,rak,"Dom starejših Rakičan, matična enota",MS,J,271,154,http://www.ds-rakican.com/,
-114,rakr,"Dom starejših Rakičan, enota Sv Elizabeta, Rogaševci",MS,J,35,20,http://www.ds-rakican.com/,
-115,rakm,"Dom starejših Rakičan, enota Murska Sobota",MS,J,66,38,http://www.ds-rakican.com/,
-116,crm,Dom starejših občanov Črnomelj,NM,J,196,112,http://www.domcrnomelj.si/,
-117,nm,Dom starejših občanov Novo mesto,NM,J,355,202,http://www.dso-novomesto.com/,
-118,tre,"Dom starejših občanov Trebnje, matična enota",NM,J,181,103,http://www.dso-trebnje.si/,
-119,tres,"Dom starejših občanov Trebnje, enota Šmarjeta",NM,J,36,21,http://www.dso-trebnje.si/,
-120,psst,"Penzion Sreča, Šmarješke Toplice",NM,Z,36,21,,
-121,ggr,"DEOS Ljubljana, PE Center starejših Gornji Grad",RA,Z,147,84,https://www.deos.si/gornji-grad,
-122,zto,"DEOS Ljubljana, PE Center starejših Zimzelen, Topolšica",RA,Z,150,86,https://www.deos.si/zimzelen-topolsica,
-123,rod,"Dom Hmelina, dom za starejše občane, Radlje ob Dravi",RA,Z,138,79,,https://www.facebook.com/Dom-Hmelina-dom-za-starej%C5%A1e-ob%C4%8Dane-Radlje-ob-Dravi-335875033204120/
-124,pre,"Dom starejših na Fari, Prevalje",RA,J,190,108,http://www.ds-nafari.si/,
-125,ses,"Zavod Karion, enota Šentjanž pri Dravogradu",RA,Z,20,11,,https://www.facebook.com/Dom-sv-Eme-Zavod-Karion-786033854775938/
-126,vel,Dom za varstvo odraslih Velenje,RA,J,190,108,,https://www.facebook.com/domvelenje40/
-127,slg,"Koroški dom starostnikov Dravograd, enota Slovenj Gradec",RA,J,92,52,http://www.kds-dravograd.si/Slovenj-Gradec.aspx,
-128,dra,"Koroški dom starostnikov Dravograd, matična enota Črneče",RA,J,271,154,http://www.kds-dravograd.si/Crnece.aspx,
+#,id,name,region,type,occupants,employees,tax-id,url,url-social
+1,spj,Dom upokojencev Šmarje pri Jelšah,CE,J,214,122,91348030,http://dusmarje.si/,https://www.facebook.com/dusmarje.si/
+2,met,Dom starejših občanov Metlika,NM,J,172,98,32589948,http://www.dso-metlika.si/,https://www.facebook.com/dsometlika/
+3,bok,"Dom starejših občanov Ljubljana Vič-Rudnik, matična enota Bokalci",LJ,J,378,215,36355992,https://www.dso-vic.si/,https://www.facebook.com/dsoljubljana/
+4,nak,"Dom starejših občanov Preddvor, enota Naklo",KR,J,46,26,96539275,http://www.dso-preddvor.si/splosno-o-enoti-naklo.html,https://www.facebook.com/Dom-starej%C5%A1ih-ob%C4%8Danov-Preddvor-273173100207567/
+5,hor,"DEOS Ljubljana, PE Center starejših občanov Horjul",LJ,Z,96,55,17727332,http://www.deos.si/horjul-center.html,
+6,kol,"Dom starejših občanov Ljubljana Vič-Rudnik, enota Kolezija",LJ,J,192,109,36355992,https://www.dso-vic.si/,https://www.facebook.com/dsoljubljana/
+7,sto,"Dom Lipa Celje, Dom Štore",CE,Z,124,71,28894677,http://www.domlipa.si/,https://www.facebook.com/domlipa.si/
+8,trn,"DEOS Ljubljana, PE Center starejših Trnovo",LJ,Z,150,86,17727332,https://www.deos.si/trnovo,
+9,ljt,Dom starejših Ljutomer,MS,J,155,88,30529999,http://www.dso-ljutomer.si/,https://www.facebook.com/dsoljutomer/
+10,tkp,Talita kum zavod Postojna,KP,Z,40,23,23057998,https://www.talitakum.si/,
+11,mbd,"IMP, d.d., medgeneracijski center Bistrica, Domžale",LJ,D,101,58,85364711,http://www.mgc-bistrica.si/,https://www.facebook.com/Mgc-Bistrica-307762100123632/
+12,trs,Italija,T,,,,,slovenski zaposleni v tujih domovih,
+13,aus,Avstrija,T,,,,,slovenski zaposleni v tujih domovih,
+14,dom,Dom upokojencev Domžale,LJ,J,170,97,91257107,http://www.dom-upokojencev-domzale.com/,https://www.facebook.com/domdomzale
+15,zal,"Dom Nine Pokorn Grmovje, Žalec",CE,P,246,140,87163403,http://www.dnpg.si/,
+16,osc,"Dom ob Savinji, Celje",CE,J,252,144,76851184,https://www.domobsavinji.si/,
+17,las,"THERMANA d.d., Dom starejših, Laško",CE,Z,150,86,64654745,,https://www.facebook.com/domstarejsihlasko/
+18,sen,Dom starejših Šentjur,CE,J,167,95,28235649,,https://www.facebook.com/domsentjur/
+19,sjc,Dom sv. Jožefa Celje,CE,Z,110,63,74106295,http://www.jozef.si/kategorija/varstvo-starejsih/,
+20,plz,Dom upokojencev Polzela,CE,J,224,128,78494214,http://www.dupolzela.si/,
+21,voj,"Contraco d.o.o., Špeson dom Vojnik",CE,Z,154,88,60807245,http://www.dom-vojnik.si/,
+22,slk,"""Lambrechtov dom"" Slovenske Konjice",CE,J,160,91,71668454,,https://www.facebook.com/lambrechtovdom/
+23,rgs,"Comett domovi Lj., Pegazov dom Rogaška Slatina",CE,Z,119,68,83737766,http://www.pegazov-dom.si/,
+24,vra,"Zavod sv. Rafaela, Vransko",CE,Z,60,34,85543004,http://www.nasdom-vransko.com/,
+25,ajd,Dom starejših občanov Ajdovščina,NG,J,151,86,89835611,http://www.dso-ajdovscina.si/,
+26,grd,"Dom upokojencev Gradišče, Nova Gorica",NG,J,146,83,15958957,https://www.domgradisce.si/,
+27,ng,"Dom upokojencev Nova Gorica, matična enota",NG,J,230,131,38590522,,https://www.facebook.com/domnovagorica/
+28,ngs,"Dom upokojencev Nova Gorica, enota Podsabotin, Brda",NG,J,94,54,38590522,,https://www.facebook.com/domnovagorica/
+29,pdb,"Dom upokojencev Podbrdo, matična enota",NG,J,129,74,90097114,http://www.dompodbrdo.si/,
+30,pdbt,"Dom upokojencev Podbrdo, enota Tolmin",NG,J,139,79,90097114,http://www.dompodbrdo.si/,
+31,pdpb,"Dom upokojencev Podbrdo, enota Petrovo Brdo, posebni",NG,J,95,54,90097114,http://www.dompodbrdo.si/,
+32,mtr,Medichotel Turzis Renče,NG,Z,32,18,41769597,http://www.medichotel.com/,
+33,zpv,"Zavod Pristan, Center starejših Pristan, Vipava",NG,Z,100,57,89564472,https://www.pristan.si/novice/,
+34,krs,Dom starejših občanov Krško,KK,J,219,125,81466757,http://www.dsokrsko.si/,
+35,bre,"Dom upokojencev in oskrbovancev Impoljca, enota Brežice",KK,J,116,66,48982822,http://www.impoljca.si/,
+36,imp,"Dom upokojencev in oskrbovancev Impoljca, matična enota",KK,J,295,168,48982822,http://www.impoljca.si/,
+37,sev,"Dom upokojencev in oskrbovancev Impoljca, enota Sevnica",KK,J,95,54,48982822,http://www.impoljca.si/,
+38,zdm,"Trubarjev dom upokojencev Loka pri Zidanem mostu, Sevni",KK,J,221,126,83235434,,https://www.facebook.com/Trubarjev-dom-upokojencev-Loka-pri-Zidanem-Mostu-764512863674997/
+39,luc,"Center za starejše občane Lucija, Piran",KP,Z,164,93,25293036,https://www.center-lucija.si/,
+40,sma,"Dom Danica, Gažon, Šmarje",KP,P,,,15054853,,https://www.facebook.com/DomDanicaGazon
+41,dut,"Socialnovarstveni zavod Dutovlje, matična enota",KP,P,138,79,70284253,http://www.domnakrasu.si/,
+42,duts,"Socialnovarstveni zavod Dutovlje, enota Sežana",KP,P,24,14,70284253,http://www.domnakrasu.si/,
+43,dutp,"Socialnovarstveni zavod Dutovlje, enota Postojna",KP,P,11,6,70284253,http://www.domnakrasu.si/,
+44,ilb,Dom starejših občanov Ilirska Bistrica,KP,J,231,132,65045238,http://www.dso-ilb.si/,
+45,izo,Dom upokojencev Izola,KP,J,215,123,18512097,http://dom-izola.si/,
+46,pos,Dom upokojencev Postojna,KP,J,160,91,62399101,https://www.du-po.si/,
+47,pkp,"Dom upokojencev Ptuj, enota Olmo, Koper",KP,J,150,86,83684921,http://www.dom-upokojencev.si/o-nas/nase-enote/koper/,
+48,sez,Dom upokojencev Sežana,KP,J,189,108,58155309,http://www.dus.si/,
+49,kp,Obalni dom upokojencev Koper,KP,J,203,116,57138664,http://www.odu-koper.si/,
+50,css,Center slepih in slabovidnih in starejših Škofja Loka,KR,J,220,125,30350611,http://www.css-sl.si/,
+51,rdl,Dom dr. Janka Benedika Radovljica,KR,J,225,128,79863892,http://www.dom-drjankabenedika.si/,
+52,trz,Dom Petra Uzarja Tržič,KR,J,180,103,71142649,http://www.dputrzic.si/,
+53,prd,"Dom starejših občanov Preddvor, matična enota",KR,J,187,107,96539275,http://www.dso-preddvor.si/,
+54,fbj,Dom upokojencev dr. Franceta Bergelja Jesenice,KR,J,196,112,81288379,http://www.dom-jesenice.si/,
+55,kr,Dom upokojencev Kranj,KR,J,211,120,31802435,http://www.du-kranj.si/,
+56,krg,"Comett domovi Lj., Dom Viharnik Kranjska Gora",KR,Z,128,73,83737766,https://www.dom-viharnik.si/,
+57,cert,SVZ Taber Cerklje,KR,Z,150,86,61966851,http://www.domtaber.si/,
+58,boh,"Dom sv. Martina, Srednja vas, Bohinj",KR,Z,60,34,47450959,http://www.zavodsvetegamartina.si/,
+59,cer,"DEOS Ljubljana, PE Center starejših Cerknica",LJ,Z,150,86,17727332,https://www.deos.si/cerknica,
+60,crn,"DEOS Ljubljana, PE Center starejših Črnuče",LJ,Z,150,86,17727332,https://www.deos.si/crnuce,
+61,mdv,"DEOS Ljubljana, PE Medvode",LJ,Z,186,106,17727332,http://www.deos.si/medvode-center.html,
+62,ngo,"DEOS Ljubljana, PE Center starejših Notranje Gorice",LJ,Z,150,86,17727332,https://www.deos.si/notranje-gorice,
+63,jkt,"Dom Janeza Krstnika, Trnovo, Ljubljana",LJ,Z,60,34,50771515,http://www.dom-janeza-krstnika.si/,
+64,dml,Dom Marije in Marte Logatec,LJ,Z,65,37,32011237,http://zupnija-dolnji-logatec.rkc.si/dom-marije-in-marte/,
+65,men,"Dom počitka Mengeš, matična enota",LJ,J,204,116,53602200,http://www.dpm.si/,
+66,ment,"Dom počitka Mengeš, enota Trzin",LJ,J,57,32,53602200,http://www.dpm.si/,
+67,hra,Dom starejših Hrastnik,LJ,J,131,75,42710588,http://www.dom-hrastnik.si/,
+68,log,Dom starejših Logatec,LJ,J,164,93,57359032,http://www.ds-logatec.si/,
+69,fuz,"Dom starejših občanov Fužine, Ljubljana",LJ,J,171,97,59514116,http://www.dso-fuzine.si/,
+70,gro,"Dom starejših občanov Grosuplje, matična enota",LJ,J,178,101,53318862,http://www.dso-grosuplje.si/,
+71,grol,"Dom starejših občanov Grosuplje, enota Loški potok",LJ,J,60,34,53318862,http://www.dso-grosuplje.si/,
+72,kam,Dom starejših občanov Kamnik,LJ,J,223,127,85433900,http://www.dso-kamnik.si/,
+73,koc,Dom starejših občanov Kočevje,LJ,J,163,93,44663633,https://www.dsokocevje.si/,
+74,sis,Dom starejših občanov Ljubljana - Šiška,LJ,J,230,131,55143172,,https://www.facebook.com/DSOLjubljanaSiska
+75,bez,Dom starejših občanov Ljubljana - Bežigrad,LJ,J,227,129,18613691,http://www.dsolj-bezigrad.si/,
+76,lmp,Dom starejših občanov Ljubljana Moste-Polje,LJ,J,212,121,61326232,,https://www.facebook.com/Dom-starej%C5%A1ih-ob%C4%8Danov-Ljubljana-Moste-Polje-629168113883662/
+77,izl,"Dom starejših občanov ""Polde Eberl-Jamski"" Izlake **",LJ,J,188,107,20806434,http://www.dso-izlake.si/,
+78,rib,"RIVE, Dom starejših občanov Ribnica",LJ,Z,134,76,61922021,http://www.dsoribnica.si/,
+79,sml,"Dom ""Tisje"" Šmartno pri Litiji",LJ,J,193,110,95839798,http://www.dom-tisje.com/,
+80,pol,"Dom upokojencev Center, Tabor-Poljane, enota Poljane",LJ,J,164,93,87980193,http://duc.si/poljane,
+81,tab,"Dom upokojencev Center, Tabor-Poljane, matična enota Tabor",LJ,J,321,183,87980193,http://duc.si/tabor,
+82,trb,"Dom upokojencev ""Franca Salamona"" Trbovlje",LJ,J,204,116,30739551,http://www.dufs.eu/,
+83,prb,"Dom upokojencev ""Franca Salamona"" Trbovlje, enota Prebold",LJ,J,155,88,30739551,http://www.dufs.eu/enota-prebold/,
+84,idr,"Dom upokojencev Idrija, d.o.o., enota Idrija, za starejše",LJ,Z,153,87,85384615,http://www.duidrija.si,
+85,ima,"Dom upokojencev Idrija, d.o.o., enota Marof, posebna enota",LJ,Z,148,84,85384615,http://www.duidrija.si,
+86,vrh,Dom upokojencev Vrhnika,LJ,J,244,139,81248504,http://www.du-vrhnika.si/,
+87,ppo,"Delovnovarstveni zavod Prizma, Ponikve",LJ,P,146,83,23017236,http://www.prizma-ponikve.si/,
+88,bor,"SVZ Vitadom, PE Dom za starejše Bor, Črni vrh nad Idrijo",LJ,Z,131,75,31897061,https://bor.vitadom.si/,
+89,sko,"SVZ Vitadom, PE Dom starejših Škofljica",LJ,Z,150,86,31897061,https://skofljica.vitadom.si/,
+90,dbp,"Zavod sv. Terezije, Videm",LJ,Z,70,40,12312835,http://www.domstarejsihvidem.si,
+91,orm,Center za starejše Ormož,MB,Z,153,87,30784042,http://www.cso-ormoz.si/,
+92,jpp,Dom dr. Jožeta Potrča Poljčane,MB,J,295,168,52804186,http://www.dom-poljcane.si,
+93,lnt,"Dom Lenart, d.o.o.",MB,Z,150,86,58983627,http://www.domlenart.si/,
+94,pgm,"Dom pod Gorco, Maribor",MB,Z,150,86,20504756,,https://www.facebook.com/Dom-pod-gorco-199602410101148
+95,jar,"Dom starejših Idila, Jarenina",MB,Z,150,86,55579647,http://www.domstarejsihidila.si/,
+96,tez,"Dom starejših Tezno, Maribor",MB,J,208,119,27791050,http://www.dso-tezno.si/aktualno/,
+97,dmm,"Dom ""Danice Vogrinec"" Maribor, matična enota Pobrežje",MB,J,609,347,53650719,,https://www.facebook.com/domdanicevogrinecmaribor/
+98,dmt,"Dom ""Danice Vogrinec"" Maribor, enota Tabor",MB,J,200,114,53650719,,https://www.facebook.com/domdanicevogrinecmaribor/
+99,pt,"Dom upokojencev Ptuj, matična enota",MB,J,368,210,83684921,http://www.dom-upokojencev.si/,
+100,ptj,"Dom upokojencev Ptuj, enota Juršinci",MB,J,56,32,83684921,http://www.dom-upokojencev.si/o-nas/nase-enote/jursinci/,
+101,ptk,"Dom upokojencev Ptuj, enota Kidričevo",MB,J,69,39,83684921,http://www.dom-upokojencev.si/o-nas/nase-enote/kidricevo/,
+102,ptm,"Dom upokojencev Ptuj, enota Muretinci",MB,J,134,76,83684921,http://www.dom-upokojencev.si/o-nas/nase-enote/muretinci/,
+103,sdm,Sončni dom Maribor,MB,Z,151,86,61005100,http://www.soncnidom.si/,
+104,zhr,"Zavod Hrastovec-Trate, matična enota",MB,P,614,350,10220704,,https://www.facebook.com/svzhrastovec/
+105,zhrh,"Zavod Hrastovec-Trate, enota Hodoš",MB,P,67,38,10220704,,https://www.facebook.com/svzhrastovec/
+106,vpo,"Zavod Karion, Dom Velika Polana",MS,Z,60,34,19856806,,https://www.facebook.com/DDHVP/
+107,belt,"Zavod sv. Cirila in Metoda, Beltinci",MS,Z,77,44,15044572,http://www.zcm.si,https://www.facebook.com/domjanka.skrabana
+108,kuz,Dom Kuzma d.o.o.,MS,Z,58,33,12222607,,https://www.facebook.com/dom.kuzma/
+109,luk,Dom Lukavci,MS,P,310,177,60615346,http://www.lukavci.si/,
+110,ldv,Dom starejših Lendava,MS,J,172,98,61758884,http://www.dslendava.si/,
+111,gra,Dom starejših občanov Gornja Radgona,MS,Z,120,68,34295160,http://www.dso-gr.si/,
+112,rad,"DOSOR, Dom starejših občanov Radenci",MS,Z,120,68,60031816,,https://www.facebook.com/DomStarejsihObcanovRadenciDOSOR/
+113,rak,"Dom starejših Rakičan, matična enota",MS,J,271,154,21658196,http://www.ds-rakican.com/,
+114,rakr,"Dom starejših Rakičan, enota Sv Elizabeta, Rogaševci",MS,J,35,20,21658196,http://www.ds-rakican.com/,
+115,rakm,"Dom starejših Rakičan, enota Murska Sobota",MS,J,66,38,21658196,http://www.ds-rakican.com/,
+116,crm,Dom starejših občanov Črnomelj,NM,J,196,112,54512336,http://www.domcrnomelj.si/,
+117,nm,Dom starejših občanov Novo mesto,NM,J,355,202,15354997,http://www.dso-novomesto.com/,
+118,tre,"Dom starejših občanov Trebnje, matična enota",NM,J,181,103,64948315,http://www.dso-trebnje.si/,
+119,tres,"Dom starejših občanov Trebnje, enota Šmarjeta",NM,J,36,21,64948315,http://www.dso-trebnje.si/,
+120,psst,"Penzion Sreča, Šmarješke Toplice",NM,Z,36,21,75851512,,
+121,ggr,"DEOS Ljubljana, PE Center starejših Gornji Grad",RA,Z,147,84,17727332,https://www.deos.si/gornji-grad,
+122,zto,"DEOS Ljubljana, PE Center starejših Zimzelen, Topolšica",RA,Z,150,86,17727332,https://www.deos.si/zimzelen-topolsica,
+123,rod,"Dom Hmelina, dom za starejše občane, Radlje ob Dravi",RA,Z,138,79,79214924,,https://www.facebook.com/Dom-Hmelina-dom-za-starej%C5%A1e-ob%C4%8Dane-Radlje-ob-Dravi-335875033204120/
+124,pre,"Dom starejših na Fari, Prevalje",RA,J,190,108,79096298,http://www.ds-nafari.si/,
+125,ses,"Zavod Karion, enota Šentjanž pri Dravogradu",RA,Z,20,11,19856806,,https://www.facebook.com/Dom-sv-Eme-Zavod-Karion-786033854775938/
+126,vel,Dom za varstvo odraslih Velenje,RA,J,190,108,66702895,,https://www.facebook.com/domvelenje40/
+127,slg,"Koroški dom starostnikov Dravograd, enota Slovenj Gradec",RA,J,92,52,66420385,http://www.kds-dravograd.si/Slovenj-Gradec.aspx,
+128,dra,"Koroški dom starostnikov Dravograd, matična enota Črneče",RA,J,271,154,66420385,http://www.kds-dravograd.si/Crnece.aspx,
