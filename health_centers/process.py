@@ -64,7 +64,8 @@ for sheet in sheets:
             date = row[2].value.date()
         entities.append(dataclass.Entity(
             name=row[1].value,
-            date=date,
+            # the date we get from xslx means date when data was gathered, the data itself is for the day before that
+            date=date - datetime.timedelta(days=1),
             numbers=dataclass.Numbers(
                 examinations___medical_emergency=row[3].value,  # Št. pregledov NMP
                 examinations___suspected_covid=row[4].value,  # Št. pregledov  suma na COVID
