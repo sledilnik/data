@@ -9,7 +9,7 @@ def validate_number_type(number):
     if isinstance(number, (int, float)):
         return int(number)
     if isinstance(number, str):
-        if number.lower() in ['np', 'np*', 'ni podatka']:  # NP = Ni Podatka
+        if number.lower() in ['n', 'np', 'np*', 'ni podatka']:  # NP = Ni Podatka
             return None
         if number.lower() == 'o':   # typo
             return 0
