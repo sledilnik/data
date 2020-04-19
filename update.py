@@ -15,6 +15,7 @@ RANGE_STATS = "Podatki!A3:ZZ"
 RAGNE_PATIENTS = "Pacienti!A3:ZZ"
 RANGE_REGIONS = "Kraji!A1:ZZ"
 RANGE_HOSPITALS = "Zdr.sistem!A3:ZZ"
+RAGNE_ICU = "ICU!A3:ZZ"
 RANGE_SAFETY_MEASURES = "Ukrepi!A2:ZZ"
 RANGE_DSO = "DSO!A3:ZZ"
 RANGE_DECEASED_REGIONS = "Umrli:Kraji!A1:ZZ"
@@ -58,6 +59,7 @@ if __name__ == "__main__":
     import_sheet(update_time, RANGE_STATS, "csv/stats.csv")
     import_sheet(update_time, RAGNE_PATIENTS, "csv/patients.csv")
     import_sheet(update_time, RANGE_HOSPITALS, "csv/hospitals.csv")
+    import_sheet(update_time, RANGE_ICU, "csv/icu.csv")
     import_sheet(update_time, RANGE_REGIONS, "csv/regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
     import_sheet(update_time, RANGE_SAFETY_MEASURES, "csv/safety_measures.csv")
     import_sheet(update_time, RANGE_DSO, "csv/retirement_homes.csv")
