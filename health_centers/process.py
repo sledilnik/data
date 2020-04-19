@@ -1,11 +1,15 @@
 #!/usr/bin/env python
-import argparse
 import collections
 import csv
 import datetime
 import locale
+import logging
 import os
 import re
+import requests
+import tempfile
+import time
+import zipfile
 
 import openpyxl
 
@@ -15,27 +19,33 @@ import mappings
 
 # in order to sort č, š, ž right (also use key=locale.strxfrm when sorting by string)
 locale.setlocale(locale.LC_ALL, 'sl_SI.utf8')
+logging.basicConfig(level=logging.INFO)
 
-def check_directory(value):
-    dir_abs_path = os.path.abspath(value)
-    if not os.path.exists(dir_abs_path):
-        raise argparse.ArgumentTypeError(f'Directory {dir_abs_path} does not exist')
-    return dir_abs_path
+archive_pass = os.getenv('ZD_ZIP_PASS')
+assert archive_pass, 'Environmental variable ZD_ZIP_PASS must be set.'
 
-parser = argparse.ArgumentParser(description='Procesiraj stanje zalog v ZD')
-parser.add_argument('-d', '--dir', help='Direktorij za procesiranje', required=True, type=check_directory)
-parser.add_argument('-f', '--file', help='Output file', required=True)
+with tempfile.TemporaryDirectory() as tmp_dir:
+    zip_path = os.path.join(tmp_dir, 'zd.zip')
+    url = f'https://app.koofr.net/content/links/b232782b-9893-4278-b54c-faf461fce4bd/files/get/ZD.zip?path=%2F&password={archive_pass}'
 
-args = parser.parse_args()
-dir_abs_path = args.dir
-list_dir = [os.path.join(dir_abs_path, x) for x in os.listdir(dir_abs_path)]
-files = [x for x in list_dir if os.path.isfile(x)]
+    logging.info('Downloading archive...')
+    resp = requests.get(url, headers={'User-Agent': 'curl'})
+    with open(zip_path, 'wb') as f:
+        f.write(resp.content)
 
-# dir contents validation
-assert not [x for x in list_dir if os.path.isdir(x)], f'Directory {dir_abs_path} should contain only files, no folders'
-assert all(f.endswith('.xlsx') for f in files), 'All files should end with .xlsx'
+    logging.info('Extracting archive...')
+    file = zipfile.ZipFile(zip_path)
+    file.extractall(path=tmp_dir)
+    os.remove(zip_path)
 
-sheets = [openpyxl.load_workbook(f).active for f in files]
+    logging.info('Validating archive and fetching sheets...')
+    list_dir = [os.path.join(tmp_dir, x) for x in os.listdir(tmp_dir)]
+    files = [x for x in list_dir if os.path.isfile(x)]
+    assert not [x for x in list_dir if os.path.isdir(x)], f'Archive should contain only files, no folders'
+    assert all(f.endswith('.xlsx') for f in files), 'All files should end with .xlsx'
+    sheets = [openpyxl.load_workbook(f).active for f in files]
+
+logging.info('Validating columns...')
 # file content validation
 for sheet in sheets:
     expected = [  # header row 1
@@ -47,7 +57,7 @@ for sheet in sheets:
     for expected_col, actual_col in zip(expected, actual):
         assert re.match(expected_col, actual_col), (sheet, expected_col, actual_col)
 
-# process
+logging.info('Reading xlsx files and building entity collection...')
 entities = []
 for sheet in sheets:
     for row in list(sheet.iter_rows())[2:]:  # skip header rows
@@ -85,8 +95,14 @@ for entity in entities:
     for key in dataclass.Numbers.__annotations__.keys():
         aggregates[entity.date].__dict__[key] += entity.numbers.__dict__[key] or 0  # handle Null
 
+logging.info('Writing CSV...')
+repo_root_health_centers = os.path.dirname(os.path.abspath(__file__))
+assert repo_root_health_centers.endswith('/data/health_centers')
+repo_root = '/'.join(repo_root_health_centers.split('/')[:-1])
+assert repo_root.endswith('/data')
+health_centers_csv = os.path.join(repo_root, 'csv/health_centers.csv')
 
-with open(args.file, 'w', newline='') as csvfile:
+with open(health_centers_csv, 'w', newline='') as csvfile:
     writer = csv.writer(csvfile, dialect='excel')
 
     def get_formatted_numbers_fields():
@@ -118,3 +134,7 @@ with open(args.file, 'w', newline='') as csvfile:
             for field in dataclass.Numbers.__annotations__.keys():
                 columns.append(getattr(entity.numbers, field))
         writer.writerow(columns)
+
+logging.info('Writing CSV timestamp...')
+with open(f'{health_centers_csv}.timestamp', 'w') as timestamp_file:
+    timestamp_file.write(str(int(time.time())))

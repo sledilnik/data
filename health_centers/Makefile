@@ -9,4 +9,4 @@ setup:
 
 .PHONY: process
 process:
-	./process.py -d porocilo_zd/ -f output.csv
+	./process.py
