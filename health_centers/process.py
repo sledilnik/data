@@ -137,4 +137,5 @@ with open(health_centers_csv, 'w', newline='') as csvfile:
 
 logging.info('Writing CSV timestamp...')
 with open(f'{health_centers_csv}.timestamp', 'w') as timestamp_file:
-    timestamp_file.write(str(int(time.time())))
+    timestamp = int(time.time())
+    timestamp_file.write(f'{timestamp}\n')
