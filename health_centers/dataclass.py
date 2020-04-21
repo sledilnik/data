@@ -1,7 +1,6 @@
 import dataclasses
 import datetime
 
-
 import mappings
 
 
@@ -42,6 +41,8 @@ class Entity:
     name: str
     name_key: str = dataclasses.field(init=False)
     date: datetime.date
+    sheet: str
+    file: str
     numbers: Numbers
 
     def __post_init__(self):

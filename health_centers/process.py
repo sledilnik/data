@@ -2,7 +2,6 @@
 import collections
 import csv
 import datetime
-import locale
 import logging
 import os
 import re
@@ -17,8 +16,6 @@ import dataclass
 import mappings
 
 
-# in order to sort č, š, ž right (also use key=locale.strxfrm when sorting by string)
-locale.setlocale(locale.LC_ALL, 'sl_SI.utf8')
 logging.basicConfig(level=logging.INFO)
 
 archive_pass = os.getenv('ZD_ZIP_PASS')
@@ -43,7 +40,11 @@ with tempfile.TemporaryDirectory() as tmp_dir:
     files = [x for x in list_dir if os.path.isfile(x)]
     assert not [x for x in list_dir if os.path.isdir(x)], f'Archive should contain only files, no folders'
     assert all(f.endswith('.xlsx') for f in files), 'All files should end with .xlsx'
-    sheets = [openpyxl.load_workbook(f).active for f in files]
+    sheets = []
+    for f in files:
+        sheet = openpyxl.load_workbook(f).active
+        sheet.file = f
+        sheets.append(sheet)
 
 logging.info('Validating columns...')
 # file content validation
@@ -76,6 +77,8 @@ for sheet in sheets:
             name=row[1].value,
             # the date we get from xslx means date when data was gathered, the data itself is for the day before that
             date=date - datetime.timedelta(days=1),
+            sheet=str(sheet),
+            file=sheet.file,
             numbers=dataclass.Numbers(
                 examinations___medical_emergency=row[3].value,  # Št. pregledov NMP
                 examinations___suspected_covid=row[4].value,  # Št. pregledov  suma na COVID
@@ -86,9 +89,6 @@ for sheet in sheets:
                 sent_to___self_isolation=row[9].value  # Št. napotitev v samoosamitev
             )
         ))
-# sort so that we'll only iterate once when writing to csv
-entities.sort(key=lambda entity: locale.strxfrm(entity.name_key), reverse=True)
-entities.sort(key=lambda entity: entity.date, reverse=True)
 
 aggregates = collections.defaultdict(lambda: dataclass.Numbers(0, 0, 0, 0, 0, 0, 0))
 for entity in entities:
@@ -101,6 +101,18 @@ assert repo_root_health_centers.endswith('/data/health_centers')
 repo_root = '/'.join(repo_root_health_centers.split('/')[:-1])
 assert repo_root.endswith('/data')
 health_centers_csv = os.path.join(repo_root, 'csv/health_centers.csv')
+
+def get_entity(name_key: str, date: datetime):
+    found_entities = []
+    for entity in entities:
+        if entity.name_key == name_key and entity.date == date:
+            found_entities.append(entity)
+    assert len(found_entities), (name_key, date)  # no entities found
+    if len(found_entities) > 1:
+        for found_entity in found_entities:
+            logging.error(found_entity)
+        raise Exception(f'Too many entities found: {len(found_entities)}, {name_key}, {date}')
+    return found_entities[0]
 
 with open(health_centers_csv, 'w', newline='') as csvfile:
     writer = csv.writer(csvfile, dialect='excel')
@@ -129,8 +141,7 @@ with open(health_centers_csv, 'w', newline='') as csvfile:
             columns.append(aggregates[date].__dict__[key])
         # scope: health centers
         for name in mappings.unique_short_names:
-            entity = entities.pop()
-            assert entity.name_key == name and entity.date == date
+            entity = get_entity(name_key=name, date=date)
             for field in dataclass.Numbers.__annotations__.keys():
                 columns.append(getattr(entity.numbers, field))
         writer.writerow(columns)
