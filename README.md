@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/slo-covid-19/data.svg?branch=master)](https://travis-ci.org/slo-covid-19/data)
+[![Build Status](https://travis-ci.com/sledilnik/data.svg?branch=master)](https://travis-ci.com/sledilnik/data)
 
 # Slovenia covid-19 Data Collection
 
