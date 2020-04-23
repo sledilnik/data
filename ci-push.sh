@@ -1,6 +1,6 @@
 #/bin/sh
 
-REPO="github.com/slo-covid-19/data"
+REPO="github.com/sledilnik/data"
 
 # copy new data into repo
 
