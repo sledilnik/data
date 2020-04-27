@@ -1,0 +1,155 @@
+risk_factor,sex,age_group,prevalence
+Astma (vključno z alergijsko astmo),male,15-24,4.1
+Astma (vključno z alergijsko astmo),male,25-34,3.8
+Astma (vključno z alergijsko astmo),male,35-44,2.9
+Astma (vključno z alergijsko astmo),male,45-54,5.3
+Astma (vključno z alergijsko astmo),male,55-64,3.6
+Astma (vključno z alergijsko astmo),male,65-74,5.4
+Astma (vključno z alergijsko astmo),male,75+,11.6
+Astma (vključno z alergijsko astmo),female,15-24,6.2
+Astma (vključno z alergijsko astmo),female,25-34,2.1
+Astma (vključno z alergijsko astmo),female,35-44,6.5
+Astma (vključno z alergijsko astmo),female,45-54,5.2
+Astma (vključno z alergijsko astmo),female,55-64,5.1
+Astma (vključno z alergijsko astmo),female,65-74,6.4
+Astma (vključno z alergijsko astmo),female,75+,7.2
+"Kronični bronhitis, kronična obstruktivna pljučna bolezen, emfizem",male,15-24,1.3
+"Kronični bronhitis, kronična obstruktivna pljučna bolezen, emfizem",male,25-34,2.4
+"Kronični bronhitis, kronična obstruktivna pljučna bolezen, emfizem",male,35-44,2.1
+"Kronični bronhitis, kronična obstruktivna pljučna bolezen, emfizem",male,45-54,2.3
+"Kronični bronhitis, kronična obstruktivna pljučna bolezen, emfizem",male,55-64,5.2
+"Kronični bronhitis, kronična obstruktivna pljučna bolezen, emfizem",male,65-74,9.8
+"Kronični bronhitis, kronična obstruktivna pljučna bolezen, emfizem",male,75+,10.2
+"Kronični bronhitis, kronična obstruktivna pljučna bolezen, emfizem",female,15-24,1.9
+"Kronični bronhitis, kronična obstruktivna pljučna bolezen, emfizem",female,25-34,2.1
+"Kronični bronhitis, kronična obstruktivna pljučna bolezen, emfizem",female,35-44,2.4
+"Kronični bronhitis, kronična obstruktivna pljučna bolezen, emfizem",female,45-54,4.7
+"Kronični bronhitis, kronična obstruktivna pljučna bolezen, emfizem",female,55-64,6.2
+"Kronični bronhitis, kronična obstruktivna pljučna bolezen, emfizem",female,65-74,4.5
+"Kronični bronhitis, kronična obstruktivna pljučna bolezen, emfizem",female,75+,8.0
+Srčni infarkt (miokardni infarkt) ali kronične posledice srčnega infarkta,male,15-24,-
+Srčni infarkt (miokardni infarkt) ali kronične posledice srčnega infarkta,male,25-34,-
+Srčni infarkt (miokardni infarkt) ali kronične posledice srčnega infarkta,male,35-44,0.2
+Srčni infarkt (miokardni infarkt) ali kronične posledice srčnega infarkta,male,45-54,0.6
+Srčni infarkt (miokardni infarkt) ali kronične posledice srčnega infarkta,male,55-64,3.8
+Srčni infarkt (miokardni infarkt) ali kronične posledice srčnega infarkta,male,65-74,2.5
+Srčni infarkt (miokardni infarkt) ali kronične posledice srčnega infarkta,male,75+,7.8
+Srčni infarkt (miokardni infarkt) ali kronične posledice srčnega infarkta,female,15-24,0.1
+Srčni infarkt (miokardni infarkt) ali kronične posledice srčnega infarkta,female,25-34,-
+Srčni infarkt (miokardni infarkt) ali kronične posledice srčnega infarkta,female,35-44,-
+Srčni infarkt (miokardni infarkt) ali kronične posledice srčnega infarkta,female,45-54,1.2
+Srčni infarkt (miokardni infarkt) ali kronične posledice srčnega infarkta,female,55-64,1.1
+Srčni infarkt (miokardni infarkt) ali kronične posledice srčnega infarkta,female,65-74,1.1
+Srčni infarkt (miokardni infarkt) ali kronične posledice srčnega infarkta,female,75+,4.9
+Koronarna srčna bolezen ali angina pektoris,male,15-24,0.8
+Koronarna srčna bolezen ali angina pektoris,male,25-34,0.2
+Koronarna srčna bolezen ali angina pektoris,male,35-44,0.3
+Koronarna srčna bolezen ali angina pektoris,male,45-54,2.3
+Koronarna srčna bolezen ali angina pektoris,male,55-64,5.5
+Koronarna srčna bolezen ali angina pektoris,male,65-74,9.4
+Koronarna srčna bolezen ali angina pektoris,male,75+,9.4
+Koronarna srčna bolezen ali angina pektoris,female,15-24,0.5
+Koronarna srčna bolezen ali angina pektoris,female,25-34,0.4
+Koronarna srčna bolezen ali angina pektoris,female,35-44,0.3
+Koronarna srčna bolezen ali angina pektoris,female,45-54,1.4
+Koronarna srčna bolezen ali angina pektoris,female,55-64,3.0
+Koronarna srčna bolezen ali angina pektoris,female,65-74,5.9
+Koronarna srčna bolezen ali angina pektoris,female,75+,14.1
+Zvišan krvni tlak (hipertenzija),male,15-24,5.2
+Zvišan krvni tlak (hipertenzija),male,25-34,4.2
+Zvišan krvni tlak (hipertenzija),male,35-44,13.0
+Zvišan krvni tlak (hipertenzija),male,45-54,25.5
+Zvišan krvni tlak (hipertenzija),male,55-64,42.1
+Zvišan krvni tlak (hipertenzija),male,65-74,52.9
+Zvišan krvni tlak (hipertenzija),male,75+,51.4
+Zvišan krvni tlak (hipertenzija),female,15-24,3.8
+Zvišan krvni tlak (hipertenzija),female,25-34,3.0
+Zvišan krvni tlak (hipertenzija),female,35-44,7.6
+Zvišan krvni tlak (hipertenzija),female,45-54,19.3
+Zvišan krvni tlak (hipertenzija),female,55-64,36.3
+Zvišan krvni tlak (hipertenzija),female,65-74,48.7
+Zvišan krvni tlak (hipertenzija),female,75+,64.4
+"Možganska kap (možganska krvavitev, možganska tromboza) ali kronične posledice možganske kapi",male,15-24,-
+"Možganska kap (možganska krvavitev, možganska tromboza) ali kronične posledice možganske kapi",male,25-34,-
+"Možganska kap (možganska krvavitev, možganska tromboza) ali kronične posledice možganske kapi",male,35-44,-
+"Možganska kap (možganska krvavitev, možganska tromboza) ali kronične posledice možganske kapi",male,45-54,1.5
+"Možganska kap (možganska krvavitev, možganska tromboza) ali kronične posledice možganske kapi",male,55-64,2.8
+"Možganska kap (možganska krvavitev, možganska tromboza) ali kronične posledice možganske kapi",male,65-74,4.8
+"Možganska kap (možganska krvavitev, možganska tromboza) ali kronične posledice možganske kapi",male,75+,10.2
+"Možganska kap (možganska krvavitev, možganska tromboza) ali kronične posledice možganske kapi",female,15-24,0.1
+"Možganska kap (možganska krvavitev, možganska tromboza) ali kronične posledice možganske kapi",female,25-34,-
+"Možganska kap (možganska krvavitev, možganska tromboza) ali kronične posledice možganske kapi",female,35-44,-
+"Možganska kap (možganska krvavitev, možganska tromboza) ali kronične posledice možganske kapi",female,45-54,0.5
+"Možganska kap (možganska krvavitev, možganska tromboza) ali kronične posledice možganske kapi",female,55-64,1.1
+"Možganska kap (možganska krvavitev, možganska tromboza) ali kronične posledice možganske kapi",female,65-74,1.4
+"Možganska kap (možganska krvavitev, možganska tromboza) ali kronične posledice možganske kapi",female,75+,5.2
+Sladkorna bolezen,male,15-24,1.0
+Sladkorna bolezen,male,25-34,0.9
+Sladkorna bolezen,male,35-44,1.3
+Sladkorna bolezen,male,45-54,5.8
+Sladkorna bolezen,male,55-64,14.5
+Sladkorna bolezen,male,65-74,18.6
+Sladkorna bolezen,male,75+,21.4
+Sladkorna bolezen,female,15-24,0.8
+Sladkorna bolezen,female,25-34,2.0
+Sladkorna bolezen,female,35-44,1.1
+Sladkorna bolezen,female,45-54,3.2
+Sladkorna bolezen,female,55-64,8.5
+Sladkorna bolezen,female,65-74,14.8
+Sladkorna bolezen,female,75+,16.4
+Alergija ali druge alergije (alergijska astma je izključena),male,15-24,17.1
+Alergija ali druge alergije (alergijska astma je izključena),male,25-34,13.8
+Alergija ali druge alergije (alergijska astma je izključena),male,35-44,15.4
+Alergija ali druge alergije (alergijska astma je izključena),male,45-54,14.5
+Alergija ali druge alergije (alergijska astma je izključena),male,55-64,10.6
+Alergija ali druge alergije (alergijska astma je izključena),male,65-74,9.0
+Alergija ali druge alergije (alergijska astma je izključena),male,75+,10.1
+Alergija ali druge alergije (alergijska astma je izključena),female,15-24,28.2
+Alergija ali druge alergije (alergijska astma je izključena),female,25-34,23.9
+Alergija ali druge alergije (alergijska astma je izključena),female,35-44,20.3
+Alergija ali druge alergije (alergijska astma je izključena),female,45-54,19.7
+Alergija ali druge alergije (alergijska astma je izključena),female,55-64,19.0
+Alergija ali druge alergije (alergijska astma je izključena),female,65-74,14.6
+Alergija ali druge alergije (alergijska astma je izključena),female,75+,12.7
+Jetrna ciroza,male,15-24,0.3
+Jetrna ciroza,male,25-34,0.2
+Jetrna ciroza,male,35-44,0.4
+Jetrna ciroza,male,45-54,2.2
+Jetrna ciroza,male,55-64,1.1
+Jetrna ciroza,male,65-74,1.6
+Jetrna ciroza,male,75+,0.8
+Jetrna ciroza,female,15-24,-
+Jetrna ciroza,female,25-34,-
+Jetrna ciroza,female,35-44,0.2
+Jetrna ciroza,female,45-54,0.2
+Jetrna ciroza,female,55-64,-
+Jetrna ciroza,female,65-74,0.6
+Jetrna ciroza,female,75+,0.2
+Težave z ledvicami,male,15-24,0.8
+Težave z ledvicami,male,25-34,2.3
+Težave z ledvicami,male,35-44,3.2
+Težave z ledvicami,male,45-54,4.2
+Težave z ledvicami,male,55-64,4.4
+Težave z ledvicami,male,65-74,6.2
+Težave z ledvicami,male,75+,9.3
+Težave z ledvicami,female,15-24,5.6
+Težave z ledvicami,female,25-34,3.1
+Težave z ledvicami,female,35-44,3.8
+Težave z ledvicami,female,45-54,6.4
+Težave z ledvicami,female,55-64,7.5
+Težave z ledvicami,female,65-74,5.6
+Težave z ledvicami,female,75+,12.1
+"Rak (maligni tumor, vključena tudi levkemija in limfom)",male,15-24,-
+"Rak (maligni tumor, vključena tudi levkemija in limfom)",male,25-34,0.9
+"Rak (maligni tumor, vključena tudi levkemija in limfom)",male,35-44,0.5
+"Rak (maligni tumor, vključena tudi levkemija in limfom)",male,45-54,0.7
+"Rak (maligni tumor, vključena tudi levkemija in limfom)",male,55-64,2.2
+"Rak (maligni tumor, vključena tudi levkemija in limfom)",male,65-74,6.0
+"Rak (maligni tumor, vključena tudi levkemija in limfom)",male,75+,7.9
+"Rak (maligni tumor, vključena tudi levkemija in limfom)",female,15-24,0.7
+"Rak (maligni tumor, vključena tudi levkemija in limfom)",female,25-34,0.4
+"Rak (maligni tumor, vključena tudi levkemija in limfom)",female,35-44,0.8
+"Rak (maligni tumor, vključena tudi levkemija in limfom)",female,45-54,2.9
+"Rak (maligni tumor, vključena tudi levkemija in limfom)",female,55-64,4.0
+"Rak (maligni tumor, vključena tudi levkemija in limfom)",female,65-74,5.0
+"Rak (maligni tumor, vključena tudi levkemija in limfom)",female,75+,4.2
