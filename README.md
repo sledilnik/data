@@ -21,14 +21,14 @@ Trigger rebuild at [Travis CI](https://travis-ci.com/github/sledilnik/data)
 - stats.csv: rename `cases.active.todate` to `cases.active` [issue #11](https://github.com/sledilnik/data/issues/11)
 
 ### 2020-04-26
-- stats.csv: added `tests.regular.*` and `tests.ns-apr20.*` to separate tests for [National Survey April 2020](https://covid19.biolab.si/)
-- stats.csv: changed `tests.positive.*` to report actual tests (slightly higher than `cases.confirmed.*`)
+- **stats.csv**: added `tests.regular.*` and `tests.ns-apr20.*` to separate tests for [National Survey April 2020](https://covid19.biolab.si/)
+- **stats.csv**: changed `tests.positive.*` to report positive actual tests (slightly higher than `cases.confirmed.*`)
 
 ### 2020-04-25
-- dict-municipality.csv: fixed region for Gornja Radgona (was `lj` - is `ms` now)
+- **dict-municipality.csv**: fixed region for Gornja Radgona (was `lj` - is `ms` now)
 
 ### 2020-04-20
-- dict-age-groups.csv: age groups with population (total, male, female)
+- **dict-age-groups.csv**: age groups with population (total, male, female)
 
 ### 2020-04-18
-- dict-retirement_homes.csv: added tax-id for each retirement home
+- **dict-retirement_homes.csv**: added tax-id for each retirement home
