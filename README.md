@@ -18,7 +18,7 @@ Trigger rebuild at [Travis CI](https://travis-ci.com/github/sledilnik/data)
 ## Changelog
 
 ### 2020-04-28
-- stats.csv: rename `cases.active.todate` to `cases.active` [issue #11](https://github.com/sledilnik/data/issues/11)
+- **stats.csv**: rename `cases.active.todate` to `cases.active` [issue #11](https://github.com/sledilnik/data/issues/11)
 
 ### 2020-04-26
 - **stats.csv**: added `tests.regular.*` and `tests.ns-apr20.*` to separate tests for [National Survey April 2020](https://covid19.biolab.si/)
