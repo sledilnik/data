@@ -3,6 +3,7 @@ import os
 import os.path
 import hashlib
 import time
+import pandas as pd
 
 import sheet2csv
 
@@ -54,6 +55,20 @@ def import_sheet(update_time, range, filename, **kwargs):
         with open("{}.timestamp".format(filename), "w") as f:
             f.write(str(update_time))
 
+def computeMunicipalities(update_time):
+    filename = 'csv/municipality.csv'
+    old_hash = sha1sum(filename)
+    dfRegions = pd.read_csv('csv/regions.csv', index_col='date') 
+    dfDeceased = pd.read_csv('csv/deceased-regions.csv', index_col='date')
+    dfRegions.columns = [str(col) + '.tests.positive.todate' for col in dfRegions.columns]
+    dfDeceased.columns = [str(col) + '.deceased.todate' for col in dfDeceased.columns]
+    merged = pd.concat([dfRegions, dfDeceased], axis=1).sort_index(axis=1)
+    merged.to_csv(filename)
+    new_hash = sha1sum(filename)
+    if old_hash != new_hash:
+        with open("{}.timestamp".format(filename), "w") as f:
+            f.write(str(update_time))
+
 if __name__ == "__main__":
     update_time = int(time.time())
     import_sheet(update_time, RANGE_STATS, "csv/stats.csv")
@@ -64,4 +79,4 @@ if __name__ == "__main__":
     import_sheet(update_time, RANGE_SAFETY_MEASURES, "csv/safety_measures.csv")
     import_sheet(update_time, RANGE_DSO, "csv/retirement_homes.csv")
     import_sheet(update_time, RANGE_DECEASED_REGIONS, "csv/deceased-regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
-    
+    computeMunicipalities(update_time)
