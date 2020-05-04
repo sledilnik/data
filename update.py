@@ -63,7 +63,7 @@ def computeMunicipalities(update_time):
     dfRegions.columns = [str(col) + '.cases.confirmed.todate' for col in dfRegions.columns]
     dfDeceased.columns = [str(col) + '.deceased.todate' for col in dfDeceased.columns]
     merged = pd.concat([dfRegions, dfDeceased], axis=1).sort_index(axis=1)
-    merged.to_csv(filename, float_format='%.0f')
+    merged.to_csv(filename, float_format='%.0f', index_label='date')
     new_hash = sha1sum(filename)
     if old_hash != new_hash:
         with open("{}.timestamp".format(filename), "w") as f:
