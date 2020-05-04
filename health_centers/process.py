@@ -16,14 +16,22 @@ import dataclass
 import mappings
 
 
+KOOFR_ROOT = 'https://app.koofr.net/'
+
 logging.basicConfig(level=logging.INFO)
 
-archive_pass = os.getenv('ZD_ZIP_PASS')
-assert archive_pass, 'Environmental variable ZD_ZIP_PASS must be set.'
+passwd = os.getenv('ZD_ZIP_PASS')
+assert passwd, 'Environmental variable ZD_ZIP_PASS must be set.'
+
+
+logging.info('Refreshing Koofr cache...')
+url = f'{KOOFR_ROOT}api/v2/public/links/b232782b-9893-4278-b54c-faf461fce4bd/bundle?path=%2F&password={passwd}'
+requests.get(url, headers={'User-Agent': 'curl'})
+time.sleep(5)
 
 with tempfile.TemporaryDirectory() as tmp_dir:
     zip_path = os.path.join(tmp_dir, 'zd.zip')
-    url = f'https://app.koofr.net/content/links/b232782b-9893-4278-b54c-faf461fce4bd/files/get/ZD.zip?path=%2F&password={archive_pass}'
+    url = f'{KOOFR_ROOT}content/links/b232782b-9893-4278-b54c-faf461fce4bd/files/get/ZD.zip?path=%2F&password={passwd}'
 
     logging.info('Downloading archive...')
     resp = requests.get(url, headers={'User-Agent': 'curl'})
@@ -102,6 +110,7 @@ repo_root = '/'.join(repo_root_health_centers.split('/')[:-1])
 assert repo_root.endswith('/data')
 health_centers_csv = os.path.join(repo_root, 'csv/health_centers.csv')
 
+
 def get_entity(name_key: str, date: datetime):
     found_entities = []
     for entity in entities:
@@ -113,6 +122,7 @@ def get_entity(name_key: str, date: datetime):
             logging.error(found_entity)
         raise Exception(f'Too many entities found: {len(found_entities)}, {name_key}, {date}')
     return found_entities[0]
+
 
 with open(health_centers_csv, 'w', newline='') as csvfile:
     writer = csv.writer(csvfile, dialect='excel')

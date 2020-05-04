@@ -1,2 +1,3 @@
+flake8==3.7.9
 openpyxl==3.0.3
 requests==2.23.0
