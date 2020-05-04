@@ -82,7 +82,7 @@ region = {
     'črnomelj': 'nm',
     'domžale': 'lj',
     'dravograd': 'sg',
-    'gornja_radgona': 'lj',
+    'gornja_radgona': 'ms',
     'grosuplje': 'lj',
     'hrastnik': 'za',
     'idrija': 'ng',
