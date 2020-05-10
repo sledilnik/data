@@ -1,0 +1,27 @@
+This is a perl script for scraping and parsing daily police reports from Slovenian police department's website: https://www.policija.si/medijsko-sredisce/dogodki-v-zadnjih-24-urah
+
+The script is self-sufficient, the first download might take a while, but it caches results locally so the following runs will be incremental. The script requires two folders to be present: "index" and "deep" to store the caches.
+
+It semantically tries to guess the real numbers of events from sentences. This works reasonably well for bigger categories, since 2012. The rest needs some more work and/or manual cleanup.
+
+Columns extracted:
+- 'day', 
+- 'month', 
+- 'year', 
+- 'url', 
+- 'title', 
+- 'calls', 
+- 'interventions', 
+- 'road', 
+- 'peace', 
+- 'felonies', 
+- 'breaks', 
+- 'damage', 
+- 'steals', 
+- 'robberies', 
+- 'violence', 
+- 'threat', 
+- 'deaths', 
+- 'text'
+
+It would make sense to try to get a structured data source from Police directly, and/or align the extracted data with official nomenclature.
