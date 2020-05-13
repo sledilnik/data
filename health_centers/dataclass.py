@@ -1,23 +1,30 @@
 import dataclasses
 import datetime
+import re
 
-import mappings
+import health_centers.mappings
 
 
 def validate_number_type(number):
     if isinstance(number, (int, float)):
         return int(number)
     if isinstance(number, str):
-        if number.lower() in ['n', 'np', 'np*', 'ni podatka']:  # NP = Ni Podatka
+        search = re.search(r'(\d+)\s+\(', number)
+        if search:
+            return int(search.group(1))
+        # NP = Ni Podatka
+        if number.lower() in ['n', 'np', 'np*', 'ni podatka']:
             return None
         if number.lower() == 'o':   # typo
             return 0
-        if number.startswith('10 (od tega 2 kontrolna)'):  # TODO handle in a different way
-            return 10
-        if number.startswith('1 (kontrolni)'):  # TODO handle in a different way
-            return 1
+        if re.match(r'^še ni ', number):
+            return None
+        if re.match(r'ni še\s+rezul[ta]*tov.*', number):  # handling typos
+            return None
     if number is None:
         return None
+    if number in ['izvaja primar']:
+        return 0
     raise ValueError(number)
 
 
@@ -47,6 +54,6 @@ class Entity:
 
     def __post_init__(self):
         assert isinstance(self.name, str)
-        assert self.name in mappings.name, self.name
-        self.name_key = mappings.name[self.name]
+        assert self.name in health_centers.mappings.name, self.name
+        self.name_key = health_centers.mappings.name[self.name]
         assert isinstance(self.date, datetime.date)
