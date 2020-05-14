@@ -11,6 +11,7 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), 'data')
 def test_list_xlsx():
     actual = list_xlsx(dir=DATA_DIR)
     expected = [
+        'health_centers_tests/data/HOS/Bolnišnice COVID 12052020 (copy).xlsx',
         'health_centers_tests/data/HOS/Bolnišnice COVID 12052020.xlsx',
         'health_centers_tests/data/HOS/2020-04/Bolnišnice COVID 30042020.xlsx'
     ]

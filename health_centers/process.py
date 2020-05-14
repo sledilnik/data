@@ -1,8 +1,16 @@
 #!/usr/bin/env python
+import sys
+import pathlib
+# get repo root folder and add it to PYTHONPATH (so that we don't need to install this package)
+repo_root_path = str(pathlib.Path(__file__).parent.absolute().parent)
+if repo_root_path not in sys.path:
+    sys.path.append(repo_root_path)
+
 import collections
 import csv
 import datetime
 import glob
+import locale
 import logging
 import os
 import re
@@ -160,6 +168,9 @@ def main():
             sheet.file = f
             sheets.append(sheet)
         entities.extend(read_sheets(sheets=sheets))
+    locale.setlocale(locale.LC_ALL, 'sl_SI.utf8')
+    entities.sort(key=lambda entity: locale.strxfrm(entity.name))
+    entities.sort(key=lambda entity: entity.date)
 
     aggregates = collections.defaultdict(lambda: health_centers.dataclass.Numbers(0, 0, 0, 0, 0, 0, 0))
     for entity in entities:
@@ -188,7 +199,7 @@ def main():
         return found_entities[0]
 
     with open(health_centers_csv, 'w', newline='') as csvfile:
-        writer = csv.writer(csvfile, dialect='excel')
+        writer = csv.writer(csvfile, dialect='excel', lineterminator='\n')
 
         def get_formatted_numbers_fields():
             return[field.replace('___', '.') for field in health_centers.dataclass.Numbers.__annotations__.keys()]
@@ -226,6 +237,26 @@ def main():
     with open(f'{health_centers_csv}.timestamp', 'w') as timestamp_file:
         timestamp = int(time.time())
         timestamp_file.write(f'{timestamp}\n')
+
+    logging.info('Writing one dimensional output for easier checking/diff purposes...')
+    check_csv = os.path.join(repo_root, 'csv/health_centers_check.csv')
+    with open(check_csv, 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile, dialect='excel', lineterminator='\n')
+        for entity in entities:  # should be already sorted
+            writer.writerow([
+                entity.date,
+                entity.name,
+                entity.name_key,
+                entity.sheet,
+                entity.file.split('/')[-1],
+                entity.numbers.examinations___medical_emergency,
+                entity.numbers.examinations___suspected_covid,
+                entity.numbers.phone_triage___suspected_covid,
+                entity.numbers.tests___performed,
+                entity.numbers.tests___positive,
+                entity.numbers.sent_to___hospital,
+                entity.numbers.sent_to___self_isolation
+            ])
 
 
 if __name__ == '__main__':
