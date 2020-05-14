@@ -32,10 +32,10 @@ def get_sheet_hos(xlsx_file: str):
             * there's no guarantee relevant sheet is actually there
     """
     wb = openpyxl.load_workbook(xlsx_file)
-    if 'Bolnišnice COVID točke' not in wb.sheetnames:
-        logging.warning(f'{xlsx_file} has no sheet with name "Bolnišnice COVID točke"')
-        return None
-    return wb['Bolnišnice COVID točke']
+    for sheet_name in ['Bolnišnice COVID točke', 'Bonišnice COVID točke', 'Bolnišnica COVID točke']:
+        if sheet_name in wb.sheetnames:
+            return wb[sheet_name]
+    logging.warning(f'{xlsx_file} has no relevant sheet present')
 
 
 def list_xlsx(dir: str):
@@ -129,21 +129,26 @@ def main():
         assert resp.status_code == 200, (url, resp.status_code)
     time.sleep(5)
 
-    entities = []
-    with tempfile.TemporaryDirectory() as tmp_dir:
-        zip_path = os.path.join(tmp_dir, 'hos.zip')
-        url = f'{KOOFR_ROOT}content/links/{KOOFR_ID_HOS}/files/get/HOS.zip?path=%2F&password={KOOFR_PASS_HOS}'
-
-        logging.info('Downloading archive...')
+    def get_archive(tmp_dir: str, folder_id: str, file_id: str, password: str):
+        url = f'{KOOFR_ROOT}content/links/{folder_id}/files/get/{file_id}?path=%2F&password={password}'
+        logging.info(f'Fetching {url}')
         resp = requests.get(url, headers={'User-Agent': 'curl'})
+        zip_path = os.path.join(tmp_dir, 'temp.zip')
         with open(zip_path, 'wb') as f:
             f.write(resp.content)
-
         logging.info('Extracting archive...')
         zipfile.ZipFile(zip_path).extractall(path=tmp_dir)
+        logging.info('List of fetched .xlsx files:')
+        files = list_xlsx(dir=tmp_dir)
+        for f in files:
+            logging.info(f.split('/')[-1])
+        return files
 
+    entities = []
+    with tempfile.TemporaryDirectory() as tmp_dir:
+        files = get_archive(tmp_dir=tmp_dir, folder_id=KOOFR_ID_HOS, file_id='HOS.zip', password=KOOFR_PASS_HOS)
         sheets = []
-        for f in list_xlsx(dir=tmp_dir):
+        for f in files:
             sheet = get_sheet_hos(xlsx_file=f)
             if sheet is not None:
                 sheet.file = f
@@ -151,19 +156,9 @@ def main():
         entities.extend(read_sheets(sheets=sheets))
 
     with tempfile.TemporaryDirectory() as tmp_dir:
-        zip_path = os.path.join(tmp_dir, 'zd.zip')
-        url = f'{KOOFR_ROOT}content/links/{KOOFR_ID_ZD}/files/get/ZD.zip?path=%2F&password={KOOFR_PASS_ZD}'
-
-        logging.info('Downloading archive...')
-        resp = requests.get(url, headers={'User-Agent': 'curl'})
-        with open(zip_path, 'wb') as f:
-            f.write(resp.content)
-
-        logging.info('Extracting archive...')
-        zipfile.ZipFile(zip_path).extractall(path=tmp_dir)
-
+        files = get_archive(tmp_dir=tmp_dir, folder_id=KOOFR_ID_ZD, file_id='ZD.zip', password=KOOFR_PASS_ZD)
         sheets = []
-        for f in list_xlsx(dir=tmp_dir):
+        for f in files:
             sheet = openpyxl.load_workbook(f).active
             sheet.file = f
             sheets.append(sheet)
