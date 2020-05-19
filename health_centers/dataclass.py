@@ -9,6 +9,11 @@ def validate_number_type(number):
     if isinstance(number, (int, float)):
         return int(number)
     if isinstance(number, str):
+        number = number.replace('\\xa0', ' ')
+        try:
+            return int(number)
+        except Exception:
+            pass
         search = re.search(r'(\d+)\s+\(', number)
         if search:
             return int(search.group(1))
@@ -25,7 +30,7 @@ def validate_number_type(number):
         return None
     if number in ['izvaja primar']:
         return 0
-    raise ValueError(number)
+    raise ValueError(type(number), number)
 
 
 @dataclasses.dataclass

@@ -10,7 +10,6 @@ import collections
 import csv
 import datetime
 import glob
-import locale
 import logging
 import os
 import re
@@ -163,8 +162,7 @@ def main():
             sheet.file = f
             sheets.append(sheet)
         entities.extend(read_sheets(sheets=sheets))
-    locale.setlocale(locale.LC_ALL, 'sl_SI.UTF-8')
-    entities.sort(key=lambda entity: locale.strxfrm(entity.name))
+    entities.sort(key=lambda entity: entity.name)
     entities.sort(key=lambda entity: entity.date)
 
     aggregates = collections.defaultdict(lambda: health_centers.dataclass.Numbers(0, 0, 0, 0, 0, 0, 0))
