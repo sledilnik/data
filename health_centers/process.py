@@ -112,7 +112,7 @@ def read_sheets(sheets: typing.List[openpyxl.worksheet.worksheet.Worksheet]):
 def main():
     KOOFR_ROOT = 'https://app.koofr.net/'
     KOOFR_ID_ZD = 'b232782b-9893-4278-b54c-faf461fce4bd'
-    KOOFR_ID_HOS = '61fdbbf5-146e-4baf-850c-74bbea340c03'
+    KOOFR_ID_HOS = '2c90ec11-f01e-4fb0-86fd-d430c1fff181'
     KOOFR_PASS_ZD = os.getenv('ZD_ZIP_PASS')
     assert KOOFR_PASS_ZD, 'Environmental variable ZD_ZIP_PASS must be set.'
     KOOFR_PASS_HOS = os.getenv('HOS_ZIP_PASS')
