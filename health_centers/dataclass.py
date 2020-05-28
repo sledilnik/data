@@ -9,6 +9,7 @@ def validate_number_type(number):
     if isinstance(number, (int, float)):
         return int(number)
     if isinstance(number, str):
+        number = number.replace('\u200b', '')
         number = number.replace('\\xa0', ' ')
         try:
             return int(number)
