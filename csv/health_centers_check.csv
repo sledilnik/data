@@ -4640,67 +4640,133 @@
 2020-05-27,Zgornjesavinjski zdravstveni dom Nazarje,nazarje,"<Worksheet ""28.5.2020"">",Poročilo_ZD_28_5_2020.xlsx,0,0,0,0,0,0,0
 2020-05-28,SB Celje,celje_sb,"<Worksheet ""Bolnišnice COVID točke"">",Bolnišnice COVID 29052020.xlsx,225,19,0,31,0,0,0
 2020-05-28,SB Novo mesto,novo_mesto_sb,"<Worksheet ""Bolnišnice COVID točke"">",Bolnišnice COVID 29052020.xlsx,177,26,4,26,,0,22
-2020-05-28,SŽ - Železniški zdravstveni dom Ljubljana,ljubljana_sž,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,0,1,0,1,0,0,0
-2020-05-28,ZRCK,zrck,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,13,1,0,0,0,10,0
-2020-05-28,Zdravstveni dom Ajdovščina,ajdovščina,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,41,0,0,0,0,0,0
-2020-05-28,Zdravstveni dom Bohinj,bohinj,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,8,0,0,0,0,0,0
-2020-05-28,Zdravstveni dom Brežice,brežice,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,13,14,0,12,0,5,11
-2020-05-28,Zdravstveni dom Celje (podatki pri SB CE),celje,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,0,0,0,0,0,0,0
-2020-05-28,Zdravstveni dom Domžale,domžale,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,33,10,0,7,0,0,10
-2020-05-28,Zdravstveni dom Dravograd,dravograd,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,12,0,0,0,0,0,0
-2020-05-28,Zdravstveni dom Gornja Radgona,gornja_radgona,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,22,0,0,0,0,4,1
-2020-05-28,Zdravstveni dom Grosuplje,grosuplje,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,11,0,0,0,0,0,0
-2020-05-28,Zdravstveni dom Hrastnik,hrastnik,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,7,1,0,0,0,4,1
-2020-05-28,Zdravstveni dom Idrija,idrija,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,12,0,0,0,0,0,0
-2020-05-28,Zdravstveni dom Ilirska Bistrica,ilirska_bistrica,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,9,0,0,0,0,0,0
-2020-05-28,Zdravstveni dom Ivančna Gorica,ivančna_gorica,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,1,,0,0,0,1,0
-2020-05-28,Zdravstveni dom Izola,izola,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,6,0,0,0,0,0,0
-2020-05-28,Zdravstveni dom Jesenice,jesenice,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,40,7,2,7,0,9,8
-2020-05-28,Zdravstveni dom Koper (CUS),koper,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,25,8,2,8,0,1,0
-2020-05-28,Zdravstveni dom Kočevje,kočevje,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,21,6,8,13,0,0,16
-2020-05-28,Zdravstveni dom Kranj,kranj,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,35,11,6,14,0,8,12
-2020-05-28,Zdravstveni dom Krško,krško,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,18,3,0,0,0,0,11
-2020-05-28,Zdravstveni dom Laško,laško,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,17,0,0,0,0,4,0
-2020-05-28,Zdravstveni dom Lenart,lenart,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,3,0,1,0,0,0,1
-2020-05-28,Zdravstveni dom Lendava,lendava,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,20,0,0,0,0,12,0
-2020-05-28,Zdravstveni dom Litija,litija,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,12,3,1,3,0,0,4
-2020-05-28,Zdravstveni dom Ljubljana,ljubljana,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,725,27,15,101,1,65,14
-2020-05-28,Zdravstveni dom Ljutomer,ljutomer,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,1,1,1,5,0,1,0
-2020-05-28,Zdravstveni dom Logatec,logatec,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,6,0,0,0,0,0,0
-2020-05-28,Zdravstveni dom Medvode,medvode,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,0,0,0,0,0,0,0
-2020-05-28,Zdravstveni dom Metlika,metlika,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,33,2,0,2,0,1,0
-2020-05-28,Zdravstveni dom Murska Sobota (VT),murska_sobota,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,57,27,6,22,0,3,25
-2020-05-28,Zdravstveni dom Novo mesto,novo_mesto,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,15,2,1,0,0,2,1
-2020-05-28,Zdravstveni dom OV Nova Gorica,nova_gorica,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,22,10,1,24,0,0,24
-2020-05-28,Zdravstveni dom Ormož,ormož,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,21,0,0,0,0,0,0
-2020-05-28,Zdravstveni dom Piran,piran,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,8,0,0,0,0,0,0
-2020-05-28,Zdravstveni dom Ptuj,ptuj,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,33,4,0,4,0,0,4
-2020-05-28,Zdravstveni dom Radeče,radeče,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,0,0,0,0,0,0,0
-2020-05-28,Zdravstveni dom Radlje ob Dravi,radlje_ob_dravi,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,11,1,0,0,0,5,0
-2020-05-28,Zdravstveni dom Radovljica,radovljica,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,19,2,0,0,0,6,1
-2020-05-28,Zdravstveni dom Ravne na Koroškem,ravne_na_koroškem,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,13,1,0,1,0,1,1
-2020-05-28,Zdravstveni dom Sevnica,sevnica,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,24,12,4,12,0,0,12
-2020-05-28,Zdravstveni dom Sežana,sežana,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,20,0,0,6,0,0,0
-2020-05-28,Zdravstveni dom Slovenj Gradec,slovenj_gradec,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,16,4,3,9,1,0,4
-2020-05-28,Zdravstveni dom Slovenska Bistrica,slovenska_bistrica,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,12,0,0,0,0,0,0
-2020-05-28,Zdravstveni dom Slovenske Konjice,slovenske_konjice,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,11,0,0,0,0,1,0
-2020-05-28,Zdravstveni dom Tolmin,tolmin,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,102,0,0,4,0,0,8
-2020-05-28,Zdravstveni dom Trbovlje VT,trbovlje,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,11,3,0,3,0,3,0
-2020-05-28,Zdravstveni dom Trebnje,trebnje,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,14,2,0,0,0,1,2
-2020-05-28,Zdravstveni dom Tržič,tržič,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,6,0,0,0,0,0,0
-2020-05-28,Zdravstveni dom Velenje,velenje,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,12,0,2,0,0,1,1
-2020-05-28,Zdravstveni dom Vrhnika,vrhnika,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,13,0,0,0,0,8,2
-2020-05-28,Zdravstveni dom Zagorje ob Savi,zagorje_ob_savi,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,15,0,0,0,0,4,0
-2020-05-28,Zdravstveni dom dr. Adolfa Drolca Maribor,maribor,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,82,8,7,32,0,0,7
-2020-05-28,Zdravstveni dom dr. Božidarja Lavriča - Cerknica,cerknica,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,3,0,3,0,0,0,0
-2020-05-28,Zdravstveni dom dr. Franca Ambrožiča Postojna,postojna,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,19,5,41,7,0,0,5
-2020-05-28,Zdravstveni dom dr. Janeza Oražma Ribnica,ribnica,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,5,0,0,0,0,0,0
-2020-05-28,Zdravstveni dom dr. Jožeta Potrate Žalec,žalec,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,9,1,0,0,0,0,0
-2020-05-28,Zdravstveni dom dr. Julija Polca Kamnik,kamnik,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,14,6,0,8,0,1,3
-2020-05-28,Zdravstveni dom za študente UL,ljubljana_študentski,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,0,0,0,0,0,2,0
-2020-05-28,Zdravstveni dom Črnomelj,črnomelj,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,14,0,0,0,0,0,0
-2020-05-28,Zdravstveni dom Šentjur,šentjur,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,14,0,0,0,0,0,3
-2020-05-28,Zdravstveni dom Škofja loka,škofja_loka,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,18,0,0,1,0,6,0
-2020-05-28,Zdravstveni dom Šmarje pri Jelšah,šmarje_pri_jelšah,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,24,1,2,3,0,2,1
-2020-05-28,Zdravstvenim dom Bled,bled,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,18,0,0,0,0,0,0
-2020-05-28,Zgornjesavinjski zdravstveni dom Nazarje,nazarje,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020 (3a024e59).xlsx,0,0,0,0,0,0,0
+2020-05-28,SŽ - Železniški zdravstveni dom Ljubljana,ljubljana_sž,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,0,1,0,1,0,0,0
+2020-05-28,ZRCK,zrck,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,13,1,0,0,0,10,0
+2020-05-28,Zdravstveni dom Ajdovščina,ajdovščina,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,41,0,0,0,0,0,0
+2020-05-28,Zdravstveni dom Bohinj,bohinj,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,8,0,0,0,0,0,0
+2020-05-28,Zdravstveni dom Brežice,brežice,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,13,14,0,12,0,5,11
+2020-05-28,Zdravstveni dom Celje (podatki pri SB CE),celje,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,0,0,0,0,0,0,0
+2020-05-28,Zdravstveni dom Domžale,domžale,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,33,10,0,7,0,0,10
+2020-05-28,Zdravstveni dom Dravograd,dravograd,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,12,0,0,0,0,0,0
+2020-05-28,Zdravstveni dom Gornja Radgona,gornja_radgona,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,22,0,0,0,0,4,1
+2020-05-28,Zdravstveni dom Grosuplje,grosuplje,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,11,0,0,0,0,0,0
+2020-05-28,Zdravstveni dom Hrastnik,hrastnik,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,7,1,0,0,0,4,1
+2020-05-28,Zdravstveni dom Idrija,idrija,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,12,0,0,0,0,0,0
+2020-05-28,Zdravstveni dom Ilirska Bistrica,ilirska_bistrica,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,9,0,0,0,0,0,0
+2020-05-28,Zdravstveni dom Ivančna Gorica,ivančna_gorica,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,1,,0,0,0,1,0
+2020-05-28,Zdravstveni dom Izola,izola,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,6,0,0,0,0,0,0
+2020-05-28,Zdravstveni dom Jesenice,jesenice,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,40,7,2,7,0,9,8
+2020-05-28,Zdravstveni dom Koper (CUS),koper,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,25,8,2,8,0,1,0
+2020-05-28,Zdravstveni dom Kočevje,kočevje,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,21,6,8,13,0,0,16
+2020-05-28,Zdravstveni dom Kranj,kranj,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,35,11,6,14,0,8,12
+2020-05-28,Zdravstveni dom Krško,krško,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,18,3,0,0,0,0,11
+2020-05-28,Zdravstveni dom Laško,laško,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,17,0,0,0,0,4,0
+2020-05-28,Zdravstveni dom Lenart,lenart,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,3,0,1,0,0,0,1
+2020-05-28,Zdravstveni dom Lendava,lendava,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,20,0,0,0,0,12,0
+2020-05-28,Zdravstveni dom Litija,litija,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,12,3,1,3,0,0,4
+2020-05-28,Zdravstveni dom Ljubljana,ljubljana,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,725,27,15,101,1,65,14
+2020-05-28,Zdravstveni dom Ljutomer,ljutomer,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,1,1,1,5,0,1,0
+2020-05-28,Zdravstveni dom Logatec,logatec,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,6,0,0,0,0,0,0
+2020-05-28,Zdravstveni dom Medvode,medvode,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,0,0,0,0,0,0,0
+2020-05-28,Zdravstveni dom Metlika,metlika,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,33,2,0,2,0,1,0
+2020-05-28,Zdravstveni dom Murska Sobota (VT),murska_sobota,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,57,27,6,22,0,3,25
+2020-05-28,Zdravstveni dom Novo mesto,novo_mesto,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,15,2,1,0,0,2,1
+2020-05-28,Zdravstveni dom OV Nova Gorica,nova_gorica,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,22,10,1,24,0,0,24
+2020-05-28,Zdravstveni dom Ormož,ormož,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,21,0,0,0,0,0,0
+2020-05-28,Zdravstveni dom Piran,piran,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,8,0,0,0,0,0,0
+2020-05-28,Zdravstveni dom Ptuj,ptuj,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,33,4,0,4,0,0,4
+2020-05-28,Zdravstveni dom Radeče,radeče,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,0,0,0,0,0,0,0
+2020-05-28,Zdravstveni dom Radlje ob Dravi,radlje_ob_dravi,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,11,1,0,0,0,5,0
+2020-05-28,Zdravstveni dom Radovljica,radovljica,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,19,2,0,0,0,6,1
+2020-05-28,Zdravstveni dom Ravne na Koroškem,ravne_na_koroškem,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,13,1,0,1,0,1,1
+2020-05-28,Zdravstveni dom Sevnica,sevnica,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,24,12,4,12,0,0,12
+2020-05-28,Zdravstveni dom Sežana,sežana,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,20,0,0,6,0,0,0
+2020-05-28,Zdravstveni dom Slovenj Gradec,slovenj_gradec,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,16,4,3,9,1,0,4
+2020-05-28,Zdravstveni dom Slovenska Bistrica,slovenska_bistrica,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,12,0,0,0,0,0,0
+2020-05-28,Zdravstveni dom Slovenske Konjice,slovenske_konjice,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,11,0,0,0,0,1,0
+2020-05-28,Zdravstveni dom Tolmin,tolmin,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,102,0,0,4,0,0,8
+2020-05-28,Zdravstveni dom Trbovlje VT,trbovlje,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,11,3,0,3,0,3,0
+2020-05-28,Zdravstveni dom Trebnje,trebnje,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,14,2,0,0,0,1,2
+2020-05-28,Zdravstveni dom Tržič,tržič,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,6,0,0,0,0,0,0
+2020-05-28,Zdravstveni dom Velenje,velenje,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,12,0,2,0,0,1,1
+2020-05-28,Zdravstveni dom Vrhnika,vrhnika,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,13,0,0,0,0,8,2
+2020-05-28,Zdravstveni dom Zagorje ob Savi,zagorje_ob_savi,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,15,0,0,0,0,4,0
+2020-05-28,Zdravstveni dom dr. Adolfa Drolca Maribor,maribor,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,82,8,7,32,0,0,7
+2020-05-28,Zdravstveni dom dr. Božidarja Lavriča - Cerknica,cerknica,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,3,0,3,0,0,0,0
+2020-05-28,Zdravstveni dom dr. Franca Ambrožiča Postojna,postojna,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,19,5,41,7,0,0,5
+2020-05-28,Zdravstveni dom dr. Janeza Oražma Ribnica,ribnica,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,5,0,0,0,0,0,0
+2020-05-28,Zdravstveni dom dr. Jožeta Potrate Žalec,žalec,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,9,1,0,0,0,0,0
+2020-05-28,Zdravstveni dom dr. Julija Polca Kamnik,kamnik,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,14,6,0,8,0,1,3
+2020-05-28,Zdravstveni dom za študente UL,ljubljana_študentski,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,0,0,0,0,0,2,0
+2020-05-28,Zdravstveni dom Črnomelj,črnomelj,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,14,0,0,0,0,0,0
+2020-05-28,Zdravstveni dom Šentjur,šentjur,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,14,0,0,0,0,0,3
+2020-05-28,Zdravstveni dom Škofja loka,škofja_loka,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,18,0,0,1,0,6,0
+2020-05-28,Zdravstveni dom Šmarje pri Jelšah,šmarje_pri_jelšah,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,24,1,2,3,0,2,1
+2020-05-28,Zdravstvenim dom Bled,bled,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,18,0,0,0,0,0,0
+2020-05-28,Zgornjesavinjski zdravstveni dom Nazarje,nazarje,"<Worksheet ""29.5.2020"">",72 Poročilo_ZD_obrazec - 29.5.2020.xlsx,0,0,0,0,0,0,0
+2020-05-29,SB Celje,celje_sb,"<Worksheet ""Bolnišnice COVID točke"">",Bolnišnice COVID 30052020.xlsx,224,10,0,25,0,0,0
+2020-05-29,SB Novo mesto,novo_mesto_sb,"<Worksheet ""Bolnišnice COVID točke"">",Bolnišnice COVID 30052020.xlsx,153,24,2,24,,0,24
+2020-05-29,SŽ - Železniški zdravstveni dom Ljubljana,ljubljana_sž,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,0,0,0,0,0,0,0
+2020-05-29,ZRCK,zrck,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,16,0,0,0,0,12,0
+2020-05-29,Zdravstveni dom Ajdovščina,ajdovščina,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,35,0,0,0,0,0,0
+2020-05-29,Zdravstveni dom Bohinj,bohinj,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,11,0,0,0,0,0,0
+2020-05-29,Zdravstveni dom Brežice,brežice,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,20,15,0,7,0,3,7
+2020-05-29,Zdravstveni dom Celje (podatki pri SB CE),celje,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,0,0,0,0,0,0,0
+2020-05-29,Zdravstveni dom Domžale,domžale,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,57,16,0,14,0,1,15
+2020-05-29,Zdravstveni dom Dravograd,dravograd,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,16,0,0,0,0,0,0
+2020-05-29,Zdravstveni dom Gornja Radgona,gornja_radgona,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,13,0,0,0,0,4,0
+2020-05-29,Zdravstveni dom Grosuplje,grosuplje,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,8,0,1,0,0,0,0
+2020-05-29,Zdravstveni dom Hrastnik,hrastnik,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,13,0,0,0,0,3,0
+2020-05-29,Zdravstveni dom Idrija,idrija,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,16,1,0,5,0,0,0
+2020-05-29,Zdravstveni dom Ilirska Bistrica,ilirska_bistrica,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,24,2,0,0,0,0,1
+2020-05-29,Zdravstveni dom Ivančna Gorica,ivančna_gorica,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,4,0,0,0,0,1,0
+2020-05-29,Zdravstveni dom Izola,izola,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,6,0,0,0,0,0,0
+2020-05-29,Zdravstveni dom Jesenice,jesenice,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,36,11,2,11,0,5,10
+2020-05-29,Zdravstveni dom Koper (CUS),koper,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,45,15,0,14,0,5,0
+2020-05-29,Zdravstveni dom Kočevje,kočevje,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,32,2,19,13,0,0,19
+2020-05-29,Zdravstveni dom Kranj,kranj,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,44,29,4,27,2,25,24
+2020-05-29,Zdravstveni dom Krško,krško,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,19,3,0,0,0,2,5
+2020-05-29,Zdravstveni dom Laško,laško,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,19,0,0,0,0,2,0
+2020-05-29,Zdravstveni dom Lenart,lenart,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,1,0,0,0,0,0,0
+2020-05-29,Zdravstveni dom Lendava,lendava,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,20,0,0,0,0,3,0
+2020-05-29,Zdravstveni dom Litija,litija,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,,,,,,,
+2020-05-29,Zdravstveni dom Ljubljana,ljubljana,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,724,28,33,130,0,62,36
+2020-05-29,Zdravstveni dom Ljutomer,ljutomer,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,1,2,1,0,0,1,0
+2020-05-29,Zdravstveni dom Logatec,logatec,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,5,0,0,0,0,0,0
+2020-05-29,Zdravstveni dom Medvode,medvode,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,1,0,8,0,0,0,5
+2020-05-29,Zdravstveni dom Metlika,metlika,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,35,0,0,6,0,1,0
+2020-05-29,Zdravstveni dom Murska Sobota (VT),murska_sobota,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,59,12,8,11,0,0,12
+2020-05-29,Zdravstveni dom Novo mesto,novo_mesto,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,8,1,0,0,0,1,0
+2020-05-29,Zdravstveni dom OV Nova Gorica,nova_gorica,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,28,10,1,27,0,0,27
+2020-05-29,Zdravstveni dom Ormož,ormož,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,18,0,0,0,0,0,0
+2020-05-29,Zdravstveni dom Piran,piran,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,11,0,0,0,0,0,0
+2020-05-29,Zdravstveni dom Ptuj,ptuj,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,37,5,0,5,0,0,5
+2020-05-29,Zdravstveni dom Radeče,radeče,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,0,0,0,0,0,0,0
+2020-05-29,Zdravstveni dom Radlje ob Dravi,radlje_ob_dravi,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,17,0,0,0,0,4,0
+2020-05-29,Zdravstveni dom Radovljica,radovljica,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,7,2,0,0,0,5,0
+2020-05-29,Zdravstveni dom Ravne na Koroškem,ravne_na_koroškem,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,10,0,0,0,0,0,0
+2020-05-29,Zdravstveni dom Sevnica,sevnica,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,24,7,4,7,0,0,7
+2020-05-29,Zdravstveni dom Sežana,sežana,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,22,1,0,4,1,0,1
+2020-05-29,Zdravstveni dom Slovenj Gradec,slovenj_gradec,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,22,4,4,4,0,0,4
+2020-05-29,Zdravstveni dom Slovenska Bistrica,slovenska_bistrica,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,11,3,0,0,0,3,0
+2020-05-29,Zdravstveni dom Slovenske Konjice,slovenske_konjice,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,15,0,1,0,0,0,1
+2020-05-29,Zdravstveni dom Tolmin,tolmin,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,74,0,3,2,0,0,5
+2020-05-29,Zdravstveni dom Trbovlje VT,trbovlje,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,11,2,0,2,0,5,0
+2020-05-29,Zdravstveni dom Trebnje,trebnje,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,20,2,0,0,0,0,0
+2020-05-29,Zdravstveni dom Tržič,tržič,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,8,0,0,0,0,0,0
+2020-05-29,Zdravstveni dom Velenje,velenje,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,10,0,2,14,0,0,14
+2020-05-29,Zdravstveni dom Vrhnika,vrhnika,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,18,0,1,0,0,0,1
+2020-05-29,Zdravstveni dom Zagorje ob Savi,zagorje_ob_savi,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,14,2,0,1,0,0,3
+2020-05-29,Zdravstveni dom dr. Adolfa Drolca Maribor,maribor,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,106,20,5,30,0,0,5
+2020-05-29,Zdravstveni dom dr. Božidarja Lavriča - Cerknica,cerknica,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,5,0,3,0,0,0,0
+2020-05-29,Zdravstveni dom dr. Franca Ambrožiča Postojna,postojna,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,25,3,18,11,0,0,3
+2020-05-29,Zdravstveni dom dr. Janeza Oražma Ribnica,ribnica,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,4,0,0,0,0,0,0
+2020-05-29,Zdravstveni dom dr. Jožeta Potrate Žalec,žalec,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,10,1,0,0,0,0,0
+2020-05-29,Zdravstveni dom dr. Julija Polca Kamnik,kamnik,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,20,7,0,7,0,0,3
+2020-05-29,Zdravstveni dom za študente UL,ljubljana_študentski,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,0,0,0,0,0,0,0
+2020-05-29,Zdravstveni dom Črnomelj,črnomelj,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,11,0,0,0,0,0,0
+2020-05-29,Zdravstveni dom Šentjur,šentjur,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,26,0,0,0,0,1,5
+2020-05-29,Zdravstveni dom Škofja loka,škofja_loka,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,26,0,0,1,0,5,0
+2020-05-29,Zdravstveni dom Šmarje pri Jelšah,šmarje_pri_jelšah,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,12,0,0,0,0,2,0
+2020-05-29,Zdravstvenim dom Bled,bled,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,24,0,0,0,0,0,0
+2020-05-29,Zgornjesavinjski zdravstveni dom Nazarje,nazarje,"<Worksheet ""30.5.2020"">",73 Poročilo_ZD_obrazec - 30.5.2020.xlsx,0,0,0,0,0,0,0
