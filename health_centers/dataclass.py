@@ -34,7 +34,7 @@ def validate_number_type(number):
     raise ValueError(type(number), number)
 
 
-@dataclasses.dataclass
+@dataclasses.dataclass(frozen=True)
 class Numbers:
     examinations___medical_emergency: int
     examinations___suspected_covid: int
@@ -46,7 +46,10 @@ class Numbers:
 
     def __post_init__(self):  # validate and transform all properties
         for field in self.__annotations__.keys():
-            setattr(self, field, validate_number_type(getattr(self, field)))
+            object.__setattr__(self, field, validate_number_type(getattr(self, field)))
+
+    def get(self, prop: str):
+        return self.__dict__[prop]
 
 
 @dataclasses.dataclass
@@ -58,8 +61,19 @@ class Entity:
     file: str
     numbers: Numbers
 
+    def set_name_key(self):
+        self.name_key = None
+
+        names = [self.name]
+        if self.name.startswith('ZD '):
+            names.append('Zdravstveni dom ' + self.name[3:].strip())
+
+        for name in names:
+            if name in health_centers.mappings.name:
+                self.name_key = health_centers.mappings.name[name]
+
     def __post_init__(self):
-        assert isinstance(self.name, str)
-        assert self.name in health_centers.mappings.name, self.name
-        self.name_key = health_centers.mappings.name[self.name]
         assert isinstance(self.date, datetime.date)
+        assert isinstance(self.name, str)
+        self.set_name_key()
+        assert self.name_key, self.name

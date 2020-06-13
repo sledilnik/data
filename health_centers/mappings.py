@@ -1,5 +1,6 @@
 name = {  # sorted by value
     'Zdravstveni dom Ajdovščina': 'ajdovščina',
+    'Zdravstveni dom Bled': 'bled',
     'Zdravstvenim dom Bled': 'bled',
     'Zdravstveni dom Bohinj': 'bohinj',
     'Zdravstveni dom Brežice': 'brežice',
@@ -31,6 +32,7 @@ name = {  # sorted by value
     'Zdravstveni dom Ljubljana': 'ljubljana',
     'Zdravstveni dom za študente Univerze v Ljubljani': 'ljubljana_študentski',
     'Zdravstveni dom za študente UL': 'ljubljana_študentski',
+    'Zdravstveni dom za študente': 'ljubljana_študentski',
     'SŽ - Železniški zdravstveni dom Ljubljana': 'ljubljana_sž',
     'Zdravstveni dom Ljutomer': 'ljutomer',
     'Zdravstveni dom Logatec': 'logatec',
@@ -41,6 +43,7 @@ name = {  # sorted by value
     'Zgornjesavinjski zdravstveni dom Nazarje': 'nazarje',
     'Zdravstveni dom Osnovno varstvo Nova Gorica': 'nova_gorica',
     'Zdravstveni dom OV Nova Gorica': 'nova_gorica',
+    'Zdravstveni dom Nova Gorica': 'nova_gorica',
     'Zdravstveni dom Novo mesto': 'novo_mesto',
     'Zdravstveni dom Novo mesto (podatki pri SB NM)': 'novo_mesto',
     'SB Novo mesto': 'novo_mesto_sb',
@@ -54,6 +57,7 @@ name = {  # sorted by value
     'Zdravstveni dom Radovljica': 'radovljica',
     'Zdravstveni dom Ravne na Koroškem': 'ravne_na_koroškem',
     'Zdravstveni dom dr. Janeza Oražma Ribnica': 'ribnica',
+    'Zdravstveni dom Ribnica': 'ribnica',
     'Zdravstveni dom Sevnica': 'sevnica',
     'Zdravstveni dom Sežana': 'sežana',
     'Zdravstveni dom Slovenj Gradec': 'slovenj_gradec',
@@ -70,6 +74,7 @@ name = {  # sorted by value
     'Zdravstveni dom Velenje': 'velenje',
     'Zdravstveni dom Vrhnika': 'vrhnika',
     'Zdravstveni dom Zagorje ob Savi': 'zagorje_ob_savi',
+    'Zdravstveni dom Zagorje': 'zagorje_ob_savi',
     'ZRCK': 'zrck',
     'Zdravstveni dom dr. Jožeta Potrate Žalec': 'žalec',
 }
