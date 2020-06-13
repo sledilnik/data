@@ -6,23 +6,27 @@ repo_root_path = str(pathlib.Path(__file__).parent.absolute().parent)
 if repo_root_path not in sys.path:
     sys.path.append(repo_root_path)
 
+import argparse
 import collections
 import csv
 import datetime
-import glob
 import logging
 import os
 import re
-import requests
-import tempfile
 import time
 import typing
-import zipfile
 
 import openpyxl
 
 import health_centers.dataclass
+import health_centers.get_files
 import health_centers.mappings
+import health_centers.refresh_koofr_cache
+import health_centers.refresh_local_cache
+
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__file__)
 
 
 def get_sheet_hos(xlsx_file: str):
@@ -34,42 +38,50 @@ def get_sheet_hos(xlsx_file: str):
     for sheet_name in ['Bolnišnice COVID točke', 'Bonišnice COVID točke', 'Bolnišnica COVID točke']:
         if sheet_name in wb.sheetnames:
             return wb[sheet_name]
-    logging.warning(f'{xlsx_file} has no relevant sheet present')
-
-
-def list_xlsx(dir: str):
-    """ Lists all .xlsx files in a directory recursively.
-    """
-    return glob.glob(dir + '/**/*.xlsx', recursive=True)
+    logger.warning(f'{xlsx_file} has no relevant sheet present')
 
 
 def read_sheets(sheets: typing.List[openpyxl.worksheet.worksheet.Worksheet]):
-    logging.info('Standardization: Removing starting column "Št." if present...')
+    logger.info('Standardization: Removing starting column "Št." if present...')
     for sheet in sheets:
         headers = [cell.value for cell in sheet[1]]
         if headers[0] == 'Št.':
             sheet.delete_cols(0)
 
-    logging.info('Validating columns...')
+    logger.info('Validating columns...')
     # file content validation
     for sheet in sheets:
         expected = [  # header row 1
-            r'ZD|Bolnišnica|Bolnišnice|SB', 'Datum', 'Št. pregledov NMP', r'Št. pregledov. suma na COVID',
-            r'Št. sumov na COVID brez pregleda \(triaža po telefonu\)', 'Št. opravljenih testiranj COVID',
-            r'Št\.. pozitivnih COVID', 'Št. napotitev v bolnišnico', 'Št. napotitev v samoosamitev', 'Opombe'
+            r'ZD|Bolnišnica|Bolnišnice|SB|Zdravstvena ustanova', r'Datum|datum', r'(1 )*Št. (vseh )*pregledov NMP',
+            r'(2 )*Št. pregledov.* suma na COVID', r'(3 )*Št. sumov na COVID brez pregleda \(triaža po telefonu\)',
+            r'(4 )*Št. opravljenih testiranj COVID', r'(5. )*Št..* pozitivnih (testov na )*COVID',
+            r'(6 )*Št. napotitev (pacientov s sumom ali potrjenim COVID )*v bolnišnico',
+            r'(7 )*Št. napotitev (s sumom ali potrjenim COVID )*v samoosamitev', r'Opombe|Opomba'
         ]
         actual = [cell.value for cell in sheet[1]]
         for expected_col, actual_col in zip(expected, actual):
             assert re.match(expected_col, actual_col), (sheet.file, sheet, expected_col, actual_col)
 
-    logging.info('Reading sheets and building entity collection...')
+    logger.info('Reading sheets and building entity collection...')
     entities = []
     for sheet in sheets:
-        for row in list(sheet.iter_rows())[2:]:  # skip header rows
-            if row[0].value == 'SKUPAJ' or all([cell.value == '' or cell.value is None for cell in row]):
+
+        for idx, row in enumerate(list(sheet.iter_rows())):  # skip header rows
+            if idx == 0:  # skip header rows
+                continue
+            if sheet.row_dimensions[idx+1].hidden:  # indices are 1-based when querying row_dimensions
+                continue
+            if [cell.value for cell in row][:4] == [None, 1, 2, 3]:  # also header
+                continue
+            if (
+                row[0].value == 'SKUPAJ' or
+                all([cell.value == '' or cell.value is None for cell in row]) or
+                any([isinstance(cell.value, str) and '=SUBTOTAL(' in cell.value for cell in row])
+            ):
                 break  # aggregates do not interest us, also do not continue since all the relevant data is extracted
+
             # make sure the name is always there
-            assert row[0].value is not None, (sheet.file, sheet)
+            assert row[0].value is not None, (sheet.file, sheet, f'row index: {idx}', [cell.value for cell in row])
             # make sure the date is always there
             if row[1].value is None:  # some cells are missing dates
                 search = re.search(r'<Worksheet "(\d{1,2})\.(\d{1,2})\.">', str(sheet))
@@ -109,59 +121,35 @@ def read_sheets(sheets: typing.List[openpyxl.worksheet.worksheet.Worksheet]):
 
 
 def main():
-    KOOFR_ROOT = 'https://app.koofr.net/'
-    KOOFR_ID_ZD = 'b232782b-9893-4278-b54c-faf461fce4bd'
-    KOOFR_ID_HOS = '2c90ec11-f01e-4fb0-86fd-d430c1fff181'
-    KOOFR_PASS_ZD = os.getenv('ZD_ZIP_PASS')
-    assert KOOFR_PASS_ZD, 'Environmental variable ZD_ZIP_PASS must be set.'
-    KOOFR_PASS_HOS = os.getenv('HOS_ZIP_PASS')
-    assert KOOFR_PASS_HOS, 'Environmental variable HOS_ZIP_PASS must be set.'
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--cached", action="store_true")  # dev mode
 
-    logging.basicConfig(level=logging.INFO)
-
-    logging.info('Refreshing Koofr cache...')
-    for url in [
-        f'{KOOFR_ROOT}api/v2/public/links/{KOOFR_ID_ZD}/bundle?path=%2F&password={KOOFR_PASS_ZD}',
-        f'{KOOFR_ROOT}api/v2/public/links/{KOOFR_ID_HOS}/bundle?path=%2F&password={KOOFR_PASS_HOS}'
-    ]:
-        resp = requests.get(url, headers={'User-Agent': 'curl'})
-        assert resp.status_code == 200, (url, resp.status_code)
-    time.sleep(5)
-
-    def get_archive(tmp_dir: str, folder_id: str, file_id: str, password: str):
-        url = f'{KOOFR_ROOT}content/links/{folder_id}/files/get/{file_id}?path=%2F&password={password}'
-        logging.info(f'Fetching {url}')
-        resp = requests.get(url, headers={'User-Agent': 'curl'})
-        zip_path = os.path.join(tmp_dir, 'temp.zip')
-        with open(zip_path, 'wb') as f:
-            f.write(resp.content)
-        logging.info('Extracting archive...')
-        zipfile.ZipFile(zip_path).extractall(path=tmp_dir)
-        logging.info('List of fetched .xlsx files:')
-        files = list_xlsx(dir=tmp_dir)
-        for f in files:
-            logging.info(f.split('/')[-1])
-        return files
+    if not parser.parse_args().cached:
+        logger.info('Refreshing Koofr cache...')
+        health_centers.refresh_koofr_cache.main()
+        logger.info('Waiting for changes to propagate...')
+        time.sleep(10)
+        logger.info('Refreshing local cache...')
+        health_centers.refresh_local_cache.main()
 
     entities = []
-    with tempfile.TemporaryDirectory() as tmp_dir:
-        files = get_archive(tmp_dir=tmp_dir, folder_id=KOOFR_ID_HOS, file_id='HOS.zip', password=KOOFR_PASS_HOS)
-        sheets = []
-        for f in files:
-            sheet = get_sheet_hos(xlsx_file=f)
-            if sheet is not None:
-                sheet.file = f
-                sheets.append(sheet)
-        entities.extend(read_sheets(sheets=sheets))
+    files = health_centers.get_files.main()
 
-    with tempfile.TemporaryDirectory() as tmp_dir:
-        files = get_archive(tmp_dir=tmp_dir, folder_id=KOOFR_ID_ZD, file_id='ZD.zip', password=KOOFR_PASS_ZD)
-        sheets = []
-        for f in files:
-            sheet = openpyxl.load_workbook(f).active
+    sheets = []
+    for f in files.hos:
+        sheet = get_sheet_hos(xlsx_file=f)
+        if sheet is not None:
             sheet.file = f
             sheets.append(sheet)
-        entities.extend(read_sheets(sheets=sheets))
+    entities.extend(read_sheets(sheets=sheets))
+
+    sheets = []
+    for f in files.zd:
+        sheet = openpyxl.load_workbook(f).active
+        sheet.file = f
+        sheets.append(sheet)
+    entities.extend(read_sheets(sheets=sheets))
+
     entities.sort(key=lambda entity: entity.name)
     entities.sort(key=lambda entity: entity.date)
 
@@ -170,7 +158,7 @@ def main():
         for key in health_centers.dataclass.Numbers.__annotations__.keys():
             aggregates[entity.date].__dict__[key] += entity.numbers.__dict__[key] or 0  # handle Null
 
-    logging.info('Writing CSV...')
+    logger.info('Writing CSV...')
     repo_root_health_centers = os.path.dirname(os.path.abspath(__file__))
     assert repo_root_health_centers.endswith('/data/health_centers')
     repo_root = '/'.join(repo_root_health_centers.split('/')[:-1])
@@ -183,11 +171,35 @@ def main():
             if entity.name_key == name_key and entity.date == date:
                 found_entities.append(entity)
         if len(found_entities) == 0:
-            logging.warning(f'No data found for {name_key} {date}')
+            logger.warning(f'No data found for {name_key} {date}')
             return None
         if len(found_entities) > 1:
+
+            # it might happen that numbers come from diffent files, but if they are the same that's okay
+            if len(set([e.numbers for e in found_entities])) == 1:
+                return found_entities[0]
+
+            # if numbers are not the same, then we take the maximum over all properties (not sum)
+            # this is not ideal scenario though, and should maybe be removed in the future
+            props = set([  # this definition is here so that we are sure maximums make sense for all the fields
+                'examinations___medical_emergency', 'examinations___suspected_covid',
+                'phone_triage___suspected_covid', 'tests___performed', 'tests___positive', 'sent_to___hospital',
+                'sent_to___self_isolation'
+            ])
+            maxs = {p: 0 for p in props}
+            for e in found_entities:
+                assert e.numbers.__annotations__.keys() == props
+                for a in props:
+                    if (e.numbers.get(a) or -1) > maxs[a]:  # property can be None, therefore; or 0
+                        maxs[a] = e.numbers.get(a)
+            for e in found_entities:
+                for prop in props:
+                    if e.numbers.get(prop) == maxs[prop]:
+                        return e
+
+            # code unreachable (for now)
             for found_entity in found_entities:
-                logging.error(found_entity)
+                logger.error(found_entity)
             raise Exception(f'Too many entities found: {len(found_entities)}, {name_key}, {date}')
         return found_entities[0]
 
@@ -226,12 +238,12 @@ def main():
                         columns.append(getattr(entity.numbers, field))
             writer.writerow(columns)
 
-    logging.info('Writing CSV timestamp...')
+    logger.info('Writing CSV timestamp...')
     with open(f'{health_centers_csv}.timestamp', 'w') as timestamp_file:
         timestamp = int(time.time())
         timestamp_file.write(f'{timestamp}\n')
 
-    logging.info('Writing one dimensional output for easier checking/diff purposes...')
+    logger.info('Writing one dimensional output for easier checking/diff purposes...')
     check_csv = os.path.join(repo_root, 'csv/health_centers_check.csv')
     with open(check_csv, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile, dialect='excel', lineterminator='\n')
