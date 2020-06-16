@@ -74,6 +74,7 @@ def read_sheets(sheets: typing.List[openpyxl.worksheet.worksheet.Worksheet]):
             if [cell.value for cell in row][:4] == [None, 1, 2, 3]:  # also header
                 continue
             if (
+                row[0].value == None and row[1].value == None or
                 row[0].value == 'SKUPAJ' or
                 all([cell.value == '' or cell.value is None for cell in row]) or
                 any([isinstance(cell.value, str) and '=SUBTOTAL(' in cell.value for cell in row])
