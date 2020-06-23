@@ -20,6 +20,7 @@ RANGE_ICU = "ICU!A3:ZZ"
 RANGE_SAFETY_MEASURES = "Ukrepi!A2:ZZ"
 RANGE_DSO = "DSO!A3:ZZ"
 RANGE_DECEASED_REGIONS = "Umrli:Kraji!A1:ZZ"
+RANGE_ACTIVE_REGIONS = "Aktivni:Kraji!A1:ZZ"
 
 GOOGLE_API_KEY = os.environ["GOOGLE_API_KEY"]
 
@@ -80,4 +81,5 @@ if __name__ == "__main__":
     import_sheet(update_time, RANGE_SAFETY_MEASURES, "csv/safety_measures.csv")
     import_sheet(update_time, RANGE_DSO, "csv/retirement_homes.csv")
     import_sheet(update_time, RANGE_DECEASED_REGIONS, "csv/deceased-regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
+    import_sheet(update_time, RANGE_ACTIVE_REGIONS, "csv/active-regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
     computeMunicipalities(update_time)
