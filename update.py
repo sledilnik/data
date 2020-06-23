@@ -13,7 +13,7 @@ SHEET_ID_PROD = "1N1qLMoWyi3WFGhIpPFzKsFmVE0IwNP3elb_c18t2DwY"
 SHEET_ID = SHEET_ID_PROD
 
 RANGE_STATS = "Podatki!A3:ZZ"
-RAGNE_PATIENTS = "Pacienti!A3:ZZ"
+RANGE_PATIENTS = "Pacienti!A3:ZZ"
 RANGE_REGIONS = "Kraji!A1:ZZ"
 RANGE_HOSPITALS = "Zdr.sistem!A3:ZZ"
 RANGE_ICU = "ICU!A3:ZZ"
@@ -73,7 +73,7 @@ def computeMunicipalities(update_time):
 if __name__ == "__main__":
     update_time = int(time.time())
     import_sheet(update_time, RANGE_STATS, "csv/stats.csv")
-    import_sheet(update_time, RAGNE_PATIENTS, "csv/patients.csv")
+    import_sheet(update_time, RANGE_PATIENTS, "csv/patients.csv")
     import_sheet(update_time, RANGE_HOSPITALS, "csv/hospitals.csv")
     import_sheet(update_time, RANGE_ICU, "csv/icu.csv")
     import_sheet(update_time, RANGE_REGIONS, "csv/regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
