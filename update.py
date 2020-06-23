@@ -60,11 +60,13 @@ def computeMunicipalities(update_time):
     filename = 'csv/municipality.csv'
     old_hash = sha1sum(filename)
     dfRegions = pd.read_csv('csv/regions.csv', index_col='date') 
+    dfActive = pd.read_csv('csv/active-regions.csv', index_col='date')
     dfDeceased = pd.read_csv('csv/deceased-regions.csv', index_col='date')
     dfRegions.columns = [str(col) + '.cases.confirmed.todate' for col in dfRegions.columns]
+    dfActive.columns = [str(col) + '.cases.active' for col in dfActive.columns]
     dfDeceased.columns = [str(col) + '.deceased.todate' for col in dfDeceased.columns]
     # merged = pd.concat([dfRegions, dfDeceased], axis=1, join='outer').sort_index(axis=1)
-    merged = dfRegions.join(dfDeceased).sort_index(axis=1)
+    merged = dfRegions.join(dfActive).join(dfDeceased).sort_index(axis=1)
     merged.to_csv(filename, float_format='%.0f', index_label='date')
     new_hash = sha1sum(filename)
     if old_hash != new_hash:
