@@ -60,6 +60,7 @@ name = {  # sorted by value
     'Zdravstveni dom Ribnica': 'ribnica',
     'Zdravstveni dom Sevnica': 'sevnica',
     'Zdravstveni dom Sežana': 'sežana',
+    'Bolnišnica Sežana': 'sežana',
     'Zdravstveni dom Slovenj Gradec': 'slovenj_gradec',
     'Zdravstveni dom Slovenska Bistrica': 'slovenska_bistrica',
     'Zdravstveni dom Slovenske Konjice': 'slovenske_konjice',
