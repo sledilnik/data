@@ -31,6 +31,7 @@ name = {  # sorted by value
     'Zdravstveni dom Litija': 'litija',
     'Zdravstveni dom Ljubljana': 'ljubljana',
     'Zdravstveni dom za študente Univerze v Ljubljani': 'ljubljana_študentski',
+    'ZD za študente UNI-LJ': 'ljubljana_študentski',
     'Zdravstveni dom za študente UL': 'ljubljana_študentski',
     'Zdravstveni dom za študente': 'ljubljana_študentski',
     'SŽ - Železniški zdravstveni dom Ljubljana': 'ljubljana_sž',
