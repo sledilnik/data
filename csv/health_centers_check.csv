@@ -7488,3 +7488,636 @@
 2020-07-12,ZD Šentjur,šentjur,"<Worksheet ""query"">",Poročilo ZD_13_7_2020.xlsx,27,0,0,0,0,0,0
 2020-07-12,ZD Škofja loka,škofja_loka,"<Worksheet ""query"">",Poročilo ZD_13_7_2020.xlsx,44,2,0,2,0,0,0
 2020-07-12,ZRCK,zrck,"<Worksheet ""query"">",Poročilo ZD_13_7_2020.xlsx,12,1,0,0,0,1,0
+2020-07-13,SB Celje,celje_sb,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,311,22,0,89,1,0,0
+2020-07-13,SB Novo mesto,novo_mesto_sb,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,208,0,0,48,2,0,45
+2020-07-13,SŽ - Železniški zdravstveni dom Ljubljana,ljubljana_sž,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,1,1,1,2,0,0,1
+2020-07-13,ZD Ajdovščina,ajdovščina,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,46,9,0,88,2,0,2
+2020-07-13,ZD Bled,bled,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,21,8,0,8,0,0,0
+2020-07-13,ZD Bohinj,bohinj,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,15,4,2,4,0,0,4
+2020-07-13,ZD Brežice,brežice,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,20,20,0,6,0,1,0
+2020-07-13,ZD Celje (podatki pri SB CE),celje,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,0,0,0,0,0,0,0
+2020-07-13,ZD Domžale,domžale,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,30,4,0,27,0,0,26
+2020-07-13,ZD Dravograd,dravograd,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,0,0,3,0,1,0,3
+2020-07-13,ZD Gornja Radgona,gornja_radgona,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,11,0,0,0,0,0,0
+2020-07-13,ZD Grosuplje,grosuplje,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,25,0,0,0,0,0,0
+2020-07-13,ZD Hrastnik,hrastnik,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,15,1,5,14,0,0,5
+2020-07-13,ZD Idrija,idrija,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,16,1,0,12,0,1,11
+2020-07-13,ZD Ilirska Bistrica,ilirska_bistrica,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,53,4,0,0,0,0,0
+2020-07-13,ZD Ivančna Gorica,ivančna_gorica,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,5,0,0,0,0,0,0
+2020-07-13,ZD Izola,izola,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,14,0,0,0,0,0,0
+2020-07-13,ZD Jesenice,jesenice,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,19,5,2,27,0,1,1
+2020-07-13,ZD Koper (CUS),koper,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,111,42,9,42,0,0,3
+2020-07-13,ZD Kočevje,kočevje,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,18,2,14,7,0,0,7
+2020-07-13,ZD Kranj,kranj,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,64,68,0,60,1,3,62
+2020-07-13,ZD Krško,krško,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,28,1,8,7,0,0,13
+2020-07-13,ZD Laško,laško,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,16,0,0,0,0,0,0
+2020-07-13,ZD Lenart,lenart,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,8,0,0,0,0,0,0
+2020-07-13,ZD Lendava,lendava,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,58,0,0,0,0,0,0
+2020-07-13,ZD Litija,litija,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,19,5,8,8,0,0,0
+2020-07-13,ZD Ljubljana,ljubljana,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,111,11,204,266,3,0,215
+2020-07-13,ZD Ljutomer,ljutomer,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,0,0,1,0,0,0,0
+2020-07-13,ZD Logatec,logatec,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,19,0,0,0,0,0,0
+2020-07-13,ZD Medvode,medvode,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,0,0,15,0,0,0,3
+2020-07-13,ZD Metlika,metlika,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,57,0,0,1,0,0,0
+2020-07-13,ZD Murska Sobota (VT),murska_sobota,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,42,71,14,70,2,4,70
+2020-07-13,ZD Nova Gorica,nova_gorica,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,20,13,0,32,0,1,0
+2020-07-13,ZD Novo mesto,novo_mesto,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,14,3,3,0,0,3,0
+2020-07-13,ZD Ormož,ormož,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,40,0,8,0,0,0,8
+2020-07-13,ZD Piran,piran,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,11,0,0,0,0,0,0
+2020-07-13,ZD Ptuj,ptuj,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,58,22,0,22,0,2,22
+2020-07-13,ZD Radeče,radeče,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,0,0,2,0,0,0,2
+2020-07-13,ZD Radlje ob Dravi,radlje_ob_dravi,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,19,4,0,4,0,0,0
+2020-07-13,ZD Radovljica,radovljica,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,28,0,4,1,0,0,6
+2020-07-13,ZD Ravne na Koroškem,ravne_na_koroškem,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,14,6,0,8,2,0,6
+2020-07-13,ZD Ribnica,ribnica,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,13,2,0,4,0,0,4
+2020-07-13,ZD Sevnica,sevnica,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,29,12,20,10,0,0,10
+2020-07-13,ZD Sežana,sežana,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,20,0,1,7,0,0,0
+2020-07-13,ZD Slovenj Gradec,slovenj_gradec,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,28,11,0,19,0,0,0
+2020-07-13,ZD Slovenska Bistrica,slovenska_bistrica,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,12,0,1,0,0,0,0
+2020-07-13,ZD Slovenske Konjice,slovenske_konjice,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,10,0,1,4,0,0,1
+2020-07-13,ZD Tolmin,tolmin,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,73,1,7,3,0,0,10
+2020-07-13,ZD Trbovlje VT,trbovlje,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,69,3,2,17,1,1,19
+2020-07-13,ZD Trebnje,trebnje,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,12,0,0,2,0,0,0
+2020-07-13,ZD Tržič,tržič,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,9,0,2,0,0,0,0
+2020-07-13,ZD Velenje,velenje,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,8,0,4,0,0,0,4
+2020-07-13,ZD Vrhnika,vrhnika,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,17,0,0,0,0,0,3
+2020-07-13,ZD Zagorje,zagorje_ob_savi,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,9,7,0,7,0,0,7
+2020-07-13,ZD dr. Adolfa Drolca Maribor,maribor,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,122,69,6,72,1,0,7
+2020-07-13,ZD dr. Božidarja Lavriča - Cerknica,cerknica,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,2,0,10,0,0,0,0
+2020-07-13,ZD dr. Franca Ambrožiča Postojna,postojna,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,21,1,15,14,0,0,5
+2020-07-13,ZD dr. Jožeta Potrate Žalec,žalec,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,0,0,0,0,0,0,0
+2020-07-13,ZD dr. Julija Polca Kamnik,kamnik,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,16,36,0,36,0,0,0
+2020-07-13,ZD za študente UNI-LJ,ljubljana_študentski,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,0,0,0,0,0,0,0
+2020-07-13,ZD Črnomelj,črnomelj,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,12,2,0,6,0,0,0
+2020-07-13,ZD Šentjur,šentjur,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,37,0,0,6,0,0,13
+2020-07-13,ZD Škofja loka,škofja_loka,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,45,13,0,8,0,2,0
+2020-07-13,ZD Šmarje pri Jelšah,šmarje_pri_jelšah,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,15,6,0,0,0,0,0
+2020-07-13,ZRCK,zrck,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,11,1,0,0,0,1,0
+2020-07-13,Zgornjesavinjski zdravstveni dom Nazarje,nazarje,"<Worksheet ""query-4"">",poročilo_ ZD_14_7_2020.xlsx,0,0,0,0,0,0,0
+2020-07-14,SB Celje,celje_sb,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,222,28,0,70,2,0,0
+2020-07-14,SB Novo mesto,novo_mesto_sb,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,177,0,0,32,0,0,31
+2020-07-14,SŽ - Železniški zdravstveni dom Ljubljana,ljubljana_sž,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,0,0,2,0,0,0,2
+2020-07-14,ZD Ajdovščina,ajdovščina,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,28,5,0,7,0,0,0
+2020-07-14,ZD Bled,bled,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,16,0,0,0,0,0,0
+2020-07-14,ZD Bohinj,bohinj,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,10,3,0,3,0,0,3
+2020-07-14,ZD Brežice,brežice,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,14,14,0,9,0,4,0
+2020-07-14,ZD Celje (podatki pri SB CE),celje,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,0,0,0,0,0,0,0
+2020-07-14,ZD Domžale,domžale,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,24,9,0,39,2,0,33
+2020-07-14,ZD Dravograd,dravograd,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,0,0,3,3,2,0,3
+2020-07-14,ZD Gornja Radgona,gornja_radgona,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,12,0,2,0,0,0,2
+2020-07-14,ZD Grosuplje,grosuplje,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,10,1,3,0,0,0,0
+2020-07-14,ZD Hrastnik,hrastnik,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,10,3,0,32,8,0,32
+2020-07-14,ZD Idrija,idrija,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,16,0,0,9,0,0,9
+2020-07-14,ZD Ilirska Bistrica,ilirska_bistrica,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,44,2,0,0,0,0,0
+2020-07-14,ZD Ivančna Gorica,ivančna_gorica,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,3,0,0,0,0,0,0
+2020-07-14,ZD Izola,izola,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,9,2,0,1,0,0,0
+2020-07-14,ZD Jesenice,jesenice,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,34,2,1,14,0,0,0
+2020-07-14,ZD Koper (CUS),koper,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,110,37,5,36,0,0,5
+2020-07-14,ZD Kočevje,kočevje,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,31,4,6,6,0,0,10
+2020-07-14,ZD Kranj,kranj,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,49,52,0,51,1,0,51
+2020-07-14,ZD Krško,krško,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,21,0,6,12,0,0,13
+2020-07-14,ZD Laško,laško,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,14,0,0,0,0,0,0
+2020-07-14,ZD Lenart,lenart,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,12,0,0,0,0,0,1
+2020-07-14,ZD Lendava,lendava,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,38,0,0,0,0,0,0
+2020-07-14,ZD Litija,litija,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,13,5,3,3,0,0,5
+2020-07-14,ZD Ljubljana,ljubljana,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,111,10,212,248,5,3,204
+2020-07-14,ZD Ljutomer,ljutomer,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,0,0,4,0,0,2,0
+2020-07-14,ZD Logatec,logatec,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,2,0,0,0,0,0,0
+2020-07-14,ZD Medvode,medvode,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,0,0,6,0,0,0,4
+2020-07-14,ZD Metlika,metlika,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,40,0,0,0,0,0,0
+2020-07-14,ZD Murska Sobota (VT),murska_sobota,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,29,68,11,67,1,5,63
+2020-07-14,ZD Nova Gorica,nova_gorica,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,20,7,0,37,1,0,0
+2020-07-14,ZD Novo mesto,novo_mesto,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,16,2,7,0,0,2,0
+2020-07-14,ZD Ormož,ormož,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,36,0,4,0,0,0,4
+2020-07-14,ZD Piran,piran,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,17,0,0,0,0,0,0
+2020-07-14,ZD Ptuj,ptuj,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,53,22,0,21,0,1,21
+2020-07-14,ZD Radeče,radeče,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,0,0,2,0,0,0,2
+2020-07-14,ZD Radlje ob Dravi,radlje_ob_dravi,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,13,3,0,3,0,0,0
+2020-07-14,ZD Radovljica,radovljica,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,25,5,1,5,0,1,8
+2020-07-14,ZD Ravne na Koroškem,ravne_na_koroškem,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,11,5,0,5,0,0,5
+2020-07-14,ZD Ribnica,ribnica,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,10,0,0,4,0,0,4
+2020-07-14,ZD Sevnica,sevnica,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,25,9,13,9,0,0,9
+2020-07-14,ZD Sežana,sežana,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,17,0,1,0,0,0,0
+2020-07-14,ZD Slovenj Gradec,slovenj_gradec,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,16,10,5,10,1,0,10
+2020-07-14,ZD Slovenska Bistrica,slovenska_bistrica,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,16,0,0,2,0,0,0
+2020-07-14,ZD Slovenske Konjice,slovenske_konjice,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,10,0,0,6,0,0,0
+2020-07-14,ZD Tolmin,tolmin,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,68,0,3,16,0,0,19
+2020-07-14,ZD Trbovlje VT,trbovlje,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,25,2,2,8,0,0,8
+2020-07-14,ZD Trebnje,trebnje,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,25,0,0,11,0,0,0
+2020-07-14,ZD Tržič,tržič,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,10,0,7,0,0,0,0
+2020-07-14,ZD Velenje,velenje,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,10,1,0,34,6,0,34
+2020-07-14,ZD Vrhnika,vrhnika,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,16,0,2,0,0,0,2
+2020-07-14,ZD Zagorje,zagorje_ob_savi,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,9,3,2,3,0,0,5
+2020-07-14,ZD dr. Adolfa Drolca Maribor,maribor,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,109,11,6,102,0,0,6
+2020-07-14,ZD dr. Božidarja Lavriča - Cerknica,cerknica,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,2,0,6,0,0,0,0
+2020-07-14,ZD dr. Franca Ambrožiča Postojna,postojna,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,11,2,5,19,0,0,2
+2020-07-14,ZD dr. Jožeta Potrate Žalec,žalec,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,8,1,1,0,0,0,0
+2020-07-14,ZD dr. Julija Polca Kamnik,kamnik,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,26,15,0,15,0,0,0
+2020-07-14,ZD za študente UNI-LJ,ljubljana_študentski,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,0,0,0,0,0,0,0
+2020-07-14,ZD Črnomelj,črnomelj,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,16,4,4,7,0,0,0
+2020-07-14,ZD Šentjur,šentjur,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,42,0,0,0,0,0,6
+2020-07-14,ZD Škofja loka,škofja_loka,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,20,6,0,5,0,1,0
+2020-07-14,ZD Šmarje pri Jelšah,šmarje_pri_jelšah,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,19,6,0,0,0,0,0
+2020-07-14,ZRCK,zrck,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,7,0,0,0,0,0,0
+2020-07-14,Zgornjesavinjski zdravstveni dom Nazarje,nazarje,"<Worksheet ""query-4"">",poročilo_ ZD_15_7_2020.xlsx,0,0,0,0,0,0,0
+2020-07-15,SB Celje,celje_sb,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,288,15,0,64,1,0,0
+2020-07-15,SB Novo mesto,novo_mesto_sb,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,160,29,0,29,1,0,28
+2020-07-15,SŽ - Železniški zdravstveni dom Ljubljana,ljubljana_sž,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,0,0,3,2,0,0,3
+2020-07-15,ZD Ajdovščina,ajdovščina,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,33,7,0,2,1,0,1
+2020-07-15,ZD Bled,bled,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,18,0,0,0,0,0,0
+2020-07-15,ZD Bohinj,bohinj,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,6,1,0,1,0,0,0
+2020-07-15,ZD Brežice,brežice,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,10,17,0,4,0,6,0
+2020-07-15,ZD Celje (podatki pri SB CE),celje,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,0,0,0,0,0,0,0
+2020-07-15,ZD Domžale,domžale,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,27,2,0,26,0,0,26
+2020-07-15,ZD Dravograd,dravograd,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,1,0,3,0,1,0,3
+2020-07-15,ZD Gornja Radgona,gornja_radgona,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,13,0,0,0,0,0,0
+2020-07-15,ZD Grosuplje,grosuplje,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,10,0,0,0,0,0,0
+2020-07-15,ZD Hrastnik,hrastnik,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,10,0,0,49,3,0,49
+2020-07-15,ZD Idrija,idrija,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,19,0,0,3,0,0,0
+2020-07-15,ZD Ivančna Gorica,ivančna_gorica,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,5,0,0,0,0,0,0
+2020-07-15,ZD Izola,izola,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,12,2,2,1,0,0,0
+2020-07-15,ZD Jesenice,jesenice,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,37,1,1,9,0,0,1
+2020-07-15,ZD Koper (CUS),koper,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,46,33,15,33,0,0,4
+2020-07-15,ZD Kočevje,kočevje,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,30,3,7,5,0,0,7
+2020-07-15,ZD Kranj,kranj,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,33,52,0,51,2,1,50
+2020-07-15,ZD Krško,krško,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,24,0,4,6,1,1,6
+2020-07-15,ZD Lenart,lenart,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,15,0,1,0,0,0,0
+2020-07-15,ZD Lenart,lenart,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,17,0,0,0,0,0,0
+2020-07-15,ZD Lendava,lendava,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,32,0,0,0,0,0,0
+2020-07-15,ZD Litija,litija,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,26,0,3,11,0,0,0
+2020-07-15,ZD Ljubljana,ljubljana,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,102,13,129,168,1,3,137
+2020-07-15,ZD Ljutomer,ljutomer,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,0,0,2,0,0,1,0
+2020-07-15,ZD Logatec,logatec,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,7,0,0,0,0,0,0
+2020-07-15,ZD Medvode,medvode,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,0,0,13,0,0,0,4
+2020-07-15,ZD Metlika,metlika,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,39,0,0,0,0,0,0
+2020-07-15,ZD Murska Sobota (VT),murska_sobota,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,21,32,14,32,1,1,32
+2020-07-15,ZD Nova Gorica,nova_gorica,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,6,11,,41,0,0,0
+2020-07-15,ZD Novo mesto,novo_mesto,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,10,0,5,0,0,0,0
+2020-07-15,ZD Ormož,ormož,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,29,0,1,0,0,0,1
+2020-07-15,ZD Piran,piran,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,6,0,0,0,0,0,0
+2020-07-15,ZD Ptuj,ptuj,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,55,15,0,15,0,0,15
+2020-07-15,ZD Radeče,radeče,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,0,0,1,0,0,0,1
+2020-07-15,ZD Radlje ob Dravi,radlje_ob_dravi,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,15,5,0,5,0,0,0
+2020-07-15,ZD Radovljica,radovljica,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,23,5,4,5,0,1,9
+2020-07-15,ZD Ravne na Koroškem,ravne_na_koroškem,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,13,3,0,5,0,0,3
+2020-07-15,ZD Ribnica,ribnica,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,8,0,0,6,0,0,0
+2020-07-15,ZD Sevnica,sevnica,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,32,12,19,12,0,0,12
+2020-07-15,ZD Sežana,sežana,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,27,0,0,10,0,0,0
+2020-07-15,ZD Slovenj Gradec,slovenj_gradec,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,15,6,0,6,1,0,0
+2020-07-15,ZD Slovenska Bistrica,slovenska_bistrica,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,18,1,0,2,0,0,0
+2020-07-15,ZD Tolmin,tolmin,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,86,0,0,12,0,0,12
+2020-07-15,ZD Trbovlje VT,trbovlje,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,24,2,2,8,1,0,10
+2020-07-15,ZD Trebnje,trebnje,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,11,0,0,3,0,0,0
+2020-07-15,ZD Tržič,tržič,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,8,0,0,0,0,0,0
+2020-07-15,ZD Velenje,velenje,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,9,2,3,1,0,0,6
+2020-07-15,ZD Vrhnika,vrhnika,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,19,0,1,0,0,0,4
+2020-07-15,ZD Zagorje ob Savi,zagorje_ob_savi,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,7,3,1,7,0,0,7
+2020-07-15,ZD dr. Adolfa Drolca Maribor,maribor,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,134,14,8,87,1,0,9
+2020-07-15,ZD dr. Božidarja Lavriča - Cerknica,cerknica,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,2,0,9,0,0,0,0
+2020-07-15,ZD dr. Božidarja Lavriča - Cerknica,cerknica,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,15,0,2,2,0,0,1
+2020-07-15,ZD dr. Franca Ambrožiča Postojna,postojna,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,21,2,5,25,0,0,2
+2020-07-15,ZD dr. Jožeta Potrate Žalec,žalec,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,13,1,1,0,0,0,0
+2020-07-15,ZD dr. Julija Polca Kamnik,kamnik,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,19,17,0,17,0,0,0
+2020-07-15,ZD za študente UNI-LJ,ljubljana_študentski,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,0,0,0,0,0,0,0
+2020-07-15,ZD Šentjur,šentjur,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,32,0,0,2,0,4,0
+2020-07-15,ZD Škofja loka,škofja_loka,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,19,3,0,3,0,0,0
+2020-07-15,ZRCK,zrck,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,9,0,0,0,0,0,0
+2020-07-15,Zgornjesavinjski zdravstveni dom Nazarje,nazarje,"<Worksheet ""query-4"">",poročilo_ ZD_16_7_2020.xlsx,0,0,0,0,0,0,0
+2020-07-16,SB Celje,celje_sb,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,248,22,0,70,2,0,0
+2020-07-16,SB Novo mesto,novo_mesto_sb,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,195,37,0,37,0,0,34
+2020-07-16,SŽ - Železniški zdravstveni dom Ljubljana,ljubljana_sž,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,0,0,3,0,1,0,2
+2020-07-16,ZD Ajdovščina,ajdovščina,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,32,7,0,0,0,0,0
+2020-07-16,ZD Bled,bled,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,19,2,0,2,0,0,0
+2020-07-16,ZD Bohinj,bohinj,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,6,0,1,0,0,0,0
+2020-07-16,ZD Brežice,brežice,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,16,6,0,6,0,3,0
+2020-07-16,ZD Celje (podatki pri SB CE),celje,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,0,0,0,0,0,0,0
+2020-07-16,ZD Domžale,domžale,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,15,9,0,31,1,0,33
+2020-07-16,ZD Dravograd,dravograd,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,3,0,4,0,0,0,4
+2020-07-16,ZD Gornja Radgona,gornja_radgona,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,9,0,4,0,0,0,4
+2020-07-16,ZD Grosuplje,grosuplje,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,7,1,1,0,0,0,0
+2020-07-16,ZD Hrastnik,hrastnik,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,14,3,5,28,3,1,28
+2020-07-16,ZD Idrija,idrija,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,18,0,0,6,0,0,0
+2020-07-16,ZD Ilirska Bistrica,ilirska_bistrica,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,22,0,0,0,0,0,0
+2020-07-16,ZD Ivančna Gorica,ivančna_gorica,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,6,0,0,0,0,0,0
+2020-07-16,ZD Izola,izola,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,12,2,0,1,1,0,0
+2020-07-16,ZD Jesenice,jesenice,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,35,0,1,7,1,0,1
+2020-07-16,ZD Koper (CUS),koper,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,64,32,20,32,2,0,0
+2020-07-16,ZD Kočevje,kočevje,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,20,1,4,5,0,0,6
+2020-07-16,ZD Kranj,kranj,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,35,46,0,42,1,3,40
+2020-07-16,ZD Krško,krško,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,30,0,13,17,0,0,24
+2020-07-16,ZD Lenart,lenart,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,16,0,1,0,1,0,1
+2020-07-16,ZD Lenart,lenart,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,15,0,0,0,0,0,0
+2020-07-16,ZD Lendava,lendava,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,47,0,0,0,0,2,0
+2020-07-16,ZD Litija,litija,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,14,9,4,13,0,0,0
+2020-07-16,ZD Ljutomer,ljutomer,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,2,0,2,0,0,2,0
+2020-07-16,ZD Logatec,logatec,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,16,0,0,0,0,0,0
+2020-07-16,ZD Medvode,medvode,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,0,0,5,0,0,0,2
+2020-07-16,ZD Metlika,metlika,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,45,0,0,5,0,0,0
+2020-07-16,ZD Murska Sobota (VT),murska_sobota,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,19,31,10,31,0,1,30
+2020-07-16,ZD Nova Gorica,nova_gorica,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,10,8,0,51,0,0,0
+2020-07-16,ZD Novo mesto,novo_mesto,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,4,1,2,0,0,1,0
+2020-07-16,ZD Ormož,ormož,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,28,0,3,0,0,1,2
+2020-07-16,ZD Piran,piran,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,22,0,0,0,0,0,0
+2020-07-16,ZD Ptuj,ptuj,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,60,15,0,15,0,0,15
+2020-07-16,ZD Radeče,radeče,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,0,0,0,0,0,0,0
+2020-07-16,ZD Radlje ob Dravi,radlje_ob_dravi,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,15,2,1,2,0,0,0
+2020-07-16,ZD Radovljica,radovljica,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,20,0,3,0,0,0,0
+2020-07-16,ZD Ravne na Koroškem,ravne_na_koroškem,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,8,4,0,4,0,0,4
+2020-07-16,ZD Ribnica,ribnica,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,7,0,0,5,0,0,0
+2020-07-16,ZD Sevnica,sevnica,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,17,4,16,2,0,0,2
+2020-07-16,ZD Sežana,sežana,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,29,1,0,0,0,0,0
+2020-07-16,ZD Slovenj Gradec,slovenj_gradec,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,11,11,0,11,0,0,0
+2020-07-16,ZD Slovenska Bistrica,slovenska_bistrica,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,13,4,0,1,0,3,1
+2020-07-16,ZD Tolmin,tolmin,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,52,0,4,7,0,0,11
+2020-07-16,ZD Trbovlje VT,trbovlje,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,38,3,0,9,1,1,8
+2020-07-16,ZD Trebnje,trebnje,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,33,0,0,7,0,0,0
+2020-07-16,ZD Tržič,tržič,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,7,0,2,0,0,0,2
+2020-07-16,ZD Velenje,velenje,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,92,10,167,223,2,0,176
+2020-07-16,ZD Velenje,velenje,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,6,3,5,1,0,0,8
+2020-07-16,ZD Vrhnika,vrhnika,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,14,0,0,0,0,0,0
+2020-07-16,ZD Zagorje ob Savi,zagorje_ob_savi,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,9,2,5,4,1,0,7
+2020-07-16,ZD dr. Adolfa Drolca Maribor,maribor,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,132,9,7,62,0,0,0
+2020-07-16,ZD dr. Božidarja Lavriča - Cerknica,cerknica,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,0,0,3,0,0,0,0
+2020-07-16,ZD dr. Božidarja Lavriča - Cerknica,cerknica,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,5,0,0,3,0,0,0
+2020-07-16,ZD dr. Franca Ambrožiča Postojna,postojna,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,21,2,10,12,1,0,2
+2020-07-16,ZD dr. Jožeta Potrate Žalec,žalec,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,8,0,5,0,0,0,0
+2020-07-16,ZD dr. Julija Polca Kamnik,kamnik,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,14,12,0,12,0,0,0
+2020-07-16,ZD za študente UNI-LJ,ljubljana_študentski,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,0,0,0,0,0,0,0
+2020-07-16,ZD Črnomelj,črnomelj,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,15,5,0,7,1,0,0
+2020-07-16,ZD Šentjur,šentjur,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,35,0,0,0,0,0,1
+2020-07-16,ZD Škofja loka,škofja_loka,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,13,0,0,6,0,0,0
+2020-07-16,ZD Šmarje pri Jelšah,šmarje_pri_jelšah,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,32,16,0,0,0,0,0
+2020-07-16,ZRCK,zrck,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,10,0,0,0,0,0,0
+2020-07-16,Zgornjesavinjski zdravstveni dom Nazarje,nazarje,"<Worksheet ""query-4"">",poročilo_ ZD_17_7_2020.xlsx,0,0,0,0,0,0,0
+2020-07-17,SB Celje,celje_sb,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,258,21,0,80,0,0,0
+2020-07-17,SŽ - Železniški zdravstveni dom Ljubljana,ljubljana_sž,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,0,0,5,0,1,0,5
+2020-07-17,SŽ - Železniški zdravstveni dom Ljubljana,ljubljana_sž,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,1,0,1,0,1,0,1
+2020-07-17,ZD  dr. Julija Polca Kamnik,kamnik,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,19,20,0,19,1,1,19
+2020-07-17,ZD Ajdovščina,ajdovščina,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,43,7,0,0,0,0,0
+2020-07-17,ZD Bled,bled,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,9,1,0,1,0,0,1
+2020-07-17,ZD Bohinj,bohinj,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,9,0,2,0,0,0,2
+2020-07-17,ZD Brežice,brežice,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,19,10,5,4,0,4,0
+2020-07-17,ZD Domžale,domžale,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,31,9,0,24,0,0,24
+2020-07-17,ZD Dravograd,dravograd,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,2,0,2,2,0,0,0
+2020-07-17,ZD Gornja Radgona,gornja_radgona,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,21,0,5,0,0,0,5
+2020-07-17,ZD Grosuplje,grosuplje,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,10,0,0,0,0,0,0
+2020-07-17,ZD Hrastnik,hrastnik,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,7,3,0,37,3,1,37
+2020-07-17,ZD Idrija,idrija,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,9,0,0,4,0,0,0
+2020-07-17,ZD Ilirska Bistrica,ilirska_bistrica,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,54,0,0,0,0,0,0
+2020-07-17,ZD Jesenice,jesenice,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,16,2,1,24,0,0,0
+2020-07-17,ZD Koper (CUS),koper,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,77,24,0,24,0,0,0
+2020-07-17,ZD Kočevje,kočevje,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,19,4,4,2,0,0,6
+2020-07-17,ZD Kranj,kranj,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,47,49,0,43,1,4,43
+2020-07-17,ZD Krško,krško,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,35,0,3,12,0,0,12
+2020-07-17,ZD Lenart,lenart,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,13,0,0,0,0,0,0
+2020-07-17,ZD Lenart,lenart,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,14,0,0,0,0,0,0
+2020-07-17,ZD Lendava,lendava,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,33,0,0,0,0,3,0
+2020-07-17,ZD Lendava,lendava,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,25,0,0,0,0,3,0
+2020-07-17,ZD Litija,litija,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,21,4,0,13,0,0,0
+2020-07-17,ZD Ljubljana,ljubljana,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,110,10,170,204,11,7,175
+2020-07-17,ZD Ljutomer,ljutomer,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,1,1,3,0,0,0,0
+2020-07-17,ZD Logatec,logatec,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,13,0,0,0,0,0,0
+2020-07-17,ZD Medvode,medvode,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,0,0,7,0,0,0,3
+2020-07-17,ZD Metlika,metlika,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,55,0,0,5,0,0,0
+2020-07-17,ZD Murska Sobota (VT),murska_sobota,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,25,53,14,51,3,2,53
+2020-07-17,ZD Nova Gorica,nova_gorica,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,17,5,0,37,0,1,0
+2020-07-17,ZD Novo mesto,novo_mesto,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,9,1,4,0,0,1,0
+2020-07-17,ZD Ormož,ormož,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,31,0,4,0,0,0,4
+2020-07-17,ZD Piran,piran,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,7,0,0,0,0,0,0
+2020-07-17,ZD Ptuj,ptuj,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,64,17,0,17,0,0,17
+2020-07-17,ZD Radeče,radeče,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,1,0,0,0,0,1,0
+2020-07-17,ZD Radeče,radeče,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,1,0,0,0,0,0,0
+2020-07-17,ZD Radlje ob Dravi,radlje_ob_dravi,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,16,7,0,3,0,0,0
+2020-07-17,ZD Radovljica,radovljica,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,27,3,3,3,0,0,1
+2020-07-17,ZD Ravne na Koroškem,ravne_na_koroškem,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,11,9,0,9,0,0,9
+2020-07-17,ZD Ribnica,ribnica,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,10,0,0,5,0,0,0
+2020-07-17,ZD Sevnica,sevnica,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,21,13,2,9,0,0,9
+2020-07-17,ZD Sežana,sežana,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,22,0,4,7,0,0,0
+2020-07-17,ZD Slovenj Gradec,slovenj_gradec,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,15,6,1,8,0,1,0
+2020-07-17,ZD Slovenska Bistrica,slovenska_bistrica,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,22,1,0,1,0,0,0
+2020-07-17,ZD Tolmin,tolmin,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,64,1,5,10,0,0,15
+2020-07-17,ZD Trbovlje VT,trbovlje,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,28,2,1,7,0,0,7
+2020-07-17,ZD Trebnje,trebnje,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,32,0,0,3,0,0,0
+2020-07-17,ZD Tržič,tržič,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,11,0,1,0,0,0,1
+2020-07-17,ZD Velenje,velenje,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,2,4,0,47,3,3,48
+2020-07-17,ZD Vrhnika,vrhnika,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,16,1,1,0,0,0,0
+2020-07-17,ZD Zagorje ob Savi,zagorje_ob_savi,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,26,2,1,4,0,0,5
+2020-07-17,ZD dr. Adolfa Drolca Maribor,maribor,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,111,23,6,75,0,0,6
+2020-07-17,ZD dr. Božidarja Lavriča - Cerknica,cerknica,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,4,0,7,0,0,0,0
+2020-07-17,ZD dr. Božidarja Lavriča - Cerknica,cerknica,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,15,0,0,3,0,0,1
+2020-07-17,ZD dr. Franca Ambrožiča Postojna,postojna,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,28,3,10,15,1,0,6
+2020-07-17,ZD dr. Jožeta Potrate Žalec,žalec,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,10,1,0,0,0,0,0
+2020-07-17,ZD za študente UNI-LJ,ljubljana_študentski,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,0,0,0,0,0,0,0
+2020-07-17,ZD Črnomelj,črnomelj,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,7,2,0,5,0,0,0
+2020-07-17,ZD Črnomelj,črnomelj,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,11,6,1,3,0,0,0
+2020-07-17,ZD Šentjur,šentjur,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,48,0,0,0,0,2,0
+2020-07-17,ZD Škofja loka,škofja_loka,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,21,3,0,3,0,0,0
+2020-07-17,ZRCK,zrck,"<Worksheet ""query-4"">",poročilo_ ZD_18_7_2020.xlsx,16,0,0,0,0,0,0
+2020-07-18,SB Celje,celje_sb,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,161,31,0,23,0,0,0
+2020-07-18,SŽ - Železniški zdravstveni dom Ljubljana,ljubljana_sž,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,0,0,0,0,0,0,0
+2020-07-18,ZD  dr. Julija Polca Kamnik,kamnik,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,36,4,0,4,0,1,3
+2020-07-18,ZD Ajdovščina,ajdovščina,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,28,0,0,0,0,0,0
+2020-07-18,ZD Bled,bled,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,27,0,1,0,0,0,1
+2020-07-18,ZD Bohinj,bohinj,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,3,0,1,0,0,0,1
+2020-07-18,ZD Brežice,brežice,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,26,1,0,0,0,0,0
+2020-07-18,ZD Domžale,domžale,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,58,1,0,1,1,0,1
+2020-07-18,ZD Dravograd,dravograd,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,0,0,0,0,0,0,0
+2020-07-18,ZD Gornja Radgona,gornja_radgona,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,31,0,3,0,0,0,3
+2020-07-18,ZD Grosuplje,grosuplje,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,11,1,2,1,0,0,0
+2020-07-18,ZD Grosuplje,grosuplje,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,14,0,0,0,0,0,0
+2020-07-18,ZD Hrastnik,hrastnik,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,13,0,0,10,2,0,0
+2020-07-18,ZD Ilirska Bistrica,ilirska_bistrica,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,24,0,0,0,0,0,0
+2020-07-18,ZD Ivančna Gorica,ivančna_gorica,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,15,0,0,0,0,0,0
+2020-07-18,ZD Jesenice,jesenice,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,31,2,0,2,0,0,0
+2020-07-18,ZD Jesenice,jesenice,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,36,1,2,1,0,1,0
+2020-07-18,ZD Koper (CUS),koper,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,75,0,0,0,0,0,0
+2020-07-18,ZD Kočevje,kočevje,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,39,0,0,0,0,0,0
+2020-07-18,ZD Kranj,kranj,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,83,15,1,15,2,0,16
+2020-07-18,ZD Krško,krško,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,39,0,0,0,0,0,0
+2020-07-18,ZD Lenart,lenart,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,15,0,0,0,0,0,0
+2020-07-18,ZD Lenart,lenart,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,22,0,0,0,0,0,0
+2020-07-18,ZD Lendava,lendava,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,27,0,0,0,0,0,0
+2020-07-18,ZD Litija,litija,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,18,1,1,0,0,1,0
+2020-07-18,ZD Ljubljana,ljubljana,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,141,12,55,48,0,8,52
+2020-07-18,ZD Ljutomer,ljutomer,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,0,0,1,0,0,0,0
+2020-07-18,ZD Logatec,logatec,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,26,0,0,0,0,0,0
+2020-07-18,ZD Metlika,metlika,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,17,0,0,0,0,0,0
+2020-07-18,ZD Murska Sobota (VT),murska_sobota,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,46,37,18,33,3,6,32
+2020-07-18,ZD Nova Gorica,nova_gorica,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,25,3,0,24,0,0,0
+2020-07-18,ZD Novo mesto,novo_mesto,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,14,6,0,0,0,6,0
+2020-07-18,ZD Ormož,ormož,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,33,0,3,0,0,0,0
+2020-07-18,ZD Piran,piran,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,16,0,0,0,0,0,0
+2020-07-18,ZD Ptuj,ptuj,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,95,8,1,8,0,0,9
+2020-07-18,ZD Radlje ob Dravi,radlje_ob_dravi,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,36,4,2,3,0,0,0
+2020-07-18,ZD Radovljica,radovljica,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,29,0,0,0,0,0,0
+2020-07-18,ZD Ravne na Koroškem,ravne_na_koroškem,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,7,1,0,1,0,0,0
+2020-07-18,ZD Ribnica,ribnica,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,32,0,0,0,0,0,0
+2020-07-18,ZD Sevnica,sevnica,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,17,2,1,2,0,0,2
+2020-07-18,ZD Sežana,sežana,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,41,0,0,0,0,0,0
+2020-07-18,ZD Slovenj Gradec,slovenj_gradec,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,21,0,0,0,0,0,0
+2020-07-18,ZD Slovenska Bistrica,slovenska_bistrica,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,26,0,0,0,0,0,0
+2020-07-18,ZD Tolmin,tolmin,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,28,2,7,10,0,0,17
+2020-07-18,ZD Trbovlje VT,trbovlje,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,28,0,0,0,0,0,0
+2020-07-18,ZD Trebnje,trebnje,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,23,0,0,4,0,0,0
+2020-07-18,ZD Tržič,tržič,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,17,0,0,0,0,0,0
+2020-07-18,ZD Velenje,velenje,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,5,0,0,0,0,1,0
+2020-07-18,ZD Vrhnika,vrhnika,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,32,0,0,0,0,0,0
+2020-07-18,ZD dr. Adolfa Drolca Maribor,maribor,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,164,4,8,34,0,0,8
+2020-07-18,ZD dr. Božidarja Lavriča - Cerknica,cerknica,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,18,1,2,0,0,0,0
+2020-07-18,ZD dr. Božidarja Lavriča - Cerknica,cerknica,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,13,0,0,0,0,0,0
+2020-07-18,ZD dr. Franca Ambrožiča Postojna,postojna,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,23,2,3,0,0,1,1
+2020-07-18,ZD dr. Jožeta Potrate Žalec,žalec,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,34,1,1,0,0,0,0
+2020-07-18,ZD Črnomelj,črnomelj,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,25,2,0,1,0,0,0
+2020-07-18,ZD Črnomelj,črnomelj,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,0,0,0,0,0,0,0
+2020-07-18,ZD Šentjur,šentjur,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,21,0,0,0,0,5,0
+2020-07-18,ZD Škofja loka,škofja_loka,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,63,1,0,1,0,0,0
+2020-07-18,ZRCK,zrck,"<Worksheet ""query-4"">",poročilo_ ZD_19_7_2020.xlsx,7,0,0,0,0,0,0
+2020-07-19,SB Celje,celje_sb,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,175,20,0,16,0,0,0
+2020-07-19,SB Novo mesto,novo_mesto_sb,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,128,0,0,19,0,0,19
+2020-07-19,SŽ - Železniški zdravstveni dom Ljubljana,ljubljana_sž,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,0,0,0,0,0,0,0
+2020-07-19,ZD  dr. Julija Polca Kamnik,kamnik,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,29,2,0,2,0,0,2
+2020-07-19,ZD Ajdovščina,ajdovščina,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,35,0,0,0,0,0,0
+2020-07-19,ZD Bled,bled,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,24,0,0,0,0,0,0
+2020-07-19,ZD Bohinj,bohinj,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,11,2,0,0,0,0,2
+2020-07-19,ZD Brežice,brežice,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,21,0,0,0,0,0,0
+2020-07-19,ZD Celje (podatki pri SB CE),celje,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,0,0,0,0,0,0,0
+2020-07-19,ZD Domžale,domžale,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,45,5,0,5,0,0,5
+2020-07-19,ZD Dravograd,dravograd,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,0,0,0,0,0,0,0
+2020-07-19,ZD Gornja Radgona,gornja_radgona,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,26,0,3,0,0,0,3
+2020-07-19,ZD Grosuplje,grosuplje,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,14,1,2,1,0,0,1
+2020-07-19,ZD Hrastnik,hrastnik,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,8,0,0,2,0,0,0
+2020-07-19,ZD Idrija,idrija,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,23,0,0,1,0,0,0
+2020-07-19,ZD Ilirska Bistrica,ilirska_bistrica,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,15,0,0,0,0,0,0
+2020-07-19,ZD Jesenice,jesenice,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,33,2,2,2,0,1,0
+2020-07-19,ZD Koper (CUS),koper,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,79,0,2,0,0,0,2
+2020-07-19,ZD Kočevje,kočevje,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,27,0,0,0,0,0,0
+2020-07-19,ZD Kranj,kranj,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,73,3,4,5,0,1,10
+2020-07-19,ZD Krško,krško,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,39,0,1,0,0,0,1
+2020-07-19,ZD Lenart,lenart,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,1,0,0,0,0,0,0
+2020-07-19,ZD Lenart,lenart,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,20,1,0,0,0,0,0
+2020-07-19,ZD Litija,litija,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,16,1,0,1,0,2,0
+2020-07-19,ZD Ljubljana,ljubljana,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,150,29,51,63,2,8,50
+2020-07-19,ZD Ljutomer,ljutomer,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,2,0,1,0,0,2,0
+2020-07-19,ZD Logatec,logatec,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,14,0,0,0,0,0,0
+2020-07-19,ZD Metlika,metlika,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,6,0,0,0,0,0,0
+2020-07-19,ZD Murska Sobota (VT),murska_sobota,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,45,27,6,25,0,2,0
+2020-07-19,ZD Nova Gorica,nova_gorica,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,29,2,3,10,3,0,3
+2020-07-19,ZD Novo mesto,novo_mesto,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,11,5,0,0,0,5,0
+2020-07-19,ZD Ormož,ormož,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,31,0,2,0,0,0,2
+2020-07-19,ZD Piran,piran,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,14,0,0,0,0,0,0
+2020-07-19,ZD Ptuj,ptuj,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,85,8,0,8,0,0,8
+2020-07-19,ZD Radlje ob Dravi,radlje_ob_dravi,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,31,2,0,0,0,0,0
+2020-07-19,ZD Radovljica,radovljica,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,34,1,5,1,0,0,7
+2020-07-19,ZD Ravne na Koroškem,ravne_na_koroškem,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,5,1,0,1,0,0,1
+2020-07-19,ZD Ribnica,ribnica,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,21,0,0,0,0,0,0
+2020-07-19,ZD Sevnica,sevnica,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,27,4,2,4,0,0,4
+2020-07-19,ZD Sežana,sežana,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,26,0,0,0,0,0,0
+2020-07-19,ZD Slovenj Gradec,slovenj_gradec,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,22,0,0,0,0,0,0
+2020-07-19,ZD Slovenska Bistrica,slovenska_bistrica,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,33,1,0,0,0,1,0
+2020-07-19,ZD Slovenske Konjice,slovenske_konjice,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,14,0,0,0,0,0,0
+2020-07-19,ZD Tolmin,tolmin,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,28,0,1,0,0,0,1
+2020-07-19,ZD Trbovlje VT,trbovlje,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,25,2,0,2,0,1,1
+2020-07-19,ZD Trebnje,trebnje,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,18,0,0,3,0,0,0
+2020-07-19,ZD Tržič,tržič,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,27,0,1,0,0,0,1
+2020-07-19,ZD Velenje,velenje,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,7,0,0,0,0,0,0
+2020-07-19,ZD Vrhnika,vrhnika,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,18,1,0,0,0,0,1
+2020-07-19,ZD dr. Adolfa Drolca Maribor,maribor,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,148,7,4,32,0,0,0
+2020-07-19,ZD dr. Božidarja Lavriča - Cerknica,cerknica,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,17,0,0,0,0,0,0
+2020-07-19,ZD dr. Franca Ambrožiča Postojna,postojna,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,20,1,2,0,0,1,2
+2020-07-19,ZD dr. Jožeta Potrate Žalec,žalec,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,22,1,1,0,0,0,0
+2020-07-19,ZD Črnomelj,črnomelj,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,35,2,0,2,0,0,0
+2020-07-19,ZD Črnomelj,črnomelj,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,0,0,0,0,0,0,0
+2020-07-19,ZD Šentjur,šentjur,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,25,0,0,0,0,0,0
+2020-07-19,ZD Škofja loka,škofja_loka,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,40,2,0,0,0,1,0
+2020-07-19,ZRCK,zrck,"<Worksheet ""query-4"">",poročilo_ ZD_20_7_2020-POPR-TNT.xlsx,10,0,0,0,0,0,0
+2020-07-20,SB Celje,celje_sb,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,305,34,0,105,0,0,0
+2020-07-20,SB Novo mesto,novo_mesto_sb,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,181,0,0,34,0,0,31
+2020-07-20,SŽ - Železniški zdravstveni dom Ljubljana,ljubljana_sž,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,2,2,2,0,1,0,2
+2020-07-20,ZD  dr. Julija Polca Kamnik,kamnik,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,20,13,0,13,1,0,13
+2020-07-20,ZD Ajdovščina,ajdovščina,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,40,6,20,2,0,0,0
+2020-07-20,ZD Bled,bled,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,15,0,0,0,0,0,0
+2020-07-20,ZD Bohinj,bohinj,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,8,1,0,1,0,0,1
+2020-07-20,ZD Brežice,brežice,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,25,9,0,5,0,13,0
+2020-07-20,ZD Celje (podatki pri SB CE),celje,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,0,0,0,0,0,0,0
+2020-07-20,ZD Domžale,domžale,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,30,7,0,26,1,0,26
+2020-07-20,ZD Dravograd,dravograd,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,2,0,2,2,0,0,0
+2020-07-20,ZD Gornja Radgona,gornja_radgona,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,25,0,0,0,0,0,0
+2020-07-20,ZD Grosuplje,grosuplje,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,14,0,4,0,0,0,4
+2020-07-20,ZD Hrastnik,hrastnik,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,10,0,1,82,11,0,82
+2020-07-20,ZD Idrija,idrija,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,36,0,0,7,0,0,7
+2020-07-20,ZD Ilirska Bistrica,ilirska_bistrica,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,36,1,0,1,0,0,0
+2020-07-20,ZD Ivančna Gorica,ivančna_gorica,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,4,0,0,0,0,0,0
+2020-07-20,ZD Izola,izola,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,15,3,2,3,0,0,0
+2020-07-20,ZD Jesenice,jesenice,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,25,2,0,28,2,0,0
+2020-07-20,ZD Koper (CUS),koper,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,60,30,4,30,0,0,4
+2020-07-20,ZD Kočevje,kočevje,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,32,2,14,7,0,1,13
+2020-07-20,ZD Kranj,kranj,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,60,57,0,53,1,1,50
+2020-07-20,ZD Krško,krško,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,28,0,9,7,0,0,13
+2020-07-20,ZD Laško,laško,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,17,2,0,0,0,0,0
+2020-07-20,ZD Lenart,lenart,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,12,0,0,0,0,0,2
+2020-07-20,ZD Lendava,lendava,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,32,3,2,3,0,0,2
+2020-07-20,ZD Litija,litija,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,18,6,2,14,0,0,0
+2020-07-20,ZD Ljubljana,ljubljana,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,117,14,174,250,3,8,170
+2020-07-20,ZD Ljutomer,ljutomer,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,2,0,4,0,0,0,0
+2020-07-20,ZD Logatec,logatec,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,4,1,0,1,0,0,0
+2020-07-20,ZD Medvode,medvode,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,0,0,10,0,0,0,1
+2020-07-20,ZD Metlika,metlika,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,54,0,0,0,0,0,0
+2020-07-20,ZD Murska Sobota (VT),murska_sobota,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,35,63,12,59,1,4,61
+2020-07-20,ZD Nova Gorica,nova_gorica,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,15,7,0,40,1,0,0
+2020-07-20,ZD Novo mesto,novo_mesto,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,22,3,0,0,0,3,0
+2020-07-20,ZD Ormož,ormož,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,31,0,1,0,0,0,1
+2020-07-20,ZD Piran,piran,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,23,0,0,0,0,0,0
+2020-07-20,ZD Ptuj,ptuj,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,50,16,0,15,0,1,15
+2020-07-20,ZD Radeče,radeče,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,0,0,0,0,0,0,0
+2020-07-20,ZD Radlje ob Dravi,radlje_ob_dravi,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,18,1,0,1,0,0,0
+2020-07-20,ZD Radovljica,radovljica,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,34,10,6,9,0,0,17
+2020-07-20,ZD Ravne na Koroškem,ravne_na_koroškem,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,11,3,0,3,0,0,3
+2020-07-20,ZD Ribnica,ribnica,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,12,1,0,6,0,0,6
+2020-07-20,ZD Sevnica,sevnica,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,38,10,4,9,0,0,9
+2020-07-20,ZD Sežana,sežana,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,13,0,1,8,0,0,0
+2020-07-20,ZD Slovenj Gradec,slovenj_gradec,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,16,9,2,9,0,0,0
+2020-07-20,ZD Slovenska Bistrica,slovenska_bistrica,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,14,3,0,0,0,3,0
+2020-07-20,ZD Slovenske Konjice,slovenske_konjice,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,12,0,3,3,0,0,0
+2020-07-20,ZD Tolmin,tolmin,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,55,0,1,5,0,0,6
+2020-07-20,ZD Trbovlje VT,trbovlje,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,24,2,1,12,4,0,13
+2020-07-20,ZD Trebnje,trebnje,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,19,2,0,0,0,0,0
+2020-07-20,ZD Tržič,tržič,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,6,0,3,0,0,0,0
+2020-07-20,ZD Velenje,velenje,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,4,0,0,65,4,0,65
+2020-07-20,ZD Vrhnika,vrhnika,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,14,0,1,0,0,0,6
+2020-07-20,ZD Zagorje,zagorje_ob_savi,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,23,1,5,6,0,0,6
+2020-07-20,ZD dr. Adolfa Drolca Maribor,maribor,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,117,5,6,49,0,0,6
+2020-07-20,ZD dr. Božidarja Lavriča - Cerknica,cerknica,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,1,0,13,0,0,0,0
+2020-07-20,ZD dr. Franca Ambrožiča Postojna,postojna,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,23,3,6,16,2,0,3
+2020-07-20,ZD dr. Jožeta Potrate Žalec,žalec,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,5,4,2,0,0,0,0
+2020-07-20,ZD za študente UNI-LJ,ljubljana_študentski,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,0,0,0,0,0,0,0
+2020-07-20,ZD Črnomelj,črnomelj,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,31,6,0,5,0,0,5
+2020-07-20,ZD Šentjur,šentjur,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,37,0,0,0,0,1,2
+2020-07-20,ZD Škofja loka,škofja_loka,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,24,1,0,1,0,0,0
+2020-07-20,ZRCK,zrck,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,10,0,0,0,0,0,0
+2020-07-20,Zgornjesavinjski zdravstveni dom Nazarje,nazarje,"<Worksheet ""query"">",Poročilo_ZD_21.7.2020.xlsx,0,0,0,0,0,0,0
+2020-07-21,SB Celje,celje_sb,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,220,21,0,53,2,0,0
+2020-07-21,SB Celje,celje_sb,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,220,21,0,53,2,0,0
+2020-07-21,SB Novo mesto,novo_mesto_sb,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,165,0,0,25,0,0,22
+2020-07-21,SB Novo mesto,novo_mesto_sb,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,165,0,0,25,0,0,22
+2020-07-21,SŽ - Železniški zdravstveni dom Ljubljana,ljubljana_sž,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,1,1,2,0,0,0,2
+2020-07-21,SŽ - Železniški zdravstveni dom Ljubljana,ljubljana_sž,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,1,1,2,0,0,0,2
+2020-07-21,ZD  dr. Julija Polca Kamnik,kamnik,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,19,26,0,25,1,0,25
+2020-07-21,ZD  dr. Julija Polca Kamnik,kamnik,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,19,26,0,25,1,0,25
+2020-07-21,ZD Ajdovščina,ajdovščina,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,29,3,8,0,0,0,0
+2020-07-21,ZD Ajdovščina,ajdovščina,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,29,3,8,0,0,0,0
+2020-07-21,ZD Bohinj,bohinj,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,4,2,0,2,0,0,2
+2020-07-21,ZD Bohinj,bohinj,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,4,2,0,2,0,0,2
+2020-07-21,ZD Brežice,brežice,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,14,10,5,7,0,1,6
+2020-07-21,ZD Brežice,brežice,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,14,10,5,7,0,1,6
+2020-07-21,ZD Celje (podatki pri SB CE),celje,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,0,0,0,0,0,0,0
+2020-07-21,ZD Celje (podatki pri SB CE),celje,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,0,0,0,0,0,0,0
+2020-07-21,ZD Domžale,domžale,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,33,0,0,25,1,0,23
+2020-07-21,ZD Domžale,domžale,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,33,0,0,25,1,0,23
+2020-07-21,ZD Dravograd,dravograd,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,0,0,3,3,0,0,1
+2020-07-21,ZD Dravograd,dravograd,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,0,0,3,3,0,0,1
+2020-07-21,ZD Gornja Radgona,gornja_radgona,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,19,0,2,2,0,0,2
+2020-07-21,ZD Gornja Radgona,gornja_radgona,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,19,0,2,2,0,0,2
+2020-07-21,ZD Grosuplje,grosuplje,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,19,0,3,0,0,0,0
+2020-07-21,ZD Grosuplje,grosuplje,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,19,0,3,0,0,0,0
+2020-07-21,ZD Hrastnik,hrastnik,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,18,1,0,34,3,1,34
+2020-07-21,ZD Hrastnik,hrastnik,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,18,1,0,34,3,1,34
+2020-07-21,ZD Idrija,idrija,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,25,0,0,14,0,0,0
+2020-07-21,ZD Idrija,idrija,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,25,0,0,14,0,0,0
+2020-07-21,ZD Ilirska Bistrica,ilirska_bistrica,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,18,1,0,0,0,0,0
+2020-07-21,ZD Ilirska Bistrica,ilirska_bistrica,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,18,1,0,0,0,0,0
+2020-07-21,ZD Ivančna Gorica,ivančna_gorica,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,4,0,0,0,0,0,0
+2020-07-21,ZD Ivančna Gorica,ivančna_gorica,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,4,0,0,0,0,0,0
+2020-07-21,ZD Izola,izola,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,14,3,1,0,0,0,0
+2020-07-21,ZD Izola,izola,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,14,3,1,0,0,0,0
+2020-07-21,ZD Jesenice,jesenice,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,40,3,0,13,0,0,0
+2020-07-21,ZD Jesenice,jesenice,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,40,3,0,13,0,0,0
+2020-07-21,ZD Koper (CUS),koper,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,49,31,3,31,2,0,3
+2020-07-21,ZD Koper (CUS),koper,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,49,31,3,31,2,0,3
+2020-07-21,ZD Kočevje,kočevje,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,23,4,5,3,0,0,5
+2020-07-21,ZD Kočevje,kočevje,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,23,4,5,3,0,0,5
+2020-07-21,ZD Kranj,kranj,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,40,36,0,35,3,1,34
+2020-07-21,ZD Kranj,kranj,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,40,36,0,35,3,1,34
+2020-07-21,ZD Krško,krško,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,24,0,10,11,0,0,13
+2020-07-21,ZD Krško,krško,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,24,0,10,11,0,0,13
+2020-07-21,ZD Laško,laško,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,13,0,0,0,0,0,0
+2020-07-21,ZD Laško,laško,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,13,0,0,0,0,0,0
+2020-07-21,ZD Lenart,lenart,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,14,0,0,0,0,0,2
+2020-07-21,ZD Lenart,lenart,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,14,0,0,0,0,0,2
+2020-07-21,ZD Lendava,lendava,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,44,0,0,0,0,1,0
+2020-07-21,ZD Lendava,lendava,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,44,0,0,0,0,1,0
+2020-07-21,ZD Litija,litija,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,12,1,5,2,1,0,0
+2020-07-21,ZD Litija,litija,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,12,1,5,2,1,0,0
+2020-07-21,ZD Ljubljana,ljubljana,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,115,12,179,259,3,2,189
+2020-07-21,ZD Ljubljana,ljubljana,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,115,12,179,259,3,2,189
+2020-07-21,ZD Ljutomer,ljutomer,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,1,0,5,0,0,2,0
+2020-07-21,ZD Ljutomer,ljutomer,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,1,0,5,0,0,2,0
+2020-07-21,ZD Logatec,logatec,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,9,0,1,0,0,0,1
+2020-07-21,ZD Logatec,logatec,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,9,0,1,0,0,0,1
+2020-07-21,ZD Medvode,medvode,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,0,0,10,0,0,0,3
+2020-07-21,ZD Medvode,medvode,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,0,0,10,0,0,0,3
+2020-07-21,ZD Metlika,metlika,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,50,0,0,0,0,0,0
+2020-07-21,ZD Metlika,metlika,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,50,0,0,0,0,0,0
+2020-07-21,ZD Murska Sobota (VT),murska_sobota,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,24,38,12,35,0,2,36
+2020-07-21,ZD Murska Sobota (VT),murska_sobota,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,24,38,12,35,0,2,36
+2020-07-21,ZD Nova Gorica,nova_gorica,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,13,5,0,38,1,0,0
+2020-07-21,ZD Nova Gorica,nova_gorica,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,13,5,0,38,1,0,0
+2020-07-21,ZD Novo mesto,novo_mesto,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,8,1,1,0,0,1,0
+2020-07-21,ZD Novo mesto,novo_mesto,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,8,1,1,0,0,1,0
+2020-07-21,ZD Ormož,ormož,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,31,0,1,0,0,0,1
+2020-07-21,ZD Ormož,ormož,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,31,0,1,0,0,0,1
+2020-07-21,ZD Ptuj,ptuj,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,43,7,0,7,0,0,7
+2020-07-21,ZD Ptuj,ptuj,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,43,7,0,7,0,0,7
+2020-07-21,ZD Radeče,radeče,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,0,0,0,0,0,0,0
+2020-07-21,ZD Radeče,radeče,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,0,0,0,0,0,0,0
+2020-07-21,ZD Radlje ob Dravi,radlje_ob_dravi,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,24,2,0,2,1,0,1
+2020-07-21,ZD Radlje ob Dravi,radlje_ob_dravi,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,24,2,0,2,1,0,1
+2020-07-21,ZD Radovljica,radovljica,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,26,7,1,5,0,1,8
+2020-07-21,ZD Radovljica,radovljica,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,26,7,1,5,0,1,8
+2020-07-21,ZD Ravne na Koroškem,ravne_na_koroškem,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,10,1,0,1,0,0,1
+2020-07-21,ZD Ravne na Koroškem,ravne_na_koroškem,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,10,1,0,1,0,0,1
+2020-07-21,ZD Ribnica,ribnica,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,12,0,0,4,0,0,4
+2020-07-21,ZD Ribnica,ribnica,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,12,0,0,4,0,0,4
+2020-07-21,ZD Sevnica,sevnica,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,30,9,3,8,0,0,8
+2020-07-21,ZD Sevnica,sevnica,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,30,9,3,8,0,0,8
+2020-07-21,ZD Sežana,sežana,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,29,0,4,0,0,0,0
+2020-07-21,ZD Sežana,sežana,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,29,0,4,0,0,0,0
+2020-07-21,ZD Slovenj Gradec,slovenj_gradec,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,14,1,0,1,0,0,0
+2020-07-21,ZD Slovenj Gradec,slovenj_gradec,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,14,1,0,1,0,0,0
+2020-07-21,ZD Slovenska Bistrica,slovenska_bistrica,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,30,2,0,0,0,0,0
+2020-07-21,ZD Slovenska Bistrica,slovenska_bistrica,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,30,2,0,0,0,0,0
+2020-07-21,ZD Slovenske Konjice,slovenske_konjice,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,13,1,0,4,0,0,0
+2020-07-21,ZD Slovenske Konjice,slovenske_konjice,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,13,1,0,4,0,0,0
+2020-07-21,ZD Tolmin,tolmin,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,85,0,0,9,0,0,9
+2020-07-21,ZD Tolmin,tolmin,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,85,0,0,9,0,0,9
+2020-07-21,ZD Trbovlje VT,trbovlje,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,29,3,1,10,0,1,10
+2020-07-21,ZD Trbovlje VT,trbovlje,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,29,3,1,10,0,1,10
+2020-07-21,ZD Trebnje,trebnje,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,22,0,0,7,0,0,0
+2020-07-21,ZD Trebnje,trebnje,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,22,0,0,7,0,0,0
+2020-07-21,ZD Velenje,velenje,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,5,2,0,39,3,0,39
+2020-07-21,ZD Velenje,velenje,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,5,2,0,39,3,0,39
+2020-07-21,ZD Vrhnika,vrhnika,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,8,0,0,0,0,0,0
+2020-07-21,ZD Vrhnika,vrhnika,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,8,0,0,0,0,0,0
+2020-07-21,ZD Zagorje,zagorje_ob_savi,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,11,1,2,4,0,0,3
+2020-07-21,ZD Zagorje,zagorje_ob_savi,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,11,1,2,4,0,0,3
+2020-07-21,ZD dr. Adolfa Drolca Maribor,maribor,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,110,13,5,51,0,0,5
+2020-07-21,ZD dr. Adolfa Drolca Maribor,maribor,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,110,13,5,51,0,0,5
+2020-07-21,ZD dr. Božidarja Lavriča - Cerknica,cerknica,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,3,0,8,0,0,0,0
+2020-07-21,ZD dr. Božidarja Lavriča - Cerknica,cerknica,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,3,0,8,0,0,0,0
+2020-07-21,ZD dr. Franca Ambrožiča Postojna,postojna,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,27,2,12,15,1,0,2
+2020-07-21,ZD dr. Franca Ambrožiča Postojna,postojna,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,27,2,12,15,1,0,2
+2020-07-21,ZD dr. Jožeta Potrate Žalec,žalec,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,13,2,4,0,0,0,0
+2020-07-21,ZD dr. Jožeta Potrate Žalec,žalec,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,13,2,4,0,0,0,0
+2020-07-21,ZD za študente UNI-LJ,ljubljana_študentski,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,0,0,0,0,0,0,0
+2020-07-21,ZD za študente UNI-LJ,ljubljana_študentski,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,0,0,0,0,0,0,0
+2020-07-21,ZD Črnomelj,črnomelj,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,25,5,16,8,0,0,8
+2020-07-21,ZD Črnomelj,črnomelj,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,25,5,16,8,0,0,8
+2020-07-21,ZD Šentjur,šentjur,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,34,0,0,0,0,2,0
+2020-07-21,ZD Šentjur,šentjur,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,34,0,0,0,0,2,0
+2020-07-21,ZD Škofja loka,škofja_loka,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,23,3,0,3,0,0,0
+2020-07-21,ZD Škofja loka,škofja_loka,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,23,3,0,3,0,0,0
+2020-07-21,ZD Šmarje pri Jelšah,šmarje_pri_jelšah,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,23,6,0,0,0,1,0
+2020-07-21,ZD Šmarje pri Jelšah,šmarje_pri_jelšah,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,23,6,0,0,0,1,0
+2020-07-21,ZRCK,zrck,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,16,0,1,0,0,0,0
+2020-07-21,ZRCK,zrck,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,16,0,1,0,0,0,0
+2020-07-21,Zgornjesavinjski zdravstveni dom Nazarje,nazarje,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (de7585c7).xlsx,0,0,0,0,0,0,0
+2020-07-21,Zgornjesavinjski zdravstveni dom Nazarje,nazarje,"<Worksheet ""query"">",Poročilo_ZD_22.7.2020 (4180b921).xlsx,0,0,0,0,0,0,0

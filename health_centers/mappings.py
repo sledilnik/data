@@ -33,6 +33,7 @@ name = {  # sorted by value
     'Zdravstveni dom za študente Univerze v Ljubljani': 'ljubljana_študentski',
     'Zdravstveni dom za študente UL': 'ljubljana_študentski',
     'Zdravstveni dom za študente': 'ljubljana_študentski',
+    'ZD za študente UNI-LJ': 'ljubljana_študentski',
     'SŽ - Železniški zdravstveni dom Ljubljana': 'ljubljana_sž',
     'Zdravstveni dom Ljutomer': 'ljutomer',
     'Zdravstveni dom Logatec': 'logatec',
