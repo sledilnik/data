@@ -21,6 +21,7 @@ RANGE_SAFETY_MEASURES = "Ukrepi!A2:ZZ"
 RANGE_DSO = "DSO!A3:ZZ"
 RANGE_DECEASED_REGIONS = "Umrli:Kraji!A1:ZZ"
 RANGE_ACTIVE_REGIONS = "Aktivni:Kraji!A1:ZZ"
+RANGE_STATS_WEEKLY = "EPI:vir!A3:ZZ"
 
 GOOGLE_API_KEY = os.environ["GOOGLE_API_KEY"]
 
@@ -44,6 +45,7 @@ def key_mapper_kraji(values):
   return keys, values[2:]
 
 def import_sheet(update_time, range, filename, **kwargs):
+    print("Processing", filename)
     pathlib.Path(os.path.dirname(filename)).mkdir(parents=True, exist_ok=True)
     old_hash = sha1sum(filename)
     try:
@@ -58,6 +60,7 @@ def import_sheet(update_time, range, filename, **kwargs):
 
 def computeMunicipalities(update_time):
     filename = 'csv/municipality.csv'
+    print("Processing", filename)
     old_hash = sha1sum(filename)
     dfRegions = pd.read_csv('csv/regions.csv', index_col='date') 
     dfActive = pd.read_csv('csv/active-regions.csv', index_col='date')
@@ -76,12 +79,13 @@ def computeMunicipalities(update_time):
 if __name__ == "__main__":
     update_time = int(time.time())
     import_sheet(update_time, RANGE_STATS, "csv/stats.csv")
+    import_sheet(update_time, RANGE_STATS_WEEKLY, "csv/stats-weekly.csv")
     import_sheet(update_time, RANGE_PATIENTS, "csv/patients.csv")
     import_sheet(update_time, RANGE_HOSPITALS, "csv/hospitals.csv")
     import_sheet(update_time, RANGE_ICU, "csv/icu.csv")
-    import_sheet(update_time, RANGE_REGIONS, "csv/regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
-    import_sheet(update_time, RANGE_SAFETY_MEASURES, "csv/safety_measures.csv")
     import_sheet(update_time, RANGE_DSO, "csv/retirement_homes.csv")
-    import_sheet(update_time, RANGE_DECEASED_REGIONS, "csv/deceased-regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
+    import_sheet(update_time, RANGE_SAFETY_MEASURES, "csv/safety_measures.csv")
+    import_sheet(update_time, RANGE_REGIONS, "csv/regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
     import_sheet(update_time, RANGE_ACTIVE_REGIONS, "csv/active-regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
+    import_sheet(update_time, RANGE_DECEASED_REGIONS, "csv/deceased-regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
     computeMunicipalities(update_time)
