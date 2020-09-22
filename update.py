@@ -19,6 +19,7 @@ RANGE_HOSPITALS = "Zdr.sistem!A3:ZZ"
 RANGE_ICU = "ICU!A3:ZZ"
 RANGE_SAFETY_MEASURES = "Ukrepi!A2:ZZ"
 RANGE_DSO = "DSO!A3:ZZ"
+RANGE_SCHOOLS = "Šole!A3:ZZ"
 RANGE_DECEASED_REGIONS = "Umrli:Kraji!A1:ZZ"
 RANGE_ACTIVE_REGIONS = "Aktivni:Kraji!A1:ZZ"
 RANGE_STATS_WEEKLY = "EPI:vir!A3:ZZ"
@@ -84,6 +85,7 @@ if __name__ == "__main__":
     import_sheet(update_time, RANGE_HOSPITALS, "csv/hospitals.csv")
     import_sheet(update_time, RANGE_ICU, "csv/icu.csv")
     import_sheet(update_time, RANGE_DSO, "csv/retirement_homes.csv")
+    import_sheet(update_time, RANGE_SCHOOLS, "csv/schools.csv")
     import_sheet(update_time, RANGE_SAFETY_MEASURES, "csv/safety_measures.csv")
     import_sheet(update_time, RANGE_REGIONS, "csv/regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
     import_sheet(update_time, RANGE_ACTIVE_REGIONS, "csv/active-regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
