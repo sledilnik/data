@@ -1,4 +1,4 @@
-#,id,name,name_alt,municipality,region,type,occupants,employees,tax-id,url,url-social,geo-latitude,geo-longitude,openstreetmap
+#,id,name,name_alt,municipality,region,type,occupants,employees,tax-id,url,url-social,geo-longitude,geo-latitude,openstreetmap
 1,spj,Dom upokojencev Šmarje pri Jelšah,Šmarje pri Jelšah,Šmarje pri Jelšah,CE,J,214,122,91348030,http://dusmarje.si/,https://www.facebook.com/dusmarje.si/,"46,2271300","15,5173300",https://www.openstreetmap.org/way/374134232
 2,met,Dom starejših občanov Metlika,Metlika,Metlika,NM,J,172,98,32589948,http://www.dso-metlika.si/,https://www.facebook.com/dsometlika/,"45,6448945","15,3112249",https://www.openstreetmap.org/way/780930980
 3,bok,"Dom starejših občanov Ljubljana Vič-Rudnik, matična enota Bokalci",Ljubljana-Vič-Rudnik,Ljubljana,LJ,J,378,215,36355992,https://www.dso-vic.si/,https://www.facebook.com/dsoljubljana/,"46,0510820","14,4480660",
@@ -8,7 +8,7 @@
 7,sto,"Dom Lipa Celje, Dom Štore",Štore,Štore,CE,Z,124,71,28894677,http://www.domlipa.si/,https://www.facebook.com/domlipa.si/,"46,2217780","15,3120670",
 8,trn,"DEOS Ljubljana, PE Center starejših Trnovo",Ljubljana-Trnovo,Ljubljana,LJ,Z,150,86,17727332,https://www.deos.si/trnovo,,"46,0402016","14,4989270",https://www.openstreetmap.org/way/250766072
 9,ljt,Dom starejših Ljutomer,Ljutomer,Ljutomer,MS,J,155,88,30529999,http://www.dso-ljutomer.si/,https://www.facebook.com/dsoljutomer/,"46,5207876","16,1936330",https://www.openstreetmap.org/way/353368202
-10,tkp,Talita kum zavod Postojna,Postojna-Talita kum zavod,Postojna,KP,Z,40,23,23057998,https://www.talitakum.si/,,"45,7774290","14,2160670",
+10,tkp,Talita kum zavod Postojna,Postojna-Talita kum,Postojna,KP,Z,40,23,23057998,https://www.talitakum.si/,,"45,7774290","14,2160670",
 11,mbd,"IMP, d.d., medgeneracijski center Bistrica, Domžale",Domžale-Bistrica,Domžale,LJ,D,101,58,85364711,http://www.mgc-bistrica.si/,https://www.facebook.com/Mgc-Bistrica-307762100123632/,"46,1380520","14,6026050",
 12,rdl,Dom dr. Janka Benedika Radovljica,Radovljica,Radovljica,KR,J,225,128,79863892,http://www.dom-drjankabenedika.si/,https://www.facebook.com/Dom-drJanka-Benedika-101078688205301/,"46,3429807","14,1802705",https://www.openstreetmap.org/way/352542099
 13,bor,"SVZ Vitadom, PE Dom za starejše Bor, Črni vrh nad Idrijo",Idrija-Črni Vrh,Idrija,LJ,Z,131,75,31897061,https://bor.vitadom.si/,,"45,9241951","14,0516775",https://www.openstreetmap.org/node/3454376917
