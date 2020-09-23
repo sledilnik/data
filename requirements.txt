@@ -1,27 +1,7 @@
 -i https://pypi.org/simple
-cachetools==4.0.0; python_version ~= '3.5'
-certifi==2019.11.28
-chardet==3.0.4
-git+https://github.com/slo-covid-19/sheet2csv.git@a68b82173df2e7ff79dd70b76e5f5360722746a2#egg=sheet2csv
-google-api-core==1.16.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
-google-api-python-client==1.8.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
-google-auth-httplib2==0.0.3
-google-auth-oauthlib==0.4.1
-google-auth==1.11.3; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
-googleapis-common-protos==1.51.0
-httplib2==0.17.0
-idna==2.9; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
+git+https://github.com/slo-covid-19/sheet2csv.git@5608132207744185bcdd04b0260ab48a93fb06cd#egg=sheet2csv
 numpy==1.19.2; python_version >= '3.6'
-oauthlib==3.1.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
 pandas==1.1.2
-protobuf==3.11.3
-pyasn1-modules==0.2.8
-pyasn1==0.4.8
 python-dateutil==2.8.1; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
-pytz==2019.3
-requests-oauthlib==1.3.0
-requests==2.23.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
-rsa==4.0
-six==1.14.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
-uritemplate==3.0.1; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
-urllib3==1.25.8; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4'
+pytz==2020.1
+six==1.15.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
