@@ -9,5 +9,5 @@ verify_ssl = true
 sheet2csv = {git = "https://github.com/slo-covid-19/sheet2csv.git",ref = "master"}
 pandas = "*"
 
-[requires]
-python_version = "3.7"
+[scripts]
+update = "python update.py"
