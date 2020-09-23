@@ -13,7 +13,7 @@ date,municipality,type,school,unit,confirmed,confirmed.attendee,confirmed.employ
 2020-09-04,Črna na Koroškem,OŠ,OŠ Črna na Koroškem,,1,,1,"6 otrok, 8 zaposlenih",https://www.vecer.com/po-okuzbi-zaposlenega-na-os-crna-delo-vrtca-in-sole-bo-jutri-potekalo-nemoteno-10217349,https://www.openstreetmap.org/way/454495011,46.468317,14.855608
 2020-09-04,Slovenska Bistrica,OŠ,OŠ Antona Ingoliča,,0,,,en oddelek,https://www.vecer.com/vceraj-potrdili-25-okuzb-z-novim-koronavirusom-umrl-ni-nihce-10217580,https://www.openstreetmap.org/way/782760251,46.413367,15.636306
 2020-09-04,Kranj,OŠ,OŠ Matije Čopa,,,,2,samo delavki,https://www.osmatijecopa.si/files/2020/09/Sporo%C4%8Dilo-za-javnost.pdf,https://www.openstreetmap.org/way/445075731,46.237565,14.368005
-2020-09-06,Sevnica,Vrtec,Vrtec Sevnica,,1,,1,35 otrok + 5 zaposlenih,https://www.slovenskenovice.si/novice/slovenija/okuzbi-na-osnovni-soli-v-kranju-347052,,,
+2020-09-06,Sevnica,Vrtec,Vrtec Sevnica,,1,,1,35 otrok + 5 zaposlenih,https://www.slovenskenovice.si/novice/slovenija/okuzbi-na-osnovni-soli-v-kranju-347052,,46.012909,15.300602
 2020-09-07,Ljubljana,OŠ,OŠ Koseze,,,,,dva oddelka,https://www.24ur.com/novice/korona/potrdili-novih-primerov-v-karanteni-dva-oddelka-os-koseze.html,https://www.openstreetmap.org/way/248791106,46.074331,14.468674
 2020-09-07,Celje,SŠ,Srednja zdravstvena šola,,1,1,,en oddelek,https://www.vecer.com/vceraj-potrdili-25-okuzb-z-novim-koronavirusom-umrl-ni-nihce-10217580,https://www.openstreetmap.org/way/340875952,46.233563,15.259098
 2020-09-07,Hoče - Slivnica,OŠ,OŠ Franca Lešnika - Vuka,,1,1,,9.b razred,https://www.osflv.si/pomembno-obvestilo/,https://www.openstreetmap.org/way/445757857,46.478082,15.652383
@@ -49,7 +49,7 @@ date,municipality,type,school,unit,confirmed,confirmed.attendee,confirmed.employ
 2020-09-17,Gorje,OŠ,OŠ Gorje,,,,,en razred,https://twitter.com/krek_a/status/1307991410830913536,,46.794244,14.066078
 2020-09-18,Vodice,OŠ,OŠ Vodice,,,,,dva 1. razreda + učiteljici in vzgojiteljici,https://www.os-vodice.si/2020/09/18/covid-19-tudi-na-os-vodice/,,46.185466,14.496062
 2020-09-18,Šentjur,OŠ,OŠ Franja Malgaja,,1,1,,"4.a, 4.b, 5. razred",https://www.fmalgaja.si/?p=15909,,46.220954,15.395331
-2020-09-19,Kočevje,OŠ,OŠ Ob Rinži,POŠ Livold,1,,1,zaprta cela POŠ,http://rinza.splet.arnes.si/files/2020/09/OBVESTILO_za_starse_23.9.2020.pdf,,,
+2020-09-19,Kočevje,OŠ,OŠ Ob Rinži,POŠ Livold,1,,1,zaprta cela POŠ,http://rinza.splet.arnes.si/files/2020/09/OBVESTILO_za_starse_23.9.2020.pdf,,45.630585,14.871543
 2020-09-19,Ljubljana,SŠ,SIC Ljubljana,,1,1,,en oddelek,https://www.siclj.si/obvestila/korona-covid-19-2020/,,46.068657,14.512001
 2020-09-19,Ljubljana,OŠ,OŠ Kašelj,,,,,par učencev in učiteljev,http://www.oskaselj.si/obvestila.html,,46.052865,14.592813
 2020-09-19,Ljubljana,OŠ,OŠ Maksa Pečarja,,2,2,,9.c razred,https://www.makspecar.si/index.php/dogodki/obvestila/9c-do-279-v-karanteni,,46.105174,14.533827
