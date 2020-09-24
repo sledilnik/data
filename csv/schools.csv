@@ -1,60 +1,60 @@
-date,municipality,type,school,unit,confirmed,confirmed.attendee,confirmed.employees,description,source,openstreetmap,geo-longitude,geo-latitude
-2020-08-28,Krško,SŠ,ŠC Krško - Sevnica,,6,,6,6 zaposlenih,https://www.delo.si/novice/slovenija/krsko-profesorji-v-karanteni-344535.html,,45.945255,15.48604
-2020-09-01,Medvode,OŠ,OŠ Preska,,1,1,,dva 4. razreda,https://www.24ur.com/novice/korona/koronavirus-slovenija_3.html,https://www.openstreetmap.org/way/331456950,46.133002,14.410409
-2020-09-01,Kranj,SŠ,Gimnazija Franceta Prešerna,,,,,en oddelek,https://www.24ur.com/novice/korona/potrdili-novih-primerov-v-karanteni-dva-oddelka-os-koseze.html,https://www.openstreetmap.org/relation/6442455,46.252874,14.351175
-2020-09-01,Maribor,SŠ,III. gimnazija,,,,,en oddelek,https://www.24ur.com/novice/korona/okuzbe-z-novim-koronavirusom-na-treh-solah.html,https://www.openstreetmap.org/way/102956939,46.560699,15.641085
-2020-09-01,Maribor,Vrtec,Vrtec Rače,,1,,1,7 zaposlenih,https://www.24ur.com/novice/korona/okuzbe-z-novim-koronavirusom-na-treh-solah.html,https://www.openstreetmap.org/way/399305208,46.45427,15.680207
-2020-09-02,Celje,Vrtec,Vrtec Zarja,Ringa raja,1,,1,5 zaposlenih in 12 otrok,https://www.24ur.com/novice/korona/okuzbe-z-novim-koronavirusom-na-treh-solah.html,https://www.openstreetmap.org/relation/5758642,46.238609,15.26692
-2020-09-03,Rogaška Slatina,OŠ,I. OŠ Rogaška Slatina,,1,,1,kuharica + kuhinjsko osebje,https://www.24ur.com/novice/korona/okuzbe-z-novim-koronavirusom-na-treh-solah.html,https://www.openstreetmap.org/way/374766882,46.230937,15.637547
-2020-09-03,Ljubljana,OŠ,OŠ Danile Kumar,,1,1,,5. razred,https://www.24ur.com/novice/korona/okuzbe-z-novim-koronavirusom-na-treh-solah.html,https://www.openstreetmap.org/relation/4834980,46.087114,14.510781
-2020-09-03,Sevnica,OŠ,OŠ Sava Kladnika,,,,,razred in razredničarka,https://www.24ur.com/novice/korona/okuzbe-z-novim-koronavirusom-na-treh-solah.html,https://www.openstreetmap.org/way/144115451,45.970878,15.349807
-2020-09-04,Braslovče,Vrtec,Vrtec Trnava,,,,,23 zaposlenim pa so odredili karanteno oz. samoizolacijo,https://www.24ur.com/novice/korona/okuzbe-z-novim-koronavirusom-na-treh-solah.html,https://www.openstreetmap.org/way/297975039,46.287351,15.040171
-2020-09-04,Braslovče,OŠ,OŠ Braslovče,POŠ Trnava,4,,4,"3 oddelki, 11 zaposlenih, 9 učencev",https://www.24ur.com/novice/korona/okuzbe-z-novim-koronavirusom-na-treh-solah.html,https://www.openstreetmap.org/way/385559703,46.256283,15.0715
-2020-09-04,Črna na Koroškem,OŠ,OŠ Črna na Koroškem,,1,,1,"6 otrok, 8 zaposlenih",https://www.vecer.com/po-okuzbi-zaposlenega-na-os-crna-delo-vrtca-in-sole-bo-jutri-potekalo-nemoteno-10217349,https://www.openstreetmap.org/way/454495011,46.468317,14.855608
-2020-09-04,Slovenska Bistrica,OŠ,OŠ Antona Ingoliča,,0,,,en oddelek,https://www.vecer.com/vceraj-potrdili-25-okuzb-z-novim-koronavirusom-umrl-ni-nihce-10217580,https://www.openstreetmap.org/way/782760251,46.413367,15.636306
-2020-09-04,Kranj,OŠ,OŠ Matije Čopa,,,,2,samo delavki,https://www.osmatijecopa.si/files/2020/09/Sporo%C4%8Dilo-za-javnost.pdf,https://www.openstreetmap.org/way/445075731,46.237565,14.368005
-2020-09-06,Sevnica,Vrtec,Vrtec Sevnica,,1,,1,35 otrok + 5 zaposlenih,https://www.slovenskenovice.si/novice/slovenija/okuzbi-na-osnovni-soli-v-kranju-347052,,46.012909,15.300602
-2020-09-07,Ljubljana,OŠ,OŠ Koseze,,,,,dva oddelka,https://www.24ur.com/novice/korona/potrdili-novih-primerov-v-karanteni-dva-oddelka-os-koseze.html,https://www.openstreetmap.org/way/248791106,46.074331,14.468674
-2020-09-07,Celje,SŠ,Srednja zdravstvena šola,,1,1,,en oddelek,https://www.vecer.com/vceraj-potrdili-25-okuzb-z-novim-koronavirusom-umrl-ni-nihce-10217580,https://www.openstreetmap.org/way/340875952,46.233563,15.259098
-2020-09-07,Hoče - Slivnica,OŠ,OŠ Franca Lešnika - Vuka,,1,1,,9.b razred,https://www.osflv.si/pomembno-obvestilo/,https://www.openstreetmap.org/way/445757857,46.478082,15.652383
-2020-09-08,Celje,SŠ,Ekonomska šola Celje,,1,1,,en 1. razred,https://www.celje.info/aktualno/celje-vceraj-brez-novih-okuzb-v-karanteni-se-en-razred-celjske-sole/,,46.23326,15.265552
-2020-09-08,Ljubljana,OŠ,OŠ Maksa Pečarja,,1,1,,1. razred,https://www.makspecar.si/index.php/dogodki/obvestila/ucenec-s-koronavirusom-na-nasi-soli,https://www.openstreetmap.org/way/112156965,46.105174,14.533827
-2020-09-08,Braslovče,OŠ,OŠ Braslovče,,12,4,8,"2 oddelka (8.b, 9.b)",https://osbraslovce.si/objava/294271,,46.281597,15.041009
-2020-09-09,Kranj,OŠ,OŠ Matije Čopa,,2,1,1,nekateri učenci 6.a/b/c,https://www.osmatijecopa.si/files/2020/09/Sporo%C4%8Dilo-za-javnost_8_9_2020.pdf,https://www.openstreetmap.org/way/445075731,46.237565,14.368005
-2020-09-09,Kranj,OŠ,OŠ Matije Čopa,,,,,nekateri učenci 6.a/b/c,https://www.osmatijecopa.si/files/2020/09/Sporo%C4%8Dilo-za-javnost_9_9_2020.pdf,https://www.openstreetmap.org/way/445075731,46.237565,14.368005
-2020-09-10,Braslovče,OŠ,OŠ Braslovče,,20,9,11,"2 oddelka (8.a, 7.c)",https://osbraslovce.si/objava/294271,,46.281597,15.041009
-2020-09-11,Idrija,OŠ,OŠ Spodnja Idrija,,1,1,,en 5. razred,https://www.os-spidrija.si/9225-2/,,46.033718,14.022097
-2020-09-11,Ljubljana,SŠ,Gimnazija Antona Aškerca,,1,1,,en razred,https://siol.net/novice/slovenija/razred-okuzenega-na-ljubljanski-gimnaziji-poslan-v-karanterno-le-za-tri-dni-534147,,46.046253,14.499877
-2020-09-11,Kranj,OŠ,OŠ Orehek,,1,1,,9.a razred + učenci 9.razredov,https://www.osorehek.si/obvestilo-za-javnost/,,46.219086,14.364688
-2020-09-11,Maribor,OŠ,OŠ France Prešern,,1,1,,"3 razred, ",https://lokalec.si/novice/okuzen-tretjesolec-razred-mariborske-osnovne-sole-v-karanteni/,https://osm.org/go/0I4HuhPOb?m=&way=151847555,46.550356,15.639542
-2020-09-12,Bled,OŠ,OŠ Bled,,1,1,,en razred,https://www.mojaobcina.si/bled/novice/okuzba-na-blejski-osnovni-soli-en-razred-v-karanteni.html,,46.372735,14.109605
-2020-09-13,Braslovče,OŠ,OŠ Braslovče,,31,17,14,1 oddelek (6.a),https://osbraslovce.si/objava/294271,,46.281597,15.041009
-2020-09-13,Maribor,SŠ,I. Gimnazija,,,,,en razred,https://maribor24.si/lokalno/v-karanteni-razred-prve-gimnazije-maribor,,46.561615,15.648026
-2020-09-15,Celje,SŠ,Gimnazija Lava,,,,,en razred + 10 zaposlenih,https://www.celje.info/aktualno/na-gimnaziji-lava-v-karanteni-en-razred-in-10-zaposlenih-zd-store-brez-dodatnih-okuzb/,,46.235497,15.256834
-2020-09-15,Celje,OŠ,OŠ Frana Kranjca,,3,1,2,trije razredi + 6 zaposlenih,https://www.celje.info/aktualno/na-gimnaziji-lava-v-karanteni-en-razred-in-10-zaposlenih-zd-store-brez-dodatnih-okuzb/,,46.215116,15.261494
-2020-09-15,Pivka,OŠ,OŠ Pivka,,1,,1,"39 učencev, 3 zaposleni",https://www.rtvslo.si/zdravje/novi-koronavirus/zaradi-okuzb-kadrovska-stiska-v-ukc-ju-maribor-odpadajo-tudi-nujne-operacije/536115,,45.683845,14.193554
-2020-09-15,Ljubljana,OŠ,OŠ Ledina,,1,1,,"1 učenec, razredna stopnja",http://www.o-ledina.si/novice/1209,https://osm.org/go/0Ik3V_Cfi?m=,46.053406,14.512531
-2020-09-15,Kotlje,OŠ,"OŠ ""Koroški Jeklarji""",POŠ Kotlje,1,,1,"76 učencev, 8 zaposlenih",https://www.zurnal24.si/slovenija/vsi-ucenci-in-zaposleni-sole-v-karanteni-353373,https://osm.org/go/0IyMwUPaB?m=&way=770774007,46.521051,14.985663
-2020-09-16,Jesenice,SŠ,Gimnazija Jesenice,,1,1,,34 dijakov 4. letnikov,http://www.gorenjskiglas.si/apps/pbcs.dll/article?AID=/20200916/C/200919840/1003/zaradi-covida-19-zivljenje-na-nitki&template=printart,,46.435875,14.060568
-2020-09-16,Lendava,OŠ,DOŠ I Lendava,,1,1,,7. razred,http://lendavainfo.com/primer-okuzbe-z-covid-19-na-dos-i-lendava/,https://osm.org/go/0I6PNGYIR?m=&way=289662512,46.556227,16.459955
-2020-09-16,Kamnik,SŠ,SŠ Rudolfa Maistra,,3,3,,Dva razreda,https://www.rtvslo.si/zdravje/novi-koronavirus/na-novo-potrjene-104-okuzbe-en-clovek-je-umrl-prvic-vec-kot-1000-aktivno-okuzenih/536300,https://osm.org/go/0IltWujRB?m=&way=177402103,46.221004,14.6113
-2020-09-16,Kamnik,SŠ,CIRIUS,,4,2,2,30 otrok in sedem zaposlenih v karanteni,https://www.rtvslo.si/zdravje/novi-koronavirus/na-novo-potrjene-104-okuzbe-en-clovek-je-umrl-prvic-vec-kot-1000-aktivno-okuzenih/536300,https://osm.org/go/0IltcQi1U?m=,46.219538,14.612101
-2020-09-16,Murska Sobota,SŠ,Gimnazija Murska Sobota,,1,1,,en 1.letnik (21 diajkov),https://vestnik.si/clanek/aktualno/del-razred-okuzene-dijakinje-na-murskosoboski-gimnaziji-v-karanteno-810179,,46.660534,16.152144
-2020-09-16,Ravne na Koroškem,SŠ,ŠC Ravne,,1,1,,en oddelek,https://www.koroskenovice.si/novice/okuzba-z-novim-koronavirusom-tudi-v-solskem-centru-ravne/,,46.540886,14.95717
-2020-09-16,Ljubljana,OŠ,OŠ Majde Vrhovnik,,,,,74 učencev,http://www.os-majdevrhovnik.si/?p=3153,,46.048915,14.499318
-2020-09-16,Ljubljana,SŠ,Gimnazija Vič,,,,,4.d razred,obvestilo staršem (Luka),,46.043204,14.48034
-2020-09-17,Ljubljana,OŠ,Waldorfska šola Ljubljana,,1,,1,6.a razred,obvestilo staršem (Luka),,46.048773,14.511999
-2020-09-17,Log - Dragomer,OŠ,OŠ Log - Dragomer,,2,1,1,en oddelek + en oddelek od 21.9.,http://www.osld.si/index.php/2-uncategorised/279-obvestilo-za-starse-in-zaposlene-s-protokolom-ravnanj-v-primeru-okuzbe,,46.013257,14.376489
-2020-09-17,Novo Mesto,SŠ,ŠC Novo mesto,,2,2,,dva oddelka,https://www.dolenjskilist.si/2020/09/16/242066/novice/dolenjska/Sola_tudi_pod_sotorom/,,45.794244,15.158991
-2020-09-17,Gorje,OŠ,OŠ Gorje,,,,,en razred,https://twitter.com/krek_a/status/1307991410830913536,,46.380813,14.066073
-2020-09-18,Vodice,OŠ,OŠ Vodice,,,,,dva 1. razreda + učiteljici in vzgojiteljici,https://www.os-vodice.si/2020/09/18/covid-19-tudi-na-os-vodice/,,46.185466,14.496062
-2020-09-18,Šentjur,OŠ,OŠ Franja Malgaja,,1,1,,"4.a, 4.b, 5. razred",https://www.fmalgaja.si/?p=15909,,46.220954,15.395331
-2020-09-19,Kočevje,OŠ,OŠ Ob Rinži,POŠ Livold,1,,1,zaprta cela POŠ,http://rinza.splet.arnes.si/files/2020/09/OBVESTILO_za_starse_23.9.2020.pdf,,45.630585,14.871543
-2020-09-19,Ljubljana,SŠ,SIC Ljubljana,,1,1,,en oddelek,https://www.siclj.si/obvestila/korona-covid-19-2020/,,46.068657,14.512001
-2020-09-19,Ljubljana,OŠ,OŠ Kašelj,,,,,par učencev in učiteljev,http://www.oskaselj.si/obvestila.html,,46.052865,14.592813
-2020-09-19,Ljubljana,OŠ,OŠ Maksa Pečarja,,2,2,,9.c razred,https://www.makspecar.si/index.php/dogodki/obvestila/9c-do-279-v-karanteni,,46.105174,14.533827
-2020-09-20,Ljubljana,OŠ,OŠ Franceta Bevka,,7,5,2,6 razredov -162 otrok + 8 učiteljev,https://novice.svet24.si/clanek/novice/slovenija/5f686d91a86da/okuzba-tudi-v-bezigrajski-osnovni-soli-okuzena-uciteljica-poucuje-veliko-oddelkov,https://www.rtvslo.si/zdravje/novi-koronavirus/v-nedeljo-50-okuzb-in-984-testov/536664,46.078315,14.507324
-2020-09-20,Ljubljana,Vrtec,Vrtec Pedenjped,Pedenjcarstvo (LJ-Polje),1,1,,18 otrok + 2 vzgojitelja,https://www.rtvslo.si/zdravje/novi-koronavirus/v-karanteni-418-ucencev-v-osnovnih-in-srednjih-solah-pedagoskih-delavcev-in-vrtcevskih-otrok/536664,,46.053574,14.591527
-2020-09-20,Ravne na Koroškem,Vrtec,Vrtec Solzice,,1,,1,20 otrok + 3 zaposlene,https://www.rtvslo.si/zdravje/novi-koronavirus/v-nedeljo-50-okuzb-in-984-testov/536664,,46.54042,14.96735
-2020-09-21,Mežica,OŠ,OŠ Mežica,,1,,1,3 razredi + 3 učiteljice,http://os-mezica.si/2020/09/21/obvestilo-3/,,46.518419,14.85335
-2020-09-21,Ljubljana,OŠ,OŠ Majde Vrhovnik,,,,,74 otrok v karanteni,https://www.rtvslo.si/zdravje/novi-koronavirus/v-karanteni-418-ucencev-v-osnovnih-in-srednjih-solah-pedagoskih-delavcev-in-vrtcevskih-otrok/536664,,46.0489837,14.4971096
+date,date.to,municipality,type,school,unit,confirmed,confirmed.attendee,confirmed.employees,description,source,openstreetmap,geo-longitude,geo-latitude
+2020-08-28,2020-09-06,Krško,SŠ,ŠC Krško - Sevnica,,6,,6,6 zaposlenih,https://www.delo.si/novice/slovenija/krsko-profesorji-v-karanteni-344535.html,,45.945255,15.48604
+2020-09-01,,Medvode,OŠ,OŠ Preska,,1,1,,dva 4. razreda,https://www.24ur.com/novice/korona/koronavirus-slovenija_3.html,https://www.openstreetmap.org/way/331456950,46.133002,14.410409
+2020-09-01,,Kranj,SŠ,Gimnazija Franceta Prešerna,,,,,en oddelek,https://www.24ur.com/novice/korona/potrdili-novih-primerov-v-karanteni-dva-oddelka-os-koseze.html,https://www.openstreetmap.org/relation/6442455,46.252874,14.351175
+2020-09-01,,Maribor,SŠ,III. gimnazija,,,,,en oddelek,https://www.24ur.com/novice/korona/okuzbe-z-novim-koronavirusom-na-treh-solah.html,https://www.openstreetmap.org/way/102956939,46.560699,15.641085
+2020-09-01,,Maribor,Vrtec,Vrtec Rače,,1,,1,7 zaposlenih,https://www.24ur.com/novice/korona/okuzbe-z-novim-koronavirusom-na-treh-solah.html,https://www.openstreetmap.org/way/399305208,46.45427,15.680207
+2020-09-02,,Celje,Vrtec,Vrtec Zarja,Ringa raja,1,,1,5 zaposlenih in 12 otrok,https://www.24ur.com/novice/korona/okuzbe-z-novim-koronavirusom-na-treh-solah.html,https://www.openstreetmap.org/relation/5758642,46.238609,15.26692
+2020-09-03,,Rogaška Slatina,OŠ,I. OŠ Rogaška Slatina,,1,,1,kuharica + kuhinjsko osebje,https://www.24ur.com/novice/korona/okuzbe-z-novim-koronavirusom-na-treh-solah.html,https://www.openstreetmap.org/way/374766882,46.230937,15.637547
+2020-09-03,,Ljubljana,OŠ,OŠ Danile Kumar,,1,1,,5. razred,https://www.24ur.com/novice/korona/okuzbe-z-novim-koronavirusom-na-treh-solah.html,https://www.openstreetmap.org/relation/4834980,46.087114,14.510781
+2020-09-03,,Sevnica,OŠ,OŠ Sava Kladnika,,,,,razred in razredničarka,https://www.24ur.com/novice/korona/okuzbe-z-novim-koronavirusom-na-treh-solah.html,https://www.openstreetmap.org/way/144115451,45.970878,15.349807
+2020-09-04,2020-09-15,Braslovče,Vrtec,Vrtec Trnava,,,,,23 zaposlenim pa so odredili karanteno oz. samoizolacijo,https://www.24ur.com/novice/korona/okuzbe-z-novim-koronavirusom-na-treh-solah.html,https://www.openstreetmap.org/way/297975039,46.287351,15.040171
+2020-09-04,2020-09-15,Braslovče,OŠ,OŠ Braslovče,POŠ Trnava,4,,4,"3 oddelki, 11 zaposlenih, 9 učencev",https://www.24ur.com/novice/korona/okuzbe-z-novim-koronavirusom-na-treh-solah.html,https://www.openstreetmap.org/way/385559703,46.256283,15.0715
+2020-09-04,,Črna na Koroškem,OŠ,OŠ Črna na Koroškem,,1,,1,"6 otrok, 8 zaposlenih",https://www.vecer.com/po-okuzbi-zaposlenega-na-os-crna-delo-vrtca-in-sole-bo-jutri-potekalo-nemoteno-10217349,https://www.openstreetmap.org/way/454495011,46.468317,14.855608
+2020-09-04,,Slovenska Bistrica,OŠ,OŠ Antona Ingoliča,,0,,,en oddelek,https://www.vecer.com/vceraj-potrdili-25-okuzb-z-novim-koronavirusom-umrl-ni-nihce-10217580,https://www.openstreetmap.org/way/782760251,46.413367,15.636306
+2020-09-04,,Kranj,OŠ,OŠ Matije Čopa,,,,2,samo delavki,https://www.osmatijecopa.si/files/2020/09/Sporo%C4%8Dilo-za-javnost.pdf,https://www.openstreetmap.org/way/445075731,46.237565,14.368005
+2020-09-06,,Sevnica,Vrtec,Vrtec Sevnica,,1,,1,35 otrok + 5 zaposlenih,https://www.slovenskenovice.si/novice/slovenija/okuzbi-na-osnovni-soli-v-kranju-347052,,46.012909,15.300602
+2020-09-07,2020-09-15,Ljubljana,OŠ,OŠ Koseze,,,,,dva oddelka,https://www.24ur.com/novice/korona/potrdili-novih-primerov-v-karanteni-dva-oddelka-os-koseze.html,https://www.openstreetmap.org/way/248791106,46.074331,14.468674
+2020-09-07,,Celje,SŠ,Srednja zdravstvena šola,,1,1,,en oddelek,https://www.vecer.com/vceraj-potrdili-25-okuzb-z-novim-koronavirusom-umrl-ni-nihce-10217580,https://www.openstreetmap.org/way/340875952,46.233563,15.259098
+2020-09-07,,Hoče - Slivnica,OŠ,OŠ Franca Lešnika - Vuka,,1,1,,9.b razred,https://www.osflv.si/pomembno-obvestilo/,https://www.openstreetmap.org/way/445757857,46.478082,15.652383
+2020-09-08,,Celje,SŠ,Ekonomska šola Celje,,1,1,,en 1. razred,https://www.celje.info/aktualno/celje-vceraj-brez-novih-okuzb-v-karanteni-se-en-razred-celjske-sole/,,46.23326,15.265552
+2020-09-08,2020-09-20,Ljubljana,OŠ,OŠ Maksa Pečarja,,1,1,,1. razred,https://www.makspecar.si/index.php/dogodki/obvestila/ucenec-s-koronavirusom-na-nasi-soli,https://www.openstreetmap.org/way/112156965,46.105174,14.533827
+2020-09-08,2020-09-17,Braslovče,OŠ,OŠ Braslovče,,12,4,8,"2 oddelka (8.b, 9.b)",https://osbraslovce.si/objava/294271,,46.281597,15.041009
+2020-09-09,2020-09-17,Kranj,OŠ,OŠ Matije Čopa,,2,1,1,nekateri učenci 6.a/b/c,https://www.osmatijecopa.si/files/2020/09/Sporo%C4%8Dilo-za-javnost_8_9_2020.pdf,https://www.openstreetmap.org/way/445075731,46.237565,14.368005
+2020-09-09,2020-09-20,Kranj,OŠ,OŠ Matije Čopa,,,,,nekateri učenci 6.a/b/c,https://www.osmatijecopa.si/files/2020/09/Sporo%C4%8Dilo-za-javnost_9_9_2020.pdf,https://www.openstreetmap.org/way/445075731,46.237565,14.368005
+2020-09-10,2020-09-18,Braslovče,OŠ,OŠ Braslovče,,20,9,11,"2 oddelka (8.a, 7.c)",https://osbraslovce.si/objava/294271,,46.281597,15.041009
+2020-09-11,2020-09-23,Idrija,OŠ,OŠ Spodnja Idrija,,1,1,,en 5. razred,https://www.os-spidrija.si/9225-2/,,46.033718,14.022097
+2020-09-11,2020-09-16,Ljubljana,SŠ,Gimnazija Antona Aškerca,,1,1,,en razred,https://siol.net/novice/slovenija/razred-okuzenega-na-ljubljanski-gimnaziji-poslan-v-karanterno-le-za-tri-dni-534147,,46.046253,14.499877
+2020-09-11,2020-09-22,Kranj,OŠ,OŠ Orehek,,1,1,,9.a razred + učenci 9.razredov,https://www.osorehek.si/obvestilo-za-javnost/,,46.219086,14.364688
+2020-09-11,,Maribor,OŠ,OŠ France Prešern,,1,1,,"3 razred, ",https://lokalec.si/novice/okuzen-tretjesolec-razred-mariborske-osnovne-sole-v-karanteni/,https://osm.org/go/0I4HuhPOb?m=&way=151847555,46.550356,15.639542
+2020-09-12,,Bled,OŠ,OŠ Bled,,1,1,,en razred,https://www.mojaobcina.si/bled/novice/okuzba-na-blejski-osnovni-soli-en-razred-v-karanteni.html,,46.372735,14.109605
+2020-09-13,,Braslovče,OŠ,OŠ Braslovče,,31,17,14,1 oddelek (6.a),https://osbraslovce.si/objava/294271,,46.281597,15.041009
+2020-09-13,,Maribor,SŠ,I. Gimnazija,,,,,en razred,https://maribor24.si/lokalno/v-karanteni-razred-prve-gimnazije-maribor,,46.561615,15.648026
+2020-09-15,,Celje,SŠ,Gimnazija Lava,,,,,en razred + 10 zaposlenih,https://www.celje.info/aktualno/na-gimnaziji-lava-v-karanteni-en-razred-in-10-zaposlenih-zd-store-brez-dodatnih-okuzb/,,46.235497,15.256834
+2020-09-15,,Celje,OŠ,OŠ Frana Kranjca,,3,1,2,trije razredi + 6 zaposlenih,https://www.celje.info/aktualno/na-gimnaziji-lava-v-karanteni-en-razred-in-10-zaposlenih-zd-store-brez-dodatnih-okuzb/,,46.215116,15.261494
+2020-09-15,,Pivka,OŠ,OŠ Pivka,,1,,1,"39 učencev, 3 zaposleni",https://www.rtvslo.si/zdravje/novi-koronavirus/zaradi-okuzb-kadrovska-stiska-v-ukc-ju-maribor-odpadajo-tudi-nujne-operacije/536115,,45.683845,14.193554
+2020-09-15,,Ljubljana,OŠ,OŠ Ledina,,1,1,,"1 učenec, razredna stopnja",http://www.o-ledina.si/novice/1209,https://osm.org/go/0Ik3V_Cfi?m=,46.053406,14.512531
+2020-09-15,2020-09-20,Kotlje,OŠ,"OŠ ""Koroški Jeklarji""",POŠ Kotlje,1,,1,"76 učencev, 8 zaposlenih",https://www.zurnal24.si/slovenija/vsi-ucenci-in-zaposleni-sole-v-karanteni-353373,https://osm.org/go/0IyMwUPaB?m=&way=770774007,46.521051,14.985663
+2020-09-16,,Jesenice,SŠ,Gimnazija Jesenice,,1,1,,34 dijakov 4. letnikov,http://www.gorenjskiglas.si/apps/pbcs.dll/article?AID=/20200916/C/200919840/1003/zaradi-covida-19-zivljenje-na-nitki&template=printart,,46.435875,14.060568
+2020-09-16,2020-09-23,Lendava,OŠ,DOŠ I Lendava,,1,1,,7. razred,http://lendavainfo.com/primer-okuzbe-z-covid-19-na-dos-i-lendava/,https://osm.org/go/0I6PNGYIR?m=&way=289662512,46.556227,16.459955
+2020-09-16,,Kamnik,SŠ,SŠ Rudolfa Maistra,,3,3,,Dva razreda,https://www.rtvslo.si/zdravje/novi-koronavirus/na-novo-potrjene-104-okuzbe-en-clovek-je-umrl-prvic-vec-kot-1000-aktivno-okuzenih/536300,https://osm.org/go/0IltWujRB?m=&way=177402103,46.221004,14.6113
+2020-09-16,,Kamnik,SŠ,CIRIUS,,4,2,2,30 otrok in sedem zaposlenih v karanteni,https://www.rtvslo.si/zdravje/novi-koronavirus/na-novo-potrjene-104-okuzbe-en-clovek-je-umrl-prvic-vec-kot-1000-aktivno-okuzenih/536300,https://osm.org/go/0IltcQi1U?m=,46.219538,14.612101
+2020-09-16,,Murska Sobota,SŠ,Gimnazija Murska Sobota,,1,1,,en 1.letnik (21 diajkov),https://vestnik.si/clanek/aktualno/del-razred-okuzene-dijakinje-na-murskosoboski-gimnaziji-v-karanteno-810179,,46.660534,16.152144
+2020-09-16,,Ravne na Koroškem,SŠ,ŠC Ravne,,1,1,,en oddelek,https://www.koroskenovice.si/novice/okuzba-z-novim-koronavirusom-tudi-v-solskem-centru-ravne/,,46.540886,14.95717
+2020-09-16,,Ljubljana,OŠ,OŠ Majde Vrhovnik,,,,,74 učencev,http://www.os-majdevrhovnik.si/?p=3153,,46.048915,14.499318
+2020-09-16,,Ljubljana,SŠ,Gimnazija Vič,,,,,4.d razred,obvestilo staršem (Luka),,46.043204,14.48034
+2020-09-17,,Ljubljana,OŠ,Waldorfska šola Ljubljana,,1,,1,6.a razred,obvestilo staršem (Luka),,46.048773,14.511999
+2020-09-17,,Log - Dragomer,OŠ,OŠ Log - Dragomer,,2,1,1,en oddelek + en oddelek od 21.9.,http://www.osld.si/index.php/2-uncategorised/279-obvestilo-za-starse-in-zaposlene-s-protokolom-ravnanj-v-primeru-okuzbe,,46.013257,14.376489
+2020-09-17,,Novo Mesto,SŠ,ŠC Novo mesto,,2,2,,dva oddelka,https://www.dolenjskilist.si/2020/09/16/242066/novice/dolenjska/Sola_tudi_pod_sotorom/,,45.794244,15.158991
+2020-09-17,,Gorje,OŠ,OŠ Gorje,,,,,en razred,https://twitter.com/krek_a/status/1307991410830913536,,46.380813,14.066073
+2020-09-18,2020-09-26,Vodice,OŠ,OŠ Vodice,,,,,dva 1. razreda + učiteljici in vzgojiteljici,https://www.os-vodice.si/2020/09/18/covid-19-tudi-na-os-vodice/,,46.185466,14.496062
+2020-09-18,,Šentjur,OŠ,OŠ Franja Malgaja,,1,1,,"4.a, 4.b, 5. razred",https://www.fmalgaja.si/?p=15909,,46.220954,15.395331
+2020-09-19,2020-09-25,Kočevje,OŠ,OŠ Ob Rinži,POŠ Livold,1,,1,zaprta cela POŠ,http://rinza.splet.arnes.si/files/2020/09/OBVESTILO_za_starse_23.9.2020.pdf,,45.630585,14.871543
+2020-09-19,2020-09-25,Ljubljana,SŠ,SIC Ljubljana,,1,1,,en oddelek,https://www.siclj.si/obvestila/korona-covid-19-2020/,,46.068657,14.512001
+2020-09-19,,Ljubljana,OŠ,OŠ Kašelj,,,,,par učencev in učiteljev,http://www.oskaselj.si/obvestila.html,,46.052865,14.592813
+2020-09-19,2020-09-27,Ljubljana,OŠ,OŠ Maksa Pečarja,,2,2,,9.c razred,https://www.makspecar.si/index.php/dogodki/obvestila/9c-do-279-v-karanteni,,46.105174,14.533827
+2020-09-20,,Ljubljana,OŠ,OŠ Franceta Bevka,,7,5,2,6 razredov -162 otrok + 8 učiteljev,https://novice.svet24.si/clanek/novice/slovenija/5f686d91a86da/okuzba-tudi-v-bezigrajski-osnovni-soli-okuzena-uciteljica-poucuje-veliko-oddelkov,https://www.rtvslo.si/zdravje/novi-koronavirus/v-nedeljo-50-okuzb-in-984-testov/536664,46.078315,14.507324
+2020-09-20,,Ljubljana,Vrtec,Vrtec Pedenjped,Pedenjcarstvo (LJ-Polje),1,1,,18 otrok + 2 vzgojitelja,https://www.rtvslo.si/zdravje/novi-koronavirus/v-karanteni-418-ucencev-v-osnovnih-in-srednjih-solah-pedagoskih-delavcev-in-vrtcevskih-otrok/536664,,46.053574,14.591527
+2020-09-20,2020-09-24,Ravne na Koroškem,Vrtec,Vrtec Solzice,,1,,1,20 otrok + 3 zaposlene,https://www.rtvslo.si/zdravje/novi-koronavirus/v-nedeljo-50-okuzb-in-984-testov/536664,,46.54042,14.96735
+2020-09-21,,Mežica,OŠ,OŠ Mežica,,1,,1,3 razredi + 3 učiteljice,http://os-mezica.si/2020/09/21/obvestilo-3/,,46.518419,14.85335
+2020-09-21,,Ljubljana,OŠ,OŠ Majde Vrhovnik,,,,,74 otrok v karanteni,https://www.rtvslo.si/zdravje/novi-koronavirus/v-karanteni-418-ucencev-v-osnovnih-in-srednjih-solah-pedagoskih-delavcev-in-vrtcevskih-otrok/536664,,46.0489837,14.4971096
