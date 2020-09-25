@@ -28,7 +28,7 @@ date,date.to,municipality,type,school,unit,confirmed,confirmed.attendee,confirme
 2020-09-11,2020-09-22,Kranj,OŠ,OŠ Orehek,,1,1,,9.a razred + učenci 9.razredov,https://www.osorehek.si/obvestilo-za-javnost/,,46.219086,14.364688
 2020-09-11,,Maribor,OŠ,OŠ France Prešern,,1,1,,"3 razred, ",https://lokalec.si/novice/okuzen-tretjesolec-razred-mariborske-osnovne-sole-v-karanteni/,https://osm.org/go/0I4HuhPOb?m=&way=151847555,46.550356,15.639542
 2020-09-12,,Bled,OŠ,OŠ Bled,,1,1,,en razred,https://www.mojaobcina.si/bled/novice/okuzba-na-blejski-osnovni-soli-en-razred-v-karanteni.html,,46.372735,14.109605
-2020-09-13,,Braslovče,OŠ,OŠ Braslovče,,31,17,14,1 oddelek (6.a),https://osbraslovce.si/objava/294271,,46.281597,15.041009
+2020-09-13,2020-09-22,Braslovče,OŠ,OŠ Braslovče,,31,17,14,1 oddelek (6.a),https://osbraslovce.si/objava/294271,,46.281597,15.041009
 2020-09-13,,Maribor,SŠ,I. Gimnazija,,,,,en razred,https://maribor24.si/lokalno/v-karanteni-razred-prve-gimnazije-maribor,,46.561615,15.648026
 2020-09-15,,Celje,SŠ,Gimnazija Lava,,,,,en razred + 10 zaposlenih,https://www.celje.info/aktualno/na-gimnaziji-lava-v-karanteni-en-razred-in-10-zaposlenih-zd-store-brez-dodatnih-okuzb/,,46.235497,15.256834
 2020-09-15,,Celje,OŠ,OŠ Frana Kranjca,,3,1,2,trije razredi + 6 zaposlenih,https://www.celje.info/aktualno/na-gimnaziji-lava-v-karanteni-en-razred-in-10-zaposlenih-zd-store-brez-dodatnih-okuzb/,,46.215116,15.261494
@@ -58,3 +58,4 @@ date,date.to,municipality,type,school,unit,confirmed,confirmed.attendee,confirme
 2020-09-20,2020-09-24,Ravne na Koroškem,Vrtec,Vrtec Solzice,,1,,1,20 otrok + 3 zaposlene,https://www.rtvslo.si/zdravje/novi-koronavirus/v-nedeljo-50-okuzb-in-984-testov/536664,,46.54042,14.96735
 2020-09-21,,Mežica,OŠ,OŠ Mežica,,1,,1,3 razredi + 3 učiteljice,http://os-mezica.si/2020/09/21/obvestilo-3/,,46.518419,14.85335
 2020-09-21,,Ljubljana,OŠ,OŠ Majde Vrhovnik,,,,,74 otrok v karanteni,https://www.rtvslo.si/zdravje/novi-koronavirus/v-karanteni-418-ucencev-v-osnovnih-in-srednjih-solah-pedagoskih-delavcev-in-vrtcevskih-otrok/536664,,46.0489837,14.4971096
+2020-09-25,,Hrpelje - Kozina,OŠ,OŠ Dragomirja Benčiča - Brkina,,1,1,0,70 učencev in 5 učiteljev ostane samoinicijativno preventivno doma,https://www.rtvslo.si/zdravje/novi-koronavirus/cetrtek-znova-rekorden-odkrili-vec-kot-190-novih-okuzb/537091,,45.6051253,13.944324
