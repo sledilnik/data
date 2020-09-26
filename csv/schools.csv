@@ -30,9 +30,9 @@ date,date.to,municipality,type,school,unit,confirmed,confirmed.attendee,confirme
 2020-09-12,,Bled,OŠ,OŠ Bled,,1,1,,en razred,https://www.mojaobcina.si/bled/novice/okuzba-na-blejski-osnovni-soli-en-razred-v-karanteni.html,,46.372735,14.109605
 2020-09-13,2020-09-22,Braslovče,OŠ,OŠ Braslovče,,31,17,14,1 oddelek (6.a),https://osbraslovce.si/objava/294271,,46.281597,15.041009
 2020-09-13,,Maribor,SŠ,I. Gimnazija,,,,,en razred,https://maribor24.si/lokalno/v-karanteni-razred-prve-gimnazije-maribor,,46.561615,15.648026
+2020-09-13,,Pivka,OŠ,OŠ Pivka,,2,1,1,"9.b, del 9.a 39 učencev, 3 zaposleni",http://www.os-pivka.si/obvestilo-starsem/,,45.683845,14.193554
 2020-09-15,,Celje,SŠ,Gimnazija Lava,,,,,en razred + 10 zaposlenih,https://www.celje.info/aktualno/na-gimnaziji-lava-v-karanteni-en-razred-in-10-zaposlenih-zd-store-brez-dodatnih-okuzb/,,46.235497,15.256834
-2020-09-15,,Celje,OŠ,OŠ Frana Kranjca,,3,1,2,trije razredi + 6 zaposlenih,https://www.celje.info/aktualno/na-gimnaziji-lava-v-karanteni-en-razred-in-10-zaposlenih-zd-store-brez-dodatnih-okuzb/,,46.215116,15.261494
-2020-09-15,,Pivka,OŠ,OŠ Pivka,,1,,1,"39 učencev, 3 zaposleni",https://www.rtvslo.si/zdravje/novi-koronavirus/zaradi-okuzb-kadrovska-stiska-v-ukc-ju-maribor-odpadajo-tudi-nujne-operacije/536115,,45.683845,14.193554
+2020-09-15,2020-09-20,Celje,OŠ,OŠ Frana Kranjca,,3,1,2,trije razredi + 6 zaposlenih,https://www.os-franakranjca.si/index.php/aktualno/803-obvestilo-okuzbe-s-koronavirusom-14-09-2020,,46.215116,15.261494
 2020-09-15,,Ljubljana,OŠ,OŠ Ledina,,1,1,,"1 učenec, razredna stopnja",http://www.o-ledina.si/novice/1209,https://osm.org/go/0Ik3V_Cfi?m=,46.053406,14.512531
 2020-09-15,2020-09-20,Kotlje,OŠ,"OŠ ""Koroški Jeklarji""",POŠ Kotlje,1,,1,"76 učencev, 8 zaposlenih",https://www.zurnal24.si/slovenija/vsi-ucenci-in-zaposleni-sole-v-karanteni-353373,https://osm.org/go/0IyMwUPaB?m=&way=770774007,46.521051,14.985663
 2020-09-16,,Jesenice,SŠ,Gimnazija Jesenice,,1,1,,34 dijakov 4. letnikov,http://www.gorenjskiglas.si/apps/pbcs.dll/article?AID=/20200916/C/200919840/1003/zaradi-covida-19-zivljenje-na-nitki&template=printart,,46.435875,14.060568
@@ -59,3 +59,8 @@ date,date.to,municipality,type,school,unit,confirmed,confirmed.attendee,confirme
 2020-09-21,,Mežica,OŠ,OŠ Mežica,,1,,1,3 razredi + 3 učiteljice,http://os-mezica.si/2020/09/21/obvestilo-3/,,46.518419,14.85335
 2020-09-21,,Ljubljana,OŠ,OŠ Majde Vrhovnik,,,,,74 otrok v karanteni,https://www.rtvslo.si/zdravje/novi-koronavirus/v-karanteni-418-ucencev-v-osnovnih-in-srednjih-solah-pedagoskih-delavcev-in-vrtcevskih-otrok/536664,,46.0489837,14.4971096
 2020-09-25,,Hrpelje - Kozina,OŠ,OŠ Dragomirja Benčiča - Brkina,,1,1,0,70 učencev in 5 učiteljev ostane samoinicijativno preventivno doma,https://www.rtvslo.si/zdravje/novi-koronavirus/cetrtek-znova-rekorden-odkrili-vec-kot-190-novih-okuzb/537091,,45.6051253,13.944324
+2020-09-18,2020-09-27,Ljubljana,OŠ,OŠ Danile Kumar,,,,,8.razred,http://sl.os-danilekumar.si/,https://www.openstreetmap.org/relation/4834980,46.087114,14.510781
+2020-09-23,2020-10-02,Hoče - Slivnica,Vrtec,OŠ Dušana Flisa,Vrtec Hoče,,,,en oddelek,http://www.os-hoce.si/2020/09/25/34645/,,46.497076,15.645154
+2020-09-18,,Ljubljana,SŠ,Gimnazija Ledina,,,,,dva razreda,https://twitter.com/MarjeticaM/status/1307989265289293825,,46.053699,14.510757
+2020-09-18,2020-09-27,Vransko,Vrtec,OŠ Vransko-Tabor,Vrtec Vransko,4,1,3,dva oddelka,http://www.os-vransko.si/vrtec-vransko,,46.242674,14.949815
+2020-09-25,,Mengeš,Vrtec,Vrtec Mengeš,enota Gobica,,,,en oddelek,http://www.vrtec-menges.com/aktualno/4908.pccms,,46.167832,14.57085
