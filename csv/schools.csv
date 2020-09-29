@@ -27,6 +27,7 @@ date,date.to,municipality,type,school,unit,confirmed,confirmed.attendee,confirme
 2020-09-11,2020-09-16,Ljubljana,SŠ,Gimnazija Antona Aškerca,,1,1,,en razred,https://siol.net/novice/slovenija/razred-okuzenega-na-ljubljanski-gimnaziji-poslan-v-karanterno-le-za-tri-dni-534147,,46.046253,14.499877
 2020-09-11,2020-09-22,Kranj,OŠ,OŠ Orehek,,1,1,,9.a razred + učenci 9.razredov,https://www.osorehek.si/obvestilo-za-javnost/,,46.219086,14.364688
 2020-09-11,,Maribor,OŠ,OŠ France Prešern,,1,1,,"3 razred, ",https://lokalec.si/novice/okuzen-tretjesolec-razred-mariborske-osnovne-sole-v-karanteni/,https://osm.org/go/0I4HuhPOb?m=&way=151847555,46.550356,15.639542
+2020-09-12,,Kranj,Vrtec,Kranjski vrtci,enota Janina,1,,1,dva oddelka,http://www.kranjski-vrtci.si/vrtec/okuzba-s-covid-19-v-enoti-janina/,,46.248328,14.35792
 2020-09-12,,Bled,OŠ,OŠ Bled,,1,1,,en razred,https://www.mojaobcina.si/bled/novice/okuzba-na-blejski-osnovni-soli-en-razred-v-karanteni.html,,46.372735,14.109605
 2020-09-13,2020-09-22,Braslovče,OŠ,OŠ Braslovče,,31,17,14,1 oddelek (6.a),https://osbraslovce.si/objava/294271,,46.281597,15.041009
 2020-09-13,,Maribor,SŠ,I. Gimnazija,,,,,en razred,https://maribor24.si/lokalno/v-karanteni-razred-prve-gimnazije-maribor,,46.561615,15.648026
@@ -52,6 +53,7 @@ date,date.to,municipality,type,school,unit,confirmed,confirmed.attendee,confirme
 2020-09-18,2020-09-27,Ljubljana,OŠ,OŠ Danile Kumar,,,,,8.razred,http://sl.os-danilekumar.si/,https://www.openstreetmap.org/relation/4834980,46.087114,14.510781
 2020-09-18,,Ljubljana,SŠ,Gimnazija Ledina,,,,,dva razreda,https://twitter.com/MarjeticaM/status/1307989265289293825,,46.053699,14.510757
 2020-09-18,2020-09-27,Vransko,Vrtec,OŠ Vransko-Tabor,Vrtec Vransko,4,1,3,dva oddelka,http://www.os-vransko.si/vrtec-vransko,,46.242674,14.949815
+2020-09-18,2020-09-27,Hrpelje - Kozina,OŠ,OŠ Dragomirja Benčiča - Brkina,,2,1,1,70 učencev in 5 učiteljev ostane samoinicijativno preventivno doma,https://www.rtvslo.si/zdravje/novi-koronavirus/cetrtek-znova-rekorden-odkrili-vec-kot-190-novih-okuzb/537091,,45.6051253,13.944324
 2020-09-19,2020-09-25,Kočevje,OŠ,OŠ Ob Rinži,POŠ Livold,1,,1,zaprta cela POŠ,http://rinza.splet.arnes.si/files/2020/09/OBVESTILO_za_starse_23.9.2020.pdf,,45.630585,14.871543
 2020-09-19,2020-09-25,Ljubljana,SŠ,SIC Ljubljana,,1,1,,en oddelek,https://www.siclj.si/obvestila/korona-covid-19-2020/,,46.068657,14.512001
 2020-09-19,,Ljubljana,OŠ,OŠ Kašelj,,,,,par učencev in učiteljev,http://www.oskaselj.si/obvestila.html,,46.052865,14.592813
@@ -63,9 +65,12 @@ date,date.to,municipality,type,school,unit,confirmed,confirmed.attendee,confirme
 2020-09-21,,Ljubljana,OŠ,OŠ Majde Vrhovnik,,,,,74 otrok v karanteni,https://www.rtvslo.si/zdravje/novi-koronavirus/v-karanteni-418-ucencev-v-osnovnih-in-srednjih-solah-pedagoskih-delavcev-in-vrtcevskih-otrok/536664,,46.0489837,14.4971096
 2020-09-23,2020-10-02,Hoče - Slivnica,Vrtec,OŠ Dušana Flisa,Vrtec Hoče,,,,en oddelek,http://www.os-hoce.si/2020/09/25/34645/,,46.497076,15.645154
 2020-09-24,,Žirovnica,OŠ,OŠ Žirovnica,,1,1,,en razred in učitelji,http://www.os-zirovnica.si/2020/09/24/7905/,,46.3980041,14.1450655
-2020-09-25,,Hrpelje - Kozina,OŠ,OŠ Dragomirja Benčiča - Brkina,,1,1,0,70 učencev in 5 učiteljev ostane samoinicijativno preventivno doma,https://www.rtvslo.si/zdravje/novi-koronavirus/cetrtek-znova-rekorden-odkrili-vec-kot-190-novih-okuzb/537091,,45.6051253,13.944324
 2020-09-25,,Mengeš,Vrtec,Vrtec Mengeš,enota Gobica,,,,en oddelek,http://www.vrtec-menges.com/aktualno/4908.pccms,,46.167832,14.57085
 2020-09-25,2020-09-30,Ljubljana,OŠ,Waldorfska šola Ljubljana,,2,,2,8.b razred,obvestilo staršem (Luka),,46.048773,14.511999
 2020-09-25,2020-10-01,Ljubljana,OŠ,Waldorfska šola Ljubljana,,2,,2,2.b razred,obvestilo staršem (Luka),,46.048773,14.511999
-2020-09-26,,Sevnica,Vrtec,Ciciban. Sevnica,,2,,2,S uslužbenca pozitivna. Kolege v karanteni,https://www.eposavje.com/ostale-novice/covid-19-potrjena-primera-v-sevniskem-vrtcu,,46.0124452,15.3008024
+2020-09-25,2020-09-30,Gornja Radgona,OŠ,OŠ Gornja Radgona,,1,1,,6.a razred,https://www.gros-radgona.si/2020/09/25/prvi-primer-okuzbe-s-koronavirusom-med-ucenci/,,46.674022,15.990487
+2020-09-25,,Ljubljana,SŠ,SŠ tehniških strok Šiška,,2,2,,en oddelek,https://www.ssts.si/obvestilo-starsem/,,46.081518,14.491328
+2020-09-26,,Sevnica,Vrtec,Vrtec Ciciban,,2,,2,Kolegi v karanteni,https://www.eposavje.com/ostale-novice/covid-19-potrjena-primera-v-sevniskem-vrtcu,,46.0124452,15.3008024
 2020-09-27,2020-10-04,Murska Sobota,OŠ,OŠ I. Murska Sobota,,1,1,,dva 1. razreda,https://sobotainfo.com/novica/lokalno/zaradi-okuzbe-prvosolca-v-karanteni-dva-oddelka-osnovne-sole-i-v-murski-soboti,,46.661268,16.155669
+2020-09-27,,Brežice,OŠ,OŠ Velika dolina,,1,,1,dva zaposlena v karanteni,https://www.osvelikadolina.si/2020/09/27/obvestilo-27-9-2020/,,45.852909,15.663846
+2020-09-29,,Ljubljana,OŠ,OŠ Prule,,1,,1,Celotno kuhinjsko osebje,https://www.osprule.si/author/osnovnasola-pruleosprule-si/,,46.042194,14.509383
