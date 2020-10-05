@@ -71,7 +71,7 @@ date,date.to,municipality,type,school,unit,confirmed,confirmed.attendee,confirme
 2020-09-25,2020-10-01,Ljubljana,OŠ,Waldorfska šola Ljubljana,,2,,2,2.b razred,obvestilo staršem (LukaR),,46.048773,14.511999
 2020-09-25,2020-09-30,Gornja Radgona,OŠ,OŠ Gornja Radgona,,1,1,,6.a razred,https://www.gros-radgona.si/2020/09/25/prvi-primer-okuzbe-s-koronavirusom-med-ucenci/,,46.674022,15.990487
 2020-09-25,,Ljubljana,SŠ,SŠ tehniških strok Šiška,,2,2,,en oddelek,https://www.ssts.si/obvestilo-starsem/,,46.081518,14.491328
-2020-09-25,2020-10-05,Ljubljana,OŠ,OŠ Kašelj,,,,,1 razred - 28.9.2020 - 1.10.2020. Nato zaradi novega primera v istem razredu podaljšano do 5.10.2020,http://www.oskaselj.si/obvestila.html,,46.052865,14.592813
+2020-09-25,2020-10-05,Ljubljana,OŠ,OŠ Kašelj,,1,1,,1 razred - 28.9.2020 - 1.10.2020. Nato zaradi novega primera v istem razredu podaljšano do 5.10.2020,http://www.oskaselj.si/obvestila.html,,46.052865,14.592813
 2020-09-26,,Sevnica,Vrtec,Vrtec Ciciban,,2,,2,Kolegi v karanteni,https://www.eposavje.com/ostale-novice/covid-19-potrjena-primera-v-sevniskem-vrtcu,,46.0124452,15.3008024
 2020-09-27,2020-10-04,Murska Sobota,OŠ,OŠ I. Murska Sobota,,1,1,,dva 1. razreda,https://sobotainfo.com/novica/lokalno/zaradi-okuzbe-prvosolca-v-karanteni-dva-oddelka-osnovne-sole-i-v-murski-soboti,,46.661268,16.155669
 2020-09-27,,Brežice,OŠ,OŠ Velika dolina,,1,,1,dva zaposlena v karanteni,https://www.osvelikadolina.si/2020/09/27/obvestilo-27-9-2020/,,45.852909,15.663846
@@ -80,9 +80,10 @@ date,date.to,municipality,type,school,unit,confirmed,confirmed.attendee,confirme
 2020-09-30,,Rogaška Slatina,Vrtec,Vrtec Rogaška Slatina,Studenček v Kostrivnici,1,,1,V karanteni 6 otrok in dve strokovni sodelavki ,https://kozjansko.info/2020/09/okuzena-zaposlena-v-vrtcu-studencek-v-kostrivnici/,,46.2628178,15.5905168
 2020-09-30,,Zagorje ob Savi,OŠ,OŠ Izlake,,,,,en 9.razred,https://twitter.com/Katja26408974/status/1311406231404392453,,46.1550069,14.9280254
 2020-09-30,,Sevnica,Vrtec,OŠ Krmelj,Vrtec,1,,1,"1 strokovna sodelavka okužena, X otrok in Y sodelavcev odrejena karamtena",https://www.oskrmelj.si/2020/09/30/obvestilo-za-javnost/,,45.9902648,15.1847637
-2020-10-02,2020-10-08,Ljubljana,Vrtec,Vrtec Vrhovci,"enota Rožnik, skupina Medvedki",,,,en oddelek,preko staršev (Andrazus),,,
-2020-10-02,2020-10-08,Ljubljana,OŠ,OŠ Majde Vrhovnik,,1,1,,dva 9. razreda,https://ljubljanainfo.com/novica/lokalno/na-osnovni-soli-majde-vrhovnik-ucenci-9razreda-v-karanteni/73020,,46.0489837,14.4971096
-2020-10-02,,Ljubljana,Vrtec,Vrtec Galjevica,,1,,1,še 3 sodelavke,https://ljubljanainfo.com/novica/lokalno/koronavirus-okuzbo-potrdili-pri-zaposleni-v-vrtcu-na-rudniku/73150,,,
-2020-10-03,,Koper,SŠ,Gimnazija Koper,,,,,dva okužena,https://www.gimnazija-koper.si/2068,,,
+2020-10-02,2020-10-08,Ljubljana,Vrtec,Vrtec Vrhovci,"enota Rožnik, skupina Medvedki",1,1,,en oddelek,preko staršev (Andrazus),,46.0454964,15.1847637
+2020-10-02,2020-10-08,Ljubljana,OŠ,OŠ Majde Vrhovnik,,1,1,,dva 9. razreda,https://ljubljanainfo.com/novica/lokalno/na-osnovni-soli-majde-vrhovnik-ucenci-9razreda-v-karanteni/73020,,46.0489837,14.4712788
+2020-10-02,,Ljubljana,Vrtec,Vrtec Galjevica,,1,,1,še 3 sodelavke,https://ljubljanainfo.com/novica/lokalno/koronavirus-okuzbo-potrdili-pri-zaposleni-v-vrtcu-na-rudniku/73150,,46.036941,14.5161943
+2020-10-03,,Koper,SŠ,Gimnazija Koper,,2,?,?,dva okužena,https://www.gimnazija-koper.si/2068,,45.548182,13.7301704
 2020-10-05,,Šentjur,OŠ,OŠ Franja Malgaja,,1,1,,"9. B oddelek in učenci 3. skupine (slj, mat, anj) iz 9. A in 9. C",https://www.fmalgaja.si/?p=16331,,46.220954,15.395331
-2020-10-05,,Šentjernej,Vrtec,Vrtec Čebelica Šentjernej,enota Čebelica2,1,,1,oddelek št.8,https://www.vrtec-sentjernej.si/primer-okuzbe-s-covid19-med-zaposlenimi/,,,
+2020-10-05,,Šentjernej,Vrtec,Vrtec Čebelica Šentjernej,enota Čebelica2,1,,1,oddelek št.8,https://www.vrtec-sentjernej.si/primer-okuzbe-s-covid19-med-zaposlenimi/,,45.8447839,15.3371401
+2020-10-05,,Ljubljana,OŠ,OŠ Vič,,1,1,,en 9. razred,https://twitter.com/karfjolca/status/1313116419140313090,,46.042623,14.473209
