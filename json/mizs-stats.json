@@ -1,6 +1,6 @@
 [
   {
-    "Posodobljeno": "06.10.2020 12:48"
+    "Posodobljeno": "06.10.2020 13:45"
   },
   {
     "year": "2020",
@@ -2763,7 +2763,7 @@
       "Osnovna_sola": 4,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 1,
-      "Srednja_sola": 2,
+      "Srednja_sola": 3,
       "Dijaski_dom": 0,
       "Zavodi": 0
     },
@@ -2799,7 +2799,7 @@
       "Osnovna_sola": 45,
       "Osnovna_sola_s_prilagojenim_programom": 1,
       "Glasbena_sola": 5,
-      "Srednja_sola": 37,
+      "Srednja_sola": 38,
       "Dijaski_dom": 1,
       "Zavodi": 1
     },
@@ -2808,7 +2808,7 @@
       "Osnovna_sola": 47,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 8,
-      "Srednja_sola": 8,
+      "Srednja_sola": 9,
       "Dijaski_dom": 2,
       "Zavodi": 2
     },
@@ -2885,7 +2885,7 @@
       "Osnovna_sola": 41,
       "Osnovna_sola_s_prilagojenim_programom": 1,
       "Glasbena_sola": 5,
-      "Srednja_sola": 37,
+      "Srednja_sola": 38,
       "Dijaski_dom": 1,
       "Zavodi": 1
     },
@@ -2894,7 +2894,7 @@
       "Osnovna_sola": 42,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 8,
-      "Srednja_sola": 8,
+      "Srednja_sola": 9,
       "Dijaski_dom": 2,
       "Zavodi": 2
     },
@@ -2932,7 +2932,7 @@
     "day": "05",
     "ucenci_okuzbe_nove": {
       "Vrtec": 1,
-      "Osnovna_sola": 8,
+      "Osnovna_sola": 10,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
       "Srednja_sola": 6,
@@ -2941,10 +2941,10 @@
     },
     "zaposleni_okuzbe_nove": {
       "Vrtec": 4,
-      "Osnovna_sola": 11,
+      "Osnovna_sola": 12,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
-      "Srednja_sola": 1,
+      "Srednja_sola": 2,
       "Dijaski_dom": 0,
       "Zavodi": 0
     },
@@ -2968,19 +2968,19 @@
     },
     "ucenci_okuzbe_aktivne": {
       "Vrtec": 8,
-      "Osnovna_sola": 40,
+      "Osnovna_sola": 42,
       "Osnovna_sola_s_prilagojenim_programom": 1,
       "Glasbena_sola": 5,
-      "Srednja_sola": 40,
+      "Srednja_sola": 41,
       "Dijaski_dom": 1,
       "Zavodi": 1
     },
     "zaposleni_okuzbe_aktivne": {
       "Vrtec": 21,
-      "Osnovna_sola": 49,
+      "Osnovna_sola": 50,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 6,
-      "Srednja_sola": 9,
+      "Srednja_sola": 11,
       "Dijaski_dom": 1,
       "Zavodi": 2
     },
@@ -3021,7 +3021,7 @@
       "Osnovna_sola": 2,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
-      "Srednja_sola": 0,
+      "Srednja_sola": 3,
       "Dijaski_dom": 1,
       "Zavodi": 0
     },
@@ -3039,7 +3039,7 @@
       "Osnovna_sola": 1,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 2,
-      "Srednja_sola": 0,
+      "Srednja_sola": 1,
       "Dijaski_dom": 0,
       "Zavodi": 0
     },
@@ -3048,25 +3048,25 @@
       "Osnovna_sola": 26,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 3,
-      "Srednja_sola": 0,
+      "Srednja_sola": 26,
       "Dijaski_dom": 0,
       "Zavodi": 0
     },
     "ucenci_okuzbe_aktivne": {
       "Vrtec": 6,
-      "Osnovna_sola": 33,
+      "Osnovna_sola": 35,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 4,
-      "Srednja_sola": 39,
+      "Srednja_sola": 43,
       "Dijaski_dom": 2,
       "Zavodi": 1
     },
     "zaposleni_okuzbe_aktivne": {
       "Vrtec": 20,
-      "Osnovna_sola": 48,
+      "Osnovna_sola": 49,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 4,
-      "Srednja_sola": 9,
+      "Srednja_sola": 11,
       "Dijaski_dom": 1,
       "Zavodi": 2
     },
@@ -3075,7 +3075,7 @@
       "Osnovna_sola": 28,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 5,
-      "Srednja_sola": 23,
+      "Srednja_sola": 24,
       "Dijaski_dom": 0,
       "Zavodi": 0
     },
@@ -3084,7 +3084,7 @@
       "Osnovna_sola": 592,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 6,
-      "Srednja_sola": 578,
+      "Srednja_sola": 604,
       "Dijaski_dom": 0,
       "Zavodi": 0
     },
@@ -3093,7 +3093,7 @@
       "Osnovna_sola": 19,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 2,
-      "Srednja_sola": 16,
+      "Srednja_sola": 17,
       "Dijaski_dom": 0,
       "Zavodi": 0
     }
