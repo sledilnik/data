@@ -28,6 +28,7 @@ date,date.to,municipality,type,school,unit,confirmed,confirmed.attendee,confirme
 2020-09-11,2020-09-16,Ljubljana,SŠ,Gimnazija Antona Aškerca,,1,1,,en razred,https://siol.net/novice/slovenija/razred-okuzenega-na-ljubljanski-gimnaziji-poslan-v-karanterno-le-za-tri-dni-534147,,46.046253,14.499877
 2020-09-11,2020-09-22,Kranj,OŠ,OŠ Orehek,,1,1,,9.a razred + učenci 9.razredov,https://www.osorehek.si/obvestilo-za-javnost/,,46.219086,14.364688
 2020-09-11,,Maribor,OŠ,OŠ France Prešern,,1,1,,"3 razred, ",https://lokalec.si/novice/okuzen-tretjesolec-razred-mariborske-osnovne-sole-v-karanteni/,https://osm.org/go/0I4HuhPOb?m=&way=151847555,46.550356,15.639542
+2020-09-11,,Kamnik,OŠ,OŠ Frana Albrehta,,1,1,,nekaj učencev,https://www.os-fa.si/informacija-covid-19-osfa/,,46.225902,14.608674
 2020-09-12,,Kranj,Vrtec,Kranjski vrtci,enota Janina,1,,1,dva oddelka,http://www.kranjski-vrtci.si/vrtec/okuzba-s-covid-19-v-enoti-janina/,,46.248328,14.35792
 2020-09-12,,Bled,OŠ,OŠ Bled,,1,1,,en razred,https://www.mojaobcina.si/bled/novice/okuzba-na-blejski-osnovni-soli-en-razred-v-karanteni.html,,46.372735,14.109605
 2020-09-13,2020-09-22,Braslovče,OŠ,OŠ Braslovče,,31,17,14,1 oddelek (6.a),https://osbraslovce.si/objava/294271,,46.281597,15.041009
@@ -78,20 +79,28 @@ date,date.to,municipality,type,school,unit,confirmed,confirmed.attendee,confirme
 2020-09-27,,Brežice,OŠ,OŠ Velika dolina,,1,,1,dva zaposlena v karanteni,https://www.osvelikadolina.si/2020/09/27/obvestilo-27-9-2020/,,45.852909,15.663846
 2020-09-29,,Ljubljana,OŠ,OŠ Prule,,1,,1,Celotno kuhinjsko osebje,https://www.osprule.si/author/osnovnasola-pruleosprule-si/,,46.042194,14.509383
 2020-09-29,2020-10-09,Maribor,OŠ,OŠ Leona Štuklja,,1,1,,1.a in 1.b razred,preko staršev (MarkoB),,46.540136,15.623968
-2020-09-30,,Rogaška Slatina,Vrtec,Vrtec Rogaška Slatina,Studenček v Kostrivnici,1,,1,V karanteni 6 otrok in dve strokovni sodelavki ,https://kozjansko.info/2020/09/okuzena-zaposlena-v-vrtcu-studencek-v-kostrivnici/,,46.2628178,15.5905168
+2020-09-30,,Rogaška Slatina,Vrtec,Vrtec Rogaška Slatina,Studenček v Kostrivnici,2,,1,V karanteni 6 otrok in dve strokovni sodelavki ,https://kozjansko.info/2020/10/v-os-rogatec-se-situacija-s-koronavirusom-slabsa-v-drzavi-padajo-rekordi/,,46.2628178,15.5905168
 2020-09-30,,Zagorje ob Savi,OŠ,OŠ Ivana Kavčiča Izlake,,1,1,,en 9.razred,http://kum24.si/clanek/novice/5f74786df1684/na-izlaski-soli-okuzena-ucenka,,46.1550069,14.9280254
 2020-09-30,,Sevnica,Vrtec,OŠ Krmelj,Vrtec,1,,1,"1 strokovna sodelavka okužena, X otrok in Y sodelavcev odrejena karamtena",https://www.oskrmelj.si/2020/09/30/obvestilo-za-javnost/,,45.9902648,15.1847637
+2020-10-01,,Kranj,SŠ,Gimnazija Kranj,,1,1,,en oddelek,https://trma.si/nasi-rojaki-po-svetu/virus-na-kranjski-gimnaziji-oddelek-v-karanteni/,,46.242549,14.35275
 2020-10-02,2020-10-08,Ljubljana,Vrtec,Vrtec Vrhovci,"enota Rožnik, skupina Medvedki",1,1,,en oddelek,preko staršev (Andrazus),,46.0454964,15.1847637
 2020-10-02,2020-10-08,Ljubljana,OŠ,OŠ Majde Vrhovnik,,1,1,,dva 9. razreda,https://ljubljanainfo.com/novica/lokalno/na-osnovni-soli-majde-vrhovnik-ucenci-9razreda-v-karanteni/73020,,46.0489837,14.4712788
 2020-10-02,,Ljubljana,Vrtec,Vrtec Galjevica,,1,,1,še 3 sodelavke,https://ljubljanainfo.com/novica/lokalno/koronavirus-okuzbo-potrdili-pri-zaposleni-v-vrtcu-na-rudniku/73150,,46.036941,14.5161943
+2020-10-02,2020-10-08,Brezovica,OŠ,OŠ Preserje,,,,,9.b razred,http://ospreserje.splet.arnes.si/,,45.95427,14.412685
 2020-10-03,,Koper,SŠ,Gimnazija Koper,,2,?,?,dva okužena,https://www.gimnazija-koper.si/2068,,45.548182,13.7301704
 2020-10-04,,Ljubljana,OŠ,Waldorfska šola Ljubljana,,3,,3,en 1. razred,"okužena razredničarka, karantena (LukaR)",,46.048773,14.511999
 2020-10-05,,Šentjur,OŠ,OŠ Franja Malgaja,,1,1,,"9. B oddelek in učenci 3. skupine (slj, mat, anj) iz 9. A in 9. C",https://www.fmalgaja.si/?p=16331,,46.220954,15.395331
 2020-10-05,,Šentjernej,Vrtec,Vrtec Čebelica Šentjernej,enota Čebelica2,1,,1,oddelek št.8,https://www.vrtec-sentjernej.si/primer-okuzbe-s-covid19-med-zaposlenimi/,,45.8447839,15.3371401
 2020-10-05,,Ljubljana,OŠ,OŠ Vič,,1,1,,en 9. razred,https://twitter.com/karfjolca/status/1313116419140313090,,46.042623,14.473209
 2020-10-05,,Vrhnika,OŠ,OŠ Antona Martina Slomška,,1,1,,ni podatka o karanteni,https://www.osams.si/2020/10/05/obvestilo-3/,,45.973354,14.292859
-2020-10-05,,Rogatec,OŠ,OŠ Rogatec,,,,,"2., 3. in 4. razred, cca 60 otrok in 4 učiteljice",preko staršev (vanfranco),,46.238607,15.705321
-2020-10-05,,Rogatec,OŠ,OŠ Rogatec,Vrtec in POŠ Donačka gora,1,,1,56 otrok in 6 zaposlenih,https://kozjansko.info/2020/10/zaradio-potrjene-okuzbe-pri-uciteljici-zaprli-solo-in-vrtec-na-donacki-gori-v-karanteni-tudi-na-maticni-soli/,,46.235399,15.696034
-2020-10-05,2020-10-11,Šentjernej,OŠ,OŠ Šentjernej,,1,1,,7. razred,https://moja-dolenjska.si/na-os-sentjernej-zaradi-okuzbe-v-karanteno-oddelek-7-razreda/,,45.830654,15.305785
+2020-10-05,,Rogatec,Vrtec,OŠ Rogatec,Vrtec in POŠ Donačka gora,1,,1,"2., 3. in 4. razred, cca 60 otrok in 4 učiteljice",https://kozjansko.info/2020/10/v-os-rogatec-se-situacija-s-koronavirusom-slabsa-v-drzavi-padajo-rekordi/,,46.238607,15.705321
+2020-10-05,,Rogatec,OŠ,OŠ Rogatec,,3,,3,56 otrok in 9 zaposlenih,https://kozjansko.info/2020/10/zaradio-potrjene-okuzbe-pri-uciteljici-zaprli-solo-in-vrtec-na-donacki-gori-v-karanteni-tudi-na-maticni-soli/,,46.235399,15.696034
+2020-10-05,2020-10-11,Šentjernej,OŠ,OŠ Šentjernej,,1,1,,7. razred,https://www.os-sentjernej.si/pomembno-obvestilo/,,45.830654,15.305785
 2020-10-05,2020-10-11,Hoče - Slivnica,OŠ,OŠ Dušana Flisa,,,,,en oddelek,http://www.os-hoce.si/category/prispevki/,,46.497105,15.643017
 2020-10-06,2020-10-11,Ljubljana,OŠ,OŠ Riharda Jakopiča,,,,,8.b razred,starši (StefanB),,46.06765,14.489
+2020-10-06,2020-10-12,Zreče,OŠ,OŠ Zreče,,1,1,,en razred,https://novice.si/page/v-katerih-obcinah-na-stajerskem-vceraj-nove-okuzbe-karantena-sola-zrece/,,46.37339,15.387563
+2020-10-07,,Rogatec,Vrtec,OŠ Rogatec,Vrtec in POŠ Donačka gora,2,,2,še ena delavka,https://kozjansko.info/2020/10/v-os-rogatec-se-situacija-s-koronavirusom-slabsa-v-drzavi-padajo-rekordi/,,46.238607,15.705321
+2020-10-07,,Rogatec,OŠ,OŠ Rogatec,,5,,5,Še dva učitelja,https://kozjansko.info/2020/10/v-os-rogatec-se-situacija-s-koronavirusom-slabsa-v-drzavi-padajo-rekordi/,,46.235399,15.696034
+2020-10-07,,Markovci,OŠ,OŠ Markovci,,2,2,,"4.b in 3.b razred, drugi učenci in delavci",https://www.tednik.si/druzba/22539-markovci-v-karanteni-okrog-60-otrok,,46.395216,15.930109
+2020-10-07,,Markovci,OŠ,OŠ Markovci,Vrtec ,3,3,,ena skupina + otroci in vzgojiteljice,https://www.tednik.si/druzba/22539-markovci-v-karanteni-okrog-60-otrok,,46.395216,15.930109
+2020-10-07,2020-10-15,Sveti Jurij ob Ščavnici,OŠ,OŠ Sveti Jurij ob Ščavnici,,1,1,,2.b razred,https://www.os-svjurij.si/2020/10/07/obvestilo-o-prvem-primeru-okuzbe-v-soli/,,46.568484,16.0149619
