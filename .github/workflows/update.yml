@@ -41,7 +41,8 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Check git diff
       run: |
-        ls -la json/*
+        ls -la json/mizs*
+        ls -la csv/mizs*
         git status
         git diff
 
@@ -52,6 +53,6 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'master'
-        commit-message: 'Data update 🤖'
-        files: json/
+        commit-message: 'MIZS Data update 🤖'
+        files: json/mizs* csv/mizs*
         name: Sledilnik data scrape bot 🤖
