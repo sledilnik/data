@@ -5,7 +5,82 @@
 # jq docs: https://stedolan.github.io/jq/
 curl -s http://api.mizs.si/stats/ | jq '.' \
     | tee json/mizs-stats.json \
-    | jq -r 'del( .[0] ) | to_entries[] |
+    | jq -r 'del( .[0] ) | 
+            [   "date",
+
+                "pupils_infected_new.kindergarten",
+                "pupils_infected_new.elementary",
+                "pupils_infected_new.elementary_special",
+                "pupils_infected_new.music",
+                "pupils_infected_new.highscool",
+                "pupils_infected_new.dormitory",
+                "pupils_infected_new.institutions",
+
+                "employees_infected_new.kindergarten",
+                "employees_infected_new.elementary",
+                "employees_infected_new.elementary_special",
+                "employees_infected_new.music",
+                "employees_infected_new.highscool",
+                "employees_infected_new.dormitory",
+                "employees_infected_new.institutions",
+
+                "units_quaranteened_new.kindergarten",
+                "units_quaranteened_new.elementary",
+                "units_quaranteened_new.elementary_special",
+                "units_quaranteened_new.music",
+                "units_quaranteened_new.highscool",
+                "units_quaranteened_new.dormitory",
+                "units_quaranteened_new.institutions",
+
+                "pupils_quaranteened_new.kindergarten",
+                "pupils_quaranteened_new.elementary",
+                "pupils_quaranteened_new.elementary_special",
+                "pupils_quaranteened_new.music",
+                "pupils_quaranteened_new.highscool",
+                "pupils_quaranteened_new.dormitory",
+                "pupils_quaranteened_new.institutions",
+
+                "pupils_infected.kindergarten",
+                "pupils_infected.elementary",
+                "pupils_infected.elementary_special",
+                "pupils_infected.music",
+                "pupils_infected.highscool",
+                "pupils_infected.dormitory",
+                "pupils_infected.institutions",
+
+                "employees_infected.kindergarten",
+                "employees_infected.elementary",
+                "employees_infected.elementary_special",
+                "employees_infected.music",
+                "employees_infected.highscool",
+                "employees_infected.dormitory",
+                "employees_infected.institutions",
+
+                "units_quaranteened.kindergarten",
+                "units_quaranteened.elementary",
+                "units_quaranteened.elementary_special",
+                "units_quaranteened.music",
+                "units_quaranteened.highscool",
+                "units_quaranteened.dormitory",
+                "units_quaranteened.institutions",
+
+                "pupils_quaranteened.kindergarten",
+                "pupils_quaranteened.elementary",
+                "pupils_quaranteened.elementary_special",
+                "pupils_quaranteened.music",
+                "pupils_quaranteened.highscool",
+                "pupils_quaranteened.dormitory",
+                "pupils_quaranteened.institutions",
+
+                "teaching_remote.kindergarten",
+                "teaching_remote.elementary",
+                "teaching_remote.elementary_special",
+                "teaching_remote.music",
+                "teaching_remote.highscool",
+                "teaching_remote.dormitory",
+                "teaching_remote.institutions"
+            ],
+            (to_entries[] |
             [
                 .value.year + "-" + .value.month + "-" + .value.day,
 
@@ -81,5 +156,7 @@ curl -s http://api.mizs.si/stats/ | jq '.' \
                 .value.zavodi_pouk_na_daljavo.Dijaski_dom,
                 .value.zavodi_pouk_na_daljavo.Zavodi
 
-            ] | @csv' \
+            ]) | @csv' \
     > csv/mizs-stats.csv
+
+
