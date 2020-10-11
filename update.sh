@@ -3,7 +3,7 @@
 # Podatki Ministrstva za Izobraževanje Znanost in Šport (MIZŠ) RS
 # API docs at http://api.mizs.si/api_dokumentacija.html
 # jq docs: https://stedolan.github.io/jq/
-curl -s http://api.mizs.si/stats/ | jq '.' \
+curl -s https://api.mizs.si/stats/ | jq '.' \
     | tee json/mizs-stats.json \
     | jq -r 'del( .[0] ) | 
             [   "date",
