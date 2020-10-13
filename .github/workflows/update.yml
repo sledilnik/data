@@ -35,8 +35,8 @@ jobs:
         jq --version
 
     # Runs a single command using the runners shell
-    - name: Run update
-      run: ./update.sh
+    - name: Run MIZŠ update
+      run: ./update-mizs.sh
 
     # Runs a set of commands using the runners shell
     - name: Check git diff
@@ -53,6 +53,6 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'master'
-        commit-message: 'MIZS Data update 🤖'
+        commit-message: 'MIZŠ Data update 🤖'
         files: json/mizs* csv/mizs*
         name: Sledilnik data scrape bot 🤖
