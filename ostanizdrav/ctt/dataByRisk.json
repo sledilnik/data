@@ -2913,7 +2913,7 @@
     "date": "2020-10-11",
     "published": 40,
     "risk": 8,
-    "valid": 7
+    "valid": 8
   },
   {
     "date": "2020-10-12",
@@ -2955,7 +2955,7 @@
     "date": "2020-10-12",
     "published": 20,
     "risk": 6,
-    "valid": 7
+    "valid": 8
   },
   {
     "date": "2020-10-12",
@@ -3003,7 +3003,7 @@
     "date": "2020-10-13",
     "published": 49,
     "risk": 5,
-    "valid": 1
+    "valid": 2
   },
   {
     "date": "2020-10-13",
@@ -3050,12 +3050,12 @@
   },
   {
     "date": "2020-10-14",
-    "published": 2,
+    "published": 3,
     "risk": 5
   },
   {
     "date": "2020-10-14",
-    "published": 1,
+    "published": 2,
     "risk": 6
   },
   {
@@ -3065,7 +3065,7 @@
   },
   {
     "date": "2020-10-14",
-    "published": 3,
+    "published": 4,
     "risk": 8
   }
 ]
