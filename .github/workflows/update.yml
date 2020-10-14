@@ -38,6 +38,10 @@ jobs:
     - name: Run MIZŠ update
       run: ./update-mizs.sh
 
+    # Runs a single command using the runners shell
+    - name: Run OstaniZdrav update
+      run: cd ostanizdrav && ./update-ostanizdrav.sh
+
     # Runs a set of commands using the runners shell
     - name: Check git diff
       run: |
@@ -47,7 +51,7 @@ jobs:
         git diff
 
     # Git commit + push, see https://github.com/github-actions-x/commit
-    - name: Publish changes to git
+    - name: Publish MIZŠ changes to git
       if: github.ref == 'refs/heads/master'
       uses: github-actions-x/commit@v2.6
       with:
@@ -55,4 +59,15 @@ jobs:
         push-branch: 'master'
         commit-message: 'MIZŠ Data update 🤖'
         files: json/mizs* csv/mizs*
+        name: Sledilnik data scrape bot 🤖
+
+    # Git commit + push, see https://github.com/github-actions-x/commit
+    - name: Publish OstaniZdrav changes to git
+      if: github.ref == 'refs/heads/master'
+      uses: github-actions-x/commit@v2.6
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'master'
+        commit-message: 'OstaniZdrav Data update 🤖'
+        files: ostanizdrav/
         name: Sledilnik data scrape bot 🤖
