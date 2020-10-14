@@ -801,7 +801,7 @@
     "average_key_count_per_user": 10,
     "date": "2020-10-14",
     "key_count": 12,
-    "user_count": 8
+    "user_count": 10
   },
   {
     "average_key_count_per_user": 10,
@@ -812,13 +812,19 @@
   {
     "average_key_count_per_user": 10,
     "date": "2020-10-14",
-    "key_count": 2,
-    "user_count": 1
+    "key_count": 5,
+    "user_count": 2
   },
   {
     "average_key_count_per_user": 10,
     "date": "2020-10-14",
-    "key_count": 5,
+    "key_count": 11,
+    "user_count": 2
+  },
+  {
+    "average_key_count_per_user": 10,
+    "date": "2020-10-14",
+    "key_count": 2,
     "user_count": 1
   },
   {
@@ -831,12 +837,6 @@
     "average_key_count_per_user": 10,
     "date": "2020-10-14",
     "key_count": 9,
-    "user_count": 1
-  },
-  {
-    "average_key_count_per_user": 10,
-    "date": "2020-10-14",
-    "key_count": 11,
     "user_count": 1
   },
   {
