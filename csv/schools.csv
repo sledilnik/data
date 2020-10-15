@@ -118,7 +118,7 @@ date,date.to,municipality,type,school,unit,confirmed,confirmed.attendee,confirme
 2020-10-10,,Škofljica,OŠ ,OŠ Škofljica,,,,,"en razred (8.d, tudi 8.e)","Twitter Sledilnik, via DM, novinar. (Marko B)",,45.979294,14.574607
 2020-10-10,2020-10-18,Ptuj,OŠ,OŠ Ljudski Vrt,,1,,1,2c in 4c v karanteno,https://ptujinfo.com/novica/lokalno/okuzba-s-covid-19-potrjena-na-gimnaziji-ptuj-razred-v-karanteni/150131,,46.42878,15.87757
 2020-10-10,2020-10-16,Ljubljana,OŠ ,OŠ Koseze,,1,1,,predmetna stopnja,https://www.oskoseze.si/sl/oddelek-v-karanteni/,,46.074331,14.468674
-2020-10-10,2020-10-18,Kočevje,OŠ,OŠ Zbora odposlancev,,2,1,1,5.c razred,http://www.oszboraodposlancev.si/2020/10/13/okuzbi-na-nasi-soli/,,,
+2020-10-10,2020-10-18,Kočevje,OŠ,OŠ Zbora odposlancev,,2,1,1,5.c razred,http://www.oszboraodposlancev.si/2020/10/13/okuzbi-na-nasi-soli/,,45.63769,14.85782
 2020-10-11,2020-10-17,Radovljca,SŠ,EGSŠ Radovljica,,1,,1,ena uciteljica,https://www.egss.si/index.php/2020/10/11/18640/,,46.342657,14.169746
 2020-10-11,,Sodražica,OŠ ,OŠ Ivana Prijatelja,,1,,1,,http://www.os-sodrazica.si/2020/10/11/novo-obvestilo-starsem-11-10-2020/,,45.763114,14.632685
 2020-10-12,,Ljubljana,SŠ,Gimnazija Vič,,,,,en 4. letnik,informacija od dijakov (LukaR),,46.043204,14.48034
@@ -132,11 +132,14 @@ date,date.to,municipality,type,school,unit,confirmed,confirmed.attendee,confirme
 2020-10-12,,Vodice,Vrtec,Vrtec Škratek Svit,,1,,1,skupine sove in medvedki,https://www.vrtec-vodice.si/pomembno-obvestilo-karantena-se-za-otroke-iz-skupin-sove-in-medvedi-zacne-jutri-13-10-vzrok-je-potrditev-okuzbe-pri-vzgojiteljici-otroci-ostanejo-doma-po-e-posti-boste-od-nijz-prejeli-odlocbo-o/,,46.18401,14.49783
 2020-10-12,,Ljubljana,SŠ,Waldorfska šola Ljubljana,Waldorfska gimnazija,,,,3. letnik,preko dijakov (LukaR),,46.048773,14.511999
 2020-10-12,2020-10-17,Hoče-Slivnica,OŠ,OŠ Dušana Flisa,,0,0,0,ena okužba en oddelek,http://www.os-hoce.si/2020/10/13/obvestilo-2/,,46.497105,15.643017
+2020-10-12,,Kočevje,Vrtec,Vrtec Kočevje,enota Čebelica,1,1,,en oddelek,https://e-utrip.si/novi-pozitivni-primeri-na-covid-19-v-kocevju-dva-razreda-ucencev-in-ena-vrtcevska-skupina-ostali-doma/,,45.6424163,14.8551804
+2020-10-12,,Škofja Loka,OŠ,OŠ Ivana Groharja,Podlubnik,4,1,3,vec uciteljev,http://www.groharca.si/priporocila-za-preprecevanje-sirjenja-virusa-covid-19/,,46.16996,14.2998
 2020-10-13,,Ljubljana,OŠ,OŠ Savsko Naselje,,1,1,,8b karantena,Starši (Kesma),,46.06421,14.52031
 2020-10-13,,Kostanjevica na Krki,OŠ,OŠ Jožeta Gorjupa,,1,1,,4a ,https://www.osgorjup.si/2020/10/13/okuzba-s-covid-19/,,45.84379,15.42335
-2020-10-13,,Novo Mesto,OŠ,OŠ Drska,,1,1,,,http://www.os-drska.si/drska/?p=22787,,,
+2020-10-13,,Novo Mesto,OŠ,OŠ Drska,,1,1,,,http://www.os-drska.si/drska/?p=22787,,45.79432,15.15465
 2020-10-13,,Tišina,OŠ ,OŠ Tišina,,2,2,,2 razreda in dve učiteljici v karamteni,https://mariborinfo.com/novica/lokalno/v-karanteni-skoraj-vsa-sola-pouk-obiskujeta-le-dva-razreda/340101,,46.65562,16.09343
 2020-10-13,,Šalovci,OŠ,OŠ Šalovci,,5,,5,7 razredov,https://mariborinfo.com/novica/lokalno/v-karanteni-skoraj-vsa-sola-pouk-obiskujeta-le-dva-razreda/340101,,46.82213,16.27721
-2020-10-13,,Tržič,Vrtec,Vrteč Tržič,enota Plaček,1,,1,en oddelek,http://www.vrtec-trzic.si/obvestilo-za-starse-enota-palcek/,,,
-2020-10-12,,Kočevje,Vrtec,Vrtec Kočevje,enota Čebelica,1,1,,en oddelek,https://e-utrip.si/novi-pozitivni-primeri-na-covid-19-v-kocevju-dva-razreda-ucencev-in-ena-vrtcevska-skupina-ostali-doma/,,,
-2020-10-12,,Škofja Loga,OŠ,OŠ Ivana Groharja,Podlubnik,4,1,3,vec uciteljev,http://www.groharca.si/priporocila-za-preprecevanje-sirjenja-virusa-covid-19/,,,
+2020-10-13,,Tržič,Vrtec,Vrteč Tržič,enota Plaček,1,,1,en oddelek,http://www.vrtec-trzic.si/obvestilo-za-starse-enota-palcek/,,46.35893,14.2979
+2020-10-14,,Ljutomer,OŠ,OŠ Mala Nedelja,,5,1,4,drugi razred,https://sobotainfo.com/novica/lokalno/nove-okuzbe-na-pomurskih-solah-na-eni-okuzeni-stirje-zaposleni-ucenec-na-drugi,,46.52538,16.05486
+2020-10-14,,Murska Sobota,OŠ,OŠ Krog,,1,,1,,https://sobotainfo.com/novica/lokalno/nove-okuzbe-na-pomurskih-solah-na-eni-okuzeni-stirje-zaposleni-ucenec-na-drugi,,46.63347,16.13779
+2020-10-14,,Črnomelj,Vrtec,Vrtec Otona Župančiča,enota Loka,1,,1,,https://www.vrtec-crnomelj.si/pomembno-obvestilo-za-starse-2/,,45.5651919,15.189649
