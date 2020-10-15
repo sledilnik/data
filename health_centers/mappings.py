@@ -5,6 +5,7 @@ name = {  # sorted by value
     'Zdravstveni dom Bohinj': 'bohinj',
     'Zdravstveni dom Brežice': 'brežice',
     'Zdravstveni dom Celje (podatki pri SB CE)': 'celje',
+    'Bolnišnica Topolšica': 'topolšica_b',
     'SB Celje': 'celje_sb',
     'Sb Celje': 'celje_sb',
     'Celje': 'celje_sb',  # TODO it's not clear it's a hospital, this should be handled differently
@@ -145,6 +146,7 @@ region = {
     'slovenske_konjice': 'ce',
     'šmarje_pri_jelšah': 'ce',
     'tolmin': 'ng',
+    'topolšica_b': 'ce',
     'trbovlje': 'za',
     'trebnje': 'nm',
     'tržič': 'kr',
