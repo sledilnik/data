@@ -315,35 +315,41 @@
     "date": "2020-10-10",
     "published": 282,
     "users_published": 25,
-    "valid": 124
+    "valid": 125
   },
   {
     "date": "2020-10-11",
     "published": 164,
     "users_published": 14,
-    "valid": 115
+    "valid": 116
   },
   {
     "date": "2020-10-12",
     "published": 224,
     "users_published": 20,
-    "valid": 100
+    "valid": 101
   },
   {
     "date": "2020-10-13",
     "published": 317,
     "users_published": 26,
-    "valid": 76
+    "valid": 77
   },
   {
     "date": "2020-10-14",
     "published": 339,
     "users_published": 30,
-    "valid": 48
+    "valid": 49
   },
   {
     "date": "2020-10-15",
     "published": 491,
-    "users_published": 47
+    "users_published": 47,
+    "valid": 1
+  },
+  {
+    "date": "2020-10-16",
+    "published": 6,
+    "users_published": 1
   }
 ]
