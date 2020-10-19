@@ -362,6 +362,12 @@
   {
     "date": "2020-10-18",
     "published": 728,
-    "users_published": 67
+    "users_published": 67,
+    "valid": 1
+  },
+  {
+    "date": "2020-10-19",
+    "published": 1,
+    "users_published": 0
   }
 ]
