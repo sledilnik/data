@@ -1,10 +1,10 @@
 ## How to update health_centers.csv
 ___
 In this folder run:
-1. `python3.7 -m venv venv`
+1. `python3.7 -m venv venv` or `virtualenv -p python3 venv`
 1. `source venv/bin/activate`
-1. `pip install -r requirements.txt`
-1. `python process.py`
+1. `pip install -r ../requirements.txt`
+1. `python process.py` or `python process.py --cached` if you want to work with already downloaded XLS files (dev mode)
 
 
 ## CSV field meaning
