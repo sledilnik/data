@@ -123,7 +123,7 @@ def read_sheets(sheets: typing.List[openpyxl.worksheet.worksheet.Worksheet]):
 @health_centers.utils.timeit
 def get_sheets_hos(files: typing.List[str]):
     sheets = []
-    for f in files.hos:
+    for f in files:
         sheet = get_sheet_hos(xlsx_file=f)
         if sheet is not None:
             sheet.file = f
@@ -134,7 +134,7 @@ def get_sheets_hos(files: typing.List[str]):
 @health_centers.utils.timeit
 def get_sheets_zd(files: typing.List[str]):
     sheets = []
-    for f in files.zd:
+    for f in files:
         sheet = openpyxl.load_workbook(f).active
         sheet.file = f
         sheets.append(sheet)
@@ -144,10 +144,24 @@ def get_sheets_zd(files: typing.List[str]):
 @health_centers.utils.timeit
 def main():
 
-    entities = []
+    cache = health_centers.utils.get_cache()
     files = health_centers.get_files.main()
-    entities.extend(read_sheets(sheets=get_sheets_hos(files=files)))
-    entities.extend(read_sheets(sheets=get_sheets_zd(files=files)))
+    for key in list(cache):  # clear the cache of non-relevant records
+        if key not in files.all:
+            del cache[key]
+
+    to_be_processed_files_hos = [f for f in files.hos if f not in cache]
+    to_be_processed_files_zd = [f for f in files.zd if f not in cache]
+    for f in to_be_processed_files_hos + to_be_processed_files_zd:
+        cache[f] = []  # pre-populate so that we also have filenames with zero information cached
+
+    fresh_entities_hos = read_sheets(sheets=get_sheets_hos(files=to_be_processed_files_hos))
+    fresh_entities_zd = read_sheets(sheets=get_sheets_zd(files=to_be_processed_files_zd))
+    for e in fresh_entities_hos + fresh_entities_zd:
+        cache[e.file].append(e)
+    health_centers.utils.set_cache(cache)
+
+    entities = [e for entities in cache.values() for e in entities]
     entities.sort(key=lambda entity: entity.name)
     entities.sort(key=lambda entity: entity.date)
 
