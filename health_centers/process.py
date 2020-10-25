@@ -6,7 +6,6 @@ repo_root_path = str(pathlib.Path(__file__).parent.absolute().parent)
 if repo_root_path not in sys.path:
     sys.path.append(repo_root_path)
 
-import argparse
 import collections
 import csv
 import datetime
@@ -15,14 +14,14 @@ import os
 import re
 import time
 import typing
+import unicodedata
 
 import openpyxl
 
 import health_centers.dataclass
 import health_centers.get_files
 import health_centers.mappings
-import health_centers.refresh_koofr_cache
-import health_centers.refresh_local_cache
+import health_centers.utils
 
 
 logging.basicConfig(level=logging.INFO)
@@ -38,7 +37,7 @@ def get_sheet_hos(xlsx_file: str):
     for sheet_name in ['Bolnišnice COVID točke', 'Bonišnice COVID točke', 'Bolnišnica COVID točke']:
         if sheet_name in wb.sheetnames:
             return wb[sheet_name]
-    logger.warning(f'{xlsx_file} has no relevant sheet present')
+    logger.debug(f'{xlsx_file} has no relevant sheet present')
 
 
 def read_sheets(sheets: typing.List[openpyxl.worksheet.worksheet.Worksheet]):
@@ -74,7 +73,7 @@ def read_sheets(sheets: typing.List[openpyxl.worksheet.worksheet.Worksheet]):
             if [cell.value for cell in row][:4] == [None, 1, 2, 3]:  # also header
                 continue
             if (
-                row[0].value == None and row[1].value == None or
+                row[0].value is None and row[1].value is None or
                 row[0].value == 'SKUPAJ' or
                 all([cell.value == '' or cell.value is None for cell in row]) or
                 any([isinstance(cell.value, str) and '=SUBTOTAL(' in cell.value for cell in row])
@@ -121,36 +120,34 @@ def read_sheets(sheets: typing.List[openpyxl.worksheet.worksheet.Worksheet]):
     return entities
 
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--cached", action="store_true")  # dev mode
-
-    if not parser.parse_args().cached:
-        logger.info('Refreshing Koofr cache...')
-        health_centers.refresh_koofr_cache.main()
-        logger.info('Waiting for changes to propagate...')
-        time.sleep(10)
-        logger.info('Refreshing local cache...')
-        health_centers.refresh_local_cache.main()
-
-    entities = []
-    files = health_centers.get_files.main()
-
+@health_centers.utils.timeit
+def get_sheets_hos(files: typing.List[str]):
     sheets = []
     for f in files.hos:
         sheet = get_sheet_hos(xlsx_file=f)
         if sheet is not None:
             sheet.file = f
             sheets.append(sheet)
-    entities.extend(read_sheets(sheets=sheets))
+    return sheets
 
+
+@health_centers.utils.timeit
+def get_sheets_zd(files: typing.List[str]):
     sheets = []
     for f in files.zd:
         sheet = openpyxl.load_workbook(f).active
         sheet.file = f
         sheets.append(sheet)
-    entities.extend(read_sheets(sheets=sheets))
+    return sheets
 
+
+@health_centers.utils.timeit
+def main():
+
+    entities = []
+    files = health_centers.get_files.main()
+    entities.extend(read_sheets(sheets=get_sheets_hos(files=files)))
+    entities.extend(read_sheets(sheets=get_sheets_zd(files=files)))
     entities.sort(key=lambda entity: entity.name)
     entities.sort(key=lambda entity: entity.date)
 
@@ -172,7 +169,7 @@ def main():
             if entity.name_key == name_key and entity.date == date:
                 found_entities.append(entity)
         if len(found_entities) == 0:
-            logger.warning(f'No data found for {name_key} {date}')
+            logger.debug(f'No data found for {name_key} {date}')
             return None
         if len(found_entities) > 1:
 
@@ -254,7 +251,8 @@ def main():
                 entity.name,
                 entity.name_key,
                 entity.sheet,
-                entity.file.split('/')[-1],
+                # to ensure standardized output for different operating systems we normalize filenames
+                unicodedata.normalize('NFC', entity.file.split('/')[-1]),
                 entity.numbers.examinations___medical_emergency,
                 entity.numbers.examinations___suspected_covid,
                 entity.numbers.phone_triage___suspected_covid,
@@ -266,4 +264,5 @@ def main():
 
 
 if __name__ == '__main__':
+    logger.info('Starting...')
     main()
