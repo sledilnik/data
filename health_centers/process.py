@@ -14,6 +14,7 @@ import os
 import re
 import time
 import typing
+import unicodedata
 
 import openpyxl
 
@@ -250,7 +251,8 @@ def main():
                 entity.name,
                 entity.name_key,
                 entity.sheet,
-                entity.file.split('/')[-1],
+                # to ensure standardized output for different operating systems we normalize filenames
+                unicodedata.normalize('NFC', entity.file.split('/')[-1]),
                 entity.numbers.examinations___medical_emergency,
                 entity.numbers.examinations___suspected_covid,
                 entity.numbers.phone_triage___suspected_covid,
