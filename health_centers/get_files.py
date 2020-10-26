@@ -30,10 +30,9 @@ def main():
     assert_msg = f'{covid_data_path} does not contain ZD and HOS folders. Have you set the right COVID_DATA_PATH?'
     assert all(folder in os.listdir(covid_data_path) for folder in ['ZD', 'HOS']), assert_msg
 
-    return types.SimpleNamespace(
-        hos=get_files(dir=os.path.join(covid_data_path, 'HOS')),
-        zd=get_files(dir=os.path.join(covid_data_path, 'ZD'))
-    )
+    hos = get_files(dir=os.path.join(covid_data_path, 'HOS'))
+    zd = get_files(dir=os.path.join(covid_data_path, 'ZD'))
+    return types.SimpleNamespace(all=hos + zd, hos=hos, zd=zd)
 
 
 if __name__ == '__main__':
