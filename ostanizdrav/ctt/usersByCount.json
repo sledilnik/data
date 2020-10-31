@@ -1992,22 +1992,28 @@
     "user_count": 1
   },
   {
-    "average_key_count_per_user": 12.166666666666666,
+    "average_key_count_per_user": 11.733333333333333,
     "date": "2020-10-31",
     "key_count": 11,
     "user_count": 1
   },
   {
-    "average_key_count_per_user": 12.166666666666666,
+    "average_key_count_per_user": 11.733333333333333,
     "date": "2020-10-31",
     "key_count": 12,
-    "user_count": 3
+    "user_count": 11
   },
   {
-    "average_key_count_per_user": 12.166666666666666,
+    "average_key_count_per_user": 11.733333333333333,
     "date": "2020-10-31",
     "key_count": 13,
     "user_count": 2
+  },
+  {
+    "average_key_count_per_user": 11.733333333333333,
+    "date": "2020-10-31",
+    "key_count": 7,
+    "user_count": 1
   },
   {
     "date": "2020-08-19",
