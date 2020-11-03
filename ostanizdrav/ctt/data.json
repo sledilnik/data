@@ -452,6 +452,12 @@
   {
     "date": "2020-11-02",
     "published": 1291,
-    "users_published": 113
+    "users_published": 113,
+    "valid": 1
+  },
+  {
+    "date": "2020-11-03",
+    "published": 1,
+    "users_published": 0
   }
 ]
