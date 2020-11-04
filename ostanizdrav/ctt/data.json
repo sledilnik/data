@@ -453,11 +453,17 @@
     "date": "2020-11-02",
     "published": 1291,
     "users_published": 113,
-    "valid": 93
+    "valid": 94
   },
   {
     "date": "2020-11-03",
     "published": 1097,
-    "users_published": 93
+    "users_published": 93,
+    "valid": 1
+  },
+  {
+    "date": "2020-11-04",
+    "published": 2,
+    "users_published": 1
   }
 ]
