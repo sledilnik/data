@@ -470,6 +470,12 @@
   {
     "date": "2020-11-05",
     "published": 1239,
-    "users_published": 104
+    "users_published": 104,
+    "valid": 1
+  },
+  {
+    "date": "2020-11-06",
+    "published": 1,
+    "users_published": 0
   }
 ]
