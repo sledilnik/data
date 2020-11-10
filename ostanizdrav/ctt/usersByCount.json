@@ -2610,15 +2610,27 @@
     "user_count": 1
   },
   {
-    "average_key_count_per_user": 7,
+    "average_key_count_per_user": 11,
     "date": "2020-11-10",
     "key_count": 12,
+    "user_count": 10
+  },
+  {
+    "average_key_count_per_user": 11,
+    "date": "2020-11-10",
+    "key_count": 2,
     "user_count": 1
   },
   {
-    "average_key_count_per_user": 7,
+    "average_key_count_per_user": 11,
     "date": "2020-11-10",
-    "key_count": 2,
+    "key_count": 13,
+    "user_count": 1
+  },
+  {
+    "average_key_count_per_user": 11,
+    "date": "2020-11-10",
+    "key_count": 8,
     "user_count": 1
   },
   {
