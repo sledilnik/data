@@ -2826,16 +2826,22 @@
     "user_count": 1
   },
   {
-    "average_key_count_per_user": 12.4,
+    "average_key_count_per_user": 11.875,
     "date": "2020-11-14",
     "key_count": 12,
-    "user_count": 3
+    "user_count": 21
   },
   {
-    "average_key_count_per_user": 12.4,
+    "average_key_count_per_user": 11.875,
     "date": "2020-11-14",
     "key_count": 13,
     "user_count": 2
+  },
+  {
+    "average_key_count_per_user": 11.875,
+    "date": "2020-11-14",
+    "key_count": 7,
+    "user_count": 1
   },
   {
     "date": "2020-08-19",
