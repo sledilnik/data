@@ -25,6 +25,8 @@ age_groups = [
     "85+",
 ]
 
+age_groups_prefix = [f"age.{x}.todate" for x in age_groups]
+
 
 def dump_epi_tb4(datum=None, *, data_loc="./data", output_dir=None, original_csv=None, new_csv=None,
                  diff_name="diff_log.csv", verbose="WARNING"):
@@ -158,8 +160,8 @@ def dump_epi_tb4(datum=None, *, data_loc="./data", output_dir=None, original_csv
     if not os.path.isfile(xlsx):
         raise FileNotFoundError(f"Unable to find file with datum {input_datum} in its name.")
 
-    age_groups_male = [f"{x}m" for x in age_groups]
-    age_groups_female = [f"{x}f" for x in age_groups]
+    age_groups_male = [f"age.male.{x}.todate" for x in age_groups]
+    age_groups_female = [f"age.female.{x}.todate" for x in age_groups]
 
     custom_column_names = ["datum"]
     custom_column_names.extend(age_groups_male)
@@ -238,7 +240,7 @@ def dump_epi_tb4(datum=None, *, data_loc="./data", output_dir=None, original_csv
     #   - calculate row-wise age group sums (irrespective of gender) of cumulative
     #   sums (10 new variables)
     row_group_sums = []  # row-wise group sums
-    for age_group in age_groups:
+    for age_group in age_groups_prefix:
         tmp_cs = cs.filter(regex=age_group)
         tmp_cs = tmp_cs.sum(axis=1)
         tmp_cs.name = age_group
@@ -266,13 +268,13 @@ def dump_epi_tb4(datum=None, *, data_loc="./data", output_dir=None, original_csv
 
     out = pd.concat([xy.iloc[:, 0], cs, row_group_sums, rowsums_by_gender, grs], axis=1)
 
-    out.to_csv(path_or_buf=str(new_csv), sep="\t", index=False)
+    out.to_csv(path_or_buf=str(new_csv), sep=",", index=False)
     logger.debug(f"Wrote data into {new_csv}.")
 
     # Create a diff report on things that might have changed from the previous data
     # dump.
     if original_csv.exists():
-        xyo = pd.read_csv(original_csv, sep="\t", parse_dates=False)
+        xyo = pd.read_csv(original_csv, sep=",", parse_dates=False)
         ml_orig = pd.melt(xyo, id_vars="datum", var_name="class", value_name="count")
 
         ml_cur = pd.melt(out, id_vars="datum", var_name="class", value_name="count")
