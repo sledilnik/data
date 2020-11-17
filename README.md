@@ -17,6 +17,8 @@ Trigger rebuild at [Travis CI](https://travis-ci.com/github/sledilnik/data)
 
 ## Changelog
 
+### 2020-11-17
+- Added EPI parsing script
 ### 2020-04-28
 - **stats.csv**: rename `cases.active.todate` to `cases.active` [issue #11](https://github.com/sledilnik/data/issues/11)
 
