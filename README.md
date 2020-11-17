@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/sledilnik/data.svg?branch=master)](https://travis-ci.com/sledilnik/data)
+[![Periodic update status](https://github.com/sledilnik/data/workflows/Periodic%20update/badge.svg)](https://github.com/sledilnik/data/actions)
 
 # Slovenia COVID-19 Data Collection - Sledilnik.org
 
