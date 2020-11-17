@@ -465,7 +465,7 @@
     "date": "2020-11-04",
     "published": 1330,
     "users_published": 114,
-    "valid": 973
+    "valid": 974
   },
   {
     "date": "2020-11-05",
@@ -525,17 +525,23 @@
     "date": "2020-11-14",
     "published": 946,
     "users_published": 77,
-    "valid": 92
+    "valid": 93
   },
   {
     "date": "2020-11-15",
     "published": 549,
     "users_published": 45,
-    "valid": 50
+    "valid": 51
   },
   {
     "date": "2020-11-16",
     "published": 582,
-    "users_published": 50
+    "users_published": 50,
+    "valid": 2
+  },
+  {
+    "date": "2020-11-17",
+    "published": 5,
+    "users_published": 2
   }
 ]
