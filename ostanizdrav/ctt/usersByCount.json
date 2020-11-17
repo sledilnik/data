@@ -2964,28 +2964,34 @@
     "user_count": 1
   },
   {
-    "average_key_count_per_user": 8.25,
+    "average_key_count_per_user": 10.666666666666666,
     "date": "2020-11-17",
     "key_count": 1,
     "user_count": 1
   },
   {
-    "average_key_count_per_user": 8.25,
+    "average_key_count_per_user": 10.666666666666666,
     "date": "2020-11-17",
     "key_count": 2,
     "user_count": 1
   },
   {
-    "average_key_count_per_user": 8.25,
+    "average_key_count_per_user": 10.666666666666666,
     "date": "2020-11-17",
     "key_count": 3,
     "user_count": 1
   },
   {
-    "average_key_count_per_user": 8.25,
+    "average_key_count_per_user": 10.666666666666666,
     "date": "2020-11-17",
     "key_count": 12,
-    "user_count": 5
+    "user_count": 16
+  },
+  {
+    "average_key_count_per_user": 10.666666666666666,
+    "date": "2020-11-17",
+    "key_count": 13,
+    "user_count": 2
   },
   {
     "date": "2020-08-19",
