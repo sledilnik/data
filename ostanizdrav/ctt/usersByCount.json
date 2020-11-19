@@ -3072,16 +3072,22 @@
     "user_count": 1
   },
   {
-    "average_key_count_per_user": 11.1,
+    "average_key_count_per_user": 11.695652173913043,
     "date": "2020-11-19",
     "key_count": 12,
-    "user_count": 9
+    "user_count": 20
   },
   {
-    "average_key_count_per_user": 11.1,
+    "average_key_count_per_user": 11.695652173913043,
     "date": "2020-11-19",
     "key_count": 3,
     "user_count": 1
+  },
+  {
+    "average_key_count_per_user": 11.695652173913043,
+    "date": "2020-11-19",
+    "key_count": 13,
+    "user_count": 2
   },
   {
     "date": "2020-08-19",
