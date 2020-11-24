@@ -3312,22 +3312,22 @@
     "user_count": 1
   },
   {
-    "average_key_count_per_user": 11.689655172413794,
+    "average_key_count_per_user": 11.853658536585366,
     "date": "2020-11-24",
     "key_count": 12,
-    "user_count": 24
+    "user_count": 33
   },
   {
-    "average_key_count_per_user": 11.689655172413794,
+    "average_key_count_per_user": 11.853658536585366,
+    "date": "2020-11-24",
+    "key_count": 13,
+    "user_count": 6
+  },
+  {
+    "average_key_count_per_user": 11.853658536585366,
     "date": "2020-11-24",
     "key_count": 6,
     "user_count": 2
-  },
-  {
-    "average_key_count_per_user": 11.689655172413794,
-    "date": "2020-11-24",
-    "key_count": 13,
-    "user_count": 3
   },
   {
     "date": "2020-08-19",
