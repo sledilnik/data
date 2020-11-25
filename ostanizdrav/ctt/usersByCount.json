@@ -3354,28 +3354,34 @@
     "user_count": 2
   },
   {
-    "average_key_count_per_user": 11.419354838709678,
+    "average_key_count_per_user": 11.409090909090908,
     "date": "2020-11-25",
-    "key_count": 12,
-    "user_count": 20
+    "key_count": 1,
+    "user_count": 1
   },
   {
-    "average_key_count_per_user": 11.419354838709678,
+    "average_key_count_per_user": 11.409090909090908,
+    "date": "2020-11-25",
+    "key_count": 12,
+    "user_count": 29
+  },
+  {
+    "average_key_count_per_user": 11.409090909090908,
+    "date": "2020-11-25",
+    "key_count": 13,
+    "user_count": 11
+  },
+  {
+    "average_key_count_per_user": 11.409090909090908,
     "date": "2020-11-25",
     "key_count": 2,
     "user_count": 1
   },
   {
-    "average_key_count_per_user": 11.419354838709678,
+    "average_key_count_per_user": 11.409090909090908,
     "date": "2020-11-25",
     "key_count": 4,
     "user_count": 2
-  },
-  {
-    "average_key_count_per_user": 11.419354838709678,
-    "date": "2020-11-25",
-    "key_count": 13,
-    "user_count": 8
   },
   {
     "date": "2020-08-19",
