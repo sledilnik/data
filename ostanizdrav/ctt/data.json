@@ -590,6 +590,12 @@
   {
     "date": "2020-11-25",
     "published": 1432,
-    "users_published": 116
+    "users_published": 116,
+    "valid": 1
+  },
+  {
+    "date": "2020-11-26",
+    "published": 1,
+    "users_published": 1
   }
 ]
