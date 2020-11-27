@@ -71,8 +71,8 @@ def parse_daily_tests(
         "tests.lab.nlzohmb.positive",
         "tests.lab.nlzohlj.performed",
         "tests.lab.nlzohlj.positive",
-        "tests.lab.golnik.performed",
-        "tests.lab.golnik.positive",
+        "tests.lab.ukg.performed",
+        "tests.lab.ukg.positive",
         "tests.lab.nlzohkp.performed",
         "tests.lab.nlzohkp.positive",
         "tests.lab.nlzohnm.performed",
@@ -211,17 +211,17 @@ def parse_daily_tests(
         "tests.lab.nlzohlj.positive.todate"
     ].cumsum()
 
-    xy["tests.lab.golnik.performed.todate"] = xy["tests.lab.golnik.performed"].fillna(
+    xy["tests.lab.ukg.performed.todate"] = xy["tests.lab.ukg.performed"].fillna(
         value=0
     )
-    xy["tests.lab.golnik.performed.todate"] = xy[
-        "tests.lab.golnik.performed.todate"
+    xy["tests.lab.ukg.performed.todate"] = xy[
+        "tests.lab.ukg.performed.todate"
     ].cumsum()
-    xy["tests.lab.golnik.positive.todate"] = xy["tests.lab.golnik.positive"].fillna(
+    xy["tests.lab.ukg.positive.todate"] = xy["tests.lab.ukg.positive"].fillna(
         value=0
     )
-    xy["tests.lab.golnik.positive.todate"] = xy[
-        "tests.lab.golnik.positive.todate"
+    xy["tests.lab.ukg.positive.todate"] = xy[
+        "tests.lab.ukg.positive.todate"
     ].cumsum()
 
     xy["tests.lab.nlzohkp.performed.todate"] = xy["tests.lab.nlzohkp.performed"].fillna(
@@ -330,10 +330,10 @@ def parse_daily_tests(
             "tests.lab.nlzohlj.performed.todate",
             "tests.lab.nlzohlj.positive",
             "tests.lab.nlzohlj.positive.todate",
-            "tests.lab.golnik.performed",
-            "tests.lab.golnik.performed.todate",
-            "tests.lab.golnik.positive",
-            "tests.lab.golnik.positive.todate",
+            "tests.lab.ukg.performed",
+            "tests.lab.ukg.performed.todate",
+            "tests.lab.ukg.positive",
+            "tests.lab.ukg.positive.todate",
             "tests.lab.nlzohkp.performed",
             "tests.lab.nlzohkp.performed.todate",
             "tests.lab.nlzohkp.positive",
