@@ -48,3 +48,18 @@ To run the script on the latest `.xlsx` file in `path`, do
 ```bash
 python parse_daily_tests.py
 ```
+
+# Testing
+To run tests, you should be located in root folder of the repository. To run all tests do
+
+```bash
+python -m unittest tests.test_lab_data
+```
+
+or 
+
+```bash
+python -m unittest tests.test_lab_data.TestParsingTestsLab.test_default_run
+```
+
+to run only specific tests.
