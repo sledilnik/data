@@ -51,20 +51,20 @@ def parse_daily_tests(
 
     datums = []
     for xlsx in find_xlsxs:
-        find_date = re.search(r"^.*(\d{4}-\d{2}-\d{2})\.xlsx$", str(xlsx))
+        find_date = re.search(r"^.*(\d{4}-\d{1,2}-\d{1,2})\.xlsx$", str(xlsx))
         datums.append(find_date.group(1))
     available_files = pd.DataFrame.from_dict(
-        {"filename": [str(x) for x in find_xlsxs], "datum": datums}
+        {"filename": [str(x) for x in find_xlsxs], "date": datums}
     )
-    available_files["datum"] = pd.to_datetime(available_files["datum"]).dt.date
-    available_files = available_files.sort_values(by="datum", ascending=False)
+    available_files["date"] = pd.to_datetime(available_files["date"]).dt.date
+    available_files = available_files.sort_values(by="date", ascending=False)
     available_files = available_files.loc[0]
     xlsx = available_files["filename"]
 
     logger.info(f"Processing file {xlsx}")
 
     custom_column_names = [
-        "datum",
+        "date",
         "tests.lab.imi.performed",
         "tests.lab.imi.positive",
         "tests.lab.nlzohmb.performed",
@@ -114,7 +114,7 @@ def parse_daily_tests(
 
     # Some dates are invalid and we need to prepare them before parsing.
     for index, value in xy.iterrows():
-        interval = xy.loc[index, "datum"]
+        interval = xy.loc[index, "date"]
 
         if not isinstance(interval, datetime.datetime):
             # Catch any datum with a star at the end.
@@ -122,7 +122,7 @@ def parse_daily_tests(
 
             try:
                 end_datum = datetime.datetime.strptime(interval, "%d.%m.%Y")
-                xy.loc[index, "datum"] = end_datum
+                xy.loc[index, "date"] = end_datum
                 continue
             except ValueError:
                 pass
@@ -130,17 +130,17 @@ def parse_daily_tests(
             try:
                 end_datum = interval.split("-")[1]
                 end_datum = datetime.datetime.strptime(end_datum, "%d.%m.%Y")
-                xy.loc[index, "datum"] = end_datum
+                xy.loc[index, "date"] = end_datum
                 continue
             except IndexError:
                 pass
 
-    xy["datum"] = pd.to_datetime(xy["datum"]).dt.date
+    xy["date"] = pd.to_datetime(xy["date"]).dt.date
 
     # The table comes with dates in the future. Since some cells may be polluted,
     # the easiest thing to do is to remove them using the file datum.
-    xy = xy[xy["datum"] <= available_files["datum"]]
-    logger.warning(f"File truncated to data <= {available_files['datum']}")
+    xy = xy[xy["date"] <= available_files["date"]]
+    logger.warning(f"File truncated to data <= {available_files['date']}")
 
     # Regular tests and national study
     # tests.regular.performed
@@ -305,7 +305,7 @@ def parse_daily_tests(
 
     xy = xy[
         [
-            "datum",
+            "date",
             "tests.performed",
             "tests.performed.todate",
             "tests.positive",

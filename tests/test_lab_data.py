@@ -17,7 +17,7 @@ class TestParsingTestsLab(TestCase):
             output_folder=".",
         )
         xy = pd.read_csv(self.xy_file)
-        self.assertEqual(list(xy.datum)[-1], "2020-11-20")
+        self.assertEqual(list(xy.date)[-1], "2020-11-20")
 
         self.xy_file.unlink()
         self.xy_timestamp.unlink()
@@ -30,7 +30,7 @@ class TestParsingTestsLab(TestCase):
             xlsx="test results 2020-11-19.xlsx",
         )
         xy = pd.read_csv(self.xy_file)
-        self.assertEqual(list(xy.datum)[-1], "2020-11-19")
+        self.assertEqual(list(xy.date)[-1], "2020-11-19")
 
         self.xy_file.unlink()
         self.xy_timestamp.unlink()
