@@ -51,7 +51,7 @@ def parse_daily_tests(
 
     datums = []
     for xlsx in find_xlsxs:
-        find_date = re.search(r"^.*(\d{4}-\d{2}-\d{2})\.xlsx$", str(xlsx))
+        find_date = re.search(r"^.*(\d{4}-\d{1,2}-\d{1,2})\.xlsx$", str(xlsx))
         datums.append(find_date.group(1))
     available_files = pd.DataFrame.from_dict(
         {"filename": [str(x) for x in find_xlsxs], "datum": datums}
