@@ -525,77 +525,83 @@
     "date": "2020-11-14",
     "published": 946,
     "users_published": 77,
-    "valid": 879
+    "valid": 880
   },
   {
     "date": "2020-11-15",
     "published": 549,
     "users_published": 45,
-    "valid": 837
+    "valid": 838
   },
   {
     "date": "2020-11-16",
     "published": 582,
     "users_published": 50,
-    "valid": 801
+    "valid": 802
   },
   {
     "date": "2020-11-17",
     "published": 1274,
     "users_published": 105,
-    "valid": 702
+    "valid": 703
   },
   {
     "date": "2020-11-18",
     "published": 1044,
     "users_published": 86,
-    "valid": 620
+    "valid": 621
   },
   {
     "date": "2020-11-19",
     "published": 1288,
     "users_published": 105,
-    "valid": 514
+    "valid": 515
   },
   {
     "date": "2020-11-20",
     "published": 948,
     "users_published": 78,
-    "valid": 444
+    "valid": 445
   },
   {
     "date": "2020-11-21",
     "published": 1026,
     "users_published": 84,
-    "valid": 361
+    "valid": 362
   },
   {
     "date": "2020-11-22",
     "published": 507,
     "users_published": 40,
-    "valid": 323
+    "valid": 324
   },
   {
     "date": "2020-11-23",
     "published": 475,
     "users_published": 39,
-    "valid": 288
+    "valid": 289
   },
   {
     "date": "2020-11-24",
     "published": 1223,
     "users_published": 99,
-    "valid": 200
+    "valid": 201
   },
   {
     "date": "2020-11-25",
     "published": 1432,
     "users_published": 116,
-    "valid": 82
+    "valid": 83
   },
   {
     "date": "2020-11-26",
     "published": 991,
-    "users_published": 83
+    "users_published": 83,
+    "valid": 1
+  },
+  {
+    "date": "2020-11-27",
+    "published": 13,
+    "users_published": 1
   }
 ]
