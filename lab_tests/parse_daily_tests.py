@@ -370,7 +370,7 @@ def parse_daily_tests(
     xy.replace(to_replace=0, value=np.nan, inplace=True)
 
     output_file = OUTPUT / "lab-tests.csv"
-    xy.to_csv(path_or_buf=output_file, sep=",", index=False)
+    xy.to_csv(path_or_buf=output_file, sep=",", index=False, float_format="%.0f")
 
     update_time = int(time.time())
 
