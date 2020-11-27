@@ -3444,10 +3444,16 @@
     "user_count": 3
   },
   {
-    "average_key_count_per_user": 12,
+    "average_key_count_per_user": 12.4,
     "date": "2020-11-27",
     "key_count": 12,
-    "user_count": 1
+    "user_count": 3
+  },
+  {
+    "average_key_count_per_user": 12.4,
+    "date": "2020-11-27",
+    "key_count": 13,
+    "user_count": 2
   },
   {
     "date": "2020-08-19",
