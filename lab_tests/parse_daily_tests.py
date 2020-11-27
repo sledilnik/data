@@ -5,6 +5,7 @@ import re
 import time
 
 from clize import run
+import numpy as np
 import pandas as pd
 
 pd.set_option("display.max_columns", 30)
@@ -364,6 +365,9 @@ def parse_daily_tests(
             "tests.lab.nlzohms.positive.todate",
         ]
     ]
+
+    # For aesthetic reasons, replace zeros with NaNs.
+    xy.replace(to_replace=0, value=np.nan, inplace=True)
 
     output_file = OUTPUT / "lab-tests.csv"
     xy.to_csv(path_or_buf=output_file, sep=",", index=False)
