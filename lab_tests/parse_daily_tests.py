@@ -59,7 +59,7 @@ def parse_daily_tests(
     )
     available_files["date"] = pd.to_datetime(available_files["date"]).dt.date
     available_files = available_files.sort_values(by="date", ascending=False)
-    available_files = available_files.loc[0]
+    available_files = available_files.iloc[0,]
     xlsx = available_files["filename"]
 
     logger.info(f"Processing file {xlsx}")
