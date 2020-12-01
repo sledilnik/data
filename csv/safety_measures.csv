@@ -57,15 +57,18 @@ date,time,sm.marker,sm.title,sm.description,sm.source
 2020-08-17,,yes,#OstaniZdrav,#OstaniZdrav aplikacija na voljo za Android,https://www.gov.si/teme/koronavirus-sars-cov-2/mobilna-aplikacija-ostanizdrav/
 2020-08-21,,yes,Hrvaška,Obvezna karantena pri prehodu iz Hrvaške,https://www.gov.si/novice/2020-08-20-28-redna-seja-vlade-republike-slovenije/
 2020-09-01,,yes,Šole,Vse šole začnejo z normalnim obratovanjem,https://www.gov.si/novice/2020-08-27-1-septembra-v-solske-klopi-vsi-ucenci-in-dijaki-sole-pripravljene-na-zacetek-solskega-leta/
+2020-09-10,,,Testiranje,Testiranje: mlajši otroci (do konca prve triade) se ne bodo več testirali samo ob simptomih prehlada.,https://www.24ur.com/novice/korona/otrok-do-konca-prve-triade-z-blagimi-znaki-okuzbe-dihal-ne-bodo-vec-testirali.html
 2020-09-13,,yes,10 dni,Obvezna karantena skrajšana na 10 dni,https://www.gov.si/novice/2020-09-10-31-redna-seja-vlade-republike-slovenije/
 2020-09-19,,yes,Maske,Obvezne maske v vseh zaprtih javnih prostorih in zunaj pri manj kot 2m razdalje. Gostinski obrati odprti do 22:30.,https://www.gov.si/novice/2020-09-18-92-dopisna-seja-vlade-republike-slovenije/
 2020-09-28,,yes,Test,Negativen test ali 10-dnevna karantena ob vstopu iz držav na rdečem ali oranžnem seznamu,https://www.gov.si/novice/2020-09-26-od-28-septembra-bo-negativni-test-ob-vstopu-v-slovenijo-ze-zadoscal-da-karantena-ne-bo-odrejena/
 2020-10-04,,,Maske,Omilitev nošnje mask za šole,https://www.uradni-list.si/_pdf/2020/Ur/u2020135.pdf
 2020-10-07,,,Razpršilniki,Obvezni razpršilniki v večstanovanjskih stavbah,https://www.uradni-list.si/_pdf/2020/Ur/u2020135.pdf
 2020-10-07,,,Črna,Črna na Koroškem razgalašena kot ogroženo območje,https://www.uradni-list.si/_pdf/2020/Ur/u2020137.pdf
+2020-10-09,,,Sledenje,"Prehod na delno sledenje stikov (prioritetno iskala stike okuženih v domovih starejših, socialnovarstvenih zavodih, šolstvu, zdravstvu in skupnih gospodinjstvih)",https://www.sta.si/2816961/zaradi-prevec-okuzb-s-koronavirusom-epidemiologi-dolocili-prioritete-pri-iskanju-stikov
 2020-10-09,,yes,10 oseb,Omejitev zbiranja na 10 oseb. Dodatne omejitve za dejavnosti v zaprtih prostorih (20m2 na osebo).,https://www.uradni-list.si/_pdf/2020/Ur/u2020138.pdf
 2020-10-16,,yes,Regije,"Omejitve za rdeče regije: gibanje izven regije, uporaba mask zunaj, prepoved določenih dejavnosti.",https://www.uradni-list.si/_pdf/2020/Ur/u2020143.pdf
 2020-10-16,,,OZ-3h,OstaniZdrav TAN veljavnost podaljšana na 3 ure,https://www.gov.si/novice/2020-10-16-aplikacija-ostanizdrav-zaradi-epidemioloske-situacije-veljavnost-tan-kod-podaljsana-na-tri-ure/
+2020-10-17,,,Sledenje,Ustavljeno sledenje stikov in predlogov za karanteno.,https://www.nijz.si/spremenjen-protokol-sledenja-stikom-okuzenih-z-novim-koronavirusom-sars-cov-2
 2020-10-19,,yes,Šole-6r,"OŠ od 6.razred, SŠ in glasbene šole na daljavo",https://www.gov.si/novice/2020-10-15-ministri-hojs-kustec-in-pocivalsek-ter-drzavna-sekretarka-bregant-predstavili-ukrepe-glede-na-epidemiolosko-sliko-v-rdecih-regijah/
 2020-10-19,,yes,Epidemija,Vlada je razglasila epidemijo za 30 dni,https://www.uradni-list.si/_pdf/2020/Ur/u2020146.pdf
 2020-10-20,,yes,Gibanje,"Omejitev gibanja med 21:00-6:00, prehodi med regijami. Dovoljeno zbiranje do 6 oseb. Prepoved vseh prireditev.",https://www.uradni-list.si/_pdf/2020/Ur/u2020147.pdf
@@ -73,10 +76,12 @@ date,time,sm.marker,sm.title,sm.description,sm.source
 2020-10-22,,,Šport,"Prepoved športnih dejavnosti razen najvišje kategorije. Prepoved nočnih klubov, kinematografov.",https://www.uradni-list.si/_pdf/2020/Ur/u2020150.pdf
 2020-10-23,,,Dostava,Dostava hrane brez omejitev.,https://www.uradni-list.si/_pdf/2020/Ur/u2020151.pdf
 2020-10-24,,yes,Gostilne,"Zaprtje gostinskih lokalov, hotelov, trgovskih centrov, frizerski in kozmetični saloni. Zaprti dijaški in študentski domovi, zmanjšan javni prevoz.",https://www.gov.si/novice/2020-10-22-predsednik-vlade-janez-jansa-pred-nami-je-teden-boja-za-zaustavitev-sirjenja-virusa-med-nami/
+2020-10-26,,,Testiranje,Testiranje samo za osebe pri katerih se predvideva težji potek bolezni in osebe z epidemiološko indikacijo.,https://zd-sentjur.si/wp-content/uploads/2020/10/Nova_navodila_glede_testiranja_in_i_P.pdf
 2020-10-26,,,Vrtci,Vrtci samo za nujno varstvo.,https://www.gov.si/novice/2020-10-22-predsednik-vlade-janez-jansa-pred-nami-je-teden-boja-za-zaustavitev-sirjenja-virusa-med-nami/
 2020-10-27,,yes,Občine,Prepoved gibanja izven občine prebivališča.,https://www.uradni-list.si/_pdf/2020/Ur/u2020155.pdf
 2020-10-31,,,Knjižnice,"Dodane izjeme, ki lahko opravljanja storitve (knjižnice, servisne delavnice, gradbena, vzdrževalna dela, ...)",https://www.gov.si/novice/2020-11-02-dodane-izjeme-v-odlok-o-zacasni-prepovedi-ponujanja-in-prodajanja-blaga-in-storitev-potrosnikom/
 2020-11-06,,,Prodajalne,"Odprejo se tehnične, motorne, pohištvene in otroške prodajalne, pedikura, fotokopirnice, zlatarstva in urarstva",https://www.gov.si/novice/2020-11-05-spremembe-odloka-o-zacasni-prepovedi-ponujanja-in-prodajanja-blaga-in-storitev-potrosnikom-v-republiki-sloveniji/
+2020-11-06,,,Testiranje,Testiranje ponovno za vse osebe s sumom na COVID-19,https://www.gov.si/novice/2020-11-06-spremenjen-nacin-testiranja-na-covid-19/
 2020-11-13,,,Zbiranje,Prepovedano zbiranje ljudi (razen za ožje družinske člane in člane istega gospodinjstva),https://www.uradni-list.si/_pdf/2020/Ur/u2020163.pdf
 2020-11-16,,,Storitve,"Prepoved ponujanja blaga in storitev potrošnikom (razen izjem - npr. živilske trgovine, lekarne, banke, pošte, ....)",https://www.uradni-list.si/_pdf/2020/Ur/u2020163.pdf
 2020-11-16,,,Tujina-izjeme,"Črtajo se izjeme prehoda meje brez obvezne karantene (lastništvo nepremičnine, izjema za vzdrževanje stikov z družinskimi člani le za EU+Schengen)",https://www.uradni-list.si/_pdf/2020/Ur/u2020163.pdf
