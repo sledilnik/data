@@ -3678,9 +3678,15 @@
     "user_count": 1
   },
   {
-    "average_key_count_per_user": 12,
+    "average_key_count_per_user": 11.833333333333334,
     "date": "2020-12-02",
     "key_count": 12,
+    "user_count": 5
+  },
+  {
+    "average_key_count_per_user": 11.833333333333334,
+    "date": "2020-12-02",
+    "key_count": 11,
     "user_count": 1
   },
   {
