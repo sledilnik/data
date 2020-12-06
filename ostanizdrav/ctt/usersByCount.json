@@ -3810,22 +3810,28 @@
     "user_count": 1
   },
   {
-    "average_key_count_per_user": 12.125,
+    "average_key_count_per_user": 11.904761904761905,
     "date": "2020-12-06",
     "key_count": 10,
     "user_count": 1
   },
   {
-    "average_key_count_per_user": 12.125,
+    "average_key_count_per_user": 11.904761904761905,
     "date": "2020-12-06",
     "key_count": 12,
-    "user_count": 32
+    "user_count": 33
   },
   {
-    "average_key_count_per_user": 12.125,
+    "average_key_count_per_user": 11.904761904761905,
     "date": "2020-12-06",
     "key_count": 13,
     "user_count": 7
+  },
+  {
+    "average_key_count_per_user": 11.904761904761905,
+    "date": "2020-12-06",
+    "key_count": 3,
+    "user_count": 1
   },
   {
     "date": "2020-08-19",
