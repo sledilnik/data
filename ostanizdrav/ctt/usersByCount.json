@@ -3924,19 +3924,19 @@
     "user_count": 1
   },
   {
-    "average_key_count_per_user": 12.125,
+    "average_key_count_per_user": 12.25,
     "date": "2020-12-09",
     "key_count": 13,
-    "user_count": 2
-  },
-  {
-    "average_key_count_per_user": 12.125,
-    "date": "2020-12-09",
-    "key_count": 12,
     "user_count": 5
   },
   {
-    "average_key_count_per_user": 12.125,
+    "average_key_count_per_user": 12.25,
+    "date": "2020-12-09",
+    "key_count": 12,
+    "user_count": 10
+  },
+  {
+    "average_key_count_per_user": 12.25,
     "date": "2020-12-09",
     "key_count": 11,
     "user_count": 1
