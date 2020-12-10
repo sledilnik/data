@@ -22,6 +22,9 @@ RANGE_DECEASED_REGIONS = "Umrli:Kraji!A1:ZZ"
 RANGE_ACTIVE_REGIONS = "Aktivni:Kraji!A1:ZZ"
 RANGE_STATS_WEEKLY = "EPI:weekly!A3:ZZ"
 
+SHEET_TESTS = "1Mo6D2UlMvGE_-ZtF7aihnqVuUxTIdGGE-tIBBUxj0T0"
+RANGE_LAB_TESTS = "E:LAB-Tests!A3:ZZ"
+
 SHEET_MEAS = "1AzBziQ5ySEaY8cv4NMYfc1LopTWbBRX0hWzMVP8Q52M"
 RANGE_SAFETY_MEASURES = "E:Measures!A3:ZZ"
 
@@ -80,6 +83,8 @@ def computeMunicipalities(update_time):
 
 if __name__ == "__main__":
     update_time = int(time.time())
+    import_sheet(update_time, SHEET_TESTS, RANGE_LAB_TESTS, "csv/lab-tests.csv")
+
     import_sheet(update_time, SHEET_MAIN, RANGE_STATS, "csv/stats.csv")
     import_sheet(update_time, SHEET_MAIN, RANGE_STATS_WEEKLY, "csv/stats-weekly.csv")
     import_sheet(update_time, SHEET_MAIN, RANGE_PATIENTS, "csv/patients.csv")
