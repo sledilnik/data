@@ -12,15 +12,17 @@ SHEET_ID_DEV = "1GDYUsjtJMub8Gh_hZMu4UQw6hAVmtUh6E0rS9dlUl3o"
 SHEET_MAIN = "1N1qLMoWyi3WFGhIpPFzKsFmVE0IwNP3elb_c18t2DwY"
 
 RANGE_STATS = "Podatki!A3:ZZ"
-RANGE_PATIENTS = "Pacienti!A3:ZZ"
 RANGE_REGIONS = "Kraji!A1:ZZ"
-RANGE_HOSPITALS = "Zdr.sistem!A3:ZZ"
-RANGE_ICU = "ICU!A3:ZZ"
 RANGE_DSO = "DSO!A3:ZZ"
 RANGE_SCHOOLS = "Šole!A3:ZZ"
 RANGE_DECEASED_REGIONS = "Umrli:Kraji!A1:ZZ"
 RANGE_ACTIVE_REGIONS = "Aktivni:Kraji!A1:ZZ"
 RANGE_STATS_WEEKLY = "EPI:weekly!A3:ZZ"
+
+SHEET_HOS = "1kiXh4SUnFqp_Xe6gU6Be-Mrob4bkq7jUOohIbKRt7eM"
+RANGE_PATIENTS = "Pacienti!A3:ZZ"
+RANGE_HOSPITALS = "Zdr.sistem!A3:ZZ"
+RANGE_ICU = "ICU!A3:ZZ"
 
 SHEET_TESTS = "1Mo6D2UlMvGE_-ZtF7aihnqVuUxTIdGGE-tIBBUxj0T0"
 RANGE_LAB_TESTS = "E:LAB-Tests!A3:ZZ"
@@ -85,11 +87,12 @@ if __name__ == "__main__":
     update_time = int(time.time())
     import_sheet(update_time, SHEET_TESTS, RANGE_LAB_TESTS, "csv/lab-tests.csv")
 
+    import_sheet(update_time, SHEET_HOS, RANGE_PATIENTS, "csv/patients.csv")
+    import_sheet(update_time, SHEET_HOS, RANGE_HOSPITALS, "csv/hospitals.csv")
+    import_sheet(update_time, SHEET_HOS, RANGE_ICU, "csv/icu.csv")
+
     import_sheet(update_time, SHEET_MAIN, RANGE_STATS, "csv/stats.csv")
     import_sheet(update_time, SHEET_MAIN, RANGE_STATS_WEEKLY, "csv/stats-weekly.csv")
-    import_sheet(update_time, SHEET_MAIN, RANGE_PATIENTS, "csv/patients.csv")
-    import_sheet(update_time, SHEET_MAIN, RANGE_HOSPITALS, "csv/hospitals.csv")
-    import_sheet(update_time, SHEET_MAIN, RANGE_ICU, "csv/icu.csv")
     import_sheet(update_time, SHEET_MAIN, RANGE_DSO, "csv/retirement_homes.csv")
     import_sheet(update_time, SHEET_MAIN, RANGE_SCHOOLS, "csv/schools.csv")
     import_sheet(update_time, SHEET_MAIN, RANGE_REGIONS, "csv/regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
