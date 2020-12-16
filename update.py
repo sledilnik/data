@@ -95,9 +95,9 @@ if __name__ == "__main__":
     import_sheet(update_time, SHEET_MAIN, RANGE_STATS_WEEKLY, "csv/stats-weekly.csv")
     import_sheet(update_time, SHEET_MAIN, RANGE_DSO, "csv/retirement_homes.csv")
     import_sheet(update_time, SHEET_MAIN, RANGE_SCHOOLS, "csv/schools.csv")
-    import_sheet(update_time, SHEET_MAIN, RANGE_REGIONS, "csv/regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
-    import_sheet(update_time, SHEET_MAIN, RANGE_ACTIVE_REGIONS, "csv/active-regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
-    import_sheet(update_time, SHEET_MAIN, RANGE_DECEASED_REGIONS, "csv/deceased-regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
+#    import_sheet(update_time, SHEET_MAIN, RANGE_REGIONS, "csv/regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
+#    import_sheet(update_time, SHEET_MAIN, RANGE_ACTIVE_REGIONS, "csv/active-regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
+#    import_sheet(update_time, SHEET_MAIN, RANGE_DECEASED_REGIONS, "csv/deceased-regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
     computeMunicipalities(update_time)
 
     import_sheet(update_time, SHEET_MEAS, RANGE_SAFETY_MEASURES, "csv/safety_measures.csv")
