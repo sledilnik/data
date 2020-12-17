@@ -1,6 +1,7 @@
 import copy
 import csv
 import glob
+import logging
 import os
 import time
 from datetime import datetime, timedelta
@@ -8,9 +9,13 @@ from datetime import datetime, timedelta
 import pandas as pd
 
 
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__file__)
+
 covid_data_path = os.getenv('COVID_DATA_PATH')
 assert covid_data_path, 'COVID_DATA_PATH env variable must be set. (The location of the COVID-DATA folder)'
 SOURCE_FILE = max(glob.glob(os.path.join(covid_data_path, 'EPI') + '/dnevni_prikazi*.xlsx'))  # take latest
+logger.info(f'SOURCE_FILE: {SOURCE_FILE}')
 CSV_FOLDER = os.path.join(os.path.dirname(__file__), '../csv')
 
 municipalities = {}
