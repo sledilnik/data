@@ -66,9 +66,12 @@ with open(os.path.join(CSV_FOLDER, 'dict-municipality.csv')) as f:
 # Copy paste latest row for every missing date
 with open(os.path.join(CSV_FOLDER, 'deceased-regions.csv')) as f:
     rows = [row for row in csv.DictReader(f)]
-while (latest_date := datetime.strptime(rows[-1]['date'], '%Y-%m-%d').date()) < datetime.now().date():
+
+latest_date = str([val for val in df.index.values][-1]).split('T')[0]
+latest_date = datetime.strptime(latest_date, '%Y-%m-%d').date()
+while (date := datetime.strptime(rows[-1]['date'], '%Y-%m-%d').date()) < latest_date:
     rows.append(copy.deepcopy(rows[-1]))
-    rows[-1]['date'] = str(latest_date + timedelta(days=1))
+    rows[-1]['date'] = str(date + timedelta(days=1))
 # Write the rows collection back to the csv
 with open(os.path.join(CSV_FOLDER, 'deceased-regions.csv'), 'w', newline='') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=rows[0].keys())
