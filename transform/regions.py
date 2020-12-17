@@ -1,8 +1,9 @@
+import copy
 import csv
 import glob
 import os
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 
 import pandas as pd
 
@@ -50,8 +51,28 @@ df.rolling(min_periods=1, window=14).sum().replace({0: None}).astype('Int64') \
     .drop('region.n.neznano', axis='columns') \
     .to_csv(os.path.join(CSV_FOLDER, 'active-regions.csv'), line_terminator='\r\n')
 
+with open(os.path.join(CSV_FOLDER, 'dict-municipality.csv')) as f:
+    for row in csv.DictReader(f):
+        municipalities[row['name'].lower()] = row
+        if row['name_alt']:
+            municipalities[row['name_alt'].lower()] = row
+
+# --- deceased-regions.csv ---
+# Copy paste latest row for every missing date
+with open(os.path.join(CSV_FOLDER, 'deceased-regions.csv')) as f:
+    rows = [row for row in csv.DictReader(f)]
+while (latest_date := datetime.strptime(rows[-1]['date'], '%Y-%m-%d').date()) < datetime.now().date():
+    rows.append(copy.deepcopy(rows[-1]))
+    rows[-1]['date'] = str(latest_date + timedelta(days=1))
+# Write the rows collection back to the csv
+with open(os.path.join(CSV_FOLDER, 'deceased-regions.csv'), 'w', newline='') as csvfile:
+    writer = csv.DictWriter(csvfile, fieldnames=rows[0].keys())
+    writer.writeheader()
+    for row in rows:
+        writer.writerow(row)
+
+# --- timestamped files ---
 timestamp = int(time.time())
-with open(os.path.join(CSV_FOLDER, 'regions.csv.timestamp'), 'w', newline='') as csvfile:
-    csvfile.write(f'{timestamp}\n')
-with open(os.path.join(CSV_FOLDER, 'active-regions.csv.timestamp'), 'w', newline='') as csvfile:
-    csvfile.write(f'{timestamp}\n')
+for f in ('regions.csv.timestamp', 'active-regions.csv.timestamp', 'deceased-regions.csv.timestamp'):
+    with open(os.path.join(CSV_FOLDER, f), 'w', newline='') as csvfile:
+        csvfile.write(f'{timestamp}\n')
