@@ -16,7 +16,7 @@ If you decide to go with Backup and Sync app you need to take these steps to ena
 ## How to update health_centers.csv
 ___
 In this folder run:
-1. `python3.7 -m venv venv` or `virtualenv -p python3 venv`
+1. `python3.8 -m venv venv` or `virtualenv -p python3 venv`
 1. `source venv/bin/activate`
 1. `pip install -r ../requirements.txt`
 1. `export COVID_DATA_PATH=<the location of the COVID-DATA folder>`

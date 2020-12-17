@@ -10,6 +10,8 @@ Master tables are at https://tinyurl.com/sledilnik-gdocs
 
 This repository is for organising our collaboration better: wikis, issues etc.
 
+`Python 3.8+` is required to run scripts in this repo.
+
 
 # Updating data
 
