@@ -116,14 +116,30 @@ df_regions_cases_active.rename(mapper=lambda x: x.replace('todate', 'active'), a
     .drop('region.unknown.active', axis='columns') \
     .to_csv(os.path.join(CSV_FOLDER, 'regions-cases-active.csv'), line_terminator='\r\n')
 
+# --- age-confirmed.csv ---
+df = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 4', engine='openpyxl', skiprows=[1, 2, 3])[:-1]
+df.rename(columns={'Dnevno število potrjenih primerov po spolu in starostnih skupinah': 'date'}, inplace=True)
+df.set_index('date', inplace=True)
+df.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows', inplace=True)
+
+columns = []
+for gender in ['male.', 'female.', 'unknown.', '']:
+    for age_range in ['0-4.', '5-14.', '15-24.', '25-34.', '35-44.', '45-54.', '55-64.', '65-74.', '75-84.', '85+.', '']:
+        columns.append(f'age.{gender}{age_range}todate')
+df.columns = columns
+
+df.cumsum().replace({0: None}).astype('Int64') \
+    .to_csv(os.path.join(CSV_FOLDER, 'age-confirmed.csv'), line_terminator='\r\n')
+
 # --- timestamped files ---
 timestamp = int(time.time())
 for f in (
+    'active-regions.csv.timestamp',
+    'age-confirmed.csv.timestamp',
+    'deceased-regions.csv.timestamp',
     'regions.csv.timestamp',
     'regions-cases.csv.timestamp',
     'regions-cases-active.csv.timestamp',
-    'active-regions.csv.timestamp',
-    'deceased-regions.csv.timestamp'
 ):
     with open(os.path.join(CSV_FOLDER, f), 'w', newline='') as csvfile:
         csvfile.write(f'{timestamp}\n')
