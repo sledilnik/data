@@ -79,8 +79,51 @@ with open(os.path.join(CSV_FOLDER, 'deceased-regions.csv'), 'w', newline='') as 
     for row in rows:
         writer.writerow(row)
 
+# --- regions-cases.csv | regions-cases-active.csv ---
+df = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 3', engine='openpyxl', skiprows=[0, 2])[:-1]
+df.drop(['SKUPAJ'], inplace=True, axis=1)  # axis=1 means columns
+def get_region_header(region: str):
+    return {
+        'Pomurska': 'region.ms.todate',
+        'Podravska': 'region.mb.todate',
+        'Koroška': 'region.sg.todate',
+        'Savinjska': 'region.ce.todate',
+        'Zasavska': 'region.za.todate',
+        'Posavska': 'region.kk.todate',
+        'Jugovzhodna Slovenija': 'region.nm.todate',
+        'Osrednjeslovenska': 'region.lj.todate',
+        'Gorenjska': 'region.kr.todate',
+        'Primorsko-notranjska': 'region.po.todate',
+        'Goriška': 'region.ng.todate',
+        'Obalno-kraška': 'region.kp.todate',
+        'TUJINA': 'region.foreign.todate',
+        'NEZNANO': 'region.unknown.todate'
+    }.get(region, 'date')  # if there's no match we assume it's a date column
+df = df.rename(mapper=get_region_header, axis='columns')  # transform of region names
+df.set_index('date', inplace=True)  # we have zero-based index by default which is obsolete therefore replace with date
+df = df.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')  # transforms strings to datetime
+df = df.reindex(sorted(df.columns), axis=1)  # sorts the columns
+
+df_regions_cases = df.copy(deep=True)
+df_regions_cases.loc[:, 'region.todate'] = df_regions_cases.sum(axis=1)  # sums of each row in the column at the end
+df_regions_cases.cumsum().replace({0: None}).astype('Int64') \
+    .to_csv(os.path.join(CSV_FOLDER, 'regions-cases.csv'), line_terminator='\r\n')
+
+df_regions_cases_active = df.copy(deep=True)
+df_regions_cases_active.loc[:, 'region.active'] = df_regions_cases_active.sum(axis=1)  # sums of each row in the column at the end
+df_regions_cases_active.rename(mapper=lambda x: x.replace('todate', 'active'), axis='columns') \
+    .rolling(min_periods=1, window=14).sum().replace({0: None}).astype('Int64') \
+    .drop('region.unknown.active', axis='columns') \
+    .to_csv(os.path.join(CSV_FOLDER, 'regions-cases-active.csv'), line_terminator='\r\n')
+
 # --- timestamped files ---
 timestamp = int(time.time())
-for f in ('regions.csv.timestamp', 'active-regions.csv.timestamp', 'deceased-regions.csv.timestamp'):
+for f in (
+    'regions.csv.timestamp',
+    'regions-cases.csv.timestamp',
+    'regions-cases-active.csv.timestamp',
+    'active-regions.csv.timestamp',
+    'deceased-regions.csv.timestamp'
+):
     with open(os.path.join(CSV_FOLDER, f), 'w', newline='') as csvfile:
         csvfile.write(f'{timestamp}\n')
