@@ -20,6 +20,7 @@ RANGE_ACTIVE_REGIONS = "Aktivni:Kraji!A1:ZZ"
 RANGE_STATS_WEEKLY = "EPI:weekly!A3:ZZ"
 
 SHEET_HOS = "1kiXh4SUnFqp_Xe6gU6Be-Mrob4bkq7jUOohIbKRt7eM"
+RANGE_PATIENTS_SUMMARY = "E:PatientsSummary!A1:ZZ"
 RANGE_PATIENTS = "E:Patients!A3:ZZ"
 RANGE_HOSPITALS = "E:Hospitals!A3:ZZ"
 RANGE_ICU = "E:ICU!A3:ZZ"
@@ -87,6 +88,7 @@ if __name__ == "__main__":
     update_time = int(time.time())
     import_sheet(update_time, SHEET_TESTS, RANGE_LAB_TESTS, "csv/lab-tests.csv")
 
+    import_sheet(update_time, SHEET_HOS, RANGE_PATIENTS_SUMMARY, "csv/patients-summary.csv")
     import_sheet(update_time, SHEET_HOS, RANGE_PATIENTS, "csv/patients.csv")
     import_sheet(update_time, SHEET_HOS, RANGE_HOSPITALS, "csv/hospitals.csv")
     import_sheet(update_time, SHEET_HOS, RANGE_ICU, "csv/icu.csv")
