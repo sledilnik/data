@@ -1,9 +1,9 @@
 week,date,date.to,week.confirmed,week.investigated,week.healthcare,week.rhoccupant,week.loc.family,week.loc.work,week.loc.school,week.loc.hospital,week.loc.otherhc,week.loc.rh,week.loc.prison,week.loc.transport,week.loc.shop,week.loc.restaurant,week.loc.sport,week.loc.gathering_private,week.loc.gathering_organized,week.loc.other,week.loc.unknown,week.sent_to.quarantine,week.src.quarantine,week.src.import,week.src.import-related,week.src.local,week.src.unknown,week.from.aus,week.from.aut,week.from.aze,week.from.bel,week.from.bgr,week.from.bih,week.from.cze,week.from.mne,week.from.dnk,week.from.dom,week.from.est,week.from.fra,week.from.grc,week.from.hrv,week.from.irn,week.from.ita,week.from.kaz,week.from.xkx,week.from.hun,week.from.mkd,week.from.mlt,week.from.mar,week.from.fsm,week.from.deu,week.from.pak,week.from.pol,week.from.rou,week.from.rus,week.from.svk,week.from.srb,week.from.esp,week.from.swe,week.from.che,week.from.tur,week.from.ukr,week.from.gbr,week.from.usa,week.from.are
 2020-10,2020-03-02,2020-03-08,20,,8,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 2020-11,2020-03-09,2020-03-15,230,,42,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-2020-12,2020-03-16,2020-03-22,191,,44,23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2020-12,2020-03-16,2020-03-22,192,,44,23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 2020-13,2020-03-23,2020-03-29,315,,39,84,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-2020-14,2020-03-30,2020-04-05,265,,54,96,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2020-14,2020-03-30,2020-04-05,264,,54,96,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 2020-15,2020-04-06,2020-04-12,192,,60,38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 2020-16,2020-04-13,2020-04-19,123,,35,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 2020-17,2020-04-20,2020-04-26,67,,15,16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
