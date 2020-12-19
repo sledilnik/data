@@ -129,13 +129,13 @@ for gender in ['male.', 'female.', 'unknown.', '']:
 df.columns = columns
 
 df.cumsum().replace({0: None}).astype('Int64') \
-    .to_csv(os.path.join(CSV_FOLDER, 'age-confirmed.csv'), line_terminator='\r\n')
+    .to_csv(os.path.join(CSV_FOLDER, 'age-cases.csv'), line_terminator='\r\n')
 
 # --- timestamped files ---
 timestamp = int(time.time())
 for f in (
     'active-regions.csv.timestamp',
-    'age-confirmed.csv.timestamp',
+    'age-cases.csv.timestamp',
     'deceased-regions.csv.timestamp',
     'regions.csv.timestamp',
     'regions-cases.csv.timestamp',
