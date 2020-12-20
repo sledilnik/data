@@ -35,6 +35,34 @@ df_d_2.rename(columns={'Leto in ISO teden smrti': 'week', 'Oskrbovanci': 'week.d
 df_d_2.set_index('week', inplace=True)
 df_d_2 = df_d_2.replace({0: None}).astype('Int64')
 
+df_d_5 = pd.read_excel(io=SOURCE_FILE_DECEASED, sheet_name='Tabela 5', engine='openpyxl', skiprows=[0, 1, 2], skipfooter=2)
+df_d_5.drop(['Unnamed: 0', 'Unnamed: 22', 'Unnamed: 23', 'Unnamed: 24'], axis='columns', inplace=True)
+columns = []
+age_ranges = ['0-4', '5-14', '15-24', '25-34', '35-44', '45-54', '55-64', '65-74', '75-84', '85+']
+for gender in ['male', 'female']:
+    for age_range in age_ranges:
+        columns.append(f'deceased.{gender}.{age_range}.todate')
+df_d_5.columns = ['date'] + columns
+df_d_5.set_index('date', inplace=True)
+df_d_5 = df_d_5.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')
+
+for age_range in age_ranges:
+    df_d_5[f'deceased.{age_range}.todate'] = df_d_5[f'deceased.male.{age_range}.todate'] + df_d_5[f'deceased.female.{age_range}.todate']
+df_d_5['deceased.male.todate'] = df_d_5[[f'deceased.male.{age_range}.todate' for age_range in age_ranges]].sum(axis='columns')
+df_d_5['deceased.female.todate'] = df_d_5[[f'deceased.female.{age_range}.todate' for age_range in age_ranges]].sum(axis='columns')
+df_d_5['deceased.todate'] = df_d_5[[f'deceased.{age_range}.todate' for age_range in age_ranges]].sum(axis='columns')
+df_d_5 = df_d_5.reindex([
+    'deceased.0-4.todate', 'deceased.5-14.todate', 'deceased.15-24.todate', 'deceased.25-34.todate', 'deceased.35-44.todate',
+    'deceased.45-54.todate', 'deceased.55-64.todate', 'deceased.65-74.todate', 'deceased.75-84.todate', 'deceased.85+.todate',
+    'deceased.todate', 'deceased.female.0-4.todate', 'deceased.female.5-14.todate', 'deceased.female.15-24.todate',
+    'deceased.female.25-34.todate', 'deceased.female.35-44.todate', 'deceased.female.45-54.todate', 'deceased.female.55-64.todate',
+    'deceased.female.65-74.todate', 'deceased.female.75-84.todate', 'deceased.female.85+.todate', 'deceased.female.todate',
+    'deceased.male.0-4.todate', 'deceased.male.5-14.todate', 'deceased.male.15-24.todate', 'deceased.male.25-34.todate',
+    'deceased.male.35-44.todate', 'deceased.male.45-54.todate', 'deceased.male.55-64.todate', 'deceased.male.65-74.todate',
+    'deceased.male.75-84.todate', 'deceased.male.85+.todate', 'deceased.male.todate'
+], axis='columns')
+df_d_5 = df_d_5.cumsum().replace({0: None}).astype('Int64')
+
 df_i_1 = pd.read_excel(io=SOURCE_FILE_INFECTED, sheet_name='Tabela 1', engine='openpyxl', skiprows=[0, 2], skipfooter=1) \
     .rename(columns={
         'Teden': 'week',
@@ -115,10 +143,17 @@ df_archive = df_archive.iloc[:13]  # keep range 2020-10 to 2020-22
 merged.drop([f'2020-{x}' for x in range(10, 23)], axis='rows', inplace=True)
 merged = pd.concat([df_archive, merged])
 
+def write_timestamp_file(filename: str, old_hash: str):
+    if old_hash != sha1sum(filename):
+        with open(f'{filename}.timestamp', 'w', newline='') as f:
+            f.write(f'{int(time.time())}\n')
+
 filename = os.path.join(CSV_FOLDER, 'stats-weekly.csv')
 old_hash = sha1sum(filename)
 merged.to_csv(filename, line_terminator='\r\n')
+write_timestamp_file(filename=filename, old_hash=old_hash)
 
-if old_hash != sha1sum(filename):
-    with open(f'{filename}.timestamp', 'w', newline='') as f:
-        f.write(f'{int(time.time())}\n')
+filename = os.path.join(CSV_FOLDER, 'age-deceased.csv')
+old_hash = sha1sum(filename)
+df_d_5.to_csv(filename, line_terminator='\r\n')
+write_timestamp_file(filename=filename, old_hash=old_hash)
