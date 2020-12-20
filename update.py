@@ -144,7 +144,7 @@ if __name__ == "__main__":
     import_sheet(update_time, SHEET_HOS, RANGE_ICU, "csv/icu.csv")
 
     import_sheet(update_time, SHEET_MAIN, RANGE_STATS_LEGACY, "csv/stats-legacy.csv")
-    import_sheet(update_time, SHEET_MAIN, RANGE_STATS_WEEKLY, "csv/stats-weekly.csv")
+    # import_sheet(update_time, SHEET_MAIN, RANGE_STATS_WEEKLY, "csv/stats-weekly.csv")
 #    import_sheet(update_time, SHEET_MAIN, RANGE_DSO, "csv/retirement_homes.csv")
 #    import_sheet(update_time, SHEET_MAIN, RANGE_SCHOOLS, "csv/schools.csv")
 #    import_sheet(update_time, SHEET_MAIN, RANGE_REGIONS, "csv/regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
