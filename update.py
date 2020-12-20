@@ -12,6 +12,7 @@ SHEET_ID_DEV = "1GDYUsjtJMub8Gh_hZMu4UQw6hAVmtUh6E0rS9dlUl3o"
 SHEET_MAIN = "1N1qLMoWyi3WFGhIpPFzKsFmVE0IwNP3elb_c18t2DwY"
 
 RANGE_STATS = "Podatki!A3:ZZ"
+RANGE_STATS_LEGACY = "Podatki!A3:AK"
 RANGE_REGIONS = "Kraji!A1:ZZ"
 RANGE_DSO = "DSO!A3:ZZ"
 RANGE_SCHOOLS = "Šole!A3:ZZ"
@@ -84,6 +85,22 @@ def computeMunicipalities(update_time):
         with open("{}.timestamp".format(filename), "w") as f:
             f.write(str(update_time))
 
+def computeStats(update_time):
+    filename = 'csv/stats.csv'
+    print("Processing", filename)
+    old_hash = sha1sum(filename)
+    dfLegacy = pd.read_csv('csv/stats-legacy.csv', index_col='date') 
+    dfPatients = pd.read_csv('csv/patients-summary.csv', index_col='date')
+    dfRegions = pd.read_csv('csv/regions-cases.csv', index_col='date')
+    dfAgeC = pd.read_csv('csv/age-cases.csv', index_col='date')
+    dfAgeD = pd.read_csv('csv/age-deceased.csv', index_col='date')
+    merged = dfLegacy.join(dfPatients).join(dfRegions).join(dfAgeC).join(dfAgeD)
+    merged.to_csv(filename, float_format='%.0f', index_label='date')
+    new_hash = sha1sum(filename)
+    if old_hash != new_hash:
+        with open("{}.timestamp".format(filename), "w") as f:
+            f.write(str(update_time))
+
 if __name__ == "__main__":
     update_time = int(time.time())
     import_sheet(update_time, SHEET_TESTS, RANGE_LAB_TESTS, "csv/lab-tests.csv")
@@ -93,7 +110,7 @@ if __name__ == "__main__":
     import_sheet(update_time, SHEET_HOS, RANGE_HOSPITALS, "csv/hospitals.csv")
     import_sheet(update_time, SHEET_HOS, RANGE_ICU, "csv/icu.csv")
 
-    import_sheet(update_time, SHEET_MAIN, RANGE_STATS, "csv/stats.csv")
+    import_sheet(update_time, SHEET_MAIN, RANGE_STATS_LEGACY, "csv/stats-legacy.csv")
     import_sheet(update_time, SHEET_MAIN, RANGE_STATS_WEEKLY, "csv/stats-weekly.csv")
 #    import_sheet(update_time, SHEET_MAIN, RANGE_DSO, "csv/retirement_homes.csv")
 #    import_sheet(update_time, SHEET_MAIN, RANGE_SCHOOLS, "csv/schools.csv")
@@ -101,5 +118,6 @@ if __name__ == "__main__":
 #    import_sheet(update_time, SHEET_MAIN, RANGE_ACTIVE_REGIONS, "csv/active-regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
 #    import_sheet(update_time, SHEET_MAIN, RANGE_DECEASED_REGIONS, "csv/deceased-regions.csv", rotate=True, key_mapper=key_mapper_kraji, sort_keys=True)
     computeMunicipalities(update_time)
+    computeStats(update_time)
 
     import_sheet(update_time, SHEET_MEAS, RANGE_SAFETY_MEASURES, "csv/safety_measures.csv")
