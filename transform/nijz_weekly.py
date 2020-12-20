@@ -54,7 +54,7 @@ df_d_4 = df_d_4.rename(columns={
     'TUJINA': 'region.foreign.todate',
     'NEZNANO': 'region.unknown.todate'
 }).set_index('date').rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')
-df_d_4 = df_d_4.cumsum()
+df_d_4 = df_d_4.cumsum().replace({0: None}).astype('Int64')
 
 df_d_5 = pd.read_excel(io=SOURCE_FILE_DECEASED, sheet_name='Tabela 5', engine='openpyxl', skiprows=[0, 1, 2], skipfooter=2)
 df_d_5.drop(['Unnamed: 0', 'Unnamed: 22', 'Unnamed: 23', 'Unnamed: 24'], axis='columns', inplace=True)
