@@ -35,6 +35,27 @@ df_d_2.rename(columns={'Leto in ISO teden smrti': 'week', 'Oskrbovanci': 'week.d
 df_d_2.set_index('week', inplace=True)
 df_d_2 = df_d_2.replace({0: None}).astype('Int64')
 
+df_d_4 = pd.read_excel(io=SOURCE_FILE_DECEASED, sheet_name='Tabela 4', engine='openpyxl', skiprows=[0, 2], skipfooter=2)
+df_d_4.drop(['Leto, ISO teden in datum smrti', 'SKUPAJ'], axis='columns', inplace=True)
+df_d_4 = df_d_4.rename(columns={
+    'Unnamed: 1': 'date',
+    'Pomurska': 'region.ms.todate',
+    'Podravska': 'region.mb.todate',
+    'Koroška': 'region.sg.todate',
+    'Savinjska': 'region.ce.todate',
+    'Zasavska': 'region.za.todate',
+    'Posavska': 'region.kk.todate',
+    'Jugovzhodna Slovenija': 'region.nm.todate',
+    'Osrednjeslovenska': 'region.lj.todate',
+    'Gorenjska': 'region.kr.todate',
+    'Primorsko-notranjska': 'region.po.todate',
+    'Goriška': 'region.ng.todate',
+    'Obalno-kraška': 'region.kp.todate',
+    'TUJINA': 'region.foreign.todate',
+    'NEZNANO': 'region.unknown.todate'
+}).set_index('date').rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')
+df_d_4 = df_d_4.cumsum()
+
 df_d_5 = pd.read_excel(io=SOURCE_FILE_DECEASED, sheet_name='Tabela 5', engine='openpyxl', skiprows=[0, 1, 2], skipfooter=2)
 df_d_5.drop(['Unnamed: 0', 'Unnamed: 22', 'Unnamed: 23', 'Unnamed: 24'], axis='columns', inplace=True)
 columns = []
@@ -148,12 +169,12 @@ def write_timestamp_file(filename: str, old_hash: str):
         with open(f'{filename}.timestamp', 'w', newline='') as f:
             f.write(f'{int(time.time())}\n')
 
-filename = os.path.join(CSV_FOLDER, 'stats-weekly.csv')
-old_hash = sha1sum(filename)
-merged.to_csv(filename, line_terminator='\r\n')
-write_timestamp_file(filename=filename, old_hash=old_hash)
+def export_dataframe_to_csv(name: str, dataframe):
+    filename = os.path.join(CSV_FOLDER, f'{name}.csv')
+    old_hash = sha1sum(filename)
+    dataframe.to_csv(filename, line_terminator='\r\n')
+    write_timestamp_file(filename=filename, old_hash=old_hash)
 
-filename = os.path.join(CSV_FOLDER, 'age-deceased.csv')
-old_hash = sha1sum(filename)
-df_d_5.to_csv(filename, line_terminator='\r\n')
-write_timestamp_file(filename=filename, old_hash=old_hash)
+export_dataframe_to_csv(name='stats-weekly', dataframe=merged)
+export_dataframe_to_csv(name='age-deceased', dataframe=df_d_5)
+export_dataframe_to_csv(name='regions-deceased', dataframe=df_d_4)
