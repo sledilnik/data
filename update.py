@@ -98,13 +98,6 @@ def computeStats(update_time):
 
     merged.reset_index(inplace=True)
     merged.set_index('day', inplace=True)
-    columns_to_be_removed = {
-        'age.unknown.45-54.todate', 'age.unknown.5-14.todate', 'age.unknown.85+.todate', 'age.unknown.todate',
-        'age.unknown.25-34.todate', 'age.unknown.65-74.todate', 'age.unknown.15-24.todate', 'age.unknown.55-64.todate',
-        'age.unknown.35-44.todate', 'age.unknown.0-4.todate', 'age.unknown.75-84.todate'
-    }
-    for column in columns_to_be_removed:  # removal
-        merged.drop(column, axis='columns', inplace=True)
 
     merged = merged.reindex([  # sort
         'date', 'phase', 'tests.performed.todate', 'tests.performed', 'tests.positive.todate', 'tests.positive', 'tests.regular.performed.todate',
@@ -126,7 +119,13 @@ def computeStats(update_time):
         'deceased.female.55-64.todate', 'deceased.female.65-74.todate', 'deceased.female.75-84.todate', 'deceased.female.85+.todate', 'deceased.female.todate',
         'deceased.male.0-4.todate', 'deceased.male.5-14.todate', 'deceased.male.15-24.todate', 'deceased.male.25-34.todate', 'deceased.male.35-44.todate',
         'deceased.male.45-54.todate', 'deceased.male.55-64.todate', 'deceased.male.65-74.todate', 'deceased.male.75-84.todate', 'deceased.male.85+.todate',
-        'deceased.male.todate'], axis=1)
+        'deceased.male.todate',
+
+        'age.unknown.0-4.todate', 'age.unknown.5-14.todate', 'age.unknown.15-24.todate', 'age.unknown.25-34.todate', 'age.unknown.35-44.todate',
+        'age.unknown.45-54.todate', 'age.unknown.55-64.todate', 'age.unknown.65-74.todate', 'age.unknown.75-84.todate', 'age.unknown.85+.todate',
+        'age.unknown.todate',
+
+    ], axis=1)
 
     merged.to_csv(filename, float_format='%.0f', line_terminator='\r\n')
 
