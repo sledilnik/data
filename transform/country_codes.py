@@ -34,6 +34,7 @@ mapping = {
     'Turčija': 'tur',
     'Ukrajina': 'ukr',
     'Združeno kraljestvo': 'gbr',
+    'Združeno kraljestvo Velike Britanije in Severne Irske': 'gbr',
     'Združene države Amerike': 'usa',
     'Združeni Arabski Emirati': 'are',
 }
