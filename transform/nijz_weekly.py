@@ -35,6 +35,12 @@ df_d_2.rename(columns={'Leto in ISO teden smrti': 'week', 'Oskrbovanci': 'week.d
 df_d_2.set_index('week', inplace=True)
 df_d_2 = df_d_2.replace({0: None}).astype('Int64')
 
+df_d_3 = pd.read_excel(io=SOURCE_FILE_DECEASED, sheet_name='Tabela 3', engine='openpyxl', skiprows=[0, 2], skipfooter=2)
+df_d_3.drop(['Leto, ISO teden in datum smrti', 'SKUPAJ'], axis='columns', inplace=True)
+df_d_3 = df_d_3.rename(columns={'Unnamed: 1': 'date', 'Oskrbovanci': 'deceased.rhoccupant.todate', 'Ostalo prebivalstvo': 'deceased.other.todate'}).set_index('date').rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows') 
+df_d_3 = df_d_3.cumsum()
+df_d_3 = df_d_3.replace({0: None}).astype('Int64')
+
 df_d_4 = pd.read_excel(io=SOURCE_FILE_DECEASED, sheet_name='Tabela 4', engine='openpyxl', skiprows=[0, 2], skipfooter=2)
 df_d_4.drop(['Leto, ISO teden in datum smrti', 'SKUPAJ'], axis='columns', inplace=True)
 df_d_4 = df_d_4.rename(columns={
@@ -178,5 +184,6 @@ def export_dataframe_to_csv(name: str, dataframe):
     write_timestamp_file(filename=filename, old_hash=old_hash)
 
 export_dataframe_to_csv(name='stats-weekly', dataframe=merged)
+export_dataframe_to_csv(name='rh-deceased', dataframe=df_d_3)
 export_dataframe_to_csv(name='age-deceased', dataframe=df_d_5)
 export_dataframe_to_csv(name='regions-deceased', dataframe=df_d_4)

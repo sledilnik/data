@@ -94,7 +94,8 @@ def computeStats(update_time):
     dfRegions = pd.read_csv('csv/regions-cases.csv', index_col='date')
     dfAgeC = pd.read_csv('csv/age-cases.csv', index_col='date')
     dfAgeD = pd.read_csv('csv/age-deceased.csv', index_col='date')
-    merged = dfLegacy.join(dfPatients).join(dfRegions).join(dfAgeC).join(dfAgeD)
+    dfRhD = pd.read_csv('csv/rh-deceased.csv', index_col='date')
+    merged = dfLegacy.join(dfPatients).join(dfRegions).join(dfAgeC).join(dfAgeD).join(dfRhD)
 
     merged.reset_index(inplace=True)
     merged.set_index('day', inplace=True)
@@ -124,7 +125,7 @@ def computeStats(update_time):
         'deceased.female.55-64.todate', 'deceased.female.65-74.todate', 'deceased.female.75-84.todate', 'deceased.female.85+.todate', 'deceased.female.todate',
         'deceased.male.0-4.todate', 'deceased.male.5-14.todate', 'deceased.male.15-24.todate', 'deceased.male.25-34.todate', 'deceased.male.35-44.todate',
         'deceased.male.45-54.todate', 'deceased.male.55-64.todate', 'deceased.male.65-74.todate', 'deceased.male.75-84.todate', 'deceased.male.85+.todate',
-        'deceased.male.todate',
+        'deceased.male.todate', 'deceased.rhoccupant.todate', 'deceased.other.todate'
     ], axis='columns')
 
     merged.to_csv(filename, float_format='%.0f', line_terminator='\r\n')
