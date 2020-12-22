@@ -143,7 +143,7 @@ df.columns = columns
 
 export_dataframe_to_csv(name='age-cases', dataframe=df.cumsum())
 
-# --- lab-tests.csv ---
+# --- cases.csv ---
 df_1 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 1', engine='openpyxl', skiprows=[0], skipfooter=1) \
     .drop('Unnamed: 0', axis='columns').rename(mapper={
         'Datum izvida': 'date',
@@ -151,10 +151,17 @@ df_1 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 1', engine='openpyxl', s
         'Skupaj kumulativno': 'cases.confirmed.todate'
     }, axis='columns').set_index('date') \
     .rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')[['cases.confirmed', 'cases.confirmed.todate']]
+df_1['cases.active'] = df_1['cases.confirmed'].rolling(window=14).sum().astype('Int64')
+df_1['cases.closed.todate'] = df_1['cases.confirmed.todate'] - df_1['cases.active']
 
 df_6 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 6', engine='openpyxl', skiprows=[0, 2], skipfooter=2) \
     .rename(mapper={'Datum izvida': 'date', 'Oskrbovanci': 'cases.rh.occupant.confirmed'}, axis='columns').set_index('date') \
     .rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')[['cases.rh.occupant.confirmed']]
 df_6['cases.rh.occupant.confirmed.todate'] = df_6['cases.rh.occupant.confirmed'].cumsum()
 
-export_dataframe_to_csv(name='cases', dataframe=df_1.join(df_6))
+df_stats_legacy = pd.read_csv(os.path.join(CSV_FOLDER, 'stats-legacy.csv'), index_col='date')[[
+    'cases.hs.employee.confirmed.todate',
+    'cases.rh.employee.confirmed.todate'
+]]
+
+export_dataframe_to_csv(name='cases', dataframe=df_1.join(df_6).join(df_stats_legacy))
