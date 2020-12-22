@@ -1,4 +1,5 @@
 import hashlib
+import time
 
 
 def sha1sum(fname):
@@ -10,3 +11,9 @@ def sha1sum(fname):
         return h.hexdigest()
     except FileNotFoundError:
         return None
+
+
+def write_timestamp_file(filename: str, old_hash: str):
+    if old_hash != sha1sum(filename):
+        with open(f'{filename}.timestamp', 'w', newline='') as f:
+            f.write(f'{int(time.time())}\n')
