@@ -1,13 +1,12 @@
 import glob
 import logging
 import os
-import time
 from datetime import datetime
 
 import pandas as pd
 
 from country_codes import get_county_code
-from utils import sha1sum
+from utils import sha1sum, write_timestamp_file
 
 
 logging.basicConfig(level=logging.INFO)
@@ -37,7 +36,7 @@ df_d_2 = df_d_2.replace({0: None}).astype('Int64')
 
 df_d_3 = pd.read_excel(io=SOURCE_FILE_DECEASED, sheet_name='Tabela 3', engine='openpyxl', skiprows=[0, 2], skipfooter=2)
 df_d_3.drop(['Leto, ISO teden in datum smrti', 'SKUPAJ'], axis='columns', inplace=True)
-df_d_3 = df_d_3.rename(columns={'Unnamed: 1': 'date', 'Oskrbovanci': 'deceased.rhoccupant.todate', 'Ostalo prebivalstvo': 'deceased.other.todate'}).set_index('date').rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows') 
+df_d_3 = df_d_3.rename(columns={'Unnamed: 1': 'date', 'Oskrbovanci': 'deceased.rhoccupant.todate', 'Ostalo prebivalstvo': 'deceased.other.todate'}).set_index('date').rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')
 df_d_3 = df_d_3.cumsum()
 df_d_3 = df_d_3.replace({0: None}).astype('Int64')
 
@@ -61,7 +60,7 @@ df_d_4 = df_d_4.rename(columns={
     'NEZNANO': 'region.unknown.todate'
 }).set_index('date').rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')
 df_d_4 = df_d_4.cumsum()
-df_d_4['region.todate']= df_d_4.sum(axis='columns')
+df_d_4['region.todate'] = df_d_4.sum(axis='columns')
 df_d_4 = df_d_4.replace({0: None}).astype('Int64')
 
 df_d_5 = pd.read_excel(io=SOURCE_FILE_DECEASED, sheet_name='Tabela 5', engine='openpyxl', skiprows=[0, 1, 2], skipfooter=2)
@@ -132,9 +131,9 @@ df_i_3 = df_i_3.rename(mapper=lambda x: f'week.from.{get_county_code(x)}', axis=
 df_i_3 = df_i_3.replace({0: None}).astype('Int64')
 
 df_i_4 = pd.read_excel(io=SOURCE_FILE_INFECTED, sheet_name='Tabela 4', engine='openpyxl', skiprows=[0, 2], skipfooter=1).rename(columns={
-        'Teden': 'week',
-        'Zdravstveni delavec': 'week.healthcare',
-    }).set_index('week')
+    'Teden': 'week',
+    'Zdravstveni delavec': 'week.healthcare',
+}).set_index('week')
 df_i_4 = df_i_4.replace({0: None}).astype('Int64')
 
 # source quarantine data from archival CSV
@@ -172,16 +171,13 @@ df_archive = df_archive.iloc[:13]  # keep range 2020-10 to 2020-22
 merged.drop([f'2020-{x}' for x in range(10, 23)], axis='rows', inplace=True)
 merged = pd.concat([df_archive, merged])
 
-def write_timestamp_file(filename: str, old_hash: str):
-    if old_hash != sha1sum(filename):
-        with open(f'{filename}.timestamp', 'w', newline='') as f:
-            f.write(f'{int(time.time())}\n')
 
 def export_dataframe_to_csv(name: str, dataframe):
     filename = os.path.join(CSV_FOLDER, f'{name}.csv')
     old_hash = sha1sum(filename)
     dataframe.to_csv(filename, line_terminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=old_hash)
+
 
 export_dataframe_to_csv(name='stats-weekly', dataframe=merged)
 export_dataframe_to_csv(name='rh-deceased', dataframe=df_d_3)

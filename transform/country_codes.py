@@ -39,5 +39,6 @@ mapping = {
     'Združeni Arabski Emirati': 'are',
 }
 
+
 def get_county_code(country_name: str):
     return mapping[country_name]

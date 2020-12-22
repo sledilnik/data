@@ -3,12 +3,11 @@ import csv
 import glob
 import logging
 import os
-import time
 from datetime import datetime, timedelta
 
 import pandas as pd
 
-from utils import sha1sum
+from utils import sha1sum, write_timestamp_file
 
 
 logging.basicConfig(level=logging.INFO)
@@ -20,10 +19,6 @@ SOURCE_FILE = max(glob.glob(os.path.join(covid_data_path, 'EPI') + '/dnevni_prik
 logger.info(f'SOURCE_FILE: {SOURCE_FILE}')
 CSV_FOLDER = os.path.join(os.path.dirname(__file__), '../csv')
 
-def write_timestamp_file(filename: str, old_hash: str):
-    if old_hash != sha1sum(filename):
-        with open(f'{filename}.timestamp', 'w', newline='') as f:
-            f.write(f'{int(time.time())}\n')
 
 def export_dataframe_to_csv(name: str, dataframe):
     filename = os.path.join(CSV_FOLDER, f'{name}.csv')
@@ -31,12 +26,14 @@ def export_dataframe_to_csv(name: str, dataframe):
     dataframe.replace({0: None}).astype('Int64').to_csv(filename, line_terminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=old_hash)
 
+
 municipalities = {}
 with open(os.path.join(CSV_FOLDER, 'dict-municipality.csv')) as f:
     for row in csv.DictReader(f):
         municipalities[row['name'].lower()] = row
         if row['name_alt']:
             municipalities[row['name_alt'].lower()] = row
+
 
 def get_municipality_header(municipality: str):
     """ Transforms municipality name from NIJZ xlsx to the municipality header used in final CSVs.
@@ -52,6 +49,7 @@ def get_municipality_header(municipality: str):
     region = municipalities[m]['region']
     id_ = municipalities[m]['id']
     return f'region.{region}.{id_}'
+
 
 df = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 3', engine='openpyxl', skiprows=[0, 2], skipfooter=1).transpose()[:-1]
 df.columns = df.iloc[0]  # sets the header to municipality name instead of having a zero-based index for header
@@ -96,6 +94,8 @@ write_timestamp_file(filename=deceased_regions_csv_path, old_hash=old_hash)
 # --- regions-cases.csv | regions-cases-active.csv ---
 df = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 4', engine='openpyxl', skiprows=[0, 2])[:-1]
 df.drop(['SKUPAJ'], inplace=True, axis=1)  # axis=1 means columns
+
+
 def get_region_header(region: str):
     return {
         'Pomurska': 'region.ms.todate',
@@ -113,6 +113,8 @@ def get_region_header(region: str):
         'TUJINA': 'region.foreign.todate',
         'NEZNANO': 'region.unknown.todate'
     }.get(region, 'date')  # if there's no match we assume it's a date column
+
+
 df = df.rename(mapper=get_region_header, axis='columns')  # transform of region names
 df.set_index('date', inplace=True)  # we have zero-based index by default which is obsolete therefore replace with date
 df = df.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')  # transforms strings to datetime
