@@ -169,7 +169,7 @@ if __name__ == "__main__":
     df_patients = pd.read_csv('csv/patients.csv', index_col='date')
     df_cases['cases.recovered.todate'] = df_cases['cases.closed.todate'] - df_patients['state.deceased.todate'].shift(-1)
     df_cases = df_cases.reindex([
-        'cases.confirmed', 'cases.confirmed.todate', 'cases.active', 'cases.closed.todate', 'cases.recovered.todate', 'cases.rh.occupant.confirmed',
+        'cases.confirmed', 'cases.confirmed.todate', 'cases.active', 'cases.closed.todate', 'cases.recovered.todate',
         'cases.rh.occupant.confirmed.todate', 'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate'
     ], axis='columns')
 
