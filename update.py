@@ -72,7 +72,10 @@ def computeStats(update_time):
         'tests.performed', 'tests.performed.todate', 'tests.positive', 'tests.positive.todate', 'tests.regular.performed',
         'tests.regular.performed.todate', 'tests.regular.positive', 'tests.regular.positive.todate'
     ], axis='columns')
-    dfPatients = pd.read_csv('csv/patients-summary.csv', index_col='date')
+    df_patients = pd.read_csv('csv/patients.csv', index_col='date')[[
+        'state.in_hospital', 'state.in_hospital.todate', 'state.icu', 'state.critical', 'state.out_of_hospital.todate',
+        'state.deceased.todate', 'state.recovered.todate'
+    ]]
     dfRegions = pd.read_csv('csv/regions-cases.csv', index_col='date')
     dfAgeC = pd.read_csv('csv/age-cases.csv', index_col='date')
     dfAgeD = pd.read_csv('csv/age-deceased.csv', index_col='date')
@@ -82,7 +85,7 @@ def computeStats(update_time):
         'tests.regular.performed.todate', 'tests.regular.positive', 'tests.regular.positive.todate',
         'tests.hagt.performed', 'tests.hagt.performed.todate', 'tests.hagt.positive', 'tests.hagt.positive.todate',
     ]]
-    merged = dfLegacy.join(dfPatients).join(dfRegions).join(dfAgeC).join(dfAgeD).join(dfRhD).join(df_lab_tests)
+    merged = dfLegacy.join(df_patients).join(dfRegions).join(dfAgeC).join(dfAgeD).join(dfRhD).join(df_lab_tests)
 
     merged.reset_index(inplace=True)
     merged.set_index('day', inplace=True)
@@ -124,7 +127,6 @@ def computeStats(update_time):
 if __name__ == "__main__":
     update_time = int(time.time())
     import_sheet(update_time, SHEET_TESTS, RANGE_LAB_TESTS, "csv/lab-tests.csv")
-    import_sheet(update_time, SHEET_HOS, RANGE_PATIENTS_SUMMARY, "csv/patients-summary.csv")
     import_sheet(update_time, SHEET_HOS, RANGE_PATIENTS, "csv/patients.csv")
     import_sheet(update_time, SHEET_HOS, RANGE_HOSPITALS, "csv/hospitals.csv")
     import_sheet(update_time, SHEET_HOS, RANGE_ICU, "csv/icu.csv")
