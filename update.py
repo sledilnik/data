@@ -124,3 +124,26 @@ if __name__ == "__main__":
     computeStats(update_time)
 
     import_sheet(update_time, SHEET_MEAS, RANGE_SAFETY_MEASURES, "csv/safety_measures.csv")
+
+    # LAB (9:00)
+    # cases.confirmed.todate = cases.confirmed.todate(yesterday) + tests.positive (PCR) + tests.hagt.positive (HAT)
+    df_cases = pd.read_csv('csv/cases.csv', index_col='date')
+    df_lab_tests = pd.read_csv('csv/lab-tests.csv', index_col='date').replace({None: 0})
+    date_diff = df_lab_tests.index.difference(df_cases.index)
+    date_diff = [date for date in date_diff if  date not in {  # discard irrelevant early days
+        '2020-02-02', '2020-02-09', '2020-02-16', '2020-02-23', '2020-02-24', '2020-02-25', '2020-02-26',
+        '2020-02-27', '2020-02-28', '2020-02-29', '2020-03-01', '2020-03-02', '2020-03-03'
+    }]
+    assert len(date_diff) <= 1, 'The date difference between lab-tests.csv and cases.csv is more than one day.'
+    if len(date_diff) > 0:
+        df_cases = df_cases.append(pd.DataFrame(index=date_diff, columns=df_cases.columns))
+        df_cases.iloc[-1, df_cases.columns.get_loc('cases.confirmed.todate')] = (
+            df_cases.iloc[-2, df_cases.columns.get_loc('cases.confirmed.todate')]
+            df_lab_tests.iloc[-1, df_lab_tests.columns.get_loc('tests.positive')]
+            df_lab_tests.iloc[-1, df_lab_tests.columns.get_loc('tests.hagt.positive')]
+        )
+        # TODO use common function for writing CSV
+        old_hash = sha1sum('csv/cases.csv')
+        df_cases.index.rename('date', inplace=True)  # name it explicitly otherwise it doesn't show up in csv
+        df_cases.replace({0: None}).astype('Int64').to_csv('csv/cases.csv', line_terminator='\r\n')
+        write_timestamp_file(filename='csv/cases.csv', old_hash=old_hash)
