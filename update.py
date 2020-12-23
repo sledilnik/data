@@ -80,7 +80,7 @@ def computeStats(update_time):
     df_lab_tests = pd.read_csv('csv/lab-tests.csv', index_col='date')[[
         'tests.performed', 'tests.performed.todate', 'tests.positive', 'tests.positive.todate', 'tests.regular.performed',
         'tests.regular.performed.todate', 'tests.regular.positive', 'tests.regular.positive.todate',
-        # 'tests.hagt.performed', 'tests.hagt.performed.todate', 'tests.hagt.positive', 'tests.hagt.positive.todate',
+        'tests.hagt.performed', 'tests.hagt.performed.todate', 'tests.hagt.positive', 'tests.hagt.positive.todate',
     ]]
     merged = dfLegacy.join(dfPatients).join(dfRegions).join(dfAgeC).join(dfAgeD).join(dfRhD).join(df_lab_tests)
 
@@ -90,7 +90,7 @@ def computeStats(update_time):
     merged = merged.reindex([  # sort
         'date', 'phase', 'tests.performed.todate', 'tests.performed', 'tests.positive.todate', 'tests.positive', 'tests.regular.performed.todate',
         'tests.regular.performed', 'tests.regular.positive.todate', 'tests.regular.positive',
-        # 'tests.hagt.performed', 'tests.hagt.performed.todate', 'tests.hagt.positive', 'tests.hagt.positive.todate',
+        'tests.hagt.performed', 'tests.hagt.performed.todate', 'tests.hagt.positive', 'tests.hagt.positive.todate',
         'tests.ns-apr20.performed.todate', 'tests.ns-apr20.performed',
         'tests.ns-apr20.positive.todate', 'tests.ns-apr20.positive', 'cases.confirmed.todate', 'cases.confirmed', 'cases.active', 'cases.recovered.todate',
         'cases.closed.todate', 'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate', 'cases.rh.occupant.confirmed.todate',
