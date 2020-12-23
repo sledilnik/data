@@ -137,8 +137,7 @@ if __name__ == "__main__":
 
     import_sheet(update_time, SHEET_MEAS, RANGE_SAFETY_MEASURES, "csv/safety_measures.csv")
 
-    # LAB (9:00)
-    # cases.confirmed.todate = cases.confirmed.todate(yesterday) + tests.positive (PCR) + tests.hagt.positive (HAT)
+    # LAB (9:00): cases.confirmed, cases.confirmed.todate, cases.active, cases.closed
     df_cases = pd.read_csv('csv/cases.csv', index_col='date')
     df_lab_tests = pd.read_csv('csv/lab-tests.csv', index_col='date').replace({None: 0})
     date_diff = df_lab_tests.index.difference(df_cases.index)
@@ -149,11 +148,17 @@ if __name__ == "__main__":
     assert len(date_diff) <= 1, 'The date difference between lab-tests.csv and cases.csv is more than one day.'
     if len(date_diff) > 0:
         df_cases = df_cases.append(pd.DataFrame(index=date_diff, columns=df_cases.columns))
-        df_cases.iloc[-1, df_cases.columns.get_loc('cases.confirmed.todate')] = (
-            df_cases.iloc[-2, df_cases.columns.get_loc('cases.confirmed.todate')] +
-            df_lab_tests.iloc[-1, df_lab_tests.columns.get_loc('tests.positive')] +
-            df_lab_tests.iloc[-1, df_lab_tests.columns.get_loc('tests.hagt.positive')]
-        )
+        date = date_diff[0]  # equals index of -1
+        # only manipulate last row
+        df_cases.at[date, 'cases.confirmed'] = df_lab_tests.at[date, 'tests.positive'] + df_lab_tests.at[date, 'tests.hagt.positive']
+        df_cases.at[date, 'cases.confirmed.todate'] = df_cases.iloc[-2, df_cases.columns.get_loc('cases.confirmed.todate')] + df_cases.at[date, 'cases.confirmed']
+
+        df_cases['cases.active.temp'] = df_cases['cases.confirmed'].rolling(window=14).sum()
+        df_cases.at[date, 'cases.active'] = df_cases.at[date, 'cases.active.temp']
+        df_cases.drop('cases.active.temp', axis='columns', inplace=True)
+
+        df_cases.at[date, 'cases.closed.todate'] = df_cases.at[date, 'cases.confirmed.todate'] - df_cases.at[date, 'cases.active']
+
         # TODO use common function for writing CSV
         old_hash = sha1sum('csv/cases.csv')
         df_cases.index.rename('date', inplace=True)  # name it explicitly otherwise it doesn't show up in csv
