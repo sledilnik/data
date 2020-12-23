@@ -139,6 +139,7 @@ if __name__ == "__main__":
 
     # LAB (9:00): cases.confirmed, cases.confirmed.todate, cases.active, cases.closed
     df_cases = pd.read_csv('csv/cases.csv', index_col='date')
+    df_cases_old_hash = sha1sum('csv/cases.csv')
     df_lab_tests = pd.read_csv('csv/lab-tests.csv', index_col='date').replace({None: 0})
     date_diff = df_lab_tests.index.difference(df_cases.index)
     date_diff = [date for date in date_diff if  date not in {  # discard irrelevant early days
@@ -160,7 +161,17 @@ if __name__ == "__main__":
         df_cases.at[date, 'cases.closed.todate'] = df_cases.at[date, 'cases.confirmed.todate'] - df_cases.at[date, 'cases.active']
 
         # TODO use common function for writing CSV
-        old_hash = sha1sum('csv/cases.csv')
         df_cases.index.rename('date', inplace=True)  # name it explicitly otherwise it doesn't show up in csv
         df_cases.replace({0: None}).astype('Int64').to_csv('csv/cases.csv', line_terminator='\r\n')
-        write_timestamp_file(filename='csv/cases.csv', old_hash=old_hash)
+        write_timestamp_file(filename='csv/cases.csv', old_hash=df_cases_old_hash)
+
+    # HOS (10:30): cases.recovered.todate
+    df_patients = pd.read_csv('csv/patients.csv', index_col='date')
+    df_cases['cases.recovered.todate'] = df_cases['cases.closed.todate'] - df_patients['state.deceased.todate'].shift(-1)
+    df_cases = df_cases.reindex([
+        'cases.confirmed', 'cases.confirmed.todate', 'cases.active', 'cases.closed.todate', 'cases.recovered.todate',
+        'cases.rh.occupant.confirmed.todate', 'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate'
+    ], axis='columns')
+
+    df_cases.replace({0: None}).astype('Int64').to_csv('csv/cases.csv', line_terminator='\r\n')
+    write_timestamp_file(filename='csv/cases.csv', old_hash=df_cases_old_hash)
