@@ -138,8 +138,8 @@ if __name__ == "__main__":
     if len(date_diff) > 0:
         df_cases = df_cases.append(pd.DataFrame(index=date_diff, columns=df_cases.columns))
         df_cases.iloc[-1, df_cases.columns.get_loc('cases.confirmed.todate')] = (
-            df_cases.iloc[-2, df_cases.columns.get_loc('cases.confirmed.todate')]
-            df_lab_tests.iloc[-1, df_lab_tests.columns.get_loc('tests.positive')]
+            df_cases.iloc[-2, df_cases.columns.get_loc('cases.confirmed.todate')] +
+            df_lab_tests.iloc[-1, df_lab_tests.columns.get_loc('tests.positive')] +
             df_lab_tests.iloc[-1, df_lab_tests.columns.get_loc('tests.hagt.positive')]
         )
         # TODO use common function for writing CSV
