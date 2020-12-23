@@ -68,20 +68,30 @@ def computeStats(update_time):
     filename = 'csv/stats.csv'
     print("Processing", filename)
     old_hash = sha1sum(filename)
-    dfLegacy = pd.read_csv('csv/stats-legacy.csv', index_col='date')
+    dfLegacy = pd.read_csv('csv/stats-legacy.csv', index_col='date').drop([  # dropped columns are now sourced from lab-tests.csv
+        'tests.performed', 'tests.performed.todate', 'tests.positive', 'tests.positive.todate', 'tests.regular.performed',
+        'tests.regular.performed.todate', 'tests.regular.positive', 'tests.regular.positive.todate'
+    ], axis='columns')
     dfPatients = pd.read_csv('csv/patients-summary.csv', index_col='date')
     dfRegions = pd.read_csv('csv/regions-cases.csv', index_col='date')
     dfAgeC = pd.read_csv('csv/age-cases.csv', index_col='date')
     dfAgeD = pd.read_csv('csv/age-deceased.csv', index_col='date')
     dfRhD = pd.read_csv('csv/rh-deceased.csv', index_col='date')
-    merged = dfLegacy.join(dfPatients).join(dfRegions).join(dfAgeC).join(dfAgeD).join(dfRhD)
+    df_lab_tests = pd.read_csv('csv/lab-tests.csv', index_col='date')[[
+        'tests.performed', 'tests.performed.todate', 'tests.positive', 'tests.positive.todate', 'tests.regular.performed',
+        'tests.regular.performed.todate', 'tests.regular.positive', 'tests.regular.positive.todate',
+        # 'tests.hagt.performed', 'tests.hagt.performed.todate', 'tests.hagt.positive', 'tests.hagt.positive.todate',
+    ]]
+    merged = dfLegacy.join(dfPatients).join(dfRegions).join(dfAgeC).join(dfAgeD).join(dfRhD).join(df_lab_tests)
 
     merged.reset_index(inplace=True)
     merged.set_index('day', inplace=True)
 
     merged = merged.reindex([  # sort
         'date', 'phase', 'tests.performed.todate', 'tests.performed', 'tests.positive.todate', 'tests.positive', 'tests.regular.performed.todate',
-        'tests.regular.performed', 'tests.regular.positive.todate', 'tests.regular.positive', 'tests.ns-apr20.performed.todate', 'tests.ns-apr20.performed',
+        'tests.regular.performed', 'tests.regular.positive.todate', 'tests.regular.positive',
+        # 'tests.hagt.performed', 'tests.hagt.performed.todate', 'tests.hagt.positive', 'tests.hagt.positive.todate',
+        'tests.ns-apr20.performed.todate', 'tests.ns-apr20.performed',
         'tests.ns-apr20.positive.todate', 'tests.ns-apr20.positive', 'cases.confirmed.todate', 'cases.confirmed', 'cases.active', 'cases.recovered.todate',
         'cases.closed.todate', 'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate', 'cases.rh.occupant.confirmed.todate',
         'cases.unclassified.confirmed.todate', 'state.in_hospital', 'state.icu', 'state.critical', 'state.in_hospital.todate', 'state.out_of_hospital.todate',
