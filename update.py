@@ -71,7 +71,7 @@ def computeStats(update_time):
     dfLegacy = pd.read_csv('csv/stats-legacy.csv', index_col='date').drop([  # dropped columns are now sourced from lab-tests.csv
         'tests.performed', 'tests.performed.todate', 'tests.positive', 'tests.positive.todate', 'tests.regular.performed',
         'tests.regular.performed.todate', 'tests.regular.positive', 'tests.regular.positive.todate',
-        'cases.confirmed', 'cases.confirmed.todate', 'cases.active', 'cases.recovered.todate'
+        'cases.confirmed', 'cases.confirmed.todate', 'cases.active', 'cases.recovered.todate', 'cases.closed.todate'
     ], axis='columns')
 
     df_patients = pd.read_csv('csv/patients.csv', index_col='date')[[
@@ -88,7 +88,7 @@ def computeStats(update_time):
         'tests.hagt.performed', 'tests.hagt.performed.todate', 'tests.hagt.positive', 'tests.hagt.positive.todate',
     ]]
     df_cases = pd.read_csv('csv/cases.csv', index_col='date')[[
-        'cases.confirmed', 'cases.confirmed.todate', 'cases.active', 'cases.recovered.todate'
+        'cases.confirmed', 'cases.confirmed.todate', 'cases.active', 'cases.recovered.todate', 'cases.closed.todate'
     ]]
     merged = dfLegacy.join(df_patients).join(dfRegions).join(dfAgeC).join(dfAgeD).join(dfRhD).join(df_lab_tests).join(df_cases)
 
