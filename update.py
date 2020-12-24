@@ -68,10 +68,14 @@ def computeStats(update_time):
     filename = 'csv/stats.csv'
     print("Processing", filename)
     old_hash = sha1sum(filename)
-    dfLegacy = pd.read_csv('csv/stats-legacy.csv', index_col='date').drop([  # dropped columns are now sourced from lab-tests.csv
+    dfLegacy = pd.read_csv('csv/stats-legacy.csv', index_col='date').drop([
         'tests.performed', 'tests.performed.todate', 'tests.positive', 'tests.positive.todate', 'tests.regular.performed',
-        'tests.regular.performed.todate', 'tests.regular.positive', 'tests.regular.positive.todate'
+        'tests.regular.performed.todate', 'tests.regular.positive', 'tests.regular.positive.todate',
+        'cases.confirmed', 'cases.confirmed.todate', 'cases.active', 'cases.recovered.todate', 'cases.closed.todate',
+        'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate', 'cases.rh.occupant.confirmed.todate',
+        'cases.unclassified.confirmed.todate'
     ], axis='columns')
+
     df_patients = pd.read_csv('csv/patients.csv', index_col='date')[[
         'state.in_hospital', 'state.in_hospital.todate', 'state.icu', 'state.critical', 'state.out_of_hospital.todate',
         'state.deceased.todate', 'state.recovered.todate'
@@ -85,7 +89,15 @@ def computeStats(update_time):
         'tests.regular.performed.todate', 'tests.regular.positive', 'tests.regular.positive.todate',
         'tests.hagt.performed', 'tests.hagt.performed.todate', 'tests.hagt.positive', 'tests.hagt.positive.todate',
     ]]
-    merged = dfLegacy.join(df_patients).join(dfRegions).join(dfAgeC).join(dfAgeD).join(dfRhD).join(df_lab_tests)
+    df_cases = pd.read_csv('csv/cases.csv', index_col='date')[[
+        'cases.confirmed', 'cases.confirmed.todate', 'cases.active', 'cases.recovered.todate', 'cases.closed.todate',
+        'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate', 'cases.rh.occupant.confirmed.todate',
+    ]]
+    merged = dfLegacy.join(df_patients).join(dfRegions).join(dfAgeC).join(dfAgeD).join(dfRhD).join(df_lab_tests).join(df_cases)
+    merged['cases.unclassified.confirmed.todate'] = merged['cases.confirmed.todate'] \
+        .sub(merged['cases.hs.employee.confirmed.todate'], fill_value=0) \
+        .sub(merged['cases.rh.employee.confirmed.todate'], fill_value=0) \
+        .sub(merged['cases.rh.occupant.confirmed.todate'], fill_value=0)
 
     merged.reset_index(inplace=True)
     merged.set_index('day', inplace=True)
