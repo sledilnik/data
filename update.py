@@ -74,7 +74,7 @@ def computeStats(update_time):
         'cases.confirmed', 'cases.confirmed.todate', 'cases.active', 'cases.recovered.todate', 'cases.closed.todate',
         'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate', 'cases.rh.occupant.confirmed.todate',
         'cases.unclassified.confirmed.todate', 'tests.ns-apr20.performed', 'tests.ns-apr20.performed.todate',
-        'tests.ns-apr20.positive', 'tests.ns-apr20.positive.todate'
+        'tests.ns-apr20.positive', 'tests.ns-apr20.positive.todate', 'day'
     ], axis='columns')
 
     df_patients = pd.read_csv('csv/patients.csv', index_col='date')[[
@@ -101,6 +101,7 @@ def computeStats(update_time):
         .sub(merged['cases.rh.employee.confirmed.todate'], fill_value=0) \
         .sub(merged['cases.rh.occupant.confirmed.todate'], fill_value=0)
 
+    merged.insert(loc=0, column='day', value=range(-8, -8 + len(merged)))
     merged.reset_index(inplace=True)
     merged.set_index('day', inplace=True)
 
