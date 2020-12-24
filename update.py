@@ -73,6 +73,7 @@ def computeStats(update_time):
         'tests.regular.performed.todate', 'tests.regular.positive', 'tests.regular.positive.todate',
         'cases.confirmed', 'cases.confirmed.todate', 'cases.active', 'cases.recovered.todate', 'cases.closed.todate',
         'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate', 'cases.rh.occupant.confirmed.todate',
+        'cases.unclassified.confirmed.todate'
     ], axis='columns')
 
     df_patients = pd.read_csv('csv/patients.csv', index_col='date')[[
@@ -93,6 +94,10 @@ def computeStats(update_time):
         'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate', 'cases.rh.occupant.confirmed.todate',
     ]]
     merged = dfLegacy.join(df_patients).join(dfRegions).join(dfAgeC).join(dfAgeD).join(dfRhD).join(df_lab_tests).join(df_cases)
+    merged['cases.unclassified.confirmed.todate'] = merged['cases.confirmed.todate'] \
+        .sub(merged['cases.hs.employee.confirmed.todate'], fill_value=0) \
+        .sub(merged['cases.rh.employee.confirmed.todate'], fill_value=0) \
+        .sub(merged['cases.rh.occupant.confirmed.todate'], fill_value=0)
 
     merged.reset_index(inplace=True)
     merged.set_index('day', inplace=True)
