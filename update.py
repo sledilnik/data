@@ -72,7 +72,7 @@ def computeStats(update_time):
         'tests.performed', 'tests.performed.todate', 'tests.positive', 'tests.positive.todate', 'tests.regular.performed',
         'tests.regular.performed.todate', 'tests.regular.positive', 'tests.regular.positive.todate',
         'cases.confirmed', 'cases.confirmed.todate', 'cases.active', 'cases.recovered.todate', 'cases.closed.todate',
-        'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate'
+        'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate', 'cases.rh.occupant.confirmed.todate',
     ], axis='columns')
 
     df_patients = pd.read_csv('csv/patients.csv', index_col='date')[[
@@ -90,7 +90,7 @@ def computeStats(update_time):
     ]]
     df_cases = pd.read_csv('csv/cases.csv', index_col='date')[[
         'cases.confirmed', 'cases.confirmed.todate', 'cases.active', 'cases.recovered.todate', 'cases.closed.todate',
-        'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate'
+        'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate', 'cases.rh.occupant.confirmed.todate',
     ]]
     merged = dfLegacy.join(df_patients).join(dfRegions).join(dfAgeC).join(dfAgeD).join(dfRhD).join(df_lab_tests).join(df_cases)
 
