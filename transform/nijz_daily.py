@@ -155,11 +155,13 @@ df_1 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 1', engine='openpyxl', s
     .rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')[['cases.confirmed', 'cases.confirmed.todate']]
 df_1['cases.active'] = df_1['cases.confirmed'].rolling(window=14).sum().astype('Int64')
 df_1['cases.closed.todate'] = df_1['cases.confirmed.todate'] - df_1['cases.active']
+df_1 = df_1.join(pd.read_csv(os.path.join(CSV_FOLDER, 'cases.csv'), index_col='date')[['cases.recovered.todate']])
 
 df_6 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 6', engine='openpyxl', skiprows=[0, 2], skipfooter=2) \
     .rename(mapper={'Datum izvida': 'date', 'Oskrbovanci': 'cases.rh.occupant.confirmed'}, axis='columns').set_index('date') \
     .rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')[['cases.rh.occupant.confirmed']]
 df_6['cases.rh.occupant.confirmed.todate'] = df_6['cases.rh.occupant.confirmed'].cumsum()
+df_6.drop('cases.rh.occupant.confirmed', axis='columns', inplace=True)
 
 df_stats_legacy = pd.read_csv(os.path.join(CSV_FOLDER, 'stats-legacy.csv'), index_col='date')[[
     'cases.hs.employee.confirmed.todate',
