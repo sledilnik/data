@@ -1,3 +1,4 @@
+import datetime
 import pathlib
 import os
 import os.path
@@ -68,14 +69,10 @@ def computeStats(update_time):
     filename = 'csv/stats.csv'
     print("Processing", filename)
     old_hash = sha1sum(filename)
-    dfLegacy = pd.read_csv('csv/stats-legacy.csv', index_col='date').drop([
-        'tests.performed', 'tests.performed.todate', 'tests.positive', 'tests.positive.todate', 'tests.regular.performed',
-        'tests.regular.performed.todate', 'tests.regular.positive', 'tests.regular.positive.todate',
-        'cases.confirmed', 'cases.confirmed.todate', 'cases.active', 'cases.recovered.todate', 'cases.closed.todate',
-        'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate', 'cases.rh.occupant.confirmed.todate',
-        'cases.unclassified.confirmed.todate', 'tests.ns-apr20.performed', 'tests.ns-apr20.performed.todate',
-        'tests.ns-apr20.positive', 'tests.ns-apr20.positive.todate', 'day'
-    ], axis='columns')
+
+    df_phases = pd.read_csv('csv/dict-phases.csv', index_col='date.from', parse_dates=['date.from']).rename(mapper={'id': 'phase'}, axis='columns')[['phase']]
+    df_phases = df_phases.reindex(pd.date_range(df_phases.index.min(), datetime.datetime.now().date(), freq='D'), method='ffill')
+    df_phases.index.name = 'date'
 
     df_patients = pd.read_csv('csv/patients.csv', index_col='date')[[
         'state.in_hospital', 'state.in_hospital.todate', 'state.icu', 'state.critical', 'state.out_of_hospital.todate',
@@ -95,7 +92,7 @@ def computeStats(update_time):
         'cases.confirmed', 'cases.confirmed.todate', 'cases.active', 'cases.recovered.todate', 'cases.closed.todate',
         'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate', 'cases.rh.occupant.confirmed.todate',
     ]]
-    merged = dfLegacy.join(df_patients).join(dfRegions).join(dfAgeC).join(dfAgeD).join(dfRhD).join(df_lab_tests).join(df_cases)
+    merged = df_phases.join(df_patients).join(dfRegions).join(dfAgeC).join(dfAgeD).join(dfRhD).join(df_lab_tests).join(df_cases)
     merged['cases.unclassified.confirmed.todate'] = merged['cases.confirmed.todate'] \
         .sub(merged['cases.hs.employee.confirmed.todate'], fill_value=0) \
         .sub(merged['cases.rh.employee.confirmed.todate'], fill_value=0) \
@@ -145,7 +142,6 @@ if __name__ == "__main__":
     import_sheet(update_time, SHEET_HOS, RANGE_PATIENTS, "csv/patients.csv")
     import_sheet(update_time, SHEET_HOS, RANGE_HOSPITALS, "csv/hospitals.csv")
     import_sheet(update_time, SHEET_HOS, RANGE_ICU, "csv/icu.csv")
-    import_sheet(update_time, SHEET_MAIN, RANGE_STATS_LEGACY, "csv/stats-legacy.csv")
 
     computeMunicipalities(update_time)
     computeStats(update_time)
@@ -157,7 +153,7 @@ if __name__ == "__main__":
     df_cases_old_hash = sha1sum('csv/cases.csv')
     df_lab_tests = pd.read_csv('csv/lab-tests.csv', index_col='date').replace({None: 0})
     date_diff = df_lab_tests.index.difference(df_cases.index)
-    date_diff = [date for date in date_diff if  date not in {  # discard irrelevant early days
+    date_diff = [date for date in date_diff if date not in {  # discard irrelevant early days
         '2020-02-02', '2020-02-09', '2020-02-16', '2020-02-23', '2020-02-24', '2020-02-25', '2020-02-26',
         '2020-02-27', '2020-02-28', '2020-02-29', '2020-03-01', '2020-03-02', '2020-03-03'
     }]
