@@ -6,7 +6,7 @@ from datetime import datetime
 import pandas as pd
 
 from country_codes import get_county_code
-from utils import sha1sum, write_timestamp_file
+from utils import sha1sum, write_timestamp_file, download_nijz_xslx_file
 
 
 logging.basicConfig(level=logging.INFO)
@@ -20,6 +20,10 @@ logger.info(f'SOURCE_FILE okuzeni: {SOURCE_FILE_INFECTED}')
 SOURCE_FILE_DECEASED = max(glob.glob(os.path.join(covid_data_path, 'EPI') + '/tedenski_prikaz_umrli*.xlsx'))  # take latest
 logger.info(f'SOURCE_FILE umrli: {SOURCE_FILE_DECEASED}')
 CSV_FOLDER = os.path.join(os.path.dirname(__file__), '../csv')
+
+
+download_nijz_xslx_file(download_folder=os.path.join(covid_data_path, 'EPI'), search_for='tedenski_prikaz_okuzeni')
+download_nijz_xslx_file(download_folder=os.path.join(covid_data_path, 'EPI'), search_for='tedenski_prikaz_umrli')
 
 
 df_d_1 = pd.read_excel(io=SOURCE_FILE_DECEASED, sheet_name='Tabela 1', engine='openpyxl', skiprows=[0], skipfooter=2)
