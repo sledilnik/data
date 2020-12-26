@@ -70,14 +70,15 @@ def computeStats(update_time):
     print("Processing", filename)
     old_hash = sha1sum(filename)
 
-    df_phases = pd.read_csv('csv/dict-phases.csv', index_col='date.from', parse_dates=['date.from']).rename(mapper={'id': 'phase'}, axis='columns')[['phase']]
-    df_phases = df_phases.reindex(pd.date_range(df_phases.index.min(), datetime.datetime.now().date(), freq='D'), method='ffill')
-    df_phases.index.name = 'date'
-
-    df_patients = pd.read_csv('csv/patients.csv', index_col='date')[[
+    df_patients = pd.read_csv('csv/patients.csv', index_col='date', parse_dates=['date'])[[
         'state.in_hospital', 'state.in_hospital.todate', 'state.icu', 'state.critical', 'state.out_of_hospital.todate',
         'state.deceased.todate', 'state.recovered.todate'
     ]]
+
+    df_phases = pd.read_csv('csv/dict-phases.csv', index_col='date.from', parse_dates=['date.from']).rename(mapper={'id': 'phase'}, axis='columns')[['phase']]
+    df_phases = df_phases.reindex(pd.date_range(df_phases.index.min(), df_patients.index.max(), freq='D'), method='ffill')
+    df_phases.index.name = 'date'
+
     dfRegions = pd.read_csv('csv/regions-cases.csv', index_col='date')
     dfAgeC = pd.read_csv('csv/age-cases.csv', index_col='date')
     dfAgeD = pd.read_csv('csv/age-deceased.csv', index_col='date')
