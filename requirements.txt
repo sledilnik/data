@@ -1,43 +1,7 @@
--i https://pypi.org/simple
-backcall==0.2.0
-cachetools==4.1.1; python_version ~= '3.5'
-certifi==2020.6.20
-chardet==3.0.4
-clize==4.1.1
-decorator==4.4.2
-git+https://github.com/slo-covid-19/sheet2csv.git@4e3f02631c4d9b23c3899ad73df142a62b8d622b#egg=sheet2csv
-google-api-core==1.22.2; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
-google-api-python-client==1.12.2; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
-google-auth-httplib2==0.0.4
-google-auth-oauthlib==0.4.1
-google-auth==1.21.3; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
-googleapis-common-protos==1.52.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
-httplib2==0.18.1
-idna==2.10; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
-ipython-genutils==0.2.0
-ipython==7.18.1; python_version >= '3.7'
-jedi==0.17.2; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
-numpy==1.19.2; python_version >= '3.6'
-oauthlib==3.1.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
-openpyxl==3.0.5
-pandas==1.1.2
-parso==0.7.1; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
-pexpect==4.8.0; sys_platform != 'win32' and sys_platform != 'win32'
-pickleshare==0.7.5
-prompt-toolkit==3.0.7; python_full_version >= '3.6.1'
-protobuf==3.13.0
-ptyprocess==0.6.0
-pyasn1-modules==0.2.8
-pyasn1==0.4.8
-pygments==2.7.1; python_version >= '3.5'
-pyquery==1.4.3
-python-dateutil==2.8.1; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
-pytz==2020.1
-requests-oauthlib==1.3.0
-requests==2.24.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
-rsa==4.6; python_version >= '3.5'
-six==1.15.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
-traitlets==5.0.4; python_version >= '3.7'
-uritemplate==3.0.1; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
-urllib3==1.25.10; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4'
-wcwidth==0.2.5
+git+https://github.com/slo-covid-19/sheet2csv.git@v1.0.1#egg=sheet2csv
+numpy==1.19.*
+openpyxl==3.0.*
+pandas==1.1.*
+pyquery==1.4.*
+python-dateutil==2.8.*
+requests==2.25.*
