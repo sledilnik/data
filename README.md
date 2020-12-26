@@ -13,6 +13,16 @@ This repository is for organising our collaboration better: wikis, issues etc.
 `Python 3.8+` is required to run scripts in this repo.
 
 
+## How to run scripts
+___
+In this folder run:
+1. `python3.8 -m venv venv` or `virtualenv -p python3.8 venv`
+1. `source venv/bin/activate`
+1. `pip install -r requirements.txt`
+1. `export COVID_DATA_PATH=<the location of the COVID-DATA folder>`
+1. `python update.py` or `python transform/nijz_daily.py` or `python transform/nijz_weekly.py`...
+
+
 # Updating data
 
 Trigger rebuild at [Travis CI](https://travis-ci.com/github/sledilnik/data)
