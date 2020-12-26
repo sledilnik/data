@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 
 import pandas as pd
 
-from utils import sha1sum, write_timestamp_file
+from utils import sha1sum, write_timestamp_file, download_nijz_xslx_file
 
 
 logging.basicConfig(level=logging.INFO)
@@ -18,6 +18,9 @@ assert covid_data_path, 'COVID_DATA_PATH env variable must be set. (The location
 SOURCE_FILE = max(glob.glob(os.path.join(covid_data_path, 'EPI') + '/dnevni_prikazi*.xlsx'))  # take latest
 logger.info(f'SOURCE_FILE: {SOURCE_FILE}')
 CSV_FOLDER = os.path.join(os.path.dirname(__file__), '../csv')
+
+
+download_nijz_xslx_file(download_folder=os.path.join(covid_data_path, 'EPI'), search_for='dnevni_prikazi')
 
 
 def export_dataframe_to_csv(name: str, dataframe):
