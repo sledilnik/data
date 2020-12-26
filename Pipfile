@@ -6,8 +6,35 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-sheet2csv = {git = "https://github.com/slo-covid-19/sheet2csv.git",ref = "master"}
-pandas = "*"
+backcall = "*"
+cachetools = "==4.1.1"
+certifi = "==2020.6.20"
+chardet = "==3.0.4"
+decorator = "*"
+google-api-core = "==1.22.2"
+google-api-python-client = "==1.12.2"
+google-auth = "==1.21.3"
+google-auth-httplib2 = "==0.0.4"
+google-auth-oauthlib = "==0.4.1"
+ipython = "==7.18.1"
+ipython-genutils = "==0.2.0"
+jedi = "==0.17.2"
+numpy = "==1.19.2"
+pandas = "==1.1.2"
+prompt-toolkit = "==3.0.7"
+protobuf = "==3.13.0"
+pygments = "==2.7.1"
+pytz = "==2020.1"
+requests = "==2.24.0"
+requests-oauthlib = "*"
+traitlets = "==5.0.4"
+urllib3 = "==1.25.10"
+openpyxl = "==3.0.5"
+clize = "==4.1.1"
 
 [scripts]
 update = "python update.py"
+
+[packages.sheet2csv]
+git = "https://github.com/slo-covid-19/sheet2csv.git"
+ref = "master"
