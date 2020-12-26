@@ -163,7 +163,7 @@ df_6 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 6', engine='openpyxl', s
 df_6['cases.rh.occupant.confirmed.todate'] = df_6['cases.rh.occupant.confirmed'].cumsum()
 df_6.drop('cases.rh.occupant.confirmed', axis='columns', inplace=True)
 
-df_stats_legacy = pd.read_csv(os.path.join(CSV_FOLDER, 'stats-legacy.csv'), index_col='date')[[
+df_stats_legacy = pd.read_csv(os.path.join(CSV_FOLDER, 'cases-legacy.csv'), index_col='date')[[
     'cases.hs.employee.confirmed.todate',
     'cases.rh.employee.confirmed.todate'
 ]]
