@@ -1,8 +1,12 @@
+attrs==19.3.0
 backcall==0.2.0
 cachetools==4.1.1
 certifi==2020.6.20
 chardet==3.0.4
+clize==4.1.1
 decorator==4.4.2
+docutils==0.16
+et-xmlfile==1.0.1
 git+https://github.com/slo-covid-19/sheet2csv.git@master#egg=sheet2csv
 google-api-core==1.22.2
 google-api-python-client==1.12.2
@@ -14,9 +18,12 @@ httplib2==0.18.1
 idna==2.10
 ipython-genutils==0.2.0
 ipython==7.18.1
+jdcal==1.4.1
 jedi==0.17.2
 numpy==1.19.2
 oauthlib==3.1.0
+od==1.0
+openpyxl==3.0.5
 pandas==1.1.2
 parso==0.7.1
 pexpect==4.8.0; sys_platform != 'win32'
@@ -32,6 +39,7 @@ pytz==2020.1
 requests-oauthlib==1.3.0
 requests==2.24.0
 rsa==4.6; python_version >= '3.5'
+sigtools==2.0.2
 six==1.15.0
 traitlets==5.0.4
 uritemplate==3.0.1
