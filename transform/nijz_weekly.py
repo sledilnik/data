@@ -15,15 +15,14 @@ logger = logging.getLogger(__file__)
 covid_data_path = os.getenv('COVID_DATA_PATH')
 assert covid_data_path, 'COVID_DATA_PATH env variable must be set. (The location of the COVID-DATA folder)'
 
+download_nijz_xslx_file(download_folder=os.path.join(covid_data_path, 'EPI'), search_for='tedenski_prikaz_okuzeni')
+download_nijz_xslx_file(download_folder=os.path.join(covid_data_path, 'EPI'), search_for='tedenski_prikaz_umrli')
+
 SOURCE_FILE_INFECTED = max(glob.glob(os.path.join(covid_data_path, 'EPI') + '/tedenski_prikaz_okuzeni*.xlsx'))  # take latest
 logger.info(f'SOURCE_FILE okuzeni: {SOURCE_FILE_INFECTED}')
 SOURCE_FILE_DECEASED = max(glob.glob(os.path.join(covid_data_path, 'EPI') + '/tedenski_prikaz_umrli*.xlsx'))  # take latest
 logger.info(f'SOURCE_FILE umrli: {SOURCE_FILE_DECEASED}')
 CSV_FOLDER = os.path.join(os.path.dirname(__file__), '../csv')
-
-
-download_nijz_xslx_file(download_folder=os.path.join(covid_data_path, 'EPI'), search_for='tedenski_prikaz_okuzeni')
-download_nijz_xslx_file(download_folder=os.path.join(covid_data_path, 'EPI'), search_for='tedenski_prikaz_umrli')
 
 
 df_d_1 = pd.read_excel(io=SOURCE_FILE_DECEASED, sheet_name='Tabela 1', engine='openpyxl', skiprows=[0], skipfooter=2)
