@@ -139,16 +139,16 @@ def computeStats(update_time):
 
 if __name__ == "__main__":
     update_time = int(time.time())
+    import_sheet(update_time, SHEET_MEAS, RANGE_SAFETY_MEASURES, "csv/safety_measures.csv")
     import_sheet(update_time, SHEET_TESTS, RANGE_LAB_TESTS, "csv/lab-tests.csv")
     import_sheet(update_time, SHEET_HOS, RANGE_PATIENTS, "csv/patients.csv")
     import_sheet(update_time, SHEET_HOS, RANGE_HOSPITALS, "csv/hospitals.csv")
     import_sheet(update_time, SHEET_HOS, RANGE_ICU, "csv/icu.csv")
 
     computeMunicipalities(update_time)
-    computeStats(update_time)
 
-    import_sheet(update_time, SHEET_MEAS, RANGE_SAFETY_MEASURES, "csv/safety_measures.csv")
 
+    print("Updating cases.csv from lab-tests/patients")
     # LAB (9:00): cases.confirmed, cases.confirmed.todate, cases.active, cases.closed
     df_cases = pd.read_csv('csv/cases.csv', index_col='date')
     df_cases_old_hash = sha1sum('csv/cases.csv')
@@ -187,3 +187,5 @@ if __name__ == "__main__":
 
     df_cases.replace({0: None}).astype('Int64').to_csv('csv/cases.csv', line_terminator='\r\n')
     write_timestamp_file(filename='csv/cases.csv', old_hash=df_cases_old_hash)
+
+    computeStats(update_time)
