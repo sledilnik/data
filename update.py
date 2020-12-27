@@ -137,20 +137,13 @@ def computeStats(update_time):
     write_timestamp_file(filename=filename, old_hash=old_hash)
 
 
-if __name__ == "__main__":
-    update_time = int(time.time())
-    import_sheet(update_time, SHEET_MEAS, RANGE_SAFETY_MEASURES, "csv/safety_measures.csv")
-    import_sheet(update_time, SHEET_TESTS, RANGE_LAB_TESTS, "csv/lab-tests.csv")
-    import_sheet(update_time, SHEET_HOS, RANGE_PATIENTS, "csv/patients.csv")
-    import_sheet(update_time, SHEET_HOS, RANGE_HOSPITALS, "csv/hospitals.csv")
-    import_sheet(update_time, SHEET_HOS, RANGE_ICU, "csv/icu.csv")
-
-    computeMunicipalities(update_time)
-    computeStats(update_time)
+def computeCases(update_time):
+    filename = 'csv/cases.csv'
+    print("Processing", filename)
 
     # LAB (9:00): cases.confirmed, cases.confirmed.todate, cases.active, cases.closed
-    df_cases = pd.read_csv('csv/cases.csv', index_col='date')
-    df_cases_old_hash = sha1sum('csv/cases.csv')
+    df_cases = pd.read_csv(filename, index_col='date')
+    df_cases_old_hash = sha1sum(filename)
     df_lab_tests = pd.read_csv('csv/lab-tests.csv', index_col='date').replace({None: 0})
     date_diff = df_lab_tests.index.difference(df_cases.index)
     date_diff = [date for date in date_diff if date not in {  # discard irrelevant early days
@@ -173,8 +166,8 @@ if __name__ == "__main__":
 
         # TODO use common function for writing CSV
         df_cases.index.rename('date', inplace=True)  # name it explicitly otherwise it doesn't show up in csv
-        df_cases.replace({0: None}).astype('Int64').to_csv('csv/cases.csv', line_terminator='\r\n')
-        write_timestamp_file(filename='csv/cases.csv', old_hash=df_cases_old_hash)
+        df_cases.replace({0: None}).astype('Int64').to_csv(filename, line_terminator='\r\n')
+        write_timestamp_file(filename=filename, old_hash=df_cases_old_hash)
 
     # HOS (10:30): cases.recovered.todate
     df_patients = pd.read_csv('csv/patients.csv', index_col='date')
@@ -184,5 +177,18 @@ if __name__ == "__main__":
         'cases.rh.occupant.confirmed.todate', 'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate'
     ], axis='columns')
 
-    df_cases.replace({0: None}).astype('Int64').to_csv('csv/cases.csv', line_terminator='\r\n')
-    write_timestamp_file(filename='csv/cases.csv', old_hash=df_cases_old_hash)
+    df_cases.replace({0: None}).astype('Int64').to_csv(filename, line_terminator='\r\n')
+    write_timestamp_file(filename=filename, old_hash=df_cases_old_hash)
+
+if __name__ == "__main__":
+    update_time = int(time.time())
+    import_sheet(update_time, SHEET_MEAS, RANGE_SAFETY_MEASURES, "csv/safety_measures.csv")
+    import_sheet(update_time, SHEET_TESTS, RANGE_LAB_TESTS, "csv/lab-tests.csv")
+    import_sheet(update_time, SHEET_HOS, RANGE_PATIENTS, "csv/patients.csv")
+    import_sheet(update_time, SHEET_HOS, RANGE_HOSPITALS, "csv/hospitals.csv")
+    import_sheet(update_time, SHEET_HOS, RANGE_ICU, "csv/icu.csv")
+
+    computeMunicipalities(update_time)
+    computeCases(update_time)
+    computeStats(update_time)
+
