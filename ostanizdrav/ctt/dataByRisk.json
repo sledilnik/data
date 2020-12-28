@@ -6327,7 +6327,7 @@
     "date": "2020-12-14",
     "published": 461,
     "risk": 1,
-    "valid": 559
+    "valid": 613
   },
   {
     "date": "2020-12-14",
@@ -6381,7 +6381,7 @@
     "date": "2020-12-15",
     "published": 593,
     "risk": 1,
-    "valid": 436
+    "valid": 492
   },
   {
     "date": "2020-12-15",
@@ -6435,7 +6435,7 @@
     "date": "2020-12-16",
     "published": 862,
     "risk": 1,
-    "valid": 263
+    "valid": 320
   },
   {
     "date": "2020-12-16",
@@ -6489,7 +6489,7 @@
     "date": "2020-12-17",
     "published": 540,
     "risk": 1,
-    "valid": 121
+    "valid": 178
   },
   {
     "date": "2020-12-17",
@@ -6543,7 +6543,7 @@
     "date": "2020-12-18",
     "published": 674,
     "risk": 1,
-    "valid": 68
+    "valid": 126
   },
   {
     "date": "2020-12-18",
@@ -6597,7 +6597,7 @@
     "date": "2020-12-19",
     "published": 454,
     "risk": 1,
-    "valid": 10
+    "valid": 71
   },
   {
     "date": "2020-12-19",
@@ -6651,7 +6651,7 @@
     "date": "2020-12-20",
     "published": 205,
     "risk": 1,
-    "valid": 0
+    "valid": 18
   },
   {
     "date": "2020-12-20",
@@ -6663,7 +6663,7 @@
     "date": "2020-12-20",
     "published": 33,
     "risk": 3,
-    "valid": 10
+    "valid": 53
   },
   {
     "date": "2020-12-20",
@@ -6717,7 +6717,7 @@
     "date": "2020-12-21",
     "published": 87,
     "risk": 3,
-    "valid": 0
+    "valid": 18
   },
   {
     "date": "2020-12-21",
@@ -6729,7 +6729,7 @@
     "date": "2020-12-21",
     "published": 167,
     "risk": 5,
-    "valid": 156
+    "valid": 201
   },
   {
     "date": "2020-12-21",
@@ -6783,7 +6783,7 @@
     "date": "2020-12-22",
     "published": 320,
     "risk": 5,
-    "valid": 166
+    "valid": 184
   },
   {
     "date": "2020-12-22",
@@ -6801,7 +6801,7 @@
     "date": "2020-12-22",
     "published": 533,
     "risk": 8,
-    "valid": 128
+    "valid": 173
   },
   {
     "date": "2020-12-23",
@@ -6855,7 +6855,7 @@
     "date": "2020-12-23",
     "published": 600,
     "risk": 8,
-    "valid": 71
+    "valid": 135
   },
   {
     "date": "2020-12-24",
@@ -6909,7 +6909,7 @@
     "date": "2020-12-24",
     "published": 405,
     "risk": 8,
-    "valid": 11
+    "valid": 74
   },
   {
     "date": "2020-12-25",
@@ -6951,7 +6951,7 @@
     "date": "2020-12-25",
     "published": 51,
     "risk": 6,
-    "valid": 11
+    "valid": 58
   },
   {
     "date": "2020-12-25",
@@ -6963,51 +6963,105 @@
     "date": "2020-12-25",
     "published": 143,
     "risk": 8,
+    "valid": 17
+  },
+  {
+    "date": "2020-12-26",
+    "published": 0,
+    "risk": 0,
+    "valid": 0
+  },
+  {
+    "date": "2020-12-26",
+    "published": 336,
+    "risk": 1,
     "valid": 0
   },
   {
     "date": "2020-12-26",
     "published": 0,
-    "risk": 0
-  },
-  {
-    "date": "2020-12-26",
-    "published": 336,
-    "risk": 1
-  },
-  {
-    "date": "2020-12-26",
-    "published": 0,
-    "risk": 2
+    "risk": 2,
+    "valid": 0
   },
   {
     "date": "2020-12-26",
     "published": 62,
-    "risk": 3
+    "risk": 3,
+    "valid": 0
   },
   {
     "date": "2020-12-26",
     "published": 0,
-    "risk": 4
+    "risk": 4,
+    "valid": 0
   },
   {
     "date": "2020-12-26",
     "published": 117,
-    "risk": 5
+    "risk": 5,
+    "valid": 47
   },
   {
     "date": "2020-12-26",
     "published": 64,
-    "risk": 6
+    "risk": 6,
+    "valid": 17
   },
   {
     "date": "2020-12-26",
     "published": 0,
-    "risk": 7
+    "risk": 7,
+    "valid": 0
   },
   {
     "date": "2020-12-26",
     "published": 191,
+    "risk": 8,
+    "valid": 0
+  },
+  {
+    "date": "2020-12-27",
+    "published": 0,
+    "risk": 0
+  },
+  {
+    "date": "2020-12-27",
+    "published": 361,
+    "risk": 1
+  },
+  {
+    "date": "2020-12-27",
+    "published": 0,
+    "risk": 2
+  },
+  {
+    "date": "2020-12-27",
+    "published": 61,
+    "risk": 3
+  },
+  {
+    "date": "2020-12-27",
+    "published": 0,
+    "risk": 4
+  },
+  {
+    "date": "2020-12-27",
+    "published": 110,
+    "risk": 5
+  },
+  {
+    "date": "2020-12-27",
+    "published": 64,
+    "risk": 6
+  },
+  {
+    "date": "2020-12-27",
+    "published": 0,
+    "risk": 7
+  },
+  {
+    "date": "2020-12-27",
+    "published": 189,
     "risk": 8
   }
 ]
