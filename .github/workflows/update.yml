@@ -58,6 +58,7 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'master'
         commit-message: 'MIZŠ Data update 🤖'
+        rebase: 'true' # pull and rebase before commit
         files: json/mizs* csv/mizs*
         name: Sledilnik data scrape bot 🤖
 
@@ -69,5 +70,6 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'master'
         commit-message: 'OstaniZdrav Data update 🤖'
+        rebase: 'true' # pull and rebase before commit
         files: ostanizdrav/
         name: Sledilnik data scrape bot 🤖
