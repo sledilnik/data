@@ -149,6 +149,7 @@ df.columns = columns
 export_dataframe_to_csv(name='age-cases', dataframe=df.cumsum())
 
 # --- cases.csv ---
+df_cases = pd.read_csv(os.path.join(CSV_FOLDER, 'cases.csv'), index_col='date', parse_dates=['date'])
 df_1 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 1', engine='openpyxl', skiprows=[0], skipfooter=1) \
     .drop('Unnamed: 0', axis='columns').rename(mapper={
         'Datum izvida': 'date',
@@ -158,7 +159,7 @@ df_1 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 1', engine='openpyxl', s
     .rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')[['cases.confirmed', 'cases.confirmed.todate']]
 df_1['cases.active'] = df_1['cases.confirmed'].rolling(window=14).sum().astype('Int64')
 df_1['cases.closed.todate'] = df_1['cases.confirmed.todate'] - df_1['cases.active']
-df_1 = df_1.join(pd.read_csv(os.path.join(CSV_FOLDER, 'cases.csv'), index_col='date')[['cases.recovered.todate']])
+df_1 = df_1.join(df_cases[['cases.recovered.todate']])
 
 df_6 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 6', engine='openpyxl', skiprows=[0, 2], skipfooter=2) \
     .rename(mapper={'Datum izvida': 'date', 'Oskrbovanci': 'cases.rh.occupant.confirmed'}, axis='columns').set_index('date') \
@@ -171,4 +172,8 @@ df_stats_legacy = pd.read_csv(os.path.join(CSV_FOLDER, 'cases-legacy.csv'), inde
     'cases.rh.employee.confirmed.todate'
 ]]
 
-export_dataframe_to_csv(name='cases', dataframe=df_1.join(df_6).join(df_stats_legacy))
+df_joined = df_1.join(df_6).join(df_stats_legacy)
+for date in df_cases.index.difference(df_joined.index):  # do not delete latest date in cases.csv if it's not present in daily xlsx yet
+    df_joined = df_joined.append(df_cases.loc[date])
+
+export_dataframe_to_csv(name='cases', dataframe=df_joined)
