@@ -155,8 +155,9 @@ df_1 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 1', engine='openpyxl', s
         'Datum izvida': 'date',
         'SKUPAJ': 'cases.confirmed',
         'Skupaj kumulativno': 'cases.confirmed.todate'
-    }, axis='columns').set_index('date') \
-    .rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')[['cases.confirmed', 'cases.confirmed.todate']]
+    }, axis='columns').set_index('date')
+df_1 = df_1[df_1.index.notnull()]  # drop non-indexed rows (where NaN is a part of the index)
+df_1 = df_1.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')[['cases.confirmed', 'cases.confirmed.todate']]
 df_1['cases.active'] = df_1['cases.confirmed'].rolling(window=14).sum().astype('Int64')
 df_1['cases.closed.todate'] = df_1['cases.confirmed.todate'] - df_1['cases.active']
 df_1 = df_1.join(df_cases[['cases.recovered.todate']])
