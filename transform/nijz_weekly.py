@@ -133,11 +133,12 @@ df_i_3.index.rename('date', inplace=True)
 df_i_3 = df_i_3.rename(mapper=lambda x: f'week.from.{get_county_code(x)}', axis='columns')
 df_i_3 = df_i_3.replace({0: None}).astype('Int64')
 
-df_i_4 = pd.read_excel(io=SOURCE_FILE_INFECTED, sheet_name='Tabela 4', engine='openpyxl', skiprows=[0, 2], skipfooter=1).rename(columns={
-    'Teden': 'week',
-    'Zdravstveni delavec': 'week.healthcare',
-}).set_index('week')
-df_i_4 = df_i_4.replace({0: None}).astype('Int64')
+df_i_4 = pd.read_excel(io=SOURCE_FILE_INFECTED, sheet_name='Tabela 4', engine='openpyxl', skiprows=[0, 1, 3], skipfooter=1).rename(columns={
+    'Unnamed: 0': 'week',
+    'Moški': 'week.healthcare.male',
+    'Ženske': 'week.healthcare.female',
+    'SKUPAJ': 'week.healthcare'
+}).set_index('week').replace({0: None}).astype('Int64')
 
 # source quarantine data from archival CSV
 df_quarantine = pd.read_csv(os.path.join(CSV_FOLDER, 'stats-weekly-archive.csv'), index_col='week')
@@ -157,7 +158,7 @@ for x in merged.index:
 merged = merged.join(pd.DataFrame(data=week_dates).set_index('week'))
 
 merged = merged.reindex([  # sort
-    'date', 'date.to', 'week.confirmed', 'week.investigated', 'week.healthcare', 'week.rhoccupant', 'week.loc.family', 'week.loc.work',
+    'date', 'date.to', 'week.confirmed', 'week.investigated', 'week.healthcare', 'week.healthcare.male', 'week.healthcare.female', 'week.rhoccupant', 'week.loc.family', 'week.loc.work',
     'week.loc.school', 'week.loc.hospital', 'week.loc.otherhc', 'week.loc.rh', 'week.loc.prison', 'week.loc.transport', 'week.loc.shop',
     'week.loc.restaurant', 'week.loc.sport', 'week.loc.gathering_private', 'week.loc.gathering_organized', 'week.loc.other', 'week.loc.unknown',
     'week.sent_to.quarantine', 'week.src.quarantine', 'week.src.import', 'week.src.import-related', 'week.src.local', 'week.src.unknown',
