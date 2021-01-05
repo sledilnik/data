@@ -86,6 +86,7 @@ def computeStats(update_time):
     dfAgeC = pd.read_csv('csv/age-cases.csv', index_col='date')
     dfAgeD = pd.read_csv('csv/age-deceased.csv', index_col='date')
     dfRhD = pd.read_csv('csv/rh-deceased.csv', index_col='date')
+    dfVaccination = pd.read_csv('csv/vaccination.csv', index_col='date')
     df_lab_tests = pd.read_csv('csv/lab-tests.csv', index_col='date')[[
         'tests.performed', 'tests.performed.todate', 'tests.positive', 'tests.positive.todate', 'tests.regular.performed',
         'tests.regular.performed.todate', 'tests.regular.positive', 'tests.regular.positive.todate',
@@ -96,7 +97,7 @@ def computeStats(update_time):
         'cases.confirmed', 'cases.confirmed.todate', 'cases.active', 'cases.recovered.todate', 'cases.closed.todate',
         'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate', 'cases.rh.occupant.confirmed.todate',
     ]]
-    merged = df_phases.join(df_patients).join(dfRegions).join(dfAgeC).join(dfAgeD).join(dfRhD).join(df_lab_tests).join(df_cases)
+    merged = df_phases.join(df_patients).join(dfRegions).join(dfAgeC).join(dfAgeD).join(dfRhD).join(df_lab_tests).join(df_cases).join(dfVaccination)
     merged['cases.unclassified.confirmed.todate'] = merged['cases.confirmed.todate'] \
         .sub(merged['cases.hs.employee.confirmed.todate'], fill_value=0) \
         .sub(merged['cases.rh.employee.confirmed.todate'], fill_value=0) \
@@ -111,7 +112,8 @@ def computeStats(update_time):
         'tests.regular.performed', 'tests.regular.positive.todate', 'tests.regular.positive',
         'tests.hagt.performed', 'tests.hagt.performed.todate', 'tests.hagt.positive', 'tests.hagt.positive.todate',
         'tests.ns-apr20.performed.todate', 'tests.ns-apr20.performed',
-        'tests.ns-apr20.positive.todate', 'tests.ns-apr20.positive', 'cases.confirmed.todate', 'cases.confirmed', 'cases.active', 'cases.recovered.todate',
+        'tests.ns-apr20.positive.todate', 'tests.ns-apr20.positive', 
+        'cases.confirmed.todate', 'cases.confirmed', 'cases.active', 'cases.recovered.todate',
         'cases.closed.todate', 'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate', 'cases.rh.occupant.confirmed.todate',
         'cases.unclassified.confirmed.todate', 'state.in_hospital', 'state.icu', 'state.critical', 'state.in_hospital.todate', 'state.out_of_hospital.todate',
         'state.deceased.todate', 'state.recovered.todate', 'region.lj.todate', 'region.ce.todate', 'region.mb.todate', 'region.ms.todate', 'region.kr.todate',
@@ -133,7 +135,8 @@ def computeStats(update_time):
         'deceased.female.55-64.todate', 'deceased.female.65-74.todate', 'deceased.female.75-84.todate', 'deceased.female.85+.todate', 'deceased.female.todate',
         'deceased.male.0-4.todate', 'deceased.male.5-14.todate', 'deceased.male.15-24.todate', 'deceased.male.25-34.todate', 'deceased.male.35-44.todate',
         'deceased.male.45-54.todate', 'deceased.male.55-64.todate', 'deceased.male.65-74.todate', 'deceased.male.75-84.todate', 'deceased.male.85+.todate',
-        'deceased.male.todate', 'deceased.rhoccupant.todate', 'deceased.other.todate'
+        'deceased.male.todate', 'deceased.rhoccupant.todate', 'deceased.other.todate',
+        'vaccination.administered', 'vaccination.administered.todate'
     ], axis='columns')
 
     merged.to_csv(filename, float_format='%.0f', line_terminator='\r\n')
