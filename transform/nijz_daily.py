@@ -94,7 +94,7 @@ with open(municipality_deceased_csv_path, 'w', newline='') as csvfile:
         writer.writerow(row)
 write_timestamp_file(filename=municipality_deceased_csv_path, old_hash=old_hash)
 
-# --- regions-cases.csv | regions-cases-active.csv ---
+# --- region-confirmed.csv | region-active.csv ---
 df = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 4', engine='openpyxl', skiprows=[0, 2])[:-1]
 df.drop(['SKUPAJ'], inplace=True, axis=1)  # axis=1 means columns
 
