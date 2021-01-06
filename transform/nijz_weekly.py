@@ -186,4 +186,4 @@ def export_dataframe_to_csv(name: str, dataframe):
 export_dataframe_to_csv(name='stats-weekly', dataframe=merged)
 export_dataframe_to_csv(name='rh-deceased', dataframe=df_d_3)
 export_dataframe_to_csv(name='age-deceased', dataframe=df_d_5)
-export_dataframe_to_csv(name='regions-deceased', dataframe=df_d_4)
+export_dataframe_to_csv(name='region-deceased', dataframe=df_d_4)

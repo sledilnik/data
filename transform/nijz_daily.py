@@ -62,11 +62,11 @@ df.index.rename('date', inplace=True)  # rename the index since what's contained
 df = df.rename(mapper=get_municipality_header, axis='columns')  # transform of municipality names
 df = df.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')  # transforms strings to datetime
 df = df.reindex(sorted(df.columns), axis=1)  # sorts the columns
-export_dataframe_to_csv(name='regions', dataframe=df.cumsum())
+export_dataframe_to_csv(name='municipality-confirmed', dataframe=df.cumsum())
 
 df = df.rolling(min_periods=1, window=14).sum().replace({0: None}).astype('Int64') \
     .drop('region.n.neznano', axis='columns')
-export_dataframe_to_csv(name='active-regions', dataframe=df)
+export_dataframe_to_csv(name='municipality-active', dataframe=df)
 
 with open(os.path.join(CSV_FOLDER, 'dict-municipality.csv')) as f:
     for row in csv.DictReader(f):
@@ -74,11 +74,11 @@ with open(os.path.join(CSV_FOLDER, 'dict-municipality.csv')) as f:
         if row['name_alt']:
             municipalities[row['name_alt'].lower()] = row
 
-# --- deceased-regions.csv ---
+# --- municipality-deceased.csv ---
 # Copy paste latest row for every missing date
-deceased_regions_csv_path = os.path.join(CSV_FOLDER, 'deceased-regions.csv')
-old_hash = sha1sum(deceased_regions_csv_path)
-with open(deceased_regions_csv_path) as f:
+municipality_deceased_csv_path = os.path.join(CSV_FOLDER, 'municipality-deceased.csv')
+old_hash = sha1sum(municipality_deceased_csv_path)
+with open(municipality_deceased_csv_path) as f:
     rows = [row for row in csv.DictReader(f)]
 
 latest_date = str([val for val in df.index.values][-1]).split('T')[0]
@@ -87,12 +87,12 @@ while (date := datetime.strptime(rows[-1]['date'], '%Y-%m-%d').date()) < latest_
     rows.append(copy.deepcopy(rows[-1]))
     rows[-1]['date'] = str(date + timedelta(days=1))
 # Write the rows collection back to the csv
-with open(deceased_regions_csv_path, 'w', newline='') as csvfile:
+with open(municipality_deceased_csv_path, 'w', newline='') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=rows[0].keys())
     writer.writeheader()
     for row in rows:
         writer.writerow(row)
-write_timestamp_file(filename=deceased_regions_csv_path, old_hash=old_hash)
+write_timestamp_file(filename=municipality_deceased_csv_path, old_hash=old_hash)
 
 # --- regions-cases.csv | regions-cases-active.csv ---
 df = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 4', engine='openpyxl', skiprows=[0, 2])[:-1]
@@ -125,14 +125,14 @@ df = df.reindex(sorted(df.columns), axis=1)  # sorts the columns
 
 df_regions_cases = df.copy(deep=True)
 df_regions_cases.loc[:, 'region.todate'] = df_regions_cases.sum(axis=1)  # sums of each row in the column at the end
-export_dataframe_to_csv(name='regions-cases', dataframe=df_regions_cases.cumsum())
+export_dataframe_to_csv(name='region-confirmed', dataframe=df_regions_cases.cumsum())
 
 df_regions_cases_active = df.copy(deep=True)
 df_regions_cases_active.loc[:, 'region.active'] = df_regions_cases_active.sum(axis=1)  # sums of each row in the column at the end
 df_regions_cases_active = df_regions_cases_active.rename(mapper=lambda x: x.replace('todate', 'active'), axis='columns') \
     .rolling(min_periods=1, window=14).sum().replace({0: None}).astype('Int64') \
     .drop('region.unknown.active', axis='columns')
-export_dataframe_to_csv(name='regions-cases-active', dataframe=df_regions_cases_active)
+export_dataframe_to_csv(name='region-active', dataframe=df_regions_cases_active)
 
 # --- age-confirmed.csv ---
 df = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 5', engine='openpyxl', skiprows=[1, 2, 3])[:-1]
