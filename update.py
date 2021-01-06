@@ -53,7 +53,7 @@ def import_sheet(update_time, sheet, range, filename, **kwargs):
     write_timestamp_file(filename=filename, old_hash=old_hash)
 
 
-def computeMunicipalities(update_time):
+def computeMunicipalityCases(update_time):
     filename = 'csv/municipality-cases.csv'
     print("Processing", filename)
     old_hash = sha1sum(filename)
@@ -67,6 +67,22 @@ def computeMunicipalities(update_time):
     merged.to_csv(filename, float_format='%.0f', index_label='date')
     write_timestamp_file(filename=filename, old_hash=old_hash)
 
+def computeRegionCases(update_time):
+    filename = 'csv/region-cases.csv'
+    print("Processing", filename)
+    old_hash = sha1sum(filename)
+    dfConfirmed = pd.read_csv('csv/region-confirmed.csv', index_col='date')
+    dfActive = pd.read_csv('csv/region-active.csv', index_col='date')
+    dfDeceased = pd.read_csv('csv/region-deceased.csv', index_col='date')
+    dfConfirmed = dfConfirmed.rename(mapper=lambda x: x.replace('todate', 'cases.confirmed.todate'), axis='columns') \
+                    .drop('region.cases.confirmed.todate', axis='columns') 
+    dfActive = dfActive.rename(mapper=lambda x: x.replace('active', 'cases.active'), axis='columns') \
+                    .drop('region.cases.active', axis='columns') 
+    dfDeceased = dfDeceased.rename(mapper=lambda x: x.replace('todate', 'deceased.todate'), axis='columns') \
+                    .drop('region.deceased.todate', axis='columns') 
+    merged = dfConfirmed.join(dfActive).join(dfDeceased).sort_index(axis=1)
+    merged.to_csv(filename, float_format='%.0f', index_label='date')
+    write_timestamp_file(filename=filename, old_hash=old_hash)
 
 def computeStats(update_time):
     filename = 'csv/stats.csv'
@@ -195,7 +211,8 @@ if __name__ == "__main__":
     import_sheet(update_time, SHEET_HOS, RANGE_HOSPITALS, "csv/hospitals.csv")
     import_sheet(update_time, SHEET_HOS, RANGE_ICU, "csv/icu.csv")
 
-    computeMunicipalities(update_time)
+    computeMunicipalityCases(update_time)
+    computeRegionCases(update_time)
     computeCases(update_time)
     computeStats(update_time)
 
