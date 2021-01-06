@@ -53,20 +53,36 @@ def import_sheet(update_time, sheet, range, filename, **kwargs):
     write_timestamp_file(filename=filename, old_hash=old_hash)
 
 
-def computeMunicipalities(update_time):
-    filename = 'csv/municipality.csv'
+def computeMunicipalityCases(update_time):
+    filename = 'csv/municipality-cases.csv'
     print("Processing", filename)
     old_hash = sha1sum(filename)
-    dfRegions = pd.read_csv('csv/regions.csv', index_col='date')
-    dfActive = pd.read_csv('csv/active-regions.csv', index_col='date')
-    dfDeceased = pd.read_csv('csv/deceased-regions.csv', index_col='date')
-    dfRegions.columns = [str(col) + '.cases.confirmed.todate' for col in dfRegions.columns]
+    dfConfirmed = pd.read_csv('csv/municipality-confirmed.csv', index_col='date')
+    dfActive = pd.read_csv('csv/municipality-active.csv', index_col='date')
+    dfDeceased = pd.read_csv('csv/municipality-deceased.csv', index_col='date')
+    dfConfirmed.columns = [str(col) + '.cases.confirmed.todate' for col in dfConfirmed.columns]
     dfActive.columns = [str(col) + '.cases.active' for col in dfActive.columns]
     dfDeceased.columns = [str(col) + '.deceased.todate' for col in dfDeceased.columns]
-    merged = dfRegions.join(dfActive).join(dfDeceased).sort_index(axis=1)
+    merged = dfConfirmed.join(dfActive).join(dfDeceased).sort_index(axis=1)
     merged.to_csv(filename, float_format='%.0f', index_label='date')
     write_timestamp_file(filename=filename, old_hash=old_hash)
 
+def computeRegionCases(update_time):
+    filename = 'csv/region-cases.csv'
+    print("Processing", filename)
+    old_hash = sha1sum(filename)
+    dfConfirmed = pd.read_csv('csv/region-confirmed.csv', index_col='date')
+    dfActive = pd.read_csv('csv/region-active.csv', index_col='date')
+    dfDeceased = pd.read_csv('csv/region-deceased.csv', index_col='date')
+    dfConfirmed = dfConfirmed.rename(mapper=lambda x: x.replace('todate', 'cases.confirmed.todate'), axis='columns') \
+                    .drop('region.cases.confirmed.todate', axis='columns') 
+    dfActive = dfActive.rename(mapper=lambda x: x.replace('active', 'cases.active'), axis='columns') \
+                    .drop('region.cases.active', axis='columns') 
+    dfDeceased = dfDeceased.rename(mapper=lambda x: x.replace('todate', 'deceased.todate'), axis='columns') \
+                    .drop('region.deceased.todate', axis='columns') 
+    merged = dfConfirmed.join(dfActive).join(dfDeceased).sort_index(axis=1)
+    merged.to_csv(filename, float_format='%.0f', index_label='date')
+    write_timestamp_file(filename=filename, old_hash=old_hash)
 
 def computeStats(update_time):
     filename = 'csv/stats.csv'
@@ -82,7 +98,7 @@ def computeStats(update_time):
     df_phases = df_phases.reindex(pd.date_range(df_phases.index.min(), df_patients.index.max(), freq='D'), method='ffill')
     df_phases.index.name = 'date'
 
-    dfRegions = pd.read_csv('csv/regions-cases.csv', index_col='date')
+    dfRegions = pd.read_csv('csv/region-confirmed.csv', index_col='date')
     dfAgeC = pd.read_csv('csv/age-cases.csv', index_col='date')
     dfAgeD = pd.read_csv('csv/age-deceased.csv', index_col='date')
     dfRhD = pd.read_csv('csv/rh-deceased.csv', index_col='date')
@@ -195,7 +211,8 @@ if __name__ == "__main__":
     import_sheet(update_time, SHEET_HOS, RANGE_HOSPITALS, "csv/hospitals.csv")
     import_sheet(update_time, SHEET_HOS, RANGE_ICU, "csv/icu.csv")
 
-    computeMunicipalities(update_time)
+    computeMunicipalityCases(update_time)
+    computeRegionCases(update_time)
     computeCases(update_time)
     computeStats(update_time)
 
