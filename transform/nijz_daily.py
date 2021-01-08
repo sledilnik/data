@@ -133,6 +133,26 @@ df_regions_cases_active = df_regions_cases_active.rename(mapper=lambda x: x.repl
     .rolling(min_periods=1, window=14).sum().replace({0: None}).astype('Int64') 
 export_dataframe_to_csv(name='region-active', dataframe=df_regions_cases_active)
 
+# --- regions-deceased.csv ---
+# Copy paste latest row for every missing date
+region_deceased_csv_path = os.path.join(CSV_FOLDER, 'region-deceased.csv')
+old_hash = sha1sum(region_deceased_csv_path)
+with open(region_deceased_csv_path) as f:
+    rows = [row for row in csv.DictReader(f)]
+
+latest_date = str([val for val in df_regions_cases.index.values][-1]).split('T')[0]
+latest_date = datetime.strptime(latest_date, '%Y-%m-%d').date()
+while (date := datetime.strptime(rows[-1]['date'], '%Y-%m-%d').date()) < latest_date:
+    rows.append(copy.deepcopy(rows[-1]))
+    rows[-1]['date'] = str(date + timedelta(days=1))
+# Write the rows collection back to the csv
+with open(region_deceased_csv_path, 'w', newline='') as csvfile:
+    writer = csv.DictWriter(csvfile, fieldnames=rows[0].keys())
+    writer.writeheader()
+    for row in rows:
+        writer.writerow(row)
+write_timestamp_file(filename=region_deceased_csv_path, old_hash=old_hash)
+
 # --- age-confirmed.csv ---
 df = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 5', engine='openpyxl', skiprows=[1, 2, 3])[:-1]
 df.rename(columns={'Dnevno število potrjenih primerov po spolu in starostnih skupinah': 'date'}, inplace=True)
