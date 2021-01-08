@@ -100,8 +100,8 @@ df_i_1 = pd.read_excel(io=SOURCE_FILE_INFECTED, sheet_name='Tabela 1', engine='o
         'Skupaj': 'week.investigated',
         'lokalni vir': 'week.src.local',
         'neznani vir': 'week.src.unknown',
-        'importiran': 'week.src.import',
-        'importiran cluster': 'week.src.import-related',
+        'uvožen': 'week.src.import',
+        'uvožen skupek': 'week.src.import-related',
     }).set_index('week').drop('ni podatka', axis='columns')
 df_i_1 = df_i_1.replace({0: None}).astype('Int64')
 
