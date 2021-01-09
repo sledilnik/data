@@ -152,7 +152,7 @@ def computeStats(update_time):
         'deceased.male.0-4.todate', 'deceased.male.5-14.todate', 'deceased.male.15-24.todate', 'deceased.male.25-34.todate', 'deceased.male.35-44.todate',
         'deceased.male.45-54.todate', 'deceased.male.55-64.todate', 'deceased.male.65-74.todate', 'deceased.male.75-84.todate', 'deceased.male.85+.todate',
         'deceased.male.todate', 'deceased.rhoccupant.todate', 'deceased.other.todate',
-        'vaccination.administered', 'vaccination.administered.todate'
+        'vaccination.administered', 'vaccination.administered.todate', 'vaccination.delivered.todate'
     ], axis='columns')
 
     merged.to_csv(filename, float_format='%.0f', line_terminator='\r\n')
