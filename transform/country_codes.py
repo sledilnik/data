@@ -16,6 +16,7 @@ mapping = {
     'Hrvaška': 'hrv',
     'Italija': 'ita',
     'Kosovo': 'xkx',
+    'Latvija': 'lva',
     'Madžarska': 'hum',
     'Makedonija': 'mkd',
     'Nizozemska': 'nld',
