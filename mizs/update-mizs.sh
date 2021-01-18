@@ -3,8 +3,8 @@
 # Podatki Ministrstva za Izobraževanje Znanost in Šport (MIZŠ) RS
 # API docs at http://api.mizs.si/api_dokumentacija.html
 # jq docs: https://stedolan.github.io/jq/
-curl -s https://api.mizs.si/stats/ | jq '.' \
-    | tee json/mizs-stats.json \
+curl -s https://raw.githubusercontent.com/GK-MIZS/covid/main/api.json | jq '.' \
+    | tee mizs-stats.json \
     | jq -r 'del( .[0] ) | 
             [   "date",
 
@@ -157,6 +157,6 @@ curl -s https://api.mizs.si/stats/ | jq '.' \
                 .value.zavodi_pouk_na_daljavo.Zavodi
 
             ]) | @csv' \
-    > csv/mizs-stats.csv
+    > mizs-stats.csv
 
 

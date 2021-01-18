@@ -36,7 +36,9 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Run MIZŠ update
-      run: ./update-mizs.sh
+      run: | 
+        cd mizs 
+        ./update-mizs.sh
 
     # Runs a single command using the runners shell
     - name: Run OstaniZdrav update
@@ -45,8 +47,7 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Check git diff
       run: |
-        ls -la json/mizs*
-        ls -la csv/mizs*
+        ls -la mizs/*
         git status
         git diff
 
@@ -59,7 +60,7 @@ jobs:
         push-branch: 'master'
         commit-message: 'MIZŠ Data update 🤖'
         rebase: 'true' # pull and rebase before commit
-        files: json/mizs* csv/mizs*
+        files: mizs/
         name: Sledilnik data scrape bot 🤖
 
     # Git commit + push, see https://github.com/github-actions-x/commit
