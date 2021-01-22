@@ -15,8 +15,11 @@ r = requests.get('https://drive.google.com/uc?export=download&id=14L8wBpkHQij8LK
 with tempfile.NamedTemporaryFile() as tf:
     with open(tf.name, 'wb') as f:
         f.write(r.content)
-    df = pd.read_excel(io=tf, sheet_name='DATA', engine='openpyxl', skiprows=[0, 1], parse_dates=['Date']).dropna(subset=['Date']).set_index('Date')
-
+    df = pd.read_excel(io=tf, sheet_name='DATA', engine='openpyxl', skiprows=[0, 1], parse_dates=['Date']) \
+        .rename(columns={'Date': 'date'}) \
+        .dropna(subset=['date']) \
+        .set_index('date') \
+        .drop(columns='NIB Measurements')
 
 mapping_dict = {}
 
