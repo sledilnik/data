@@ -76,7 +76,7 @@ def reformat_dates(date_columns, row):
     """
     for i in date_columns:
         date = dateutil.parser.parse(row[i], dayfirst=True)
-        row[i] = date.strftime("%Y-%m-%d")
+        row[i] = date.isoformat()
 
 
 def parse_csv(url):
