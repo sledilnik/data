@@ -95,15 +95,11 @@ def parse_csv(url):
     rows = []
 
     reader = csv.reader(io.StringIO(resp.text), delimiter=",")
-
-    # skip header
+    # skip first line
     next(reader)
 
     date_columns = range(8, 11)
     for row in reader:
-        # if not row or row[0].startswith("ZAVSIF"):
-            # continue
-
         reformat_unit(row)
         reformat_dates(date_columns, row)
         rows.append(row)
@@ -125,31 +121,20 @@ def school_absences_csv(outfile):
     # transform
     new = []
     for row in absences:
-        school_type = SCHOOL_TYPES.get(row[5], "N/A")  # KATEGORIJA
-        municipality = row[7]  # OBCINA
-        school_id = row[0]
-        school = row[1]  # ZAVMATNAZ
-        unit = row[3]  # ZAVNAZ
-        subunit = row[12]  # OBDOBJE
-        description = row[14]  # VZROK
-
-        new.append([
-            row[10],
-            row[8],
-            row[9],
-            municipality,
-            school_type,
-            school_id,
-            school,
-            unit,
-            subunit,
-            description,
-        ])
+        new.append({
+            'date': row[10],
+            'absent.from': row[8],
+            'absent.to': row[9],
+            'municipality': row[7],
+            'type': SCHOOL_TYPES.get(row[5], "N/A"),
+            'school_id': row[2],
+            'school': row[1],
+            'unit': row[3],
+            'subunit': row[12],
+            'reason': row[14]
+        })
 
     with open(outfile, "w", encoding="utf-8") as csvfile:
-        csvwriter = csv.writer(
-            csvfile, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL
-        )
         header = [
             "date",
             "absent.from",
@@ -162,7 +147,12 @@ def school_absences_csv(outfile):
             "subunit",
             "reason",
         ]
-        csvwriter.writerow(header)
+
+        csvwriter = csv.DictWriter(
+            csvfile, fieldnames=header, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL, lineterminator='\n'
+        )
+        csvwriter.writeheader()
+        # csvwriter.writerow(header)
         for row in new:
             csvwriter.writerow(row)
 
