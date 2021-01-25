@@ -205,6 +205,7 @@ def computeCases(update_time):
     write_timestamp_file(filename=filename, old_hash=df_cases_old_hash)
 
 def generate_csv(filename, generator):
+    print("Processing", filename)
     old_hash = sha1sum(filename)
     generator(filename)
     write_timestamp_file(filename=filename, old_hash=old_hash)
