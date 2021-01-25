@@ -9,19 +9,9 @@ import csv
 import requests
 
 def school_cases_csv(outfile):
-    header = [
-        "date",
-        "cases.confirmed.todate",
-        "cases.active",
-        "quarantine.confirmed.todate",
-        "quarantine.active",
-        "cases.attendees.confirmed.todate",
-        "cases.attendees.active",
-        "cases.employees.confirmed.todate",
-        "cases.employees.active",
-    ]
+    
     rows = []
-    rows.append(header)
+    # rows.append(header)
 
     resp = requests.get('https://raw.githubusercontent.com/GK-MIZS/covid/main/api.json')
     resp.raise_for_status()
@@ -80,23 +70,36 @@ def school_cases_csv(outfile):
         )
 
         rows.append(
-            [
-                "{}-{}-{}".format(u["year"], u["month"], u["day"]),
-                cases_confirmed_todate,
-                cases_active,
-                quarantines_confirmed_todate,
-                quarantines_active,
-                cases_confirmed_todate_attendees,
-                cases_active_attendees,
-                cases_confirmed_todate_employees,
-                cases_active_employees,
-            ]
+            {
+                "date": "{}-{}-{}".format(u["year"], u["month"], u["day"]),
+                "cases.confirmed.todate": cases_confirmed_todate,
+                "cases.active": cases_active,
+                "quarantine.confirmed.todate": quarantines_confirmed_todate,
+                "quarantine.active": quarantines_active,
+                "cases.attendees.confirmed.todate": cases_confirmed_todate_attendees,
+                "cases.attendees.active": cases_active_attendees,
+                "cases.employees.confirmed.todate": cases_confirmed_todate_employees,
+                "cases.employees.active": cases_active_employees,
+            }
         )
 
+    header = [
+        "date",
+        "cases.confirmed.todate",
+        "cases.active",
+        "quarantine.confirmed.todate",
+        "quarantine.active",
+        "cases.attendees.confirmed.todate",
+        "cases.attendees.active",
+        "cases.employees.confirmed.todate",
+        "cases.employees.active",
+    ]
+
     with open(outfile, "w", encoding="utf-8") as f:
-        csvwriter = csv.writer(
-            f, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL
+        csvwriter = csv.DictWriter(
+            f, fieldnames=header, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL
         )
+        csvwriter.writeheader()
         csvwriter.writerows(rows)
 
 

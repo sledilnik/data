@@ -152,9 +152,7 @@ def school_absences_csv(outfile):
             csvfile, fieldnames=header, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL, lineterminator='\n'
         )
         csvwriter.writeheader()
-        # csvwriter.writerow(header)
-        for row in new:
-            csvwriter.writerow(row)
+        csvwriter.writerows(new)
 
 
 if __name__ == "__main__":
