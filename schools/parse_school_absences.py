@@ -113,7 +113,7 @@ def parse_csv(url):
     return rows
 
 
-def merge_confirmed_infections():
+def school_absences_csv(outfile):
     """
     Merge confirmed atendee and employee absences by date, school, unit"
     """
@@ -147,7 +147,7 @@ def merge_confirmed_infections():
         ]
         new.append(row)
 
-    with codecs.open("csv/school-absences.csv", "w", "utf-8") as csvfile:
+    with codecs.open(outfile, "w", "utf-8") as csvfile:
         csvwriter = csv.writer(
             csvfile, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL
         )
@@ -169,4 +169,4 @@ def merge_confirmed_infections():
 
 
 if __name__ == "__main__":
-    merge_confirmed_infections()
+    school_absences_csv("csv/school-absences.csv")

@@ -5,11 +5,10 @@
 """
 
 import codecs
-import json
 import csv
 import requests
 
-def parse_api():
+def school_cases_csv(outfile):
     header = [
         "date",
         "cases.confirmed.todate",
@@ -94,7 +93,7 @@ def parse_api():
             ]
         )
 
-    with codecs.open("csv/schools-cases.csv", "w", "utf-8") as f:
+    with codecs.open(outfile, "w", "utf-8") as f:
         csvwriter = csv.writer(
             f, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL
         )
@@ -102,4 +101,4 @@ def parse_api():
 
 
 if __name__ == "__main__":
-    parse_api()
+    school_cases_csv("csv/schools-cases.csv")
