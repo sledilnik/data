@@ -1,5 +1,6 @@
 mapping = {
     ' NEZNANO': 'unknown',
+    'Albanija': 'alb',
     'Avstralija': 'aus',
     'Avstrija': 'aut',
     'Azerbajdžan': 'aze',
@@ -16,6 +17,7 @@ mapping = {
     'Hrvaška': 'hrv',
     'Italija': 'ita',
     'Kosovo': 'xkx',
+    'Kuba': 'cub',
     'Latvija': 'lva',
     'Madžarska': 'hum',
     'Makedonija': 'mkd',
@@ -32,6 +34,7 @@ mapping = {
     'Romunija': 'rou',
     'Ruska federacija': 'rus',
     'Slovaška': 'svk',
+    'Slovenija': 'svn',
     'Španija': 'esp',
     'Srbija': 'srb',
     'Švedska': 'swe',
