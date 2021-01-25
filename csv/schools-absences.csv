@@ -7444,7 +7444,7 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2020-10-23,2020-10-22,2020-11-03,Nova Gorica,SŠ,77,Šolski center Nova Gorica,Srednja ekonomska in trgovska šola,Učitelj,Okužba s Covid-19
 2020-10-23,2020-10-19,2020-10-29,Novo mesto,PV,9871,Vrtec Pedenjped Novo mesto,,Drugi delavci,Okužba s Covid-19
 2020-10-23,2020-10-22,2020-11-01,Novo mesto,PV,9871,Vrtec Pedenjped Novo mesto,,Drugi delavci,Okužba s Covid-19
-2020-10-23,2020-10-23,202-11-01,Novo mesto,PV,9871,Vrtec Pedenjped Novo mesto,,Drugi delavci,Sum na okužbo
+2020-10-23,2020-10-23,0202-11-01,Novo mesto,PV,9871,Vrtec Pedenjped Novo mesto,,Drugi delavci,Sum na okužbo
 2020-10-23,2020-10-23,2020-11-01,Novo mesto,PV,9871,Vrtec Pedenjped Novo mesto,,Drugi delavci,Sum na okužbo
 2020-10-23,2020-10-23,2020-11-01,Novo mesto,PV,9871,Vrtec Pedenjped Novo mesto,,Drugi delavci,Sum na okužbo
 2020-10-23,2020-10-23,2020-11-01,Novo mesto,PV,9871,Vrtec Pedenjped Novo mesto,,Drugi delavci,Sum na okužbo
@@ -7582,8 +7582,8 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2020-10-24,2020-10-21,2020-11-01,Lukovica,PV,157,Osnovna šola Janka Kersnika Brdo,VVE Medo,Drugi strokovni delavec,Sum na okužbo
 2020-10-24,2020-10-21,2020-11-05,Lukovica,PV,157,Osnovna šola Janka Kersnika Brdo,VVE Medo,Vzgojitelj,Okužba s Covid-19
 2020-10-24,2020-10-25,2020-11-03,Maribor,PV,999,Center za sluh in govor Maribor,OE Osnovna šola in vrtec,Učitelj,Okužba s Covid-19
-2020-10-24,20-10-21,2020-10-22,Mežica,PV,443,Osnovna šola Mežica,Enota vrtec Mežica,2. star. obd.,Sum na okužbo
-2020-10-24,20-10-21,2020-10-22,Mežica,PV,443,Osnovna šola Mežica,Enota vrtec Mežica,2. star. obd.,Sum na okužbo
+2020-10-24,0020-10-21,2020-10-22,Mežica,PV,443,Osnovna šola Mežica,Enota vrtec Mežica,2. star. obd.,Sum na okužbo
+2020-10-24,0020-10-21,2020-10-22,Mežica,PV,443,Osnovna šola Mežica,Enota vrtec Mežica,2. star. obd.,Sum na okužbo
 2020-10-24,2020-10-24,2020-11-03,Murska Sobota,PV,1100,Vrtec Murska Sobota,enota MIŠKE,Vzgojitelj,Okužba s Covid-19
 2020-10-24,2020-10-24,2020-11-07,Ormož,OŠ,393,Osnovna šola Velika Nedelja,,Drugi delavci,Okužba s Covid-19
 2020-10-24,2020-10-21,2020-10-23,Radovljica,OŠ,435,Osnovna šola F. S. Finžgarja Lesce,,Učitelj,Sum na okužbo
@@ -8289,7 +8289,7 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2020-10-28,2020-10-27,2020-11-04,Škofja Loka,PV,1086,Vrtec Škofja Loka,enota Kamnitnik,Vzgojitelj,Okužba s Covid-19
 2020-10-28,2020-10-27,2020-11-04,Škofja Loka,PV,1086,Vrtec Škofja Loka,enota Najdihojca,Vzgojitelj,Okužba s Covid-19
 2020-10-28,2020-10-27,2020-11-04,Škofja Loka,PV,1086,Vrtec Škofja Loka,enota Najdihojca,Drugi strokovni delavec,Okužba s Covid-19
-2020-10-28,2020-10-28,200-11-05,Škofja Loka,PV,1086,Vrtec Škofja Loka,enota Najdihojca,Drugi strokovni delavec,Okužba s Covid-19
+2020-10-28,2020-10-28,0200-11-05,Škofja Loka,PV,1086,Vrtec Škofja Loka,enota Najdihojca,Drugi strokovni delavec,Okužba s Covid-19
 2020-10-28,2020-10-28,2020-11-05,Škofja Loka,PV,1086,Vrtec Škofja Loka,enota Pedenjped,Vzgojitelj,Sum na okužbo
 2020-10-28,2020-10-28,2020-11-05,Škofja Loka,PV,1086,Vrtec Škofja Loka,enota Pedenjped,Vzgojitelj,Sum na okužbo
 2020-10-28,2020-10-28,2020-11-05,Škofja Loka,PV,1086,Vrtec Škofja Loka,enota Pedenjped,Drugi strokovni delavec,Okužba s Covid-19
@@ -9586,7 +9586,6 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2020-11-05,2020-10-19,2020-11-29,Radenci,OŠ,175,Osnovna šola Kajetana Koviča Radenci,,Učitelj,Okužba s Covid-19
 2020-11-05,2020-10-25,2020-11-04,Radenci,OŠ,175,Osnovna šola Kajetana Koviča Radenci,,Učitelj,Okužba s Covid-19
 2020-11-05,2020-10-25,2020-11-04,Radenci,OŠ,175,Osnovna šola Kajetana Koviča Radenci,,Učitelj,Okužba s Covid-19
-2020-11-05,2020-10-12,2020-10-20,Radeče,OŠ,1342,Javni zavod Osnovna šola Marjana Nemca Radeče,,Učitelj,Sum na okužbo
 2020-11-05,2020-10-19,2020-11-06,Radeče,OŠ,1342,Javni zavod Osnovna šola Marjana Nemca Radeče,,Drugi delavci,Okužba s Covid-19
 2020-11-05,2020-10-21,2020-11-06,Radeče,OŠ,1342,Javni zavod Osnovna šola Marjana Nemca Radeče,,Učitelj,Okužba s Covid-19
 2020-11-05,2020-11-05,2020-11-14,Radlje ob Dravi,OŠ,425,Osnovna šola Radlje ob Dravi,,Učitelj,Sum na okužbo
@@ -10366,7 +10365,6 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2020-11-14,2020-11-10,2020-11-14,Koper,PV,1096,Vrtec Semedela,enota Slavnik,Drugi delavci,Sum na okužbo
 2020-11-14,2020-11-14,2020-11-24,Koper,PV,1096,Vrtec Semedela,enota Slavnik,Drugi delavci,Okužba s Covid-19
 2020-11-14,2020-11-16,2020-11-20,Novo mesto,OŠ,374,Osnovna šola Grm Novo mesto,,Učitelj,Okužba s Covid-19
-2020-11-14,2020-11-11,2020-11-25,Radeče,PV,1342,Javni zavod Osnovna šola Marjana Nemca Radeče,Enota Vrtec,Drugi strokovni delavec,Okužba s Covid-19
 2020-11-14,2020-11-11,2020-11-20,Rogašovci,OŠ,354,Osnovna šola Sveti Jurij,,Drugi delavci,Sum na okužbo
 2020-11-14,2020-11-11,2020-11-20,Rogašovci,PV,354,Osnovna šola Sveti Jurij,Enota Vrtec,Drugi strokovni delavec,Okužba s Covid-19
 2020-11-14,2020-11-11,2020-11-20,Rogašovci,PV,354,Osnovna šola Sveti Jurij,Enota Vrtec,Drugi strokovni delavec,Sum na okužbo
@@ -12046,7 +12044,7 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2020-12-17,2020-12-14,2020-12-23,Ljubljana,PV,1116,Vrtec Šentvid,Enota Sapramiška,Vzgojitelj,Sum na okužbo
 2020-12-17,2020-12-14,2020-12-23,Ljubljana,PV,1116,Vrtec Šentvid,Enota Sapramiška,Drugi strokovni delavec,Okužba s Covid-19
 2020-12-17,2020-12-17,2020-12-26,Ljubljana,PV,1116,Vrtec Šentvid,Enota Sapramiška,Vzgojitelj,Sum na okužbo
-2020-12-17,20-12-14,2020-12-28,Logatec,PV,1075,VRTEC KURIRČEK LOGATEC,ENOTA CENTRALNI VRTEC,Drugi delavci,Okužba s Covid-19
+2020-12-17,0020-12-14,2020-12-28,Logatec,PV,1075,VRTEC KURIRČEK LOGATEC,ENOTA CENTRALNI VRTEC,Drugi delavci,Okužba s Covid-19
 2020-12-17,2020-12-14,2020-12-23,Logatec,PV,1075,VRTEC KURIRČEK LOGATEC,ENOTA ROVTE,Drugi strokovni delavec,Sum na okužbo
 2020-12-17,2020-12-17,2020-12-20,Maribor,ZAV,1005,Mladinski dom Maribor,,Vzgojitelj,Sum na okužbo
 2020-12-17,2020-12-17,2020-12-27,Maribor,PV,23575,"Zasebni zavod otroško veselje, Vrtec Copatki Maribor",,Vzgojitelj,Sum na okužbo
@@ -12737,7 +12735,6 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2021-01-04,2021-01-04,2021-01-14,Zagorje ob Savi,PV,1169,Vrtec Zagorje ob Savi,Enota Maja,Vzgojitelj,Sum na okužbo
 2021-01-04,2020-12-25,2021-01-04,Črnomelj,PV,1114,Vrtec Otona Župančiča Črnomelj,,Drugi strokovni delavec,Okužba s Covid-19
 2021-01-04,2020-12-29,2021-01-08,Črnomelj,PV,1114,Vrtec Otona Župančiča Črnomelj,,Drugi strokovni delavec,Okužba s Covid-19
-2021-01-04,2021-01-04,2021-01-11,Šentjernej,PV,19870,Vrtec Čebelica Šentjernej,,Drugi strokovni delavec,Okužba s Covid-19
 2021-01-04,2021-01-01,2021-01-10,Šentjur,OŠ,1352,Osnovna šola Blaža Kocena Ponikva,,Učitelj,Sum na okužbo
 2021-01-04,2020-12-31,2021-01-10,Šentjur,PV,1084,Vrtec Šentjur,enota Blagovna,Vzgojitelj,Okužba s Covid-19
 2021-01-04,2021-01-04,2021-01-05,Žalec,OŠPP,547,II. Osnovna šola Žalec,,Učitelj,Sum na okužbo
@@ -13303,7 +13300,6 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2021-01-13,2021-01-09,2021-01-18,Lendava,PV,1184,Vrtec Lendava Lendvai Ovoda,DE II LENDAVA,Drugi strokovni delavec,Sum na okužbo
 2021-01-13,2021-01-13,2021-01-23,Ljubljana,SŠ,26,Biotehniški izobraževalni center Ljubljana,Živilska šola,Drugi delavci,Okužba s Covid-19
 2021-01-13,2021-01-12,2021-01-22,Ljubljana,ZAV,1001,"Center IRIS - Center za izobraževanje, rehabilitacijo, inkluzijo in svetovanje za slepe in slabovidne",,2. star. obd.,Sum na okužbo
-2021-01-13,2021-01-11,2021-01-21,Ljubljana,ZAV,1001,"Center IRIS - Center za izobraževanje, rehabilitacijo, inkluzijo in svetovanje za slepe in slabovidne",,Drugi delavci,Sum na okužbo
 2021-01-13,2021-01-07,2021-01-16,Ljubljana,PV,1071,VIZ Vrtec Mladi rod Ljubljana,enota Kostanjčkov vrtec,Vzgojitelj,Sum na okužbo
 2021-01-13,2021-01-07,2021-01-16,Ljubljana,PV,1071,VIZ Vrtec Mladi rod Ljubljana,enota Čira čara,Vzgojitelj,Sum na okužbo
 2021-01-13,2021-01-12,2021-01-22,Ljubljana,PV,1115,Vrtec Hansa Christiana Andersena,enota Lastovica,Drugi strokovni delavec,Okužba s Covid-19
@@ -13469,7 +13465,6 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2021-01-14,2021-01-14,2021-01-24,Žužemberk,PV,387,Osnovna šola Žužemberk,- Vrtec Sonček,Vzgojitelj,Okužba s Covid-19
 2021-01-15,2021-01-15,2021-01-25,Ajdovščina,PV,1089,OTROŠKI VRTEC AJDOVŠČINA,ENOTA RIBNIK,Drugi strokovni delavec,Okužba s Covid-19
 2021-01-15,2021-01-13,2021-01-23,Brda,PV,362,Osnovna šola Alojza Gradnika Dobrovo,VVE pri OŠ Alojza Gradnika Dobrovo v Brdih,Drugi strokovni delavec,Okužba s Covid-19
-2021-01-15,2021-01-04,2021-01-22,Brežice,GŠ,123,Glasbena šola Brežice,,Drugi delavci,Okužba s Covid-19
 2021-01-15,2021-01-05,2021-01-11,Celje,OŠPP,138,Osnovna šola Glazija,,Drugi delavci,Okužba s Covid-19
 2021-01-15,2021-01-05,2021-01-13,Celje,OŠPP,138,Osnovna šola Glazija,,Drugi delavci,Okužba s Covid-19
 2021-01-15,2021-01-11,2021-01-20,Celje,OŠPP,138,Osnovna šola Glazija,,Drugi delavci,Okužba s Covid-19
@@ -13499,7 +13494,6 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2021-01-15,2020-12-24,2021-01-03,Loška dolina,OŠ,148,Osnovna šola heroja Janeza Hribarja Stari trg pri Ložu,,Učitelj,Okužba s Covid-19
 2021-01-15,2021-01-06,2021-01-16,Maribor,ZAV,999,Center za sluh in govor Maribor,,Drugi strokovni delavec,Okužba s Covid-19
 2021-01-15,2021-01-13,2021-01-23,Maribor,ZAV,999,Center za sluh in govor Maribor,,Drugi strokovni delavec,Okužba s Covid-19
-2021-01-15,2021-01-15,2021-01-25,Maribor,OŠPP,494,Osnovna šola Gustava Šiliha Maribor,,Učitelj,Sum na okužbo
 2021-01-15,2021-01-11,2021-01-21,Maribor,PV,1060,Vrtec Studenci Maribor,OE Limbuš,Drugi delavci,Okužba s Covid-19
 2021-01-15,2021-01-14,2021-01-22,Murska Sobota,OŠPP,637,Osnovna šola IV. Murska Sobota,,Skupina IP ...,Sum na okužbo
 2021-01-15,2021-01-04,2021-01-12,Murska Sobota,OŠPP,637,Osnovna šola IV. Murska Sobota,,Drugi delavci,Sum na okužbo
@@ -13556,7 +13550,6 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2021-01-17,2021-01-14,2021-01-23,Maribor,PV,12749,"Zavod Antona Martina Slomška, Hiša otrok - vrtec montessori",,Vzgojitelj,Sum na okužbo
 2021-01-17,2021-01-12,2021-01-22,Starše,PV,572,Osnovna šola Starše,Vrtec Najdihojca Starše,Vzgojitelj,Sum na okužbo
 2021-01-17,2021-01-14,2021-01-15,Starše,PV,572,Osnovna šola Starše,Vrtec Najdihojca Starše,Vzgojitelj,Sum na okužbo
-2021-01-17,2021-01-16,2021-01-23,Starše,PV,572,Osnovna šola Starše,Vrtec Najdihojca Starše,Vzgojitelj,Okužba s Covid-19
 2021-01-17,2021-01-17,2021-01-26,Veržej,PV,3709,Osnovna šola Veržej,VVE pri Osnovni šoli Veržej,Drugi delavci,Okužba s Covid-19
 2021-01-17,2021-01-16,2021-01-25,Šentjur,OŠ,480,Osnovna šola Franja Malgaja Šentjur,Podružnična osnovna šola Blagovna,Učitelj,Okužba s Covid-19
 2021-01-17,2021-01-15,2021-01-25,Šentjur,PV,1084,Vrtec Šentjur,enota Pešnica,Drugi delavci,Okužba s Covid-19
@@ -13628,7 +13621,6 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2021-01-18,2021-01-04,2021-01-14,Sevnica,OŠ,453,Osnovna šola Tržišče,,Drugi strokovni delavec,Okužba s Covid-19
 2021-01-18,2021-01-18,2021-01-28,Sevnica,OŠ,453,Osnovna šola Tržišče,,Drugi delavci,Okužba s Covid-19
 2021-01-18,2021-01-14,2021-01-18,Vipava,ZAV,1004,"Center za izobraževanje, rehabilitacijo in usposabljanje Vipava",,Vzgojitelj,Sum na okužbo
-2021-01-18,2021-01-16,2021-01-26,Vodice,OŠ,311,Osnovna šola Vodice,,Učitelj,Okužba s Covid-19
 2021-01-18,2021-01-15,2021-01-24,Zagorje ob Savi,OŠPP,542,Osnovna šola dr. Slavka Gruma,,Učitelj,Sum na okužbo
 2021-01-18,2021-01-17,2021-01-27,Črnomelj,PV,1114,Vrtec Otona Župančiča Črnomelj,,Vzgojitelj,Okužba s Covid-19
 2021-01-18,2021-01-17,2021-01-27,Črnomelj,PV,1114,Vrtec Otona Župančiča Črnomelj,,Vzgojitelj,Okužba s Covid-19
@@ -13664,7 +13656,6 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2021-01-19,2021-01-12,2021-01-22,Duplek,PV,574,Osnovna šola Korena,VVE pri OŠ Korena,Vzgojitelj,Okužba s Covid-19
 2021-01-19,2020-12-27,2021-01-03,Duplek,PV,574,Osnovna šola Korena,VVE pri OŠ Korena,Vzgojitelj,Okužba s Covid-19
 2021-01-19,2020-12-27,2021-01-10,Duplek,PV,574,Osnovna šola Korena,VVE pri OŠ Korena,Vzgojitelj,Okužba s Covid-19
-2021-01-19,2021-01-16,2021-01-26,Gorenja vas-Poljane,OŠ,1315,Osnovna šola Poljane,,Drugi delavci,Okužba s Covid-19
 2021-01-19,2020-12-24,2021-01-14,Gorenja vas-Poljane,PV,1315,Osnovna šola Poljane,Vrtec Agata,Vzgojitelj,Okužba s Covid-19
 2021-01-19,2021-01-04,2021-01-08,Gornja Radgona,OŠ,171,Osnovna šola Gornja Radgona,,Učitelj,Okužba s Covid-19
 2021-01-19,2021-01-06,2021-01-15,Gornja Radgona,OŠ,171,Osnovna šola Gornja Radgona,,Drugi delavci,Okužba s Covid-19
@@ -13740,7 +13731,6 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2021-01-19,2021-01-13,2021-01-23,Ljubljana,OŠPP,281,"Center za usposabljanje, vzgojo in izobraževanje Janeza Levca Ljubljana",,Drugi delavci,Okužba s Covid-19
 2021-01-19,2021-01-14,2021-01-24,Ljubljana,OŠPP,281,"Center za usposabljanje, vzgojo in izobraževanje Janeza Levca Ljubljana",,Učitelj,Sum na okužbo
 2021-01-19,2021-01-11,2021-01-20,Ljubljana,GŠ,304,Glasbena šola Franca Šturma,,Drugi delavci,Sum na okužbo
-2021-01-19,2021-01-17,2021-01-27,Ljubljana,GŠ,304,Glasbena šola Franca Šturma,,Učitelj,Okužba s Covid-19
 2021-01-19,2020-11-07,2020-11-18,Ljubljana,OŠ,266,Osnovna šola Danile Kumar,,Učitelj,Okužba s Covid-19
 2021-01-19,2020-12-17,2020-12-24,Ljubljana,OŠ,266,Osnovna šola Danile Kumar,,Drugi delavci,Okužba s Covid-19
 2021-01-19,2020-12-17,2020-12-25,Ljubljana,OŠ,266,Osnovna šola Danile Kumar,,Drugi delavci,Okužba s Covid-19
@@ -13773,7 +13763,6 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2021-01-19,2021-01-17,2021-01-26,Ljubljana,ZAV,3631,Zavod za gluhe in naglušne Ljubljana,,6. razred,Sum na okužbo
 2021-01-19,2021-01-17,2021-01-27,Ljutomer,PV,330,Osnovna šola Ivana Cankarja Ljutomer,enota Vrtec,Vzgojitelj,Okužba s Covid-19
 2021-01-19,2021-01-03,2021-01-12,Ljutomer,OŠ,329,Osnovna šola Janka Ribiča Cezanjevci,,Drugi strokovni delavec,Okužba s Covid-19
-2021-01-19,2021-01-13,2021-01-24,Ljutomer,OŠ,329,Osnovna šola Janka Ribiča Cezanjevci,,Drugi delavci,Okužba s Covid-19
 2021-01-19,2021-01-04,2021-01-15,Logatec,OŠ,1234,Osnovna šola Rovte,,Drugi strokovni delavec,Okužba s Covid-19
 2021-01-19,2021-01-19,2021-01-28,Logatec,PV,1075,VRTEC KURIRČEK LOGATEC,ENOTA CENTRALNI VRTEC,Vzgojitelj,Sum na okužbo
 2021-01-19,2021-01-16,2021-01-25,Lukovica,OŠ,157,Osnovna šola Janka Kersnika Brdo,,Učitelj,Okužba s Covid-19
@@ -13812,7 +13801,6 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2021-01-19,2021-01-15,2021-01-24,Novo mesto,PV,9871,Vrtec Pedenjped Novo mesto,OSTRŽEK,Vzgojitelj,Okužba s Covid-19
 2021-01-19,2021-01-16,2021-01-25,Novo mesto,PV,9871,Vrtec Pedenjped Novo mesto,OSTRŽEK,Drugi strokovni delavec,Okužba s Covid-19
 2021-01-19,2021-01-18,2021-01-27,Novo mesto,PV,9871,Vrtec Pedenjped Novo mesto,OSTRŽEK,Vzgojitelj,Sum na okužbo
-2021-01-19,2021-01-18,2021-01-27,Novo mesto,PV,9871,Vrtec Pedenjped Novo mesto,OSTRŽEK,Vzgojitelj,Sum na okužbo
 2021-01-19,2021-01-18,2021-01-27,Novo mesto,PV,9871,Vrtec Pedenjped Novo mesto,OSTRŽEK,Drugi strokovni delavec,Okužba s Covid-19
 2021-01-19,2021-01-18,2021-01-27,Novo mesto,PV,9871,Vrtec Pedenjped Novo mesto,OSTRŽEK,Drugi strokovni delavec,Sum na okužbo
 2021-01-19,2021-01-19,2021-01-28,Odranci,OŠ,261,Osnovna šola Odranci,,4. razred,Sum na okužbo
@@ -13841,7 +13829,6 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2021-01-19,2021-01-19,2021-01-28,Postojna,OŠPP,401,Osnovna šola Miroslava Vilharja Postojna,Podružnična šola s prilagojenim uč.prog.,9. razred,Sum na okužbo
 2021-01-19,2021-01-19,2021-01-28,Postojna,OŠPP,401,Osnovna šola Miroslava Vilharja Postojna,Podružnična šola s prilagojenim uč.prog.,9. razred,Okužba s Covid-19
 2021-01-19,2021-01-18,2021-01-27,Postojna,OŠPP,401,Osnovna šola Miroslava Vilharja Postojna,Podružnična šola s prilagojenim uč.prog.,Učitelj,Okužba s Covid-19
-2021-01-19,2021-01-19,2021-01-28,Postojna,OŠPP,401,Osnovna šola Miroslava Vilharja Postojna,Podružnična šola s prilagojenim uč.prog.,Učitelj,Sum na okužbo
 2021-01-19,2021-01-19,2021-01-28,Postojna,OŠPP,401,Osnovna šola Miroslava Vilharja Postojna,Podružnična šola s prilagojenim uč.prog.,Učitelj,Sum na okužbo
 2021-01-19,2021-01-19,2021-01-28,Postojna,OŠPP,401,Osnovna šola Miroslava Vilharja Postojna,Podružnična šola s prilagojenim uč.prog.,Učitelj,Sum na okužbo
 2021-01-19,2021-01-18,2021-01-28,Postojna,ZAV,998,Vzgojni zavod Planina,,8. razred,Okužba s Covid-19
@@ -13997,7 +13984,6 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2021-01-20,2020-12-21,2020-12-31,Gornji Grad,OŠ,342,Osnovna šola Frana Kocbeka Gornji Grad,,Učitelj,Okužba s Covid-19
 2021-01-20,2020-12-14,2020-12-23,Gornji Grad,PV,342,Osnovna šola Frana Kocbeka Gornji Grad,Enota Vrtec Gornji Grad,Vzgojitelj,Okužba s Covid-19
 2021-01-20,2020-11-30,2020-12-11,Gornji Grad,PV,342,Osnovna šola Frana Kocbeka Gornji Grad,Enota Vrtec Gornji Grad,Drugi strokovni delavec,Okužba s Covid-19
-2021-01-20,2021-01-17,2021-01-26,Horjul,PV,324,Osnovna šola Horjul,Enota Vrtec,Drugi strokovni delavec,Sum na okužbo
 2021-01-20,2021-01-13,2021-01-24,Hrastnik,GŠ,183,Glasbena šola Hrastnik,,Učitelj,Okužba s Covid-19
 2021-01-20,2021-01-11,2021-01-15,Idrija,OŠ,185,Osnovna šola Idrija,,Drugi delavci,Okužba s Covid-19
 2021-01-20,2021-01-18,2021-01-27,Idrija,OŠ,185,Osnovna šola Idrija,,Drugi delavci,Sum na okužbo
@@ -14208,10 +14194,6 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2021-01-21,2021-01-21,2021-01-31,Dolenjske Toplice,PV,385,Osnovna šola Dolenjske Toplice,Vrtec Gumbek,2. star. obd.,Sum na okužbo
 2021-01-21,2021-01-20,2021-01-30,Dolenjske Toplice,PV,385,Osnovna šola Dolenjske Toplice,Vrtec Gumbek,Vzgojitelj,Okužba s Covid-19
 2021-01-21,2021-01-21,2021-01-30,Grosuplje,OŠ,1307,Osnovna šola Brinje Grosuplje,,Učitelj,Okužba s Covid-19
-2021-01-21,2021-01-19,2021-01-29,Hrastnik,PV,14193,Vrtec Hrastnik,enota Dolinca na Logu,Drugi strokovni delavec,Okužba s Covid-19
-2021-01-21,2021-01-19,2021-01-29,Hrastnik,PV,14193,Vrtec Hrastnik,enota Dolinca na Logu,Drugi strokovni delavec,Sum na okužbo
-2021-01-21,2021-01-20,2021-01-30,Hrastnik,PV,14193,Vrtec Hrastnik,enota Dolinca na Logu,Vzgojitelj,Sum na okužbo
-2021-01-21,2021-01-21,2021-01-31,Hrastnik,PV,14193,Vrtec Hrastnik,enota Dolinca na Logu,Drugi strokovni delavec,Okužba s Covid-19
 2021-01-21,2021-01-14,2021-01-24,Ig,OŠ,320,Osnovna šola Ig,,Učitelj,Okužba s Covid-19
 2021-01-21,2021-01-18,2021-01-28,Ivančna Gorica,OŠ,179,Osnovna šola Ferda Vesela Šentvid pri Stični,,Skupina NIP IP ...,Sum na okužbo
 2021-01-21,2021-01-21,2021-01-31,Ivančna Gorica,OŠ,179,Osnovna šola Ferda Vesela Šentvid pri Stični,,3. razred,Sum na okužbo
@@ -14246,7 +14228,6 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2021-01-21,2021-01-14,2021-01-23,Logatec,OŠ,335,Osnovna šola Tabor Logatec,Podružnica Rovtarske Žibrše,Učitelj,Okužba s Covid-19
 2021-01-21,2021-01-21,2021-01-31,Maribor,OŠPP,494,Osnovna šola Gustava Šiliha Maribor,,8. razred,Sum na okužbo
 2021-01-21,2021-01-19,2021-01-29,Medvode,ZAV,3567,Vzgojnoizobraževalni zavod Frana Milčinskega Smlednik,,Vzgojitelj,Okužba s Covid-19
-2021-01-21,2021-01-20,2021-01-28,Mengeš,OŠ,164,Osnovna šola Mengeš,,Učitelj,Sum na okužbo
 2021-01-21,2021-01-04,2021-01-13,Nova Gorica,OŠ,370,Osnovna šola Dornberk,,Učitelj,Okužba s Covid-19
 2021-01-21,2021-01-07,2021-01-17,Nova Gorica,PV,370,Osnovna šola Dornberk,enota vrtca Dornberk,Vzgojitelj,Okužba s Covid-19
 2021-01-21,2021-01-11,2021-01-20,Nova Gorica,PV,370,Osnovna šola Dornberk,enota vrtca Dornberk,Vzgojitelj,Okužba s Covid-19
@@ -14280,7 +14261,6 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2021-01-21,2021-01-21,2021-02-02,Straža,OŠ,386,Osnovna šola Vavta vas,,Drugi delavci,Okužba s Covid-19
 2021-01-21,2021-01-19,2021-01-29,Straža,PV,386,Osnovna šola Vavta vas,Vrtec pri OŠ Vavta vas,Drugi strokovni delavec,Okužba s Covid-19
 2021-01-21,2021-01-21,2021-02-01,Straža,PV,386,Osnovna šola Vavta vas,Vrtec pri OŠ Vavta vas,Drugi strokovni delavec,Okužba s Covid-19
-2021-01-21,2021-01-22,2021-02-02,Straža,PV,386,Osnovna šola Vavta vas,Vrtec pri OŠ Vavta vas,Vzgojitelj,Sum na okužbo
 2021-01-21,2020-12-31,2021-01-11,Straža,PV,386,Osnovna šola Vavta vas,Vrtec pri OŠ Vavta vas,Drugi strokovni delavec,Okužba s Covid-19
 2021-01-21,2021-01-12,2021-01-19,Sveta Trojica v Slovenskih goricah,PV,250,Osnovna šola in vrtec Sveta Trojica,Enota Vrtec,Vzgojitelj,Sum na okužbo
 2021-01-21,2021-01-19,2021-01-29,Sveta Trojica v Slovenskih goricah,PV,250,Osnovna šola in vrtec Sveta Trojica,Enota Vrtec,Vzgojitelj,Okužba s Covid-19
@@ -14301,18 +14281,35 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2021-01-22,2021-01-07,2021-01-16,Cerkno,PV,189,Osnovna šola Cerkno,Enota Vrtec Cerkno,Drugi strokovni delavec,Sum na okužbo
 2021-01-22,2021-01-21,2021-01-31,Hajdina,PV,421,Osnovna šola Hajdina,enota vrtca,Drugi delavci,Okužba s Covid-19
 2021-01-22,2021-01-22,2021-02-01,Hrastnik,PV,14193,Vrtec Hrastnik,enota Dolinca na Logu,1. star. obd.,Okužba s Covid-19
-2021-01-22,2021-01-20,2021-01-30,Hrastnik,PV,14193,Vrtec Hrastnik,enota Dolinca na Logu,Drugi strokovni delavec,Sum na okužbo
 2021-01-22,2021-01-21,2021-01-29,Hrpelje-Kozina,OŠ,461,Osnovna šola Dragomirja Benčiča - Brkina Hrpelje,,Drugi delavci,Okužba s Covid-19
+2021-01-22,2020-12-20,2020-12-30,Ig,OŠ,320,Osnovna šola Ig,,Učitelj,Okužba s Covid-19
+2021-01-22,2021-01-22,2021-01-31,Ig,OŠ,320,Osnovna šola Ig,,Učitelj,Okužba s Covid-19
 2021-01-22,2021-01-19,2021-01-28,Ig,PV,1318,VRTEC IG,enota HRIBČEK,Vzgojitelj,Okužba s Covid-19
 2021-01-22,2021-01-19,2021-01-28,Ig,PV,1318,VRTEC IG,enota KRIMČEK,Vzgojitelj,Okužba s Covid-19
 2021-01-22,2021-01-22,2021-01-31,Jesenice,OŠ,1344,Osnovna šola Koroška Bela Jesenice,,2. razred,Sum na okužbo
 2021-01-22,2021-01-20,2021-01-30,Jesenice,OŠPP,3492,Osnovna šola Poldeta Stražišarja Jesenice,,Drugi delavci,Sum na okužbo
 2021-01-22,2021-01-22,2021-02-01,Jesenice,OŠPP,3492,Osnovna šola Poldeta Stražišarja Jesenice,,Učitelj,Sum na okužbo
+2021-01-22,2021-01-20,2021-01-29,Kamnik,ZAV,1002,"Center za izobraževanje, rehabilitacijo in usposabljanje Kamnik",,5. razred,Sum na okužbo
+2021-01-22,2021-01-20,2021-01-29,Kamnik,ZAV,1002,"Center za izobraževanje, rehabilitacijo in usposabljanje Kamnik",,5. razred,Okužba s Covid-19
+2021-01-22,2021-01-01,2021-01-12,Kamnik,ZAV,1002,"Center za izobraževanje, rehabilitacijo in usposabljanje Kamnik",,Učitelj,Okužba s Covid-19
+2021-01-22,2021-01-04,2021-01-15,Kamnik,ZAV,1002,"Center za izobraževanje, rehabilitacijo in usposabljanje Kamnik",,Učitelj,Okužba s Covid-19
+2021-01-22,2021-01-05,2021-01-14,Kamnik,ZAV,1002,"Center za izobraževanje, rehabilitacijo in usposabljanje Kamnik",,Učitelj,Sum na okužbo
+2021-01-22,2021-01-05,2021-01-15,Kamnik,ZAV,1002,"Center za izobraževanje, rehabilitacijo in usposabljanje Kamnik",,Učitelj,Okužba s Covid-19
+2021-01-22,2020-12-05,2020-12-14,Kamnik,ZAV,1002,"Center za izobraževanje, rehabilitacijo in usposabljanje Kamnik",,Učitelj,Okužba s Covid-19
+2021-01-22,2021-01-19,2021-01-27,Kamnik,ZAV,1002,"Center za izobraževanje, rehabilitacijo in usposabljanje Kamnik",,Drugi strokovni delavec,Sum na okužbo
+2021-01-22,2020-12-22,2021-01-06,Kamnik,ZAV,1002,"Center za izobraževanje, rehabilitacijo in usposabljanje Kamnik",,Drugi strokovni delavec,Sum na okužbo
+2021-01-22,2020-10-26,2020-11-05,Kamnik,ZAV,1002,"Center za izobraževanje, rehabilitacijo in usposabljanje Kamnik",,Učitelj,Okužba s Covid-19
+2021-01-22,2020-11-30,2020-12-15,Kamnik,ZAV,1002,"Center za izobraževanje, rehabilitacijo in usposabljanje Kamnik",,Učitelj,Okužba s Covid-19
+2021-01-22,2021-01-22,2021-01-31,Kamnik,PV,1095,Vrtec Antona Medveda Kamnik,"Vrtec  Antona Medveda Kamnik, enota Rožle",Drugi strokovni delavec,Sum na okužbo
+2021-01-22,2021-01-22,2021-02-05,Kamnik,PV,1095,Vrtec Antona Medveda Kamnik,"Vrtec  Antona Medveda Kamnik, enota Tinkara",Drugi strokovni delavec,Okužba s Covid-19
 2021-01-22,2021-01-20,2021-01-30,Koper,OŠ,216,Osnovna šola Dekani,,3. razred,Sum na okužbo
 2021-01-22,2021-01-21,2021-01-31,Koper,OŠ,216,Osnovna šola Dekani,,3. razred,Sum na okužbo
 2021-01-22,2021-01-21,2021-01-31,Koper,PV,1065,Vrtec Koper,Enota Ribica,Vzgojitelj,Okužba s Covid-19
 2021-01-22,2021-01-25,2021-01-29,Kočevje,OŠPP,206,Osnovna šola Ljubo Šercer,,6. razred,Sum na okužbo
 2021-01-22,2021-01-21,2021-01-26,Kranj,OŠPP,229,Osnovna šola Helene Puhar Kranj,,Učitelj,Sum na okužbo
+2021-01-22,2021-01-22,2021-02-01,Krško,OŠPP,235,Osnovna šola dr. Mihajla Rostoharja Krško,,Učitelj,Okužba s Covid-19
+2021-01-22,2021-01-21,2021-01-24,Ljubljana,OŠPP,281,"Center za usposabljanje, vzgojo in izobraževanje Janeza Levca Ljubljana",,6. razred,Sum na okužbo
+2021-01-22,2021-01-21,2021-01-31,Ljubljana,GŠ,10569,"Glasbeni center Edgar Willems, zasebni zavod za glasbeno vzgojo in izobraževanje",,Drugi delavci,Okužba s Covid-19
 2021-01-22,2021-01-21,2021-01-28,Ljubljana,ZAV,3572,Mladinski dom Jarše Ljubljana,,Učitelj,Okužba s Covid-19
 2021-01-22,2021-01-22,2021-01-30,Ljubljana,ZAV,3577,Mladinski dom Malči Beličeve Ljubljana,,Vzgojitelj,Okužba s Covid-19
 2021-01-22,2021-01-19,2021-01-31,Ljubljana,OŠ,286,Osnovna šola Nove Jarše,,Drugi delavci,Okužba s Covid-19
@@ -14324,10 +14321,8 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2021-01-22,2021-01-21,2021-01-31,Ljubno,OŠ,340,Osnovna šola Ljubno ob Savinji,,Učitelj,Okužba s Covid-19
 2021-01-22,2021-01-21,2021-01-31,Ljubno,OŠ,340,Osnovna šola Ljubno ob Savinji,,Drugi delavci,Okužba s Covid-19
 2021-01-22,2021-01-08,2021-01-22,Ljubno,PV,340,Osnovna šola Ljubno ob Savinji,"Enota Vrtec pri šoli, Vrtec Ljubno ob Savinji",Drugi strokovni delavec,Sum na okužbo
-2021-01-22,2021-01-21,2021-01-31,Lukovica,PV,157,Osnovna šola Janka Kersnika Brdo,VVE Medo,Vzgojitelj,Sum na okužbo
 2021-01-22,2021-01-18,2021-01-28,Majšperk,OŠ,422,Osnovna šola Majšperk,,Učitelj,Sum na okužbo
 2021-01-22,2021-01-21,2021-01-31,Maribor,OŠPP,1040,Dom Antona Skale Maribor,,Skupina IP ...,Sum na okužbo
-2021-01-22,2021-01-22,2021-01-25,Maribor,ZAV,1005,Mladinski dom Maribor,,Vzgojitelj,Sum na okužbo
 2021-01-22,2021-01-14,2021-01-24,Maribor,OŠ,555,Osnovna šola Martina Konšaka Maribor,,Učitelj,Okužba s Covid-19
 2021-01-22,2021-01-06,2021-01-15,Maribor,PV,1098,Vrtec Jožice Flander,OE Fochova,Vzgojitelj,Sum na okužbo
 2021-01-22,2021-01-06,2021-01-15,Maribor,PV,1098,Vrtec Jožice Flander,OE Fochova,Drugi strokovni delavec,Okužba s Covid-19
@@ -14340,22 +14335,36 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2021-01-22,2021-01-07,2021-01-17,Nova Gorica,OŠ,365,Osnovna šola Šempas,,Učitelj,Okužba s Covid-19
 2021-01-22,2021-01-13,2021-01-23,Nova Gorica,OŠ,365,Osnovna šola Šempas,,Učitelj,Sum na okužbo
 2021-01-22,2021-01-18,2021-01-24,Nova Gorica,OŠ,365,Osnovna šola Šempas,,Drugi delavci,Sum na okužbo
+2021-01-22,2021-01-22,2021-01-31,Novo mesto,GŠ,379,Glasbena šola Marjana Kozine Novo mesto,,Učitelj,Okužba s Covid-19
 2021-01-22,2021-01-21,2021-01-30,Novo mesto,PV,384,Osnovna šola Stopiče,Vrtec Stopiče,Vzgojitelj,Sum na okužbo
 2021-01-22,2021-01-22,2021-02-01,Ormož,OŠ,1233,Osnovna šola Ivanjkovci,,1. razred,Sum na okužbo
-2021-01-22,2021-01-22,2021-02-04,Ormož,OŠ,394,Osnovna šola Miklavž pri Ormožu,,Učitelj,Sum na okužbo
 2021-01-22,2021-01-15,2021-01-25,Piran,ZAV,1000,"Center za komunikacijo, sluh in govor Portorož",,9. razred,Okužba s Covid-19
 2021-01-22,2021-01-15,2021-01-25,Piran,ZAV,1000,"Center za komunikacijo, sluh in govor Portorož",,Drugi strokovni delavec,Okužba s Covid-19
 2021-01-22,2021-01-21,2021-01-31,Piran,ZAV,1000,"Center za komunikacijo, sluh in govor Portorož",,Drugi delavci,Okužba s Covid-19
 2021-01-22,2021-01-18,2021-01-30,Postojna,OŠ,401,Osnovna šola Miroslava Vilharja Postojna,,Učitelj,Sum na okužbo
+2021-01-22,2021-01-20,2021-01-29,Postojna,OŠ,401,Osnovna šola Miroslava Vilharja Postojna,,Drugi delavci,Sum na okužbo
+2021-01-22,2021-01-21,2021-01-29,Ptuj,OŠ,408,Osnovna šola Olge Meglič,,Učitelj,Okužba s Covid-19
 2021-01-22,2021-01-22,2021-01-31,Ptuj,PV,1085,Vrtec Ptuj,Enota Mačice,Vzgojitelj,Sum na okužbo
 2021-01-22,2021-01-22,2021-01-31,Ptuj,PV,1085,Vrtec Ptuj,Enota Mačice,Vzgojitelj,Okužba s Covid-19
 2021-01-22,2021-01-20,2021-01-29,Rogašovci,OŠ,354,Osnovna šola Sveti Jurij,,Učitelj,Okužba s Covid-19
-2021-01-22,2021-01-17,2021-01-26,Slovenska Bistrica,OŠ,468,Osnovna šola Pohorskega odreda Slovenska Bistrica,Podružnica Zgornja Ložnica,Učitelj,Sum na okužbo
+2021-01-22,2021-01-22,2021-02-02,Straža,PV,386,Osnovna šola Vavta vas,Vrtec pri OŠ Vavta vas,Drugi strokovni delavec,Okužba s Covid-19
 2021-01-22,2021-01-18,2021-01-29,Tržič,OŠ,519,Osnovna šola Križe,,Drugi strokovni delavec,Okužba s Covid-19
-2021-01-22,2021-01-21,2021-01-31,Tržič,PV,1108,Vrtec Tržič,enota Križe,Vzgojitelj,Sum na okužbo
+2021-01-22,2021-01-21,2021-01-30,Tržič,OŠ,521,Osnovna šola Tržič,Podružnična šola Lom,Učitelj,Okužba s Covid-19
+2021-01-22,2021-01-21,2021-01-30,Tržič,OŠ,521,Osnovna šola Tržič,Podružnična šola Lom,Drugi delavci,Okužba s Covid-19
 2021-01-22,2021-01-21,2021-01-30,Veržej,OŠ,3709,Osnovna šola Veržej,,Učitelj,Sum na okužbo
 2021-01-22,2021-01-20,2021-03-31,Vipava,ZAV,1004,"Center za izobraževanje, rehabilitacijo in usposabljanje Vipava",,Drugi delavci,Okužba s Covid-19
 2021-01-22,2021-01-18,2021-01-30,Vrhnika,OŠ,6687,Osnovna šola Antona Martina Slomška Vrhnika,,Drugi delavci,Okužba s Covid-19
+2021-01-22,2021-01-21,2021-01-31,Zagorje ob Savi,PV,1169,Vrtec Zagorje ob Savi,Enota Smrkci,2. star. obd.,Sum na okužbo
+2021-01-22,2021-01-21,2021-01-31,Zagorje ob Savi,PV,1169,Vrtec Zagorje ob Savi,Enota Smrkci,2. star. obd.,Sum na okužbo
+2021-01-22,2021-01-21,2021-01-31,Zagorje ob Savi,PV,1169,Vrtec Zagorje ob Savi,Enota Smrkci,2. star. obd.,Sum na okužbo
+2021-01-22,2021-01-21,2021-01-31,Zagorje ob Savi,PV,1169,Vrtec Zagorje ob Savi,Enota Smrkci,2. star. obd.,Sum na okužbo
+2021-01-22,2021-01-21,2021-01-31,Zagorje ob Savi,PV,1169,Vrtec Zagorje ob Savi,Enota Smrkci,2. star. obd.,Sum na okužbo
+2021-01-22,2021-01-21,2021-01-31,Zagorje ob Savi,PV,1169,Vrtec Zagorje ob Savi,Enota Smrkci,2. star. obd.,Sum na okužbo
+2021-01-22,2021-01-21,2021-01-31,Zagorje ob Savi,PV,1169,Vrtec Zagorje ob Savi,Enota Smrkci,2. star. obd.,Sum na okužbo
+2021-01-22,2021-01-21,2021-01-31,Zagorje ob Savi,PV,1169,Vrtec Zagorje ob Savi,Enota Smrkci,2. star. obd.,Sum na okužbo
+2021-01-22,2021-01-21,2021-01-31,Zagorje ob Savi,PV,1169,Vrtec Zagorje ob Savi,Enota Smrkci,2. star. obd.,Sum na okužbo
+2021-01-22,2021-01-21,2021-01-31,Zagorje ob Savi,PV,1169,Vrtec Zagorje ob Savi,Enota Smrkci,2. star. obd.,Sum na okužbo
+2021-01-22,2021-01-21,2021-01-31,Zagorje ob Savi,PV,1169,Vrtec Zagorje ob Savi,Enota Smrkci,Vzgojitelj,Okužba s Covid-19
 2021-01-22,2021-01-14,2021-01-23,Črnomelj,OŠ,151,Osnovna šola Loka Črnomelj,,Drugi strokovni delavec,Sum na okužbo
 2021-01-22,2021-01-15,2021-01-25,Šentjur,PV,1084,Vrtec Šentjur,enota Hruševec,Vzgojitelj,Sum na okužbo
 2021-01-22,2021-01-21,2021-01-31,Šentjur,PV,1084,Vrtec Šentjur,enota Pešnica,Drugi delavci,Sum na okužbo
@@ -14374,3 +14383,268 @@ date,absent.from,absent.to,municipality,type,school_id,school,unit,subunit,reaso
 2021-01-22,2021-01-19,2021-01-29,Šmarje pri Jelšah,OŠ,495,Osnovna šola Šmarje pri Jelšah,,Učitelj,Sum na okužbo
 2021-01-22,2021-01-21,2021-01-31,Šmarje pri Jelšah,OŠ,495,Osnovna šola Šmarje pri Jelšah,,Učitelj,Okužba s Covid-19
 2021-01-22,2021-01-20,2021-01-30,Šmarje pri Jelšah,OŠ,495,Osnovna šola Šmarje pri Jelšah,Podružnica Zibika,Drugi delavci,Okužba s Covid-19
+2021-01-23,2021-01-04,2021-02-02,Brežice,GŠ,123,Glasbena šola Brežice,,Drugi delavci,Okužba s Covid-19
+2021-01-23,2021-01-21,2021-01-30,Dol pri Ljubljani,OŠ,273,Osnovna šola Janka Modra Dol pri Ljubljani,,Učitelj,Sum na okužbo
+2021-01-23,2021-01-22,2021-02-05,Domžale,OŠ,159,Osnovna šola Rodica,,Učitelj,Okužba s Covid-19
+2021-01-23,2021-01-23,2021-02-02,Hoče-Slivnica,OŠ,577,Osnovna šola Franca Lešnika - Vuka Slivnica pri Mariboru,,Učitelj,Okužba s Covid-19
+2021-01-23,2021-01-22,2021-02-01,Izola,OŠ,196,Osnovna šola Dante Alighieri Izola,,Učitelj,Okužba s Covid-19
+2021-01-23,2021-01-22,2021-02-01,Izola,PV,196,Osnovna šola Dante Alighieri Izola,Enota Vrtec L Aquilone,Vzgojitelj,Okužba s Covid-19
+2021-01-23,2020-12-11,2020-12-25,Kamnik,ZAV,1002,"Center za izobraževanje, rehabilitacijo in usposabljanje Kamnik",,Učitelj,Okužba s Covid-19
+2021-01-23,2020-11-14,2020-11-23,Kamnik,ZAV,1002,"Center za izobraževanje, rehabilitacijo in usposabljanje Kamnik",,Učitelj,Okužba s Covid-19
+2021-01-23,2021-01-20,2021-01-30,Kanal,OŠ,361,Osnovna šola Deskle,,Drugi strokovni delavec,Okužba s Covid-19
+2021-01-23,2021-01-23,2021-02-02,Komenda,OŠ,198,Osnovna šola Komenda Moste,,Drugi strokovni delavec,Sum na okužbo
+2021-01-23,2021-01-21,2021-01-30,Koper,PV,1096,Vrtec Semedela,enota Prisoje,Drugi strokovni delavec,Sum na okužbo
+2021-01-23,2021-01-22,2021-01-25,Ljubljana,OŠ,17530,"Inštitut montessori, Zavod za pomoč staršem pri razvoju otrok",,Učitelj,Sum na okužbo
+2021-01-23,2021-01-23,2021-02-01,Ljubljana,OŠ,286,Osnovna šola Nove Jarše,,Učitelj,Okužba s Covid-19
+2021-01-23,2021-01-03,2021-01-24,Ljubljana,OŠ,274,Osnovna šola Prežihovega Voranca,,Učitelj,Okužba s Covid-19
+2021-01-23,2021-01-19,2021-01-29,Ljubljana,OŠ,283,Osnovna šola Vide Pregarc Ljubljana,,Učitelj,Okužba s Covid-19
+2021-01-23,2021-01-19,2021-01-28,Ljubljana,PV,10050,Vrtec Vodmat,enota KLINIČNI CENTER,Vzgojitelj,Sum na okužbo
+2021-01-23,2021-01-19,2021-01-28,Ljubljana,PV,10050,Vrtec Vodmat,enota KLINIČNI CENTER,Drugi strokovni delavec,Sum na okužbo
+2021-01-23,2021-01-19,2021-01-28,Ljubljana,PV,10050,Vrtec Vodmat,enota KLINIČNI CENTER,Drugi strokovni delavec,Sum na okužbo
+2021-01-23,2021-01-19,2021-01-28,Logatec,PV,1075,VRTEC KURIRČEK LOGATEC,ENOTA ROVTE,Drugi strokovni delavec,Okužba s Covid-19
+2021-01-23,2021-01-21,2021-01-30,Logatec,PV,1075,VRTEC KURIRČEK LOGATEC,ENOTA ROVTE,Vzgojitelj,Okužba s Covid-19
+2021-01-23,2021-01-21,2021-01-30,Logatec,PV,1075,VRTEC KURIRČEK LOGATEC,ENOTA ROVTE,Drugi strokovni delavec,Sum na okužbo
+2021-01-23,2021-01-23,2021-02-02,Maribor,OŠPP,494,Osnovna šola Gustava Šiliha Maribor,,9. razred,Okužba s Covid-19
+2021-01-23,2021-01-23,2021-02-02,Maribor,OŠPP,494,Osnovna šola Gustava Šiliha Maribor,,Učitelj,Sum na okužbo
+2021-01-23,2021-01-20,2021-02-02,Puconci,OŠ,345,Osnovna šola Puconci,Podružnična šola Mačkovci,Učitelj,Okužba s Covid-19
+2021-01-23,2021-01-25,2021-02-01,Radovljica,OŠ,431,Osnovna šola Antona Tomaža Linharta Radovljica,,Učitelj,Okužba s Covid-19
+2021-01-23,2021-01-21,2021-01-31,Tržič,PV,1108,Vrtec Tržič,enota Križe,Vzgojitelj,Okužba s Covid-19
+2021-01-23,2021-01-22,2021-01-31,Velenje,OŠ,524,Osnovna šola Livada Velenje,,Učitelj,Okužba s Covid-19
+2021-01-23,2021-01-21,2021-01-31,Vodice,OŠ,311,Osnovna šola Vodice,,3. razred,Sum na okužbo
+2021-01-23,2021-01-23,2021-02-02,Vodice,OŠ,311,Osnovna šola Vodice,,3. razred,Okužba s Covid-19
+2021-01-23,2021-01-16,2021-01-29,Vodice,OŠ,311,Osnovna šola Vodice,,Učitelj,Okužba s Covid-19
+2021-01-23,2021-01-23,2021-02-02,Zagorje ob Savi,PV,1169,Vrtec Zagorje ob Savi,Enota Ciciban,Vzgojitelj,Sum na okužbo
+2021-01-23,2021-01-23,2021-02-02,Zagorje ob Savi,PV,1169,Vrtec Zagorje ob Savi,Enota Kekec,Vzgojitelj,Sum na okužbo
+2021-01-23,2021-01-15,2021-01-29,Črenšovci,OŠ,260,Osnovna šola Franceta Prešerna Črenšovci,,Drugi delavci,Okužba s Covid-19
+2021-01-23,2021-01-19,2021-01-29,Šentjernej,PV,19870,Vrtec Čebelica Šentjernej,,2. star. obd.,Okužba s Covid-19
+2021-01-23,2021-01-20,2021-01-30,Šentjernej,PV,19870,Vrtec Čebelica Šentjernej,,1. star. obd.,Okužba s Covid-19
+2021-01-23,2021-01-04,2021-01-11,Šentjernej,PV,19870,Vrtec Čebelica Šentjernej,,Drugi strokovni delavec,Okužba s Covid-19
+2021-01-23,2021-01-19,2021-01-30,Šentjernej,PV,19870,Vrtec Čebelica Šentjernej,,Drugi delavci,Okužba s Covid-19
+2021-01-23,2021-01-21,2021-01-30,Šentjernej,PV,19870,Vrtec Čebelica Šentjernej,,Vzgojitelj,Okužba s Covid-19
+2021-01-23,2021-01-25,2021-01-30,Šentjernej,PV,19870,Vrtec Čebelica Šentjernej,,Vzgojitelj,Sum na okužbo
+2021-01-23,2021-01-25,2021-01-30,Šentjernej,PV,19870,Vrtec Čebelica Šentjernej,,Vzgojitelj,Okužba s Covid-19
+2021-01-23,2021-01-25,2021-01-30,Šentjernej,PV,19870,Vrtec Čebelica Šentjernej,,Vzgojitelj,Sum na okužbo
+2021-01-23,2021-01-23,2021-02-07,Šentrupert,OŠ,516,Osnovna šola dr. Pavla Lunačka Šentrupert,,Učitelj,Okužba s Covid-19
+2021-01-23,2021-01-20,2021-01-30,Železniki,PV,1264,Antonov vrtec Železniki,,2. star. obd.,Sum na okužbo
+2021-01-23,2021-01-20,2021-10-30,Železniki,PV,1264,Antonov vrtec Železniki,,2. star. obd.,Sum na okužbo
+2021-01-24,2021-01-24,2021-02-02,Ajdovščina,OŠ,118,Osnovna šola Danila Lokarja Ajdovščina,,Učitelj,Sum na okužbo
+2021-01-24,2021-01-23,2021-02-06,Ajdovščina,OŠPP,118,Osnovna šola Danila Lokarja Ajdovščina,Enota s prilagojenim programom,Učitelj,Okužba s Covid-19
+2021-01-24,2021-01-20,2021-02-04,Brežice,PV,124,Osnovna šola Artiče,Vrtec Ringa Raja,Vzgojitelj,Okužba s Covid-19
+2021-01-24,2021-01-20,2021-01-30,Brežice,PV,124,Osnovna šola Artiče,Vrtec Ringa Raja,Vzgojitelj,Sum na okužbo
+2021-01-24,2021-01-20,2021-01-30,Brežice,PV,124,Osnovna šola Artiče,Vrtec Ringa Raja,Vzgojitelj,Sum na okužbo
+2021-01-24,2021-01-20,2021-01-30,Brežice,PV,124,Osnovna šola Artiče,Vrtec Ringa Raja,Vzgojitelj,Sum na okužbo
+2021-01-24,2021-01-23,2021-02-02,Cankova,OŠ,353,Osnovna šola Cankova,,Učitelj,Okužba s Covid-19
+2021-01-24,2021-01-24,2021-02-03,Dobrepolje,OŠ,180,Osnovna šola Dobrepolje,,Učitelj,Okužba s Covid-19
+2021-01-24,2021-01-23,2021-02-02,Dobrova-Polhov Gradec,PV,325,Osnovna šola Polhov Gradec,Enota Vrtec,Vzgojitelj,Sum na okužbo
+2021-01-24,2021-01-24,2021-02-03,Dobrova-Polhov Gradec,PV,325,Osnovna šola Polhov Gradec,Enota Vrtec,Vzgojitelj,Okužba s Covid-19
+2021-01-24,2021-01-21,2021-01-29,Kidričevo,OŠ,424,Osnovna šola Cirkovce,,Učitelj,Okužba s Covid-19
+2021-01-24,2021-01-23,2021-02-02,Koper,PV,1065,Vrtec Koper,Enota Ribica,Vzgojitelj,Okužba s Covid-19
+2021-01-24,2021-01-23,2021-02-06,Kranj,PV,1066,Kranjski vrtci,Enota Ciciban,Vzgojitelj,Okužba s Covid-19
+2021-01-24,2021-01-25,2021-01-29,Kranj,PV,1066,Kranjski vrtci,"KRANJSKI VRTCI, ENOTA JANINA",Vzgojitelj,Sum na okužbo
+2021-01-24,2021-01-25,2021-01-29,Kranj,PV,1066,Kranjski vrtci,"KRANJSKI VRTCI, ENOTA JANINA",Vzgojitelj,Sum na okužbo
+2021-01-24,2021-01-25,2021-02-04,Kungota,OŠ,582,Osnovna šola Kungota,,Drugi strokovni delavec,Sum na okužbo
+2021-01-24,2021-01-25,2021-02-04,Kungota,OŠ,582,Osnovna šola Kungota,,Drugi strokovni delavec,Sum na okužbo
+2021-01-24,2021-01-21,2021-01-29,Litija,PV,1068,Vrtec Litija,Enota Jurček,1. star. obd.,Sum na okužbo
+2021-01-24,2021-01-21,2021-01-29,Litija,PV,1068,Vrtec Litija,Enota Jurček,1. star. obd.,Sum na okužbo
+2021-01-24,2021-01-21,2021-01-29,Litija,PV,1068,Vrtec Litija,Enota Jurček,1. star. obd.,Sum na okužbo
+2021-01-24,2021-01-21,2021-01-29,Litija,PV,1068,Vrtec Litija,Enota Jurček,2. star. obd.,Sum na okužbo
+2021-01-24,2021-01-21,2021-01-29,Litija,PV,1068,Vrtec Litija,Enota Jurček,2. star. obd.,Sum na okužbo
+2021-01-24,2021-01-21,2021-01-29,Litija,PV,1068,Vrtec Litija,Enota Jurček,2. star. obd.,Sum na okužbo
+2021-01-24,2021-01-21,2021-01-29,Litija,PV,1068,Vrtec Litija,Enota Jurček,2. star. obd.,Sum na okužbo
+2021-01-24,2021-01-21,2021-01-29,Litija,PV,1068,Vrtec Litija,Enota Jurček,2. star. obd.,Sum na okužbo
+2021-01-24,2021-01-21,2021-01-29,Litija,PV,1068,Vrtec Litija,Enota Jurček,Komb. 1. in 2. star. obd.,Sum na okužbo
+2021-01-24,2021-01-21,2021-01-29,Litija,PV,1068,Vrtec Litija,Enota Jurček,Komb. 1. in 2. star. obd.,Sum na okužbo
+2021-01-24,2021-01-21,2021-01-29,Litija,PV,1068,Vrtec Litija,Enota Jurček,Komb. 1. in 2. star. obd.,Sum na okužbo
+2021-01-24,2021-01-21,2021-01-30,Litija,PV,1068,Vrtec Litija,Enota Jurček,1. star. obd.,Sum na okužbo
+2021-01-24,2021-01-21,2021-01-29,Litija,PV,1068,Vrtec Litija,Enota Jurček,Vzgojitelj,Okužba s Covid-19
+2021-01-24,2021-01-11,2021-01-15,Ljubljana,ZAV,1001,"Center IRIS - Center za izobraževanje, rehabilitacijo, inkluzijo in svetovanje za slepe in slabovidne",,Drugi delavci,Sum na okužbo
+2021-01-24,2021-01-25,2021-02-04,Ljubljana,ZAV,1001,"Center IRIS - Center za izobraževanje, rehabilitacijo, inkluzijo in svetovanje za slepe in slabovidne",,Učitelj,Okužba s Covid-19
+2021-01-24,2021-01-20,2021-01-30,Ljubljana,PV,1115,Vrtec Hansa Christiana Andersena,enota Andersen,Drugi delavci,Okužba s Covid-19
+2021-01-24,2021-01-22,2021-02-01,Ljubljana,PV,1115,Vrtec Hansa Christiana Andersena,enota Andersen,Drugi strokovni delavec,Okužba s Covid-19
+2021-01-24,2021-01-15,2021-01-25,Maribor,OŠPP,494,Osnovna šola Gustava Šiliha Maribor,,Učitelj,Okužba s Covid-19
+2021-01-24,2021-01-23,2021-02-02,Maribor,OŠPP,494,Osnovna šola Gustava Šiliha Maribor,,Učitelj,Okužba s Covid-19
+2021-01-24,2021-01-23,2021-02-02,Maribor,OŠPP,494,Osnovna šola Gustava Šiliha Maribor,,Drugi delavci,Sum na okužbo
+2021-01-24,2021-01-20,2021-01-31,Mengeš,OŠ,164,Osnovna šola Mengeš,,Učitelj,Okužba s Covid-19
+2021-01-24,2021-01-21,2021-01-31,Mengeš,OŠ,164,Osnovna šola Mengeš,,Učitelj,Okužba s Covid-19
+2021-01-24,2021-01-22,2021-01-31,Mengeš,OŠ,164,Osnovna šola Mengeš,,Učitelj,Okužba s Covid-19
+2021-01-24,2021-01-22,2021-01-31,Mengeš,OŠ,164,Osnovna šola Mengeš,,Drugi delavci,Okužba s Covid-19
+2021-01-24,2021-01-23,2021-02-01,Miklavž na Dravskem polju,OŠ,576,Osnovna šola Miklavž na Dravskem polju,,Drugi strokovni delavec,Sum na okužbo
+2021-01-24,2021-01-21,2021-01-31,Novo mesto,OŠ,376,Osnovna šola Center Novo mesto,,Drugi delavci,Okužba s Covid-19
+2021-01-24,2021-01-21,2021-01-31,Novo mesto,OŠ,376,Osnovna šola Center Novo mesto,,Drugi delavci,Okužba s Covid-19
+2021-01-24,2021-01-25,2021-02-05,Ormož,OŠ,394,Osnovna šola Miklavž pri Ormožu,,Učitelj,Okužba s Covid-19
+2021-01-24,2021-01-24,2021-02-02,Postojna,OŠ,401,Osnovna šola Miroslava Vilharja Postojna,,2. razred,Sum na okužbo
+2021-01-24,2021-01-21,2021-01-31,Starše,OŠ,572,Osnovna šola Starše,,Učitelj,Sum na okužbo
+2021-01-24,2021-01-16,2021-01-25,Starše,PV,572,Osnovna šola Starše,Vrtec Najdihojca Starše,Vzgojitelj,Okužba s Covid-19
+2021-01-24,2021-01-22,2021-01-31,Starše,PV,572,Osnovna šola Starše,Vrtec Najdihojca Starše,Drugi delavci,Okužba s Covid-19
+2021-01-24,2021-01-22,2021-01-31,Sveta Ana,OŠ,248,Osnovna šola Sveta Ana,,Učitelj,Sum na okužbo
+2021-01-24,2021-01-20,2021-01-29,Tolmin,OŠ,506,Osnovna šola Franceta Bevka Tolmin,,Drugi delavci,Sum na okužbo
+2021-01-24,2021-01-24,2021-02-02,Velenje,OŠ,524,Osnovna šola Livada Velenje,,Drugi delavci,Okužba s Covid-19
+2021-01-24,2021-01-22,2021-01-31,Vodice,OŠ,311,Osnovna šola Vodice,,1. razred,Sum na okužbo
+2021-01-24,2021-01-23,2021-02-02,Šmarje pri Jelšah,OŠ,495,Osnovna šola Šmarje pri Jelšah,,Učitelj,Sum na okužbo
+2021-01-24,2021-01-22,2021-02-01,Šmarje pri Jelšah,OŠ,495,Osnovna šola Šmarje pri Jelšah,Podružnica Zibika,3. razred,Sum na okužbo
+2021-01-25,2021-01-25,2021-02-03,Bled,PV,1324,Vrtec Bled,enota Bled,Vzgojitelj,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-02-02,Celje,OŠ,136,III. osnovna šola Celje,,Učitelj,Sum na okužbo
+2021-01-25,2021-01-21,2021-01-30,Cerknica,OŠ,145,Osnovna šola Jožeta Krajca Rakek,,Drugi delavci,Sum na okužbo
+2021-01-25,2021-01-25,2021-02-04,Domžale,OŠPP,161,Osnovna šola Roje,,1. razred,Sum na okužbo
+2021-01-25,2021-01-21,2021-01-30,Domžale,OŠPP,161,Osnovna šola Roje,,Drugi strokovni delavec,Sum na okužbo
+2021-01-25,2021-01-25,2021-02-04,Domžale,OŠPP,161,Osnovna šola Roje,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-22,2021-01-31,Dravograd,PV,1061,VRTEC DRAVOGRAD,VRTEC TRBONJE,Drugi strokovni delavec,Okužba s Covid-19
+2021-01-25,2021-01-16,2021-01-27,Gorenja vas-Poljane,OŠ,1315,Osnovna šola Poljane,,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-21,2021-02-01,Gorenja vas-Poljane,OŠ,1315,Osnovna šola Poljane,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-16,2021-01-26,Gorje,OŠ,434,Osnovna šola Gorje,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-23,2021-02-02,Grosuplje,OŠ,178,Osnovna šola Louisa Adamiča Grosuplje,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-22,2021-01-31,Horjul,OŠ,324,Osnovna šola Horjul,,Učitelj,Sum na okužbo
+2021-01-25,2021-01-17,2021-01-29,Horjul,PV,324,Osnovna šola Horjul,Enota Vrtec,Drugi strokovni delavec,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-02-04,Hoče-Slivnica,OŠ,577,Osnovna šola Franca Lešnika - Vuka Slivnica pri Mariboru,,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-19,2021-01-29,Hrastnik,PV,14193,Vrtec Hrastnik,enota Dolinca na Logu,Vzgojitelj,Okužba s Covid-19
+2021-01-25,2021-01-19,2021-01-29,Hrastnik,PV,14193,Vrtec Hrastnik,enota Dolinca na Logu,Vzgojitelj,Sum na okužbo
+2021-01-25,2021-01-20,2021-01-30,Hrastnik,PV,14193,Vrtec Hrastnik,enota Dolinca na Logu,Vzgojitelj,Sum na okužbo
+2021-01-25,2021-01-20,2021-01-30,Hrastnik,PV,14193,Vrtec Hrastnik,enota Dolinca na Logu,Vzgojitelj,Sum na okužbo
+2021-01-25,2021-01-21,2021-01-31,Hrastnik,PV,14193,Vrtec Hrastnik,enota Dolinca na Logu,Vzgojitelj,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-02-04,Hrastnik,PV,14193,Vrtec Hrastnik,enota Dolinca na Logu,Vzgojitelj,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-02-04,Jesenice,OŠPP,3492,Osnovna šola Poldeta Stražišarja Jesenice,,Učitelj,Okužba s Covid-19
+2021-01-25,2020-11-11,2020-11-25,Kamnik,ZAV,1002,"Center za izobraževanje, rehabilitacijo in usposabljanje Kamnik",,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-22,2021-01-31,Kamnik,OŠ,201,Osnovna šola Toma Brejca Kamnik,,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-24,2021-02-03,Kamnik,OŠ,201,Osnovna šola Toma Brejca Kamnik,,Učitelj,Sum na okužbo
+2021-01-25,2021-01-25,2021-02-08,Kamnik,PV,1095,Vrtec Antona Medveda Kamnik,"Vrtec  Antona Medveda Kamnik, enota Pestrna",Vzgojitelj,Okužba s Covid-19
+2021-01-25,2021-01-18,2021-02-01,Kamnik,PV,1095,Vrtec Antona Medveda Kamnik,"Vrtec  Antona Medveda Kamnik, enota Sneguljčica",Drugi strokovni delavec,Okužba s Covid-19
+2021-01-25,2021-01-24,2021-02-02,Kamnik,PV,1095,Vrtec Antona Medveda Kamnik,"Vrtec  Antona Medveda Kamnik, enota Tinkara",Vzgojitelj,Sum na okužbo
+2021-01-25,2021-01-25,2021-02-08,Kamnik,PV,1095,Vrtec Antona Medveda Kamnik,"Vrtec  Antona Medveda Kamnik, enota Tinkara",Drugi strokovni delavec,Okužba s Covid-19
+2021-01-25,2021-01-04,2021-01-15,Kanal,OŠ,363,Osnovna šola Kanal,,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-04,2021-01-15,Kanal,OŠ,363,Osnovna šola Kanal,,Drugi delavci,Okužba s Covid-19
+2021-01-25,2020-11-19,2020-11-24,Kanal,OŠ,363,Osnovna šola Kanal,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-01,2021-01-11,Kanal,PV,363,Osnovna šola Kanal,Enota Vrtec Kanal,Drugi strokovni delavec,Okužba s Covid-19
+2021-01-25,2021-01-06,2021-01-18,Kanal,PV,363,Osnovna šola Kanal,Enota Vrtec Kanal,Vzgojitelj,Okužba s Covid-19
+2021-01-25,2020-12-29,2020-12-31,Kanal,PV,363,Osnovna šola Kanal,Enota Vrtec Kanal,Drugi strokovni delavec,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-02-01,Kidričevo,OŠ,424,Osnovna šola Cirkovce,,Drugi strokovni delavec,Okužba s Covid-19
+2021-01-25,2021-01-19,2021-01-29,Koper,OŠ,216,Osnovna šola Dekani,,1. razred,Sum na okužbo
+2021-01-25,2021-01-19,2021-01-29,Koper,OŠ,216,Osnovna šola Dekani,,1. razred,Sum na okužbo
+2021-01-25,2021-01-20,2021-01-30,Koper,OŠ,216,Osnovna šola Dekani,,2. razred,Sum na okužbo
+2021-01-25,2021-01-21,2021-01-31,Koper,OŠ,216,Osnovna šola Dekani,,2. razred,Sum na okužbo
+2021-01-25,2021-01-24,2021-02-07,Kranj,PV,1066,Kranjski vrtci,Enota Mojca razvojni oddelek,Vzgojitelj,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-02-05,Kranj,OŠPP,229,Osnovna šola Helene Puhar Kranj,,III. stopnja,Sum na okužbo
+2021-01-25,2021-01-21,2021-02-01,Laško,OŠ,1353,Osnovna šola Antona Aškerca Rimske Toplice,Podružnica Jurklošter,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-22,2021-02-02,Laško,OŠ,1353,Osnovna šola Antona Aškerca Rimske Toplice,Podružnica Jurklošter,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-22,2021-01-31,Ljubljana,OŠPP,281,"Center za usposabljanje, vzgojo in izobraževanje Janeza Levca Ljubljana",,Učitelj,Sum na okužbo
+2021-01-25,2021-01-22,2021-01-31,Ljubljana,OŠPP,281,"Center za usposabljanje, vzgojo in izobraževanje Janeza Levca Ljubljana",,Učitelj,Sum na okužbo
+2021-01-25,2021-01-24,2021-02-03,Ljubljana,OŠPP,281,"Center za usposabljanje, vzgojo in izobraževanje Janeza Levca Ljubljana",,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-24,2021-02-03,Ljubljana,OŠPP,281,"Center za usposabljanje, vzgojo in izobraževanje Janeza Levca Ljubljana",,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-24,2021-02-03,Ljubljana,OŠPP,281,"Center za usposabljanje, vzgojo in izobraževanje Janeza Levca Ljubljana",,Drugi delavci,Sum na okužbo
+2021-01-25,2021-01-24,2021-02-03,Ljubljana,OŠPP,281,"Center za usposabljanje, vzgojo in izobraževanje Janeza Levca Ljubljana",,Drugi delavci,Sum na okužbo
+2021-01-25,2021-01-25,2021-02-04,Ljubljana,OŠPP,281,"Center za usposabljanje, vzgojo in izobraževanje Janeza Levca Ljubljana",,Učitelj,Sum na okužbo
+2021-01-25,2021-01-17,2021-01-25,Ljubljana,GŠ,304,Glasbena šola Franca Šturma,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-21,2021-01-31,Ljubljana,GŠ,304,Glasbena šola Franca Šturma,,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-02-04,Ljubljana,GŠ,304,Glasbena šola Franca Šturma,,Učitelj,Sum na okužbo
+2021-01-25,2021-01-22,2021-01-31,Ljubljana,OŠ,270,Osnovna šola Bežigrad,,Učitelj,Sum na okužbo
+2021-01-25,2021-01-25,2021-01-29,Ljubljana,OŠ,303,Osnovna šola Dravlje,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-24,2021-02-05,Ljubljana,OŠ,284,Osnovna šola Jožeta Moškriča,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-23,2021-02-06,Ljubljana,OŠ,285,Osnovna šola Martina Krpana Ljubljana,,5. razred,Okužba s Covid-19
+2021-01-25,2021-01-24,2021-02-02,Ljubljana,OŠ,315,Osnovna šola Oskarja Kovačiča,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-23,2021-03-31,Ljubljana,OŠ,277,Osnovna šola Toneta Čufarja,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-22,2021-01-31,Ljubljana,OŠ,291,Osnovna šola Zadobrova,,2. razred,Sum na okužbo
+2021-01-25,2021-01-23,2021-01-30,Ljubljana,OŠ,291,Osnovna šola Zadobrova,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-02-04,Ljubljana,OŠ,291,Osnovna šola Zadobrova,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-22,2021-01-31,Ljubljana,PV,10051,Vrtec Miškolin,Novo Polje,1. star. obd.,Okužba s Covid-19
+2021-01-25,2021-01-15,2021-01-24,Ljubljana,PV,10051,Vrtec Miškolin,Novo Polje,Vzgojitelj,Sum na okužbo
+2021-01-25,2021-01-15,2021-01-25,Ljubljana,PV,10051,Vrtec Miškolin,Novo Polje,Vzgojitelj,Okužba s Covid-19
+2021-01-25,2021-01-20,2021-01-31,Ljubljana,PV,10051,Vrtec Miškolin,Novo Polje,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-22,2021-01-31,Ljubljana,PV,10051,Vrtec Miškolin,Novo Polje,Vzgojitelj,Sum na okužbo
+2021-01-25,2021-01-22,2021-01-31,Ljubljana,PV,10051,Vrtec Miškolin,Novo Polje,Vzgojitelj,Okužba s Covid-19
+2021-01-25,2021-01-22,2021-01-31,Ljubljana,PV,10051,Vrtec Miškolin,Rjava cesta,2. star. obd.,Okužba s Covid-19
+2021-01-25,2021-01-22,2021-01-31,Ljubljana,PV,10051,Vrtec Miškolin,Rjava cesta,Vzgojitelj,Okužba s Covid-19
+2021-01-25,2021-01-22,2021-01-31,Ljubljana,PV,10051,Vrtec Miškolin,Rjava cesta,Vzgojitelj,Sum na okužbo
+2021-01-25,2021-01-22,2021-01-31,Ljubljana,PV,10051,Vrtec Miškolin,Rjava cesta,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-19,2021-01-28,Ljubljana,PV,1211,Vrtec Mojca Ljubljana,VRTEC MOJCA ENOTA TINKARA,2. star. obd.,Okužba s Covid-19
+2021-01-25,2021-01-22,2021-01-31,Ljubljana,PV,1211,Vrtec Mojca Ljubljana,VRTEC MOJCA ENOTA TINKARA,2. star. obd.,Okužba s Covid-19
+2021-01-25,2021-01-22,2021-02-01,Ljubljana,PV,1211,Vrtec Mojca Ljubljana,VRTEC MOJCA ENOTA TINKARA,Drugi strokovni delavec,Okužba s Covid-19
+2021-01-25,2021-01-23,2021-02-02,Ljubljana,PV,1197,Vrtec Pedenjped,enota Učenjak,Drugi strokovni delavec,Okužba s Covid-19
+2021-01-25,2021-01-13,2021-01-29,Ljutomer,OŠ,329,Osnovna šola Janka Ribiča Cezanjevci,,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-21,2021-01-31,Logatec,ZAV,3571,Zavod za vzgojo in izobraževanje Logatec,,Drugi delavci,Sum na okužbo
+2021-01-25,2021-01-20,2021-01-29,Lukovica,PV,157,Osnovna šola Janka Kersnika Brdo,VVE Medo,Vzgojitelj,Okužba s Covid-19
+2021-01-25,2021-01-20,2021-01-29,Lukovica,PV,157,Osnovna šola Janka Kersnika Brdo,VVE Medo,Drugi strokovni delavec,Sum na okužbo
+2021-01-25,2021-01-23,2021-02-01,Maribor,OŠPP,1040,Dom Antona Skale Maribor,,Skupina IP ...,Sum na okužbo
+2021-01-25,2021-01-23,2021-02-01,Maribor,OŠPP,1040,Dom Antona Skale Maribor,,Skupina IP ...,Sum na okužbo
+2021-01-25,2021-01-24,2021-02-03,Maribor,OŠPP,1040,Dom Antona Skale Maribor,,Drugi delavci,Sum na okužbo
+2021-01-25,2021-01-25,2021-02-03,Maribor,ZAV,1005,Mladinski dom Maribor,,Vzgojna skupina,Okužba s Covid-19
+2021-01-25,2021-01-22,2021-02-03,Maribor,ZAV,1005,Mladinski dom Maribor,,Drugi strokovni delavec,Okužba s Covid-19
+2021-01-25,2021-01-22,2021-01-31,Maribor,ZAV,1005,Mladinski dom Maribor,,Vzgojitelj,Sum na okužbo
+2021-01-25,2021-01-25,2021-02-04,Maribor,PV,494,Osnovna šola Gustava Šiliha Maribor,enota vrtca Sovice,Drugi strokovni delavec,Okužba s Covid-19
+2021-01-25,2021-01-21,2021-01-30,Maribor,OŠ,604,Osnovna šola Leona Štuklja Maribor,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-01,2021-01-10,Maribor,OŠ,553,Osnovna šola Prežihovega Voranca Maribor,,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-24,2021-02-03,Maribor,OŠ,562,Osnovna šola Toneta Čufarja Maribor,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-02-02,Maribor,PV,1098,Vrtec Jožice Flander,OE Fochova,2. star. obd.,Okužba s Covid-19
+2021-01-25,2021-01-21,2021-01-30,Maribor,PV,1098,Vrtec Jožice Flander,OE Fochova,Vzgojitelj,Sum na okužbo
+2021-01-25,2021-01-21,2021-01-30,Maribor,PV,1098,Vrtec Jožice Flander,OE Fochova,Drugi strokovni delavec,Okužba s Covid-19
+2021-01-25,2021-01-22,2021-01-31,Maribor,PV,1098,Vrtec Jožice Flander,OE VANČKA ŠARHA,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-23,2021-02-01,Maribor,PV,1098,Vrtec Jožice Flander,OE VANČKA ŠARHA,Drugi strokovni delavec,Okužba s Covid-19
+2021-01-25,2021-01-23,2021-02-01,Maribor,PV,1098,Vrtec Jožice Flander,OE VANČKA ŠARHA,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-21,2021-01-31,Medvode,ZAV,3567,Vzgojnoizobraževalni zavod Frana Milčinskega Smlednik,,Vzgojitelj,Sum na okužbo
+2021-01-25,2021-01-23,2021-02-02,Medvode,ZAV,3567,Vzgojnoizobraževalni zavod Frana Milčinskega Smlednik,,Vzgojitelj,Sum na okužbo
+2021-01-25,2021-01-25,2021-02-04,Medvode,ZAV,3567,Vzgojnoizobraževalni zavod Frana Milčinskega Smlednik,,Drugi delavci,Sum na okužbo
+2021-01-25,2021-01-14,2021-01-24,Miren-Kostanjevica,PV,368,Osnovna šola Miren,Enota vrtec Miren,Drugi strokovni delavec,Sum na okužbo
+2021-01-25,2021-01-25,2021-02-04,Moravske Toplice,OŠ,348,Dvojezična osnovna šola Prosenjakovci,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-21,2021-01-31,Murska Sobota,OŠPP,637,Osnovna šola IV. Murska Sobota,,Drugi delavci,Sum na okužbo
+2021-01-25,2021-01-18,2021-01-27,Novo mesto,PV,9871,Vrtec Pedenjped Novo mesto,OSTRŽEK,Vzgojitelj,Okužba s Covid-19
+2021-01-25,2021-01-22,2021-01-31,Novo mesto,PV,9871,Vrtec Pedenjped Novo mesto,OSTRŽEK,Vzgojitelj,Okužba s Covid-19
+2021-01-25,2020-12-14,2020-12-25,Novo mesto,PV,9871,Vrtec Pedenjped Novo mesto,RDEČA KAPICA,2. star. obd.,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-02-04,Pesnica,PV,587,Osnovna šola Jakobski Dol,enota vrtec,Vzgojitelj,Sum na okužbo
+2021-01-25,2021-01-25,2021-02-04,Pesnica,PV,587,Osnovna šola Jakobski Dol,enota vrtec,Vzgojitelj,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-02-04,Pesnica,PV,587,Osnovna šola Jakobski Dol,enota vrtec,Drugi strokovni delavec,Sum na okužbo
+2021-01-25,2021-01-25,2021-02-04,Piran,ZAV,1000,"Center za komunikacijo, sluh in govor Portorož",,8. razred,Okužba s Covid-19
+2021-01-25,2021-01-23,2021-02-02,Podčetrtek,OŠ,501,Osnovna šola Podčetrtek,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-02-04,Poljčane,OŠ,475,Osnovna šola Kajetana Koviča Poljčane,,Drugi delavci,Sum na okužbo
+2021-01-25,2021-01-25,2021-02-02,Postojna,OŠ,401,Osnovna šola Miroslava Vilharja Postojna,,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-02-03,Postojna,OŠPP,401,Osnovna šola Miroslava Vilharja Postojna,Podružnična šola s prilagojenim uč.prog.,V. stopnja,Sum na okužbo
+2021-01-25,2021-01-19,2021-01-24,Postojna,OŠPP,401,Osnovna šola Miroslava Vilharja Postojna,Podružnična šola s prilagojenim uč.prog.,Učitelj,Sum na okužbo
+2021-01-25,2021-01-21,2021-01-31,Postojna,ZAV,998,Vzgojni zavod Planina,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-21,2021-01-31,Postojna,ZAV,998,Vzgojni zavod Planina,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-21,2021-01-31,Postojna,ZAV,998,Vzgojni zavod Planina,,Vzgojitelj,Okužba s Covid-19
+2021-01-25,2021-01-21,2021-01-31,Postojna,ZAV,998,Vzgojni zavod Planina,,Vzgojitelj,Okužba s Covid-19
+2021-01-25,2021-01-23,2021-02-02,Postojna,ZAV,998,Vzgojni zavod Planina,,Drugi delavci,Okužba s Covid-19
+2021-01-25,2020-10-12,2020-10-20,Radeče,OŠ,1342,Javni zavod Osnovna šola Marjana Nemca Radeče,,Učitelj,Sum na okužbo
+2021-01-25,2021-01-24,2021-02-01,Radeče,OŠ,1342,Javni zavod Osnovna šola Marjana Nemca Radeče,,Učitelj,Sum na okužbo
+2021-01-25,2020-11-11,2020-11-25,Radeče,PV,1342,Javni zavod Osnovna šola Marjana Nemca Radeče,Enota Vrtec,Drugi strokovni delavec,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-02-03,Radeče,PV,1342,Javni zavod Osnovna šola Marjana Nemca Radeče,Enota Vrtec,Vzgojitelj,Sum na okužbo
+2021-01-25,2021-01-25,2021-02-03,Radeče,PV,1342,Javni zavod Osnovna šola Marjana Nemca Radeče,Enota Vrtec,Drugi strokovni delavec,Sum na okužbo
+2021-01-25,2021-01-25,2021-02-04,Ravne na Koroškem,OŠPP,440,Osnovna šola Juričevega Drejčka Ravne na Koroškem,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-02-04,Ravne na Koroškem,OŠPP,440,Osnovna šola Juričevega Drejčka Ravne na Koroškem,,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-17,2021-01-25,Slovenska Bistrica,OŠ,468,Osnovna šola Pohorskega odreda Slovenska Bistrica,Podružnica Zgornja Ložnica,Učitelj,Sum na okužbo
+2021-01-25,2021-01-18,2021-01-27,Slovenska Bistrica,PV,1082,Vrtec Otona Župančiča Slovenska Bistrica,Enota Ciciban,Vzgojitelj,Sum na okužbo
+2021-01-25,2021-01-20,2021-01-29,Slovenska Bistrica,PV,1082,Vrtec Otona Župančiča Slovenska Bistrica,Enota Ciciban,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-20,2021-01-29,Slovenska Bistrica,PV,1082,Vrtec Otona Župančiča Slovenska Bistrica,Enota Zgornja Ložnica,Drugi delavci,Sum na okužbo
+2021-01-25,2021-01-25,2021-02-04,Starše,OŠ,572,Osnovna šola Starše,,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-24,2021-02-03,Tržič,PV,1108,Vrtec Tržič,enota Palček,Drugi delavci,Sum na okužbo
+2021-01-25,2021-01-20,2021-01-29,Velenje,OŠPP,529,"Center za vzgojo, izobraževanje in usposabljanje Velenje",,Učitelj,Sum na okužbo
+2021-01-25,2021-01-20,2021-01-29,Velenje,OŠPP,529,"Center za vzgojo, izobraževanje in usposabljanje Velenje",,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-24,2021-01-29,Velenje,OŠPP,529,"Center za vzgojo, izobraževanje in usposabljanje Velenje",,Učitelj,Sum na okužbo
+2021-01-25,2021-01-24,2021-02-03,Velenje,OŠ,523,Osnovna šola Šalek Velenje,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-22,2021-01-31,Vipava,ZAV,1004,"Center za izobraževanje, rehabilitacijo in usposabljanje Vipava",,Drugi delavci,Sum na okužbo
+2021-01-25,2021-01-25,2021-02-04,Vrhnika,OŠ,6687,Osnovna šola Antona Martina Slomška Vrhnika,,Drugi strokovni delavec,Okužba s Covid-19
+2021-01-25,2020-11-01,2020-11-06,Zagorje ob Savi,OŠ,539,Osnovna šola Ivana Skvarče,,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-01-31,Zagorje ob Savi,OŠ,539,Osnovna šola Ivana Skvarče,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-02-04,Zagorje ob Savi,OŠ,540,Osnovna šola Toneta Okrogarja,,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-02-04,Zagorje ob Savi,OŠ,540,Osnovna šola Toneta Okrogarja,Podružnična šola Kisovec,Drugi delavci,Sum na okužbo
+2021-01-25,2021-01-25,2021-02-05,Zavrč,PV,418,Osnovna šola Cirkulane - Zavrč,Vrtec Zavrč,Vzgojitelj,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-02-03,Črenšovci,OŠ,260,Osnovna šola Franceta Prešerna Črenšovci,,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-26,2021-01-29,Črna na Koroškem,OŠ,444,Osnovna šola Črna na Koroškem,,Učitelj,Sum na okužbo
+2021-01-25,2021-01-26,2021-02-02,Črna na Koroškem,OŠ,444,Osnovna šola Črna na Koroškem,Podružnica Žerjav,Učitelj,Okužba s Covid-19
+2021-01-25,2020-12-09,2020-12-18,Šentjur,OŠ,480,Osnovna šola Franja Malgaja Šentjur,,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-23,2021-02-01,Škocjan,OŠ,373,Osnovna šola Frana Metelka Škocjan,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-24,2021-02-02,Škocjan,OŠ,373,Osnovna šola Frana Metelka Škocjan,,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-22,2021-02-01,Škofja Loka,OŠPP,486,Osnovna šola Jela Janežiča,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-02-02,Škofja Loka,OŠ,484,Osnovna šola Škofja Loka - Mesto,,Drugi delavci,Sum na okužbo
+2021-01-25,2021-01-25,2021-01-31,Škofja Loka,OŠ,484,Osnovna šola Škofja Loka - Mesto,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-01-31,Škofja Loka,OŠ,484,Osnovna šola Škofja Loka - Mesto,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-01-31,Škofja Loka,OŠ,484,Osnovna šola Škofja Loka - Mesto,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-01-31,Škofja Loka,OŠ,484,Osnovna šola Škofja Loka - Mesto,,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-01-31,Škofja Loka,OŠ,484,Osnovna šola Škofja Loka - Mesto,,Drugi delavci,Sum na okužbo
+2021-01-25,2021-01-25,2021-01-31,Škofja Loka,OŠ,484,Osnovna šola Škofja Loka - Mesto,,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-01-31,Škofja Loka,OŠ,484,Osnovna šola Škofja Loka - Mesto,,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-02-04,Šmarje pri Jelšah,OŠ,495,Osnovna šola Šmarje pri Jelšah,,Učitelj,Sum na okužbo
+2021-01-25,2021-01-25,2021-02-04,Šmarje pri Jelšah,OŠ,495,Osnovna šola Šmarje pri Jelšah,Podružnica Sladka gora,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-22,2021-02-01,Šoštanj,OŠ,10167,Osnovna šola Karla Destovnika-Kajuha Šoštanj,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-24,2021-04-03,Šoštanj,OŠ,10167,Osnovna šola Karla Destovnika-Kajuha Šoštanj,,Učitelj,Sum na okužbo
+2021-01-25,2021-01-25,2021-02-05,Žalec,OŠ,544,Osnovna šola Griže,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-25,2021-02-05,Žalec,OŠ,544,Osnovna šola Griže,,Učitelj,Okužba s Covid-19
+2021-01-25,2021-01-21,2021-01-31,Žiri,OŠ,489,Osnovna šola Žiri,,Drugi delavci,Okužba s Covid-19
+2021-01-25,2021-01-22,2021-01-31,Žiri,PV,489,Osnovna šola Žiri,Enota Vrtec,Drugi delavci,Okužba s Covid-19
