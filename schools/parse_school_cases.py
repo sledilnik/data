@@ -93,7 +93,7 @@ def school_cases_csv(outfile):
             ]
         )
 
-    with codecs.open(outfile, "w", "utf-8") as f:
+    with open(outfile, "w", encoding="utf-8") as f:
         csvwriter = csv.writer(
             f, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL
         )

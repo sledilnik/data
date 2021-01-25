@@ -7,6 +7,9 @@ import csv
 import requests
 import io
 import dateutil.parser
+import logging
+
+logger = logging.getLogger(__name__)
 
 # KAT_MAT/KATEGORIJA (Iz Šifrant_kategorij.xslx)
 SCHOOL_TYPES = {
@@ -76,6 +79,8 @@ def reformat_dates(date_columns, row):
     """
     for i in date_columns:
         date = dateutil.parser.parse(row[i], dayfirst=True).date()
+        if date.year < 2020 or date.year > 2021:
+            logger.warning("Suspicious date found in line: \n{}\n".format(", ".join(row)))
         row[i] = date.isoformat()
 
 
@@ -91,10 +96,13 @@ def parse_csv(url):
 
     reader = csv.reader(io.StringIO(resp.text), delimiter=",")
 
+    # skip header
+    next(reader)
+
     date_columns = range(8, 11)
     for row in reader:
-        if not row or row[0].startswith("ZAVSIF"):
-            continue
+        # if not row or row[0].startswith("ZAVSIF"):
+            # continue
 
         reformat_unit(row)
         reformat_dates(date_columns, row)
@@ -116,19 +124,19 @@ def school_absences_csv(outfile):
 
     # transform
     new = []
-    for a in absences:
-        school_type = SCHOOL_TYPES.get(a[5], "N/A")  # KATEGORIJA
-        municipality = a[7]  # OBCINA
-        school_id = a[0]
-        school = a[1]  # ZAVMATNAZ
-        unit = a[3]  # ZAVNAZ
-        subunit = a[12]  # OBDOBJE
-        description = a[14]  # VZROK
+    for row in absences:
+        school_type = SCHOOL_TYPES.get(row[5], "N/A")  # KATEGORIJA
+        municipality = row[7]  # OBCINA
+        school_id = row[0]
+        school = row[1]  # ZAVMATNAZ
+        unit = row[3]  # ZAVNAZ
+        subunit = row[12]  # OBDOBJE
+        description = row[14]  # VZROK
 
-        row = [
-            a[10],
-            a[8],
-            a[9],
+        new.append([
+            row[10],
+            row[8],
+            row[9],
             municipality,
             school_type,
             school_id,
@@ -136,10 +144,9 @@ def school_absences_csv(outfile):
             unit,
             subunit,
             description,
-        ]
-        new.append(row)
+        ])
 
-    with codecs.open(outfile, "w", "utf-8") as csvfile:
+    with open(outfile, "w", encoding="utf-8") as csvfile:
         csvwriter = csv.writer(
             csvfile, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL
         )
