@@ -75,7 +75,7 @@ def reformat_dates(date_columns, row):
     the standard YMD form.
     """
     for i in date_columns:
-        date = dateutil.parser.parse(row[i], dayfirst=True)
+        date = dateutil.parser.parse(row[i], dayfirst=True).date()
         row[i] = date.isoformat()
 
 
