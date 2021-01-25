@@ -211,18 +211,18 @@ def generate_csv(filename, generator):
 
 
 if __name__ == "__main__":
-    # update_time = int(time.time())
-    # import_sheet(update_time, SHEET_MEAS, RANGE_SAFETY_MEASURES, "csv/safety_measures.csv")
-    # import_sheet(update_time, SHEET_VACC, RANGE_VACC_ADMIN, "csv/vaccination.csv")
-    # import_sheet(update_time, SHEET_TESTS, RANGE_LAB_TESTS, "csv/lab-tests.csv")
-    # import_sheet(update_time, SHEET_HOS, RANGE_PATIENTS, "csv/patients.csv")
-    # import_sheet(update_time, SHEET_HOS, RANGE_HOSPITALS, "csv/hospitals.csv")
-    # import_sheet(update_time, SHEET_HOS, RANGE_ICU, "csv/icu.csv")
+    update_time = int(time.time())
+    import_sheet(update_time, SHEET_MEAS, RANGE_SAFETY_MEASURES, "csv/safety_measures.csv")
+    import_sheet(update_time, SHEET_VACC, RANGE_VACC_ADMIN, "csv/vaccination.csv")
+    import_sheet(update_time, SHEET_TESTS, RANGE_LAB_TESTS, "csv/lab-tests.csv")
+    import_sheet(update_time, SHEET_HOS, RANGE_PATIENTS, "csv/patients.csv")
+    import_sheet(update_time, SHEET_HOS, RANGE_HOSPITALS, "csv/hospitals.csv")
+    import_sheet(update_time, SHEET_HOS, RANGE_ICU, "csv/icu.csv")
 
-    # computeMunicipalityCases(update_time)
-    # computeRegionCases(update_time)
-    # computeCases(update_time)
-    # computeStats(update_time)
+    computeMunicipalityCases(update_time)
+    computeRegionCases(update_time)
+    computeCases(update_time)
+    computeStats(update_time)
 
     generate_csv("csv/schools-absences.csv", school_absences_csv)
     generate_csv("csv/schools-cases.csv", school_cases_csv)
