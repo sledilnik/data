@@ -4,9 +4,9 @@ from operator import itemgetter
 from datetime import datetime
 import codecs
 import csv
-import re
 import requests
 import io
+import dateutil.parser
 
 # KAT_MAT/KATEGORIJA (Iz Šifrant_kategorij.xslx)
 SCHOOL_TYPES = {
@@ -75,15 +75,7 @@ def reformat_dates(date_columns, row):
     the standard YMD form.
     """
     for i in date_columns:
-        dmy = row[i]
-        match = re.match(r"0?(\d+)\.0?(\d+)\.(\d+)", dmy)
-        if not match:
-            return
-
-        y = int(match.group(3))
-        m = int(match.group(2))
-        d = int(match.group(1))
-        date = datetime(y, m, d)
+        date = dateutil.parser.parse(row[i], dayfirst=True)
         row[i] = date.strftime("%Y-%m-%d")
 
 
