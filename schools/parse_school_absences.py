@@ -1,7 +1,6 @@
 #! /bin/python
 
 from operator import itemgetter
-from datetime import datetime
 import codecs
 import csv
 import requests
@@ -40,10 +39,30 @@ UNIT_REMOVE = [
 UNIT_FIXES = {}
 
 
+def load_dicts(filename="csv/dict-schools-values.csv"):
+    """ Load dictionaries. """
+    dicts = {}
+
+    with codecs.open(filename, "r", "utf-8") as f:
+        reader = csv.reader(f, delimiter=",")
+        next(reader, None)
+
+        for row in reader:
+            if not row:
+                continue
+
+            (d, key, value) = row
+            if d not in dicts:
+                dicts[d] = {}
+            dicts[d][key] = value
+
+    return dicts
+
+
 def reformat_unit(row):
     """
-        Remove the main school from the school unit field if present.
-        We just want the unit name there.
+    Remove the main school from the school unit field if present.
+    We just want the unit name there.
     """
 
     # if the unit has the same id as the school
@@ -80,7 +99,9 @@ def reformat_dates(date_columns, row):
     for i in date_columns:
         date = dateutil.parser.parse(row[i], dayfirst=True).date()
         if date.year < 2020 or date.year > 2021:
-            logger.warning("Suspicious date found in line: \n{}\n".format(", ".join(row)))
+            logger.warning(
+                "Suspicious date found in line: \n{}\n".format(", ".join(row))
+            )
         row[i] = date.isoformat()
 
 
@@ -114,25 +135,31 @@ def school_absences_csv(outfile):
     Merge confirmed atendee and employee absences by date, school, unit"
     """
     # merge and sort
-    attendees = parse_csv("https://raw.githubusercontent.com/GK-MIZS/covid/main/ucenci.csv")
-    employees = parse_csv("https://raw.githubusercontent.com/GK-MIZS/covid/main/zaposleni.csv")
+    attendees = parse_csv(
+        "https://raw.githubusercontent.com/GK-MIZS/covid/main/ucenci.csv"
+    )
+    employees = parse_csv(
+        "https://raw.githubusercontent.com/GK-MIZS/covid/main/zaposleni.csv"
+    )
     absences = sorted(attendees + employees, key=itemgetter(10, 7, 1, 3))
 
     # transform
     new = []
     for row in absences:
-        new.append({
-            'date': row[10],
-            'absent.from': row[8],
-            'absent.to': row[9],
-            'municipality': row[7],
-            'type': SCHOOL_TYPES.get(row[5], "N/A"),
-            'school_id': row[2],
-            'school': row[1],
-            'unit': row[3],
-            'subunit': row[12],
-            'reason': row[14]
-        })
+        new.append(
+            {
+                "date": row[10],
+                "absent.from": row[8],
+                "absent.to": row[9],
+                "municipality": row[7],
+                "type": SCHOOL_TYPES.get(row[5], "N/A"),
+                "school_id": row[2],
+                "school": row[1],
+                "unit": row[3],
+                "subunit": row[12],
+                "reason": row[14],
+            }
+        )
 
     with open(outfile, "w", encoding="utf-8") as csvfile:
         header = [
@@ -149,7 +176,12 @@ def school_absences_csv(outfile):
         ]
 
         csvwriter = csv.DictWriter(
-            csvfile, fieldnames=header, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL, lineterminator='\n'
+            csvfile,
+            fieldnames=header,
+            delimiter=",",
+            quotechar='"',
+            quoting=csv.QUOTE_MINIMAL,
+            lineterminator="\n",
         )
         csvwriter.writeheader()
         csvwriter.writerows(new)
