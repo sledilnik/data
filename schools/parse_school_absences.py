@@ -185,4 +185,4 @@ def school_absences_csv(outfile):
 
 
 if __name__ == "__main__":
-    school_absences_csv("csv/school-absences.csv")
+    school_absences_csv("csv/schools-absences.csv")
