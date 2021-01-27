@@ -1,4 +1,68 @@
-dict,key,value
-VZROK_SIF,s,Sum na okužbo
-VZROK_SIF,o,Okužba s Covid-19
-
+dict,sledilnik_key,mizs_key,value
+KATEGORIJA,PV,1010,Vrtec
+KATEGORIJA,OŠ,2010,Osnovna šola
+KATEGORIJA,OŠPP,2020,Osnovna šola za učence s posebnimi potrebami
+KATEGORIJA,GŠ,2030,Glasbena šola
+KATEGORIJA,SŠ,3010,Srednja šola
+KATEGORIJA,DD,3020,Dijaški dom
+KATEGORIJA,ZAV,4010,Zavodi za otroke in mladostnike s posebnimi potrebami
+KATEGORIJA,VSS,5040,Višja strokovna šola
+VZROK,S,Sum na okužbo,
+VZROK,O,Okužba s Covid-19,
+ODDELEK,SO1,1. star. obd.,
+ODDELEK,SO2,2. star. obd.,
+ODDELEK,SO12,Komb. 1. in 2. star. obd.,
+ODDELEK,R1,1. razred,
+ODDELEK,R2,2. razred,
+ODDELEK,R3,3. razred,
+ODDELEK,R4,4. razred,
+ODDELEK,R5,5. razred,
+ODDELEK,R6,6. razred,
+ODDELEK,R7,7. razred,
+ODDELEK,R8,8. razred,
+ODDELEK,R9,9. razred,
+ODDELEK,L1,1. letnik,
+ODDELEK,L2,2. letnik,
+ODDELEK,L3,3. letnik,
+ODDELEK,L4,4. letnik,
+ODDELEK,L5,5. letnik,
+ODDELEK,S1,I. stopnja,
+ODDELEK,S2,II. stopnja,
+ODDELEK,S3,III. stopnja,
+ODDELEK,S4,IV. stopnja,
+ODDELEK,S5,V. stopnja,
+ODDELEK,S6,VI. stopnja,
+ODDELEK,SKV,Vzgojna skupina,
+ODDELEK,SKVDD,Vzgojna skupina v DD,
+ODDELEK,SKIP,Skupina IP ...,
+ODDELEK,SKNIP,Skupina NIP IP ...,
+ODDELEK,GSBAL,Balet,
+ODDELEK,GSCIT,Citre,
+ODDELEK,GSDKT,Druga konična trobila,
+ODDELEK,GSFLA,Flavta,
+ODDELEK,GSHAF,Harfa,
+ODDELEK,GSHAR,Harmonika,
+ODDELEK,GSKIT,Kitara,
+ODDELEK,GSKLT,Klarinet,
+ODDELEK,GSKLA,Klavir,
+ODDELEK,GSKLU,Kljunasta flavta,
+ODDELEK,GSKTB,Kontrabas,
+ODDELEK,GSOBO,Oboa,
+ODDELEK,GSORG,Orgle,
+ODDELEK,GSPOZ,Pozavna,
+ODDELEK,GSROG,Rog,
+ODDELEK,GSSAK,Saksofon,
+ODDELEK,GSSOD,Sodobni ples,
+ODDELEK,GSTOL,Tolkala,
+ODDELEK,GSTRO,Trobenta,
+ODDELEK,GSTUB,Tuba,
+ODDELEK,GSVIO,Violina,
+ODDELEK,GSVIČ,Violončelo,
+ODDELEK,GSPET,Petje,
+ODDELEK,GSGPR,Glasbena pripravnica,
+ODDELEK,GSPPR,Plesna pripravnica,
+ODDELEK,DD,Drugi delavci,
+ODDELEK,DS,Drugi strokovni delavec,
+ODDELEK,PR,Predavatelj,
+ODDELEK,UC,Učitelj,
+ODDELEK,VZ,Vzgojitelj,

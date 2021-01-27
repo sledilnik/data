@@ -11,17 +11,6 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-# KAT_MAT/KATEGORIJA (Iz Šifrant_kategorij.xslx)
-SCHOOL_TYPES = {
-    "1010": "PV",  # Vrtec
-    "2010": "OŠ",  # Osnovna šola
-    "2020": "OŠPP",  # Osnovna šola za učence s posebnimi potrebami
-    "2030": "GŠ",  # Glasbena šola
-    "3010": "SŠ",  # Srednja šola
-    "3020": "DD",  # Dijaški dom
-    "4010": "ZAV",  # Zavodi za otroke in mladostnike s posebnimi potrebami
-    "5040": "VSS",  # Višja strokovna šola
-}
 
 # School unit (ZAVNAZ) fixes (parts to remove)
 UNIT_REMOVE = [
@@ -41,7 +30,10 @@ UNIT_FIXES = {}
 
 
 def load_dicts(filename="csv/dict-schools-values.csv"):
-    """ Load dictionaries. """
+    """
+    Load the dictionaries needed to translate
+    mizs keys to sledilnik keys.
+    """
     dicts = {}
 
     with codecs.open(filename, "r", "utf-8") as f:
@@ -52,10 +44,13 @@ def load_dicts(filename="csv/dict-schools-values.csv"):
             if not row:
                 continue
 
-            (d, key, value) = row
+            (d, sledilnik_key, mizs_key, value) = row
+            if not value:
+                value = mizs_key
+
             if d not in dicts:
                 dicts[d] = {}
-            dicts[d][key] = value
+            dicts[d][mizs_key] = sledilnik_key
 
     return dicts
 
@@ -148,6 +143,9 @@ def school_absences_csv(outfile):
     )
     absences = sorted(attendees + employees, key=itemgetter(10, 7, 1, 3))
 
+    # load mizs key to sledilnik key transformations
+    dicts = load_dicts()
+
     # transform
     new = []
     for row in absences:
@@ -156,10 +154,10 @@ def school_absences_csv(outfile):
                 "date": row[10],
                 "absent.from": row[8],
                 "absent.to": row[9],
-                "type": SCHOOL_TYPES.get(row[5], "N/A"),
+                "type": dicts["KATEGORIJA"].get(row[5], "N/A"),
                 "school_id": row[2],
-                "subunit": row[12],
-                "reason": row[14],
+                "subunit": dicts["ODDELEK"].get(row[12], "JAO"),
+                "reason": dicts["VZROK"].get(row[14], "N/A"),
             }
         )
 
