@@ -151,11 +151,8 @@ def school_absences_csv(outfile):
                 "date": row[10],
                 "absent.from": row[8],
                 "absent.to": row[9],
-                "municipality": row[7],
                 "type": SCHOOL_TYPES.get(row[5], "N/A"),
                 "school_id": row[2],
-                "school": row[1],
-                "unit": row[3],
                 "subunit": row[12],
                 "reason": row[14],
             }
@@ -166,11 +163,8 @@ def school_absences_csv(outfile):
             "date",
             "absent.from",
             "absent.to",
-            "municipality",
             "type",
             "school_id",
-            "school",
-            "unit",
             "subunit",
             "reason",
         ]
