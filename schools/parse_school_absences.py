@@ -1,5 +1,6 @@
 #! /bin/python
 
+from datetime import datetime
 from operator import itemgetter
 import codecs
 import csv
@@ -98,6 +99,10 @@ def reformat_dates(date_columns, row):
     """
     for i in date_columns:
         date = dateutil.parser.parse(row[i], dayfirst=True).date()
+        # fix errornous "0020" year entries
+        if date.year == 20:
+            date = datetime(2020, date.month, date.day)
+
         if date.year < 2020 or date.year > 2021:
             logger.warning(
                 "Suspicious date found in line: \n{}\n".format(", ".join(row))
