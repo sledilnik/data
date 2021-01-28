@@ -4,7 +4,7 @@
 # API docs at http://api.mizs.si/api_dokumentacija.html
 # jq docs: https://stedolan.github.io/jq/
 curl -s https://raw.githubusercontent.com/GK-MIZS/covid/main/api.json | jq '.' \
-    | tee mizs-stats.json \
+    | tee schools/schools-cases.json \
     | jq -r 'del( .[0] ) | 
             [   "date",
 
@@ -157,6 +157,6 @@ curl -s https://raw.githubusercontent.com/GK-MIZS/covid/main/api.json | jq '.' \
                 .value.zavodi_pouk_na_daljavo.Zavodi
 
             ]) | @csv' \
-    > mizs-stats.csv
+    > csv/schools-cases.csv
 
 
