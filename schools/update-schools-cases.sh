@@ -117,6 +117,7 @@ curl -s https://raw.githubusercontent.com/GK-MIZS/covid/main/api.json | jq '.' \
                 .value.ucenci_okuzbe_nove.Glasbena_sola,
                 .value.ucenci_okuzbe_aktivne.Glasbena_sola,
                 .value.ucenci_v_karanteni_novi.Glasbena_sola,
+                .value.ucenci_v_karanteni_aktivne.Glasbena_sola,
                 .value.oddelki_v_karanteni_novi.Glasbena_sola,
                 .value.oddelki_v_karanteni_aktivne.Glasbena_sola,
                 .value.zavodi_pouk_na_daljavo.Glasbena_sola,
