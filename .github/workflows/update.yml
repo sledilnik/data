@@ -9,7 +9,7 @@ on:
     branches: [ master ]
     paths-ignore:
     - 'csv/**'
-    - 'json/**'
+    - 'schools/schools-*.json'
   pull_request:
     branches: [ master ]
   schedule:
