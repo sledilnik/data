@@ -1,10 +1,12 @@
 #!/bin/bash
+csvfilename="merged.csv"
+hashbefore=$(sha256sum "$csvfilename")
 
 # collect all dates
 OPSI_DATES=$(cat podatki.gov.si/iosprenosi.csv podatki.gov.si/prenosiandroid.csv podatki.gov.si/tanstatistika.csv | cut -d, -f1 | grep "\." | sed -E 's/([0-9]+)\.([0-9]+)\.([0-9]+)/\3-\2-\1/g' | sort | uniq)
 
 # write CSV header
-echo "Date,downloads.Android,downloads.Android.todate,downloads.iOS,downloads.iOS.todate,downloads.todate,TAN.issued,TAN.issued.todate,TAN.users,TAN.users.todate" > merged.csv
+echo "Date,downloads.Android,downloads.Android.todate,downloads.iOS,downloads.iOS.todate,downloads.todate,TAN.issued,TAN.issued.todate,TAN.users,TAN.users.todate" > $csvfilename
 
 todateDLandroid=0
 todateDLios=0
@@ -33,5 +35,10 @@ do
     todateTanUsers=$((todateTanUsers + TANusers))
 
     # Write the CSV line (no escaping needed for dates and numbers)
-    echo "${DAY},${AndroidDL},${todateDLandroid},${iOSDL},${todateDLios},${todateDL},${TANsIssued},${todateTanIssued},${TANusers},${todateTanUsers}" | tee -a merged.csv
+    echo "${DAY},${AndroidDL},${todateDLandroid},${iOSDL},${todateDLios},${todateDL},${TANsIssued},${todateTanIssued},${TANusers},${todateTanUsers}" | tee -a $csvfilename
 done
+
+hashafter=$(sha256sum "$csvfilename")
+if [ "$hashbefore" != "$hashafter" ] ; then
+    date +%s > "$csvfilename.timestamp"
+fi
