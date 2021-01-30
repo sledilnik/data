@@ -3,6 +3,9 @@
 # Podatki Ministrstva za Izobraževanje Znanost in Šport (MIZŠ) RS
 # API docs at http://api.mizs.si/api_dokumentacija.html
 # jq docs: https://stedolan.github.io/jq/
+csvfilename="csv/schools-cases.csv"
+hashbefore=$(sha256sum "$csvfilename")
+
 curl -s https://raw.githubusercontent.com/GK-MIZS/covid/main/api.json | jq '.' \
     | tee schools/schools-cases.json \
     | jq -r 'del( .[0] ) | 
@@ -153,6 +156,9 @@ curl -s https://raw.githubusercontent.com/GK-MIZS/covid/main/api.json | jq '.' \
                 .value.zavodi_pouk_na_daljavo.Zavodi
 
             ]) | @csv' \
-    > csv/schools-cases.csv
+    > $csvfilename
 
-
+hashafter=$(sha256sum "$csvfilename")
+if [ "$hashbefore" != "$hashafter" ] ; then
+    date +%s > "$csvfilename.timestamp"
+fi
