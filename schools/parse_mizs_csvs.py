@@ -207,6 +207,7 @@ def school_absences_csv(outfile):
         )
         csvwriter.writeheader()
         csvwriter.writerows(absences)
+
     outfile2 = outfile.replace(".csv", "-current.csv")
     with open(outfile2, "w", encoding="utf-8") as csvfile:
         csvwriter = csv.DictWriter(
@@ -234,34 +235,36 @@ def school_regimes_csv(outfile):
 
     # transform
     regimes = []
+    regimes_current = []
     for row in rows:
-        regimes.append(
-            {
-                "date": row[10].isoformat(),
-                "changed.from": row[8].isoformat(),
-                "changed.to": row[9].isoformat(),
-                "school_type": dicts["KATEGORIJA"].get(row[5], "N/A"),
-                "school": row[2],
-                "subunit": row[11],
-                "students": row[13],
-                "regime": dicts["DOGODEK"].get(row[14], "N/A"),
-                "reason": dicts["VZROK_DOGODEK"].get(row[16], "N/A"),
-            }
-        )
+        regime = {
+            "date": row[10].isoformat(),
+            "changed.from": row[8].isoformat(),
+            "changed.to": row[9].isoformat(),
+            "school_type": dicts["KATEGORIJA"].get(row[5], "N/A"),
+            "school": row[2],
+            "subunit": row[11],
+            "students": row[13],
+            "regime": dicts["DOGODEK"].get(row[14], "N/A"),
+            "reason": dicts["VZROK_DOGODEK"].get(row[16], "N/A"),
+        }
 
+        regimes.append(regime)
+        if datetime.now().date() < row[9] + timedelta(days=3):
+            regimes_current.append(regime)
+
+    header = [
+        "date",
+        "changed.from",
+        "changed.to",
+        "school_type",
+        "school",
+        "subunit",
+        "students",
+        "regime",
+        "reason",
+    ]
     with open(outfile, "w", encoding="utf-8") as csvfile:
-        header = [
-            "date",
-            "changed.from",
-            "changed.to",
-            "school_type",
-            "school",
-            "subunit",
-            "students",
-            "regime",
-            "reason",
-        ]
-
         csvwriter = csv.DictWriter(
             csvfile,
             fieldnames=header,
@@ -272,6 +275,19 @@ def school_regimes_csv(outfile):
         )
         csvwriter.writeheader()
         csvwriter.writerows(regimes)
+
+    outfile2 = outfile.replace(".csv", "-current.csv")
+    with open(outfile2, "w", encoding="utf-8") as csvfile:
+        csvwriter = csv.DictWriter(
+            csvfile,
+            fieldnames=header,
+            delimiter=",",
+            quotechar='"',
+            quoting=csv.QUOTE_MINIMAL,
+            lineterminator="\n",
+        )
+        csvwriter.writeheader()
+        csvwriter.writerows(regimes_current)
 
 
 if __name__ == "__main__":
