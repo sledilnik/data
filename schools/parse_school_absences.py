@@ -134,40 +134,60 @@ def school_absences_csv(outfile):
     """
     Merge confirmed atendee and employee absences by date, school, unit"
     """
-    # merge and sort
-    attendees = parse_csv(
-        "https://raw.githubusercontent.com/GK-MIZS/covid/main/ucenci.csv"
-    )
-    employees = parse_csv(
-        "https://raw.githubusercontent.com/GK-MIZS/covid/main/zaposleni.csv"
-    )
-    absences = sorted(attendees + employees, key=itemgetter(10, 7, 1, 3))
+    absences = []
 
     # load mizs key to sledilnik key transformations
     dicts = load_dicts()
 
-    # transform
-    new = []
-    for row in absences:
-        new.append(
+    # parse attendee (students) and employee data
+    attendees = parse_csv(
+        "https://raw.githubusercontent.com/GK-MIZS/covid/main/ucenci.csv"
+    )
+    for row in attendees:
+        absences.append(
             {
                 "date": row[10],
                 "absent.from": row[8],
                 "absent.to": row[9],
-                "type": dicts["KATEGORIJA"].get(row[5], "N/A"),
-                "school_id": row[2],
-                "subunit": dicts["ODDELEK"].get(row[12], "JAO"),
-                "reason": dicts["VZROK"].get(row[14], "N/A"),
+                "school_type": dicts["KATEGORIJA"].get(row[5], "N/A"),
+                "school": row[2],
+                "person_type": "attendee",
+                "subunit": dicts["ODDELEK"].get(row[11], "N/A"),
+                "reason": dicts["VZROK"].get(row[13]),
+            }
+        )
+    employees = parse_csv(
+        "https://raw.githubusercontent.com/GK-MIZS/covid/main/zaposleni.csv"
+    )
+    for row in employees:
+        # pdb.set_trace()
+        absences.append(
+            {
+                "date": row[10],
+                "absent.from": row[8],
+                "absent.to": row[9],
+                "school_type": dicts["KATEGORIJA"].get(row[5], "N/A"),
+                "school": row[2],
+                "person_type": "employee",
+                "subunit": dicts["DELOVNO_MESTO"].get(row[11], "N/A"),
+                "reason": dicts["VZROK"].get(row[13], "N/A"),
             }
         )
 
+    # sort
+    absences = sorted(
+        absences, key=itemgetter("date", "school_type", "school")
+    )  # , "reason"))
+
+    # save
     with open(outfile, "w", encoding="utf-8") as csvfile:
         header = [
             "date",
             "absent.from",
             "absent.to",
-            "type",
-            "school_id",
+            "school_type",
+            "school",
+            "person_type",
             "subunit",
             "reason",
         ]
@@ -181,8 +201,64 @@ def school_absences_csv(outfile):
             lineterminator="\n",
         )
         csvwriter.writeheader()
-        csvwriter.writerows(new)
+        csvwriter.writerows(absences)
+
+
+def school_regimes_csv(outfile):
+    """
+    Parse teching regime changes in particular classes.
+    """
+
+    # merge and sort
+    rows = parse_csv(
+        "https://raw.githubusercontent.com/GK-MIZS/covid/main/oddelki.csv"
+    )
+
+    # load mizs key to sledilnik key transformations
+    dicts = load_dicts()
+
+    # transform
+    regimes = []
+    for row in rows:
+        regimes.append(
+            {
+                "date": row[10],
+                "changed.from": row[8],
+                "changed.to": row[9],
+                "school_type": dicts["KATEGORIJA"].get(row[5], "N/A"),
+                "school": row[2],
+                "subunit": row[11],
+                "students": row[13],
+                "regime": dicts["DOGODEK"].get(row[14], "N/A"),
+                "reason": dicts["VZROK_DOGODEK"].get(row[16], "N/A"),
+            }
+        )
+
+    with open(outfile, "w", encoding="utf-8") as csvfile:
+        header = [
+            "date",
+            "changed.from",
+            "changed.to",
+            "school_type",
+            "school",
+            "subunit",
+            "students",
+            "regime",
+            "reason",
+        ]
+
+        csvwriter = csv.DictWriter(
+            csvfile,
+            fieldnames=header,
+            delimiter=",",
+            quotechar='"',
+            quoting=csv.QUOTE_MINIMAL,
+            lineterminator="\n",
+        )
+        csvwriter.writeheader()
+        csvwriter.writerows(regimes)
 
 
 if __name__ == "__main__":
     school_absences_csv("csv/schools-absences.csv")
+    school_regimes_csv("csv/schools-regimes.csv")
