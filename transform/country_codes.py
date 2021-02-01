@@ -23,6 +23,7 @@ mapping = {
     'Makedonija': 'mkd',
     'NAM': 'nam',
     'Nizozemska': 'nld',
+    'Mali': 'mli',
     'Malta': 'mlt',
     'Maroko': 'mar',
     'Mehika': 'mex',
