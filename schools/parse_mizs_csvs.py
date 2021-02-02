@@ -98,8 +98,8 @@ def school_absences_csv(outfile):
             "absent.to": row[9].isoformat(),
             "school_type": dicts["KATEGORIJA"].get(row[5], "N/A"),
             "school": row[2],
-            "person_type": "attendee",
-            "subunit": dicts["ODDELEK"].get(row[11], "N/A"),
+            "person_type": "A",
+            "person_class": dicts["ODDELEK"].get(row[11], "N/A"),
             "reason": dicts["VZROK"].get(row[13]),
         }
 
@@ -117,8 +117,8 @@ def school_absences_csv(outfile):
             "absent.to": row[9].isoformat(),
             "school_type": dicts["KATEGORIJA"].get(row[5], "N/A"),
             "school": row[2],
-            "person_type": "employee",
-            "subunit": dicts["DELOVNO_MESTO"].get(row[11], "N/A"),
+            "person_type": "E",
+            "person_class": dicts["DELOVNO_MESTO"].get(row[11], "N/A"),
             "reason": dicts["VZROK"].get(row[13], "N/A"),
         }
 
@@ -140,7 +140,7 @@ def school_absences_csv(outfile):
         "school_type",
         "school",
         "person_type",
-        "subunit",
+        "person_class",
         "reason",
     ]
     with open(outfile, "w", encoding="utf-8") as csvfile:
@@ -190,7 +190,7 @@ def school_regimes_csv(outfile):
             "changed.to": row[9].isoformat(),
             "school_type": dicts["KATEGORIJA"].get(row[5], "N/A"),
             "school": row[2],
-            "subunit": dicts["ODDELEK"].get(row[11], "N/A"),
+            "person_class": dicts["ODDELEK"].get(row[11], "N/A"),
             "students": row[13],
             "regime": dicts["DOGODEK"].get(row[14], "N/A"),
             "reason": dicts["VZROK_DOGODEK"].get(row[16], "N/A"),
@@ -212,7 +212,7 @@ def school_regimes_csv(outfile):
         "changed.to",
         "school_type",
         "school",
-        "subunit",
+        "person_class",
         "students",
         "regime",
         "reason",
