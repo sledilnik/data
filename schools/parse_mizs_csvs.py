@@ -12,23 +12,6 @@ import logging
 logger = logging.getLogger(__name__)
 
 
-# School unit (ZAVNAZ) fixes (parts to remove)
-UNIT_REMOVE = [
-    "Osnovna šola Antona Globočnika",
-    "Osnovna šola Destrnik",
-    "Osnovna šola Frana Kocbeka Gornji grad",
-    "Osnovna šola Miroslava Vilharja",
-    "Osnovna šola Ob Dravinji",
-    "Osnovna šola Pohorskega odreda Slov. Bistrica",
-    "Osnovna šola Sava Kladnika",
-    "Osnovna šola dr. Janeza Mencingerja Boh. Bistrica",
-    "VIZ II.OŠ Rogaška Slatina",
-]
-
-# School unit (Zavnaz) manual fixes
-UNIT_FIXES = {}
-
-
 def load_dicts(filename="csv/dict-schools-values.csv"):
     """
     Load the dictionaries needed to translate
@@ -55,38 +38,6 @@ def load_dicts(filename="csv/dict-schools-values.csv"):
     return dicts
 
 
-def reformat_unit(row):
-    """
-    Remove the main school from the school unit field if present.
-    We just want the unit name there.
-    """
-
-    # if the unit has the same id as the school
-    if row[0] == row[2]:
-        row[3] = ""
-
-    # if unit in school
-    if row[1] in row[3]:
-        # remove school from unit
-        row[3] = row[3].replace(row[1], "")
-        # capitalize first letter since it might be lowercase now
-        if len(row[3]) >= 2:
-            row[3] = row[3][0].upper() + row[3][1:]
-
-    # fix some additional mistakes
-    for mistake in UNIT_REMOVE:
-        if row[3].startswith(mistake):
-            row[3] = row[3].replace(mistake, "")
-    for mistake, fix in UNIT_FIXES.items():
-        if row[3] == mistake:
-            row[3] == fix
-
-    # trim
-    if row[3].startswith(", "):
-        row[3] = row[3].replace(", ", "", 1)
-    row[3] = row[3].strip(" ")
-
-
 def reformat_dates(date_columns, row):
     """
     Reformat the dates from a human-readable d.m.Y form into
@@ -100,7 +51,7 @@ def reformat_dates(date_columns, row):
 
         if date.year < 2020 or date.year > 2021:
             logger.warning(
-                "Suspicious date found in line: \n{}\n".format(", ".join(row))
+                "Suspicious date found in line: \n{}\n".format(row)
             )
         row[i] = date
 
@@ -119,14 +70,10 @@ def parse_csv(url):
     # skip first line
     next(reader)
 
-    date_columns = range(8, 11)
     for row in reader:
-        reformat_unit(row)
-        reformat_dates(date_columns, row)
+        reformat_dates(range(8, 11), row)
         rows.append(row)
 
-    # sort by reporting date (the last date column)
-    rows = sorted(rows, key=itemgetter(date_columns[-1]))
     return rows
 
 
@@ -176,7 +123,7 @@ def school_absences_csv(outfile):
         }
 
         absences.append(absence)
-        if datetime.now().date() < row[9] + timedelta(days=3):
+        if row[9] > datetime.now().date() - timedelta(days=30):
             absences_current.append(absence)
 
     # sort
@@ -206,9 +153,9 @@ def school_absences_csv(outfile):
             lineterminator="\n",
         )
         csvwriter.writeheader()
-        csvwriter.writerows(absences)
+        csvwriter.writerows(absences_current)
 
-    outfile2 = outfile.replace(".csv", "-current.csv")
+    outfile2 = outfile.replace(".csv", "-archive.csv")
     with open(outfile2, "w", encoding="utf-8") as csvfile:
         csvwriter = csv.DictWriter(
             csvfile,
@@ -219,7 +166,7 @@ def school_absences_csv(outfile):
             lineterminator="\n",
         )
         csvwriter.writeheader()
-        csvwriter.writerows(absences_current)
+        csvwriter.writerows(absences)
 
 
 def school_regimes_csv(outfile):
@@ -243,15 +190,21 @@ def school_regimes_csv(outfile):
             "changed.to": row[9].isoformat(),
             "school_type": dicts["KATEGORIJA"].get(row[5], "N/A"),
             "school": row[2],
-            "subunit": row[11],
+            "subunit": dicts["ODDELEK"].get(row[11], "N/A"),
             "students": row[13],
             "regime": dicts["DOGODEK"].get(row[14], "N/A"),
             "reason": dicts["VZROK_DOGODEK"].get(row[16], "N/A"),
         }
 
         regimes.append(regime)
-        if datetime.now().date() < row[9] + timedelta(days=3):
+        if row[9] > datetime.now().date() - timedelta(days=30):
             regimes_current.append(regime)
+
+    # sort
+    regimes = sorted(regimes, key=itemgetter("date", "school_type", "school"))
+    regimes_current = sorted(
+        regimes_current, key=itemgetter("date", "school_type", "school")
+    )
 
     header = [
         "date",
@@ -274,9 +227,9 @@ def school_regimes_csv(outfile):
             lineterminator="\n",
         )
         csvwriter.writeheader()
-        csvwriter.writerows(regimes)
+        csvwriter.writerows(regimes_current)
 
-    outfile2 = outfile.replace(".csv", "-current.csv")
+    outfile2 = outfile.replace(".csv", "-archive.csv")
     with open(outfile2, "w", encoding="utf-8") as csvfile:
         csvwriter = csv.DictWriter(
             csvfile,
@@ -287,7 +240,7 @@ def school_regimes_csv(outfile):
             lineterminator="\n",
         )
         csvwriter.writeheader()
-        csvwriter.writerows(regimes_current)
+        csvwriter.writerows(regimes)
 
 
 if __name__ == "__main__":
