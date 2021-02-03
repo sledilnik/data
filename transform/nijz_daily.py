@@ -54,7 +54,7 @@ def get_municipality_header(municipality: str):
     return f'region.{region}.{id_}'
 
 
-df = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 3', engine='openpyxl', skiprows=[0, 2], skipfooter=1).transpose()[:-1]
+df = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 4', engine='openpyxl', skiprows=[0, 2], skipfooter=1).transpose()[:-1]
 df.columns = df.iloc[0]  # sets the header to municipality name instead of having a zero-based index for header
 df = df[1:]  # now that municipality is set for the header, we can delete it from the value matrix
 
@@ -95,7 +95,7 @@ with open(municipality_deceased_csv_path, 'w', newline='') as csvfile:
 write_timestamp_file(filename=municipality_deceased_csv_path, old_hash=old_hash)
 
 # --- region-confirmed.csv | region-active.csv ---
-df = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 4', engine='openpyxl', skiprows=[0, 2])[:-1]
+df = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 5', engine='openpyxl', skiprows=[0, 2])[:-1]
 df.drop(['SKUPAJ'], inplace=True, axis=1)  # axis=1 means columns
 
 
@@ -154,7 +154,7 @@ with open(region_deceased_csv_path, 'w', newline='') as csvfile:
 write_timestamp_file(filename=region_deceased_csv_path, old_hash=old_hash)
 
 # --- age-confirmed.csv ---
-df = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 5', engine='openpyxl', skiprows=[1, 2, 3])[:-1]
+df = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 6', engine='openpyxl', skiprows=[1, 2, 3])[:-1]
 df.rename(columns={'Dnevno število potrjenih primerov po spolu in starostnih skupinah': 'date'}, inplace=True)
 df.set_index('date', inplace=True)
 df.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows', inplace=True)
