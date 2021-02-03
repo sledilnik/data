@@ -170,18 +170,19 @@ export_dataframe_to_csv(name='age-cases', dataframe=df.cumsum())
 # --- cases.csv ---
 df_cases = pd.read_csv(os.path.join(CSV_FOLDER, 'cases.csv'), index_col='date', parse_dates=['date'])
 df_1 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 1', engine='openpyxl', skiprows=[0], skipfooter=1) \
-    .drop('Unnamed: 0', axis='columns').rename(mapper={
+    .rename(mapper={
         'Datum izvida': 'date',
-        'SKUPAJ': 'cases.confirmed',
-        'Skupaj kumulativno': 'cases.confirmed.todate'
+        'SKUPAJ': 'cases.confirmed'
     }, axis='columns').set_index('date')
 df_1 = df_1[df_1.index.notnull()]  # drop non-indexed rows (where NaN is a part of the index)
-df_1 = df_1.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')[['cases.confirmed', 'cases.confirmed.todate']]
+df_1.drop('SKUPAJ', axis='rows', inplace=True)
+df_1 = df_1.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')[['cases.confirmed']]
+df_1['cases.confirmed.todate'] = df_1['cases.confirmed'].cumsum()
 df_1['cases.active'] = df_1['cases.confirmed'].rolling(window=14).sum().astype('Int64')
 df_1['cases.closed.todate'] = df_1['cases.confirmed.todate'] - df_1['cases.active']
 df_1 = df_1.join(df_cases[['cases.recovered.todate']])
 
-df_6 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 6', engine='openpyxl', skiprows=[0, 2], skipfooter=2) \
+df_6 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 7', engine='openpyxl', skiprows=[0, 2], skipfooter=2) \
     .rename(mapper={'Datum izvida': 'date', 'Oskrbovanci': 'cases.rh.occupant.confirmed'}, axis='columns').set_index('date') \
     .rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')[['cases.rh.occupant.confirmed']]
 df_6['cases.rh.occupant.confirmed.todate'] = df_6['cases.rh.occupant.confirmed'].cumsum()
