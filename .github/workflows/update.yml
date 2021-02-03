@@ -36,9 +36,32 @@ jobs:
         jq --version
 
     # Runs a single command using the runners shell
-    - name: Run MIZŠ update
+    - name: "Run MIZŠ update: schools/update-schools-cases.sh"
       run: | 
         ./schools/update-schools-cases.sh
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+
+    - name: Cache pip
+      uses: actions/cache@v2
+      with:
+        # This path is specific to Ubuntu
+        path: ~/.cache/pip
+        # Look to see if there is a cache hit for the corresponding requirements file
+        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+          ${{ runner.os }}-
+
+    - name: Install python dependencies
+      run: pip install -r requirements.txt
+
+    - name: "Run MIZŠ update schools/parse_mizs_csvs.py"
+      run: | 
+        python schools/parse_mizs_csvs.py 
 
     # Runs a single command using the runners shell
     - name: Run OstaniZdrav update
