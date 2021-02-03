@@ -5,8 +5,6 @@ import os.path
 import time
 import pandas as pd
 
-# from schools.parse_school_absences import school_absences_csv
-# from schools.parse_school_cases import school_cases_csv
 import sheet2csv
 
 from transform.utils import sha1sum, write_timestamp_file
@@ -205,13 +203,6 @@ def computeCases(update_time):
     df_cases.replace({0: None}).astype('Int64').to_csv(filename, line_terminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=df_cases_old_hash)
 
-# def generate_csv(filename, generator):
-#     print("Processing", filename)
-#     old_hash = sha1sum(filename)
-#     generator(filename)
-#     write_timestamp_file(filename=filename, old_hash=old_hash)
-
-
 if __name__ == "__main__":
     update_time = int(time.time())
     import_sheet(update_time, SHEET_MEAS, RANGE_SAFETY_MEASURES, "csv/safety_measures.csv")
@@ -225,7 +216,3 @@ if __name__ == "__main__":
     computeRegionCases(update_time)
     computeCases(update_time)
     computeStats(update_time)
-
-    # generate_csv("csv/schools-absences.csv", school_absences_csv)
-    # generate_csv("csv/schools-cases.csv", school_cases_csv)
-
