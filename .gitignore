@@ -8,3 +8,5 @@ venv
 .Rproj.user
 .vscode
 data/
+Pipfile
+Pipfile.lock
