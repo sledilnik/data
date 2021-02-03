@@ -216,3 +216,4 @@ if __name__ == "__main__":
     computeRegionCases(update_time)
     computeCases(update_time)
     computeStats(update_time)
+
