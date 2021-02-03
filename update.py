@@ -226,5 +226,5 @@ if __name__ == "__main__":
     computeStats(update_time)
 
     generate_csv("csv/schools-absences.csv", school_absences_csv)
-    generate_csv("csv/schools-cases.csv", school_cases_csv)
+    # generate_csv("csv/schools-cases.csv", school_cases_csv)
 
