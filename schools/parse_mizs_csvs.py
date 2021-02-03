@@ -191,7 +191,7 @@ def school_regimes_csv(outfile):
             "school_type": dicts["KATEGORIJA"].get(row[5], "N/A"),
             "school": row[2],
             "person_class": dicts["ODDELEK"].get(row[11], "N/A"),
-            "students": row[13],
+            "attendees": row[13],
             "regime": dicts["DOGODEK"].get(row[14], "N/A"),
             "reason": dicts["VZROK_DOGODEK"].get(row[16], "N/A"),
         }
@@ -213,7 +213,7 @@ def school_regimes_csv(outfile):
         "school_type",
         "school",
         "person_class",
-        "students",
+        "attendees",
         "regime",
         "reason",
     ]
