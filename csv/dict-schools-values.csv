@@ -1,203 +1,203 @@
 dict,id,mizs_key,value
-KATEGORIJA,PV,1010,Predšolska vzgoja (vrtec)
-KATEGORIJA,OS,2010,Osnovna šola
-KATEGORIJA,OSPP,2020,Osnovna šola za učence s posebnimi potrebami
-KATEGORIJA,GS,2030,Glasbena šola
-KATEGORIJA,SS,3010,Srednja šola
-KATEGORIJA,DD,3020,Dijaški dom
-KATEGORIJA,ZAV,4010,Zavodi za otroke in mladostnike s posebnimi potrebami
-KATEGORIJA,VSS,5040,Višja strokovna šola
-DELOVNO_MESTO,PVV,5001,Vzgojitelj
-DELOVNO_MESTO,PVDS,5002,Drugi strokovni delavec
-DELOVNO_MESTO,PVDD,5003,Drugi delavci
-DELOVNO_MESTO,OSU,5004,Učitelj
-DELOVNO_MESTO,OSDS,5005,Drugi strokovni delavec
-DELOVNO_MESTO,OSDD,5006,Drugi delavci
-DELOVNO_MESTO,OSPPU,5007,Učitelj
-DELOVNO_MESTO,OSPPDS,5008,Drugi strokovni delavec
-DELOVNO_MESTO,OSPPDD,5009,Drugi delavci
-DELOVNO_MESTO,GSU,5010,Učitelj
-DELOVNO_MESTO,GSDS,5011,Drugi strokovni delavec
-DELOVNO_MESTO,GSDD,5012,Drugi delavci
-DELOVNO_MESTO,SSU,5013,Učitelj
-DELOVNO_MESTO,SSDS,5014,Drugi strokovni delavec
-DELOVNO_MESTO,SSDD,5015,Drugi delavci
-DELOVNO_MESTO,DDV,5016,Vzgojitelj
-DELOVNO_MESTO,DDDS,5017,Drugi strokovni delavec
-DELOVNO_MESTO,DDDD,5018,Drugi delavci
-DELOVNO_MESTO,ZAVU,5019,Učitelj
-DELOVNO_MESTO,ZAVV,5020,Vzgojitelj
-DELOVNO_MESTO,ZAVDS,5021,Drugi strokovni delavec
-DELOVNO_MESTO,ZAVDD,5022,Drugi delavci
-DELOVNO_MESTO,VSSP,5023,Predavatelj
-DELOVNO_MESTO,VSSDS,5024,Drugi strokovni delavec
-DELOVNO_MESTO,VSSDD,5025,Drugi delavci
-ODDELEK,PVSO1,1001,1. star. obd.
-ODDELEK,PVSO2,1002,2. star. obd.
-ODDELEK,PVSO12,1003,Komb. 1. in 2. star. obd.
-ODDELEK,OS1,1004,1. razred
-ODDELEK,OS2,1005,2. razred
-ODDELEK,OS3,1006,3. razred
-ODDELEK,OS4,1007,4. razred
-ODDELEK,OS5,1008,5. razred
-ODDELEK,OS6,1009,6. razred
-ODDELEK,OS7,1010,7. razred
-ODDELEK,OS8,1011,8. razred
-ODDELEK,OS9,1012,9. razred
-ODDELEK,OSPP1,1013,1. razred
-ODDELEK,OSPP2,1014,2. razred
-ODDELEK,OSPP3,1015,3. razred
-ODDELEK,OSPP4,1016,4. razred
-ODDELEK,OSPP5,1017,5. razred
-ODDELEK,OSPP6,1018,6. razred
-ODDELEK,OSPP7,1019,7. razred
-ODDELEK,OSPP8,1020,8. razred
-ODDELEK,OSPP9,1021,9. razred
-ODDELEK,OSPPST1,1022,I. stopnja
-ODDELEK,OSPPST2,1023,II. stopnja
-ODDELEK,OSPPST3,1024,III. stopnja
-ODDELEK,OSPPST4,1025,IV. stopnja
-ODDELEK,OSPPST5,1026,V. stopnja
-ODDELEK,OSPPST6,1027,VI. stopnja
-ODDELEK,SS1,1028,1. letnik
-ODDELEK,SS2,1029,2. letnik
-ODDELEK,SS3,1030,3. letnik
-ODDELEK,SS4,1031,4. letnik
-ODDELEK,SS5,1032,5. letnik
-ODDELEK,VSS1,1033,1. letnik
-ODDELEK,VSS2,1034,2. letnik
-ODDELEK,VSS3,1035,3. letnik
-ODDELEK,VSS4,1036,4. letnik
-ODDELEK,VSS5,1037,5. letnik
-ODDELEK,DDVSK1,1038,Vzgojna skupina v DD
-ODDELEK,DDVSK2,1039,Vzgojna skupina
-ODDELEK,ZAVSO1,1040,1. star. obd.
-ODDELEK,ZAVSO2,1041,2. star. obd.
-ODDELEK,ZAVSO3,1042,3. star. obd.
-ODDELEK,ZAV1,1043,1. razred
-ODDELEK,ZAV2,1044,2. razred
-ODDELEK,ZAV3,1045,3. razred
-ODDELEK,ZAV4,1046,4. razred
-ODDELEK,ZAV5,1047,5. razred
-ODDELEK,ZAV6,1048,6. razred
-ODDELEK,ZAV7,1049,7. razred
-ODDELEK,ZAV8,1050,8. razred
-ODDELEK,ZAV9,1051,9. razred
-ODDELEK,ZAVST1,1052,I. stopnja
-ODDELEK,ZAVST2,1053,II. stopnja
-ODDELEK,ZAVST3,1054,III. stopnja
-ODDELEK,ZAVST4,1055,IV. stopnja
-ODDELEK,ZAVST5,1056,V. stopnja
-ODDELEK,ZAVST6,1057,VI. stopnja
-ODDELEK,ZAVLE1,1058,1. letnik
-ODDELEK,ZAVLE2,1059,2. letnik
-ODDELEK,ZAVLE3,1060,3. letnik
-ODDELEK,ZAVLE4,1061,4. letnik
-ODDELEK,ZAVLE5,1062,5. letnik
-ODDELEK,ZAVVSK1,1063,Vzgojna skupina
-ODDELEK,ZAVVSK2,1064,???
-ODDELEK,ZAVVSK3,1065,Skupina NIP IP ...
-ODDELEK,ZAVVSK4,1066,Skupina IP ...
-ODDELEK,GSCIT,1501,Citre
-ODDELEK,GSDKT,1503,Druga konična trobila
-ODDELEK,GSFLA,1505,Flavta
-ODDELEK,GSHAF,1506,Harfa
-ODDELEK,GSHAR,1507,Harmonika
-ODDELEK,GSKIT,1508,Kitara
-ODDELEK,GSKLT,1509,Klarinet
-ODDELEK,GSKLA,1510,Klavir
-ODDELEK,GSKLU,1511,Kljunasta flavta
-ODDELEK,GSKTB,1512,Kontrabas
-ODDELEK,GSOBO,1513,Oboa
-ODDELEK,GSORG,1514,Orgle
-ODDELEK,GSPET,1515,Petje
-ODDELEK,GSPOZ,1516,Pozavna
-ODDELEK,GSROG,1517,Rog
-ODDELEK,GSSAK,1518,Saksofon
-ODDELEK,GSTOL,1520,Tolkala
-ODDELEK,GSTRO,1521,Trobenta
-ODDELEK,GSTUB,1522,Tuba
-ODDELEK,GSVIO,1524,Violina
-ODDELEK,GSVIČ,1525,Violončelo
-ODDELEK,GSBAL,1526,Balet
-ODDELEK,GSGPR,1527,Glasbena pripravnica
-ODDELEK,GSPPR,1535,Plesna pripravnica
-ODDELEK,GSSOD,1537,Sodobni ples
-DOGODEK,PVPRI,2001,Vzgojno delo poteka po prilagojenem načinu
-DOGODEK,PVKAR,2002,Otroci oddelka so v domači karanteni
-DOGODEK,OSPRI,2003,"Pouk oz. vzgojno delo poteka na prilagojen / spremenjen način (manjše skupine, zaščitne maske, dodatna razkuževanja ...)"
-DOGODEK,OSKAR,2004,Karantena za celoten oddelek - pouk poteka na daljavo
-DOGODEK,OSPPPRI,2005,"Pouk oz. vzgojno delo poteka na prilagojen / spremenjen način (manjše skupine, zaščitne maske, dodatna razkuževanja ...)"
-DOGODEK,OSPPKAR,2006,Karantena za celoten oddelek - pouk poteka na daljavo
-DOGODEK,SSPRI,2007,"Pouk oz. vzgojno delo poteka na prilagojen / spremenjen način (manjše skupine, zaščitne maske, dodatna razkuževanja ...)"
-DOGODEK,SSKAR,2008,Karantena za celoten oddelek - pouk poteka na daljavo
-DOGODEK,ZAVPRI,2011,"Pouk oz. vzgojno delo poteka na prilagojen / spremenjen način (manjše skupine, zaščitne maske, dodatna razkuževanja ...)"
-DOGODEK,ZAVKAR,2012,Karantena za celoten oddelek - pouk oz. vzgojno delo poteka na daljavo
-DOGODEK,GSPRI,2015,"Pouk poteka na prilagojen / spremenjen način (manjše skupine, zaščitne maske, dodatna razkuževanja ...)"
-DOGODEK,GSKAR,2016,Karantena za celoten oddelek - pouk poteka na daljavo
-VZROK_DOGODEK,PVSUMV,3001,Sum na okužbo s Covid-19 pri vzgojitelju
-VZROK_DOGODEK,PVSUMDS,3002,Sum na okužbo s Covid-19 pri drugem strokovnem delavcu
-VZROK_DOGODEK,PVSUMDD,3003,Sum na okužbo s Covid-19 pri drugem delavcu
-VZROK_DOGODEK,PVSUMUC,3004,Sum na okužbo s Covid-19 pri otroku ali več otrocih skupine
-VZROK_DOGODEK,PVOKUV,3005,Okužba s Covid-19 pri vzgojitelju
-VZROK_DOGODEK,PVOKUDS,3006,Okužba s Covid-19 pri drugem strokovnem delavcu
-VZROK_DOGODEK,PVOKUDD,3007,Okužba s Covid-19 pri drugem delavcu
-VZROK_DOGODEK,PVOKUUC,3008,Okužba s Covid-19 pri otroku ali več otrocih skupine
-VZROK_DOGODEK,OSSUMU,3009,Sum na okužbo s Covid-19 pri učitelju
-VZROK_DOGODEK,OSSUMDS,3010,Sum na okužbo s Covid-19 pri drugem strokovnem delavcu
-VZROK_DOGODEK,OSSUMDD,3011,Sum na okužbo s Covid-19 pri drugem delavcu
-VZROK_DOGODEK,OSSUMUC,3012,Sum na okužbo s Covid-19 pri učencu ali več učencih oddelka
-VZROK_DOGODEK,OSOKUU,3013,Okužba s Covid-19 pri učitelju
-VZROK_DOGODEK,OSOKUDS,3014,Okužba s Covid-19 pri drugem strokovnem delavcu
-VZROK_DOGODEK,OSOKUDD,3015,Okužba s Covid-19 pri drugem delavcu
-VZROK_DOGODEK,OSOKUUC,3016,Okužba s Covid-19 pri učencu ali več učencih oddelka
-VZROK_DOGODEK,OSPPSUMU,3017,Sum na okužbo s Covid-19 pri učitelju
-VZROK_DOGODEK,OSPPSUMDS,3018,Sum na okužbo s Covid-19 pri drugem strokovnem delavcu
-VZROK_DOGODEK,OSPPSUMDD,3019,Sum na okužbo s Covid-19 pri drugem delavcu
-VZROK_DOGODEK,OSPPSUMUC,3020,Sum na okužbo s Covid-19 pri učencu ali več učencih oddelka
-VZROK_DOGODEK,OSPPOKUU,3021,Okužba s Covid-19 pri učitelju
-VZROK_DOGODEK,OSPPOKUDS,3022,Okužba s Covid-19 pri drugem strokovnem delavcu
-VZROK_DOGODEK,OSPPOKUDD,3023,Okužba s Covid-19 pri drugem delavcu
-VZROK_DOGODEK,OSPPOKUUC,3024,Okužba s Covid-19 pri učencu ali več učencih oddelka
-VZROK_DOGODEK,SSSUMU,3025,Sum na okužbo s Covid-19 pri učitelju
-VZROK_DOGODEK,SSSUMDS,3026,Sum na okužbo s Covid-19 pri drugem strokovnem delavcu
-VZROK_DOGODEK,SSSUMDD,3027,Sum na okužbo s Covid-19 pri drugem delavcu
-VZROK_DOGODEK,SSSUMUC,3028,Sum na okužbo s Covid-19 pri dijaku ali več dijakih oddelka
-VZROK_DOGODEK,SSOKUU,3029,Okužba s Covid-19 pri učitelju
-VZROK_DOGODEK,SSOKUDS,3030,Okužba s Covid-19 pri drugem strokovnem delavcu
-VZROK_DOGODEK,SSOKUDD,3031,Okužba s Covid-19 pri drugem delavcu
-VZROK_DOGODEK,SSOKUUC,3032,Okužba s Covid-19 pri dijaku ali več dijakih oddelka
-VZROK_DOGODEK,GSSUMU,3041,Sum na okužbo s Covid-19 pri učitelju
-VZROK_DOGODEK,GSSUMDS,3042,Sum na okužbo s Covid-19 pri drugem strokovnem delavcu
-VZROK_DOGODEK,GSSUMDD,3043,Sum na okužbo s Covid-19 pri drugem delavcu
-VZROK_DOGODEK,GSSUMUC,3044,Sum na okužbo s Covid-19 pri učencu ali več učencih oddelka
-VZROK_DOGODEK,GSOKUU,3045,Okužba s Covid-19 pri učitelju
-VZROK_DOGODEK,GSOKUDS,3046,Okužba s Covid-19 pri drugem strokovnem delavcu
-VZROK_DOGODEK,GSOKUDD,3047,Okužba s Covid-19 pri drugem delavcu
-VZROK_DOGODEK,GSOKUUC,3048,Okužba s Covid-19 pri učencu ali več učencih oddelka
-VZROK_DOGODEK,ZAVSUMU,3057,Sum na okužbo s Covid-19 pri učitelju
-VZROK_DOGODEK,ZAVSUMDS,3058,Sum na okužbo s Covid-19 pri drugem strokovnem delavcu
-VZROK_DOGODEK,ZAVSUMDD,3059,Sum na okužbo s Covid-19 pri drugem delavcu
-VZROK_DOGODEK,ZAVSUMUC,3060,Sum na okužbo s Covid-19 pri otroku / učencu / dijaku ali več učencih oddelka
-VZROK_DOGODEK,ZAVOKUU,3061,Okužba s Covid-19 pri učitelju
-VZROK_DOGODEK,ZAVOKUDS,3062,Okužba s Covid-19 pri drugem strokovnem delavcu
-VZROK_DOGODEK,ZAVOKUDD,3063,Okužba s Covid-19 pri drugem delavcu
-VZROK_DOGODEK,ZAVOKUUC,3064,Okužba s Covid-19 pri otroku / učencu / dijaku ali več učencih oddelka
-VZROK,PVSUM,6001,Sum na okužbo
-VZROK,PVOKU,6002,Okužba s Covid-19
-VZROK,OSSUM,6003,Sum na okužbo
-VZROK,OSOKU,6004,Okužba s Covid-19
-VZROK,OSPPSUM,6005,Sum na okužbo
-VZROK,OSPPOKU,6006,Okužba s Covid-19
-VZROK,GSSUM,6007,Sum na okužbo
-VZROK,GSOKU,6008,Okužba s Covid-19
-VZROK,SSSUM,6009,Sum na okužbo
-VZROK,SSOKU,6010,Okužba s Covid-19
-VZROK,DDSUM,6011,Sum na okužbo
-VZROK,DDOKU,6012,Okužba s Covid-19
-VZROK,ZAVSUM,6013,Sum na okužbo
-VZROK,ZAVOKU,6014,Okužba s Covid-19
-VZROK,PVOSE,6017,Starši otroka niso poslali v vrtec zaradi osebnih razlogov (nima opravičila zdravnika)
-VZROK,OSOSE,6018,Starši učenca niso poslali v šolo zaradi osebnih razlogov (nima opravičila zdravnika)
-VZROK,OSPPOSE,6019,Starši učenca niso poslali v šolo zaradi osebnih razlogov (nima opravičila zdravnika)
-VZROK,SSOSE,6020,Starši učenca niso poslali v šolo zaradi osebnih razlogov (nima opravičila zdravnika)
+school_type,PV,1010,Predšolska vzgoja (vrtec)
+school_type,OS,2010,Osnovna šola
+school_type,OSPP,2020,Osnovna šola za učence s posebnimi potrebami
+school_type,GS,2030,Glasbena šola
+school_type,SS,3010,Srednja šola
+school_type,DD,3020,Dijaški dom
+school_type,ZAV,4010,Zavodi za otroke in mladostnike s posebnimi potrebami
+school_type,VSS,5040,Višja strokovna šola
+position,PVV,5001,Vzgojitelj
+position,PVDS,5002,Drugi strokovni delavec
+position,PVDD,5003,Drugi delavci
+position,OSU,5004,Učitelj
+position,OSDS,5005,Drugi strokovni delavec
+position,OSDD,5006,Drugi delavci
+position,OSPPU,5007,Učitelj
+position,OSPPDS,5008,Drugi strokovni delavec
+position,OSPPDD,5009,Drugi delavci
+position,GSU,5010,Učitelj
+position,GSDS,5011,Drugi strokovni delavec
+position,GSDD,5012,Drugi delavci
+position,SSU,5013,Učitelj
+position,SSDS,5014,Drugi strokovni delavec
+position,SSDD,5015,Drugi delavci
+position,DDV,5016,Vzgojitelj
+position,DDDS,5017,Drugi strokovni delavec
+position,DDDD,5018,Drugi delavci
+position,ZAVU,5019,Učitelj
+position,ZAVV,5020,Vzgojitelj
+position,ZAVDS,5021,Drugi strokovni delavec
+position,ZAVDD,5022,Drugi delavci
+position,VSSP,5023,Predavatelj
+position,VSSDS,5024,Drugi strokovni delavec
+position,VSSDD,5025,Drugi delavci
+class,PVSO1,1001,1. star. obd.
+class,PVSO2,1002,2. star. obd.
+class,PVSO12,1003,Komb. 1. in 2. star. obd.
+class,OS1,1004,1. razred
+class,OS2,1005,2. razred
+class,OS3,1006,3. razred
+class,OS4,1007,4. razred
+class,OS5,1008,5. razred
+class,OS6,1009,6. razred
+class,OS7,1010,7. razred
+class,OS8,1011,8. razred
+class,OS9,1012,9. razred
+class,OSPP1,1013,1. razred
+class,OSPP2,1014,2. razred
+class,OSPP3,1015,3. razred
+class,OSPP4,1016,4. razred
+class,OSPP5,1017,5. razred
+class,OSPP6,1018,6. razred
+class,OSPP7,1019,7. razred
+class,OSPP8,1020,8. razred
+class,OSPP9,1021,9. razred
+class,OSPPST1,1022,I. stopnja
+class,OSPPST2,1023,II. stopnja
+class,OSPPST3,1024,III. stopnja
+class,OSPPST4,1025,IV. stopnja
+class,OSPPST5,1026,V. stopnja
+class,OSPPST6,1027,VI. stopnja
+class,SS1,1028,1. letnik
+class,SS2,1029,2. letnik
+class,SS3,1030,3. letnik
+class,SS4,1031,4. letnik
+class,SS5,1032,5. letnik
+class,VSS1,1033,1. letnik
+class,VSS2,1034,2. letnik
+class,VSS3,1035,3. letnik
+class,VSS4,1036,4. letnik
+class,VSS5,1037,5. letnik
+class,DDVSK1,1038,Vzgojna skupina v DD
+class,DDVSK2,1039,Vzgojna skupina
+class,ZAVSO1,1040,1. star. obd.
+class,ZAVSO2,1041,2. star. obd.
+class,ZAVSO3,1042,3. star. obd.
+class,ZAV1,1043,1. razred
+class,ZAV2,1044,2. razred
+class,ZAV3,1045,3. razred
+class,ZAV4,1046,4. razred
+class,ZAV5,1047,5. razred
+class,ZAV6,1048,6. razred
+class,ZAV7,1049,7. razred
+class,ZAV8,1050,8. razred
+class,ZAV9,1051,9. razred
+class,ZAVST1,1052,I. stopnja
+class,ZAVST2,1053,II. stopnja
+class,ZAVST3,1054,III. stopnja
+class,ZAVST4,1055,IV. stopnja
+class,ZAVST5,1056,V. stopnja
+class,ZAVST6,1057,VI. stopnja
+class,ZAVLE1,1058,1. letnik
+class,ZAVLE2,1059,2. letnik
+class,ZAVLE3,1060,3. letnik
+class,ZAVLE4,1061,4. letnik
+class,ZAVLE5,1062,5. letnik
+class,ZAVVSK1,1063,Vzgojna skupina
+class,ZAVVSK2,1064,???
+class,ZAVVSK3,1065,Skupina NIP IP ...
+class,ZAVVSK4,1066,Skupina IP ...
+class,GSCIT,1501,Citre
+class,GSDKT,1503,Druga konična trobila
+class,GSFLA,1505,Flavta
+class,GSHAF,1506,Harfa
+class,GSHAR,1507,Harmonika
+class,GSKIT,1508,Kitara
+class,GSKLT,1509,Klarinet
+class,GSKLA,1510,Klavir
+class,GSKLU,1511,Kljunasta flavta
+class,GSKTB,1512,Kontrabas
+class,GSOBO,1513,Oboa
+class,GSORG,1514,Orgle
+class,GSPET,1515,Petje
+class,GSPOZ,1516,Pozavna
+class,GSROG,1517,Rog
+class,GSSAK,1518,Saksofon
+class,GSTOL,1520,Tolkala
+class,GSTRO,1521,Trobenta
+class,GSTUB,1522,Tuba
+class,GSVIO,1524,Violina
+class,GSVIČ,1525,Violončelo
+class,GSBAL,1526,Balet
+class,GSGPR,1527,Glasbena pripravnica
+class,GSPPR,1535,Plesna pripravnica
+class,GSSOD,1537,Sodobni ples
+event,PVPRI,2001,Vzgojno delo poteka po prilagojenem načinu
+event,PVKAR,2002,Otroci oddelka so v domači karanteni
+event,OSPRI,2003,"Pouk oz. vzgojno delo poteka na prilagojen / spremenjen način (manjše skupine, zaščitne maske, dodatna razkuževanja ...)"
+event,OSKAR,2004,Karantena za celoten oddelek - pouk poteka na daljavo
+event,OSPPPRI,2005,"Pouk oz. vzgojno delo poteka na prilagojen / spremenjen način (manjše skupine, zaščitne maske, dodatna razkuževanja ...)"
+event,OSPPKAR,2006,Karantena za celoten oddelek - pouk poteka na daljavo
+event,SSPRI,2007,"Pouk oz. vzgojno delo poteka na prilagojen / spremenjen način (manjše skupine, zaščitne maske, dodatna razkuževanja ...)"
+event,SSKAR,2008,Karantena za celoten oddelek - pouk poteka na daljavo
+event,ZAVPRI,2011,"Pouk oz. vzgojno delo poteka na prilagojen / spremenjen način (manjše skupine, zaščitne maske, dodatna razkuževanja ...)"
+event,ZAVKAR,2012,Karantena za celoten oddelek - pouk oz. vzgojno delo poteka na daljavo
+event,GSPRI,2015,"Pouk poteka na prilagojen / spremenjen način (manjše skupine, zaščitne maske, dodatna razkuževanja ...)"
+event,GSKAR,2016,Karantena za celoten oddelek - pouk poteka na daljavo
+event_reason,PVSUMV,3001,Sum na okužbo s Covid-19 pri vzgojitelju
+event_reason,PVSUMDS,3002,Sum na okužbo s Covid-19 pri drugem strokovnem delavcu
+event_reason,PVSUMDD,3003,Sum na okužbo s Covid-19 pri drugem delavcu
+event_reason,PVSUMUC,3004,Sum na okužbo s Covid-19 pri otroku ali več otrocih skupine
+event_reason,PVOKUV,3005,Okužba s Covid-19 pri vzgojitelju
+event_reason,PVOKUDS,3006,Okužba s Covid-19 pri drugem strokovnem delavcu
+event_reason,PVOKUDD,3007,Okužba s Covid-19 pri drugem delavcu
+event_reason,PVOKUUC,3008,Okužba s Covid-19 pri otroku ali več otrocih skupine
+event_reason,OSSUMU,3009,Sum na okužbo s Covid-19 pri učitelju
+event_reason,OSSUMDS,3010,Sum na okužbo s Covid-19 pri drugem strokovnem delavcu
+event_reason,OSSUMDD,3011,Sum na okužbo s Covid-19 pri drugem delavcu
+event_reason,OSSUMUC,3012,Sum na okužbo s Covid-19 pri učencu ali več učencih oddelka
+event_reason,OSOKUU,3013,Okužba s Covid-19 pri učitelju
+event_reason,OSOKUDS,3014,Okužba s Covid-19 pri drugem strokovnem delavcu
+event_reason,OSOKUDD,3015,Okužba s Covid-19 pri drugem delavcu
+event_reason,OSOKUUC,3016,Okužba s Covid-19 pri učencu ali več učencih oddelka
+event_reason,OSPPSUMU,3017,Sum na okužbo s Covid-19 pri učitelju
+event_reason,OSPPSUMDS,3018,Sum na okužbo s Covid-19 pri drugem strokovnem delavcu
+event_reason,OSPPSUMDD,3019,Sum na okužbo s Covid-19 pri drugem delavcu
+event_reason,OSPPSUMUC,3020,Sum na okužbo s Covid-19 pri učencu ali več učencih oddelka
+event_reason,OSPPOKUU,3021,Okužba s Covid-19 pri učitelju
+event_reason,OSPPOKUDS,3022,Okužba s Covid-19 pri drugem strokovnem delavcu
+event_reason,OSPPOKUDD,3023,Okužba s Covid-19 pri drugem delavcu
+event_reason,OSPPOKUUC,3024,Okužba s Covid-19 pri učencu ali več učencih oddelka
+event_reason,SSSUMU,3025,Sum na okužbo s Covid-19 pri učitelju
+event_reason,SSSUMDS,3026,Sum na okužbo s Covid-19 pri drugem strokovnem delavcu
+event_reason,SSSUMDD,3027,Sum na okužbo s Covid-19 pri drugem delavcu
+event_reason,SSSUMUC,3028,Sum na okužbo s Covid-19 pri dijaku ali več dijakih oddelka
+event_reason,SSOKUU,3029,Okužba s Covid-19 pri učitelju
+event_reason,SSOKUDS,3030,Okužba s Covid-19 pri drugem strokovnem delavcu
+event_reason,SSOKUDD,3031,Okužba s Covid-19 pri drugem delavcu
+event_reason,SSOKUUC,3032,Okužba s Covid-19 pri dijaku ali več dijakih oddelka
+event_reason,GSSUMU,3041,Sum na okužbo s Covid-19 pri učitelju
+event_reason,GSSUMDS,3042,Sum na okužbo s Covid-19 pri drugem strokovnem delavcu
+event_reason,GSSUMDD,3043,Sum na okužbo s Covid-19 pri drugem delavcu
+event_reason,GSSUMUC,3044,Sum na okužbo s Covid-19 pri učencu ali več učencih oddelka
+event_reason,GSOKUU,3045,Okužba s Covid-19 pri učitelju
+event_reason,GSOKUDS,3046,Okužba s Covid-19 pri drugem strokovnem delavcu
+event_reason,GSOKUDD,3047,Okužba s Covid-19 pri drugem delavcu
+event_reason,GSOKUUC,3048,Okužba s Covid-19 pri učencu ali več učencih oddelka
+event_reason,ZAVSUMU,3057,Sum na okužbo s Covid-19 pri učitelju
+event_reason,ZAVSUMDS,3058,Sum na okužbo s Covid-19 pri drugem strokovnem delavcu
+event_reason,ZAVSUMDD,3059,Sum na okužbo s Covid-19 pri drugem delavcu
+event_reason,ZAVSUMUC,3060,Sum na okužbo s Covid-19 pri otroku / učencu / dijaku ali več učencih oddelka
+event_reason,ZAVOKUU,3061,Okužba s Covid-19 pri učitelju
+event_reason,ZAVOKUDS,3062,Okužba s Covid-19 pri drugem strokovnem delavcu
+event_reason,ZAVOKUDD,3063,Okužba s Covid-19 pri drugem delavcu
+event_reason,ZAVOKUUC,3064,Okužba s Covid-19 pri otroku / učencu / dijaku ali več učencih oddelka
+reason,PVSUM,6001,Sum na okužbo
+reason,PVOKU,6002,Okužba s Covid-19
+reason,OSSUM,6003,Sum na okužbo
+reason,OSOKU,6004,Okužba s Covid-19
+reason,OSPPSUM,6005,Sum na okužbo
+reason,OSPPOKU,6006,Okužba s Covid-19
+reason,GSSUM,6007,Sum na okužbo
+reason,GSOKU,6008,Okužba s Covid-19
+reason,SSSUM,6009,Sum na okužbo
+reason,SSOKU,6010,Okužba s Covid-19
+reason,DDSUM,6011,Sum na okužbo
+reason,DDOKU,6012,Okužba s Covid-19
+reason,ZAVSUM,6013,Sum na okužbo
+reason,ZAVOKU,6014,Okužba s Covid-19
+reason,PVOSE,6017,Starši otroka niso poslali v vrtec zaradi osebnih razlogov (nima opravičila zdravnika)
+reason,OSOSE,6018,Starši učenca niso poslali v šolo zaradi osebnih razlogov (nima opravičila zdravnika)
+reason,OSPPOSE,6019,Starši učenca niso poslali v šolo zaradi osebnih razlogov (nima opravičila zdravnika)
+reason,SSOSE,6020,Starši učenca niso poslali v šolo zaradi osebnih razlogov (nima opravičila zdravnika)
