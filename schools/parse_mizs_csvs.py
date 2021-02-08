@@ -101,7 +101,6 @@ def school_absences_csv(outfile):
     Merge confirmed atendee and employee absences by date, school, unit
     """
     absences = []
-    absences_current = []
 
     # parse attendee (students) and employee data
     attendees = parse_csv(
@@ -120,8 +119,6 @@ def school_absences_csv(outfile):
         }
 
         absences.append(absence)
-        if datetime.now().date() < row[9] + timedelta(days=3):
-            absences_current.append(absence)
 
     employees = parse_csv(
         "https://raw.githubusercontent.com/GK-MIZS/covid/main/zaposleni.csv"
@@ -139,14 +136,9 @@ def school_absences_csv(outfile):
         }
 
         absences.append(absence)
-        if row[9] > datetime.now().date() - timedelta(days=30):
-            absences_current.append(absence)
 
     # sort
     absences = sorted(absences, key=itemgetter("date", "school_type", "school"))
-    absences_current = sorted(
-        absences_current, key=itemgetter("date", "school_type", "school")
-    )
 
     # save
     header = [
@@ -169,19 +161,6 @@ def school_absences_csv(outfile):
             lineterminator="\n",
         )
         csvwriter.writeheader()
-        csvwriter.writerows(absences_current)
-
-    outfile2 = outfile.replace(".csv", "-archive.csv")
-    with open(outfile2, "w", encoding="utf-8") as csvfile:
-        csvwriter = csv.DictWriter(
-            csvfile,
-            fieldnames=header,
-            delimiter=",",
-            quotechar='"',
-            quoting=csv.QUOTE_MINIMAL,
-            lineterminator="\n",
-        )
-        csvwriter.writeheader()
         csvwriter.writerows(absences)
 
 
@@ -195,7 +174,6 @@ def school_regimes_csv(outfile):
 
     # transform
     regimes = []
-    regimes_current = []
     for row in rows:
         regime = {
             "date": row[10].isoformat(),
@@ -210,14 +188,9 @@ def school_regimes_csv(outfile):
         }
 
         regimes.append(regime)
-        if row[9] > datetime.now().date() - timedelta(days=30):
-            regimes_current.append(regime)
 
     # sort
     regimes = sorted(regimes, key=itemgetter("date", "school_type", "school"))
-    regimes_current = sorted(
-        regimes_current, key=itemgetter("date", "school_type", "school")
-    )
 
     header = [
         "date",
@@ -240,21 +213,7 @@ def school_regimes_csv(outfile):
             lineterminator="\n",
         )
         csvwriter.writeheader()
-        csvwriter.writerows(regimes_current)
-
-    outfile2 = outfile.replace(".csv", "-archive.csv")
-    with open(outfile2, "w", encoding="utf-8") as csvfile:
-        csvwriter = csv.DictWriter(
-            csvfile,
-            fieldnames=header,
-            delimiter=",",
-            quotechar='"',
-            quoting=csv.QUOTE_MINIMAL,
-            lineterminator="\n",
-        )
-        csvwriter.writeheader()
         csvwriter.writerows(regimes)
-
 
 if __name__ == "__main__":
     dicts = load_dicts()
