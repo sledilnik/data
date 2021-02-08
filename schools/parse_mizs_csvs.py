@@ -96,11 +96,11 @@ def school_absences_csv(outfile):
             "date": row[10].isoformat(),
             "absent.from": row[8].isoformat(),
             "absent.to": row[9].isoformat(),
-            "school_type": dicts["KATEGORIJA"].get(row[5], "N/A"),
+            "school_type": dicts["school_type"].get(row[5], "N/A"),
             "school": row[2],
             "person_type": "A",
-            "person_class": dicts["ODDELEK"].get(row[11], "N/A"),
-            "reason": dicts["VZROK"].get(row[13]),
+            "person_class": dicts["class"].get(row[11], "N/A"),
+            "reason": dicts["reason"].get(row[13]),
         }
 
         absences.append(absence)
@@ -115,11 +115,11 @@ def school_absences_csv(outfile):
             "date": row[10].isoformat(),
             "absent.from": row[8].isoformat(),
             "absent.to": row[9].isoformat(),
-            "school_type": dicts["KATEGORIJA"].get(row[5], "N/A"),
+            "school_type": dicts["school_type"].get(row[5], "N/A"),
             "school": row[2],
             "person_type": "E",
-            "person_class": dicts["DELOVNO_MESTO"].get(row[11], "N/A"),
-            "reason": dicts["VZROK"].get(row[13], "N/A"),
+            "person_class": dicts["position"].get(row[11], "N/A"),
+            "reason": dicts["reason"].get(row[13], "N/A"),
         }
 
         absences.append(absence)
@@ -188,12 +188,12 @@ def school_regimes_csv(outfile):
             "date": row[10].isoformat(),
             "changed.from": row[8].isoformat(),
             "changed.to": row[9].isoformat(),
-            "school_type": dicts["KATEGORIJA"].get(row[5], "N/A"),
+            "school_type": dicts["school_type"].get(row[5], "N/A"),
             "school": row[2],
-            "person_class": dicts["ODDELEK"].get(row[11], "N/A"),
+            "person_class": dicts["class"].get(row[11], "N/A"),
             "attendees": row[13],
-            "regime": dicts["DOGODEK"].get(row[14], "N/A"),
-            "reason": dicts["VZROK_DOGODEK"].get(row[16], "N/A"),
+            "regime": dicts["event"].get(row[14], "N/A"),
+            "reason": dicts["event_reason"].get(row[16], "N/A"),
         }
 
         regimes.append(regime)
