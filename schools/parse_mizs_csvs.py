@@ -10,6 +10,7 @@ import dateutil.parser
 import logging
 
 logger = logging.getLogger(__name__)
+dicts = None
 
 
 def load_dicts(filename="csv/dict-schools-values.csv"):
@@ -38,6 +39,26 @@ def load_dicts(filename="csv/dict-schools-values.csv"):
     return dicts
 
 
+def get_sledilnik_key(d, mizs_key):
+    """
+    Return a sledilnik code (ie. OSOKU) for the
+    provided MIZS code.
+    """
+    if d not in dicts:
+        logger.warning("Unknown dictionary: {}".format(d))
+        return "N/A"
+
+    sledilnik_key = dicts.get(d).get(mizs_key, "N/A")
+    if sledilnik_key == "N/A":
+        logger.warning(
+            "Unknown '{}' key '{}'. Please add it to dicts-schools-values.csv.".format(
+                d, mizs_key
+            )
+        )
+
+    return sledilnik_key
+
+
 def reformat_dates(date_columns, row):
     """
     Reformat the dates from a human-readable d.m.Y form into
@@ -50,9 +71,7 @@ def reformat_dates(date_columns, row):
             date = datetime(2020, date.month, date.day)
 
         if date.year < 2020 or date.year > 2021:
-            logger.warning(
-                "Suspicious date found in line: \n{}\n".format(row)
-            )
+            logger.warning("Suspicious date found in line: \n{}\n".format(row))
         row[i] = date
 
 
@@ -83,9 +102,6 @@ def school_absences_csv(outfile):
     """
     absences = []
 
-    # load mizs key to sledilnik key transformations
-    dicts = load_dicts()
-
     # parse attendee (students) and employee data
     attendees = parse_csv(
         "https://raw.githubusercontent.com/GK-MIZS/covid/main/ucenci.csv"
@@ -95,11 +111,11 @@ def school_absences_csv(outfile):
             "date": row[10].isoformat(),
             "absent.from": row[8].isoformat(),
             "absent.to": row[9].isoformat(),
-            "school_type": dicts["school_type"].get(row[5], "N/A"),
+            "school_type": get_sledilnik_key("school_type", row[5]),
             "school": row[2],
             "person_type": "A",
-            "person_class": dicts["class"].get(row[11], "N/A"),
-            "reason": dicts["reason"].get(row[13]),
+            "person_class": get_sledilnik_key("class", row[11]),
+            "reason": get_sledilnik_key("reason", row[13]),
         }
 
         absences.append(absence)
@@ -112,11 +128,11 @@ def school_absences_csv(outfile):
             "date": row[10].isoformat(),
             "absent.from": row[8].isoformat(),
             "absent.to": row[9].isoformat(),
-            "school_type": dicts["school_type"].get(row[5], "N/A"),
+            "school_type": get_sledilnik_key("school_type", row[5]),
             "school": row[2],
             "person_type": "E",
-            "person_class": dicts["position"].get(row[11], "N/A"),
-            "reason": dicts["reason"].get(row[13], "N/A"),
+            "person_class": get_sledilnik_key("position", row[11]),
+            "reason": get_sledilnik_key("reason", row[13]),
         }
 
         absences.append(absence)
@@ -156,9 +172,6 @@ def school_regimes_csv(outfile):
     # merge and sort
     rows = parse_csv("https://raw.githubusercontent.com/GK-MIZS/covid/main/oddelki.csv")
 
-    # load mizs key to sledilnik key transformations
-    dicts = load_dicts()
-
     # transform
     regimes = []
     for row in rows:
@@ -166,12 +179,12 @@ def school_regimes_csv(outfile):
             "date": row[10].isoformat(),
             "changed.from": row[8].isoformat(),
             "changed.to": row[9].isoformat(),
-            "school_type": dicts["school_type"].get(row[5], "N/A"),
+            "school_type": get_sledilnik_key("school_type", row[5]),
             "school": row[2],
-            "person_class": dicts["class"].get(row[11], "N/A"),
+            "person_class": get_sledilnik_key("class", row[11]),
             "attendees": row[13],
-            "regime": dicts["event"].get(row[14], "N/A"),
-            "reason": dicts["event_reason"].get(row[16], "N/A"),
+            "regime": get_sledilnik_key("event", row[14]),
+            "reason": get_sledilnik_key("event_reason", row[16]),
         }
 
         regimes.append(regime)
@@ -203,5 +216,7 @@ def school_regimes_csv(outfile):
         csvwriter.writerows(regimes)
 
 if __name__ == "__main__":
+    dicts = load_dicts()
+
     school_absences_csv("csv/schools-absences.csv")
     school_regimes_csv("csv/schools-regimes.csv")

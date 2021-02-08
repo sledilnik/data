@@ -197,6 +197,8 @@ reason,DDSUM,6011,Sum na okužbo
 reason,DDOKU,6012,Okužba s Covid-19
 reason,ZAVSUM,6013,Sum na okužbo
 reason,ZAVOKU,6014,Okužba s Covid-19
+reason,VSSSUM,6015,Sum na okužbo
+reason,VSSOKU,6016,Okužba s Covid-19
 reason,PVOSE,6017,Starši otroka niso poslali v vrtec zaradi osebnih razlogov (nima opravičila zdravnika)
 reason,OSOSE,6018,Starši učenca niso poslali v šolo zaradi osebnih razlogov (nima opravičila zdravnika)
 reason,OSPPOSE,6019,Starši učenca niso poslali v šolo zaradi osebnih razlogov (nima opravičila zdravnika)
