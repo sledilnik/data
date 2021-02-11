@@ -969,83 +969,90 @@
     "date": "2021-01-27",
     "published": 1415,
     "users_published": 115,
-    "valid": 934
+    "valid": 978
   },
   {
     "date": "2021-01-28",
     "published": 1602,
     "users_published": 125,
-    "valid": 814
+    "valid": 892
   },
   {
     "date": "2021-01-29",
     "published": 1334,
     "users_published": 104,
-    "valid": 713
+    "valid": 793
   },
   {
     "date": "2021-01-30",
     "published": 648,
     "users_published": 51,
-    "valid": 658
+    "valid": 749
   },
   {
     "date": "2021-01-31",
     "published": 467,
     "users_published": 36,
-    "valid": 624
+    "valid": 725
   },
   {
     "date": "2021-02-01",
     "published": 1375,
     "users_published": 106,
-    "valid": 521
+    "valid": 644
   },
   {
     "date": "2021-02-02",
     "published": 1524,
     "users_published": 119,
-    "valid": 406
+    "valid": 552
   },
   {
     "date": "2021-02-03",
     "published": 1105,
     "users_published": 87,
-    "valid": 321
+    "valid": 516
   },
   {
     "date": "2021-02-04",
     "published": 863,
     "users_published": 69,
-    "valid": 254
+    "valid": 548
   },
   {
     "date": "2021-02-05",
     "published": 777,
     "users_published": 64,
-    "valid": 190
+    "valid": 603
   },
   {
     "date": "2021-02-06",
     "published": 733,
     "users_published": 58,
-    "valid": 134
+    "valid": 686
   },
   {
     "date": "2021-02-07",
     "published": 366,
     "users_published": 29,
-    "valid": 105
+    "valid": 781
   },
   {
     "date": "2021-02-08",
     "published": 364,
     "users_published": 29,
-    "valid": 75
+    "valid": 790
   },
   {
     "date": "2021-02-09",
     "published": 1000,
-    "users_published": 77
+    "users_published": 77,
+    "valid": 806
+  },
+  {
+    "date": "2021-02-10",
+    "published": 4456,
+    "users_published": 806,
+    "valid": 142
   }
 ]
