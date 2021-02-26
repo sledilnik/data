@@ -87,7 +87,7 @@ while (date := datetime.strptime(rows[-1]['date'], '%Y-%m-%d').date()) < latest_
     rows.append(copy.deepcopy(rows[-1]))
     rows[-1]['date'] = str(date + timedelta(days=1))
 # Write the rows collection back to the csv
-with open(municipality_deceased_csv_path, 'w', newline='') as csvfile:
+with open(municipality_deceased_csv_path, 'w', newline='', encoding='utf-8') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=rows[0].keys())
     writer.writeheader()
     for row in rows:
@@ -146,7 +146,7 @@ while (date := datetime.strptime(rows[-1]['date'], '%Y-%m-%d').date()) < latest_
     rows.append(copy.deepcopy(rows[-1]))
     rows[-1]['date'] = str(date + timedelta(days=1))
 # Write the rows collection back to the csv
-with open(region_deceased_csv_path, 'w', newline='') as csvfile:
+with open(region_deceased_csv_path, 'w', newline='', encoding='utf-8') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=rows[0].keys())
     writer.writeheader()
     for row in rows:
