@@ -51,7 +51,10 @@ def download_nijz_xslx_file(download_folder: str, search_for: str):
                 urllib.request.urlretrieve(url, path_file)
                 print('File with that name was already present, but was outdated. Old version is replaced. New version downloaded:', filename)
         finally:
-            os.remove(temp)
+            try:
+                os.remove(temp)
+            except:
+                pass
     else:
         urllib.request.urlretrieve(url, path_file)
         print('Downloaded:', filename)
