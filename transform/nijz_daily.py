@@ -31,7 +31,7 @@ def export_dataframe_to_csv(name: str, dataframe):
 
 
 municipalities = {}
-with open(os.path.join(CSV_FOLDER, 'dict-municipality.csv')) as f:
+with open(file=os.path.join(CSV_FOLDER, 'dict-municipality.csv'), encoding='utf-8') as f:
     for row in csv.DictReader(f):
         municipalities[row['name'].lower()] = row
         if row['name_alt']:
@@ -68,7 +68,7 @@ df = df.rolling(min_periods=1, window=14).sum().replace({0: None}).astype('Int64
     .drop('region.n.neznano', axis='columns')
 export_dataframe_to_csv(name='municipality-active', dataframe=df)
 
-with open(os.path.join(CSV_FOLDER, 'dict-municipality.csv')) as f:
+with open(file=os.path.join(CSV_FOLDER, 'dict-municipality.csv'), encoding='utf-8') as f:
     for row in csv.DictReader(f):
         municipalities[row['name'].lower()] = row
         if row['name_alt']:
@@ -78,7 +78,7 @@ with open(os.path.join(CSV_FOLDER, 'dict-municipality.csv')) as f:
 # Copy paste latest row for every missing date
 municipality_deceased_csv_path = os.path.join(CSV_FOLDER, 'municipality-deceased.csv')
 old_hash = sha1sum(municipality_deceased_csv_path)
-with open(municipality_deceased_csv_path) as f:
+with open(file=municipality_deceased_csv_path, encoding='utf-8') as f:
     rows = [row for row in csv.DictReader(f)]
 
 latest_date = str([val for val in df.index.values][-1]).split('T')[0]
@@ -137,7 +137,7 @@ export_dataframe_to_csv(name='region-active', dataframe=df_regions_cases_active)
 # Copy paste latest row for every missing date
 region_deceased_csv_path = os.path.join(CSV_FOLDER, 'region-deceased.csv')
 old_hash = sha1sum(region_deceased_csv_path)
-with open(region_deceased_csv_path) as f:
+with open(region_deceased_csv_path, encoding='utf-8') as f:
     rows = [row for row in csv.DictReader(f)]
 
 latest_date = str([val for val in df_regions_cases.index.values][-1]).split('T')[0]
