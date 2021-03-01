@@ -11,6 +11,7 @@ mapping = {
     'Črna Gora': 'mne',
     'Danska': 'dnk',
     'Dominikanska republika': 'dom',
+    'Egipt': 'egy',
     'Estonija': 'est',
     'Francija': 'fra',
     'Grčija': 'grc',
