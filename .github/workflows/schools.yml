@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Periodic update
+name: Schools update
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -63,10 +63,6 @@ jobs:
       run: | 
         python schools/parse_mizs_csvs.py 
 
-    # Runs a single command using the runners shell
-    - name: Run OstaniZdrav update
-      run: cd ostanizdrav && ./update-ostanizdrav.sh
-
     # Runs a set of commands using the runners shell
     - name: Check git diff
       run: |
@@ -76,9 +72,6 @@ jobs:
         ls -la schools/schools-cases.json
         git status schools/schools-cases.json
         git diff schools/schools-cases.json
-        ls -la ostanizdrav/
-        git status ostanizdrav/
-        git diff ostanizdrav/
 
     # Git commit + push, see https://github.com/github-actions-x/commit
     - name: Publish MIZŠ changes to git
@@ -90,16 +83,4 @@ jobs:
         commit-message: 'MIZŠ Data update 🤖'
         rebase: 'true' # pull and rebase before commit
         files: csv/schools-* schools/schools-cases.json
-        name: Sledilnik data scrape bot 🤖
-
-    # Git commit + push, see https://github.com/github-actions-x/commit
-    - name: Publish OstaniZdrav changes to git
-      if: github.ref == 'refs/heads/master'
-      uses: github-actions-x/commit@v2.7
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        push-branch: 'master'
-        commit-message: 'OstaniZdrav Data update 🤖'
-        rebase: 'true' # pull and rebase before commit
-        files: ostanizdrav/
         name: Sledilnik data scrape bot 🤖
