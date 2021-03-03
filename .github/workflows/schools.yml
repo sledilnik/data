@@ -7,11 +7,14 @@ name: Schools update
 on:
   push:
     branches: [ master ]
-    paths-ignore:
-    - 'csv/**'
-    - 'schools/schools-*.json'
+    paths:
+    - 'schools/**'
+    - '!schools/schools-*.json'
   pull_request:
     branches: [ master ]
+    paths:
+    - 'schools/**'
+    - '!schools/schools-*.json'
   schedule:
     # * is a special character in YAML so you have to quote this string
     - cron:  '5 */1 * * *'
