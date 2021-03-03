@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.com/sledilnik/data.svg?branch=master)](https://travis-ci.com/sledilnik/data)
-[![Periodic update status](https://github.com/sledilnik/data/workflows/Periodic%20update/badge.svg)](https://github.com/sledilnik/data/actions)
+[![OstaniZdrav update](https://github.com/sledilnik/data/actions/workflows/ostanizdrav.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/ostanizdrav.yml)
+[![Schools update](https://github.com/sledilnik/data/actions/workflows/schools.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/schools.yml)
 
 # Slovenia COVID-19 Data Collection - Sledilnik.org
 
