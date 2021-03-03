@@ -8,13 +8,11 @@ on:
   push:
     branches: [ master ]
     paths:
-    - '.github/workflows/sewage.yml'
     - 'transform/**.py'
     - 'requirements.txt'
   pull_request:
     branches: [ master ]
     paths:
-    - '.github/workflows/sewage.yml'
     - 'transform/**.py'
     - 'requirements.txt'
   schedule:
