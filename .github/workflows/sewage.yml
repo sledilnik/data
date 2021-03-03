@@ -66,13 +66,13 @@ jobs:
         git diff
 
     # Git commit + push, see https://github.com/github-actions-x/commit
-    # - name: Publish MIZŠ changes to git
-    #   if: github.ref == 'refs/heads/master'
-    #   uses: github-actions-x/commit@v2.7
-    #   with:
-    #     github-token: ${{ secrets.GITHUB_TOKEN }}
-    #     push-branch: 'master'
-    #     commit-message: 'NIB Sewage data update 🤖'
-    #     rebase: 'true' # pull and rebase before commit
-    #     files: csv/sewage.csv
-    #     name: Sledilnik data scrape bot 🤖
+    - name: Publish NIB Sewage changes to git
+      if: github.ref == 'refs/heads/master'
+      uses: github-actions-x/commit@v2.7
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'master'
+        commit-message: 'NIB Sewage data update 🤖'
+        rebase: 'true' # pull and rebase before commit
+        files: csv/sewage.csv
+        name: Sledilnik data scrape bot 🤖
