@@ -8,10 +8,12 @@ on:
   push:
     branches: [ master ]
     paths:
+    - '.github/workflows/ostanizdrav.yml'
     - 'ostanizdrav/**.sh'
   pull_request:
     branches: [ master ]
     paths:
+    - '.github/workflows/ostanizdrav.yml'
     - 'ostanizdrav/**.sh'
   schedule:
     # * is a special character in YAML so you have to quote this string
