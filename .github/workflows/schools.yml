@@ -8,11 +8,13 @@ on:
   push:
     branches: [ master ]
     paths:
+    - '.github/workflows/schools.yml'
     - 'schools/**'
     - '!schools/schools-*.json'
   pull_request:
     branches: [ master ]
     paths:
+    - '.github/workflows/schools.yml'
     - 'schools/**'
     - '!schools/schools-*.json'
   schedule:
