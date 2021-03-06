@@ -61,7 +61,7 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Check git diff
       run: |
-        ls -la csv/sewage.csv
+        ls -la csv/sewage.*
         git status
         git diff
 
@@ -74,5 +74,5 @@ jobs:
         push-branch: 'master'
         commit-message: 'NIB Sewage data update 🤖'
         rebase: 'true' # pull and rebase before commit
-        files: csv/sewage.csv
+        files: csv/sewage.*
         name: Sledilnik data scrape bot 🤖
