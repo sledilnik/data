@@ -55,3 +55,4 @@ jobs:
         rebase: 'true' # pull and rebase before commit
         files: ostanizdrav/
         name: Sledilnik data scrape bot 🤖
+        email: info@sledilnik.org

@@ -89,3 +89,4 @@ jobs:
         rebase: 'true' # pull and rebase before commit
         files: csv/schools-* schools/schools-cases.json
         name: Sledilnik data scrape bot 🤖
+        email: info@sledilnik.org
