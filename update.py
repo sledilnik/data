@@ -205,11 +205,36 @@ def computeCases(update_time):
     df_cases.replace({0: None}).astype('Int64').to_csv(filename, line_terminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=df_cases_old_hash)
 
+
+def computeVaccination(update_time):
+    filename = 'csv/vaccination.csv'
+    print("Processing", filename)
+    old_hash = sha1sum(filename)
+
+    df_a= pd.read_csv('csv/vaccination-administered.csv', index_col='date')
+
+    df_d= pd.read_csv('csv/vaccination-delivered.csv', index_col='date')
+    df_d['vaccination.pfizer.delivered.todate'] = df_d['vaccination.pfizer.delivered'].cumsum()
+    df_d['vaccination.moderna.delivered.todate'] = df_d['vaccination.moderna.delivered'].cumsum()
+    df_d['vaccination.az.delivered.todate'] = df_d['vaccination.az.delivered'].cumsum()
+    df_d['vaccination.delivered.todate'] = df_d['vaccination.pfizer.delivered.todate'] + df_d['vaccination.moderna.delivered.todate'] + df_d['vaccination.az.delivered.todate']
+    df_d= df_d.reindex([
+        'vaccination.delivered.todate',
+        'vaccination.pfizer.delivered.todate', 
+        'vaccination.moderna.delivered.todate',
+        'vaccination.az.delivered.todate'
+        ], axis='columns')
+    merged = df_a.join(df_d)
+
+    merged.to_csv(filename, float_format='%.0f', line_terminator='\r\n')
+    write_timestamp_file(filename=filename, old_hash=old_hash)
+
+
 if __name__ == "__main__":
     update_time = int(time.time())
     import_sheet(update_time, SHEET_MEAS, RANGE_SAFETY_MEASURES, "csv/safety_measures.csv")
     import_sheet(update_time, SHEET_VACC, RANGE_VACC_DELIVERED, "csv/vaccination-delivered.csv")
-    import_sheet(update_time, SHEET_VACC, RANGE_VACC_ADMIN, "csv/vaccination.csv")
+    import_sheet(update_time, SHEET_VACC, RANGE_VACC_ADMIN, "csv/vaccination.csv") # TODO: legacy
     import_sheet(update_time, SHEET_TESTS, RANGE_LAB_TESTS, "csv/lab-tests.csv")
     import_sheet(update_time, SHEET_HOS, RANGE_PATIENTS, "csv/patients.csv")
     import_sheet(update_time, SHEET_HOS, RANGE_HOSPITALS, "csv/hospitals.csv")
@@ -218,5 +243,6 @@ if __name__ == "__main__":
     computeMunicipalityCases(update_time)
     computeRegionCases(update_time)
     computeCases(update_time)
+# TODO    computeVaccination(update_time)
     computeStats(update_time)
 
