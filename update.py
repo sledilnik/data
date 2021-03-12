@@ -31,7 +31,6 @@ RANGE_ICU = "E:ICU!A4:ZZ"
 
 SHEET_VACC = "1uGsMr0w2acVw4VkoOTEWVtBSwChsnFzKRLnRaYQFXVE"
 RANGE_VACC_DELIVERED = "E:Delivered!A3:ZZ"
-RANGE_VACC_ADMIN = "E:Vaccination!A3:ZZ"
 
 SHEET_TESTS = "1Mo6D2UlMvGE_-ZtF7aihnqVuUxTIdGGE-tIBBUxj0T0"
 RANGE_LAB_TESTS = "E:LAB-Tests!A3:ZZ"
@@ -216,20 +215,24 @@ def computeVaccination(update_time):
     df_d= pd.read_csv('csv/vaccination-delivered.csv', index_col='date')
 
     merged = df_a.join(df_d, how='outer')
-    merged['vaccination.pfizer.delivered.todate'] = merged['vaccination.pfizer.delivered'].fillna(0).cumsum().replace({0: None})
-    merged['vaccination.moderna.delivered.todate'] = merged['vaccination.moderna.delivered'].fillna(0).cumsum().replace({0: None})
-    merged['vaccination.az.delivered.todate'] = merged['vaccination.az.delivered'].fillna(0).cumsum().replace({0: None})
-    merged['vaccination.delivered.todate'] = merged['vaccination.pfizer.delivered.todate'] + merged['vaccination.moderna.delivered.todate'] + merged['vaccination.az.delivered.todate']
-
-    merged.drop(['vaccination.pfizer.delivered', 'vaccination.moderna.delivered', 'vaccination.az.delivered'], axis='columns', inplace=True)
+    merged['vaccination.pfizer.delivered.todate'] = \
+        merged['vaccination.pfizer.delivered'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+    merged['vaccination.moderna.delivered.todate'] = \
+        merged['vaccination.moderna.delivered'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+    merged['vaccination.az.delivered.todate'] = \
+        merged['vaccination.az.delivered'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+    merged['vaccination.delivered.todate'] = merged['vaccination.pfizer.delivered.todate'] \
+        .add(merged['vaccination.moderna.delivered.todate'], fill_value=0) \
+        .add(merged['vaccination.az.delivered.todate'], fill_value=0).astype('Int64')
 
     merged = merged.reindex([  # sort
         'vaccination.administered', 'vaccination.administered.todate',
         'vaccination.administered2nd', 'vaccination.administered2nd.todate',
-        'vaccination.used.todate', 'vaccination.delivered.todate',
-        'vaccination.pfizer.delivered.todate', 
-        'vaccination.moderna.delivered.todate',
-        'vaccination.az.delivered.todate'
+        'vaccination.used.todate', 
+        'vaccination.delivered.todate',
+        'vaccination.pfizer.delivered', 'vaccination.pfizer.delivered.todate', 
+        'vaccination.moderna.delivered', 'vaccination.moderna.delivered.todate', 
+        'vaccination.az.delivered', 'vaccination.az.delivered.todate'
     ], axis='columns')
     merged.to_csv(filename, float_format='%.0f', line_terminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=old_hash)
