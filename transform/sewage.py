@@ -20,7 +20,8 @@ with tempfile.NamedTemporaryFile() as tf:
         .rename(columns={'Date': 'date'}) \
         .dropna(subset=['date']) \
         .set_index('date') \
-        .drop(columns='NIB Measurements')
+        .drop(columns='NIB Measurements') \
+        .dropna(thresh=2)
 
 mapping_dict = {}
 
