@@ -31,7 +31,6 @@ RANGE_ICU = "E:ICU!A4:ZZ"
 
 SHEET_VACC = "1uGsMr0w2acVw4VkoOTEWVtBSwChsnFzKRLnRaYQFXVE"
 RANGE_VACC_DELIVERED = "E:Delivered!A3:ZZ"
-RANGE_VACC_ADMIN = "E:Vaccination!A3:ZZ"
 
 SHEET_TESTS = "1Mo6D2UlMvGE_-ZtF7aihnqVuUxTIdGGE-tIBBUxj0T0"
 RANGE_LAB_TESTS = "E:LAB-Tests!A3:ZZ"
@@ -205,11 +204,44 @@ def computeCases(update_time):
     df_cases.replace({0: None}).astype('Int64').to_csv(filename, line_terminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=df_cases_old_hash)
 
+
+def computeVaccination(update_time):
+    filename = 'csv/vaccination.csv'
+    print("Processing", filename)
+    old_hash = sha1sum(filename)
+
+    df_a= pd.read_csv('csv/vaccination-administered.csv', index_col='date')
+
+    df_d= pd.read_csv('csv/vaccination-delivered.csv', index_col='date')
+
+    merged = df_a.join(df_d, how='outer')
+    merged['vaccination.pfizer.delivered.todate'] = \
+        merged['vaccination.pfizer.delivered'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+    merged['vaccination.moderna.delivered.todate'] = \
+        merged['vaccination.moderna.delivered'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+    merged['vaccination.az.delivered.todate'] = \
+        merged['vaccination.az.delivered'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+    merged['vaccination.delivered.todate'] = merged['vaccination.pfizer.delivered.todate'] \
+        .add(merged['vaccination.moderna.delivered.todate'], fill_value=0) \
+        .add(merged['vaccination.az.delivered.todate'], fill_value=0).astype('Int64')
+
+    merged = merged.reindex([  # sort
+        'vaccination.administered', 'vaccination.administered.todate',
+        'vaccination.administered2nd', 'vaccination.administered2nd.todate',
+        'vaccination.used.todate', 
+        'vaccination.delivered.todate',
+        'vaccination.pfizer.delivered', 'vaccination.pfizer.delivered.todate', 
+        'vaccination.moderna.delivered', 'vaccination.moderna.delivered.todate', 
+        'vaccination.az.delivered', 'vaccination.az.delivered.todate'
+    ], axis='columns')
+    merged.to_csv(filename, float_format='%.0f', line_terminator='\r\n')
+    write_timestamp_file(filename=filename, old_hash=old_hash)
+
+
 if __name__ == "__main__":
     update_time = int(time.time())
     import_sheet(update_time, SHEET_MEAS, RANGE_SAFETY_MEASURES, "csv/safety_measures.csv")
     import_sheet(update_time, SHEET_VACC, RANGE_VACC_DELIVERED, "csv/vaccination-delivered.csv")
-    import_sheet(update_time, SHEET_VACC, RANGE_VACC_ADMIN, "csv/vaccination.csv")
     import_sheet(update_time, SHEET_TESTS, RANGE_LAB_TESTS, "csv/lab-tests.csv")
     import_sheet(update_time, SHEET_HOS, RANGE_PATIENTS, "csv/patients.csv")
     import_sheet(update_time, SHEET_HOS, RANGE_HOSPITALS, "csv/hospitals.csv")
@@ -218,5 +250,6 @@ if __name__ == "__main__":
     computeMunicipalityCases(update_time)
     computeRegionCases(update_time)
     computeCases(update_time)
+    computeVaccination(update_time)
     computeStats(update_time)
 
