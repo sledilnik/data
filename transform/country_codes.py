@@ -24,6 +24,7 @@ mapping = {
     'Madžarska': 'hum',
     'Makedonija': 'mkd',
     'NAM': 'nam',
+    'Namibija': 'nam',
     'Nizozemska': 'nld',
     'Mali': 'mli',
     'Malta': 'mlt',
