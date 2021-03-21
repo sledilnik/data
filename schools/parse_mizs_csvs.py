@@ -72,6 +72,10 @@ def reformat_dates(date_columns, row):
 
         if date.year < 2020 or date.year > 2021:
             logger.warning("Suspicious date found in line: \n{}\n".format(row))
+
+        if date.year == 3021 or date.year == 2201 or date.year == 2022:
+            date = datetime(2021, date.month, date.day)
+
         row[i] = date
 
 
@@ -108,9 +112,9 @@ def school_absences_csv(outfile):
     )
     for row in attendees:
         absence = {
-            "date": row[10].isoformat(),
-            "absent.from": row[8].isoformat(),
-            "absent.to": row[9].isoformat(),
+            "date": row[10].strftime("%Y-%m-%d"),
+            "absent.from": row[8].strftime("%Y-%m-%d"),
+            "absent.to": row[9].strftime("%Y-%m-%d"),
             "school_type": get_sledilnik_key("school_type", row[5]),
             "school": row[2],
             "person_type": "A",
@@ -125,9 +129,9 @@ def school_absences_csv(outfile):
     )
     for row in employees:
         absence = {
-            "date": row[10].isoformat(),
-            "absent.from": row[8].isoformat(),
-            "absent.to": row[9].isoformat(),
+            "date": row[10].strftime("%Y-%m-%d"),
+            "absent.from": row[8].strftime("%Y-%m-%d"),
+            "absent.to": row[9].strftime("%Y-%m-%d"),
             "school_type": get_sledilnik_key("school_type", row[5]),
             "school": row[2],
             "person_type": "E",
@@ -176,9 +180,9 @@ def school_regimes_csv(outfile):
     regimes = []
     for row in rows:
         regime = {
-            "date": row[10].isoformat(),
-            "changed.from": row[8].isoformat(),
-            "changed.to": row[9].isoformat(),
+            "date": row[10].strftime("%Y-%m-%d"),
+            "changed.from": row[8].strftime("%Y-%m-%d"),
+            "changed.to": row[9].strftime("%Y-%m-%d"),
             "school_type": get_sledilnik_key("school_type", row[5]),
             "school": row[2],
             "person_class": get_sledilnik_key("class", row[11]),
