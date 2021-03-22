@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 mkdir -p ctt || true
 curl -s https://ostanizdrav.sledilnik.org/plots/data.json         | jq '.' > ctt/data.json

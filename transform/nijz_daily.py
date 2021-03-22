@@ -31,7 +31,7 @@ def export_dataframe_to_csv(name: str, dataframe):
 
 
 municipalities = {}
-with open(os.path.join(CSV_FOLDER, 'dict-municipality.csv')) as f:
+with open(file=os.path.join(CSV_FOLDER, 'dict-municipality.csv'), encoding='utf-8') as f:
     for row in csv.DictReader(f):
         municipalities[row['name'].lower()] = row
         if row['name_alt']:
@@ -68,7 +68,7 @@ df = df.rolling(min_periods=1, window=14).sum().replace({0: None}).astype('Int64
     .drop('region.n.neznano', axis='columns')
 export_dataframe_to_csv(name='municipality-active', dataframe=df)
 
-with open(os.path.join(CSV_FOLDER, 'dict-municipality.csv')) as f:
+with open(file=os.path.join(CSV_FOLDER, 'dict-municipality.csv'), encoding='utf-8') as f:
     for row in csv.DictReader(f):
         municipalities[row['name'].lower()] = row
         if row['name_alt']:
@@ -78,7 +78,7 @@ with open(os.path.join(CSV_FOLDER, 'dict-municipality.csv')) as f:
 # Copy paste latest row for every missing date
 municipality_deceased_csv_path = os.path.join(CSV_FOLDER, 'municipality-deceased.csv')
 old_hash = sha1sum(municipality_deceased_csv_path)
-with open(municipality_deceased_csv_path) as f:
+with open(file=municipality_deceased_csv_path, encoding='utf-8') as f:
     rows = [row for row in csv.DictReader(f)]
 
 latest_date = str([val for val in df.index.values][-1]).split('T')[0]
@@ -87,7 +87,7 @@ while (date := datetime.strptime(rows[-1]['date'], '%Y-%m-%d').date()) < latest_
     rows.append(copy.deepcopy(rows[-1]))
     rows[-1]['date'] = str(date + timedelta(days=1))
 # Write the rows collection back to the csv
-with open(municipality_deceased_csv_path, 'w', newline='') as csvfile:
+with open(municipality_deceased_csv_path, 'w', newline='', encoding='utf-8') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=rows[0].keys())
     writer.writeheader()
     for row in rows:
@@ -137,7 +137,7 @@ export_dataframe_to_csv(name='region-active', dataframe=df_regions_cases_active)
 # Copy paste latest row for every missing date
 region_deceased_csv_path = os.path.join(CSV_FOLDER, 'region-deceased.csv')
 old_hash = sha1sum(region_deceased_csv_path)
-with open(region_deceased_csv_path) as f:
+with open(region_deceased_csv_path, encoding='utf-8') as f:
     rows = [row for row in csv.DictReader(f)]
 
 latest_date = str([val for val in df_regions_cases.index.values][-1]).split('T')[0]
@@ -146,7 +146,7 @@ while (date := datetime.strptime(rows[-1]['date'], '%Y-%m-%d').date()) < latest_
     rows.append(copy.deepcopy(rows[-1]))
     rows[-1]['date'] = str(date + timedelta(days=1))
 # Write the rows collection back to the csv
-with open(region_deceased_csv_path, 'w', newline='') as csvfile:
+with open(region_deceased_csv_path, 'w', newline='', encoding='utf-8') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=rows[0].keys())
     writer.writeheader()
     for row in rows:
@@ -170,13 +170,14 @@ export_dataframe_to_csv(name='age-cases', dataframe=df.cumsum())
 # --- cases.csv ---
 df_cases = pd.read_csv(os.path.join(CSV_FOLDER, 'cases.csv'), index_col='date', parse_dates=['date'])
 df_1 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 1', engine='openpyxl', skiprows=[0], skipfooter=1) \
-    .drop('Unnamed: 0', axis='columns').rename(mapper={
+    .rename(mapper={
         'Datum izvida': 'date',
-        'SKUPAJ': 'cases.confirmed',
-        'Skupaj kumulativno': 'cases.confirmed.todate'
+        'SKUPAJ': 'cases.confirmed'
     }, axis='columns').set_index('date')
 df_1 = df_1[df_1.index.notnull()]  # drop non-indexed rows (where NaN is a part of the index)
-df_1 = df_1.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')[['cases.confirmed', 'cases.confirmed.todate']]
+df_1.drop('SKUPAJ', axis='rows', inplace=True)
+df_1 = df_1.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')[['cases.confirmed']]
+df_1['cases.confirmed.todate'] = df_1['cases.confirmed'].cumsum()
 df_1['cases.active'] = df_1['cases.confirmed'].rolling(window=14).sum().astype('Int64')
 df_1['cases.closed.todate'] = df_1['cases.confirmed.todate'] - df_1['cases.active']
 df_1 = df_1.join(df_cases[['cases.recovered.todate']])
@@ -197,3 +198,25 @@ for date in df_cases.index.difference(df_joined.index):  # do not delete latest 
     df_joined = df_joined.append(df_cases.loc[date])
 
 export_dataframe_to_csv(name='cases', dataframe=df_joined)
+
+# --- vaccination-administered.csv ---
+df_2 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 2', engine='openpyxl', skiprows=[0], skipfooter=1) \
+    .rename(mapper={
+        'Datum podatkov': 'date',
+        'Število cepljenih oseb s prvim odmerkom': 'vaccination.administered',
+        'Število cepljenih oseb z drugim odmerkom': 'vaccination.administered2nd'
+    }, axis='columns').set_index('date')
+#df_2 = df_1[df_1.index.notnull()]  # drop non-indexed rows (where NaN is a part of the index)
+df_2.drop('SKUPAJ', axis='rows', inplace=True)
+df_2 = df_2.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')
+df_2['vaccination.administered.todate'] = df_2['vaccination.administered'].cumsum()
+df_2['vaccination.administered2nd.todate'] = df_2['vaccination.administered2nd'].cumsum()
+df_2['vaccination.used.todate'] = df_2['vaccination.administered.todate'] + df_2['vaccination.administered2nd.todate']
+
+df_2 = df_2.reindex([
+    'vaccination.administered', 'vaccination.administered.todate',
+    'vaccination.administered2nd', 'vaccination.administered2nd.todate',
+    'vaccination.used.todate'
+    ], axis='columns')
+
+export_dataframe_to_csv(name='vaccination-administered', dataframe=df_2)

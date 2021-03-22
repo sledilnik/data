@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 csvfilename="merged.csv"
 hashbefore=$(sha256sum "$csvfilename")
 

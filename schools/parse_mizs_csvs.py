@@ -10,6 +10,7 @@ import dateutil.parser
 import logging
 
 logger = logging.getLogger(__name__)
+dicts = None
 
 
 def load_dicts(filename="csv/dict-schools-values.csv"):
@@ -38,6 +39,26 @@ def load_dicts(filename="csv/dict-schools-values.csv"):
     return dicts
 
 
+def get_sledilnik_key(d, mizs_key):
+    """
+    Return a sledilnik code (ie. OSOKU) for the
+    provided MIZS code.
+    """
+    if d not in dicts:
+        logger.warning("Unknown dictionary: {}".format(d))
+        return "N/A"
+
+    sledilnik_key = dicts.get(d).get(mizs_key, "N/A")
+    if sledilnik_key == "N/A":
+        logger.warning(
+            "Unknown '{}' key '{}'. Please add it to dicts-schools-values.csv.".format(
+                d, mizs_key
+            )
+        )
+
+    return sledilnik_key
+
+
 def reformat_dates(date_columns, row):
     """
     Reformat the dates from a human-readable d.m.Y form into
@@ -50,9 +71,11 @@ def reformat_dates(date_columns, row):
             date = datetime(2020, date.month, date.day)
 
         if date.year < 2020 or date.year > 2021:
-            logger.warning(
-                "Suspicious date found in line: \n{}\n".format(row)
-            )
+            logger.warning("Suspicious date found in line: \n{}\n".format(row))
+
+        if date.year == 3021 or date.year == 2201 or date.year == 2022:
+            date = datetime(2021, date.month, date.day)
+
         row[i] = date
 
 
@@ -82,10 +105,6 @@ def school_absences_csv(outfile):
     Merge confirmed atendee and employee absences by date, school, unit
     """
     absences = []
-    absences_current = []
-
-    # load mizs key to sledilnik key transformations
-    dicts = load_dicts()
 
     # parse attendee (students) and employee data
     attendees = parse_csv(
@@ -93,44 +112,37 @@ def school_absences_csv(outfile):
     )
     for row in attendees:
         absence = {
-            "date": row[10].isoformat(),
-            "absent.from": row[8].isoformat(),
-            "absent.to": row[9].isoformat(),
-            "school_type": dicts["KATEGORIJA"].get(row[5], "N/A"),
+            "date": row[10].strftime("%Y-%m-%d"),
+            "absent.from": row[8].strftime("%Y-%m-%d"),
+            "absent.to": row[9].strftime("%Y-%m-%d"),
+            "school_type": get_sledilnik_key("school_type", row[5]),
             "school": row[2],
             "person_type": "A",
-            "person_class": dicts["ODDELEK"].get(row[11], "N/A"),
-            "reason": dicts["VZROK"].get(row[13]),
+            "person_class": get_sledilnik_key("class", row[11]),
+            "reason": get_sledilnik_key("reason", row[13]),
         }
 
         absences.append(absence)
-        if datetime.now().date() < row[9] + timedelta(days=3):
-            absences_current.append(absence)
 
     employees = parse_csv(
         "https://raw.githubusercontent.com/GK-MIZS/covid/main/zaposleni.csv"
     )
     for row in employees:
         absence = {
-            "date": row[10].isoformat(),
-            "absent.from": row[8].isoformat(),
-            "absent.to": row[9].isoformat(),
-            "school_type": dicts["KATEGORIJA"].get(row[5], "N/A"),
+            "date": row[10].strftime("%Y-%m-%d"),
+            "absent.from": row[8].strftime("%Y-%m-%d"),
+            "absent.to": row[9].strftime("%Y-%m-%d"),
+            "school_type": get_sledilnik_key("school_type", row[5]),
             "school": row[2],
             "person_type": "E",
-            "person_class": dicts["DELOVNO_MESTO"].get(row[11], "N/A"),
-            "reason": dicts["VZROK"].get(row[13], "N/A"),
+            "person_class": get_sledilnik_key("position", row[11]),
+            "reason": get_sledilnik_key("reason", row[13]),
         }
 
         absences.append(absence)
-        if row[9] > datetime.now().date() - timedelta(days=30):
-            absences_current.append(absence)
 
     # sort
     absences = sorted(absences, key=itemgetter("date", "school_type", "school"))
-    absences_current = sorted(
-        absences_current, key=itemgetter("date", "school_type", "school")
-    )
 
     # save
     header = [
@@ -153,19 +165,6 @@ def school_absences_csv(outfile):
             lineterminator="\n",
         )
         csvwriter.writeheader()
-        csvwriter.writerows(absences_current)
-
-    outfile2 = outfile.replace(".csv", "-archive.csv")
-    with open(outfile2, "w", encoding="utf-8") as csvfile:
-        csvwriter = csv.DictWriter(
-            csvfile,
-            fieldnames=header,
-            delimiter=",",
-            quotechar='"',
-            quoting=csv.QUOTE_MINIMAL,
-            lineterminator="\n",
-        )
-        csvwriter.writeheader()
         csvwriter.writerows(absences)
 
 
@@ -177,34 +176,25 @@ def school_regimes_csv(outfile):
     # merge and sort
     rows = parse_csv("https://raw.githubusercontent.com/GK-MIZS/covid/main/oddelki.csv")
 
-    # load mizs key to sledilnik key transformations
-    dicts = load_dicts()
-
     # transform
     regimes = []
-    regimes_current = []
     for row in rows:
         regime = {
-            "date": row[10].isoformat(),
-            "changed.from": row[8].isoformat(),
-            "changed.to": row[9].isoformat(),
-            "school_type": dicts["KATEGORIJA"].get(row[5], "N/A"),
+            "date": row[10].strftime("%Y-%m-%d"),
+            "changed.from": row[8].strftime("%Y-%m-%d"),
+            "changed.to": row[9].strftime("%Y-%m-%d"),
+            "school_type": get_sledilnik_key("school_type", row[5]),
             "school": row[2],
-            "person_class": dicts["ODDELEK"].get(row[11], "N/A"),
+            "person_class": get_sledilnik_key("class", row[11]),
             "attendees": row[13],
-            "regime": dicts["DOGODEK"].get(row[14], "N/A"),
-            "reason": dicts["VZROK_DOGODEK"].get(row[16], "N/A"),
+            "regime": get_sledilnik_key("event", row[14]),
+            "reason": get_sledilnik_key("event_reason", row[16]),
         }
 
         regimes.append(regime)
-        if row[9] > datetime.now().date() - timedelta(days=30):
-            regimes_current.append(regime)
 
     # sort
     regimes = sorted(regimes, key=itemgetter("date", "school_type", "school"))
-    regimes_current = sorted(
-        regimes_current, key=itemgetter("date", "school_type", "school")
-    )
 
     header = [
         "date",
@@ -227,22 +217,10 @@ def school_regimes_csv(outfile):
             lineterminator="\n",
         )
         csvwriter.writeheader()
-        csvwriter.writerows(regimes_current)
-
-    outfile2 = outfile.replace(".csv", "-archive.csv")
-    with open(outfile2, "w", encoding="utf-8") as csvfile:
-        csvwriter = csv.DictWriter(
-            csvfile,
-            fieldnames=header,
-            delimiter=",",
-            quotechar='"',
-            quoting=csv.QUOTE_MINIMAL,
-            lineterminator="\n",
-        )
-        csvwriter.writeheader()
         csvwriter.writerows(regimes)
 
-
 if __name__ == "__main__":
+    dicts = load_dicts()
+
     school_absences_csv("csv/schools-absences.csv")
     school_regimes_csv("csv/schools-regimes.csv")
