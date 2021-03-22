@@ -11,12 +11,14 @@ on:
     - '.github/workflows/schools.yml'
     - 'schools/**'
     - '!schools/schools-*.json'
+    - 'requirements.txt'
   pull_request:
     branches: [ master ]
     paths:
     - '.github/workflows/schools.yml'
     - 'schools/**'
     - '!schools/schools-*.json'
+    - 'requirements.txt'
   schedule:
     # * is a special character in YAML so you have to quote this string
     - cron:  '5 */1 * * *'
