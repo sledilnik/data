@@ -110,7 +110,7 @@ df_i_2 = pd.read_excel(io=SOURCE_FILE_INFECTED, sheet_name='Tabela 2', engine='o
         'Teden': 'week',
         'družina, skupno gospodinjstvo': 'week.loc.family',
         'delovno mesto': 'week.loc.work',
-        'vzgojno-izobraževalna ustanova': 'week.loc.school',
+        'vzgojno-izobraževalni zavod': 'week.loc.school',
         'bolnišnica': 'week.loc.hospital',
         'druga zdravstvena ustanova': 'week.loc.otherhc',
         'DSO/SVZ': 'week.loc.rh',
@@ -120,7 +120,7 @@ df_i_2 = pd.read_excel(io=SOURCE_FILE_INFECTED, sheet_name='Tabela 2', engine='o
         'gostinski obrat': 'week.loc.restaurant',
         'športna dejavnost (zaprt prostor)': 'week.loc.sport',
         'zasebno druženje': 'week.loc.gathering_private',
-        'organizirano druženje': 'week.loc.gathering_organized',
+        'organizirani dogodek': 'week.loc.gathering_organized',
         'drugo': 'week.loc.other',
         'neznano': 'week.loc.unknown'
     }).drop('Skupaj', axis='columns').set_index('week')
