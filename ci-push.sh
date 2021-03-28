@@ -1,4 +1,4 @@
-#/bin/sh
+#!/bin/sh
 
 REPO="github.com/sledilnik/data"
 
