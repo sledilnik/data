@@ -4,7 +4,7 @@ import os
 import os.path
 import time
 import pandas as pd
-
+import cepimose
 import sheet2csv
 
 from transform.utils import sha1sum, write_timestamp_file
@@ -237,6 +237,77 @@ def computeVaccination(update_time):
     merged.to_csv(filename, float_format='%.0f', line_terminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=old_hash)
 
+def import_nijz_dash_administred():
+    # TODO remove -new suffix when done
+    filename = "csv/vaccination-administered-new.csv"
+    
+    df = pd.DataFrame.from_dict(cepimose.vaccinations_by_day()).rename(columns={
+        'first_dose': 'vaccination.administered.todate',
+        'second_dose': 'vaccination.administered2nd.todate'
+    })
+    df = df.set_index('date')
+    df['vaccination.administered'] = df['vaccination.administered.todate'] - df['vaccination.administered.todate'].shift(1)
+    df['vaccination.administered2nd'] = df['vaccination.administered2nd.todate'] - df['vaccination.administered2nd.todate'].shift(1)
+    df['vaccination.used.todate'] = df['vaccination.administered.todate'] + 2*df['vaccination.administered2nd.todate']
+    df = df[['vaccination.administered', 'vaccination.administered.todate', 'vaccination.administered2nd', 'vaccination.administered2nd.todate', 'vaccination.used.todate']]
+    # df.rename(columns={'first_dose':'a'})
+    old_hash = sha1sum(filename)
+    df.to_csv(filename)
+    write_timestamp_file(filename, old_hash)
+
+def import_nijz_dash_vacc_administred():
+    # TODO remove -new suffix when done
+    filename = "csv/vaccination-administered-new.csv"
+    
+    df = pd.DataFrame.from_dict(cepimose.vaccinations_by_day()).rename(columns={
+        'first_dose': 'vaccination.administered.todate',
+        'second_dose': 'vaccination.administered2nd.todate'
+    })
+    df = df.set_index('date')
+    df['vaccination.administered'] = df['vaccination.administered.todate'] - df['vaccination.administered.todate'].shift(1)
+    df['vaccination.administered2nd'] = df['vaccination.administered2nd.todate'] - df['vaccination.administered2nd.todate'].shift(1)
+    df['vaccination.used.todate'] = df['vaccination.administered.todate'] + 2*df['vaccination.administered2nd.todate']
+    df = df[['vaccination.administered', 'vaccination.administered.todate', 'vaccination.administered2nd', 'vaccination.administered2nd.todate', 'vaccination.used.todate']]
+    old_hash = sha1sum(filename)
+    df.to_csv(filename)
+    write_timestamp_file(filename, old_hash)
+
+def import_nijz_dash_vacc_delivered():
+
+    # TODO remove -new suffix when done
+    filename = "csv/vaccination-delivered-new.csv"
+    
+    df = pd.DataFrame.from_dict(cepimose.vaccines_supplied_by_manufacturer()).rename(columns={
+        'pfizer': 'vaccination.pfizer.delivered',
+        'moderna': 'vaccination.moderna.delivered',
+        'az': 'vaccination.az.delivered',
+    })
+    df = df.set_index('date')
+    df = df[['vaccination.pfizer.delivered','vaccination.moderna.delivered','vaccination.az.delivered']]
+    old_hash = sha1sum(filename)
+    df.to_csv(filename)
+    write_timestamp_file(filename, old_hash)
+
+def import_nijz_dash_vacc_by_age():
+
+    # TODO remove -new suffix when done
+    filename = "csv/vaccination-by_age.csv"
+    df_existing = pd.read_csv(filename, index_col=0)
+    
+    today_data = {
+        'date': datetime.date.today()
+    }
+    for row in cepimose.vaccinations_by_age():
+        today_data["vaccination.age.{}.1st.todate".format(row.age_group)] = row.count_first
+        today_data["vaccination.age.{}.2nd.todate".format(row.age_group)] = row.count_second
+
+    df_today = pd.DataFrame.from_dict([today_data]).set_index('date')
+
+    df_updated = pd.concat([df_existing, df_today])
+    old_hash = sha1sum(filename)
+    df_updated.to_csv(filename)
+    write_timestamp_file(filename, old_hash)
+
 
 if __name__ == "__main__":
     update_time = int(time.time())
@@ -247,9 +318,14 @@ if __name__ == "__main__":
     import_sheet(update_time, SHEET_HOS, RANGE_HOSPITALS, "csv/hospitals.csv")
     import_sheet(update_time, SHEET_HOS, RANGE_ICU, "csv/icu.csv")
 
+    import_nijz_dash_vacc_administred()
+    import_nijz_dash_vacc_delivered()
+    import_nijz_dash_vacc_by_age()
+
     computeMunicipalityCases(update_time)
     computeRegionCases(update_time)
     computeCases(update_time)
     computeVaccination(update_time)
     computeStats(update_time)
 
+    
