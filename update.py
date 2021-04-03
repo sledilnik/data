@@ -288,7 +288,7 @@ def import_nijz_dash_vacc_delivered():
     # write csv
     old_hash = sha1sum(filename)
     # force integer type
-    df.astype('Int64').to_csv(filename, date_format="%Y-%m-%d")
+    df.astype('Int64').to_csv(filename, date_format="%Y-%m-%d", line_terminator='\r\n')
     write_timestamp_file(filename, old_hash)
 
 def import_nijz_dash_vacc_by_age():
