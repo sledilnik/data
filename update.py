@@ -237,75 +237,91 @@ def computeVaccination(update_time):
     merged.to_csv(filename, float_format='%.0f', line_terminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=old_hash)
 
-def import_nijz_dash_administred():
-    # TODO remove -new suffix when done
-    filename = "csv/vaccination-administered-new.csv"
-    
-    df = pd.DataFrame.from_dict(cepimose.vaccinations_by_day()).rename(columns={
-        'first_dose': 'vaccination.administered.todate',
-        'second_dose': 'vaccination.administered2nd.todate'
-    })
-    df = df.set_index('date')
-    df['vaccination.administered'] = df['vaccination.administered.todate'] - df['vaccination.administered.todate'].shift(1)
-    df['vaccination.administered2nd'] = df['vaccination.administered2nd.todate'] - df['vaccination.administered2nd.todate'].shift(1)
-    df['vaccination.used.todate'] = df['vaccination.administered.todate'] + 2*df['vaccination.administered2nd.todate']
-    df = df[['vaccination.administered', 'vaccination.administered.todate', 'vaccination.administered2nd', 'vaccination.administered2nd.todate', 'vaccination.used.todate']]
-    # df.rename(columns={'first_dose':'a'})
-    old_hash = sha1sum(filename)
-    df.to_csv(filename)
-    write_timestamp_file(filename, old_hash)
 
 def import_nijz_dash_vacc_administred():
-    # TODO remove -new suffix when done
-    filename = "csv/vaccination-administered-new.csv"
+    filename = "csv/vaccination-administered.csv"
     
-    df = pd.DataFrame.from_dict(cepimose.vaccinations_by_day()).rename(columns={
+    df = pd.DataFrame.from_dict(cepimose.vaccinations_by_day()).set_index('date').rename(columns={
         'first_dose': 'vaccination.administered.todate',
         'second_dose': 'vaccination.administered2nd.todate'
     })
-    df = df.set_index('date')
-    df['vaccination.administered'] = df['vaccination.administered.todate'] - df['vaccination.administered.todate'].shift(1)
-    df['vaccination.administered2nd'] = df['vaccination.administered2nd.todate'] - df['vaccination.administered2nd.todate'].shift(1)
+
+    # dummy row for diff calculation remowed afterwards
+    dummy_date = datetime.datetime(2020, 12, 26)
+    dummy_row = pd.DataFrame({
+        'vaccination.administered.todate': 0,
+        'vaccination.administered2nd.todate': 0
+    }, index=[dummy_date])
+
+    # calculate diffs from cumulative values (vaccinations per day)
+    df_diff = pd.concat([dummy_row, df]).diff().drop(labels=[dummy_date]).rename(columns={
+        'vaccination.administered.todate': 'vaccination.administered',
+        'vaccination.administered2nd.todate': 'vaccination.administered2nd'
+    }).astype('Int64')
+
+    # merge dataframes (cumulative and per day)
+    df = pd.merge(df, df_diff, right_index=True, left_index=True)
+
+    # calcualte used vaccine doeses
     df['vaccination.used.todate'] = df['vaccination.administered.todate'] + 2*df['vaccination.administered2nd.todate']
+    # sort cols
     df = df[['vaccination.administered', 'vaccination.administered.todate', 'vaccination.administered2nd', 'vaccination.administered2nd.todate', 'vaccination.used.todate']]
+    
+    # write csv
     old_hash = sha1sum(filename)
-    df.to_csv(filename)
+    # replace 0 with pd.NA so it does not get written to CSV
+    df.replace(0, pd.NA).to_csv(filename, date_format='%Y-%m-%d')
     write_timestamp_file(filename, old_hash)
 
 def import_nijz_dash_vacc_delivered():
-
-    # TODO remove -new suffix when done
-    filename = "csv/vaccination-delivered-new.csv"
+    filename = "csv/vaccination-delivered.csv"
     
     df = pd.DataFrame.from_dict(cepimose.vaccines_supplied_by_manufacturer()).rename(columns={
         'pfizer': 'vaccination.pfizer.delivered',
         'moderna': 'vaccination.moderna.delivered',
         'az': 'vaccination.az.delivered',
-    })
-    df = df.set_index('date')
+    }).set_index('date')
+
+    # sort columns
     df = df[['vaccination.pfizer.delivered','vaccination.moderna.delivered','vaccination.az.delivered']]
+    
+    # write csv
     old_hash = sha1sum(filename)
-    df.to_csv(filename)
+    # force integer type
+    df.astype('Int64').to_csv(filename, date_format="%Y-%m-%d")
     write_timestamp_file(filename, old_hash)
 
 def import_nijz_dash_vacc_by_age():
-
-    # TODO remove -new suffix when done
     filename = "csv/vaccination-by_age.csv"
-    df_existing = pd.read_csv(filename, index_col=0)
+    df_existing = pd.read_csv(filename, index_col=0, parse_dates=[0])
     
-    today_data = {
-        'date': datetime.date.today()
-    }
+    today_data = {}
     for row in cepimose.vaccinations_by_age():
         today_data["vaccination.age.{}.1st.todate".format(row.age_group)] = row.count_first
         today_data["vaccination.age.{}.2nd.todate".format(row.age_group)] = row.count_second
 
-    df_today = pd.DataFrame.from_dict([today_data]).set_index('date')
+    df_today = pd.DataFrame([today_data], index=[datetime.date.today()])
+    
+    df_updated = df_today.combine_first(df_existing).astype('Int64')
 
-    df_updated = pd.concat([df_existing, df_today])
+    def start_age(colname: str):
+        return int(colname.split('.')[2].split('-')[0].strip('+'))
+
+    def phase(colname: str):
+        return colname.split('.')[3]
+
+    # columns to be calculates
+    columns_1864_1st = list(filter(lambda s: start_age(s) < 65 and phase(s) == '1st', df_today.columns))
+    columns_1864_2nd = list(filter(lambda s: start_age(s) < 65 and phase(s) == '2nd', df_today.columns))
+    columns_65_1st = list(filter(lambda s: start_age(s) >= 65 and phase(s) == '1st', df_today.columns))
+    columns_65_2nd = list(filter(lambda s: start_age(s) >= 65 and phase(s) == '2nd', df_today.columns))
+    df_updated['vaccination.age.18-64.1st.todate'] = df_updated[columns_1864_1st].sum(axis=1)
+    df_updated['vaccination.age.18-64.2nd.todate'] = df_updated[columns_1864_2nd].sum(axis=1)
+    df_updated['vaccination.age.65+.1st.todate'] = df_updated[columns_65_1st].sum(axis=1)
+    df_updated['vaccination.age.65+.2nd.todate'] = df_updated[columns_65_2nd].sum(axis=1)
+
     old_hash = sha1sum(filename)
-    df_updated.to_csv(filename)
+    df_updated.to_csv(filename, date_format='%Y-%m-%d')
     write_timestamp_file(filename, old_hash)
 
 
