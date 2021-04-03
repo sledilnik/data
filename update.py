@@ -301,9 +301,8 @@ def import_nijz_dash_vacc_by_age():
         today_data["vaccination.age.{}.2nd.todate".format(row.age_group)] = row.count_second
 
     df_today = pd.DataFrame([today_data], index=[datetime.date.today()])
+    df_today.index.name = 'date'
     
-    df_updated = df_today.combine_first(df_existing).astype('Int64')
-
     def start_age(colname: str):
         return int(colname.split('.')[2].split('-')[0].strip('+'))
 
@@ -315,13 +314,54 @@ def import_nijz_dash_vacc_by_age():
     columns_1864_2nd = list(filter(lambda s: start_age(s) < 65 and phase(s) == '2nd', df_today.columns))
     columns_65_1st = list(filter(lambda s: start_age(s) >= 65 and phase(s) == '1st', df_today.columns))
     columns_65_2nd = list(filter(lambda s: start_age(s) >= 65 and phase(s) == '2nd', df_today.columns))
-    df_updated['vaccination.age.18-64.1st.todate'] = df_updated[columns_1864_1st].sum(axis=1)
-    df_updated['vaccination.age.18-64.2nd.todate'] = df_updated[columns_1864_2nd].sum(axis=1)
-    df_updated['vaccination.age.65+.1st.todate'] = df_updated[columns_65_1st].sum(axis=1)
-    df_updated['vaccination.age.65+.2nd.todate'] = df_updated[columns_65_2nd].sum(axis=1)
+    df_today['vaccination.age.18-64.1st.todate'] = df_today[columns_1864_1st].sum(axis=1)
+    df_today['vaccination.age.18-64.2nd.todate'] = df_today[columns_1864_2nd].sum(axis=1)
+    df_today['vaccination.age.65+.1st.todate'] = df_today[columns_65_1st].sum(axis=1)
+    df_today['vaccination.age.65+.2nd.todate'] = df_today[columns_65_2nd].sum(axis=1)
+
+    df_updated = df_today.combine_first(df_existing).astype('Int64')
+
+    col_order = ['vaccination.age.0-17.1st.todate',
+        'vaccination.age.0-17.2nd.todate',
+        'vaccination.age.18-24.1st.todate',
+        'vaccination.age.18-24.2nd.todate',
+        'vaccination.age.25-29.1st.todate',
+        'vaccination.age.25-29.2nd.todate',
+        'vaccination.age.30-34.1st.todate',
+        'vaccination.age.30-34.2nd.todate',
+        'vaccination.age.35-39.1st.todate',
+        'vaccination.age.35-39.2nd.todate',
+        'vaccination.age.40-44.1st.todate',
+        'vaccination.age.40-44.2nd.todate',
+        'vaccination.age.45-49.1st.todate',
+        'vaccination.age.45-49.2nd.todate',
+        'vaccination.age.50-54.1st.todate',
+        'vaccination.age.50-54.2nd.todate',
+        'vaccination.age.55-59.1st.todate',
+        'vaccination.age.55-59.2nd.todate',
+        'vaccination.age.60-64.1st.todate',
+        'vaccination.age.60-64.2nd.todate',
+        'vaccination.age.65-69.1st.todate',
+        'vaccination.age.65-69.2nd.todate',
+        'vaccination.age.70-74.1st.todate',
+        'vaccination.age.70-74.2nd.todate',
+        'vaccination.age.75-79.1st.todate',
+        'vaccination.age.75-79.2nd.todate',
+        'vaccination.age.80-84.1st.todate',
+        'vaccination.age.80-84.2nd.todate',
+        'vaccination.age.85-89.1st.todate',
+        'vaccination.age.85-89.2nd.todate',
+        'vaccination.age.90+.1st.todate',
+        'vaccination.age.90+.2nd.todate',
+        'vaccination.age.18-64.1st.todate',
+        'vaccination.age.18-64.2nd.todate',
+        'vaccination.age.65+.1st.todate',
+        'vaccination.age.65+.2nd.todate']
+    
+    df_updated = df_updated[col_order]
 
     old_hash = sha1sum(filename)
-    df_updated.to_csv(filename, date_format='%Y-%m-%d')
+    df_updated.astype('Int64').to_csv(filename, date_format='%Y-%m-%d')
     write_timestamp_file(filename, old_hash)
 
 
