@@ -108,7 +108,8 @@ def school_absences_csv(outfile):
 
     # parse attendee (students) and employee data
     attendees = parse_csv(
-        "https://raw.githubusercontent.com/GK-MIZS/covid/main/ucenci.csv"
+        # "https://raw.githubusercontent.com/GK-MIZS/covid/main/ucenci.csv"
+        "https://podatki.gov.si/dataset/92670859-fae3-4225-adf4-17be511b87d3/resource/e6bce4f3-01cd-4de9-9fc5-7172da14083a/download/ucenci.csv"
     )
     for row in attendees:
         absence = {
@@ -125,7 +126,8 @@ def school_absences_csv(outfile):
         absences.append(absence)
 
     employees = parse_csv(
-        "https://raw.githubusercontent.com/GK-MIZS/covid/main/zaposleni.csv"
+        # "https://raw.githubusercontent.com/GK-MIZS/covid/main/zaposleni.csv"
+        "https://podatki.gov.si/dataset/92670859-fae3-4225-adf4-17be511b87d3/resource/20cd1622-a129-4187-8bfd-223ba9e7a1fd/download/zaposleni.csv"
     )
     for row in employees:
         absence = {
@@ -174,7 +176,8 @@ def school_regimes_csv(outfile):
     """
 
     # merge and sort
-    rows = parse_csv("https://raw.githubusercontent.com/GK-MIZS/covid/main/oddelki.csv")
+    # rows = parse_csv("https://raw.githubusercontent.com/GK-MIZS/covid/main/oddelki.csv")
+    rows = parse_csv("https://podatki.gov.si/dataset/92670859-fae3-4225-adf4-17be511b87d3/resource/b45823ec-5434-4d96-b61f-ef257babc39b/download/oddelki.csv")
 
     # transform
     regimes = []
