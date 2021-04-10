@@ -10,3 +10,4 @@ venv
 data/
 Pipfile
 Pipfile.lock
+.~lock.*
