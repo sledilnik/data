@@ -5,8 +5,10 @@ health_centers/tests/__pycache__/
 health_centers/tests/porocilo_zd/
 health_centers_tests/__pycache__/
 venv
+env/
 .Rproj.user
 .vscode
 data/
 Pipfile
 Pipfile.lock
+.~lock.*
