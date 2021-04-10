@@ -63,7 +63,7 @@ def import_nijz_dash_vacc_administred():
     df = pd.merge(df, df_diff, right_index=True, left_index=True)
 
     # calcualte used vaccine doeses
-    df['vaccination.used.todate'] = df['vaccination.administered.todate'] + 2*df['vaccination.administered2nd.todate']
+    df['vaccination.used.todate'] = df['vaccination.administered.todate'] + df['vaccination.administered2nd.todate']
     # sort cols
     df = df[['vaccination.administered', 'vaccination.administered.todate', 'vaccination.administered2nd', 'vaccination.administered2nd.todate', 'vaccination.used.todate']]
     df = df.astype('Int64')
