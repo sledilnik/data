@@ -66,7 +66,8 @@ def import_nijz_dash_vacc_administred():
     df['vaccination.used.todate'] = df['vaccination.administered.todate'] + 2*df['vaccination.administered2nd.todate']
     # sort cols
     df = df[['vaccination.administered', 'vaccination.administered.todate', 'vaccination.administered2nd', 'vaccination.administered2nd.todate', 'vaccination.used.todate']]
-    
+    df = df.astype('Int64')
+
     # write csv
     old_hash = sha1sum(filename)
     # replace 0 with pd.NA so it does not get written to CSV
@@ -88,7 +89,7 @@ def import_nijz_dash_vacc_delivered():
     # write csv
     old_hash = sha1sum(filename)
     # force integer type
-    df.astype('Int64').to_csv(filename, date_format="%Y-%m-%d", line_terminator='\r\n')
+    df.fillna(0).round().astype('Int64').replace({0:None}).to_csv(filename, date_format="%Y-%m-%d", line_terminator='\r\n')
     write_timestamp_file(filename, old_hash)
 
 def import_nijz_dash_vacc_by_age():
