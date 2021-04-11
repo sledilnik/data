@@ -65,7 +65,7 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Check git diff
       run: |
-        ls -la csv/vaccination.*
+        ls -la csv/vaccination*
         ls -la csv/stats.*
         git status
         git diff
@@ -79,6 +79,6 @@ jobs:
         push-branch: 'master'
         commit-message: 'NIJZ cepimose vaccination data update 🤖'
         rebase: 'true' # pull and rebase before commit
-        files: csv/vaccination.* csv/stats.*
+        files: csv/vaccination* csv/stats.*
         name: Sledilnik data scrape bot 🤖
         email: info@sledilnik.org
