@@ -2,6 +2,7 @@ import datetime
 import time
 import pandas as pd
 import cepimose
+from update_stats import computeStats
 
 from transform.utils import sha1sum, write_timestamp_file
 
@@ -174,3 +175,4 @@ if __name__ == "__main__":
     import_nijz_dash_vacc_by_age()
 
     computeVaccination(update_time)
+    computeStats(update_time)
