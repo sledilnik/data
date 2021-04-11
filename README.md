@@ -2,6 +2,7 @@
 [![OstaniZdrav update](https://github.com/sledilnik/data/actions/workflows/ostanizdrav.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/ostanizdrav.yml)
 [![Schools update](https://github.com/sledilnik/data/actions/workflows/schools.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/schools.yml)
 [![Sewage update](https://github.com/sledilnik/data/actions/workflows/sewage.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/sewage.yml)
+[![Vaccination update](https://github.com/sledilnik/data/actions/workflows/vaccination.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/vaccination.yml)
 
 # Slovenia COVID-19 Data Collection - Sledilnik.org
 
