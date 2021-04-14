@@ -127,7 +127,7 @@ def school_absences_csv(outfile):
 
     employees = parse_csv(
         # "https://raw.githubusercontent.com/GK-MIZS/covid/main/zaposleni.csv"
-        "https://podatki.gov.si/dataset/92670859-fae3-4225-adf4-17be511b87d3/resource/20cd1622-a129-4187-8bfd-223ba9e7a1fd/download/zaposleni.csv"
+        "https://podatki.gov.si/dataset/92670859-fae3-4225-adf4-17be511b87d3/resource/732cbeb2-41d9-4e22-95dd-362d40ea44fc/download/zaposleni.csv"
     )
     for row in employees:
         absence = {
