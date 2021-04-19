@@ -58,7 +58,9 @@ jobs:
 
     - name: "Run GSheet update - update.py"
       run: | 
-        python update.py 
+        python update.py
+      env:
+        GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
 
     # Runs a set of commands using the runners shell
     - name: Check git diff
