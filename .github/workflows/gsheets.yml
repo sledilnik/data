@@ -70,14 +70,14 @@ jobs:
         git diff
 
     # Git commit + push, see https://github.com/github-actions-x/commit
-    # - name: Publish GSheet update changes to git
-    #   if: github.ref == 'refs/heads/master'
-    #   uses: github-actions-x/commit@v2.8
-    #   with:
-    #     github-token: ${{ secrets.GITHUB_TOKEN }}
-    #     push-branch: 'master'
-    #     commit-message: 'GSheet data update 🤖'
-    #     rebase: 'true' # pull and rebase before commit
-    #     files: csv/*
-    #     name: Sledilnik data scrape bot 🤖
-    #     email: info@sledilnik.org
+    - name: Publish GSheet update changes to git
+      if: github.ref == 'refs/heads/master'
+      uses: github-actions-x/commit@v2.8
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'master'
+        commit-message: 'GSheet data update 🤖'
+        rebase: 'true' # pull and rebase before commit
+        files: csv/*
+        name: Sledilnik GSheet data update bot 🤖
+        email: info@sledilnik.org
