@@ -3,14 +3,14 @@ name: GSheets update
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
-  push:
-    branches: [ master ]
-    paths:
-    - '.github/workflows/gsheets.yml'
-    - 'update.py'
-    - 'update_stats.py'
-    - 'transform/**.py'
-    - 'requirements.txt'
+  # push:
+  #   branches: [ master ]
+  #   paths:
+  #   - '.github/workflows/gsheets.yml'
+  #   - 'update.py'
+  #   - 'update_stats.py'
+  #   - 'transform/**.py'
+  #   - 'requirements.txt'
   pull_request:
     branches: [ master ]
     paths:
