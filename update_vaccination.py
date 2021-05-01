@@ -171,6 +171,45 @@ def import_nijz_dash_vacc_by_age():
     df_updated.astype('Int64').to_csv(filename, date_format='%Y-%m-%d')
     write_timestamp_file(filename, old_hash)
 
+def import_nijz_dash_vacc_by_region():
+    filename = "csv/vaccination-by_region.csv"
+    
+    df = pd.DataFrame()
+    vaccByRegion = cepimose.vaccinations_by_region_by_day()
+
+    # map cepimose regions to sledilnik regions, preserving previous order
+    regions = {
+        cepimose.data.Region.OBALNOKRASKA: "kp",
+        cepimose.data.Region.GORISKA: "go",
+        cepimose.data.Region.PRIMORSKONOTRANJSKA: "po",
+        cepimose.data.Region.GORENJSKA: "kr",
+        cepimose.data.Region.OSREDNJESLOVENSKA: "lj",
+        cepimose.data.Region.JUGOVZHODNASLOVENIJA: "nm",
+        cepimose.data.Region.POSAVSKA: "kk",
+        cepimose.data.Region.ZASAVSKA: "za",
+        cepimose.data.Region.SAVINJSKA: "ce",
+        cepimose.data.Region.KOROSKA: "sg",
+        cepimose.data.Region.PODRAVSKA: "mb",
+        cepimose.data.Region.POMURSKA: "ms",
+    }
+
+    # join all regions
+    for reg in regions:
+        print("Joining {r} ({reg}): {c} rows".format(r=regions[reg], reg=reg, c=len(vaccByRegion[reg])))
+        regData = pd.DataFrame.from_dict(vaccByRegion[reg]).rename(columns={
+            'first_dose': 'vaccination.region.{}.1st.todate'.format(regions[reg]),
+            'second_dose': 'vaccination.region.{}.2nd.todate'.format(regions[reg]),
+        }).set_index('date')
+        df=df.join(regData, how='outer')
+
+    print(df.describe())
+
+    # write csv
+    old_hash = sha1sum(filename)
+    # force integer type
+    df.fillna(0).round().astype('Int64').replace({0:None}).to_csv(filename, date_format="%Y-%m-%d", line_terminator='\r\n')
+    write_timestamp_file(filename, old_hash)
+
 
 if __name__ == "__main__":
     update_time = int(time.time())
@@ -178,6 +217,7 @@ if __name__ == "__main__":
     import_nijz_dash_vacc_administred()
     import_nijz_dash_vacc_delivered()
     import_nijz_dash_vacc_by_age()
+    import_nijz_dash_vacc_by_region()
 
     computeVaccination(update_time)
     computeStats(update_time)
