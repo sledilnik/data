@@ -22,9 +22,12 @@ def computeVaccination(update_time):
         merged['vaccination.moderna.delivered'].fillna(0).cumsum().replace({0: None}).astype('Int64')
     merged['vaccination.az.delivered.todate'] = \
         merged['vaccination.az.delivered'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+    merged['vaccination.janssen.delivered.todate'] = \
+        merged['vaccination.janssen.delivered'].fillna(0).cumsum().replace({0: None}).astype('Int64')
     merged['vaccination.delivered.todate'] = merged['vaccination.pfizer.delivered.todate'] \
         .add(merged['vaccination.moderna.delivered.todate'], fill_value=0) \
-        .add(merged['vaccination.az.delivered.todate'], fill_value=0).astype('Int64')
+        .add(merged['vaccination.az.delivered.todate'], fill_value=0) \
+        .add(merged['vaccination.janssen.delivered.todate'], fill_value=0).astype('Int64')
 
     merged = merged.reindex([  # sort
         'vaccination.administered', 'vaccination.administered.todate',
@@ -33,7 +36,8 @@ def computeVaccination(update_time):
         'vaccination.delivered.todate',
         'vaccination.pfizer.delivered', 'vaccination.pfizer.delivered.todate', 
         'vaccination.moderna.delivered', 'vaccination.moderna.delivered.todate', 
-        'vaccination.az.delivered', 'vaccination.az.delivered.todate'
+        'vaccination.az.delivered', 'vaccination.az.delivered.todate',
+        'vaccination.janssen.delivered', 'vaccination.janssen.delivered.todate'
     ], axis='columns')
     merged.to_csv(filename, float_format='%.0f', line_terminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=old_hash)
@@ -82,10 +86,11 @@ def import_nijz_dash_vacc_delivered():
         'pfizer': 'vaccination.pfizer.delivered',
         'moderna': 'vaccination.moderna.delivered',
         'az': 'vaccination.az.delivered',
+        'janssen': 'vaccination.janssen.delivered',
     }).set_index('date')
 
     # sort columns
-    df = df[['vaccination.pfizer.delivered','vaccination.moderna.delivered','vaccination.az.delivered']]
+    df = df[['vaccination.pfizer.delivered','vaccination.moderna.delivered','vaccination.az.delivered','vaccination.janssen.delivered']]
     
     # write csv
     old_hash = sha1sum(filename)
