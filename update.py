@@ -10,21 +10,7 @@ from transform.utils import sha1sum, write_timestamp_file
 from update_stats import computeStats
 
 
-SHEET_ID_DEV = "1GDYUsjtJMub8Gh_hZMu4UQw6hAVmtUh6E0rS9dlUl3o"
-
-SHEET_MAIN = "1N1qLMoWyi3WFGhIpPFzKsFmVE0IwNP3elb_c18t2DwY"
-
-RANGE_STATS = "Podatki!A3:ZZ"
-RANGE_STATS_LEGACY = "Podatki!A3:AK"
-RANGE_REGIONS = "Kraji!A1:ZZ"
-RANGE_DSO = "DSO!A3:ZZ"
-RANGE_SCHOOLS = "Šole!A3:ZZ"
-RANGE_DECEASED_REGIONS = "Umrli:Kraji!A1:ZZ"
-RANGE_ACTIVE_REGIONS = "Aktivni:Kraji!A1:ZZ"
-RANGE_STATS_WEEKLY = "EPI:weekly!A3:ZZ"
-
 SHEET_HOS = "1jCrsfiJwb_6N39WebN280D3axVvU0Vblk2XpfPI0zMk"
-RANGE_PATIENTS_SUMMARY = "E:PatientsSummary!A1:ZZ"
 RANGE_PATIENTS = "E:Patients!A3:ZZ"
 RANGE_HOSPITALS = "E:Hospitals!A3:ZZ"
 RANGE_ICU = "E:ICU!A4:ZZ"
