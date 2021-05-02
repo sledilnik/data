@@ -173,7 +173,8 @@ def import_nijz_dash_vacc_by_age():
 
 def import_nijz_dash_vacc_by_region():
     filename = "csv/vaccination-by_region.csv"
-    
+    print("Processing", filename)
+
     df = pd.DataFrame()
     vaccByRegion = cepimose.vaccinations_by_region_by_day()
 
@@ -195,13 +196,22 @@ def import_nijz_dash_vacc_by_region():
 
     # join all regions
     for reg in regions:
-        print("Joining {r} ({reg}): {c} rows".format(r=regions[reg], reg=reg, c=len(vaccByRegion[reg])))
-        regData = pd.DataFrame.from_dict(vaccByRegion[reg]).rename(columns={
+        print("Joining {r} ({reg}): {c} rows:".format(r=regions[reg], reg=reg, c=len(vaccByRegion[reg])))
+        regData = pd.DataFrame.from_dict(vaccByRegion[reg]).set_index('date')
+        regData["first_diff"] = regData["first_dose"].diff()
+        regData["second_diff"] = regData["second_dose"].diff()
+        regData = regData[['first_diff', 'first_dose', 'second_diff', 'second_dose']]
+        regData.rename(inplace=True, columns={
+            'first_diff': 'vaccination.region.{}.1st'.format(regions[reg]),
             'first_dose': 'vaccination.region.{}.1st.todate'.format(regions[reg]),
+            'second_diff': 'vaccination.region.{}.2nd'.format(regions[reg]),
             'second_dose': 'vaccination.region.{}.2nd.todate'.format(regions[reg]),
-        }).set_index('date')
+        })
+        print(regData)
+        print(regData.describe())
         df=df.join(regData, how='outer')
 
+    print(df)
     print(df.describe())
 
     # write csv
