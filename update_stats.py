@@ -18,18 +18,18 @@ def computeStats(update_time):
     df_phases = df_phases.reindex(pd.date_range(df_phases.index.min(), df_patients.index.max(), freq='D'), method='ffill')
     df_phases.index.name = 'date'
 
-    dfRegions = pd.read_csv('csv/region-confirmed.csv', index_col='date')
-    dfAgeC = pd.read_csv('csv/age-cases.csv', index_col='date')
-    dfAgeD = pd.read_csv('csv/age-deceased.csv', index_col='date')
-    dfRhD = pd.read_csv('csv/rh-deceased.csv', index_col='date')
-    dfVaccination = pd.read_csv('csv/vaccination.csv', index_col='date')
-    df_lab_tests = pd.read_csv('csv/lab-tests.csv', index_col='date')[[
+    dfRegions = pd.read_csv('csv/region-confirmed.csv', index_col='date', parse_dates=['date'])
+    dfAgeC = pd.read_csv('csv/age-cases.csv', index_col='date', parse_dates=['date'])
+    dfAgeD = pd.read_csv('csv/age-deceased.csv', index_col='date', parse_dates=['date'])
+    dfRhD = pd.read_csv('csv/rh-deceased.csv', index_col='date', parse_dates=['date'])
+    dfVaccination = pd.read_csv('csv/vaccination.csv', index_col='date', parse_dates=['date'])
+    df_lab_tests = pd.read_csv('csv/lab-tests.csv', index_col='date', parse_dates=['date'])[[
         'tests.performed', 'tests.performed.todate', 'tests.positive', 'tests.positive.todate', 'tests.regular.performed',
         'tests.regular.performed.todate', 'tests.regular.positive', 'tests.regular.positive.todate',
         'tests.hagt.performed', 'tests.hagt.performed.todate', 'tests.hagt.positive', 'tests.hagt.positive.todate',
         'tests.ns-apr20.performed', 'tests.ns-apr20.performed.todate', 'tests.ns-apr20.positive', 'tests.ns-apr20.positive.todate',
     ]]
-    df_cases = pd.read_csv('csv/cases.csv', index_col='date')[[
+    df_cases = pd.read_csv('csv/cases.csv', index_col='date', parse_dates=['date'])[[
         'cases.confirmed', 'cases.confirmed.todate', 'cases.active', 'cases.recovered.todate', 'cases.closed.todate',
         'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate', 'cases.rh.occupant.confirmed.todate',
     ]]
