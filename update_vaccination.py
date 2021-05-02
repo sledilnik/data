@@ -22,9 +22,12 @@ def computeVaccination(update_time):
         merged['vaccination.moderna.delivered'].fillna(0).cumsum().replace({0: None}).astype('Int64')
     merged['vaccination.az.delivered.todate'] = \
         merged['vaccination.az.delivered'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+    merged['vaccination.janssen.delivered.todate'] = \
+        merged['vaccination.janssen.delivered'].fillna(0).cumsum().replace({0: None}).astype('Int64')
     merged['vaccination.delivered.todate'] = merged['vaccination.pfizer.delivered.todate'] \
         .add(merged['vaccination.moderna.delivered.todate'], fill_value=0) \
-        .add(merged['vaccination.az.delivered.todate'], fill_value=0).astype('Int64')
+        .add(merged['vaccination.az.delivered.todate'], fill_value=0) \
+        .add(merged['vaccination.janssen.delivered.todate'], fill_value=0).astype('Int64')
 
     merged = merged.reindex([  # sort
         'vaccination.administered', 'vaccination.administered.todate',
@@ -33,7 +36,8 @@ def computeVaccination(update_time):
         'vaccination.delivered.todate',
         'vaccination.pfizer.delivered', 'vaccination.pfizer.delivered.todate', 
         'vaccination.moderna.delivered', 'vaccination.moderna.delivered.todate', 
-        'vaccination.az.delivered', 'vaccination.az.delivered.todate'
+        'vaccination.az.delivered', 'vaccination.az.delivered.todate',
+        'vaccination.janssen.delivered', 'vaccination.janssen.delivered.todate'
     ], axis='columns')
     merged.to_csv(filename, float_format='%.0f', line_terminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=old_hash)
@@ -82,10 +86,11 @@ def import_nijz_dash_vacc_delivered():
         'pfizer': 'vaccination.pfizer.delivered',
         'moderna': 'vaccination.moderna.delivered',
         'az': 'vaccination.az.delivered',
+        'janssen': 'vaccination.janssen.delivered',
     }).set_index('date')
 
     # sort columns
-    df = df[['vaccination.pfizer.delivered','vaccination.moderna.delivered','vaccination.az.delivered']]
+    df = df[['vaccination.pfizer.delivered','vaccination.moderna.delivered','vaccination.az.delivered','vaccination.janssen.delivered']]
     
     # write csv
     old_hash = sha1sum(filename)
@@ -166,6 +171,55 @@ def import_nijz_dash_vacc_by_age():
     df_updated.astype('Int64').to_csv(filename, date_format='%Y-%m-%d')
     write_timestamp_file(filename, old_hash)
 
+def import_nijz_dash_vacc_by_region():
+    filename = "csv/vaccination-by_region.csv"
+    print("Processing", filename)
+
+    df = pd.DataFrame()
+    vaccByRegion = cepimose.vaccinations_by_region_by_day()
+
+    # map cepimose regions to sledilnik regions, preserving previous order
+    regions = {
+        cepimose.data.Region.OBALNOKRASKA: "kp",
+        cepimose.data.Region.GORISKA: "go",
+        cepimose.data.Region.PRIMORSKONOTRANJSKA: "po",
+        cepimose.data.Region.GORENJSKA: "kr",
+        cepimose.data.Region.OSREDNJESLOVENSKA: "lj",
+        cepimose.data.Region.JUGOVZHODNASLOVENIJA: "nm",
+        cepimose.data.Region.POSAVSKA: "kk",
+        cepimose.data.Region.ZASAVSKA: "za",
+        cepimose.data.Region.SAVINJSKA: "ce",
+        cepimose.data.Region.KOROSKA: "sg",
+        cepimose.data.Region.PODRAVSKA: "mb",
+        cepimose.data.Region.POMURSKA: "ms",
+    }
+
+    # join all regions
+    for reg in regions:
+        print("Joining {r} ({reg}): {c} rows:".format(r=regions[reg], reg=reg, c=len(vaccByRegion[reg])))
+        regData = pd.DataFrame.from_dict(vaccByRegion[reg]).set_index('date')
+        regData["first_diff"] = regData["first_dose"].diff()
+        regData["second_diff"] = regData["second_dose"].diff()
+        regData = regData[['first_diff', 'first_dose', 'second_diff', 'second_dose']]
+        regData.rename(inplace=True, columns={
+            'first_diff': 'vaccination.region.{}.1st'.format(regions[reg]),
+            'first_dose': 'vaccination.region.{}.1st.todate'.format(regions[reg]),
+            'second_diff': 'vaccination.region.{}.2nd'.format(regions[reg]),
+            'second_dose': 'vaccination.region.{}.2nd.todate'.format(regions[reg]),
+        })
+        print(regData)
+        print(regData.describe())
+        df=df.join(regData, how='outer')
+
+    print(df)
+    print(df.describe())
+
+    # write csv
+    old_hash = sha1sum(filename)
+    # force integer type
+    df.fillna(0).round().astype('Int64').replace({0:None}).to_csv(filename, date_format="%Y-%m-%d", line_terminator='\r\n')
+    write_timestamp_file(filename, old_hash)
+
 
 if __name__ == "__main__":
     update_time = int(time.time())
@@ -173,6 +227,7 @@ if __name__ == "__main__":
     import_nijz_dash_vacc_administred()
     import_nijz_dash_vacc_delivered()
     import_nijz_dash_vacc_by_age()
+    import_nijz_dash_vacc_by_region()
 
     computeVaccination(update_time)
     computeStats(update_time)

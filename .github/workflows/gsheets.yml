@@ -3,14 +3,14 @@ name: GSheets update
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
-  push:
-    branches: [ master ]
-    paths:
-    - '.github/workflows/gsheets.yml'
-    - 'update.py'
-    - 'update_stats.py'
-    - 'transform/**.py'
-    - 'requirements.txt'
+  # push:
+  #   branches: [ master ]
+  #   paths:
+  #   - '.github/workflows/gsheets.yml'
+  #   - 'update.py'
+  #   - 'update_stats.py'
+  #   - 'transform/**.py'
+  #   - 'requirements.txt'
   pull_request:
     branches: [ master ]
     paths:
@@ -43,7 +43,7 @@ jobs:
         python-version: '3.8'
 
     - name: Cache pip
-      uses: actions/cache@v2.1.4
+      uses: actions/cache@v2.1.5
       with:
         # This path is specific to Ubuntu
         path: ~/.cache/pip
@@ -70,14 +70,14 @@ jobs:
         git diff
 
     # Git commit + push, see https://github.com/github-actions-x/commit
-    # - name: Publish GSheet update changes to git
-    #   if: github.ref == 'refs/heads/master'
-    #   uses: github-actions-x/commit@v2.8
-    #   with:
-    #     github-token: ${{ secrets.GITHUB_TOKEN }}
-    #     push-branch: 'master'
-    #     commit-message: 'GSheet data update 🤖'
-    #     rebase: 'true' # pull and rebase before commit
-    #     files: csv/*
-    #     name: Sledilnik data scrape bot 🤖
-    #     email: info@sledilnik.org
+    - name: Publish GSheet update changes to git
+      if: github.ref == 'refs/heads/master'
+      uses: github-actions-x/commit@v2.8
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'master'
+        commit-message: 'GSheet data update 🤖'
+        rebase: 'true' # pull and rebase before commit
+        files: csv/*
+        name: Sledilnik GSheet data update bot 🤖
+        email: info@sledilnik.org
