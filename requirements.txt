@@ -5,5 +5,5 @@ pandas==1.2.*
 pyquery==1.4.*
 python-dateutil==2.8.*
 requests==2.25.*
-cepimose==0.1.6
+cepimose==0.1.7
 # git+https://github.com/sledilnik/py-cepimose@master#egg=cepimose

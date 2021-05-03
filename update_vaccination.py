@@ -220,6 +220,80 @@ def import_nijz_dash_vacc_by_region():
     df.fillna(0).round().astype('Int64').replace({0:None}).to_csv(filename, date_format="%Y-%m-%d", line_terminator='\r\n')
     write_timestamp_file(filename, old_hash)
 
+def import_nijz_dash_vacc_by_municipalities():
+    filename = "csv/vaccination-by_municipalities.csv"
+    filenameByDay = "csv/vaccination-by_municipalities_by_day.csv"
+    print("Processing", filename)
+    print("Processing", filenameByDay)
+
+    municipalities=pd.read_csv("csv/dict-municipality.csv", index_col="id") [["region",  "iso_code", "name", "name_alt", "population" ]]
+
+    # uppercase for easy matching
+    municipalities['name_search']=municipalities['name'].str.upper()
+    municipalities['name_alt']=municipalities['name_alt'].str.upper()
+    municipalities['name_id']=municipalities.index.str.upper()    
+
+    for row in cepimose.vaccinations_by_municipalities_share():
+        nameNormalized = row.name.upper().replace('-', ' - ')
+        mun=municipalities.loc[municipalities['name_search']==nameNormalized]
+        if mun is None or mun.empty:
+            mun=municipalities.loc[municipalities['name_alt']==nameNormalized]
+        if mun is None or mun.empty:
+            mun=municipalities.loc[municipalities['name_id']==nameNormalized]
+        if mun is None or mun.empty:
+            mun=municipalities.loc[municipalities['name_search']==nameNormalized.replace("SV. ", "SVETA ")]
+
+        if mun is None or mun.empty:
+            raise Exception(f'No municipality match: {row.name}')
+
+        if len(mun.index) > 1:
+            raise Exception(f'{len(mun.index)} municipalities match: {row.name}')
+
+        pop=mun.to_records()[0].population
+        if pop != row.population:
+            raise Exception(f'Population mismatch in {row.name}: {pop} (dict-municipality.csv) != {row.population} (NIJZ)')
+
+        # add new columns:
+        munId=mun.to_records()[0].id
+        municipalities.loc[munId, 'population_nijz'] = row.population
+        municipalities.loc[munId, '1st.todate'] = row.dose1
+        municipalities.loc[munId, '1st.share.todate'] = row.share1
+        municipalities.loc[munId, '2nd.todate'] = row.dose2
+        municipalities.loc[munId, '2nd.share.todate'] = row.share2
+
+
+    # trim down extra columns
+    municipalities = municipalities[['region', 'iso_code', 'name', 'population', '1st.todate', '1st.share.todate', '2nd.todate', '2nd.share.todate']]
+    municipalities['1st.todate']=municipalities['1st.todate'].astype('Int64')
+    municipalities['2nd.todate']=municipalities['2nd.todate'].astype('Int64')
+    municipalities.dropna(thresh=4, inplace=True)
+    print(municipalities)
+
+    old_hash = sha1sum(filename)
+    municipalities.to_csv(filename)
+    write_timestamp_file(filename, old_hash)
+
+    # daily history
+    today_data = {}
+    for id, m in municipalities.iterrows():
+        fieldPrefix=f'region.{m["region"]}.{id}.'
+        today_data[f'{fieldPrefix}population'] = m["population"]
+        today_data[f'{fieldPrefix}1st.todate'] = m["1st.todate"]
+        today_data[f'{fieldPrefix}1st.share.todate'] = m["1st.share.todate"]
+        today_data[f'{fieldPrefix}2nd.todate'] = m["2nd.todate"]
+        today_data[f'{fieldPrefix}2nd.share.todate'] = m["2nd.share.todate"]
+
+    df_today = pd.DataFrame([today_data], index=[datetime.date.today()])
+    df_today.index.name = 'date'
+    
+    df_existing = pd.read_csv(filenameByDay, index_col=0, parse_dates=[0])
+
+    df_updated = df_today.combine_first(df_existing)
+
+    old_hash = sha1sum(filenameByDay)
+    df_updated.to_csv(filenameByDay, date_format='%Y-%m-%d')
+    write_timestamp_file(filenameByDay, old_hash)
+
 
 if __name__ == "__main__":
     update_time = int(time.time())
@@ -228,6 +302,7 @@ if __name__ == "__main__":
     import_nijz_dash_vacc_delivered()
     import_nijz_dash_vacc_by_age()
     import_nijz_dash_vacc_by_region()
+    import_nijz_dash_vacc_by_municipalities()
 
     computeVaccination(update_time)
     computeStats(update_time)
