@@ -257,9 +257,9 @@ def import_nijz_dash_vacc_by_municipalities():
         munId=mun.to_records()[0].id
         municipalities.loc[munId, 'population_nijz'] = row.population
         municipalities.loc[munId, '1st.todate'] = row.dose1
-        municipalities.loc[munId, '1st.share.todate'] = row.share1
+        municipalities.loc[munId, '1st.share.todate'] = round(row.share1, 5)
         municipalities.loc[munId, '2nd.todate'] = row.dose2
-        municipalities.loc[munId, '2nd.share.todate'] = row.share2
+        municipalities.loc[munId, '2nd.share.todate'] = round(row.share2, 5)
 
 
     # trim down extra columns
@@ -277,18 +277,24 @@ def import_nijz_dash_vacc_by_municipalities():
     today_data = {}
     for id, m in municipalities.iterrows():
         fieldPrefix=f'region.{m["region"]}.{id}.'
-        today_data[f'{fieldPrefix}population'] = m["population"]
+        # today_data[f'{fieldPrefix}population'] = m["population"]
         today_data[f'{fieldPrefix}1st.todate'] = m["1st.todate"]
-        today_data[f'{fieldPrefix}1st.share.todate'] = m["1st.share.todate"]
+        # today_data[f'{fieldPrefix}1st.share.todate'] = m["1st.share.todate"]
         today_data[f'{fieldPrefix}2nd.todate'] = m["2nd.todate"]
-        today_data[f'{fieldPrefix}2nd.share.todate'] = m["2nd.share.todate"]
+        # today_data[f'{fieldPrefix}2nd.share.todate'] = m["2nd.share.todate"]
 
     df_today = pd.DataFrame([today_data], index=[datetime.date.today()])
     df_today.index.name = 'date'
+    # print(df_today)
+    # uncomment if there's no previous history file:
+    # df_today.to_csv(filenameByDay, date_format='%Y-%m-%d')
+    # write_timestamp_file(filenameByDay, "")
     
     df_existing = pd.read_csv(filenameByDay, index_col=0, parse_dates=[0])
+    # print(df_existing)
 
     df_updated = df_today.combine_first(df_existing)
+    print(df_updated)
 
     old_hash = sha1sum(filenameByDay)
     df_updated.to_csv(filenameByDay, date_format='%Y-%m-%d')
