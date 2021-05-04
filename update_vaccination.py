@@ -251,11 +251,12 @@ def import_nijz_dash_vacc_by_municipalities():
 
         pop=mun.to_records()[0].population
         if pop != row.population:
+            # comment this out if it starts to fail to continue scraping until the population is fixed in dict-municipality.csv
             raise Exception(f'Population mismatch in {row.name}: {pop} (dict-municipality.csv) != {row.population} (NIJZ)')
 
         # add new columns:
         munId=mun.to_records()[0].id
-        municipalities.loc[munId, 'population_nijz'] = row.population
+        municipalities.loc[munId, 'population'] = row.population # overwrite the population with the one from NIJZ, could differ from the one in dict-municipality.csv
         municipalities.loc[munId, '1st.todate'] = row.dose1
         municipalities.loc[munId, '1st.share.todate'] = round(row.share1, 5)
         municipalities.loc[munId, '2nd.todate'] = row.dose2
