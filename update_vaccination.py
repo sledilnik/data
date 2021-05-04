@@ -221,8 +221,8 @@ def import_nijz_dash_vacc_by_region():
     write_timestamp_file(filename, old_hash)
 
 def import_nijz_dash_vacc_by_municipalities():
-    filenameByDay = "csv/vaccination-by_municipalities_by_day.csv"
     filename = "csv/vaccination-by_municipalities-latest.csv"
+    filenameByDay = "csv/vaccination-by_municipalities.csv"
     print("Processing", filename)
     print("Processing", filenameByDay)
 
