@@ -277,7 +277,7 @@ def import_nijz_dash_vacc_by_municipalities():
     # daily history
     today_data = {}
     for id, m in municipalities.iterrows():
-        fieldPrefix=f'region.{m["region"]}.{id}.'
+        fieldPrefix=f'vaccination.region.{m["region"]}.{id}.'
         # today_data[f'{fieldPrefix}population'] = m["population"]
         today_data[f'{fieldPrefix}1st.todate'] = m["1st.todate"]
         # today_data[f'{fieldPrefix}1st.share.todate'] = m["1st.share.todate"]
