@@ -293,7 +293,7 @@ def import_nijz_dash_vacc_by_municipalities():
     df_existing = pd.read_csv(filenameByDay, index_col=0, parse_dates=[0])
     # print(df_existing)
 
-    df_updated = df_today.combine_first(df_existing)
+    df_updated = df_today.combine_first(df_existing).fillna(0).round().replace({0: None}).astype('Int64')
     print(df_updated)
 
     old_hash = sha1sum(filenameByDay)
