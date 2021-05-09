@@ -73,13 +73,18 @@ def computeRegionCases(update_time):
     dfConfirmed = pd.read_csv('csv/region-confirmed.csv', index_col='date')
     dfActive = pd.read_csv('csv/region-active.csv', index_col='date')
     dfDeceased = pd.read_csv('csv/region-deceased.csv', index_col='date')
+    dfVaccinated = pd.read_csv('csv/vaccination-by_region.csv', index_col='date')
     dfConfirmed = dfConfirmed.rename(mapper=lambda x: x.replace('todate', 'cases.confirmed.todate'), axis='columns') \
                     .drop('region.cases.confirmed.todate', axis='columns') 
     dfActive = dfActive.rename(mapper=lambda x: x.replace('active', 'cases.active'), axis='columns') \
                     .drop('region.cases.active', axis='columns') 
     dfDeceased = dfDeceased.rename(mapper=lambda x: x.replace('todate', 'deceased.todate'), axis='columns') \
                     .drop('region.deceased.todate', axis='columns') 
-    merged = dfConfirmed.join(dfActive).join(dfDeceased).sort_index(axis=1)
+    dfVaccinated = dfVaccinated.filter(like='date', axis='columns') \
+                    .rename(mapper=lambda x: x.replace('vaccination.region', 'region'), axis='columns') \
+                    .rename(mapper=lambda x: x.replace('1st.todate', 'vaccinated.1st.todate'), axis='columns') \
+                    .rename(mapper=lambda x: x.replace('2nd.todate', 'vaccinated.2nd.todate'), axis='columns')
+    merged = dfConfirmed.join(dfActive).join(dfDeceased).join(dfVaccinated).sort_index(axis=1)
     merged.to_csv(filename, float_format='%.0f', index_label='date')
     write_timestamp_file(filename=filename, old_hash=old_hash)
 
