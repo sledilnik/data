@@ -1,4 +1,4 @@
-#! /bin/python
+#!/usr/bin/env python
 
 from datetime import datetime, timedelta
 from operator import itemgetter
