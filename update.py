@@ -59,10 +59,15 @@ def computeMunicipalityCases(update_time):
     dfConfirmed = pd.read_csv('csv/municipality-confirmed.csv', index_col='date')
     dfActive = pd.read_csv('csv/municipality-active.csv', index_col='date')
     dfDeceased = pd.read_csv('csv/municipality-deceased.csv', index_col='date')
+    dfVaccinated = pd.read_csv('csv/vaccination-by_municipality.csv', index_col='date')
     dfConfirmed.columns = [str(col) + '.cases.confirmed.todate' for col in dfConfirmed.columns]
     dfActive.columns = [str(col) + '.cases.active' for col in dfActive.columns]
     dfDeceased.columns = [str(col) + '.deceased.todate' for col in dfDeceased.columns]
-    merged = dfConfirmed.join(dfActive).join(dfDeceased).sort_index(axis=1)
+    dfVaccinated = dfVaccinated.filter(like='date', axis='columns') \
+                    .rename(mapper=lambda x: x.replace('vaccination.region', 'region'), axis='columns') \
+                    .rename(mapper=lambda x: x.replace('1st.todate', 'vaccinated.1st.todate'), axis='columns') \
+                    .rename(mapper=lambda x: x.replace('2nd.todate', 'vaccinated.2nd.todate'), axis='columns')
+    merged = dfConfirmed.join(dfActive).join(dfDeceased).join(dfVaccinated).sort_index(axis=1)
     merged.to_csv(filename, float_format='%.0f', index_label='date')
     write_timestamp_file(filename=filename, old_hash=old_hash)
 
