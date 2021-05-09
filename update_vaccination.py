@@ -183,7 +183,7 @@ def import_nijz_dash_vacc_by_region():
     # map cepimose regions to sledilnik regions, preserving previous order
     regions = {
         cepimose.data.Region.OBALNOKRASKA: "kp",
-        cepimose.data.Region.GORISKA: "go",
+        cepimose.data.Region.GORISKA: "ng",
         cepimose.data.Region.PRIMORSKONOTRANJSKA: "po",
         cepimose.data.Region.GORENJSKA: "kr",
         cepimose.data.Region.OSREDNJESLOVENSKA: "lj",
