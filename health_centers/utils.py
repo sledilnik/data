@@ -28,7 +28,7 @@ sheets_cache_path = os.path.join(local_cache_path, 'sheets')
 
 def get_cache():
     pathlib.Path(local_cache_path).mkdir(exist_ok=True)
-    
+
     if not pathlib.Path(sheets_cache_path).exists():
         with open(sheets_cache_path, 'wb') as f:
             pickle.dump({}, f)

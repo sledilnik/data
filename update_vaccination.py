@@ -32,10 +32,10 @@ def computeVaccination(update_time):
     merged = merged.reindex([  # sort
         'vaccination.administered', 'vaccination.administered.todate',
         'vaccination.administered2nd', 'vaccination.administered2nd.todate',
-        'vaccination.used.todate', 
+        'vaccination.used.todate',
         'vaccination.delivered.todate',
-        'vaccination.pfizer.delivered', 'vaccination.pfizer.delivered.todate', 
-        'vaccination.moderna.delivered', 'vaccination.moderna.delivered.todate', 
+        'vaccination.pfizer.delivered', 'vaccination.pfizer.delivered.todate',
+        'vaccination.moderna.delivered', 'vaccination.moderna.delivered.todate',
         'vaccination.az.delivered', 'vaccination.az.delivered.todate',
         'vaccination.janssen.delivered', 'vaccination.janssen.delivered.todate'
     ], axis='columns')
@@ -45,7 +45,7 @@ def computeVaccination(update_time):
 
 def import_nijz_dash_vacc_administred():
     filename = "csv/vaccination-administered.csv"
-    
+
     df = pd.DataFrame.from_dict(cepimose.vaccinations_by_day()).set_index('date').rename(columns={
         'first_dose': 'vaccination.administered.todate',
         'second_dose': 'vaccination.administered2nd.todate'
@@ -81,7 +81,7 @@ def import_nijz_dash_vacc_administred():
 
 def import_nijz_dash_vacc_delivered():
     filename = "csv/vaccination-delivered.csv"
-    
+
     df = pd.DataFrame.from_dict(cepimose.vaccines_supplied_by_manufacturer()).rename(columns={
         'pfizer': 'vaccination.pfizer.delivered',
         'moderna': 'vaccination.moderna.delivered',
@@ -91,7 +91,7 @@ def import_nijz_dash_vacc_delivered():
 
     # sort columns
     df = df[['vaccination.pfizer.delivered','vaccination.moderna.delivered','vaccination.az.delivered','vaccination.janssen.delivered']]
-    
+
     # write csv
     old_hash = sha1sum(filename)
     # force integer type
@@ -101,7 +101,7 @@ def import_nijz_dash_vacc_delivered():
 def import_nijz_dash_vacc_by_age():
     filename = "csv/vaccination-by_age.csv"
     df_existing = pd.read_csv(filename, index_col=0, parse_dates=[0])
-    
+
     today_data = {}
     for row in cepimose.vaccinations_by_age():
         today_data["vaccination.age.{}.1st.todate".format(row.age_group)] = row.count_first
@@ -109,7 +109,7 @@ def import_nijz_dash_vacc_by_age():
 
     df_today = pd.DataFrame([today_data], index=[datetime.date.today()])
     df_today.index.name = 'date'
-    
+
     def start_age(colname: str):
         return int(colname.split('.')[2].split('-')[0].strip('+'))
 
@@ -164,7 +164,7 @@ def import_nijz_dash_vacc_by_age():
         'vaccination.age.18-64.2nd.todate',
         'vaccination.age.65+.1st.todate',
         'vaccination.age.65+.2nd.todate']
-    
+
     df_updated = df_updated[col_order]
 
     old_hash = sha1sum(filename)
@@ -231,7 +231,7 @@ def import_nijz_dash_vacc_by_municipalities():
     # uppercase for easy matching
     municipalities['name_search']=municipalities['name'].str.upper()
     municipalities['name_alt']=municipalities['name_alt'].str.upper()
-    municipalities['name_id']=municipalities.index.str.upper()    
+    municipalities['name_id']=municipalities.index.str.upper()
 
     for row in cepimose.vaccinations_by_municipalities_share():
         nameNormalized = row.name.upper().replace('-', ' - ')
@@ -290,7 +290,7 @@ def import_nijz_dash_vacc_by_municipalities():
     # uncomment if there's no previous history file:
     # df_today.to_csv(filenameByDay, date_format='%Y-%m-%d')
     # write_timestamp_file(filenameByDay, "")
-    
+
     df_existing = pd.read_csv(filenameByDay, index_col=0, parse_dates=[0])
     # print(df_existing)
 

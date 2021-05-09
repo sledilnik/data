@@ -48,7 +48,7 @@ def computeStats(update_time):
         'tests.regular.performed', 'tests.regular.positive.todate', 'tests.regular.positive',
         'tests.hagt.performed', 'tests.hagt.performed.todate', 'tests.hagt.positive', 'tests.hagt.positive.todate',
         'tests.ns-apr20.performed.todate', 'tests.ns-apr20.performed',
-        'tests.ns-apr20.positive.todate', 'tests.ns-apr20.positive', 
+        'tests.ns-apr20.positive.todate', 'tests.ns-apr20.positive',
         'cases.confirmed.todate', 'cases.confirmed', 'cases.active', 'cases.recovered.todate',
         'cases.closed.todate', 'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate', 'cases.rh.occupant.confirmed.todate',
         'cases.unclassified.confirmed.todate', 'state.in_hospital', 'state.icu', 'state.critical', 'state.in_hospital.todate', 'state.out_of_hospital.todate',
@@ -72,8 +72,8 @@ def computeStats(update_time):
         'deceased.male.0-4.todate', 'deceased.male.5-14.todate', 'deceased.male.15-24.todate', 'deceased.male.25-34.todate', 'deceased.male.35-44.todate',
         'deceased.male.45-54.todate', 'deceased.male.55-64.todate', 'deceased.male.65-74.todate', 'deceased.male.75-84.todate', 'deceased.male.85+.todate',
         'deceased.male.todate', 'deceased.rhoccupant.todate', 'deceased.other.todate',
-        'vaccination.administered', 'vaccination.administered.todate', 
-        'vaccination.administered2nd', 'vaccination.administered2nd.todate', 
+        'vaccination.administered', 'vaccination.administered.todate',
+        'vaccination.administered2nd', 'vaccination.administered2nd.todate',
         'vaccination.used.todate', 'vaccination.delivered.todate'
     ], axis='columns')
 
