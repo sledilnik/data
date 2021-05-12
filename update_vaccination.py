@@ -84,16 +84,33 @@ def import_nijz_dash_vacc_administred():
 def import_nijz_dash_vacc_delivered():
     filename = "csv/vaccination-delivered.csv"
 
-    df = pd.DataFrame.from_dict(cepimose.vaccines_supplied_by_manufacturer()).rename(columns={
-        'pfizer': 'vaccination.pfizer.delivered',
-        'moderna': 'vaccination.moderna.delivered',
-        'az': 'vaccination.az.delivered',
-        'janssen': 'vaccination.janssen.delivered',
-    }).set_index('date')
+    df = pd.DataFrame.from_dict(cepimose.vaccines_supplied_by_manufacturer()).set_index('date').rename(columns=lambda m: f'vaccination.{m}.delivered')
 
-    # sort columns
-    df = df[['vaccination.pfizer.delivered','vaccination.moderna.delivered','vaccination.az.delivered','vaccination.janssen.delivered']]
+    manufacturersMap = {
+        "pfizer":  cepimose.data.Manufacturer.PFIZER,
+        "moderna": cepimose.data.Manufacturer.MODERNA,
+        "az":      cepimose.data.Manufacturer.AZ,
+        "janssen": cepimose.data.Manufacturer.JANSSEN,
+    }
 
+    # add more columns
+    manufacturers_supplied_used = cepimose.vaccinations_by_manufacturer_supplied_used()
+    columns=[]
+    for m in manufacturersMap:
+        supplied_used = manufacturers_supplied_used[manufacturersMap[m]]
+        df_supplied_used=pd.DataFrame.from_dict(supplied_used).rename(columns={
+            'supplied': f'vaccination.{m}.delivered.todate',
+            'used': f'vaccination.{m}.used.todate',
+        }).set_index('date')
+
+        df = df.join(df_supplied_used)
+        columns.append(f'vaccination.{m}.delivered')
+        # columns.append(f'vaccination.{m}.delivered.todate')
+        columns.append(f'vaccination.{m}.used.todate')
+
+    # # sort columns
+    df = df[columns]
+ 
     # write csv
     old_hash = sha1sum(filename)
     # force integer type
