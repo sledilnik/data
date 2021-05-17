@@ -30,6 +30,7 @@ mapping = {
     'Maldivi': 'mdv',
     'NAM': 'nam',
     'Namibija': 'nam',
+    'Nepal': 'npl',
     'Nizozemska': 'nld',
     'Mali': 'mli',
     'Malta': 'mlt',
