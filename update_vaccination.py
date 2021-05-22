@@ -94,19 +94,19 @@ def import_nijz_dash_vacc_delivered():
     }
 
     # add more columns
-    # manufacturers_supplied_used = cepimose.vaccinations_by_manufacturer_supplied_used()
+    manufacturers_supplied_used = cepimose.vaccinations_by_manufacturer_supplied_used()
     columns=[]
     for m in manufacturersMap:
-        # supplied_used = manufacturers_supplied_used[manufacturersMap[m]]
-        # df_supplied_used=pd.DataFrame.from_dict(supplied_used).rename(columns={
-        #     'supplied': f'vaccination.{m}.delivered.todate',
-        #     'used': f'vaccination.{m}.used.todate',
-        # }).set_index('date')
+        supplied_used = manufacturers_supplied_used[manufacturersMap[m]]
+        df_supplied_used=pd.DataFrame.from_dict(supplied_used).rename(columns={
+            'supplied': f'vaccination.{m}.delivered.todate',
+            'used': f'vaccination.{m}.used.todate',
+        }).set_index('date')
 
-        # df = df.join(df_supplied_used)
+        df = df.join(df_supplied_used)
         columns.append(f'vaccination.{m}.delivered')
         # columns.append(f'vaccination.{m}.delivered.todate')
-        # columns.append(f'vaccination.{m}.used.todate')
+        columns.append(f'vaccination.{m}.used.todate')
 
     # # sort columns
     df = df[columns]
