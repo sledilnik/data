@@ -81,6 +81,56 @@ def import_nijz_dash_vacc_administred():
     df.replace(0, pd.NA).to_csv(filename, date_format='%Y-%m-%d')
     write_timestamp_file(filename, old_hash)
 
+def import_nijz_dash_vacc_used_by_manufacturer():
+    filename = "csv/vaccination-used_by_manufacturer.csv"
+    # add used by manufacturers
+    df = pd.DataFrame.from_dict(cepimose.vaccinations_by_manufacturer_used()).set_index('date').rename(columns={
+        'pfizer': 'vaccination.used.pfizer',
+        'moderna': 'vaccination.used.moderna',
+        'az': 'vaccination.used.az',
+        'janssen': 'vaccination.used.janssen'
+    }).astype('Int64')
+
+    df['vaccination.used.pfizer.todate'] = \
+        df['vaccination.used.pfizer'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+    df['vaccination.used.moderna.todate'] = \
+        df['vaccination.used.moderna'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+    df['vaccination.used.az.todate'] = \
+        df['vaccination.used.az'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+    df['vaccination.used.janssen.todate'] = \
+        df['vaccination.used.janssen'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+
+    # calcualte used vaccine doeses used total
+    df['vaccination.used'] = \
+        df['vaccination.used.pfizer'].fillna(0) + \
+        df['vaccination.used.moderna'].fillna(0) + \
+        df['vaccination.used.az'].fillna(0) + \
+        df['vaccination.used.janssen'].fillna(0)
+    df['vaccination.used.todate'] = \
+        df['vaccination.used'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+    df = df.astype('Int64')
+
+    # sort cols
+    df = df[[
+        'vaccination.used',
+        'vaccination.used.todate',
+        'vaccination.used.pfizer',
+        'vaccination.used.pfizer.todate',
+        'vaccination.used.moderna',
+        'vaccination.used.moderna.todate',
+        'vaccination.used.az',
+        'vaccination.used.az.todate',
+        'vaccination.used.janssen',
+        'vaccination.used.janssen.todate',
+    ]]
+    df = df.astype('Int64')
+
+    # write csv
+    old_hash = sha1sum(filename)
+    # replace 0 with pd.NA so it does not get written to CSV
+    df.replace(0, pd.NA).to_csv(filename, date_format='%Y-%m-%d')
+    write_timestamp_file(filename, old_hash)
+
 def import_nijz_dash_vacc_delivered():
     filename = "csv/vaccination-delivered.csv"
 
@@ -325,6 +375,7 @@ if __name__ == "__main__":
     update_time = int(time.time())
 
     import_nijz_dash_vacc_administred()
+    import_nijz_dash_vacc_used_by_manufacturer()
     import_nijz_dash_vacc_delivered()
     import_nijz_dash_vacc_by_age()
     import_nijz_dash_vacc_by_region()
