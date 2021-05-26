@@ -1,133 +1,67 @@
-<!DOCTYPE html>
-<!--[if IE 7]> <html lang="sl" class="ie ie7"> <![endif]-->
-<!--[if IE 8]> <html lang="sl" class="ie ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="sl" class="ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="sl"> <!--<![endif]-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    
-  
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=IE7" />
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>OPSI: Odprti podatki Slovenije</title>
+    <style type="text/css" media="screen">
+  * {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
 
-    <title>Portal OPSI</title>
+  body, html {
+    padding: 3px 3px 3px 3px;
 
-    
-    <link rel="shortcut icon" href="/images/icons/ckan.ico" />
-    
-  
+    background-color: #D8DBE2;
 
-  
-  
+    font-family: Verdana, sans-serif;
+    font-size: 12pt;
+    text-align: center;
+  }
 
+  div.main_page {
+    position: relative;
+    display: table;
 
-    
-  
-  <script type="text/javascript">
-    CKAN = {};
-    // later use will add offsets with leading '/' so ensure no trailing slash
-    CKAN.SITE_URL = '/'.replace(/\/$/, '');
-    CKAN.SITE_URL_NO_LOCALE = '/'.replace(/\/$/, '');
-    CKAN.USER = '';
-  </script>
-  
-  
-  
-  <script type="text/javascript">
-    document.getElementsByTagName('html')[0].className += ' js-enabled';
-  </script>
+    width: 800px;
 
-  <!-- Vendor scripts -->
-  <script type="text/javascript" src="/assets/js/vendor.min.js?1479284972975"></script>
-  <!-- CKAN DGU scripts -->
-  <!-- <script type="text/javascript" src="/assets/js/dgu-shared.min.js?1619423061403"></script> -->
-  <script type="text/javascript" src="/scripts/dgu-ckan-application.min.js?1619423061403"></script>
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 0px 0px;
 
-  
-  
+    border-width: 2px;
+    border-color: #212738;
+    border-style: solid;
 
-  
-  
+    background-color: #FFFFFF;
 
+    text-align: center;
+  }
 
-    
+  div.page_header {
+    height: 120px;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  div.content {
+    margin-bottom: 20px;
+  }
+    </style>
   </head>
+  <body>
+    <div class="main_page">
+      <div class="page_header">
+        <img src="/LOGO-OPSI.svg" alt="Logo OPSI"/>
+      </div>
+      <div class="content">
+        <p>Pozdravljeni, dobrodošli na spletni strani OPSI: Portala odprtih podatkov Slovenije.
 
-  
-  <body
- class="action-document document
-        controller-error error
-        
-        "
-      id=""
->
-
-    
-  
-    
-  
-
-    <div role="main">
-
-      
-  
-  
-
-
-    
-                        
-                        
-
-
-
-
-
-<div class="row ckan-container
-
-one_column
-
-" data-equalizer data-equalizer-mq="small-up">
-
-
-
-
-
-  
-  <article class="module">
-    <div class="module-content">
-      <html>
- <head>
-  <title>404 Not Found</title>
- </head>
- <body>
-  <h1>404 Not Found</h1>
-  The resource could not be found.<br /><br />
-Vir ni na voljo
-
-
- </body>
-</html>
+          Na strežnikih portala trenutno izvajamo vzdrževalna dela. Prosimo, da nas ponovno obiščete kasneje.</p>
+      </div>
     </div>
-  </article>
-
-
-</div>
-
-
-</div>
-
-    
-
-
-  
-
-
-    
-  <script type="text/javascript" src="/scripts/dgu-tracking.min.js?1619423061403"></script>  
-  
-
-      
   </body>
 </html>
