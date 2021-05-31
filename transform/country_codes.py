@@ -1,5 +1,6 @@
 mapping = {
     ' NEZNANO': 'unknown',
+    'Afganistan': 'afg',
     'Albanija': 'alb',
     'Avstralija': 'aus',
     'Avstrija': 'aut',
