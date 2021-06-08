@@ -1,4 +1,4 @@
-date,vaccination.used,vaccination.used.todate,vaccination.used.pfizer,vaccination.used.pfizer.todate,vaccination.used.moderna,vaccination.used.moderna.todate,vaccination.used.az,vaccination.used.az.todate,vaccination.used.janssen,vaccination.used.janssen.todate
+date,vaccination.used,vaccination.used.todate,vaccination.pfizer.used,vaccination.pfizer.used.todate,vaccination.moderna.used,vaccination.moderna.used.todate,vaccination.az.used,vaccination.az.used.todate,vaccination.janssen.used,vaccination.janssen.used.todate
 2020-12-27,6091,6091,6091,6091,,,,,,
 2020-12-28,1630,7721,1630,7721,,,,,,
 2020-12-29,1302,9023,1302,9023,,,,,,
