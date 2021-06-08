@@ -155,8 +155,6 @@ def import_nijz_dash_vacc_delivered():
 
         df = df.join(df_supplied_used)
         columns.append(f'vaccination.{m}.delivered')
-        # columns.append(f'vaccination.{m}.delivered.todate')
-        columns.append(f'vaccination.{m}.used.todate')
 
     # # sort columns
     df = df[columns]
