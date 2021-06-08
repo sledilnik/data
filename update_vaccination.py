@@ -17,7 +17,9 @@ def computeVaccination(update_time):
 
     df_d= pd.read_csv('csv/vaccination-delivered.csv', index_col='date')
 
-    merged = df_a.join(df_d, how='outer')
+    df_m= pd.read_csv('csv/vaccination-used_by_manufacturer.csv', index_col='date')
+
+    merged = df_a.join(df_m, how='outer').join(df_d, how='outer')
     merged['vaccination.pfizer.delivered.todate'] = \
         merged['vaccination.pfizer.delivered'].fillna(0).cumsum().replace({0: None}).astype('Int64')
     merged['vaccination.moderna.delivered.todate'] = \
@@ -69,10 +71,8 @@ def import_nijz_dash_vacc_administred():
     # merge dataframes (cumulative and per day)
     df = pd.merge(df, df_diff, right_index=True, left_index=True)
 
-    # calcualte used vaccine doeses
-    df['vaccination.used.todate'] = df['vaccination.administered.todate'] + df['vaccination.administered2nd.todate']
     # sort cols
-    df = df[['vaccination.administered', 'vaccination.administered.todate', 'vaccination.administered2nd', 'vaccination.administered2nd.todate', 'vaccination.used.todate']]
+    df = df[['vaccination.administered', 'vaccination.administered.todate', 'vaccination.administered2nd', 'vaccination.administered2nd.todate']]
     df = df.astype('Int64')
 
     # write csv
@@ -100,7 +100,7 @@ def import_nijz_dash_vacc_used_by_manufacturer():
     df['vaccination.used.janssen.todate'] = \
         df['vaccination.used.janssen'].fillna(0).cumsum().replace({0: None}).astype('Int64')
 
-    # calcualte used vaccine doeses used total
+    # calculate used vaccine doeses used total
     df['vaccination.used'] = \
         df['vaccination.used.pfizer'].fillna(0) + \
         df['vaccination.used.moderna'].fillna(0) + \
