@@ -37,6 +37,10 @@ def computeVaccination(update_time):
         'vaccination.administered', 'vaccination.administered.todate',
         'vaccination.administered2nd', 'vaccination.administered2nd.todate',
         'vaccination.used.todate',
+        'vaccination.pfizer.used.todate',
+        'vaccination.moderna.used.todate',
+        'vaccination.az.used.todate',
+        'vaccination.janssen.used.todate',
         'vaccination.delivered.todate',
         'vaccination.pfizer.delivered', 'vaccination.pfizer.delivered.todate',
         'vaccination.moderna.delivered', 'vaccination.moderna.delivered.todate',
@@ -85,27 +89,27 @@ def import_nijz_dash_vacc_used_by_manufacturer():
     filename = "csv/vaccination-used_by_manufacturer.csv"
     # add used by manufacturers
     df = pd.DataFrame.from_dict(cepimose.vaccinations_by_manufacturer_used()).set_index('date').rename(columns={
-        'pfizer': 'vaccination.used.pfizer',
-        'moderna': 'vaccination.used.moderna',
-        'az': 'vaccination.used.az',
-        'janssen': 'vaccination.used.janssen'
+        'pfizer': 'vaccination.pfizer.used',
+        'moderna': 'vaccination.moderna.used',
+        'az': 'vaccination.az.used',
+        'janssen': 'vaccination.janssen.used'
     }).astype('Int64')
 
-    df['vaccination.used.pfizer.todate'] = \
-        df['vaccination.used.pfizer'].fillna(0).cumsum().replace({0: None}).astype('Int64')
-    df['vaccination.used.moderna.todate'] = \
-        df['vaccination.used.moderna'].fillna(0).cumsum().replace({0: None}).astype('Int64')
-    df['vaccination.used.az.todate'] = \
-        df['vaccination.used.az'].fillna(0).cumsum().replace({0: None}).astype('Int64')
-    df['vaccination.used.janssen.todate'] = \
-        df['vaccination.used.janssen'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+    df['vaccination.pfizer.used.todate'] = \
+        df['vaccination.pfizer.used'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+    df['vaccination.moderna.used.todate'] = \
+        df['vaccination.moderna.used'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+    df['vaccination.az.used.todate'] = \
+        df['vaccination.az.used'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+    df['vaccination.janssen.used.todate'] = \
+        df['vaccination.janssen.used'].fillna(0).cumsum().replace({0: None}).astype('Int64')
 
     # calculate used vaccine doeses used total
     df['vaccination.used'] = \
-        df['vaccination.used.pfizer'].fillna(0) + \
-        df['vaccination.used.moderna'].fillna(0) + \
-        df['vaccination.used.az'].fillna(0) + \
-        df['vaccination.used.janssen'].fillna(0)
+        df['vaccination.pfizer.used'].fillna(0) + \
+        df['vaccination.moderna.used'].fillna(0) + \
+        df['vaccination.az.used'].fillna(0) + \
+        df['vaccination.janssen.used'].fillna(0)
     df['vaccination.used.todate'] = \
         df['vaccination.used'].fillna(0).cumsum().replace({0: None}).astype('Int64')
     df = df.astype('Int64')
@@ -114,14 +118,14 @@ def import_nijz_dash_vacc_used_by_manufacturer():
     df = df[[
         'vaccination.used',
         'vaccination.used.todate',
-        'vaccination.used.pfizer',
-        'vaccination.used.pfizer.todate',
-        'vaccination.used.moderna',
-        'vaccination.used.moderna.todate',
-        'vaccination.used.az',
-        'vaccination.used.az.todate',
-        'vaccination.used.janssen',
-        'vaccination.used.janssen.todate',
+        'vaccination.pfizer.used',
+        'vaccination.pfizer.used.todate',
+        'vaccination.moderna.used',
+        'vaccination.moderna.used.todate',
+        'vaccination.az.used',
+        'vaccination.az.used.todate',
+        'vaccination.janssen.used',
+        'vaccination.janssen.used.todate',
     ]]
     df = df.astype('Int64')
 
