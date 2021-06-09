@@ -19,7 +19,9 @@ def computeVaccination(update_time):
 
     df_m= pd.read_csv('csv/vaccination-used_by_manufacturer.csv', index_col='date')
 
-    merged = df_a.join(df_m, how='outer').join(df_d, how='outer')
+    df_g= pd.read_csv('csv/vaccination-by_age.csv', index_col='date')
+
+    merged = df_a.join(df_m, how='outer').join(df_d, how='outer').join(df_g, how='outer')
     merged['vaccination.pfizer.delivered.todate'] = \
         merged['vaccination.pfizer.delivered'].fillna(0).cumsum().replace({0: None}).astype('Int64')
     merged['vaccination.moderna.delivered.todate'] = \
@@ -45,7 +47,23 @@ def computeVaccination(update_time):
         'vaccination.pfizer.delivered', 'vaccination.pfizer.delivered.todate',
         'vaccination.moderna.delivered', 'vaccination.moderna.delivered.todate',
         'vaccination.az.delivered', 'vaccination.az.delivered.todate',
-        'vaccination.janssen.delivered', 'vaccination.janssen.delivered.todate'
+        'vaccination.janssen.delivered', 'vaccination.janssen.delivered.todate',
+        'vaccination.age.0-17.1st.todate','vaccination.age.0-17.2nd.todate',
+        'vaccination.age.18-24.1st.todate','vaccination.age.18-24.2nd.todate',
+        'vaccination.age.25-29.1st.todate','vaccination.age.25-29.2nd.todate',
+        'vaccination.age.30-34.1st.todate','vaccination.age.30-34.2nd.todate',
+        'vaccination.age.35-39.1st.todate','vaccination.age.35-39.2nd.todate',
+        'vaccination.age.40-44.1st.todate','vaccination.age.40-44.2nd.todate',
+        'vaccination.age.45-49.1st.todate','vaccination.age.45-49.2nd.todate',
+        'vaccination.age.50-54.1st.todate','vaccination.age.50-54.2nd.todate',
+        'vaccination.age.55-59.1st.todate','vaccination.age.55-59.2nd.todate',
+        'vaccination.age.60-64.1st.todate','vaccination.age.60-64.2nd.todate',
+        'vaccination.age.65-69.1st.todate','vaccination.age.65-69.2nd.todate',
+        'vaccination.age.70-74.1st.todate','vaccination.age.70-74.2nd.todate',
+        'vaccination.age.75-79.1st.todate','vaccination.age.75-79.2nd.todate',
+        'vaccination.age.80-84.1st.todate','vaccination.age.80-84.2nd.todate',
+        'vaccination.age.85-89.1st.todate','vaccination.age.85-89.2nd.todate',
+        'vaccination.age.90+.1st.todate','vaccination.age.90+.2nd.todate'
     ], axis='columns')
     merged.to_csv(filename, float_format='%.0f', line_terminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=old_hash)
