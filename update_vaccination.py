@@ -172,22 +172,6 @@ def import_nijz_dash_vacc_by_age():
     df_today = pd.DataFrame([today_data], index=[datetime.date.today()])
     df_today.index.name = 'date'
 
-    def start_age(colname: str):
-        return int(colname.split('.')[2].split('-')[0].strip('+'))
-
-    def phase(colname: str):
-        return colname.split('.')[3]
-
-    # columns to be calculates
-    columns_1864_1st = list(filter(lambda s: start_age(s) < 65 and phase(s) == '1st', df_today.columns))
-    columns_1864_2nd = list(filter(lambda s: start_age(s) < 65 and phase(s) == '2nd', df_today.columns))
-    columns_65_1st = list(filter(lambda s: start_age(s) >= 65 and phase(s) == '1st', df_today.columns))
-    columns_65_2nd = list(filter(lambda s: start_age(s) >= 65 and phase(s) == '2nd', df_today.columns))
-    df_today['vaccination.age.18-64.1st.todate'] = df_today[columns_1864_1st].sum(axis=1)
-    df_today['vaccination.age.18-64.2nd.todate'] = df_today[columns_1864_2nd].sum(axis=1)
-    df_today['vaccination.age.65+.1st.todate'] = df_today[columns_65_1st].sum(axis=1)
-    df_today['vaccination.age.65+.2nd.todate'] = df_today[columns_65_2nd].sum(axis=1)
-
     df_updated = df_today.combine_first(df_existing).astype('Int64')
 
     col_order = ['vaccination.age.0-17.1st.todate',
@@ -221,11 +205,7 @@ def import_nijz_dash_vacc_by_age():
         'vaccination.age.85-89.1st.todate',
         'vaccination.age.85-89.2nd.todate',
         'vaccination.age.90+.1st.todate',
-        'vaccination.age.90+.2nd.todate',
-        'vaccination.age.18-64.1st.todate',
-        'vaccination.age.18-64.2nd.todate',
-        'vaccination.age.65+.1st.todate',
-        'vaccination.age.65+.2nd.todate']
+        'vaccination.age.90+.2nd.todate']
 
     df_updated = df_updated[col_order]
 
