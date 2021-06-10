@@ -180,55 +180,50 @@ def import_nijz_dash_vacc_delivered():
 
 def import_nijz_dash_vacc_by_age():
     filename = "csv/vaccination-by_age.csv"
-    df_existing = pd.read_csv(filename, index_col=0, parse_dates=[0])
 
-    today_data = {}
-    for row in cepimose.vaccinations_by_age():
-        today_data["vaccination.age.{}.1st.todate".format(row.age_group)] = row.count_first
-        today_data["vaccination.age.{}.2nd.todate".format(row.age_group)] = row.count_second
+    # map cepimose regions to sledilnik regions, preserving previous order
+    ageGroups = {
+        cepimose.data.AgeGroup.GROUP_0_17: "0-17",
+        cepimose.data.AgeGroup.GROUP_18_24: "18-24",
+        cepimose.data.AgeGroup.GROUP_25_29: "25-29",
+        cepimose.data.AgeGroup.GROUP_30_34: "30-34",
+        cepimose.data.AgeGroup.GROUP_35_39: "35-39",
+        cepimose.data.AgeGroup.GROUP_40_44: "40-44",
+        cepimose.data.AgeGroup.GROUP_45_49: "45-49",
+        cepimose.data.AgeGroup.GROUP_50_54: "50-54",
+        cepimose.data.AgeGroup.GROUP_55_59: "55-59",
+        cepimose.data.AgeGroup.GROUP_60_64: "60-64",
+        cepimose.data.AgeGroup.GROUP_65_69: "65-69",
+        cepimose.data.AgeGroup.GROUP_70_74: "70-74",
+        cepimose.data.AgeGroup.GROUP_75_79: "75-79",
+        cepimose.data.AgeGroup.GROUP_80_84: "80-84",
+        cepimose.data.AgeGroup.GROUP_85_89: "85-89",
+        cepimose.data.AgeGroup.GROUP_90: "90+"
+    }
 
-    df_today = pd.DataFrame([today_data], index=[datetime.date.today()])
-    df_today.index.name = 'date'
+    df = pd.DataFrame()
+    vByAgeGroups = cepimose.vaccinations_by_age_group()
+    for ag in vByAgeGroups:
+        print(f"Joining {ageGroups[ag]} ({ag}): {len(vByAgeGroups[ag])} rows:")
+        agData = pd.DataFrame.from_dict(vByAgeGroups[ag]).set_index('date')
+        # agData["first_diff"] = agData["first_dose"].diff()
+        # agData["second_diff"] = agData["second_dose"].diff()
+        # agData = agData[['first_diff', 'first_dose', 'second_diff', 'second_dose']]
+        agData.rename(inplace=True, columns={
+            # 'first_diff': f'vaccination.age.{ageGroups[ag]}.1st',
+            'first_dose': f'vaccination.age.{ageGroups[ag]}.1st.todate',
+            # 'second_diff': f'vaccination.region.{ageGroups[ag]}.2nd',
+            'second_dose': f'vaccination.age.{ageGroups[ag]}.2nd.todate',
+        })
+        print(agData)
+        print(agData.describe())
+        df=df.join(agData, how='outer')
 
-    df_updated = df_today.combine_first(df_existing).astype('Int64')
-
-    col_order = ['vaccination.age.0-17.1st.todate',
-        'vaccination.age.0-17.2nd.todate',
-        'vaccination.age.18-24.1st.todate',
-        'vaccination.age.18-24.2nd.todate',
-        'vaccination.age.25-29.1st.todate',
-        'vaccination.age.25-29.2nd.todate',
-        'vaccination.age.30-34.1st.todate',
-        'vaccination.age.30-34.2nd.todate',
-        'vaccination.age.35-39.1st.todate',
-        'vaccination.age.35-39.2nd.todate',
-        'vaccination.age.40-44.1st.todate',
-        'vaccination.age.40-44.2nd.todate',
-        'vaccination.age.45-49.1st.todate',
-        'vaccination.age.45-49.2nd.todate',
-        'vaccination.age.50-54.1st.todate',
-        'vaccination.age.50-54.2nd.todate',
-        'vaccination.age.55-59.1st.todate',
-        'vaccination.age.55-59.2nd.todate',
-        'vaccination.age.60-64.1st.todate',
-        'vaccination.age.60-64.2nd.todate',
-        'vaccination.age.65-69.1st.todate',
-        'vaccination.age.65-69.2nd.todate',
-        'vaccination.age.70-74.1st.todate',
-        'vaccination.age.70-74.2nd.todate',
-        'vaccination.age.75-79.1st.todate',
-        'vaccination.age.75-79.2nd.todate',
-        'vaccination.age.80-84.1st.todate',
-        'vaccination.age.80-84.2nd.todate',
-        'vaccination.age.85-89.1st.todate',
-        'vaccination.age.85-89.2nd.todate',
-        'vaccination.age.90+.1st.todate',
-        'vaccination.age.90+.2nd.todate']
-
-    df_updated = df_updated[col_order]
+    print(df)
+    print(df.describe())
 
     old_hash = sha1sum(filename)
-    df_updated.astype('Int64').to_csv(filename, date_format='%Y-%m-%d')
+    df.astype('Int64').replace({0:None}).to_csv(filename, date_format='%Y-%m-%d')
     write_timestamp_file(filename, old_hash)
 
 def import_nijz_dash_vacc_by_region():
