@@ -1,4 +1,4 @@
-sheet2csv==1.0.4
+sheet2csv==1.0.6
 # git+https://github.com/sledilnik/sheet2csv.git@v1.0.2#egg=sheet2csv
 numpy==1.20.*
 openpyxl==3.0.*
