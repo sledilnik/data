@@ -145,7 +145,7 @@ def import_nijz_dash_vacc_used_by_manufacturer():
         'vaccination.janssen.used',
         'vaccination.janssen.used.todate',
     ]]
-    df = df.astype('Int64')
+    df = df.replace({0: None}).astype('Int64')
 
     # write csv
     old_hash = sha1sum(filename)
