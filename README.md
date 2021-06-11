@@ -16,7 +16,7 @@ This repository is for organising our collaboration better: wikis, issues etc.
 
 `Python 3.8+` is required to run scripts in this repo.
 
-Vaccination update depends on [py-cepimose](https://github.com/sledilnik/py-cepimose) with a specific set of [![Tests for Sledilnik.org](https://github.com/sledilnik/py-cepimose/actions/workflows/testSledilnik.yml/badge.svg)](https://github.com/sledilnik/py-cepimose/actions/workflows/testSledilnik.yml)
+Vaccination update depends on [py-cepimose](https://github.com/sledilnik/py-cepimose) with a specific subset of [![Tests for Sledilnik.org](https://github.com/sledilnik/py-cepimose/actions/workflows/testSledilnik.yml/badge.svg)](https://github.com/sledilnik/py-cepimose/actions/workflows/testSledilnik.yml)
 
 
 ## How to run scripts
