@@ -1,5 +1,6 @@
 mapping = {
     ' NEZNANO': 'unknown',
+    'Afganistan': 'afg',
     'Albanija': 'alb',
     'Avstralija': 'aus',
     'Avstrija': 'aut',
@@ -30,6 +31,7 @@ mapping = {
     'Maldivi': 'mdv',
     'NAM': 'nam',
     'Namibija': 'nam',
+    'Nepal': 'npl',
     'Nizozemska': 'nld',
     'Mali': 'mli',
     'Malta': 'mlt',

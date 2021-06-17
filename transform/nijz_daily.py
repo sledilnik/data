@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import copy
 import csv
 import glob
@@ -130,7 +132,7 @@ export_dataframe_to_csv(name='region-confirmed', dataframe=df_regions_cases.cums
 df_regions_cases_active = df.copy(deep=True)
 df_regions_cases_active.loc[:, 'region.active'] = df_regions_cases_active.sum(axis=1)  # sums of each row in the column at the end
 df_regions_cases_active = df_regions_cases_active.rename(mapper=lambda x: x.replace('todate', 'active'), axis='columns') \
-    .rolling(min_periods=1, window=14).sum().replace({0: None}).astype('Int64') 
+    .rolling(min_periods=1, window=14).sum().replace({0: None}).astype('Int64')
 export_dataframe_to_csv(name='region-active', dataframe=df_regions_cases_active)
 
 # --- regions-deceased.csv ---

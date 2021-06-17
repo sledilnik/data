@@ -56,7 +56,7 @@ jobs:
           ${{ runner.os }}-
 
     - name: Install python dependencies
-      run: pip install -r requirements.txt
+      run: pip install -U -r requirements.txt
 
     - name: "Run vaccination update update_vaccination.py"
       run: | 
@@ -79,6 +79,6 @@ jobs:
         push-branch: 'master'
         commit-message: 'NIJZ cepimose vaccination data update 🤖'
         rebase: 'true' # pull and rebase before commit
-        files: csv/vaccination* csv/stats.*
+        files: csv/vaccination* csv/stats.* csv/municipality-cases.* csv/region-cases.*
         name: Sledilnik data scrape bot 🤖
         email: info@sledilnik.org
