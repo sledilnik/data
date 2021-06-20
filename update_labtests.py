@@ -25,17 +25,6 @@ def import_nijz_dash_labtests():
     day_data['tests.performed'] = day_data['tests.regular.performed']
     day_data['tests.positive'] = day_data['tests.regular.positive']
 
-    if earlierdate in df_existing.index:
-        day_earlier_data = df_existing.loc[earlierdate]
-        print(day_earlier_data)
-        day_data['tests.performed.todate'] = day_data['tests.performed'] + day_earlier_data['tests.performed.todate']
-        day_data['tests.positive.todate'] = day_data['tests.positive'] + day_earlier_data['tests.positive.todate']
-    
-    else:
-        #TODO: check for proper calculation:
-        day_data['tests.performed.todate'] = day_data['tests.regular.performed.todate']
-        day_data['tests.positive.todate'] = day_data['tests.regular.positive.todate']
-
     df_day_data = pd.DataFrame([day_data], index=[d])
     df_day_data.index.name = 'date'
     print(df_day_data)
