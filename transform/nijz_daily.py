@@ -201,24 +201,31 @@ for date in df_cases.index.difference(df_joined.index):  # do not delete latest 
 
 export_dataframe_to_csv(name='cases', dataframe=df_joined)
 
-# --- vaccination-administered.csv ---
-#df_2 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 2', engine='openpyxl', skiprows=[0], skipfooter=1) \
-#    .rename(mapper={
-#        'Datum podatkov': 'date',
-#        'Število cepljenih oseb s prvim odmerkom': 'vaccination.administered',
-#        'Število cepljenih oseb z drugim odmerkom': 'vaccination.administered2nd'
-#    }, axis='columns').set_index('date')
-##df_2 = df_1[df_1.index.notnull()]  # drop non-indexed rows (where NaN is a part of the index)
-#df_2.drop('SKUPAJ', axis='rows', inplace=True)
-#df_2 = df_2.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')
-#df_2['vaccination.administered.todate'] = df_2['vaccination.administered'].cumsum()
-#df_2['vaccination.administered2nd.todate'] = df_2['vaccination.administered2nd'].cumsum()
-#df_2['vaccination.used.todate'] = df_2['vaccination.administered.todate'] + df_2['vaccination.administered2nd.todate']
-#
-#df_2 = df_2.reindex([
-#    'vaccination.administered', 'vaccination.administered.todate',
-#    'vaccination.administered2nd', 'vaccination.administered2nd.todate',
-#    'vaccination.used.todate'
-#    ], axis='columns')
-#
-#export_dataframe_to_csv(name='vaccination-administered', dataframe=df_2)
+# --- lab-tests.csv ---
+df_lab_tests = pd.read_csv(os.path.join(CSV_FOLDER, 'lab-tests.csv'), index_col='date', parse_dates=['date'])
+
+df_1 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 1', engine='openpyxl', skiprows=[0], skipfooter=1) \
+    .rename(mapper={
+        'Datum izvida': 'date',
+        'SKUPAJ': 'tests.regular.positive',
+        'Dnevno število testiranih oseb s PCR': 'tests.regular.performed',
+        'Dnevno število testiranih oseb s HAGT': 'tests.hagt.performed'
+    }, axis='columns').set_index('date')
+df_1 = df_1[df_1.index.notnull()]  # drop non-indexed rows (where NaN is a part of the index)
+df_1.drop('SKUPAJ', axis='rows', inplace=True)
+df_1 = df_1.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')[[
+    'tests.regular.positive', 
+    'tests.regular.performed',
+    'tests.hagt.performed'
+]]
+df_1['tests.positive'] = df_1['tests.regular.positive'] # total positive is same as regular
+df_1 = df_1[df_1.index > "2021-02-12"] # drop data about tests after switch to HAT+ validation with PCR
+
+df_lab_tests.update(df_1)
+# recalculate .todate fields after updates
+df_lab_tests['tests.positive.todate'] = df_lab_tests['tests.positive'].fillna(0).cumsum()
+df_lab_tests['tests.regular.positive.todate'] = df_lab_tests['tests.regular.positive'].fillna(0).cumsum()
+df_lab_tests['tests.regular.performed.todate'] = df_lab_tests['tests.regular.performed'].fillna(0).cumsum()
+df_lab_tests['tests.hagt.performed.todate'] = df_lab_tests['tests.hagt.performed'].fillna(0).cumsum()
+
+export_dataframe_to_csv(name='lab-tests', dataframe=df_lab_tests)
