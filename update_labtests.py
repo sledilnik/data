@@ -3,7 +3,7 @@
 import time
 import pandas as pd
 import cepimose
-from update_stats import computeStats
+from update_stats import computeStats, computeCases
 
 from transform.utils import sha1sum, write_timestamp_file
 
@@ -54,4 +54,5 @@ if __name__ == "__main__":
     update_time = int(time.time())
 
     import_nijz_dash_labtests()
+    computeCases(update_time)
     computeStats(update_time)
