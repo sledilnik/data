@@ -221,6 +221,8 @@ df_1 = df_1.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows
 df_1['tests.positive'] = df_1['tests.regular.positive'] # total positive is same as regular
 df_1 = df_1[df_1.index > "2021-02-12"] # drop data about tests after switch to HAT+ validation with PCR
 
+print(df_1)
+
 df_lab_tests.update(df_1)
 # recalculate .todate fields after updates
 df_lab_tests['tests.positive.todate'] = df_lab_tests['tests.positive'].fillna(0).cumsum()
