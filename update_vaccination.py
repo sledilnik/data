@@ -304,10 +304,10 @@ def import_nijz_dash_vacc_by_municipalities():
         if len(mun.index) > 1:
             raise Exception(f'{len(mun.index)} municipalities match: {row.name}')
 
-        pop=mun.to_records()[0].population
-        if pop != row.population:
-            # comment this out if it starts to fail to continue scraping until the population is fixed in dict-municipality.csv
-            raise Exception(f'Population mismatch in {row.name}: {pop} (dict-municipality.csv) != {row.population} (NIJZ)')
+        # pop=mun.to_records()[0].population
+        # if pop != row.population:
+        #     # comment this out if it starts to fail to continue scraping until the population is fixed in dict-municipality.csv
+        #     raise Exception(f'Population mismatch in {row.name}: {pop} (dict-municipality.csv) != {row.population} (NIJZ)')
 
         # add new columns:
         munId=mun.to_records()[0].id
