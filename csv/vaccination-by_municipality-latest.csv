@@ -13,7 +13,7 @@ bovec,ng,SI-006,Bovec,3245,1195,0.36826,1096,0.33775
 braslovče,ce,SI-151,Braslovče,5656,2620,0.46322,2250,0.39781
 brda,ng,SI-007,Brda,5639,2362,0.41887,2030,0.35999
 brezovica,lj,SI-008,Brezovica,12785,5254,0.41095,4510,0.35276
-brežice,kk,SI-009,Brežice,24419,9252,0.37889,7726,0.31639
+brežice,kk,SI-009,Brežice,24419,9252,0.37889,7727,0.31643
 cankova,ms,SI-152,Cankova,1753,690,0.39361,592,0.33771
 celje,ce,SI-011,Celje,49007,19840,0.40484,17367,0.35438
 cerklje_na_gorenjskem,kr,SI-012,Cerklje na Gorenjskem,7859,2976,0.37867,2537,0.32281
@@ -46,7 +46,7 @@ gornji_petrovci,ms,SI-031,Gornji Petrovci,2040,714,0.35,623,0.30539
 grad,ms,SI-158,Grad,2087,710,0.3402,593,0.28414
 grosuplje,lj,SI-032,Grosuplje,21398,8544,0.39929,7096,0.33162
 hajdina,mb,SI-159,Hajdina,3938,1498,0.3804,1257,0.3192
-hoče-slivnica,mb,SI-160,Hoče - Slivnica,11720,4477,0.382,4028,0.34369
+hoče-slivnica,mb,SI-160,Hoče - Slivnica,11720,4478,0.38208,4031,0.34394
 hodoš,ms,SI-161,Hodoš/Hodos,369,135,0.36585,112,0.30352
 horjul,lj,SI-162,Horjul,2985,1106,0.37052,984,0.32965
 hrastnik,za,SI-034,Hrastnik,9058,4225,0.46644,3596,0.397
@@ -75,13 +75,13 @@ kranj,kr,SI-052,Kranj,57185,23470,0.41042,20379,0.35637
 kranjska_gora,kr,SI-053,Kranjska Gora,7522,2506,0.33316,2182,0.29008
 križevci,ms,SI-166,Križevci,3549,1222,0.34432,1064,0.2998
 krško,kk,SI-054,Krško,25904,9567,0.36933,8156,0.31485
-kungota,mb,SI-055,Kungota,4844,1813,0.37428,1602,0.33072
+kungota,mb,SI-055,Kungota,4844,1813,0.37428,1603,0.33092
 kuzma,ms,SI-056,Kuzma,1624,543,0.33436,445,0.27401
 laško,ce,SI-057,Laško,13123,4652,0.35449,4053,0.30885
 lenart,mb,SI-058,Lenart,8512,3144,0.36936,2816,0.33083
 lendava,ms,SI-059,Lendava/Lendva,10486,4483,0.42752,3812,0.36353
 litija,za,SI-060,Litija,15743,6421,0.40786,5364,0.34072
-ljubljana,lj,SI-061,Ljubljana,294464,126727,0.43037,109535,0.37198
+ljubljana,lj,SI-061,Ljubljana,294464,126727,0.43037,109537,0.37199
 ljubno,ce,SI-062,Ljubno,2576,948,0.36801,861,0.33424
 ljutomer,ms,SI-063,Ljutomer,11233,3780,0.33651,3321,0.29565
 log-dragomer,lj,SI-208,Log - Dragomer,3620,1793,0.4953,1616,0.44641
@@ -91,15 +91,15 @@ loški_potok,nm,SI-066,Loški Potok,1816,741,0.40804,666,0.36674
 lovrenc_na_pohorju,mb,SI-167,Lovrenc na Pohorju,2988,1266,0.42369,1134,0.37952
 luče,ce,SI-067,Luče,1454,498,0.3425,439,0.30193
 lukovica,lj,SI-068,Lukovica,5888,2284,0.38791,1947,0.33067
-majšperk,mb,SI-069,Majšperk,4060,1413,0.34803,1178,0.29015
+majšperk,mb,SI-069,Majšperk,4060,1414,0.34828,1179,0.29039
 makole,mb,SI-198,Makole,2051,647,0.31546,575,0.28035
-maribor,mb,SI-070,Maribor,113778,42511,0.37363,38903,0.34192
+maribor,mb,SI-070,Maribor,113778,42549,0.37397,38924,0.3421
 markovci,mb,SI-168,Markovci,4025,1532,0.38062,1270,0.31553
 medvode,lj,SI-071,Medvode,16811,7340,0.43662,6484,0.3857
 mengeš,lj,SI-072,Mengeš,8411,3332,0.39615,2882,0.34265
 metlika,nm,SI-073,Metlika,8480,3213,0.37889,2752,0.32453
 mežica,sg,SI-074,Mežica,3598,1667,0.46331,1550,0.43079
-miklavž_na_dravskem_polju,mb,SI-169,Miklavž na Dravskem polju,6996,2781,0.39751,2539,0.36292
+miklavž_na_dravskem_polju,mb,SI-169,Miklavž na Dravskem polju,6996,2782,0.39766,2539,0.36292
 miren-kostanjevica,ng,SI-075,Miren - Kostanjevica,5029,2019,0.40147,1776,0.35315
 mirna,nm,SI-212,Mirna,2683,1089,0.40589,921,0.34327
 mirna_peč,nm,SI-170,Mirna Peč,3034,1247,0.41101,1072,0.35333
@@ -123,7 +123,7 @@ piran,kp,SI-090,Piran/Pirano,18457,7329,0.39709,6730,0.36463
 pivka,po,SI-091,Pivka,6190,2569,0.41502,2234,0.3609
 podčetrtek,ce,SI-092,Podčetrtek,3614,1059,0.29303,853,0.23603
 podlehnik,mb,SI-172,Podlehnik,1853,586,0.31624,489,0.2639
-podvelka,sg,SI-093,Podvelka,2365,794,0.33573,717,0.30317
+podvelka,sg,SI-093,Podvelka,2365,796,0.33658,719,0.30402
 poljčane,mb,SI-200,Poljčane,4467,1545,0.34587,1350,0.30222
 polzela,ce,SI-173,Polzela,6321,2598,0.41101,2231,0.35295
 postojna,po,SI-094,Postojna,16675,7106,0.42615,6183,0.37079
@@ -132,7 +132,7 @@ preddvor,kr,SI-095,Preddvor,3780,1616,0.42751,1398,0.36984
 prevalje,sg,SI-175,Prevalje,6800,3088,0.45412,2862,0.42088
 ptuj,mb,SI-096,Ptuj,23611,9332,0.39524,7947,0.33658
 puconci,ms,SI-097,Puconci,5904,2117,0.35857,1829,0.30979
-rače-fram,mb,SI-098,Rače - Fram,7623,2901,0.38056,2588,0.3395
+rače-fram,mb,SI-098,Rače - Fram,7623,2903,0.38082,2588,0.3395
 radeče,kk,SI-099,Radeče,4164,1930,0.4635,1671,0.4013
 radenci,ms,SI-100,Radenci,5098,2133,0.4184,1821,0.3572
 radlje_ob_dravi,sg,SI-101,Radlje ob Dravi,6164,2369,0.38433,2167,0.35156
@@ -146,8 +146,8 @@ ribnica_na_pohorju,sg,SI-177,Ribnica na Pohorju,1142,483,0.42294,431,0.37741
 rogaška_slatina,ce,SI-106,Rogaška Slatina,11323,3731,0.32951,3073,0.27139
 rogašovci,ms,SI-105,Rogašovci,3114,996,0.31985,845,0.27136
 rogatec,ce,SI-107,Rogatec,3138,971,0.30943,777,0.24761
-ruše,mb,SI-108,Ruše,7055,2627,0.37236,2373,0.33636
-selnica_ob_dravi,mb,SI-178,Selnica ob Dravi,4562,1656,0.363,1518,0.33275
+ruše,mb,SI-108,Ruše,7055,2628,0.3725,2374,0.3365
+selnica_ob_dravi,mb,SI-178,Selnica ob Dravi,4562,1658,0.36344,1519,0.33297
 semič,nm,SI-109,Semič,3887,1409,0.36249,1191,0.30641
 sevnica,kk,SI-110,Sevnica,17639,6685,0.37899,5688,0.32247
 sežana,kp,SI-111,Sežana,13802,5113,0.37045,4424,0.32053
