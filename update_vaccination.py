@@ -362,7 +362,7 @@ if __name__ == "__main__":
 
     import_nijz_dash_vacc_administred()
     import_nijz_dash_vacc_used_by_manufacturer()
-    #import_nijz_dash_vacc_delivered()
+    import_nijz_dash_vacc_delivered()
     import_nijz_dash_vacc_by_age()
     import_nijz_dash_vacc_by_region()
     import_nijz_dash_vacc_by_municipalities()
