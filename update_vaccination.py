@@ -17,11 +17,13 @@ def computeVaccination(update_time):
 
     df_d= pd.read_csv('csv/vaccination-delivered.csv', index_col='date')
 
+    df_l= pd.read_csv('csv/vaccination-lost.csv', index_col='date')
+
     df_m= pd.read_csv('csv/vaccination-used_by_manufacturer.csv', index_col='date')
 
     df_g= pd.read_csv('csv/vaccination-by_age.csv', index_col='date')
 
-    merged = df_a.join(df_m, how='outer').join(df_d, how='outer').join(df_g, how='outer')
+    merged = df_a.join(df_m, how='outer').join(df_d, how='outer').join(df_l, how='outer').join(df_g, how='outer')
     merged['vaccination.pfizer.delivered.todate'] = \
         merged['vaccination.pfizer.delivered'].fillna(0).cumsum().replace({0: None}).astype('Int64')
     merged['vaccination.moderna.delivered.todate'] = \
@@ -34,6 +36,19 @@ def computeVaccination(update_time):
         .add(merged['vaccination.moderna.delivered.todate'], fill_value=0) \
         .add(merged['vaccination.az.delivered.todate'], fill_value=0) \
         .add(merged['vaccination.janssen.delivered.todate'], fill_value=0).astype('Int64')
+
+    merged['vaccination.pfizer.lost.todate'] = \
+        merged['vaccination.pfizer.lost'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+    merged['vaccination.moderna.lost.todate'] = \
+        merged['vaccination.moderna.lost'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+    merged['vaccination.az.lost.todate'] = \
+        merged['vaccination.az.lost'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+    merged['vaccination.janssen.lost.todate'] = \
+        merged['vaccination.janssen.lost'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+    merged['vaccination.lost.todate'] = merged['vaccination.pfizer.lost.todate'] \
+        .add(merged['vaccination.moderna.lost.todate'], fill_value=0) \
+        .add(merged['vaccination.az.lost.todate'], fill_value=0) \
+        .add(merged['vaccination.janssen.lost.todate'], fill_value=0).astype('Int64')
 
     merged = merged.reindex([  # sort
         'vaccination.administered', 'vaccination.administered.todate',
@@ -48,6 +63,11 @@ def computeVaccination(update_time):
         'vaccination.moderna.delivered', 'vaccination.moderna.delivered.todate',
         'vaccination.az.delivered', 'vaccination.az.delivered.todate',
         'vaccination.janssen.delivered', 'vaccination.janssen.delivered.todate',
+        'vaccination.lost.todate',
+        'vaccination.pfizer.lost', 'vaccination.pfizer.lost.todate',
+        'vaccination.moderna.lost', 'vaccination.moderna.lost.todate',
+        'vaccination.az.lost', 'vaccination.az.lost.todate',
+        'vaccination.janssen.lost', 'vaccination.janssen.lost.todate',
         'vaccination.age.0-17.1st.todate','vaccination.age.0-17.2nd.todate',
         'vaccination.age.18-24.1st.todate','vaccination.age.18-24.2nd.todate',
         'vaccination.age.25-29.1st.todate','vaccination.age.25-29.2nd.todate',
