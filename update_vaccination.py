@@ -171,12 +171,33 @@ def import_nijz_dash_vacc_delivered():
 
     # sort columns
     df = df[columns]
+
+    df = adjust_vacc_delivered(df)
  
     # write csv
     old_hash = sha1sum(filename)
     # force integer type
     df.fillna(0).round().astype('Int64').replace({0:None}).to_csv(filename, date_format="%Y-%m-%d", line_terminator='\r\n')
     write_timestamp_file(filename, old_hash)
+
+def adjust_vacc_delivered(df):
+    filename_adj = "csv/vaccination-delivered-adjustment.csv"
+    print(f"Adjusting deliveries with {filename_adj}")
+
+    df_adj= pd.read_csv(filename_adj, parse_dates=['date'], index_col='date').fillna(0).drop(columns='source').astype('Int64')
+
+    print(df)
+    print(df_adj)
+
+    dates = pd.DataFrame(df.index, columns = ['date']).append(pd.DataFrame(df_adj.index, columns = ['date'])).drop_duplicates('date').set_index('date').sort_index()
+
+    df = dates.join(df).fillna(0)
+    df_adj = dates.join(df_adj).fillna(0)
+
+
+    df_result = (df_adj.reindex_like(df) + df).astype('Int64').replace({0:None})
+    print(df_result)
+    return df_result
 
 def import_nijz_dash_vacc_by_age():
     filename = "csv/vaccination-by_age.csv"
