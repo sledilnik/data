@@ -8,6 +8,7 @@ mapping = {
     'Belgija': 'bel',
     'Bolgarija': 'bgr',
     'Bosna in Hercegovina': 'bih',
+    'Ciper': 'cyp',
     'Češka': 'cze',
     'Črna Gora': 'mne',
     'Danska': 'dnk',
