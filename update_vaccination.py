@@ -177,7 +177,7 @@ def import_nijz_dash_vacc_delivered():
     # write csv
     old_hash = sha1sum(filename)
     # force integer type
-    df.fillna(0).round().astype('Int64').replace({0:None}).to_csv(filename, date_format="%Y-%m-%d", line_terminator='\r\n')
+    df.fillna(0).round().astype('Int64').replace({0:None}).dropna(thresh=1).to_csv(filename, date_format="%Y-%m-%d", line_terminator='\r\n')
     write_timestamp_file(filename, old_hash)
 
 def adjust_vacc_delivered(df):
