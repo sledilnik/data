@@ -24,6 +24,7 @@ mapping = {
     'Italija': 'ita',
     'Katar': 'qat',
     'Kazahstan': 'kaz',
+    'Kirgizistan (Kirgizija)': 'kgz',
     'Kosovo': 'xkx',
     'Kuba': 'cub',
     'Latvija': 'lva',
