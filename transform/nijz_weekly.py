@@ -170,7 +170,8 @@ merged = merged.reindex([  # sort
     'week.from.pak', 'week.from.pol', 'week.from.rou', 'week.from.rus', 'week.from.svk', 'week.from.srb', 'week.from.esp', 'week.from.swe',
     'week.from.che', 'week.from.tur', 'week.from.ukr', 'week.from.gbr', 'week.from.usa', 'week.from.are', 'week.from.nld', 'week.from.prt',
     'week.from.lva', 'week.from.alb', 'week.from.cub', 'week.from.mli', 'week.from.egy', 'week.from.tza', 'week.from.fin', 'week.from.nam',
-    'week.from.jib', 'week.from.mdv', 'week.from.qat'
+    'week.from.jib', 'week.from.mdv', 'week.from.qat', 'week.from.afg', 'week.from.npl', 'week.from.cyp', 'week.from.mus', 'week.from.tun', 
+    'week.from.kgz'
 ], axis='columns')
 
 # new NIJZ files report only from week 23 onwards, take preceeding data from archival CSV
