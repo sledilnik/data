@@ -63,6 +63,7 @@ jobs:
 
     - name: "Run vaccination update update_vaccination.py"
       run: | 
+        curl --insecure https://podatki.gov.si/dataset/47edd697-a06b-44a6-86b7-0092ea34274a/resource/27e2b3d2-52b4-4899-be5c-9ee28a91bed5/download/pc14dnipozpublic.csv -o vaccination-confirmed-cases.csv
         python update_vaccination.py 
 
     # Runs a set of commands using the runners shell
