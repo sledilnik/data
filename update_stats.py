@@ -34,6 +34,7 @@ def computeStats(update_time):
     df_cases = pd.read_csv('csv/cases.csv', index_col='date', parse_dates=['date'])[[
         'cases.confirmed', 'cases.confirmed.todate', 'cases.active', 'cases.recovered.todate', 'cases.closed.todate',
         'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate', 'cases.rh.occupant.confirmed.todate',
+        'cases.vaccinated.confirmed.todate'
     ]]
     merged = df_phases.join(df_patients).join(dfRegions).join(dfAgeC).join(dfAgeD).join(dfRhD).join(df_lab_tests).join(df_cases).join(dfVaccination)
     merged['cases.unclassified.confirmed.todate'] = merged['cases.confirmed.todate'] \
@@ -53,7 +54,7 @@ def computeStats(update_time):
         'tests.ns-apr20.positive.todate', 'tests.ns-apr20.positive',
         'cases.confirmed.todate', 'cases.confirmed', 'cases.active', 'cases.recovered.todate',
         'cases.closed.todate', 'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate', 'cases.rh.occupant.confirmed.todate',
-        'cases.unclassified.confirmed.todate', 'state.in_hospital', 'state.icu', 'state.critical', 'state.in_hospital.todate', 'state.out_of_hospital.todate',
+        'cases.unclassified.confirmed.todate', 'cases.vaccinated.confirmed.todate', 'state.in_hospital', 'state.icu', 'state.critical', 'state.in_hospital.todate', 'state.out_of_hospital.todate',
         'state.deceased.todate', 'region.lj.todate', 'region.ce.todate', 'region.mb.todate', 'region.ms.todate', 'region.kr.todate',
         'region.nm.todate', 'region.za.todate', 'region.sg.todate', 'region.po.todate', 'region.ng.todate', 'region.kp.todate', 'region.kk.todate',
         'region.foreign.todate', 'region.unknown.todate', 'region.todate', 'age.0-4.todate', 'age.5-14.todate', 'age.15-24.todate', 'age.25-34.todate',
@@ -161,7 +162,8 @@ def computeCases(update_time):
     df_cases['cases.recovered.todate'] = df_cases['cases.closed.todate'] - df_patients['state.deceased.todate'].shift(-1)
     df_cases = df_cases.reindex([
         'cases.confirmed', 'cases.confirmed.todate', 'cases.active', 'cases.closed.todate', 'cases.recovered.todate',
-        'cases.rh.occupant.confirmed.todate', 'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate'
+        'cases.rh.occupant.confirmed.todate', 'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate',
+        'cases.vaccinated.confirmed.todate'
     ], axis='columns')
 
     df_cases.replace({0: None}).astype('Int64').to_csv(filename, line_terminator='\r\n')

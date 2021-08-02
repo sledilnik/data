@@ -195,7 +195,16 @@ df_stats_legacy = pd.read_csv(os.path.join(CSV_FOLDER, 'cases-legacy.csv'), inde
     'cases.rh.employee.confirmed.todate'
 ]]
 
-df_joined = df_1.join(df_6).join(df_stats_legacy)
+df_vaccination_cases = pd.read_csv('csv/vaccination-confirmed-cases-opsi.csv', sep=';') \
+    .rename(mapper={
+        'Datum': 'date',
+        'Potrjeni zasciteni s cepljenjem': 'cases.vaccinated.confirmed'
+    }, axis='columns').set_index('date') \
+    .rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows') [[ 'cases.vaccinated.confirmed' ]]
+df_vaccination_cases['cases.vaccinated.confirmed.todate'] = df_vaccination_cases['cases.vaccinated.confirmed'].fillna(0).cumsum()
+df_vaccination_cases = df_vaccination_cases [[ 'cases.vaccinated.confirmed.todate' ]]
+
+df_joined = df_1.join(df_6).join(df_stats_legacy).join(df_vaccination_cases)
 for date in df_cases.index.difference(df_joined.index):  # do not delete latest date in cases.csv if it's not present in daily xlsx yet
     df_joined = df_joined.append(df_cases.loc[date])
 
