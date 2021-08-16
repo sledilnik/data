@@ -60,6 +60,7 @@ mapping = {
     'Tunizija': 'tun',
     'Turčija': 'tur',
     'Ukrajina': 'ukr',
+    'Uzbekistan': 'uzb',
     'Združeno kraljestvo': 'gbr',
     'Združeno kraljestvo Velike Britanije in Severne Irske': 'gbr',
     'Združene države Amerike': 'usa',
