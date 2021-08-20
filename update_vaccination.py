@@ -7,6 +7,7 @@ import cepimose
 from update_stats import computeMunicipalityCases, computeRegionCases, computeStats
 
 from transform.utils import sha1sum, write_timestamp_file
+import requests
 
 def computeVaccination(update_time):
     filename = 'csv/vaccination.csv'
@@ -376,6 +377,22 @@ def import_nijz_dash_vacc_by_municipalities():
     old_hash = sha1sum(filenameByDay)
     df_updated.to_csv(filenameByDay, date_format='%Y-%m-%d')
     write_timestamp_file(filenameByDay, old_hash)
+
+def import_opsi_vaccination_effects():
+    def saveurl(url, filename):
+        print("Downloading ", url)
+        r = requests.get(url, allow_redirects=True)
+        if r.status_code == 200:
+            open(filename, 'wb').write(r.content)
+            print("Saved", filename)
+        else:
+            print("Failed with status ", r.status_code)
+
+    # https://podatki.gov.si/dataset/potrjeni-primeri-covid-19-po-cepljenju
+    saveurl("https://podatki.gov.si/dataset/47edd697-a06b-44a6-86b7-0092ea34274a/resource/27e2b3d2-52b4-4899-be5c-9ee28a91bed5/download/pc14dnipozpublic.csv", "csv/vaccination-confirmed-cases-opsi.csv")
+
+    # https://podatki.gov.si/dataset/hospitalizirani-primeri-sari-potrjeni-covid-19-po-cepilnem-statusu-v-sloveniji-nijz-cnb
+    saveurl("https://podatki.gov.si/dataset/2a40d74b-4e75-4051-8ab7-289c70348cb7/resource/816af1be-4e56-4fca-a647-db7b09a2c98b/download/saricov19hospitalizacija.csv", "csv/vaccination-hospitalized-cases-opsi.csv")
 
 
 if __name__ == "__main__":
