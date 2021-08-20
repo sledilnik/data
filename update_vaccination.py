@@ -405,6 +405,8 @@ if __name__ == "__main__":
     import_nijz_dash_vacc_by_region()
     import_nijz_dash_vacc_by_municipalities()
 
+    import_opsi_vaccination_effects()
+
     computeVaccination(update_time)
     computeMunicipalityCases(update_time)
     computeRegionCases(update_time)
