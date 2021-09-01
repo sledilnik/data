@@ -42,8 +42,8 @@
   <!-- Vendor scripts -->
   <script type="text/javascript" src="/assets/js/vendor.min.js?1479284972975"></script>
   <!-- CKAN DGU scripts -->
-  <!-- <script type="text/javascript" src="/assets/js/dgu-shared.min.js?1619423061403"></script> -->
-  <script type="text/javascript" src="/scripts/dgu-ckan-application.min.js?1619423061403"></script>
+  <!-- <script type="text/javascript" src="/assets/js/dgu-shared.min.js?1630519667792"></script> -->
+  <script type="text/javascript" src="/scripts/dgu-ckan-application.min.js?1630519667792"></script>
 
   
   
@@ -125,7 +125,7 @@ Vir ni na voljo
 
 
     
-  <script type="text/javascript" src="/scripts/dgu-tracking.min.js?1619423061403"></script>  
+  <script type="text/javascript" src="/scripts/dgu-tracking.min.js?1630519667792"></script>  
   
 
       
