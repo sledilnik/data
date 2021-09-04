@@ -19,4 +19,9 @@ curl --insecure https://podatki.gov.si/dataset/d3e718b3-01f0-40bd-93b0-b56d3bb4e
 curl --insecure https://podatki.gov.si/dataset/d3e718b3-01f0-40bd-93b0-b56d3bb4e97f/resource/406b4306-cf45-4d49-b44e-48c8b4c1de78/download/tanstatistika.csv -o podatki.gov.si/tanstatistika.csv
 curl --insecure https://podatki.gov.si/dataset/d3e718b3-01f0-40bd-93b0-b56d3bb4e97f/resource/1167a46b-22ac-455f-b134-fedaf258ea0d/download/tanvneseno.csv -o podatki.gov.si/tanvneseno.csv
 
+./fixdates.sh podatki.gov.si/prenosiandroid.csv
+./fixdates.sh podatki.gov.si/iosprenosi.csv
+./fixdates.sh podatki.gov.si/tanstatistika.csv
+./fixdates.sh podatki.gov.si/tanvneseno.csv
+
 ./merge.sh
