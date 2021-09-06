@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import csv
 import pandas as pd
 df1=pd.read_csv("csv/dict-municipality.csv", index_col='id') [[ "name","iso_code","population" ]]

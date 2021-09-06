@@ -1,5 +1,11 @@
 [![Build Status](https://travis-ci.com/sledilnik/data.svg?branch=master)](https://travis-ci.com/sledilnik/data)
-[![Periodic update status](https://github.com/sledilnik/data/workflows/Periodic%20update/badge.svg)](https://github.com/sledilnik/data/actions)
+[![GSheets update](https://github.com/sledilnik/data/actions/workflows/gsheets.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/gsheets.yml)
+[![OstaniZdrav update](https://github.com/sledilnik/data/actions/workflows/ostanizdrav.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/ostanizdrav.yml)
+[![Schools update](https://github.com/sledilnik/data/actions/workflows/schools.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/schools.yml)
+[![Sewage update](https://github.com/sledilnik/data/actions/workflows/sewage.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/sewage.yml)
+[![Vaccination update](https://github.com/sledilnik/data/actions/workflows/vaccination.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/vaccination.yml)
+[![Vaccination OPSI update](https://github.com/sledilnik/data/actions/workflows/vaccination_opsi.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/vaccination_opsi.yml)
+[![Lab tests update](https://github.com/sledilnik/data/actions/workflows/labtests.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/labtests.yml)
 
 # Slovenia COVID-19 Data Collection - Sledilnik.org
 
@@ -11,6 +17,8 @@ Master tables are at https://tinyurl.com/sledilnik-gdocs
 This repository is for organising our collaboration better: wikis, issues etc.
 
 `Python 3.8+` is required to run scripts in this repo.
+
+Vaccination update depends on [py-cepimose](https://github.com/sledilnik/py-cepimose) with a specific subset of [![Tests for Sledilnik.org](https://github.com/sledilnik/py-cepimose/actions/workflows/testSledilnik.yml/badge.svg)](https://github.com/sledilnik/py-cepimose/actions/workflows/testSledilnik.yml)
 
 
 ## How to run scripts

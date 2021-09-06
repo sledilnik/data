@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import collections
 import csv
 import datetime
@@ -61,7 +63,7 @@ def write_csv(health_centers_csv: str, entities: typing.List[health_centers.data
             raise Exception(f'Too many entities found: {len(found_entities)}, {name_key}, {date}')
         return found_entities[0]
 
-    with open(health_centers_csv, 'w', newline='') as csvfile:
+    with open(health_centers_csv, 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.writer(csvfile, dialect='excel', lineterminator='\n')
 
         def get_formatted_numbers_fields():

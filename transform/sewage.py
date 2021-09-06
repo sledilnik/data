@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import os
 import tempfile
 import typing
@@ -11,15 +13,17 @@ from utils import sha1sum, write_timestamp_file
 CSV_FOLDER = os.path.join(os.path.dirname(__file__), '../csv')
 
 
+# https://docs.google.com/spreadsheets/d/14L8wBpkHQij8LKu6TH5BEimPYpnlMDIM
 r = requests.get('https://drive.google.com/uc?export=download&id=14L8wBpkHQij8LKu6TH5BEimPYpnlMDIM')
 with tempfile.NamedTemporaryFile() as tf:
     with open(tf.name, 'wb') as f:
         f.write(r.content)
-    df = pd.read_excel(io=tf, sheet_name='DATA', engine='openpyxl', skiprows=[0, 1], parse_dates=['Date']) \
+    df = pd.read_excel(io=tf, sheet_name='DATA', engine='openpyxl', parse_dates=['Date']) \
         .rename(columns={'Date': 'date'}) \
         .dropna(subset=['date']) \
         .set_index('date') \
-        .drop(columns='NIB Measurements')
+        .drop(columns='NIB Measurements') \
+        .dropna(thresh=2)
 
 mapping_dict = {}
 

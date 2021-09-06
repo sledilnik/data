@@ -1,4 +1,4 @@
-#! /bin/python
+#!/usr/bin/env python
 
 from datetime import datetime
 from operator import itemgetter
@@ -79,6 +79,12 @@ def reformat_dates(date_columns, row):
         elif date.year == 2201:
             date = datetime(2021, date.month, date.day).date()
 
+        if date.year < 2020 or date.year > 2021:
+            logger.warning("Suspicious date found in line: \n{}\n".format(row))
+
+        if date.year == 3021 or date.year == 2201 or date.year == 2022:
+            date = datetime(2021, date.month, date.day)
+
         row[i] = date
 
     # do some extra checks on the start and stop dates
@@ -130,13 +136,14 @@ def school_absences_csv(outfile):
 
     # parse attendee (students) and employee data
     attendees = parse_csv(
-        "https://raw.githubusercontent.com/GK-MIZS/covid/main/ucenci.csv"
+        # "https://raw.githubusercontent.com/GK-MIZS/covid/main/ucenci.csv"
+        "https://podatki.gov.si/dataset/92670859-fae3-4225-adf4-17be511b87d3/resource/e6bce4f3-01cd-4de9-9fc5-7172da14083a/download/ucenci.csv"
     )
     for row in attendees:
         absence = {
-            "date": row[10].isoformat(),
-            "absent.from": row[8].isoformat(),
-            "absent.to": row[9].isoformat(),
+            "date": row[10].strftime("%Y-%m-%d"),
+            "absent.from": row[8].strftime("%Y-%m-%d"),
+            "absent.to": row[9].strftime("%Y-%m-%d"),
             "school_type": get_sledilnik_key("school_type", row[5]),
             "school": row[2],
             "person_type": "A",
@@ -147,13 +154,14 @@ def school_absences_csv(outfile):
         absences.append(absence)
 
     employees = parse_csv(
-        "https://raw.githubusercontent.com/GK-MIZS/covid/main/zaposleni.csv"
+        # "https://raw.githubusercontent.com/GK-MIZS/covid/main/zaposleni.csv"
+        "https://podatki.gov.si/dataset/92670859-fae3-4225-adf4-17be511b87d3/resource/732cbeb2-41d9-4e22-95dd-362d40ea44fc/download/zaposleni.csv"
     )
     for row in employees:
         absence = {
-            "date": row[10].isoformat(),
-            "absent.from": row[8].isoformat(),
-            "absent.to": row[9].isoformat(),
+            "date": row[10].strftime("%Y-%m-%d"),
+            "absent.from": row[8].strftime("%Y-%m-%d"),
+            "absent.to": row[9].strftime("%Y-%m-%d"),
             "school_type": get_sledilnik_key("school_type", row[5]),
             "school": row[2],
             "person_type": "E",
@@ -196,15 +204,16 @@ def school_regimes_csv(outfile):
     """
 
     # merge and sort
-    rows = parse_csv("https://raw.githubusercontent.com/GK-MIZS/covid/main/oddelki.csv")
+    # rows = parse_csv("https://raw.githubusercontent.com/GK-MIZS/covid/main/oddelki.csv")
+    rows = parse_csv("https://podatki.gov.si/dataset/92670859-fae3-4225-adf4-17be511b87d3/resource/b45823ec-5434-4d96-b61f-ef257babc39b/download/oddelki.csv")
 
     # transform
     regimes = []
     for row in rows:
         regime = {
-            "date": row[10].isoformat(),
-            "changed.from": row[8].isoformat(),
-            "changed.to": row[9].isoformat(),
+            "date": row[10].strftime("%Y-%m-%d"),
+            "changed.from": row[8].strftime("%Y-%m-%d"),
+            "changed.to": row[9].strftime("%Y-%m-%d"),
             "school_type": get_sledilnik_key("school_type", row[5]),
             "school": row[2],
             "person_class": get_sledilnik_key("class", row[11]),

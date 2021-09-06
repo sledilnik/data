@@ -1,20 +1,32 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Periodic update
+name: Vaccination update
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
   push:
     branches: [ master ]
-    paths-ignore:
-    - 'csv/**'
-    - 'schools/schools-*.json'
+    paths:
+    - '.github/workflows/vaccination.yml'
+    - 'update_vaccination.py'
+    - 'update_stats.py'
+    - 'transform/utils.py'
+    - 'requirements.txt'
   pull_request:
     branches: [ master ]
+    paths:
+    - '.github/workflows/vaccination.yml'
+    - 'update_vaccination.py'
+    - 'update_stats.py'
+    - 'transform/utils.py'
+    - 'requirements.txt'
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '5 */1 * * *'
+    - cron:  '20,40,59 05,16 * * *' # increased frequency for morning and evening update
+    - cron:  '5 00-04/1 * * *' # periodic hourly update otherwise
+    - cron:  '5 06-15/1 * * *' # periodic hourly update otherwise
+    - cron:  '5 17-23/1 * * *' # periodic hourly update otherwise
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -30,23 +42,13 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    - name: Install jq
-      run: |
-        sudo apt-get install jq
-        jq --version
-
-    # Runs a single command using the runners shell
-    - name: "Run MIZŠ update: schools/update-schools-cases.sh"
-      run: | 
-        ./schools/update-schools-cases.sh
-
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
         python-version: '3.8'
 
     - name: Cache pip
-      uses: actions/cache@v2
+      uses: actions/cache@v2.1.6
       with:
         # This path is specific to Ubuntu
         path: ~/.cache/pip
@@ -57,49 +59,29 @@ jobs:
           ${{ runner.os }}-
 
     - name: Install python dependencies
-      run: pip install -r requirements.txt
+      run: pip install -U -r requirements.txt
 
-    - name: "Run MIZŠ update schools/parse_mizs_csvs.py"
+    - name: "Run vaccination update update_vaccination.py"
       run: | 
-        python schools/parse_mizs_csvs.py 
-
-    # Runs a single command using the runners shell
-    - name: Run OstaniZdrav update
-      run: cd ostanizdrav && ./update-ostanizdrav.sh
+        python update_vaccination.py 
 
     # Runs a set of commands using the runners shell
     - name: Check git diff
       run: |
-        ls -la csv/schools-*
-        git status csv/schools-*
-        git diff csv/schools-*
-        ls -la schools/schools-cases.json
-        git status schools/schools-cases.json
-        git diff schools/schools-cases.json
-        ls -la ostanizdrav/
-        git status ostanizdrav/
-        git diff ostanizdrav/
+        ls -la csv/vaccination*
+        ls -la csv/stats.*
+        git status
+        git diff
 
     # Git commit + push, see https://github.com/github-actions-x/commit
-    - name: Publish MIZŠ changes to git
+    - name: Publish NIJZ cepimose vaccination changes to git
       if: github.ref == 'refs/heads/master'
-      uses: github-actions-x/commit@v2.6
+      uses: github-actions-x/commit@v2.8
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'master'
-        commit-message: 'MIZŠ Data update 🤖'
+        commit-message: 'NIJZ cepimose vaccination data update 🤖'
         rebase: 'true' # pull and rebase before commit
-        files: csv/schools-* schools/schools-cases.json
+        files: csv/vaccination* csv/stats.* csv/municipality-cases.* csv/region-cases.*
         name: Sledilnik data scrape bot 🤖
-
-    # Git commit + push, see https://github.com/github-actions-x/commit
-    - name: Publish OstaniZdrav changes to git
-      if: github.ref == 'refs/heads/master'
-      uses: github-actions-x/commit@v2.6
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        push-branch: 'master'
-        commit-message: 'OstaniZdrav Data update 🤖'
-        rebase: 'true' # pull and rebase before commit
-        files: ostanizdrav/
-        name: Sledilnik data scrape bot 🤖
+        email: info@sledilnik.org

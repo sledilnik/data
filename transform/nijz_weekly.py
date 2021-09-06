@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import glob
 import logging
 import os
@@ -110,7 +112,7 @@ df_i_2 = pd.read_excel(io=SOURCE_FILE_INFECTED, sheet_name='Tabela 2', engine='o
         'Teden': 'week',
         'družina, skupno gospodinjstvo': 'week.loc.family',
         'delovno mesto': 'week.loc.work',
-        'vzgojno-izobraževalna ustanova': 'week.loc.school',
+        'vzgojno-izobraževalni zavod': 'week.loc.school',
         'bolnišnica': 'week.loc.hospital',
         'druga zdravstvena ustanova': 'week.loc.otherhc',
         'DSO/SVZ': 'week.loc.rh',
@@ -120,7 +122,7 @@ df_i_2 = pd.read_excel(io=SOURCE_FILE_INFECTED, sheet_name='Tabela 2', engine='o
         'gostinski obrat': 'week.loc.restaurant',
         'športna dejavnost (zaprt prostor)': 'week.loc.sport',
         'zasebno druženje': 'week.loc.gathering_private',
-        'organizirano druženje': 'week.loc.gathering_organized',
+        'organizirani dogodek': 'week.loc.gathering_organized',
         'drugo': 'week.loc.other',
         'neznano': 'week.loc.unknown'
     }).drop('Skupaj', axis='columns').set_index('week')
@@ -140,12 +142,25 @@ df_i_4 = pd.read_excel(io=SOURCE_FILE_INFECTED, sheet_name='Tabela 4', engine='o
     'SKUPAJ': 'week.healthcare'
 }).set_index('week').replace({0: None}).astype('Int64')
 
+# source hospitalized+vaccinated data from archival CSV
+df_vaccination_cases = pd.read_csv('csv/vaccination-hospitalized-cases-opsi.csv', sep=';') \
+    .rename(mapper={
+        'Leto': 'year',
+        'Teden': 'week',
+        'Hosp_Necepljeni': 'week.hospitalized.other',
+        'Hosp_Cepljeni': 'week.hospitalized.vaccinated'
+    }, axis='columns')
+
+df_vaccination_cases['week'] = df_vaccination_cases['year'].astype('str') + df_vaccination_cases['week'].map(lambda x: '-%02d' % x)
+df_vaccination_cases.set_index('week', inplace=True)
+df_vaccination_cases = df_vaccination_cases[[ 'week.hospitalized.vaccinated', 'week.hospitalized.other' ]].astype('Int64')
+
 # source quarantine data from archival CSV
 df_quarantine = pd.read_csv(os.path.join(CSV_FOLDER, 'stats-weekly-archive.csv'), index_col='week')
 df_quarantine = df_quarantine[['week.sent_to.quarantine', 'week.src.quarantine']]
 df_quarantine = df_quarantine.replace({0: None}).astype('Int64')
 
-merged = df_d_1.join(df_d_2).join(df_i_1).join(df_i_2).join(df_i_3).join(df_i_4).join(df_quarantine)
+merged = df_d_1.join(df_d_2).join(df_i_1).join(df_i_2).join(df_i_3).join(df_i_4).join(df_quarantine).join(df_vaccination_cases)
 
 week_dates = {'week': [], 'date': [], 'date.to': []}
 for x in merged.index:
@@ -157,24 +172,29 @@ for x in merged.index:
     week_dates['date.to'].append(week_end)
 merged = merged.join(pd.DataFrame(data=week_dates).set_index('week'))
 
-merged = merged.reindex([  # sort
-    'date', 'date.to', 'week.confirmed', 'week.investigated', 'week.healthcare', 'week.healthcare.male', 'week.healthcare.female', 'week.rhoccupant', 'week.loc.family', 'week.loc.work',
-    'week.loc.school', 'week.loc.hospital', 'week.loc.otherhc', 'week.loc.rh', 'week.loc.prison', 'week.loc.transport', 'week.loc.shop',
-    'week.loc.restaurant', 'week.loc.sport', 'week.loc.gathering_private', 'week.loc.gathering_organized', 'week.loc.other', 'week.loc.unknown',
-    'week.sent_to.quarantine', 'week.src.quarantine', 'week.src.import', 'week.src.import-related', 'week.src.local', 'week.src.unknown',
-    'week.from.aus', 'week.from.aut', 'week.from.aze', 'week.from.bel', 'week.from.bgr', 'week.from.bih', 'week.from.cze', 'week.from.mne',
-    'week.from.dnk', 'week.from.dom', 'week.from.est', 'week.from.fra', 'week.from.grc', 'week.from.hrv', 'week.from.irn', 'week.from.ita',
-    'week.from.kaz', 'week.from.xkx', 'week.from.hun', 'week.from.mkd', 'week.from.mlt', 'week.from.mar', 'week.from.fsm', 'week.from.deu',
-    'week.from.pak', 'week.from.pol', 'week.from.rou', 'week.from.rus', 'week.from.svk', 'week.from.srb', 'week.from.esp', 'week.from.swe',
-    'week.from.che', 'week.from.tur', 'week.from.ukr', 'week.from.gbr', 'week.from.usa', 'week.from.are', 'week.from.nld', 'week.from.prt', 
-    'week.from.lva', 'week.from.alb', 'week.from.cub', 'week.from.mli'
-], axis='columns')
-
 # new NIJZ files report only from week 23 onwards, take preceeding data from archival CSV
 df_archive = pd.read_csv(os.path.join(CSV_FOLDER, 'stats-weekly-archive.csv'), index_col='week')
 df_archive = df_archive.iloc[:13]  # keep range 2020-10 to 2020-22
 merged.drop([f'2020-{x}' for x in range(10, 23)], axis='rows', inplace=True)
 merged = pd.concat([df_archive, merged])
+
+merged = merged.reindex([  # sort
+    'date', 'date.to', 'week.hospitalized.vaccinated', 'week.hospitalized.other', 
+    'week.confirmed', 'week.investigated', 'week.healthcare', 'week.healthcare.male', 'week.healthcare.female', 'week.rhoccupant', 
+    'week.loc.family', 'week.loc.work', 'week.loc.school', 'week.loc.hospital', 'week.loc.otherhc', 'week.loc.rh', 'week.loc.prison', 
+    'week.loc.transport', 'week.loc.shop', 'week.loc.restaurant', 'week.loc.sport', 'week.loc.gathering_private', 
+    'week.loc.gathering_organized', 'week.loc.other', 'week.loc.unknown',
+    'week.sent_to.quarantine', 'week.src.quarantine', 'week.src.import', 'week.src.import-related', 'week.src.local', 'week.src.unknown',
+    'week.from.aus', 'week.from.aut', 'week.from.aze', 'week.from.bel', 'week.from.bgr', 'week.from.bih', 'week.from.cze', 'week.from.mne',
+    'week.from.dnk', 'week.from.dom', 'week.from.est', 'week.from.fra', 'week.from.grc', 'week.from.hrv', 'week.from.irn', 'week.from.ita',
+    'week.from.kaz', 'week.from.xkx', 'week.from.hun', 'week.from.mkd', 'week.from.mlt', 'week.from.mar', 'week.from.fsm', 'week.from.deu',
+    'week.from.pak', 'week.from.pol', 'week.from.rou', 'week.from.rus', 'week.from.svk', 'week.from.srb', 'week.from.esp', 'week.from.swe',
+    'week.from.che', 'week.from.tur', 'week.from.ukr', 'week.from.gbr', 'week.from.usa', 'week.from.are', 'week.from.nld', 'week.from.prt',
+    'week.from.lva', 'week.from.alb', 'week.from.cub', 'week.from.mli', 'week.from.egy', 'week.from.tza', 'week.from.fin', 'week.from.nam',
+    'week.from.jib', 'week.from.mdv', 'week.from.qat', 'week.from.afg', 'week.from.npl', 'week.from.cyp', 'week.from.mus', 'week.from.tun', 
+    'week.from.kgz', 'week.from.irl', 'week.from.rwa', 'week.from.zaf', 'week.from.uzb', 'week.from.bwa', 'week.from.gnq', 'week.from.gmb'
+], axis='columns')
+
 
 
 def export_dataframe_to_csv(name: str, dataframe):

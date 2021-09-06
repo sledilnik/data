@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import hashlib
 import os
 import pyquery
@@ -41,14 +43,20 @@ def download_nijz_xslx_file(download_folder: str, search_for: str):
     path_file = os.path.join(download_folder, filename)
 
     if filename in os.listdir(download_folder):
-        with tempfile.NamedTemporaryFile() as temp:
-            urllib.request.urlretrieve(url, temp.name)
-            if sha1sum(path_file) == sha1sum(temp.name):
+        _, temp = tempfile.mkstemp()
+        try:
+            urllib.request.urlretrieve(url, temp)
+            if sha1sum(path_file) == sha1sum(temp):
                 print('Latest file already downloaded:', filename)
             else:
                 os.rename(path_file, path_file.replace('.xlsx', f'.replaced.{int(time.time())}.xlsx'))
                 urllib.request.urlretrieve(url, path_file)
                 print('File with that name was already present, but was outdated. Old version is replaced. New version downloaded:', filename)
+        finally:
+            try:
+                os.remove(temp)
+            except:
+                pass
     else:
         urllib.request.urlretrieve(url, path_file)
         print('Downloaded:', filename)

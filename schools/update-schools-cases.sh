@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 # Podatki Ministrstva za Izobraževanje Znanost in Šport (MIZŠ) RS
 # API docs at http://api.mizs.si/api_dokumentacija.html
@@ -6,7 +7,8 @@
 csvfilename="csv/schools-cases.csv"
 hashbefore=$(sha256sum "$csvfilename")
 
-curl -s https://raw.githubusercontent.com/GK-MIZS/covid/main/api.json | jq '.' \
+# Alternative source: https://raw.githubusercontent.com/GK-MIZS/covid/main/api.json
+curl -s https://podatki.gov.si/dataset/92670859-fae3-4225-adf4-17be511b87d3/resource/bfde646f-3b36-4003-b4b2-bcdba3932cde/download/api.json | jq '.' \
     | tee schools/schools-cases.json \
     | jq -r 'del( .[0] ) | 
             [   "date",
