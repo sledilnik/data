@@ -35,6 +35,15 @@ def computeVaccination(update_time):
         .add(merged['vaccination.az.delivered.todate'], fill_value=0) \
         .add(merged['vaccination.janssen.delivered.todate'], fill_value=0).astype('Int64')
 
+    # calculate vaccination periods (to estimate vaccine waning)
+    merged['vaccinated.forupto.1mth'] = merged['vaccination.administered2nd'].rolling(min_periods=1, window=30).sum()
+    merged['vaccinated.forupto.2mth'] = merged['vaccination.administered2nd'].rolling(min_periods=1, window=60).sum()
+    merged['vaccinated.forupto.3mth'] = merged['vaccination.administered2nd'].rolling(min_periods=1, window=90).sum()
+    merged['vaccinated.forupto.4mth'] = merged['vaccination.administered2nd'].rolling(min_periods=1, window=120).sum()
+    merged['vaccinated.forupto.5mth'] = merged['vaccination.administered2nd'].rolling(min_periods=1, window=150).sum()
+    merged['vaccinated.forupto.6mth'] = merged['vaccination.administered2nd'].rolling(min_periods=1, window=180).sum()
+    merged['vaccinated.formorethan.6mth'] = merged['vaccination.administered2nd.todate'] - merged['vaccinated.forupto.6mth']
+
     merged = merged.reindex([  # sort
         'vaccination.administered', 'vaccination.administered.todate',
         'vaccination.administered2nd', 'vaccination.administered2nd.todate',
@@ -63,7 +72,11 @@ def computeVaccination(update_time):
         'vaccination.age.75-79.1st.todate','vaccination.age.75-79.2nd.todate',
         'vaccination.age.80-84.1st.todate','vaccination.age.80-84.2nd.todate',
         'vaccination.age.85-89.1st.todate','vaccination.age.85-89.2nd.todate',
-        'vaccination.age.90+.1st.todate','vaccination.age.90+.2nd.todate'
+        'vaccination.age.90+.1st.todate','vaccination.age.90+.2nd.todate',
+        'vaccinated.forupto.1mth', 'vaccinated.forupto.2mth',
+        'vaccinated.forupto.3mth', 'vaccinated.forupto.4mth',
+        'vaccinated.forupto.5mth', 'vaccinated.forupto.6mth',
+        'vaccinated.formorethan.6mth',
     ], axis='columns')
     merged.to_csv(filename, float_format='%.0f', line_terminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=old_hash)
