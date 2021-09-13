@@ -1,6 +1,7 @@
 mapping = {
     ' NEZNANO': 'unknown',
     'Afganistan': 'afg',
+    'Alandski otoki': 'ala',
     'Albanija': 'alb',
     'Avstralija': 'aus',
     'Avstrija': 'aut',
@@ -33,6 +34,7 @@ mapping = {
     'Kosovo': 'xkx',
     'Kuba': 'cub',
     'Latvija': 'lva',
+    'Luksemburg': 'lux',
     'Madžarska': 'hum',
     'Makedonija': 'mkd',
     'Maldivi': 'mdv',
