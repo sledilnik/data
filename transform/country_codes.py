@@ -28,6 +28,7 @@ mapping = {
     'Iran': 'irn',
     'Irska': 'irl',
     'Italija': 'ita',
+    'Izrael': 'isr',
     'Južna afrika': 'jar',
     'Katar': 'qat',
     'Kazahstan': 'kaz',

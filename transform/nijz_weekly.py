@@ -193,7 +193,7 @@ merged = merged.reindex([  # sort
     'week.from.lva', 'week.from.alb', 'week.from.cub', 'week.from.mli', 'week.from.egy', 'week.from.tza', 'week.from.fin', 'week.from.nam',
     'week.from.jib', 'week.from.mdv', 'week.from.qat', 'week.from.afg', 'week.from.npl', 'week.from.cyp', 'week.from.mus', 'week.from.tun', 
     'week.from.kgz', 'week.from.irl', 'week.from.rwa', 'week.from.zaf', 'week.from.uzb', 'week.from.bwa', 'week.from.gnq', 'week.from.gmb',
-    'week.from.ala', 'week.from.lux', 'week.from.abw', 'week.from.wlf', 'week.from.sur'
+    'week.from.ala', 'week.from.lux', 'week.from.abw', 'week.from.wlf', 'week.from.sur', 'week.from.isr'
 ], axis='columns')
 
 
