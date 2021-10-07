@@ -173,7 +173,7 @@ df_quarantine = pd.read_csv(os.path.join(CSV_FOLDER, 'stats-weekly-archive.csv')
 df_quarantine = df_quarantine[['week.sent_to.quarantine', 'week.src.quarantine']]
 df_quarantine = df_quarantine.replace({0: None}).astype('Int64')
 
-merged = df_d_1.join([df_d_2, df_i_1, df_i_2, df_i_3, df_i_4, df_quarantine, df_vaccination_cases, df_icu_cases], how='outer')
+merged = df_d_1.join([df_d_2, df_i_1, df_i_2, df_i_3, df_i_4, df_quarantine, df_vaccination_cases, df_icu_cases])
 merged.index.name = 'week'
 
 week_dates = {'week': [], 'date': [], 'date.to': []}
