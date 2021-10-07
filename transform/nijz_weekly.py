@@ -179,10 +179,10 @@ merged.drop([f'2020-{x}' for x in range(10, 23)], axis='rows', inplace=True)
 merged = pd.concat([df_archive, merged])
 
 merged = merged.reindex([  # sort
-    'date', 'date.to', 'week.hospitalized.vaccinated', 'week.hospitalized.other', 
-    'week.confirmed', 'week.investigated', 'week.healthcare', 'week.healthcare.male', 'week.healthcare.female', 'week.rhoccupant', 
-    'week.loc.family', 'week.loc.work', 'week.loc.school', 'week.loc.hospital', 'week.loc.otherhc', 'week.loc.rh', 'week.loc.prison', 
-    'week.loc.transport', 'week.loc.shop', 'week.loc.restaurant', 'week.loc.sport', 'week.loc.gathering_private', 
+    'date', 'date.to', 'week.hospitalized.vaccinated', 'week.hospitalized.other',
+    'week.confirmed', 'week.investigated', 'week.healthcare', 'week.healthcare.male', 'week.healthcare.female', 'week.rhoccupant',
+    'week.loc.family', 'week.loc.work', 'week.loc.school', 'week.loc.hospital', 'week.loc.otherhc', 'week.loc.rh', 'week.loc.prison',
+    'week.loc.transport', 'week.loc.shop', 'week.loc.restaurant', 'week.loc.sport', 'week.loc.gathering_private',
     'week.loc.gathering_organized', 'week.loc.other', 'week.loc.unknown',
     'week.sent_to.quarantine', 'week.src.quarantine', 'week.src.import', 'week.src.import-related', 'week.src.local', 'week.src.unknown',
     'week.from.aus', 'week.from.aut', 'week.from.aze', 'week.from.bel', 'week.from.bgr', 'week.from.bih', 'week.from.cze', 'week.from.mne',
@@ -191,7 +191,7 @@ merged = merged.reindex([  # sort
     'week.from.pak', 'week.from.pol', 'week.from.rou', 'week.from.rus', 'week.from.svk', 'week.from.srb', 'week.from.esp', 'week.from.swe',
     'week.from.che', 'week.from.tur', 'week.from.ukr', 'week.from.gbr', 'week.from.usa', 'week.from.are', 'week.from.nld', 'week.from.prt',
     'week.from.lva', 'week.from.alb', 'week.from.cub', 'week.from.mli', 'week.from.egy', 'week.from.tza', 'week.from.fin', 'week.from.nam',
-    'week.from.jib', 'week.from.mdv', 'week.from.qat', 'week.from.afg', 'week.from.npl', 'week.from.cyp', 'week.from.mus', 'week.from.tun', 
+    'week.from.jib', 'week.from.mdv', 'week.from.qat', 'week.from.afg', 'week.from.npl', 'week.from.cyp', 'week.from.mus', 'week.from.tun',
     'week.from.kgz', 'week.from.irl', 'week.from.rwa', 'week.from.zaf', 'week.from.uzb', 'week.from.bwa', 'week.from.gnq', 'week.from.gmb',
     'week.from.ala', 'week.from.lux', 'week.from.abw', 'week.from.wlf', 'week.from.sur', 'week.from.isr'
 ], axis='columns')
