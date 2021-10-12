@@ -1,13 +1,13 @@
 [
   {
-    "Posodobljeno": "11.10.2021 13:09",
+    "Posodobljeno": "12.10.2021 14:38",
     "Spearmanov_OS": [
-      0.8720207999774237,
-      3.1180770720368453e-31
+      0.8754412535592863,
+      9.355014244787627e-32
     ],
     "Spearmanov_OS_akt": [
-      0.9079365583419462,
-      1.185386310559317e-37
+      0.9125984970059344,
+      1.1221224797907638e-38
     ]
   },
   {
@@ -90458,8 +90458,8 @@
     },
     "uradni_podatki_SLO": [
       "30.09.2021",
-      972,
-      12649,
+      973,
+      12650,
       2908,
       15962,
       420
@@ -90688,7 +90688,7 @@
     "uradni_podatki_SLO": [
       "01.10.2021",
       993,
-      12391,
+      12392,
       2934,
       16113,
       419
@@ -90917,7 +90917,7 @@
     "uradni_podatki_SLO": [
       "02.10.2021",
       532,
-      12379,
+      12380,
       2947,
       16186,
       422
@@ -91146,7 +91146,7 @@
     "uradni_podatki_SLO": [
       "03.10.2021",
       225,
-      12313,
+      12314,
       2950,
       16233,
       424
@@ -91375,7 +91375,7 @@
     "uradni_podatki_SLO": [
       "04.10.2021",
       980,
-      11985,
+      11986,
       2978,
       16387,
       431
@@ -91604,7 +91604,7 @@
     "uradni_podatki_SLO": [
       "05.10.2021",
       1208,
-      12007,
+      12008,
       2999,
       16595,
       426
@@ -91833,7 +91833,7 @@
     "uradni_podatki_SLO": [
       "06.10.2021",
       968,
-      11963,
+      11964,
       3020,
       16778,
       400
@@ -92061,8 +92061,8 @@
     },
     "uradni_podatki_SLO": [
       "07.10.2021",
-      838,
-      11861,
+      840,
+      11864,
       3040,
       16906,
       413
@@ -92291,7 +92291,7 @@
     "uradni_podatki_SLO": [
       "08.10.2021",
       883,
-      11738,
+      11741,
       3052,
       17079,
       413
@@ -92520,7 +92520,7 @@
     "uradni_podatki_SLO": [
       "09.10.2021",
       489,
-      11781,
+      11784,
       3063,
       17165,
       423
@@ -92748,8 +92748,8 @@
     },
     "uradni_podatki_SLO": [
       "10.10.2021",
-      186,
-      11682,
+      188,
+      11687,
       3063,
       17197,
       417
@@ -92976,7 +92976,236 @@
       "Zavodi": 0.06
     },
     "uradni_podatki_SLO": [
-      "11.10.2021"
+      "11.10.2021",
+      1005,
+      11654,
+      3082,
+      17374,
+      422
+    ]
+  },
+  {
+    "year": "2021",
+    "month": "10",
+    "day": "12",
+    "ucenci_okuzbe_nove": {
+      "Vrtec": 0,
+      "Osnovna_sola": 0,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "zaposleni_okuzbe_nove": {
+      "Vrtec": 0,
+      "Osnovna_sola": 0,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "oddelki_v_karanteni_novi": {
+      "Vrtec": 0,
+      "Osnovna_sola": 0,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_v_karanteni_novi": {
+      "Vrtec": 0,
+      "Osnovna_sola": 0,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_aktivne": {
+      "Vrtec": 14,
+      "Osnovna_sola": 262,
+      "Osnovna_sola_s_prilagojenim_programom": 1,
+      "Glasbena_sola": 7,
+      "Srednja_sola": 71,
+      "Dijaski_dom": 3,
+      "Zavodi": 0
+    },
+    "zaposleni_okuzbe_aktivne": {
+      "Vrtec": 39,
+      "Osnovna_sola": 96,
+      "Osnovna_sola_s_prilagojenim_programom": 7,
+      "Glasbena_sola": 1,
+      "Srednja_sola": 15,
+      "Dijaski_dom": 1,
+      "Zavodi": 2
+    },
+    "oddelki_v_karanteni_aktivne": {
+      "Vrtec": 21,
+      "Osnovna_sola": 205,
+      "Osnovna_sola_s_prilagojenim_programom": 5,
+      "Glasbena_sola": 1,
+      "Srednja_sola": 42,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_v_karanteni_aktivne": {
+      "Vrtec": 344,
+      "Osnovna_sola": 4458,
+      "Osnovna_sola_s_prilagojenim_programom": 21,
+      "Glasbena_sola": 10,
+      "Srednja_sola": 1089,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_nove_t1": {
+      "Vrtec": 0,
+      "Osnovna_sola": 0,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_nove_t2": {
+      "Vrtec": 0,
+      "Osnovna_sola": 0,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_nove_t3": {
+      "Vrtec": 0,
+      "Osnovna_sola": 0,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "oddelki_v_karanteni_novi_t1": {
+      "Vrtec": 0,
+      "Osnovna_sola": 0,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "oddelki_v_karanteni_novi_t2": {
+      "Vrtec": 0,
+      "Osnovna_sola": 0,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "oddelki_v_karanteni_novi_t3": {
+      "Vrtec": 0,
+      "Osnovna_sola": 0,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_aktivne_t1": {
+      "Vrtec": 0,
+      "Osnovna_sola": 52,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_aktivne_t2": {
+      "Vrtec": 0,
+      "Osnovna_sola": 84,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_aktivne_t3": {
+      "Vrtec": 0,
+      "Osnovna_sola": 126,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "oddelki_v_karanteni_aktivne_t1": {
+      "Vrtec": 0,
+      "Osnovna_sola": 33,
+      "Osnovna_sola_s_prilagojenim_programom": 1,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "oddelki_v_karanteni_aktivne_t2": {
+      "Vrtec": 0,
+      "Osnovna_sola": 89,
+      "Osnovna_sola_s_prilagojenim_programom": 1,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "oddelki_v_karanteni_aktivne_t3": {
+      "Vrtec": 0,
+      "Osnovna_sola": 83,
+      "Osnovna_sola_s_prilagojenim_programom": 1,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "zavodi_pouk_na_daljavo": {
+      "Vrtec": 17,
+      "Osnovna_sola": 111,
+      "Osnovna_sola_s_prilagojenim_programom": 4,
+      "Glasbena_sola": 2,
+      "Srednja_sola": 31,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "sum_karantena_ucenci_aktivni": {
+      "Vrtec": 37,
+      "Osnovna_sola": 331,
+      "Osnovna_sola_s_prilagojenim_programom": 8,
+      "Glasbena_sola": 76,
+      "Srednja_sola": 22,
+      "Dijaski_dom": 4,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_aktivne_delez": {
+      "Vrtec": 0.0168,
+      "Osnovna_sola": 0.1310000000000001,
+      "Osnovna_sola_s_prilagojenim_programom": 0.025,
+      "Glasbena_sola": 0.14,
+      "Srednja_sola": 2.037999999999997,
+      "Dijaski_dom": 0.06,
+      "Zavodi": 0
+    },
+    "zaposleni_okuzbe_aktivne_delez": {
+      "Vrtec": 0.27689999999999987,
+      "Osnovna_sola": 0.3935999999999996,
+      "Osnovna_sola_s_prilagojenim_programom": 0.2569,
+      "Glasbena_sola": 0.02,
+      "Srednja_sola": 0.15220000000000003,
+      "Dijaski_dom": 0.02,
+      "Zavodi": 0.04
+    },
+    "uradni_podatki_SLO": [
+      "12.10.2021"
     ]
   }
 ]
