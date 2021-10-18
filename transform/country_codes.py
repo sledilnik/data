@@ -44,6 +44,7 @@ mapping = {
     'Namibija': 'nam',
     'Nepal': 'npl',
     'Nizozemska': 'nld',
+    'Norveška': 'nor',
     'Mali': 'mli',
     'Malta': 'mlt',
     'Maroko': 'mar',
