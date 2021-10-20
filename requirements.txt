@@ -6,5 +6,6 @@ pandas==1.1.*
 pyquery==1.4.*
 python-dateutil==2.8.*
 requests==2.26.*
-cepimose==0.1.26
+# cepimose==0.1.26
 # git+https://github.com/sledilnik/py-cepimose@master#egg=cepimose
+git+https://github.com/jalezi/py-cepimose@new-nijz-vaccination-dashboard#egg=cepimose

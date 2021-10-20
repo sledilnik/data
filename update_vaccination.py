@@ -230,6 +230,7 @@ def import_nijz_dash_vacc_by_age():
         # agData["first_diff"] = agData["first_dose"].diff()
         # agData["second_diff"] = agData["second_dose"].diff()
         # agData = agData[['first_diff', 'first_dose', 'second_diff', 'second_dose']]
+        agData.drop(['third_dose'], axis=1, inplace=True) # TODO: use it
         agData.rename(inplace=True, columns={
             # 'first_diff': f'vaccination.age.{ageGroups[ag]}.1st',
             'first_dose': f'vaccination.age.{ageGroups[ag]}.1st.todate',
