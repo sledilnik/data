@@ -38,6 +38,7 @@ def computeVaccination(update_time):
     merged = merged.reindex([  # sort
         'vaccination.administered', 'vaccination.administered.todate',
         'vaccination.administered2nd', 'vaccination.administered2nd.todate',
+        'vaccination.administered3rd', 'vaccination.administered3rd.todate',
         'vaccination.used.todate',
         'vaccination.pfizer.used.todate',
         'vaccination.moderna.used.todate',
@@ -97,7 +98,9 @@ def import_nijz_dash_vacc_administred():
     df = pd.merge(df, df_diff, right_index=True, left_index=True)
 
     # sort cols
-    df = df[['vaccination.administered', 'vaccination.administered.todate', 'vaccination.administered2nd', 'vaccination.administered2nd.todate', 'vaccination.administered3rd', 'vaccination.administered3rd.todate']]
+    df = df[['vaccination.administered', 'vaccination.administered.todate',
+             'vaccination.administered2nd', 'vaccination.administered2nd.todate',
+             'vaccination.administered3rd', 'vaccination.administered3rd.todate']]
     df = df.astype('Int64')
 
     # write csv

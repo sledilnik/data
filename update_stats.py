@@ -77,6 +77,7 @@ def computeStats(update_time):
         'deceased.male.todate', 'deceased.rhoccupant.todate', 'deceased.other.todate',
         'vaccination.administered', 'vaccination.administered.todate',
         'vaccination.administered2nd', 'vaccination.administered2nd.todate',
+        'vaccination.administered3rd', 'vaccination.administered3rd.todate',
         'vaccination.used.todate', 'vaccination.delivered.todate'
     ], axis='columns')
 
