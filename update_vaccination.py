@@ -64,7 +64,7 @@ def computeVaccination(update_time):
         'vaccination.age.75-79.1st.todate','vaccination.age.75-79.2nd.todate','vaccination.age.75-79.3rd.todate',
         'vaccination.age.80-84.1st.todate','vaccination.age.80-84.2nd.todate','vaccination.age.80-84.3rd.todate',
         'vaccination.age.85-89.1st.todate','vaccination.age.85-89.2nd.todate','vaccination.age.85-89.3rd.todate',
-        'vaccination.age.90+.1st.todate','vaccination.age.90+.2nd.todate''vaccination.age.90+.3rd.todate'
+        'vaccination.age.90+.1st.todate','vaccination.age.90+.2nd.todate','vaccination.age.90+.3rd.todate'
     ], axis='columns')
     merged.to_csv(filename, float_format='%.0f', line_terminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=old_hash)
@@ -236,7 +236,6 @@ def import_nijz_dash_vacc_by_age():
         # agData["first_diff"] = agData["first_dose"].diff()
         # agData["second_diff"] = agData["second_dose"].diff()
         # agData = agData[['first_diff', 'first_dose', 'second_diff', 'second_dose']]
-        agData.drop(['third_dose'], axis=1, inplace=True) # TODO: use it
         agData.rename(inplace=True, columns={
             # 'first_diff': f'vaccination.age.{ageGroups[ag]}.1st',
             'first_dose': f'vaccination.age.{ageGroups[ag]}.1st.todate',
