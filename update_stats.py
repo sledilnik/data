@@ -77,6 +77,7 @@ def computeStats(update_time):
         'deceased.male.todate', 'deceased.rhoccupant.todate', 'deceased.other.todate',
         'vaccination.administered', 'vaccination.administered.todate',
         'vaccination.administered2nd', 'vaccination.administered2nd.todate',
+        'vaccination.administered3rd', 'vaccination.administered3rd.todate',
         'vaccination.used.todate', 'vaccination.delivered.todate'
     ], axis='columns')
 
@@ -119,7 +120,8 @@ def computeRegionCases(update_time):
     dfVaccinated = dfVaccinated.filter(like='date', axis='columns') \
                     .rename(mapper=lambda x: x.replace('vaccination.region', 'region'), axis='columns') \
                     .rename(mapper=lambda x: x.replace('1st.todate', 'vaccinated.1st.todate'), axis='columns') \
-                    .rename(mapper=lambda x: x.replace('2nd.todate', 'vaccinated.2nd.todate'), axis='columns')
+                    .rename(mapper=lambda x: x.replace('2nd.todate', 'vaccinated.2nd.todate'), axis='columns') \
+                    .rename(mapper=lambda x: x.replace('3rd.todate', 'vaccinated.3rd.todate'), axis='columns')
     merged = dfConfirmed.join(dfActive).join(dfDeceased).join(dfVaccinated).sort_index(axis=1)
     merged.to_csv(filename, float_format='%.0f', index_label='date')
     write_timestamp_file(filename=filename, old_hash=old_hash)
