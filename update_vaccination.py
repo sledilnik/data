@@ -153,6 +153,10 @@ def import_nijz_dash_vacc_used_by_manufacturer():
     ]]
     df = df.replace({0: None}).astype('Int64')
 
+    today = datetime.date.today().isoformat()
+    if today in df.index and pd.isna(df.loc[today]['vaccination.used']):
+        df.drop(df.loc[df.index==today].index, inplace=True)
+
     # write csv
     old_hash = sha1sum(filename)
     # replace 0 with pd.NA so it does not get written to CSV
