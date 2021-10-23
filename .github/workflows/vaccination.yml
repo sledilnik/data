@@ -23,10 +23,8 @@ on:
     - 'requirements.txt'
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '20,40,59 05,16 * * *' # increased frequency for morning and evening update
-    - cron:  '5 00-04/1 * * *' # periodic hourly update otherwise
-    - cron:  '5 06-15/1 * * *' # periodic hourly update otherwise
-    - cron:  '5 17-23/1 * * *' # periodic hourly update otherwise
+    - cron:  '25,40,59 07 * * *' # increased frequency for morning update
+    - cron:  '5 */1 * * *' # periodic hourly update otherwise
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
