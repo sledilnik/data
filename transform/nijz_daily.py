@@ -195,13 +195,17 @@ df_stats_legacy = pd.read_csv(os.path.join(CSV_FOLDER, 'cases-legacy.csv'), inde
     'cases.rh.employee.confirmed.todate'
 ]]
 
-df_vaccination_cases = pd.read_csv('csv/vaccination-confirmed-cases-opsi.csv', sep=';') \
-    .rename(mapper={
-        'Datum': 'date',
-        'Potrjeni zasciteni s cepljenjem': 'cases.vaccinated.confirmed'
-    }, axis='columns').set_index('date') \
-    .rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows') [[ 'cases.vaccinated.confirmed' ]]
-df_vaccination_cases['cases.vaccinated.confirmed.todate'] = df_vaccination_cases['cases.vaccinated.confirmed'].fillna(0).cumsum()
+vaccination_column_name = 'Potrjeni zasciteni s cepljenjem'
+df_vaccination_cases = pd.read_csv('csv/vaccination-confirmed-cases-opsi.csv',
+    sep=';',
+    decimal=',',
+    thousands='.',
+    usecols=['Datum', vaccination_column_name],
+    index_col='Datum',
+    parse_dates=['Datum'],
+    date_parser=lambda date_string: pd.to_datetime(date_string, format="%d.%m.%Y"),
+    dtype={vaccination_column_name: 'int64'})
+df_vaccination_cases['cases.vaccinated.confirmed.todate'] = df_vaccination_cases[vaccination_column_name].cumsum().astype('Int64')
 df_vaccination_cases = df_vaccination_cases [[ 'cases.vaccinated.confirmed.todate' ]]
 
 df_joined = df_1.join(df_6).join(df_stats_legacy).join(df_vaccination_cases)
