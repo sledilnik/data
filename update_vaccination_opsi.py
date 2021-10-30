@@ -1,5 +1,8 @@
 #!/usr/bin/env python
+import time
 import requests
+
+from update_stats import computeVaccinatedCases, computeCases, computeStats
 
 def saveurl(url, filename, expectedContentType):
     print("Downloading ", url)
@@ -21,5 +24,12 @@ def import_opsi_vaccination_effects():
     # https://podatki.gov.si/dataset/hospitalizirani-primeri-sari-potrjeni-covid-19-po-cepilnem-statusu-v-sloveniji-nijz-cnb
     saveurl("https://podatki.gov.si/dataset/2a40d74b-4e75-4051-8ab7-289c70348cb7/resource/816af1be-4e56-4fca-a647-db7b09a2c98b/download/saricov19hospitalizacija.csv", "csv/vaccination-hospitalized-cases-opsi.csv", "text/csv")
 
+
 if __name__ == "__main__":
+    update_time = int(time.time())
+
     import_opsi_vaccination_effects()
+
+    computeVaccinatedCases(update_time)
+    computeCases(update_time)
+    computeStats(update_time)
