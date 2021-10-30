@@ -142,38 +142,16 @@ df_i_4 = pd.read_excel(io=SOURCE_FILE_INFECTED, sheet_name='Tabela 4', engine='o
     'SKUPAJ': 'week.healthcare'
 }).set_index('week').replace({0: None}).astype('Int64')
 
-# source hospitalized+vaccinated data from archival CSV
-df_vaccination_cases = pd.read_csv('csv/vaccination-hospitalized-cases-opsi.csv', sep=';') \
-    .rename(mapper={
-        'Leto': 'year',
-        'Teden': 'week',
-        'Hosp_Necepljeni': 'week.hospitalized.other',
-        'Hosp_Cepljeni': 'week.hospitalized.vaccinated'
-    }, axis='columns')
-
-df_vaccination_cases['week'] = df_vaccination_cases['year'].astype('str') + df_vaccination_cases['week'].map(lambda x: '-%02d' % x)
-df_vaccination_cases.set_index('week', inplace=True)
-df_vaccination_cases = df_vaccination_cases[[ 'week.hospitalized.vaccinated', 'week.hospitalized.other' ]].astype('Int64')
-
-# source icu hospitalized from archival CSV
-vaccination_statuses = ['vaccinated', 'vaccinatedpartially', 'recovered', 'other']
-icu_columns_daily = ['date'] + list(map(lambda status: 'state.icu.in.' + status, vaccination_statuses))
-df_icu_cases = pd.read_csv(os.path.join(CSV_FOLDER, 'icu.csv'), usecols=icu_columns_daily)
-# convert to datetime objects
-df_icu_cases['date'] = pd.to_datetime(df_icu_cases['date'])
-# calculate weekly cumulative sum, convert to integers and rename columns
-df_icu_cases = df_icu_cases \
-    .resample('W-Mon', on='date', closed='left', label='left').sum().replace({0: None}).astype('Int64') \
-    .rename(columns = dict(map(lambda status: ('state.icu.in.' + status, 'week.icu.' + status), vaccination_statuses)))
-df_icu_cases['week'] = df_icu_cases.index.strftime('%Y-%W')
-df_icu_cases.set_index('week', inplace=True)
 
 # source quarantine data from archival CSV
 df_quarantine = pd.read_csv(os.path.join(CSV_FOLDER, 'stats-weekly-archive.csv'), index_col='week')
 df_quarantine = df_quarantine[['week.sent_to.quarantine', 'week.src.quarantine']]
 df_quarantine = df_quarantine.replace({0: None}).astype('Int64')
 
-merged = df_d_1.join([df_d_2, df_i_1, df_i_2, df_i_3, df_i_4, df_quarantine, df_vaccination_cases, df_icu_cases])
+df_cases_vaccinated = pd.read_csv('csv/cases-vaccinated-weekly.csv', index_col='week')
+df_cases_vaccinated = df_cases_vaccinated.astype('Int64')
+
+merged = df_d_1.join([df_d_2, df_i_1, df_i_2, df_i_3, df_i_4, df_quarantine, df_cases_vaccinated])
 merged.index.name = 'week'
 
 week_dates = {'week': [], 'date': [], 'date.to': []}
