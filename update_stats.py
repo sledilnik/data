@@ -172,28 +172,6 @@ def computeCases(update_time):
     write_timestamp_file(filename=filename, old_hash=df_cases_old_hash)
 
 
-def computeVaccinatedCases(update_time):
-    filename = 'csv/cases-vaccinated.csv'
-    print("Processing", filename)
-    df_old_hash = sha1sum(filename)
-    vaccination_column_name = 'Potrjeni zasciteni s cepljenjem'
-    df_vaccination_cases = pd.read_csv('csv/vaccination-confirmed-cases-opsi.csv',
-        sep=';',
-        decimal=',',
-        thousands='.',
-        usecols=['Datum', vaccination_column_name],
-        index_col='Datum',
-        parse_dates=['Datum'],
-        date_parser=lambda date_string: pd.to_datetime(date_string, format="%d.%m.%Y"),
-        dtype={vaccination_column_name: 'int64'})
-    df_vaccination_cases['cases.vaccinated.confirmed.todate'] = df_vaccination_cases[vaccination_column_name].cumsum().astype('Int64')
-    df_vaccination_cases = df_vaccination_cases [[ 'cases.vaccinated.confirmed.todate' ]]
-    df_vaccination_cases.index.names = ['date']
-
-    df_vaccination_cases.replace({0: None}).astype('Int64').dropna().to_csv(filename, line_terminator='\r\n')
-    write_timestamp_file(filename=filename, old_hash=df_old_hash)
-
-
 if __name__ == "__main__":
     update_time = int(time.time())
 
