@@ -8,12 +8,14 @@ on:
     paths:
     - '.github/workflows/vaccination_opsi.yml'
     - 'update_vaccination_opsi.py'
+    - 'update_stats.py'
     - 'requirements.txt'
   pull_request:
     branches: [ master ]
     paths:
     - '.github/workflows/vaccination_opsi.yml'
     - 'update_vaccination_opsi.py'
+    - 'update_stats.py'
     - 'requirements.txt'
   schedule:
     # * is a special character in YAML so you have to quote this string
