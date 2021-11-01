@@ -7,6 +7,7 @@ on:
     branches: [ master ]
     paths:
     - '.github/workflows/vaccination_opsi.yml'
+    - 'transform/country_codes.py'
     - 'update_vaccination_opsi.py'
     - 'update_stats.py'
     - 'requirements.txt'
@@ -14,6 +15,7 @@ on:
     branches: [ master ]
     paths:
     - '.github/workflows/vaccination_opsi.yml'
+    - 'transform/country_codes.py'
     - 'update_vaccination_opsi.py'
     - 'update_stats.py'
     - 'requirements.txt'
