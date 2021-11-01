@@ -7,9 +7,8 @@ from datetime import datetime
 
 import pandas as pd
 
-from country_codes import get_county_code
+from country_codes import get_county_code, stats_weekly_sorted_fields
 from utils import sha1sum, write_timestamp_file, download_nijz_xslx_file
-
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__file__)
@@ -142,38 +141,16 @@ df_i_4 = pd.read_excel(io=SOURCE_FILE_INFECTED, sheet_name='Tabela 4', engine='o
     'SKUPAJ': 'week.healthcare'
 }).set_index('week').replace({0: None}).astype('Int64')
 
-# source hospitalized+vaccinated data from archival CSV
-df_vaccination_cases = pd.read_csv('csv/vaccination-hospitalized-cases-opsi.csv', sep=';') \
-    .rename(mapper={
-        'Leto': 'year',
-        'Teden': 'week',
-        'Hosp_Necepljeni': 'week.hospitalized.other',
-        'Hosp_Cepljeni': 'week.hospitalized.vaccinated'
-    }, axis='columns')
-
-df_vaccination_cases['week'] = df_vaccination_cases['year'].astype('str') + df_vaccination_cases['week'].map(lambda x: '-%02d' % x)
-df_vaccination_cases.set_index('week', inplace=True)
-df_vaccination_cases = df_vaccination_cases[[ 'week.hospitalized.vaccinated', 'week.hospitalized.other' ]].astype('Int64')
-
-# source icu hospitalized from archival CSV
-vaccination_statuses = ['vaccinated', 'vaccinatedpartially', 'recovered', 'other']
-icu_columns_daily = ['date'] + list(map(lambda status: 'state.icu.in.' + status, vaccination_statuses))
-df_icu_cases = pd.read_csv(os.path.join(CSV_FOLDER, 'icu.csv'), usecols=icu_columns_daily)
-# convert to datetime objects
-df_icu_cases['date'] = pd.to_datetime(df_icu_cases['date'])
-# calculate weekly cumulative sum, convert to integers and rename columns
-df_icu_cases = df_icu_cases \
-    .resample('W-Mon', on='date', closed='left', label='left').sum().replace({0: None}).astype('Int64') \
-    .rename(columns = dict(map(lambda status: ('state.icu.in.' + status, 'week.icu.' + status), vaccination_statuses)))
-df_icu_cases['week'] = df_icu_cases.index.strftime('%Y-%W')
-df_icu_cases.set_index('week', inplace=True)
 
 # source quarantine data from archival CSV
 df_quarantine = pd.read_csv(os.path.join(CSV_FOLDER, 'stats-weekly-archive.csv'), index_col='week')
 df_quarantine = df_quarantine[['week.sent_to.quarantine', 'week.src.quarantine']]
 df_quarantine = df_quarantine.replace({0: None}).astype('Int64')
 
-merged = df_d_1.join([df_d_2, df_i_1, df_i_2, df_i_3, df_i_4, df_quarantine, df_vaccination_cases, df_icu_cases])
+df_cases_vaccinated = pd.read_csv('csv/cases-vaccinated-weekly.csv', index_col='week')
+df_cases_vaccinated = df_cases_vaccinated.astype('Int64')
+
+merged = df_d_1.join([df_d_2, df_i_1, df_i_2, df_i_3, df_i_4, df_quarantine, df_cases_vaccinated])
 merged.index.name = 'week'
 
 week_dates = {'week': [], 'date': [], 'date.to': []}
@@ -190,27 +167,7 @@ merged = merged.join(pd.DataFrame(data=week_dates).set_index('week'))
 df_archive = pd.read_csv(os.path.join(CSV_FOLDER, 'stats-weekly-archive.csv'), index_col='week')
 df_archive = df_archive.iloc[:13]  # keep range 2020-10 to 2020-22
 merged.drop([f'2020-{x}' for x in range(10, 23)], axis='rows', inplace=True)
-merged = pd.concat([df_archive, merged])
-
-merged = merged.reindex([  # sort
-    'date', 'date.to', 'week.hospitalized.vaccinated', 'week.hospitalized.other',
-    'week.icu.vaccinated', 'week.icu.vaccinatedpartially', 'week.icu.recovered', 'week.icu.other',
-    'week.confirmed', 'week.investigated', 'week.healthcare', 'week.healthcare.male', 'week.healthcare.female', 'week.rhoccupant',
-    'week.loc.family', 'week.loc.work', 'week.loc.school', 'week.loc.hospital', 'week.loc.otherhc', 'week.loc.rh', 'week.loc.prison',
-    'week.loc.transport', 'week.loc.shop', 'week.loc.restaurant', 'week.loc.sport', 'week.loc.gathering_private',
-    'week.loc.gathering_organized', 'week.loc.other', 'week.loc.unknown',
-    'week.sent_to.quarantine', 'week.src.quarantine', 'week.src.import', 'week.src.import-related', 'week.src.local', 'week.src.unknown',
-    'week.from.aus', 'week.from.aut', 'week.from.aze', 'week.from.bel', 'week.from.bgr', 'week.from.bih', 'week.from.cze', 'week.from.mne',
-    'week.from.dnk', 'week.from.dom', 'week.from.est', 'week.from.fra', 'week.from.grc', 'week.from.hrv', 'week.from.irn', 'week.from.ita',
-    'week.from.kaz', 'week.from.xkx', 'week.from.hun', 'week.from.mkd', 'week.from.mlt', 'week.from.mar', 'week.from.fsm', 'week.from.deu',
-    'week.from.pak', 'week.from.pol', 'week.from.rou', 'week.from.rus', 'week.from.svk', 'week.from.srb', 'week.from.esp', 'week.from.swe',
-    'week.from.che', 'week.from.tur', 'week.from.ukr', 'week.from.gbr', 'week.from.usa', 'week.from.are', 'week.from.nld', 'week.from.prt',
-    'week.from.lva', 'week.from.alb', 'week.from.cub', 'week.from.mli', 'week.from.egy', 'week.from.tza', 'week.from.fin', 'week.from.nam',
-    'week.from.jib', 'week.from.mdv', 'week.from.qat', 'week.from.afg', 'week.from.npl', 'week.from.cyp', 'week.from.mus', 'week.from.tun',
-    'week.from.kgz', 'week.from.irl', 'week.from.rwa', 'week.from.zaf', 'week.from.uzb', 'week.from.bwa', 'week.from.gnq', 'week.from.gmb',
-    'week.from.ala', 'week.from.lux', 'week.from.abw', 'week.from.wlf', 'week.from.sur', 'week.from.isr', 'week.from.nor'
-], axis='columns')
-
+merged = pd.concat([df_archive, merged]).reindex(stats_weekly_sorted_fields, axis='columns')
 
 
 def export_dataframe_to_csv(name: str, dataframe):

@@ -171,6 +171,7 @@ def computeCases(update_time):
     df_cases.replace({0: None}).astype('Int64').to_csv(filename, line_terminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=df_cases_old_hash)
 
+
 if __name__ == "__main__":
     update_time = int(time.time())
 
