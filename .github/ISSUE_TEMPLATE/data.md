@@ -10,10 +10,10 @@ assignees:
 
 ## Data source
 
-<!-->data source if known, eg. NIJZ, OPSI, MIZŠ, SURS, OWID...</!-->
+<!-- Data source if known, eg. NIJZ, OPSI, MIZŠ, SURS, OWID... -->
 
 ## Expected data and actual data
 
-<!-->Here write enumeric data with dates, link to rows in CSV files, screeenshots of charts showing the wrong data... and what the correct data should be.</!-->
+<!-- Here write enumeric data with dates, link to rows in CSV files, screeenshots of charts showing the wrong data... and what the correct data should be. -->
 
 ## Steps to confirm the data problem
