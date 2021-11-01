@@ -17,3 +17,7 @@ assignees:
 <!-- Here write enumeric data with dates, link to rows in CSV files, screeenshots of charts showing the wrong data... and what the correct data should be. -->
 
 ## Steps to confirm the data problem
+
+1.
+2.
+3.
