@@ -216,7 +216,7 @@ df_1 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 1', engine='openpyxl', s
 df_1 = df_1[df_1.index.notnull()]  # drop non-indexed rows (where NaN is a part of the index)
 df_1.drop('SKUPAJ', axis='rows', inplace=True)
 df_1 = df_1.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')[[
-    'tests.regular.positive', 
+    'tests.regular.positive',
     'tests.regular.performed',
     'tests.hagt.performed'
 ]]
