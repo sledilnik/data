@@ -4,6 +4,7 @@ import requests
 import pandas as pd
 
 from update_stats import sha1sum, write_timestamp_file, computeCases, computeStats
+from transform.country_codes import stats_weekly_sorted_fields
 
 def saveurl(url, filename, expectedContentType):
     print("Downloading ", url)
@@ -86,6 +87,30 @@ def computeVaccinatedCasesWeekly(update_time):
     write_timestamp_file(filename=filename, old_hash=df_old_hash)
 
 
+def computeStatsWeekly(update_time):
+    filename = 'csv/stats-weekly.csv'
+    print("Processing", filename)
+    df_old_hash = sha1sum(filename)
+
+    fields_vacc = [
+        'week.hospitalized.vaccinated', 'week.hospitalized.other',
+        'week.icu.vaccinated', 'week.icu.vaccinatedpartially', 'week.icu.recovered', 'week.icu.other'
+    ]
+
+    df_stats_weekly = pd.read_csv(filename, index_col='week')
+    df_stats_weekly.drop(fields_vacc, axis='columns', inplace=True)
+
+    df_vaccinated = pd.read_csv('csv/cases-vaccinated-weekly.csv', index_col='week')
+
+    merged = df_stats_weekly.join(df_vaccinated).reindex(stats_weekly_sorted_fields, axis='columns')
+
+    for field in stats_weekly_sorted_fields[2:]:
+        merged[field] = merged[field].astype('Int64')
+
+    merged.to_csv(filename, line_terminator='\r\n')
+    write_timestamp_file(filename=filename, old_hash=df_old_hash)
+
+
 if __name__ == "__main__":
     update_time = int(time.time())
 
@@ -95,3 +120,4 @@ if __name__ == "__main__":
     computeVaccinatedCasesWeekly(update_time)
     computeCases(update_time)
     computeStats(update_time)
+    computeStatsWeekly(update_time)
