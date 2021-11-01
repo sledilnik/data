@@ -2,7 +2,7 @@
 name: Problem with existing data
 about: Use this template for tracking problem with data in this repository.
 title: "[DATE]: [DATA SOURCE] [SUMMARY]"
-labels: needs triage
+labels: data, needs triage
 assignees:
 ---
 
