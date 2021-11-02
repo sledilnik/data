@@ -189,7 +189,7 @@ df_6 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 5', skiprows=[0, 2], ski
 df_6['cases.rh.occupant.confirmed.todate'] = df_6['cases.rh.occupant.confirmed'].cumsum()
 df_6.drop('cases.rh.occupant.confirmed', axis='columns', inplace=True)
 
-df_stats_legacy = pd.read_csv(os.path.join(CSV_FOLDER, 'cases-legacy.csv'), index_col='date')[[
+df_stats_legacy = pd.read_csv(os.path.join(CSV_FOLDER, 'cases-legacy.csv'), index_col='date', parse_dates=['date'])[[
     'cases.hs.employee.confirmed.todate',
     'cases.rh.employee.confirmed.todate'
 ]]
