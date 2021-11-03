@@ -58,7 +58,7 @@ jobs:
       run: pip install -r requirements.txt
 
     - name: "Run GSheet update - update.py"
-      run: | 
+      run: |
         python update.py
       env:
         GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
