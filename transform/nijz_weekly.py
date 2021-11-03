@@ -26,25 +26,25 @@ logger.info(f'SOURCE_FILE umrli: {SOURCE_FILE_DECEASED}')
 CSV_FOLDER = os.path.join(os.path.dirname(__file__), '../csv')
 
 
-df_d_1 = pd.read_excel(io=SOURCE_FILE_DECEASED, sheet_name='Tabela 1', engine='openpyxl', skiprows=[0], skipfooter=2)
+df_d_1 = pd.read_excel(io=SOURCE_FILE_DECEASED, sheet_name='Tabela 1', skiprows=[0], skipfooter=1)
 df_d_1.drop('Ostalo prebivalstvo', axis='columns', inplace=True)
 df_d_1.rename(columns={'Leto in ISO teden izvida': 'week', 'Oskrbovanci': 'week.rhoccupant', 'SKUPAJ': 'week.confirmed'}, inplace=True)
 df_d_1.set_index('week', inplace=True)
 df_d_1 = df_d_1.replace({0: None}).astype('Int64')
 
-df_d_2 = pd.read_excel(io=SOURCE_FILE_DECEASED, sheet_name='Tabela 2', engine='openpyxl', skiprows=[0], skipfooter=2)
+df_d_2 = pd.read_excel(io=SOURCE_FILE_DECEASED, sheet_name='Tabela 2', skiprows=[0], skipfooter=1)
 df_d_2.drop('Ostalo prebivalstvo', axis='columns', inplace=True)
 df_d_2.rename(columns={'Leto in ISO teden smrti': 'week', 'Oskrbovanci': 'week.deceased.rhoccupant', 'SKUPAJ': 'week.deceased'}, inplace=True)
 df_d_2.set_index('week', inplace=True)
 df_d_2 = df_d_2.replace({0: None}).astype('Int64')
 
-df_d_3 = pd.read_excel(io=SOURCE_FILE_DECEASED, sheet_name='Tabela 3', engine='openpyxl', skiprows=[0, 2], skipfooter=2)
+df_d_3 = pd.read_excel(io=SOURCE_FILE_DECEASED, sheet_name='Tabela 3', skiprows=[0, 2], skipfooter=1)
 df_d_3.drop(['Leto, ISO teden in datum smrti', 'SKUPAJ'], axis='columns', inplace=True)
 df_d_3 = df_d_3.rename(columns={'Unnamed: 1': 'date', 'Oskrbovanci': 'deceased.rhoccupant.todate', 'Ostalo prebivalstvo': 'deceased.other.todate'}).set_index('date').rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')
 df_d_3 = df_d_3.cumsum()
 df_d_3 = df_d_3.replace({0: None}).astype('Int64')
 
-df_d_4 = pd.read_excel(io=SOURCE_FILE_DECEASED, sheet_name='Tabela 4', engine='openpyxl', skiprows=[0, 2], skipfooter=2)
+df_d_4 = pd.read_excel(io=SOURCE_FILE_DECEASED, sheet_name='Tabela 4', skiprows=[0, 2], skipfooter=1)
 df_d_4.drop(['Leto, ISO teden in datum smrti', 'SKUPAJ'], axis='columns', inplace=True)
 df_d_4 = df_d_4.rename(columns={
     'Unnamed: 1': 'date',
@@ -67,7 +67,7 @@ df_d_4 = df_d_4.cumsum()
 df_d_4['region.todate'] = df_d_4.sum(axis='columns')
 df_d_4 = df_d_4.replace({0: None}).astype('Int64')
 
-df_d_5 = pd.read_excel(io=SOURCE_FILE_DECEASED, sheet_name='Tabela 5', engine='openpyxl', skiprows=[0, 1, 2], skipfooter=2)
+df_d_5 = pd.read_excel(io=SOURCE_FILE_DECEASED, sheet_name='Tabela 5', skiprows=[0, 1, 2], skipfooter=1)
 df_d_5.drop(['Unnamed: 0', 'Unnamed: 22', 'Unnamed: 23', 'Unnamed: 24'], axis='columns', inplace=True)
 columns = []
 age_ranges = ['0-4', '5-14', '15-24', '25-34', '35-44', '45-54', '55-64', '65-74', '75-84', '85+']
@@ -95,7 +95,7 @@ df_d_5 = df_d_5.reindex([
 ], axis='columns')
 df_d_5 = df_d_5.cumsum().replace({0: None}).astype('Int64')
 
-df_i_1 = pd.read_excel(io=SOURCE_FILE_INFECTED, sheet_name='Tabela 1', engine='openpyxl', skiprows=[0, 2], skipfooter=1) \
+df_i_1 = pd.read_excel(io=SOURCE_FILE_INFECTED, sheet_name='Tabela 1', skiprows=[0, 2]) \
     .rename(columns={
         'Teden': 'week',
         'Skupaj': 'week.investigated',
@@ -106,7 +106,7 @@ df_i_1 = pd.read_excel(io=SOURCE_FILE_INFECTED, sheet_name='Tabela 1', engine='o
     }).set_index('week').drop('ni podatka', axis='columns')
 df_i_1 = df_i_1.replace({0: None}).astype('Int64')
 
-df_i_2 = pd.read_excel(io=SOURCE_FILE_INFECTED, sheet_name='Tabela 2', engine='openpyxl', skiprows=[0, 2], skipfooter=1) \
+df_i_2 = pd.read_excel(io=SOURCE_FILE_INFECTED, sheet_name='Tabela 2', skiprows=[0, 2]) \
     .rename(columns={
         'Teden': 'week',
         'družina, skupno gospodinjstvo': 'week.loc.family',
@@ -127,14 +127,14 @@ df_i_2 = pd.read_excel(io=SOURCE_FILE_INFECTED, sheet_name='Tabela 2', engine='o
     }).drop('Skupaj', axis='columns').set_index('week')
 df_i_2 = df_i_2.replace({0: None}).astype('Int64')
 
-df_i_3 = pd.read_excel(io=SOURCE_FILE_INFECTED, sheet_name='Tabela 3', engine='openpyxl', skiprows=[0, 2], skipfooter=1).transpose()[:-1]
+df_i_3 = pd.read_excel(io=SOURCE_FILE_INFECTED, sheet_name='Tabela 3', skiprows=[0, 2]).transpose()[:-1]
 df_i_3.columns = df_i_3.iloc[0]
 df_i_3 = df_i_3[1:]
 df_i_3.index.rename('date', inplace=True)
 df_i_3 = df_i_3.rename(mapper=lambda x: f'week.from.{get_county_code(x)}', axis='columns')
 df_i_3 = df_i_3.replace({0: None}).astype('Int64')
 
-df_i_4 = pd.read_excel(io=SOURCE_FILE_INFECTED, sheet_name='Tabela 4', engine='openpyxl', skiprows=[0, 1, 3], skipfooter=1).rename(columns={
+df_i_4 = pd.read_excel(io=SOURCE_FILE_INFECTED, sheet_name='Tabela 4', skiprows=[0, 1, 3]).rename(columns={
     'Unnamed: 0': 'week',
     'Moški': 'week.healthcare.male',
     'Ženske': 'week.healthcare.female',
