@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import time
+from datetime import date 
 import requests
 import pandas as pd
 
@@ -79,6 +80,7 @@ def computeVaccinatedCasesWeekly(update_time):
         .rename(columns = dict(map(lambda status: ('state.icu.in.' + status, 'week.icu.' + status), vaccination_statuses)))
     df_icu_cases['week'] = df_icu_cases.index.strftime('%Y-%W')
     df_icu_cases.set_index('week', inplace=True)
+    df_icu_cases = df_icu_cases[df_icu_cases.index < date.today().strftime('%Y-%W')] # drop current week: incomplete
 
     merged = df_hospitalized_cases.join(df_icu_cases, how='outer')
     merged.index.name = 'week'
