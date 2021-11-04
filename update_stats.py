@@ -143,9 +143,11 @@ def computeCases(update_time):
     assert len(date_diff) <= 1, 'The date difference between lab-tests.csv and cases.csv is more than one day.'
     if len(date_diff) > 0:
         df_cases = df_cases.append(pd.DataFrame(index=date_diff, columns=df_cases.columns))
+        df_cases.index.rename('date', inplace=True)  # name it explicitly otherwise it doesn't show up in csv
         date = date_diff[0]  # equals index of -1
+
         # only manipulate last row
-        df_cases.at[date, 'cases.confirmed'] = df_lab_tests.at[date, 'tests.positive'] + df_lab_tests.at[date, 'tests.hagt.positive']
+        df_cases.at[date, 'cases.confirmed'] = df_lab_tests.at[date, 'tests.positive']
         df_cases.at[date, 'cases.confirmed.todate'] = df_cases.iloc[-2, df_cases.columns.get_loc('cases.confirmed.todate')] + df_cases.at[date, 'cases.confirmed']
 
         df_cases['cases.active.temp'] = df_cases['cases.confirmed'].rolling(window=14).sum()
@@ -154,10 +156,6 @@ def computeCases(update_time):
 
         df_cases.at[date, 'cases.closed.todate'] = df_cases.at[date, 'cases.confirmed.todate'] - df_cases.at[date, 'cases.active']
 
-        # TODO use common function for writing CSV
-        df_cases.index.rename('date', inplace=True)  # name it explicitly otherwise it doesn't show up in csv
-        df_cases.replace({0: None}).astype('Int64').to_csv(filename, line_terminator='\r\n')
-        write_timestamp_file(filename=filename, old_hash=df_cases_old_hash)
 
     # HOS (10:30): cases.recovered.todate
     df_patients = pd.read_csv('csv/patients.csv', index_col='date')
