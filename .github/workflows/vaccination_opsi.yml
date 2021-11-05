@@ -77,6 +77,6 @@ jobs:
         push-branch: 'master'
         commit-message: 'NIJZ OPSI vaccination data update 🤖'
         rebase: 'true' # pull and rebase before commit
-        files: csv/vaccination*opsi.* csv/cases-vaccinated*
+        files: csv/vaccination*opsi.* csv/cases* csv/stats*
         name: Sledilnik data scrape bot 🤖
         email: info@sledilnik.org
