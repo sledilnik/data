@@ -160,11 +160,17 @@ def computeCases(update_time):
     # HOS (10:30): cases.recovered.todate
     df_patients = pd.read_csv('csv/patients.csv', index_col='date')
     df_cases['cases.recovered.todate'] = df_cases['cases.closed.todate'] - df_patients['state.deceased.todate'].shift(-1)
+
+    # update vaccinated from cases-vaccinated.csv
+    df_vaccinated = pd.read_csv('csv/cases-vaccinated.csv', index_col='date')
+    df_cases['cases.vaccinated.confirmed.todate'] = df_vaccinated['cases.vaccinated.confirmed.todate']
+
     df_cases = df_cases.reindex([
         'cases.confirmed', 'cases.confirmed.todate', 'cases.active', 'cases.closed.todate', 'cases.recovered.todate',
         'cases.rh.occupant.confirmed.todate', 'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate',
         'cases.vaccinated.confirmed.todate'
     ], axis='columns')
+
 
     df_cases.replace({0: None}).astype('Int64').to_csv(filename, line_terminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=df_cases_old_hash)
