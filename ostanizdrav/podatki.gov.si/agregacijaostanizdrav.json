@@ -1,6 +1,6 @@
 [
   {
-    "update_timestamp": "2021-11-09T00:30:01,516360", 
+    "update_timestamp": "2021-11-09T08:48:42,897000", 
     "effective_date": "2021-11-08", 
     "app_downloads_daily": 1, 
     "app_downloads_cumulated": 1, 
@@ -13,7 +13,7 @@
     "persons_who_shared_keys_7days_sum": 762, 
     "persons_who_shared_keys_7days_avg": 108.85714285714286, 
     "persons_who_shared_keys_7days_avg_growthrate": 28.42857142857143, 
-    "persons_who_shared_keys_7days_avg_trend_5percent": -1, 
+    "persons_who_shared_keys_7days_avg_trend_5percent": 28.42857142857143, 
     "tests_total_daily": 0.0, 
     "labs_registered_cumulated": 1, 
     "labs_connected_cumulated": 1, 
@@ -30,6 +30,21 @@
     "seven_day_r_value_published_trend_1percent": -1, 
     "seven_day_r_value_1st_reported_daily": 1, 
     "seven_day_r_value_1st_reported_growthrate": 1, 
-    "seven_day_r_value_1st_reported_trend_1percent": -1
+    "seven_day_r_value_1st_reported_trend_1percent": -1, 
+    "administered_doses_daily": 1, 
+    "administered_doses_7days_avg": 1, 
+    "administered_doses_cumulated": 1, 
+    "administered_doses_7days_avg_growthrate": 1, 
+    "administered_doses_7days_avg_trend_5percent": 1, 
+    "persons_with_first_dose_cumulated": 1, 
+    "persons_with_first_dose_ratio": 1, 
+    "persons_fully_vaccinated_cumulated": 1, 
+    "persons_fully_vaccinated_ratio": 1, 
+    "seven_day_hospitalization_1st_reported_daily": 1, 
+    "seven_day_hospitalization_1st_reported_growthrate": 1, 
+    "seven_day_hospitalization_1st_reported_trend_1percent": 1, 
+    "occupied_intensive_care_beds_reported_daily_ratio": 1, 
+    "occupied_intensive_care_beds_reported_daily_ratio_growthrate": 1, 
+    "occupied_intensive_care_beds_reported_daily_ratio_trend_1percent": 1
   }
 ]
