@@ -19,7 +19,8 @@ stats_weekly_sorted_fields = [
     'week.from.jib', 'week.from.mdv', 'week.from.qat', 'week.from.afg', 'week.from.npl', 'week.from.cyp',
     'week.from.mus', 'week.from.tun', 'week.from.kgz', 'week.from.irl', 'week.from.rwa', 'week.from.zaf',
     'week.from.uzb', 'week.from.bwa', 'week.from.gnq', 'week.from.gmb', 'week.from.ala', 'week.from.lux',
-    'week.from.abw', 'week.from.wlf', 'week.from.sur', 'week.from.isr', 'week.from.nor'
+    'week.from.abw', 'week.from.wlf', 'week.from.sur', 'week.from.isr', 'week.from.nor', 'week.from.pyf',
+    'week.from.pan', 'week.from.per', 'week.from.zwe'
 ]
 
 mapping = {
@@ -46,6 +47,7 @@ mapping = {
     'Estonija': 'est',
     'Finska': 'fin',
     'Francija': 'fra',
+    'Francoska Polinezija': 'pyf',
     'Gambija': 'gmb',
     'Grčija': 'grc',
     'Hrvaška': 'hrv',
@@ -78,7 +80,9 @@ mapping = {
     'Nemčija': 'deu',
     'Otočje Valis in Futuna': 'wlf',
     'Pakistan': 'pak',
+    'Panama': 'pan',
     'Poljska': 'pol',
+    'Peru': 'per',
     'Portugalska': 'prt',
     'Romunija': 'rou',
     'Ruanda': 'rwa',
@@ -99,6 +103,7 @@ mapping = {
     'Združeno kraljestvo Velike Britanije in Severne Irske': 'gbr',
     'Združene države Amerike': 'usa',
     'Združeni Arabski Emirati': 'are',
+    'Zimbabve': 'zwe'
 }
 
 
