@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from datetime import datetime, timedelta
+from datetime import datetime
 from operator import itemgetter
 import codecs
 import csv
@@ -61,14 +61,23 @@ def get_sledilnik_key(d, mizs_key):
 
 def reformat_dates(date_columns, row):
     """
-    Reformat the dates from a human-readable d.m.Y form into
-    the standard YMD form.
+    Reformat dates (DAT_OD, DAT_DO, DAT_POROCANJA) from a
+    human-readable d.m.Y form into the standard YMD form.
     """
+
+    # parse dates
     for i in date_columns:
         date = dateutil.parser.parse(row[i], dayfirst=True).date()
-        # fix errornous "0020" year entries
+
+        # the reporting app doen't seem to validate the year field
+        # sometimes, typos can happen
+        # fix some common ones
         if date.year == 20:
-            date = datetime(2020, date.month, date.day)
+            date = datetime(2020, date.month, date.day).date()
+        elif date.year == 2121:
+            date = datetime(2021, date.month, date.day).date()
+        elif date.year == 2201:
+            date = datetime(2021, date.month, date.day).date()
 
         if date.year < 2020 or date.year > 2021:
             logger.warning("Suspicious date found in line: \n{}\n".format(row))
@@ -77,6 +86,25 @@ def reformat_dates(date_columns, row):
             date = datetime(2021, date.month, date.day)
 
         row[i] = date
+
+    # do some extra checks on the start and stop dates
+    start_date = row[date_columns[0]]
+    stop_date = row[date_columns[1]]
+    # start date should of course not come after the stop date
+    if start_date > stop_date:
+        logger.warning(
+            "Start date {} is after the stop date {} in line:\n{}".format(
+                start_date, stop_date, row
+            )
+        )
+    # both should not be too far into the past nor the future
+    now = datetime.now().date()
+    if start_date.year < 2020 or (start_date - now).days > 10:
+        logger.warning(
+            "Weird start date {} found in line: \n{}".format(start_date, row)
+        )
+    elif stop_date.year < 2020 or (stop_date - now).days > 90:
+        logger.warning("Weird stop date {} found in line: \n{}".format(stop_date, row))
 
 
 def parse_csv(url):
@@ -221,6 +249,7 @@ def school_regimes_csv(outfile):
         )
         csvwriter.writeheader()
         csvwriter.writerows(regimes)
+
 
 if __name__ == "__main__":
     dicts = load_dicts()
