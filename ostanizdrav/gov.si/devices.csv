@@ -15,6 +15,8 @@
 	
 		<link rel="alternate" hreflang="en" href="https://www.gov.si/en/404/" />
 	
+		<link rel="alternate" hreflang="es" href="https://www.gov.si/es/" />
+	
 		<link rel="alternate" hreflang="hu" href="https://www.gov.si/hu/404/" />
 	
 		<link rel="alternate" hreflang="it" href="https://www.gov.si/it/" />
@@ -150,10 +152,10 @@
 <script type="application/javascript" src="/resources/themes/gov/javascript/libs/underscore.min.js?m=1552647259"></script>
 <script type="application/javascript" src="/resources/themes/gov/javascript/libs/plugins/jquery.advancedtables.v2.1.0.js?m=1552647259"></script>
 <script type="application/javascript" src="/resources/themes/gov/javascript/libs/plugins/jquery.fancybox.min.js?m=1626083279"></script>
-<script type="application/javascript" src="/resources/themes/gov/javascript/libs/plugins/jquery.fancybox.i18n.js?m=1607330237"></script>
+<script type="application/javascript" src="/resources/themes/gov/javascript/libs/plugins/jquery.fancybox.i18n.js?m=1632213466"></script>
 <script type="application/javascript" src="/resources/themes/gov/javascript/libs/plugins/slick.min.js?m=1552647259"></script>
 <script type="application/javascript" src="/resources/themes/gov/javascript/libs/plugins/select2-4.1.0-rc0.full.min.js?m=1613372778"></script>
-<script type="application/javascript" src="/resources/themes/gov/javascript/functions.min.js?m=1630404250"></script>
+<script type="application/javascript" src="/resources/themes/gov/javascript/functions.min.js?m=1632213466"></script>
 </body>	
 </html>
 

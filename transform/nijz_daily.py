@@ -56,7 +56,7 @@ def get_municipality_header(municipality: str):
     return f'region.{region}.{id_}'
 
 
-df = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 2', engine='openpyxl', skiprows=[0, 2], skipfooter=1).transpose()[:-1]
+df = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 2', skiprows=[0, 2]).transpose()[:-1]
 df.columns = df.iloc[0]  # sets the header to municipality name instead of having a zero-based index for header
 df = df[1:]  # now that municipality is set for the header, we can delete it from the value matrix
 
@@ -97,7 +97,7 @@ with open(municipality_deceased_csv_path, 'w', newline='', encoding='utf-8') as 
 write_timestamp_file(filename=municipality_deceased_csv_path, old_hash=old_hash)
 
 # --- region-confirmed.csv | region-active.csv ---
-df = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 3', engine='openpyxl', skiprows=[0, 2])[:-1]
+df = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 3', skiprows=[0, 2])
 df.drop(['SKUPAJ'], inplace=True, axis=1)  # axis=1 means columns
 
 
@@ -156,7 +156,7 @@ with open(region_deceased_csv_path, 'w', newline='', encoding='utf-8') as csvfil
 write_timestamp_file(filename=region_deceased_csv_path, old_hash=old_hash)
 
 # --- age-confirmed.csv ---
-df = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 4', engine='openpyxl', skiprows=[1, 2, 3])[:-1]
+df = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 4', skiprows=[1, 2, 3])
 df.rename(columns={'Dnevno število potrjenih primerov po spolu in starostnih skupinah': 'date'}, inplace=True)
 df.set_index('date', inplace=True)
 df.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows', inplace=True)
@@ -171,12 +171,11 @@ export_dataframe_to_csv(name='age-cases', dataframe=df.cumsum())
 
 # --- cases.csv ---
 df_cases = pd.read_csv(os.path.join(CSV_FOLDER, 'cases.csv'), index_col='date', parse_dates=['date'])
-df_1 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 1', engine='openpyxl', skiprows=[0], skipfooter=1) \
+df_1 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 1', skiprows=[0]) \
     .rename(mapper={
         'Datum izvida': 'date',
         'SKUPAJ': 'cases.confirmed'
     }, axis='columns').set_index('date')
-df_1 = df_1[df_1.index.notnull()]  # drop non-indexed rows (where NaN is a part of the index)
 df_1.drop('SKUPAJ', axis='rows', inplace=True)
 df_1 = df_1.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')[['cases.confirmed']]
 df_1['cases.confirmed.todate'] = df_1['cases.confirmed'].cumsum()
@@ -184,27 +183,20 @@ df_1['cases.active'] = df_1['cases.confirmed'].rolling(window=14).sum().astype('
 df_1['cases.closed.todate'] = df_1['cases.confirmed.todate'] - df_1['cases.active']
 df_1 = df_1.join(df_cases[['cases.recovered.todate']])
 
-df_6 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 5', engine='openpyxl', skiprows=[0, 2], skipfooter=2) \
+df_6 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 5', skiprows=[0, 2], skipfooter=1) \
     .rename(mapper={'Datum izvida': 'date', 'Oskrbovanci': 'cases.rh.occupant.confirmed'}, axis='columns').set_index('date') \
     .rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')[['cases.rh.occupant.confirmed']]
 df_6['cases.rh.occupant.confirmed.todate'] = df_6['cases.rh.occupant.confirmed'].cumsum()
 df_6.drop('cases.rh.occupant.confirmed', axis='columns', inplace=True)
 
-df_stats_legacy = pd.read_csv(os.path.join(CSV_FOLDER, 'cases-legacy.csv'), index_col='date')[[
+df_stats_legacy = pd.read_csv(os.path.join(CSV_FOLDER, 'cases-legacy.csv'), index_col='date', parse_dates=['date'])[[
     'cases.hs.employee.confirmed.todate',
     'cases.rh.employee.confirmed.todate'
 ]]
 
-df_vaccination_cases = pd.read_csv('csv/vaccination-confirmed-cases-opsi.csv', sep=';') \
-    .rename(mapper={
-        'Datum': 'date',
-        'Potrjeni zasciteni s cepljenjem': 'cases.vaccinated.confirmed'
-    }, axis='columns').set_index('date') \
-    .rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows') [[ 'cases.vaccinated.confirmed' ]]
-df_vaccination_cases['cases.vaccinated.confirmed.todate'] = df_vaccination_cases['cases.vaccinated.confirmed'].fillna(0).cumsum()
-df_vaccination_cases = df_vaccination_cases [[ 'cases.vaccinated.confirmed.todate' ]]
+df_cases_vaccinated = pd.read_csv('csv/cases-vaccinated.csv', index_col='date', parse_dates=['date'])
 
-df_joined = df_1.join(df_6).join(df_stats_legacy).join(df_vaccination_cases)
+df_joined = df_1.join(df_6).join(df_stats_legacy).join(df_cases_vaccinated)
 for date in df_cases.index.difference(df_joined.index):  # do not delete latest date in cases.csv if it's not present in daily xlsx yet
     df_joined = df_joined.append(df_cases.loc[date])
 
@@ -213,17 +205,16 @@ export_dataframe_to_csv(name='cases', dataframe=df_joined)
 # --- lab-tests.csv ---
 df_lab_tests = pd.read_csv(os.path.join(CSV_FOLDER, 'lab-tests.csv'), index_col='date', parse_dates=['date'])
 
-df_1 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 1', engine='openpyxl', skiprows=[0], skipfooter=1) \
+df_1 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 1', skiprows=[0]) \
     .rename(mapper={
         'Datum izvida': 'date',
         'SKUPAJ': 'tests.regular.positive',
         'Dnevno število testiranih oseb s PCR': 'tests.regular.performed',
         'Dnevno število testiranih oseb s HAGT': 'tests.hagt.performed'
     }, axis='columns').set_index('date')
-df_1 = df_1[df_1.index.notnull()]  # drop non-indexed rows (where NaN is a part of the index)
 df_1.drop('SKUPAJ', axis='rows', inplace=True)
 df_1 = df_1.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')[[
-    'tests.regular.positive', 
+    'tests.regular.positive',
     'tests.regular.performed',
     'tests.hagt.performed'
 ]]

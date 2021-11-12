@@ -77,6 +77,7 @@ def computeStats(update_time):
         'deceased.male.todate', 'deceased.rhoccupant.todate', 'deceased.other.todate',
         'vaccination.administered', 'vaccination.administered.todate',
         'vaccination.administered2nd', 'vaccination.administered2nd.todate',
+        'vaccination.administered3rd', 'vaccination.administered3rd.todate',
         'vaccination.used.todate', 'vaccination.delivered.todate'
     ], axis='columns')
 
@@ -119,7 +120,8 @@ def computeRegionCases(update_time):
     dfVaccinated = dfVaccinated.filter(like='date', axis='columns') \
                     .rename(mapper=lambda x: x.replace('vaccination.region', 'region'), axis='columns') \
                     .rename(mapper=lambda x: x.replace('1st.todate', 'vaccinated.1st.todate'), axis='columns') \
-                    .rename(mapper=lambda x: x.replace('2nd.todate', 'vaccinated.2nd.todate'), axis='columns')
+                    .rename(mapper=lambda x: x.replace('2nd.todate', 'vaccinated.2nd.todate'), axis='columns') \
+                    .rename(mapper=lambda x: x.replace('3rd.todate', 'vaccinated.3rd.todate'), axis='columns')
     merged = dfConfirmed.join(dfActive).join(dfDeceased).join(dfVaccinated).sort_index(axis=1)
     merged.to_csv(filename, float_format='%.0f', index_label='date')
     write_timestamp_file(filename=filename, old_hash=old_hash)
@@ -141,9 +143,11 @@ def computeCases(update_time):
     assert len(date_diff) <= 1, 'The date difference between lab-tests.csv and cases.csv is more than one day.'
     if len(date_diff) > 0:
         df_cases = df_cases.append(pd.DataFrame(index=date_diff, columns=df_cases.columns))
+        df_cases.index.rename('date', inplace=True)  # name it explicitly otherwise it doesn't show up in csv
         date = date_diff[0]  # equals index of -1
+
         # only manipulate last row
-        df_cases.at[date, 'cases.confirmed'] = df_lab_tests.at[date, 'tests.positive'] + df_lab_tests.at[date, 'tests.hagt.positive']
+        df_cases.at[date, 'cases.confirmed'] = df_lab_tests.at[date, 'tests.positive']
         df_cases.at[date, 'cases.confirmed.todate'] = df_cases.iloc[-2, df_cases.columns.get_loc('cases.confirmed.todate')] + df_cases.at[date, 'cases.confirmed']
 
         df_cases['cases.active.temp'] = df_cases['cases.confirmed'].rolling(window=14).sum()
@@ -152,22 +156,25 @@ def computeCases(update_time):
 
         df_cases.at[date, 'cases.closed.todate'] = df_cases.at[date, 'cases.confirmed.todate'] - df_cases.at[date, 'cases.active']
 
-        # TODO use common function for writing CSV
-        df_cases.index.rename('date', inplace=True)  # name it explicitly otherwise it doesn't show up in csv
-        df_cases.replace({0: None}).astype('Int64').to_csv(filename, line_terminator='\r\n')
-        write_timestamp_file(filename=filename, old_hash=df_cases_old_hash)
 
     # HOS (10:30): cases.recovered.todate
     df_patients = pd.read_csv('csv/patients.csv', index_col='date')
     df_cases['cases.recovered.todate'] = df_cases['cases.closed.todate'] - df_patients['state.deceased.todate'].shift(-1)
+
+    # update vaccinated from cases-vaccinated.csv
+    df_vaccinated = pd.read_csv('csv/cases-vaccinated.csv', index_col='date')
+    df_cases['cases.vaccinated.confirmed.todate'] = df_vaccinated['cases.vaccinated.confirmed.todate']
+
     df_cases = df_cases.reindex([
         'cases.confirmed', 'cases.confirmed.todate', 'cases.active', 'cases.closed.todate', 'cases.recovered.todate',
         'cases.rh.occupant.confirmed.todate', 'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate',
         'cases.vaccinated.confirmed.todate'
     ], axis='columns')
 
+
     df_cases.replace({0: None}).astype('Int64').to_csv(filename, line_terminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=df_cases_old_hash)
+
 
 if __name__ == "__main__":
     update_time = int(time.time())
