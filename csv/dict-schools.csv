@@ -59,8 +59,8 @@ OS,130,130,5082650000,ce,Celje,Osnovna šola Hudinja,Mariborska cesta 125,3000,C
 OS,131,131,5062799000,ce,Celje,Osnovna šola Lava Celje,Pucova ulica 7,3000,Celje,https://www.openstreetmap.org/way/412698161,11080,03 425 09 00,03 425 09 28,o-lava.ce@guest.arnes.si,http://www.oslava.si,46.24451,15.24669
 OS,1341,1341,1262823000,ce,Celje,Osnovna šola Ljubečna,Kocbekova cesta 40 A,3202,Ljubečna,https://www.openstreetmap.org/way/896893600,,03 780 61 10,03 780 61 20,tajnistvo@os-ljubecna.si,http://www.os-ljubecna.si,46.25906,15.32073
 OS,651,1341,5082684003,ce,Celje,Osnovna šola Vojnik Podružnica Šmartno v Rožni dolini,Šmartno v Rožni dolini 3,3201,Šmartno v Rožni dolini,,,03 577 70 47,,majda.rojc@guest.arnes.si,http://www2.arnes.si/~ovojnikce/,46.29430,15.24321
-OS,232,232,5086027000,kr,Cerklje na Gorenjskem,Osnovna šola Davorina Jenka Cerklje na Gorenjskem,Krvavška cesta 4,4207,Cerklje na Gorenjskem,https://www.openstreetmap.org/way/120426378,12010,"04 252 60 10, 04 252 60 11",04 252 60 26,group1.oskrjenko@guest.arnes.si,http://www.osdj-cerklje.si,46.25433,14.48847
-OS,3561,232,5086027001,kr,Cerklje na Gorenjskem,"Osnovna šola Davorina Jenka Cerklje na Gorenjskem, Podružnica Zalog",Zalog pri Cerkljah 29,4207,Cerklje na Gorenjskem,,12011,04 252 60 30,04 252 60 26,group1.oskrjenko@guest.arnes.si,http://www.osdj-cerklje.si,46.22989,14.51784
+OS,232,232,5086027000,kr,Cerklje na Gorenjskem,Osnovna šola Davorina Jenka Cerklje na Gorenjskem,Krvavška cesta 4,4207,Cerklje na Gorenjskem,https://www.openstreetmap.org/way/120426378,12010,"04 252 60 10, 04 252 60 11",04 252 60 26,tajnistvo@osdj-cerklje.si,http://www.osdj-cerklje.si,46.25433,14.48847
+OS,3561,232,5086027001,kr,Cerklje na Gorenjskem,"Osnovna šola Davorina Jenka Cerklje na Gorenjskem, Podružnica Zalog",Zalog pri Cerkljah 29,4207,Cerklje na Gorenjskem,,12011,04 252 60 30,04 252 60 26,tajnistvo@osdj-cerklje.si,http://www.osdj-cerklje.si,46.22989,14.51784
 OS,145,145,5082757000,po,Cerknica,Osnovna šola Jožeta Krajca Rakek,Partizanska cesta 28,1381,Rakek,https://www.openstreetmap.org/way/338644655,,"01 705 12 08, 725 25 10",01 705 25 10,os.rakek@guest.arnes.si,http://www.osrakek.si/,45.81008,14.32236
 OS,652,145,5082757001,po,Cerknica,Osnovna šola Jožeta Krajca Rakek Podružnica Rudolfa Maistra Unec,Unec 59,1381,Rakek,,,01 705 10 76,,,,45.81996,14.29149
 OS,144,144,5082722000,po,Cerknica,Osnovna šola Notranjski odred Cerknica,Cesta 4. maja 92,1380,Cerknica,https://www.openstreetmap.org/way/476018344,,01 705 05 20,01 705 05 31,OS.NO-Cerknica@guest.arnes.si,http://www.os-cerknica.si,45.79636,14.35685
@@ -69,7 +69,7 @@ OS,668,144,5082722002,po,Cerknica,"Osnovna šola Notranjski odred Cerknica, Podr
 OS,189,189,5082960000,ng,Cerkno,Osnovna šola Cerkno,Bevkova ulica 26,5282,Cerkno,https://www.openstreetmap.org/way/454568315,,05 372 90 00,05 377 57 90,info@os-cerkno.si,http://www.os-cerkno.si/,46.12710,13.98561
 OS,895,189,5082960003,ng,Cerkno,"Osnovna šola Cerkno, Podružnična šola Šebrelje",Šebrelje 38,5282,Cerkno,,,05 374 43 30,,ravnatelj.os-cerkno@guest.arnes.si,,46.09582,13.91531
 OS,251,251,5084016000,mb,Cerkvenjak,Osnovna šola Cerkvenjak - Vitomarci,Cerkvenjak 24,2236,Cerkvenjak,https://www.openstreetmap.org/way/336780814,153010,02 729 58 40,02 729 58 45,os.cerkvenjak@siol.net,http://www.o-cerkvenjak.mb.edus.si/,46.56739,15.94386
-OS,418,418,5089247000,mb,Cirkulane,Osnovna šola Cirkulane - Zavrč,Cirkulane 57,2282,Cirkulane,https://www.openstreetmap.org/way/777465776,28020,02 761 00 41,02 795 22 40,mboscir2s@guest.arnes.si,http://www.cirkulane-zavrc.si,46.34364,15.99426
+OS,418,418,5089247000,mb,Cirkulane,Osnovna šola Cirkulane - Zavrč,Cirkulane 57,2282,Cirkulane,https://www.openstreetmap.org/way/777465776,28020,02 761 00 41,02 795 22 40,osnovna.sola@cirkulane-zavrc.si,http://www.cirkulane-zavrc.si,46.34364,15.99426
 OS,260,260,5089697000,ms,Črenšovci,Osnovna šola Franceta Prešerna Črenšovci,Ulica Juša Kramarja 10,9232,Črenšovci,,15020,02 573 58 00,02 573 58 10,o-fpcrensovci.ms@guest.arnes.si,,46.56868,16.29734
 OS,1351,1351,5089751000,ms,Črenšovci,Osnovna šola Prežihovega Voranca Bistrica,Srednja Bistrica 49 B,9232,Črenšovci,https://www.openstreetmap.org/way/307463034,131010,"02 573 58 20, 02 573 58 22",02 573 58 21,opvbistricams@guest.arnes.si,http://www2.arnes.si/~opvbistricams/,46.55068,16.28005
 OS,444,444,5087368000,sg,Črna na Koroškem,Osnovna šola Črna na Koroškem,Center 142,2393,Črna na Koroškem,https://www.openstreetmap.org/way/454495011,,02 870 41 40,02 870 41 50,o-crna.mb@guest.arnes.si,http://www.os-crna.si,46.46831,14.85558
@@ -148,7 +148,7 @@ OS,324,324,5084423000,lj,Horjul,Osnovna šola Horjul,Šolska ulica 44,1354,Horju
 OS,181,181,5089905000,za,Hrastnik,Osnovna šola narodnega heroja Rajka Hrastnik,Log 19,1430,Hrastnik,https://www.openstreetmap.org/way/322425647,34010,03 56 42 440,03 56 42 445,Projekt3.osljhrnhr@guest.arnes.si,http://www2.arnes.si/~osljhrnhr3s/,46.14428,15.08302
 OS,3548,181,5089905001,za,Hrastnik,"Osnovna šola narodnega heroja Rajka Hrastnik, Podružnična šola Dol pri Hrastniku",Planinska cesta 3,1431,Dol pri Hrastniku,,34011,03 56 42 424,03 56 42 425,ravnateljica@osnhr.si,,46.14048,15.11595
 OS,461,461,5089379000,kp,Hrpelje-Kozina,Osnovna šola Dragomirja Benčiča - Brkina Hrpelje,Reška cesta 30,6240,Kozina,,35010,05 689 20 60,05 689 20 66,info@os-hrpelje.si,http://www.os-hrpelje.si,45.60561,13.94598
-OS,184,184,5082978000,ng,Idrija,Osnovna šola Črni Vrh,Črni Vrh 95,5274,Črni vrh nad Idrijo,,,05 374 36 50,05 374 36 57,o-crni.vrh@guest.arnes.si,http://www.oscv.si/,45.92454,14.04609
+OS,184,184,5082978000,ng,Idrija,Osnovna šola Črni Vrh,Črni Vrh 95,5274,Črni Vrh nad Idrijo,,,05 374 36 50,05 374 36 57,o-crni.vrh@guest.arnes.si,http://www.oscv.si/,45.92454,14.04609
 OS,185,185,5082986000,ng,Idrija,Osnovna šola Idrija,Lapajnetova ulica 50,5280,Idrija,,,05 372 62 00,05 377 10 65,osidrija@guest.arnes.si,http://www.osnovna-sola-idrija.si/,46.00205,14.02724
 OS,890,185,5082986001,ng,Idrija,Osnovna šola Idrija Podružnica Godovič,Godovič 35 B,5275,Godovič,,,05 374 74 26,,osidrija@guest.arnes.si,http://www.osnovna-sola-idrija.si/,45.95778,14.09338
 OS,891,185,5082986006,ng,Idrija,"Osnovna šola Idrija, Podružnična šola Zavratec",Zavratec 1,1373,Rovte,,,05 366 13 73,,osidrija@guest.arnes.si,http://www.osnovna-sola-idrija.si/,45.99087,14.13006
@@ -190,7 +190,7 @@ OS,913,200,5083036002,lj,Kamnik,Osnovna šola Frana Albrehta Kamnik Podružnica 
 OS,914,200,5083036003,lj,Kamnik,Osnovna šola Frana Albrehta Kamnik Podružnica Nevlje,Nevlje 18,1241,Kamnik,,43012,01 839 10 69,,rafko.lah@guest.arnes.si,,46.23056,14.62680
 OS,915,200,5083036004,lj,Kamnik,Osnovna šola Frana Albrehta Kamnik Podružnica Tunjice,Tunjice 22,1241,Kamnik,,43013,01 839 25 04,,rafko.lah@guest.arnes.si,,46.23807,14.57906
 OS,916,200,5083036005,lj,Kamnik,Osnovna šola Frana Albrehta Kamnik Podružnica Vranja peč,Vranja Peč 3,1241,Kamnik,,43014,01 831 16 71,,rafko.lah@guest.arnes.si,,46.21032,14.67131
-OS,199,199,5268931000,lj,Kamnik,Osnovna šola Marije Vere,Ljubljanska cesta 16 A,1241,Kamnik,,,01 831 37 77,01 830 31 48,tajnistvo@os-marijevere.si,http://www.os-marijevere.si/,46.20637,14.59582
+OS,199,199,5268931000,lj,Kamnik,Osnovna šola Marije Vere,Ljubljanska cesta 16 A,1241,Kamnik,,,01 830 31 40,01 830 31 48,tajnistvo@os-marijevere.si,http://www.os-marijevere.si/,46.20637,14.59582
 OS,204,204,5083818000,lj,Kamnik,Osnovna šola Stranje,Zgornje Stranje 22,1242,Stahovica,,,01 832 54 33,01 832 70 80,tajnistvo@os-stranje.si,http://www.os-stranje.si/,46.25739,14.60296
 OS,907,204,5083818001,lj,Kamnik,Osnovna šola Stranje Podružnica Gozd,Krivčevo 2,1242,Stahovica,,43031,01 832 52 35,---,boris.jemec@guest.arnes.si,http://glej matično šolo,46.26315,14.67119
 OS,1259,1259,5950686000,lj,Kamnik,Osnovna šola Šmartno v Tuhinju,Šmartno v Tuhinju 27 A,1219,Laze v Tuhinju,,43041,"01 834 72 00, 01 834 70 01",01 834 70 01,projekt1.osljsmt@guest.arnes.si,http://www.ossmartno-tuhinj.si/,46.21633,14.73553
@@ -291,14 +291,14 @@ OS,1028,1027,5689155001,za,Litija,"Osnovna šola Gradec, Podružnična osnovna �
 OS,1029,1027,5689155002,za,Litija,"Osnovna šola Gradec, Podružnična osnovna šola Jevnica",Jevnica 33,1281,Kresnice,,60022,01 8973 324,,jevnica@osgradec.si,http://jevnica.osgradec.si,46.08335,14.73683
 OS,1030,1027,5689155004,za,Litija,"Osnovna šola Gradec, Podružnična osnovna šola Kresnice",Kresnice 26 A,1281,Kresnice,,60023,01 8973 322,,kresnice@osgradec.si,http://kresnice.osgradec.si,46.10202,14.78741
 OS,3629,1027,5689155007,za,Litija,"Osnovna šola Gradec, Podružnična osnovna šola Vače",Vače 24,1252,Vače,,60024,01 8973 315,,vace@osgradec.si,http://vace.osgradec.si,46.12009,14.83577
-OS,1346,1346,5689147000,za,Litija,Osnovna šola Litija,Ulica Mire Pregljeve 3,1270,Litija,,,01 898 31 47,01 898 31 47,os-litija@siol.net,http://www.o-litija.lj.edus.si/,46.05686,14.83319
+OS,1346,1346,5689147000,za,Litija,Osnovna šola Litija,Ulica Mire Pregljeve 3,1270,Litija,,,01 898 31 47,01 899 12 54,tajnistvo@os-litija.si,http://www.os-litija.si,46.05686,14.83319
 OS,1349,1346,5689147003,za,Litija,"Osnovna šola Litija, Podružnična osnovna šola Darinke Ribič Polšnik",Polšnik 23,1272,Polšnik,,,01 897 31 01,,peter.strle@guest.arnes.si,,46.06753,14.96108
 OS,1348,1346,5689147002,za,Litija,"Osnovna šola Litija, Podružnična osnovna šola Sava",Sava 21,1282,Sava,,,01 897 40 88,,peter.strle@guest.arnes.si,,46.08839,14.89240
-OS,23135,23135,6037542000,lj,Ljubljana,"Inštitut Lila, OE OŠ Lila Ljubljana",Langusova ulica 8,1000,Ljubljana,,,040 471 919,,info.lj@sola-lila.si,,46.04465,14.49220
+OS,23135,23135,6037542000,lj,Ljubljana,"Inštitut Lila, OE OŠ Lila Ljubljana",Litostrojska cesta 40,1000,Ljubljana,,,040 471 919,,info.lj@sola-lila.si,,46.04465,14.49220
 OS,17530,17530,2234572000,lj,Ljubljana,"Inštitut montessori, Zavod za pomoč staršem pri razvoju otrok",Ulica Ferda Kozaka 49,1000,Ljubljana,,,0590 148 00,,info@montessori-institut.si,,46.07844,14.45088
 OS,270,270,5089913000,lj,Ljubljana,Osnovna šola Bežigrad,Črtomirova ulica 12,1000,Ljubljana,,,01 280 75 50,01 280 75 53,tajnistvo.osljbe@guest.arnes.si,http://www.osbezigrad.com/,46.06173,14.51813
 OS,314,314,5084512000,lj,Ljubljana,Osnovna šola Bičevje,Splitska ulica 13,1000,Ljubljana,,,"01 283 30 13, 01 283 30 15",01 283 30 13,o-bicevje.lj@guest.arnes.si,http://www.o-bicevje.lj.edus.si/Joomla/index.php,46.03983,14.48565
-OS,605,605,5623758000,lj,Ljubljana,Osnovna šola Božidarja Jakca Ljubljana,Nusdorferjeva ulica 10,1000,Ljubljana,,,"01 520 66 50, 01 520 66 51",01 520 66 60,natasa.krajncan@guest.arnes.si,,46.04902,14.54682
+OS,605,605,5623758000,lj,Ljubljana,Osnovna šola Božidarja Jakca Ljubljana,Nusdorferjeva ulica 10,1000,Ljubljana,,,"01 520 66 50, 01 520 66 51",01 520 66 60,os.bozidarja.jakca@osbj.si,,46.04902,14.54682
 OS,945,605,5623758001,lj,Ljubljana,Osnovna šola Božidarja Jakca Ljubljana Podružnica Hrušica,Pot do šole 1,1000,Ljubljana,,,01 544 36 45,01 544 36 46,natasa.krajncan@guest.arnes.si,,46.04499,14.56041
 OS,266,266,5083389000,lj,Ljubljana,Osnovna šola Danile Kumar,Gogalova ulica 15,1000,Ljubljana,,,01 563 68 20,01 568 41 05,tajnistvo@os-danilekumar.si,http://www.os-danilekumar.si/,46.08715,14.51076
 OS,16431,266,5083389002,lj,Ljubljana,"Osnovna šola Danile Kumar Ljubljana, mednarodna šola",Gogalova ulica 15,1000,Ljubljana,,61040,01 563 68 20,01 568 41 05,,http://sl.os-danilekumar.si/,46.08715,14.51076
@@ -352,12 +352,12 @@ OS,292,292,5084296000,lj,Ljubljana,Osnovna šola Zalog,Cerutova ulica 7,1000,Lju
 OS,3767,3767,5642574000,lj,Ljubljana,Waldorfska šola Ljubljana,Streliška ulica 12,1000,Ljubljana,,,01 282 22 40,01 282 22 41,info@waldorf.si,http://www.waldorf-si.org,46.04878,14.51200
 OS,14850,3767,5699827003,lj,Ljubljana,"Zavod sv. Stanislava, Osnovna šola Alojzija Šuštarja Ljubljana",Štula 23,1210,Ljubljana - Šentvid,,,01 582 22 25,,os@stanislav.si,http://os.stanislav.si/,46.09687,14.47110
 OS,340,340,5088941000,ce,Ljubno,Osnovna šola Ljubno ob Savinji,Cesta v Rastke 10,3333,Ljubno ob Savinji,,,03 839 15 70,03 839 15 86,samo.kramer@guest.arnes.si,http://www.o-ljubno.ce.edus.si/www2/glavna.htm,46.34321,14.83409
-OS,330,330,5085012000,ms,Ljutomer,Osnovna šola Ivana Cankarja Ljutomer,Cankarjeva cesta 10,9240,Ljutomer,,,02 584 43 00,02 584 43 11,o-icljutomer.ms@guest.arnes.si,http://www2.arnes.si/~osmsic13s/,46.51599,16.19504
+OS,330,330,5085012000,ms,Ljutomer,Osnovna šola Ivana Cankarja Ljutomer,Cankarjeva cesta 10,9240,Ljutomer,,,02 584 43 00,02 584 43 11,tajnistvo@osicl.si,http://www.osicljutomer.si,46.51599,16.19504
 OS,709,330,5085012002,ms,Ljutomer,Osnovna šola Ivana Cankarja Ljutomer Podružnica Cven,Cven 3 C,9240,Ljutomer,,,02 581 11 01,,darja.kosic@guest.arnes.si,,46.54943,16.21153
 OS,329,329,5084628000,ms,Ljutomer,Osnovna šola Janka Ribiča Cezanjevci,Cezanjevci 39,9240,Ljutomer,,,02 580 11 15,02 580 14 45,o-jrcezanj.ms@guest.arnes.si,http://www.o-cezanjevci.ms.edus.si/,46.51979,16.15071
 OS,333,333,5084610000,ms,Ljutomer,Osnovna šola Mala Nedelja,Mala Nedelja 37,9243,Mala Nedelja,,,02 585 81 70,02 585 81 80,o-mnedelja.ms@guest.arnes.si,http://www2.arnes.si/~omnedeljams/,46.52535,16.05486
 OS,328,328,5085004000,ms,Ljutomer,Osnovna šola Stročja vas,Stročja vas 101,9240,Ljutomer,,,"02 584 86 10, 02 584 86 11",02 584 86 10,o-strocjavas.ms@guest.arnes.si,http://www.o-strocjavas.si,46.50878,16.22352
-OS,1234,1234,5912792000,lj,Logatec,Osnovna šola Rovte,Rovte 90 A,1373,Rovte,,,"01 7503024,01  7503019,01  7503025",01 7503018,group1.osljrov@guest.arnes.si,http://www.osrovte.si,45.98568,14.17495
+OS,1234,1234,5912792000,lj,Logatec,Osnovna šola Rovte,Rovte 90 A,1373,Rovte,,,"01 750 30 24, 01 750 30 19, 01 750 30 25",01 7503018,group1.osljrov@guest.arnes.si,http://www.osrovte.si,45.98568,14.17495
 OS,1238,1234,5912792001,lj,Logatec,Osnovna šola Rovte Podružnica Vrh Svetih treh kraljev,Vrh Sv. Treh Kraljev 19,1373,Rovte,,64020,01 750 10 01,,mitja.turk@guest.arnes.si,,46.01173,14.17442
 OS,335,335,5085071000,lj,Logatec,Osnovna šola Tabor Logatec,Tržaška cesta 150,1370,Logatec,,,01 759 08 50,01 759 08 60,o-tablog.lj@guest.arnes.si,http://www.os-tabor.si,45.90934,14.20212
 OS,731,335,5085071001,lj,Logatec,Osnovna šola Tabor Logatec Podružnica Hotedršica,Hotedršica 120,1372,Hotedršica,,,01 755 90 12,,o-tablog.lj@guest.arnes.si,http://www.os-tabor.si/hotedrsica,45.92674,14.14296
@@ -544,7 +544,7 @@ OS,439,439,5185815000,sg,Ravne na Koroškem,"Osnovna šola ""Koroški jeklarji""
 OS,776,439,5185815001,sg,Ravne na Koroškem,"Osnovna šola Koroški jeklarji Ravne na Koroškem, Podružnična šola Kotlje",Kotlje 7,2394,Kotlje,,,02 822 20 01,02 822 02 08,,http://www.oskoroskijeklarji.si/,46.52053,14.98626
 OS,438,438,5087392000,sg,Ravne na Koroškem,Osnovna šola Prežihovega Voranca Ravne na Koroškem,Gozdarska pot 11,2390,Ravne na Koroškem,,61280,02 620 52 70,02 620 52 87,o-pvravne.mb@guest.arnes.si,http://www.os-prezih.si,46.53954,14.96141
 OS,327,327,5089344000,ms,Razkrižje,Osnovna šola Janeza Kuharja Razkrižje,Šafarsko 24 C,9246,Razkrižje,,176010,02 585 86 44,02 585 86 49,ravnatelj@o-razkriz.ms.mss.edus.si,http://www.o-razkrizje.ms.edus.si/,46.52063,16.28657
-OS,6688,6688,5171008000,ce,Rečica ob Savinji,Osnovna šola Rečica ob Savinji,Rečica ob Savinji 152,3332,Rečica ob Savinji,,,038370220,038370232,os.recica@guest.arnes.si,http://www.osrecica.si/,46.32354,14.92077
+OS,6688,6688,5171008000,ce,Rečica ob Savinji,Osnovna šola Rečica ob Savinji,Rečica ob Savinji 152,3332,Rečica ob Savinji,,,"03 837 02 20, 03 837 02 32",os.recica@guest.arnes.si,http://www.osrecica.si/,46.32354,14.92077
 OS,920,6688,5089069001,ng,Renče-Vogrsko,Osnovna šola Ivana Roba Šempeter pri Gorici Podružnica Vogrsko,Vogrsko 99,5293,Volčja Draga,,,05 395 55 06,,slavica.bragato@guest.arnes.si,,45.90603,13.69941
 OS,369,369,5089034000,ng,Renče-Vogrsko,Osnovna šola Lucijana Bratkoviča Bratuša Renče,Trg 31,5292,Renče,,84060,05 398 58 00,05 398 58 19,oslbbr@os-rence.si,http://www.os-rence.si,45.88907,13.67156
 OS,922,369,5089034001,ng,Renče-Vogrsko,"Osnovna šola Lucijana Bratkoviča Bratuša Renče, Podružnična osnovna šola Bukovica",Bukovica 44,5293,Volčja Draga,,,05 395 51 05,,,http://www.os-rence.si,45.89884,13.66973
@@ -613,7 +613,7 @@ OS,395,395,5086426000,mb,Središče ob Dravi,Osnovna šola Središče ob Dravi,S
 OS,572,572,5085314000,mb,Starše,Osnovna šola Starše,Starše 5,2205,Starše,,,02 686 48 50,02 686 48 68,os-starse@guest.arnes.si,http://www.os-starse.si,46.46616,15.76860
 OS,936,572,5085314001,mb,Starše,"Osnovna šola Starše, Podružnica Marjeta na Dravskem polju",Marjeta na Dravskem polju 3,2206,Marjeta na Dravskem polju,,115011,02 685 12 21,,,http://www.os-starse.si,46.45160,15.73936
 OS,386,386,5086329000,nm,Straža,Osnovna šola Vavta vas,Vavta vas 1,8351,Straža pri Novem mestu,,,07 308 45 24,07 308 45 25,os.vavta-vas@guest.arnes.si,http://os-vavta-vas.si/,45.78260,15.08121
-OS,248,248,5084865000,mb,Sveta Ana,Osnovna šola Sveta Ana,Sv. Ana v Slov. goricah 14,2233,Sv. Ana v Slov. goricah,,181010,"02 729 58 70, 02 729 58 72",02 729 58 78,info@sveta-ana.org,http://www.sveta-ana.org/,46.64861,15.84302
+OS,248,248,5084865000,mb,Sveta Ana,Osnovna šola Sveta Ana,Sv. Ana v Slov. goricah 14,2233,Sv. Ana v Slov. goricah,,181010,"02 729 58 70, 02 729 58 72",02 729 58 78,info@sveta-ana.si,https://www.sveta-ana.si/,46.64861,15.84302
 OS,698,248,5084865001,mb,Sveta Ana,"Osnovna šola Sveta Ana, Podružnična šola Lokavec",Lokavec 6,2233,Sv. Ana v Slov. goricah,,,02 703 20 14,02 729 58 78,boris.mlakar@guest.arnes.si,,46.69501,15.81003
 OS,250,250,5084024000,mb,Sveta Trojica v Slovenskih goricah,Osnovna šola in vrtec Sveta Trojica,Meznaričeva ulica 1,2235,Sv. Trojica v Slov. goricah,,58020,02 729 01 91,02 729 01 92,o-st.mb@guest.arnes.si,http://www.ostrojica.si,46.57548,15.87571
 OS,9857,250,5084016002,mb,Sveti Andraž v Slov. goricah,"Osnovna šola Cerkvenjak - Vitomarci, Podružnična šola Vitomarci",Vitomarci 42 B,2255,Vitomarci,,,,,mirko.zmavc@guest.arnes.si,,46.52273,15.93661
@@ -634,7 +634,7 @@ OS,585,585,5085144000,mb,Šentilj,Osnovna šola Sladki Vrh,Sladki Vrh 8 A,2214,S
 OS,718,585,5085144002,mb,Šentilj,"Osnovna šola Sladki Vrh, Podružnična šola Velka",Zgornja Velka 41,2213,Zgornja Velka,,,02 645 57 90,02 645 57 60,andreja.kosti@guest.arnes.si,,46.67632,15.77097
 OS,382,382,5086299000,nm,Šentjernej,Osnovna šola Šentjernej,Prvomajska cesta 9,8310,Šentjernej,,,07 337 49 10,07 337 49 11,os.sentjernej@guest.arnes.si,http://www.os-sentjernej.si,45.84484,15.34057
 OS,737,382,5086299002,nm,Šentjernej,Osnovna šola Šentjernej Podružnica Orehovica,Orehovica 16,8310,Šentjernej,,119011,07 307 10 53,,os.sentjernej@guest.arnes.si,,45.81648,15.30609
-OS,1352,1352,5087783000,ce,Šentjur,Osnovna šola Blaža Kocena Ponikva,Ponikva 29 A,3232,Ponikva,,,059696240,03 746 21 50,tajnistvo@os-ponikva.si,,46.25118,15.44409
+OS,1352,1352,5087783000,ce,Šentjur,Osnovna šola Blaža Kocena Ponikva,Ponikva 29 A,3232,Ponikva,,,05 969 62 40,03 746 21 50,tajnistvo@os-ponikva.si,,46.25118,15.44409
 OS,478,478,5087775000,ce,Šentjur,Osnovna šola Dramlje,Dramlje 7 A,3222,Dramlje,,,03 746 16 70,03 746 16 80,info@osdramlje.si,,46.27209,15.39242
 OS,480,480,5087805000,ce,Šentjur,Osnovna šola Franja Malgaja Šentjur,Ulica skladateljev Ipavcev 2,3230,Šentjur,,120030,03 746 38 00,03 746 38 03,tajnistvo@sem.fmalgaja.si,http://sharepoint.os-fmalgaja.si/aktualno/default.aspx,46.22075,15.39585
 OS,823,480,5087805001,ce,Šentjur,"Osnovna šola Franja Malgaja Šentjur, Podružnična osnovna šola Blagovna",Proseniško 22,3230,Šentjur,,,03 749 18 98,,alenka.gradisnik@sem.fmalgaja.si,http://sharepoint.os-fmalgaja.si/blagovna/default.aspx,46.23952,15.34865
@@ -653,7 +653,7 @@ OS,483,483,5263620000,kr,Škofja Loka,Osnovna šola Ivana Groharja,Podlubnik 1,4
 OS,829,483,5263620001,kr,Škofja Loka,"Osnovna šola Ivana Groharja, Podružnična šola Bukovica",Bukovica 21,4227,Selca,,122031,04 510 36 10,,marko.primozic@guest.arnes.si,,46.19877,14.24455
 OS,830,483,5263620002,kr,Škofja Loka,"Osnovna šola Ivana Groharja, Podružnična šola Bukovščica",Bukovščica 4,4227,Selca,,,04 510 35 80,,marko.primozic@guest.arnes.si,,46.22300,14.26174
 OS,831,483,5263620003,kr,Škofja Loka,"Osnovna šola Ivana Groharja, Podružnična šola Sv. Lenart",Sv. Lenart 24,4227,Selca,,,04 510 35 70,,marko.primozic@guest.arnes.si,,46.18771,14.19516
-OS,484,484,5089468000,kr,Škofja Loka,Osnovna šola Škofja Loka - Mesto,Šolska ulica 1,4220,Škofja Loka,,122010,04 506 00 11,04 512 50 48,,http://www.os-sl-mesto.si,46.16809,14.30581
+OS,484,484,5089468000,kr,Škofja Loka,Osnovna šola Škofja Loka - Mesto,Šolska ulica 1,4220,Škofja Loka,,122010,04 506 00 11,04 512 50 48,info@ossklm.si,http://www.ossklm.si/,46.16809,14.30581
 OS,319,319,5084482000,lj,Škofljica,Osnovna šola Škofljica,Klanec 5,1291,Škofljica,,,01 366 38 13,01 366 38 04,o-skofljica.lj@guest.arnes.si,http://www.os-skofljica.si/,45.97927,14.57684
 OS,3788,319,5084482002,lj,Škofljica,Osnovna šola Škofljica Podružnica Lavrica,Dolenjska cesta 342,1291,Škofljica,,123011,01 366 60 31,,o-skofljica.lj@guest.arnes.si,,45.99898,14.55559
 OS,958,319,5084482001,lj,Škofljica,Osnovna šola Škofljica Podružnica Želimlje,Želimlje 43,1291,Škofljica,,,01 366 14 46,,o-skofljica.lj@guest.arnes.si,,45.91974,14.57195
@@ -723,7 +723,7 @@ OS,3709,3709,5051215000,ms,Veržej,Osnovna šola Veržej,Puščenjakova ulica 7,
 OS,419,419,5087171000,mb,Videm,Osnovna šola Videm,Videm pri Ptuju 47,2284,Videm pri Ptuju,,,02 761 94 10,02 761 94 11,info@solavidem.si,http://solavidem.si/,46.36945,15.90201
 OS,968,419,5087171002,mb,Videm,"Osnovna šola Videm, Podružnična šola Leskovec",Zgornji Leskovec 10,2285,Zgornji Leskovec,,,02 763 10 40,,helena.segula@guest.arnes.si,,46.32759,15.93475
 OS,762,419,5087171001,mb,Videm,"Osnovna šola Videm, Podružnična šola Sela",Sela 33,2324,Lovrenc na Dravskem polju,,,02 781 28 11,,helena.segula@guest.arnes.si,,46.37140,15.82872
-OS,120,120,5083532000,ng,Vipava,Osnovna šola Draga Bajca Vipava,Vinarska cesta 4,5271,Vipava,,,05 366 43 40,05 366 43 44,group2.osngdb@guest.arnes.si,http://www2.arnes.si/~osngdb2s,45.84011,13.96192
+OS,120,120,5083532000,ng,Vipava,Osnovna šola Draga Bajca Vipava,Vinarska cesta 4,5271,Vipava,,,"05 366 43 47, 041 619 125",05 366 43 44,group2.osngdb@guest.arnes.si,http://www2.arnes.si/~osngdb2s,45.84011,13.96192
 OS,660,120,5083532002,ng,Vipava,Osnovna šola Draga Bajca Vipava Podružnica Goče,Goče 6,5271,Vipava,,136011,05 366 43 75,,alenka.nusdorfer@guest.arnes.si,,45.82068,13.92509
 OS,661,120,5083532004,ng,Vipava,Osnovna šola Draga Bajca Vipava Podružnica Podnanos,Podnanos 77,5272,Podnanos,,136012,05 366 43 73,,alenka.nusdorfer@guest.arnes.si,,45.79707,13.97299
 OS,665,120,5083532005,ng,Vipava,Osnovna šola Draga Bajca Vipava Podružnica Vrhpolje,Vrhpolje 41,5271,Vipava,,,05 366 43 74,,alenka.nusdorfer@guest.arnes.si,,45.86440,13.96087
@@ -769,11 +769,13 @@ OS,836,490,5087830005,kr,Železniki,"Osnovna šola Železniki, Podružnica Soric
 OS,1260,1260,5968330000,mb,Žetale,Osnovna šola Žetale,Čermožiše 45 B,2287,Žetale,,,02 761 99 10,02 761 99 10,stefanija.ropic@sola-zetale.si,http://www.sola-zetale.si/,46.27339,15.78973
 OS,489,489,5089476000,kr,Žiri,Osnovna šola Žiri,Jobstova cesta 22,4226,Žiri,,,04 505 08 11,04 505 08 10,osziri@osziri.si,http://www.osziri.si,46.04573,14.10868
 OS,1229,1229,5719062000,kr,Žirovnica,Osnovna šola Žirovnica,Zabreznica 4,4274,Žirovnica,https://www.openstreetmap.org/way/486566210,,"04 580 91 50, 04 580 91 51",04 580 91 55,info@os-zirovnica.si,http://www.os-zirovnica.org,46.39898,14.14604
-OS,388,388,5086272000,nm,Žužemberk,Osnovna šola Prevole,Prevole 32,8362,Hinje,https://www.openstreetmap.org/way/392917794,,07 388 52 90,07 388 52 94,o-prevole.nm@guest.arnes.si,http://www.osprevole.si/,45.77344,14.86275
+OS,388,388,5086272000,nm,Žužemberk,Osnovna šola Prevole,Prevole 32,8362,Hinje,https://www.openstreetmap.org/way/392917794,,07 388 52 90,07 388 52 94,o-prevole.nm@guest.arnes.si,http://www.osnovnasolaprevole.si/,45.77344,14.86275
 OS,387,387,5086337000,nm,Žužemberk,Osnovna šola Žužemberk,Baragova cesta 1,8360,Žužemberk,https://www.openstreetmap.org/way/365319100,,"07 3888026, 07 3087022",07 308 70 22,tajnistvo-os.zuzemberk@guest.arnes.si,http://www.oszuzemberk.si,45.83101,14.93244
 OS,733,387,5086337001,nm,Žužemberk,"Osnovna šola Žužemberk, Podružnica Ajdovec",Dolnji Ajdovec 15,8361,Dvor,,193021,07 30 87 022,07 30 87 022,tajnistvo-os.zuzemberk@guest.arnes.si,http://www.oszuzemberk.si,45.82927,15.01348
 OS,734,387,5086337002,nm,Žužemberk,Osnovna šola Žužemberk Podružnica Dvor,Dvor 23 D,8361,Dvor,,193022,07 30 87 022,07 30 87 022,tajnistvo-os.zuzemberk@guest.arnes.si,http://www.oszuzemberk.si,45.81185,14.96418
 OS,735,387,5086337003,nm,Žužemberk,"Osnovna šola Žužemberk, Podružnica Šmihel",Šmihel pri Žužemberku 18,8360,Žužemberk,,,07 30 87 022,,tajnistvo-os.zuzemberk@guest.arnes.si,http://www.oszuzemberk.si,45.84929,14.88183
+OS,25075,25075,8865434000,lj,Ivančna Gorica,Osnovna šola Zagradec,Zagradec 33,1303,Zagradec,,,01 620 74 01,,barbara.maver@os-sticna.si,,,
+OS,25015,25015,8889830000,kr,Kranj,Osnovna šola Janeza Puharja Kranj - Center,Komenskega ulica 4,4000,Kranj,,,04 2559 731,,klemen.markelj@guest.arnes.si,,,
 PV,1089,1089,5050855000,ng,Ajdovščina,OTROŠKI VRTEC AJDOVŠČINA,Pot v Žapuže 14,5270,Ajdovščina,,,05 368 13 40,05 368 13 40,ov.ajdovscina@siol.net,,45.88369,13.91710
 PV,14049,1089,5050855001,ng,Ajdovščina,"OTROŠKI VRTEC AJDOVŠČINA, ENOTA OB HUBLJU",Ob Hublju 1,5270,Ajdovščina,,,05 366 11 87,,otroski.vrtec.ajdovscina1@siol.net,,45.88917,13.90665
 PV,14050,1089,5050855002,ng,Ajdovščina,"OTROŠKI VRTEC AJDOVŠČINA, ENOTA RIBNIK",Pot v Žapuže 14,5270,Ajdovščina,,,"05 368 13 40, 05 368 04 53",05 368 13 40,ov.ajdovscina.nives@siol.net,,45.88369,13.91710
