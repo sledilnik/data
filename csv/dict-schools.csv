@@ -248,7 +248,7 @@ OS,228,228,5083222000,kr,Kranj,Osnovna šola Predoslje Kranj,Predoslje 17 A,4000
 OS,224,224,5083192000,kr,Kranj,Osnovna šola Simona Jenka Kranj,Ulica XXXI. divizije 7 A,4000,Kranj,,,04 255 97 00,04 255 97 10,o-sjkranj.kr@osjenka.si,http://www.osjenka.si,46.25111,14.35919
 OS,977,224,5083192005,kr,Kranj,Osnovna šola Simona Jenka Kranj Podružnica Center,Komenskega ulica 2,4000,Kranj,,52031,04 255 96 70,04 255 96 74,osljsjce@guest.arnes.si,http://194.249.14.32/OSCenter/,46.24575,14.35806
 OS,978,224,5083192004,kr,Kranj,Osnovna šola Simona Jenka Kranj Podružnica Goriče,Srednja vas - Goriče 1,4204,Golnik,,52032,04 255 96 81,,osljsjgor@guest.arnes.si,http://www.osjenka.si/,46.31856,14.34730
-OS,976,224,5083192002,kr,Kranj,Osnovna šola Simona Jenka Kranj Podružnica Primskovo,Zadružna ulica 11,4000,Kranj,,52033,04 255 96 76,,osljsjprim@guest.arnes.si,http://194.249.14.32/OSPrimskovo/,46.24754,14.36826
+OS,976,25015,5083192002,kr,Kranj,Osnovna šola Janeza Puharja Kranj - Center, Podružnica Primskovo,Zadružna ulica 11,4000,Kranj,,52033,04 255 96 76,,osljsjprim@guest.arnes.si,http://194.249.14.32/OSPrimskovo/,46.24754,14.36826
 OS,1358,224,5083192003,kr,Kranj,Osnovna šola Simona Jenka Kranj Podružnica Trstenik,Trstenik 39,4204,Golnik,,52034,04 255 96 88,,osljsjtr@guest.arnes.si,http://194.249.14.32/OSTrstenik/,46.31499,14.36799
 OS,226,226,5083206000,kr,Kranj,Osnovna šola Staneta Žagarja Kranj,Cesta 1. maja 10 A,4000,Kranj,,,04 280 28 00,04 280 28 15,os.szagar@guest.arnes.si,http://www2.arnes.si/~oskrsz3s,46.23525,14.35948
 OS,225,225,5085365000,kr,Kranj,Osnovna šola Stražišče Kranj,Šolska ulica 2,4000,Kranj,,,04 270 03 00,04 270 03 06,os.strazisce@guest.arnes.si,http://www.o-strazisce.kr.edus.si,46.23338,14.34628
@@ -1124,7 +1124,7 @@ PV,16450,1066,5049849035,kr,Kranj,VRTEC V OŠ MATIJA ČOP,Ulica Tuga Vidmarja 1,
 PV,16449,1066,5049849036,kr,Kranj,VRTEC V OŠ JAKOBA ALJAŽA,Ulica Tončka Dežmana 1,4000,Kranj,,,04 201 92 45,04 201 92 08,jaljaz.kr@guest.arnes.si,http://v-vrtci.kr.edus.si,46.23609,14.36580
 PV,16451,1066,5049849037,kr,Kranj,"Kranjski vrtci, Enota Ciciban",Likozarjeva ulica 22,4000,Kranj,,,04 201 92 44,04 201 92 08,ciciban.kr@kranjski-vrtci.si,http://v-vrtci.kr.edus.si,46.24160,14.36316
 PV,3653,3653,5083192006,kr,Kranj,"Osnovna šola Simona Jenka Kranj, Enota Vrtec",Ulica XXXI. divizije 7 A,4000,Kranj,,,04 255 97 17,,osjvrtec@guest.arnes.si,http://www.osjenka.si/?page_id=251,46.25111,14.35919
-PV,14009,14009,5083192008,kr,Kranj,"Osnovna šola Simona Jenka Kranj, Vrtec v Podružnični šoli Primskovo",Zadružna ulica 11,4000,Kranj,,,04 255 96 80,,osjvrtec@guest.arnes.si,http://www2.arnes.si/~ossjkr1/vrtec.htm,46.24754,14.36826
+PV,14009,14009,5083192008,kr,Kranj,"Osnovna šola Janeza Puharja Kranj - Center, Vrtec v Podružnični šoli Primskovo",Zadružna ulica 11,4000,Kranj,,,04 255 96 80,,osjvrtec@guest.arnes.si,http://www2.arnes.si/~ossjkr1/vrtec.htm,46.24754,14.36826
 PV,1205,1205,5083222001,kr,Kranj,"Osnovna šola Predoslje, enota Vrtec",Predoslje 17 A,4000,Kranj,,,04 281 04 00,04 281 04 04,,,46.26635,14.38775
 PV,589,589,5085365006,kr,Kranj,"Osnovna šola Stražišče Kranj, Enota Vrtec v Podružnici Besnica",Videmce 12,4201,Zgornja Besnica,,,04 250 30 96,04 270 03 06,os.strazisce@guest.arnes.si,http://www.o-strazisce.kr.edus.si,46.26119,14.29490
 PV,14969,14969,5085365007,kr,Kranj,"Osnovna šola Stražišče Kranj, Enota Vrtec v Podružnici Žabnica",Žabnica 20,4209,Žabnica,,,04 231 44 94,04 270 03 06,os.strazisce@guest.arnes.si,http://www.o-strazisce.kr.edus.si,46.19762,14.33271
