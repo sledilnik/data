@@ -1,13 +1,13 @@
 [
   {
-    "Posodobljeno": "30.11.2021 14:00",
+    "Posodobljeno": "01.12.2021 14:34",
     "Spearmanov_OS": [
-      0.8886338960863281,
-      6.306903440073213e-34
+      0.8857456659318462,
+      1.9852068216206598e-33
     ],
     "Spearmanov_OS_akt": [
-      0.968591069557147,
-      3.220413360764035e-59
+      0.9680883940551981,
+      6.76707112130596e-59
     ]
   },
   {
@@ -86303,7 +86303,7 @@
       "Osnovna_sola": 146,
       "Osnovna_sola_s_prilagojenim_programom": 6,
       "Glasbena_sola": 3,
-      "Srednja_sola": 54,
+      "Srednja_sola": 53,
       "Dijaski_dom": 1,
       "Zavodi": 0
     },
@@ -89738,7 +89738,7 @@
       "Osnovna_sola": 145,
       "Osnovna_sola_s_prilagojenim_programom": 7,
       "Glasbena_sola": 2,
-      "Srednja_sola": 45,
+      "Srednja_sola": 44,
       "Dijaski_dom": 0,
       "Zavodi": 1
     },
@@ -89967,7 +89967,7 @@
       "Osnovna_sola": 155,
       "Osnovna_sola_s_prilagojenim_programom": 8,
       "Glasbena_sola": 2,
-      "Srednja_sola": 48,
+      "Srednja_sola": 47,
       "Dijaski_dom": 0,
       "Zavodi": 1
     },
@@ -90196,7 +90196,7 @@
       "Osnovna_sola": 161,
       "Osnovna_sola_s_prilagojenim_programom": 8,
       "Glasbena_sola": 2,
-      "Srednja_sola": 52,
+      "Srednja_sola": 51,
       "Dijaski_dom": 0,
       "Zavodi": 1
     },
@@ -90425,7 +90425,7 @@
       "Osnovna_sola": 154,
       "Osnovna_sola_s_prilagojenim_programom": 7,
       "Glasbena_sola": 2,
-      "Srednja_sola": 50,
+      "Srednja_sola": 49,
       "Dijaski_dom": 0,
       "Zavodi": 1
     },
@@ -90654,7 +90654,7 @@
       "Osnovna_sola": 156,
       "Osnovna_sola_s_prilagojenim_programom": 6,
       "Glasbena_sola": 2,
-      "Srednja_sola": 50,
+      "Srednja_sola": 49,
       "Dijaski_dom": 0,
       "Zavodi": 1
     },
@@ -95966,7 +95966,7 @@
     "month": "10",
     "day": "25",
     "ucenci_okuzbe_nove": {
-      "Vrtec": 5,
+      "Vrtec": 6,
       "Osnovna_sola": 64,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 1,
@@ -96002,7 +96002,7 @@
       "Zavodi": 0
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 38,
+      "Vrtec": 39,
       "Osnovna_sola": 474,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 17,
@@ -96164,7 +96164,7 @@
       "Zavodi": 2
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.045599999999999995,
+      "Vrtec": 0.046799999999999994,
       "Osnovna_sola": 0.23700000000000018,
       "Osnovna_sola_s_prilagojenim_programom": 0.07500000000000001,
       "Glasbena_sola": 0.34,
@@ -96231,7 +96231,7 @@
       "Zavodi": 0
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 44,
+      "Vrtec": 45,
       "Osnovna_sola": 522,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 17,
@@ -96393,7 +96393,7 @@
       "Zavodi": 2
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.05279999999999999,
+      "Vrtec": 0.05399999999999999,
       "Osnovna_sola": 0.2610000000000002,
       "Osnovna_sola_s_prilagojenim_programom": 0.07500000000000001,
       "Glasbena_sola": 0.34,
@@ -96460,7 +96460,7 @@
       "Zavodi": 0
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 53,
+      "Vrtec": 54,
       "Osnovna_sola": 601,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 20,
@@ -96622,7 +96622,7 @@
       "Zavodi": 2
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.06359999999999999,
+      "Vrtec": 0.0648,
       "Osnovna_sola": 0.3005000000000002,
       "Osnovna_sola_s_prilagojenim_programom": 0.07500000000000001,
       "Glasbena_sola": 0.4000000000000001,
@@ -96689,7 +96689,7 @@
       "Zavodi": 0
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 55,
+      "Vrtec": 56,
       "Osnovna_sola": 630,
       "Osnovna_sola_s_prilagojenim_programom": 4,
       "Glasbena_sola": 21,
@@ -96851,7 +96851,7 @@
       "Zavodi": 0
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.066,
+      "Vrtec": 0.06720000000000001,
       "Osnovna_sola": 0.3150000000000002,
       "Osnovna_sola_s_prilagojenim_programom": 0.1,
       "Glasbena_sola": 0.4200000000000001,
@@ -96918,7 +96918,7 @@
       "Zavodi": 0
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 61,
+      "Vrtec": 62,
       "Osnovna_sola": 675,
       "Osnovna_sola_s_prilagojenim_programom": 4,
       "Glasbena_sola": 18,
@@ -97080,7 +97080,7 @@
       "Zavodi": 0
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.07320000000000004,
+      "Vrtec": 0.07440000000000005,
       "Osnovna_sola": 0.33750000000000024,
       "Osnovna_sola_s_prilagojenim_programom": 0.1,
       "Glasbena_sola": 0.36000000000000004,
@@ -97147,7 +97147,7 @@
       "Zavodi": 0
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 61,
+      "Vrtec": 62,
       "Osnovna_sola": 677,
       "Osnovna_sola_s_prilagojenim_programom": 4,
       "Glasbena_sola": 18,
@@ -97309,7 +97309,7 @@
       "Zavodi": 0
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.07320000000000004,
+      "Vrtec": 0.07440000000000005,
       "Osnovna_sola": 0.33850000000000025,
       "Osnovna_sola_s_prilagojenim_programom": 0.1,
       "Glasbena_sola": 0.36000000000000004,
@@ -97376,7 +97376,7 @@
       "Zavodi": 55
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 60,
+      "Vrtec": 61,
       "Osnovna_sola": 681,
       "Osnovna_sola_s_prilagojenim_programom": 4,
       "Glasbena_sola": 18,
@@ -97538,7 +97538,7 @@
       "Zavodi": 0
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.07200000000000004,
+      "Vrtec": 0.07320000000000004,
       "Osnovna_sola": 0.34050000000000025,
       "Osnovna_sola_s_prilagojenim_programom": 0.1,
       "Glasbena_sola": 0.36000000000000004,
@@ -97605,7 +97605,7 @@
       "Zavodi": 67
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 59,
+      "Vrtec": 60,
       "Osnovna_sola": 748,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 23,
@@ -97767,7 +97767,7 @@
       "Zavodi": 0
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.07080000000000003,
+      "Vrtec": 0.07200000000000004,
       "Osnovna_sola": 0.3740000000000003,
       "Osnovna_sola_s_prilagojenim_programom": 0.07500000000000001,
       "Glasbena_sola": 0.46000000000000013,
@@ -97834,7 +97834,7 @@
       "Zavodi": 13
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 64,
+      "Vrtec": 65,
       "Osnovna_sola": 1088,
       "Osnovna_sola_s_prilagojenim_programom": 7,
       "Glasbena_sola": 34,
@@ -97996,7 +97996,7 @@
       "Zavodi": 1
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.07680000000000006,
+      "Vrtec": 0.07800000000000007,
       "Osnovna_sola": 0.5439999999999955,
       "Osnovna_sola_s_prilagojenim_programom": 0.175,
       "Glasbena_sola": 0.6800000000000003,
@@ -98063,7 +98063,7 @@
       "Zavodi": 9
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 69,
+      "Vrtec": 70,
       "Osnovna_sola": 1178,
       "Osnovna_sola_s_prilagojenim_programom": 7,
       "Glasbena_sola": 37,
@@ -98225,7 +98225,7 @@
       "Zavodi": 1
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.0828000000000001,
+      "Vrtec": 0.0840000000000001,
       "Osnovna_sola": 0.5889999999999905,
       "Osnovna_sola_s_prilagojenim_programom": 0.175,
       "Glasbena_sola": 0.7400000000000003,
@@ -98244,8 +98244,8 @@
     },
     "uradni_podatki_SLO": [
       "03.11.2021",
-      4517,
-      32056,
+      4518,
+      32057,
       3742,
       23577,
       670
@@ -98292,7 +98292,7 @@
       "Zavodi": 0
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 74,
+      "Vrtec": 75,
       "Osnovna_sola": 1222,
       "Osnovna_sola_s_prilagojenim_programom": 9,
       "Glasbena_sola": 43,
@@ -98445,7 +98445,7 @@
       "Zavodi": 2
     },
     "sum_karantena_ucenci_aktivni": {
-      "Vrtec": 337,
+      "Vrtec": 339,
       "Osnovna_sola": 1290,
       "Osnovna_sola_s_prilagojenim_programom": 17,
       "Glasbena_sola": 163,
@@ -98454,7 +98454,7 @@
       "Zavodi": 7
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.08880000000000013,
+      "Vrtec": 0.09000000000000014,
       "Osnovna_sola": 0.6109999999999881,
       "Osnovna_sola_s_prilagojenim_programom": 0.22499999999999998,
       "Glasbena_sola": 0.8600000000000004,
@@ -98474,7 +98474,7 @@
     "uradni_podatki_SLO": [
       "04.11.2021",
       3779,
-      33866,
+      33867,
       3818,
       24014,
       735
@@ -98674,7 +98674,7 @@
       "Zavodi": 3
     },
     "sum_karantena_ucenci_aktivni": {
-      "Vrtec": 362,
+      "Vrtec": 365,
       "Osnovna_sola": 1344,
       "Osnovna_sola_s_prilagojenim_programom": 23,
       "Glasbena_sola": 204,
@@ -98703,7 +98703,7 @@
     "uradni_podatki_SLO": [
       "05.11.2021",
       3664,
-      35258,
+      35259,
       3894,
       24416,
       761
@@ -98903,7 +98903,7 @@
       "Zavodi": 3
     },
     "sum_karantena_ucenci_aktivni": {
-      "Vrtec": 362,
+      "Vrtec": 365,
       "Osnovna_sola": 1274,
       "Osnovna_sola_s_prilagojenim_programom": 19,
       "Glasbena_sola": 198,
@@ -98932,7 +98932,7 @@
     "uradni_podatki_SLO": [
       "06.11.2021",
       2325,
-      36085,
+      36086,
       3937,
       24658,
       748
@@ -99132,7 +99132,7 @@
       "Zavodi": 3
     },
     "sum_karantena_ucenci_aktivni": {
-      "Vrtec": 335,
+      "Vrtec": 338,
       "Osnovna_sola": 1259,
       "Osnovna_sola_s_prilagojenim_programom": 20,
       "Glasbena_sola": 224,
@@ -99161,7 +99161,7 @@
     "uradni_podatki_SLO": [
       "07.11.2021",
       1288,
-      36665,
+      36666,
       3958,
       24810,
       797
@@ -99173,7 +99173,7 @@
     "day": "08",
     "ucenci_okuzbe_nove": {
       "Vrtec": 7,
-      "Osnovna_sola": 201,
+      "Osnovna_sola": 202,
       "Osnovna_sola_s_prilagojenim_programom": 1,
       "Glasbena_sola": 9,
       "Srednja_sola": 44,
@@ -99209,7 +99209,7 @@
     },
     "ucenci_okuzbe_aktivne": {
       "Vrtec": 61,
-      "Osnovna_sola": 1163,
+      "Osnovna_sola": 1164,
       "Osnovna_sola_s_prilagojenim_programom": 12,
       "Glasbena_sola": 48,
       "Srednja_sola": 344,
@@ -99263,7 +99263,7 @@
     },
     "ucenci_okuzbe_nove_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 76,
+      "Osnovna_sola": 77,
       "Osnovna_sola_s_prilagojenim_programom": 1,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -99317,7 +99317,7 @@
     },
     "ucenci_okuzbe_aktivne_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 460,
+      "Osnovna_sola": 461,
       "Osnovna_sola_s_prilagojenim_programom": 4,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -99361,7 +99361,7 @@
       "Zavodi": 3
     },
     "sum_karantena_ucenci_aktivni": {
-      "Vrtec": 373,
+      "Vrtec": 376,
       "Osnovna_sola": 1458,
       "Osnovna_sola_s_prilagojenim_programom": 24,
       "Glasbena_sola": 331,
@@ -99371,7 +99371,7 @@
     },
     "ucenci_okuzbe_aktivne_delez": {
       "Vrtec": 0.07320000000000004,
-      "Osnovna_sola": 0.5814999999999914,
+      "Osnovna_sola": 0.5819999999999913,
       "Osnovna_sola_s_prilagojenim_programom": 0.3,
       "Glasbena_sola": 0.9600000000000005,
       "Srednja_sola": 9.47649999999995,
@@ -99390,7 +99390,7 @@
     "uradni_podatki_SLO": [
       "08.11.2021",
       3347,
-      37716,
+      37717,
       4007,
       25320,
       843
@@ -99438,7 +99438,7 @@
     },
     "ucenci_okuzbe_aktivne": {
       "Vrtec": 66,
-      "Osnovna_sola": 1237,
+      "Osnovna_sola": 1238,
       "Osnovna_sola_s_prilagojenim_programom": 11,
       "Glasbena_sola": 55,
       "Srednja_sola": 374,
@@ -99546,7 +99546,7 @@
     },
     "ucenci_okuzbe_aktivne_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 489,
+      "Osnovna_sola": 490,
       "Osnovna_sola_s_prilagojenim_programom": 4,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -99590,7 +99590,7 @@
       "Zavodi": 3
     },
     "sum_karantena_ucenci_aktivni": {
-      "Vrtec": 443,
+      "Vrtec": 446,
       "Osnovna_sola": 1540,
       "Osnovna_sola_s_prilagojenim_programom": 22,
       "Glasbena_sola": 388,
@@ -99600,7 +99600,7 @@
     },
     "ucenci_okuzbe_aktivne_delez": {
       "Vrtec": 0.07920000000000008,
-      "Osnovna_sola": 0.6184999999999873,
+      "Osnovna_sola": 0.6189999999999872,
       "Osnovna_sola_s_prilagojenim_programom": 0.27499999999999997,
       "Glasbena_sola": 1.1000000000000005,
       "Srednja_sola": 10.32139999999994,
@@ -99619,7 +99619,7 @@
     "uradni_podatki_SLO": [
       "09.11.2021",
       4483,
-      39061,
+      39062,
       4099,
       26014,
       874
@@ -99667,7 +99667,7 @@
     },
     "ucenci_okuzbe_aktivne": {
       "Vrtec": 73,
-      "Osnovna_sola": 1310,
+      "Osnovna_sola": 1311,
       "Osnovna_sola_s_prilagojenim_programom": 11,
       "Glasbena_sola": 54,
       "Srednja_sola": 382,
@@ -99775,7 +99775,7 @@
     },
     "ucenci_okuzbe_aktivne_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 513,
+      "Osnovna_sola": 514,
       "Osnovna_sola_s_prilagojenim_programom": 4,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -99819,7 +99819,7 @@
       "Zavodi": 3
     },
     "sum_karantena_ucenci_aktivni": {
-      "Vrtec": 448,
+      "Vrtec": 451,
       "Osnovna_sola": 1606,
       "Osnovna_sola_s_prilagojenim_programom": 24,
       "Glasbena_sola": 441,
@@ -99829,7 +99829,7 @@
     },
     "ucenci_okuzbe_aktivne_delez": {
       "Vrtec": 0.08760000000000012,
-      "Osnovna_sola": 0.6549999999999833,
+      "Osnovna_sola": 0.6554999999999832,
       "Osnovna_sola_s_prilagojenim_programom": 0.27499999999999997,
       "Glasbena_sola": 1.0800000000000005,
       "Srednja_sola": 10.526099999999937,
@@ -99848,7 +99848,7 @@
     "uradni_podatki_SLO": [
       "10.11.2021",
       3573,
-      40002,
+      40003,
       4190,
       26569,
       889
@@ -99896,7 +99896,7 @@
     },
     "ucenci_okuzbe_aktivne": {
       "Vrtec": 80,
-      "Osnovna_sola": 1331,
+      "Osnovna_sola": 1332,
       "Osnovna_sola_s_prilagojenim_programom": 12,
       "Glasbena_sola": 53,
       "Srednja_sola": 395,
@@ -100004,7 +100004,7 @@
     },
     "ucenci_okuzbe_aktivne_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 510,
+      "Osnovna_sola": 511,
       "Osnovna_sola_s_prilagojenim_programom": 4,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -100048,7 +100048,7 @@
       "Zavodi": 4
     },
     "sum_karantena_ucenci_aktivni": {
-      "Vrtec": 481,
+      "Vrtec": 484,
       "Osnovna_sola": 1627,
       "Osnovna_sola_s_prilagojenim_programom": 40,
       "Glasbena_sola": 465,
@@ -100058,7 +100058,7 @@
     },
     "ucenci_okuzbe_aktivne_delez": {
       "Vrtec": 0.09600000000000017,
-      "Osnovna_sola": 0.6654999999999821,
+      "Osnovna_sola": 0.665999999999982,
       "Osnovna_sola_s_prilagojenim_programom": 0.3,
       "Glasbena_sola": 1.0600000000000005,
       "Srednja_sola": 10.932499999999933,
@@ -100077,7 +100077,7 @@
     "uradni_podatki_SLO": [
       "11.11.2021",
       3436,
-      40922,
+      40923,
       4243,
       27118,
       920
@@ -100125,7 +100125,7 @@
     },
     "ucenci_okuzbe_aktivne": {
       "Vrtec": 79,
-      "Osnovna_sola": 1280,
+      "Osnovna_sola": 1281,
       "Osnovna_sola_s_prilagojenim_programom": 14,
       "Glasbena_sola": 56,
       "Srednja_sola": 385,
@@ -100233,7 +100233,7 @@
     },
     "ucenci_okuzbe_aktivne_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 471,
+      "Osnovna_sola": 472,
       "Osnovna_sola_s_prilagojenim_programom": 5,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -100277,7 +100277,7 @@
       "Zavodi": 4
     },
     "sum_karantena_ucenci_aktivni": {
-      "Vrtec": 441,
+      "Vrtec": 444,
       "Osnovna_sola": 1549,
       "Osnovna_sola_s_prilagojenim_programom": 48,
       "Glasbena_sola": 462,
@@ -100287,7 +100287,7 @@
     },
     "ucenci_okuzbe_aktivne_delez": {
       "Vrtec": 0.09480000000000016,
-      "Osnovna_sola": 0.6399999999999849,
+      "Osnovna_sola": 0.6404999999999849,
       "Osnovna_sola_s_prilagojenim_programom": 0.35000000000000003,
       "Glasbena_sola": 1.1200000000000006,
       "Srednja_sola": 10.641499999999935,
@@ -100306,7 +100306,7 @@
     "uradni_podatki_SLO": [
       "12.11.2021",
       3667,
-      41598,
+      41599,
       4327,
       27687,
       954
@@ -100354,7 +100354,7 @@
     },
     "ucenci_okuzbe_aktivne": {
       "Vrtec": 77,
-      "Osnovna_sola": 1099,
+      "Osnovna_sola": 1100,
       "Osnovna_sola_s_prilagojenim_programom": 13,
       "Glasbena_sola": 56,
       "Srednja_sola": 343,
@@ -100462,7 +100462,7 @@
     },
     "ucenci_okuzbe_aktivne_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 406,
+      "Osnovna_sola": 407,
       "Osnovna_sola_s_prilagojenim_programom": 5,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -100506,7 +100506,7 @@
       "Zavodi": 4
     },
     "sum_karantena_ucenci_aktivni": {
-      "Vrtec": 391,
+      "Vrtec": 394,
       "Osnovna_sola": 1317,
       "Osnovna_sola_s_prilagojenim_programom": 33,
       "Glasbena_sola": 412,
@@ -100516,7 +100516,7 @@
     },
     "ucenci_okuzbe_aktivne_delez": {
       "Vrtec": 0.09240000000000015,
-      "Osnovna_sola": 0.5494999999999949,
+      "Osnovna_sola": 0.5499999999999948,
       "Osnovna_sola_s_prilagojenim_programom": 0.325,
       "Glasbena_sola": 1.1200000000000006,
       "Srednja_sola": 9.419299999999952,
@@ -100535,7 +100535,7 @@
     "uradni_podatki_SLO": [
       "13.11.2021",
       2368,
-      42302,
+      42303,
       4383,
       28072,
       981
@@ -100583,7 +100583,7 @@
     },
     "ucenci_okuzbe_aktivne": {
       "Vrtec": 73,
-      "Osnovna_sola": 1069,
+      "Osnovna_sola": 1070,
       "Osnovna_sola_s_prilagojenim_programom": 10,
       "Glasbena_sola": 61,
       "Srednja_sola": 317,
@@ -100691,7 +100691,7 @@
     },
     "ucenci_okuzbe_aktivne_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 389,
+      "Osnovna_sola": 390,
       "Osnovna_sola_s_prilagojenim_programom": 2,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -100745,7 +100745,7 @@
     },
     "ucenci_okuzbe_aktivne_delez": {
       "Vrtec": 0.08760000000000012,
-      "Osnovna_sola": 0.5344999999999965,
+      "Osnovna_sola": 0.5349999999999965,
       "Osnovna_sola_s_prilagojenim_programom": 0.24999999999999997,
       "Glasbena_sola": 1.2200000000000006,
       "Srednja_sola": 8.606499999999961,
@@ -100764,7 +100764,7 @@
     "uradni_podatki_SLO": [
       "14.11.2021",
       1819,
-      42863,
+      42864,
       4415,
       28379,
       990
@@ -100775,7 +100775,7 @@
     "month": "11",
     "day": "15",
     "ucenci_okuzbe_nove": {
-      "Vrtec": 15,
+      "Vrtec": 17,
       "Osnovna_sola": 245,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 11,
@@ -100811,8 +100811,8 @@
       "Zavodi": 13
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 76,
-      "Osnovna_sola": 1236,
+      "Vrtec": 78,
+      "Osnovna_sola": 1237,
       "Osnovna_sola_s_prilagojenim_programom": 11,
       "Glasbena_sola": 66,
       "Srednja_sola": 330,
@@ -100920,7 +100920,7 @@
     },
     "ucenci_okuzbe_aktivne_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 436,
+      "Osnovna_sola": 437,
       "Osnovna_sola_s_prilagojenim_programom": 2,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -100964,7 +100964,7 @@
       "Zavodi": 4
     },
     "sum_karantena_ucenci_aktivni": {
-      "Vrtec": 385,
+      "Vrtec": 384,
       "Osnovna_sola": 1281,
       "Osnovna_sola_s_prilagojenim_programom": 36,
       "Glasbena_sola": 428,
@@ -100973,8 +100973,8 @@
       "Zavodi": 26
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.09120000000000014,
-      "Osnovna_sola": 0.6179999999999873,
+      "Vrtec": 0.09360000000000016,
+      "Osnovna_sola": 0.6184999999999873,
       "Osnovna_sola_s_prilagojenim_programom": 0.27499999999999997,
       "Glasbena_sola": 1.3200000000000007,
       "Srednja_sola": 8.984799999999957,
@@ -100993,7 +100993,7 @@
     "uradni_podatki_SLO": [
       "15.11.2021",
       3768,
-      45495,
+      45496,
       4474,
       29069,
       1008
@@ -101040,8 +101040,8 @@
       "Zavodi": 13
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 90,
-      "Osnovna_sola": 1340,
+      "Vrtec": 92,
+      "Osnovna_sola": 1341,
       "Osnovna_sola_s_prilagojenim_programom": 11,
       "Glasbena_sola": 62,
       "Srednja_sola": 331,
@@ -101149,7 +101149,7 @@
     },
     "ucenci_okuzbe_aktivne_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 457,
+      "Osnovna_sola": 458,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -101193,7 +101193,7 @@
       "Zavodi": 4
     },
     "sum_karantena_ucenci_aktivni": {
-      "Vrtec": 451,
+      "Vrtec": 450,
       "Osnovna_sola": 1340,
       "Osnovna_sola_s_prilagojenim_programom": 39,
       "Glasbena_sola": 435,
@@ -101202,8 +101202,8 @@
       "Zavodi": 30
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.10800000000000023,
-      "Osnovna_sola": 0.6699999999999816,
+      "Vrtec": 0.11040000000000025,
+      "Osnovna_sola": 0.6704999999999816,
       "Osnovna_sola_s_prilagojenim_programom": 0.27499999999999997,
       "Glasbena_sola": 1.2400000000000007,
       "Srednja_sola": 9.126299999999956,
@@ -101222,7 +101222,7 @@
     "uradni_podatki_SLO": [
       "16.11.2021",
       4282,
-      46316,
+      46317,
       4595,
       29902,
       1074
@@ -101252,7 +101252,7 @@
     },
     "oddelki_v_karanteni_novi": {
       "Vrtec": 26,
-      "Osnovna_sola": 192,
+      "Osnovna_sola": 193,
       "Osnovna_sola_s_prilagojenim_programom": 6,
       "Glasbena_sola": 0,
       "Srednja_sola": 30,
@@ -101261,7 +101261,7 @@
     },
     "ucenci_v_karanteni_novi": {
       "Vrtec": 404,
-      "Osnovna_sola": 4016,
+      "Osnovna_sola": 4037,
       "Osnovna_sola_s_prilagojenim_programom": 31,
       "Glasbena_sola": 0,
       "Srednja_sola": 706,
@@ -101269,8 +101269,8 @@
       "Zavodi": 0
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 99,
-      "Osnovna_sola": 1478,
+      "Vrtec": 101,
+      "Osnovna_sola": 1479,
       "Osnovna_sola_s_prilagojenim_programom": 11,
       "Glasbena_sola": 70,
       "Srednja_sola": 343,
@@ -101288,7 +101288,7 @@
     },
     "oddelki_v_karanteni_aktivne": {
       "Vrtec": 254,
-      "Osnovna_sola": 1240,
+      "Osnovna_sola": 1241,
       "Osnovna_sola_s_prilagojenim_programom": 27,
       "Glasbena_sola": 11,
       "Srednja_sola": 269,
@@ -101297,7 +101297,7 @@
     },
     "ucenci_v_karanteni_aktivne": {
       "Vrtec": 3906,
-      "Osnovna_sola": 25699,
+      "Osnovna_sola": 25720,
       "Osnovna_sola_s_prilagojenim_programom": 193,
       "Glasbena_sola": 129,
       "Srednja_sola": 6737,
@@ -101333,7 +101333,7 @@
     },
     "oddelki_v_karanteni_novi_t1": {
       "Vrtec": 0,
-      "Osnovna_sola": 58,
+      "Osnovna_sola": 59,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -101378,7 +101378,7 @@
     },
     "ucenci_okuzbe_aktivne_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 488,
+      "Osnovna_sola": 489,
       "Osnovna_sola_s_prilagojenim_programom": 4,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -101387,7 +101387,7 @@
     },
     "oddelki_v_karanteni_aktivne_t1": {
       "Vrtec": 2,
-      "Osnovna_sola": 373,
+      "Osnovna_sola": 374,
       "Osnovna_sola_s_prilagojenim_programom": 5,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -101422,7 +101422,7 @@
       "Zavodi": 4
     },
     "sum_karantena_ucenci_aktivni": {
-      "Vrtec": 489,
+      "Vrtec": 488,
       "Osnovna_sola": 1405,
       "Osnovna_sola_s_prilagojenim_programom": 61,
       "Glasbena_sola": 485,
@@ -101431,8 +101431,8 @@
       "Zavodi": 31
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.1188000000000003,
-      "Osnovna_sola": 0.738999999999974,
+      "Vrtec": 0.12120000000000031,
+      "Osnovna_sola": 0.739499999999974,
       "Osnovna_sola_s_prilagojenim_programom": 0.27499999999999997,
       "Glasbena_sola": 1.4000000000000008,
       "Srednja_sola": 9.447399999999952,
@@ -101498,8 +101498,8 @@
       "Zavodi": 0
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 106,
-      "Osnovna_sola": 1469,
+      "Vrtec": 108,
+      "Osnovna_sola": 1470,
       "Osnovna_sola_s_prilagojenim_programom": 16,
       "Glasbena_sola": 75,
       "Srednja_sola": 330,
@@ -101517,7 +101517,7 @@
     },
     "oddelki_v_karanteni_aktivne": {
       "Vrtec": 244,
-      "Osnovna_sola": 1289,
+      "Osnovna_sola": 1290,
       "Osnovna_sola_s_prilagojenim_programom": 29,
       "Glasbena_sola": 8,
       "Srednja_sola": 280,
@@ -101526,7 +101526,7 @@
     },
     "ucenci_v_karanteni_aktivne": {
       "Vrtec": 3755,
-      "Osnovna_sola": 26497,
+      "Osnovna_sola": 26518,
       "Osnovna_sola_s_prilagojenim_programom": 216,
       "Glasbena_sola": 87,
       "Srednja_sola": 6999,
@@ -101607,7 +101607,7 @@
     },
     "ucenci_okuzbe_aktivne_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 477,
+      "Osnovna_sola": 478,
       "Osnovna_sola_s_prilagojenim_programom": 7,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -101616,7 +101616,7 @@
     },
     "oddelki_v_karanteni_aktivne_t1": {
       "Vrtec": 2,
-      "Osnovna_sola": 383,
+      "Osnovna_sola": 384,
       "Osnovna_sola_s_prilagojenim_programom": 4,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -101643,7 +101643,7 @@
     },
     "zavodi_pouk_na_daljavo": {
       "Vrtec": 118,
-      "Osnovna_sola": 322,
+      "Osnovna_sola": 323,
       "Osnovna_sola_s_prilagojenim_programom": 15,
       "Glasbena_sola": 4,
       "Srednja_sola": 72,
@@ -101651,7 +101651,7 @@
       "Zavodi": 4
     },
     "sum_karantena_ucenci_aktivni": {
-      "Vrtec": 526,
+      "Vrtec": 525,
       "Osnovna_sola": 1321,
       "Osnovna_sola_s_prilagojenim_programom": 63,
       "Glasbena_sola": 501,
@@ -101660,8 +101660,8 @@
       "Zavodi": 32
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.12720000000000034,
-      "Osnovna_sola": 0.7344999999999745,
+      "Vrtec": 0.12960000000000035,
+      "Osnovna_sola": 0.7349999999999745,
       "Osnovna_sola_s_prilagojenim_programom": 0.4000000000000001,
       "Glasbena_sola": 1.5000000000000009,
       "Srednja_sola": 9.069099999999956,
@@ -101691,11 +101691,11 @@
     "month": "11",
     "day": "19",
     "ucenci_okuzbe_nove": {
-      "Vrtec": 17,
-      "Osnovna_sola": 145,
+      "Vrtec": 18,
+      "Osnovna_sola": 146,
       "Osnovna_sola_s_prilagojenim_programom": 1,
       "Glasbena_sola": 7,
-      "Srednja_sola": 31,
+      "Srednja_sola": 30,
       "Dijaski_dom": 0,
       "Zavodi": 1
     },
@@ -101704,7 +101704,7 @@
       "Osnovna_sola": 42,
       "Osnovna_sola_s_prilagojenim_programom": 2,
       "Glasbena_sola": 1,
-      "Srednja_sola": 7,
+      "Srednja_sola": 6,
       "Dijaski_dom": 0,
       "Zavodi": 4
     },
@@ -101727,11 +101727,11 @@
       "Zavodi": 0
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 115,
-      "Osnovna_sola": 1452,
+      "Vrtec": 118,
+      "Osnovna_sola": 1453,
       "Osnovna_sola_s_prilagojenim_programom": 16,
       "Glasbena_sola": 73,
-      "Srednja_sola": 314,
+      "Srednja_sola": 313,
       "Dijaski_dom": 8,
       "Zavodi": 7
     },
@@ -101740,13 +101740,13 @@
       "Osnovna_sola": 532,
       "Osnovna_sola_s_prilagojenim_programom": 26,
       "Glasbena_sola": 19,
-      "Srednja_sola": 96,
+      "Srednja_sola": 95,
       "Dijaski_dom": 2,
       "Zavodi": 24
     },
     "oddelki_v_karanteni_aktivne": {
       "Vrtec": 239,
-      "Osnovna_sola": 1298,
+      "Osnovna_sola": 1299,
       "Osnovna_sola_s_prilagojenim_programom": 25,
       "Glasbena_sola": 3,
       "Srednja_sola": 271,
@@ -101755,7 +101755,7 @@
     },
     "ucenci_v_karanteni_aktivne": {
       "Vrtec": 3644,
-      "Osnovna_sola": 26634,
+      "Osnovna_sola": 26655,
       "Osnovna_sola_s_prilagojenim_programom": 185,
       "Glasbena_sola": 26,
       "Srednja_sola": 6746,
@@ -101782,7 +101782,7 @@
     },
     "ucenci_okuzbe_nove_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 43,
+      "Osnovna_sola": 44,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -101836,7 +101836,7 @@
     },
     "ucenci_okuzbe_aktivne_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 469,
+      "Osnovna_sola": 470,
       "Osnovna_sola_s_prilagojenim_programom": 6,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -101845,7 +101845,7 @@
     },
     "oddelki_v_karanteni_aktivne_t1": {
       "Vrtec": 2,
-      "Osnovna_sola": 385,
+      "Osnovna_sola": 386,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 0,
       "Srednja_sola": 2,
@@ -101872,7 +101872,7 @@
     },
     "zavodi_pouk_na_daljavo": {
       "Vrtec": 117,
-      "Osnovna_sola": 323,
+      "Osnovna_sola": 324,
       "Osnovna_sola_s_prilagojenim_programom": 16,
       "Glasbena_sola": 3,
       "Srednja_sola": 72,
@@ -101889,11 +101889,11 @@
       "Zavodi": 33
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.1380000000000004,
-      "Osnovna_sola": 0.7259999999999754,
+      "Vrtec": 0.14160000000000042,
+      "Osnovna_sola": 0.7264999999999754,
       "Osnovna_sola_s_prilagojenim_programom": 0.4000000000000001,
       "Glasbena_sola": 1.4600000000000009,
-      "Srednja_sola": 8.65969999999996,
+      "Srednja_sola": 8.63059999999996,
       "Dijaski_dom": 0.16,
       "Zavodi": 0.5802999999999999
     },
@@ -101902,7 +101902,7 @@
       "Osnovna_sola": 2.1812000000000062,
       "Osnovna_sola_s_prilagojenim_programom": 0.9541999999999995,
       "Glasbena_sola": 0.38000000000000006,
-      "Srednja_sola": 1.0172000000000008,
+      "Srednja_sola": 1.0064000000000008,
       "Dijaski_dom": 0.04,
       "Zavodi": 0.48000000000000015
     },
@@ -101921,7 +101921,7 @@
     "day": "20",
     "ucenci_okuzbe_nove": {
       "Vrtec": 11,
-      "Osnovna_sola": 65,
+      "Osnovna_sola": 67,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 4,
       "Srednja_sola": 13,
@@ -101933,7 +101933,7 @@
       "Osnovna_sola": 31,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 1,
-      "Srednja_sola": 9,
+      "Srednja_sola": 10,
       "Dijaski_dom": 0,
       "Zavodi": 0
     },
@@ -101956,11 +101956,11 @@
       "Zavodi": 0
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 116,
-      "Osnovna_sola": 1361,
+      "Vrtec": 119,
+      "Osnovna_sola": 1364,
       "Osnovna_sola_s_prilagojenim_programom": 16,
       "Glasbena_sola": 69,
-      "Srednja_sola": 277,
+      "Srednja_sola": 276,
       "Dijaski_dom": 6,
       "Zavodi": 8
     },
@@ -101975,7 +101975,7 @@
     },
     "oddelki_v_karanteni_aktivne": {
       "Vrtec": 210,
-      "Osnovna_sola": 1094,
+      "Osnovna_sola": 1095,
       "Osnovna_sola_s_prilagojenim_programom": 23,
       "Glasbena_sola": 0,
       "Srednja_sola": 210,
@@ -101984,7 +101984,7 @@
     },
     "ucenci_v_karanteni_aktivne": {
       "Vrtec": 3240,
-      "Osnovna_sola": 22504,
+      "Osnovna_sola": 22525,
       "Osnovna_sola_s_prilagojenim_programom": 168,
       "Glasbena_sola": 0,
       "Srednja_sola": 5203,
@@ -102002,7 +102002,7 @@
     },
     "ucenci_okuzbe_nove_t2": {
       "Vrtec": 0,
-      "Osnovna_sola": 32,
+      "Osnovna_sola": 34,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102056,7 +102056,7 @@
     },
     "ucenci_okuzbe_aktivne_t2": {
       "Vrtec": 0,
-      "Osnovna_sola": 510,
+      "Osnovna_sola": 512,
       "Osnovna_sola_s_prilagojenim_programom": 2,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102065,7 +102065,7 @@
     },
     "ucenci_okuzbe_aktivne_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 431,
+      "Osnovna_sola": 432,
       "Osnovna_sola_s_prilagojenim_programom": 6,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102074,7 +102074,7 @@
     },
     "oddelki_v_karanteni_aktivne_t1": {
       "Vrtec": 1,
-      "Osnovna_sola": 324,
+      "Osnovna_sola": 325,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 0,
       "Srednja_sola": 2,
@@ -102101,7 +102101,7 @@
     },
     "zavodi_pouk_na_daljavo": {
       "Vrtec": 109,
-      "Osnovna_sola": 306,
+      "Osnovna_sola": 307,
       "Osnovna_sola_s_prilagojenim_programom": 14,
       "Glasbena_sola": 2,
       "Srednja_sola": 64,
@@ -102118,11 +102118,11 @@
       "Zavodi": 33
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.1392000000000004,
-      "Osnovna_sola": 0.6804999999999805,
+      "Vrtec": 0.14280000000000043,
+      "Osnovna_sola": 0.6819999999999803,
       "Osnovna_sola_s_prilagojenim_programom": 0.4000000000000001,
       "Glasbena_sola": 1.3800000000000008,
-      "Srednja_sola": 7.61109999999997,
+      "Srednja_sola": 7.5819999999999705,
       "Dijaski_dom": 0.12000000000000001,
       "Zavodi": 0.6631999999999999
     },
@@ -102137,8 +102137,8 @@
     },
     "uradni_podatki_SLO": [
       "20.11.2021",
-      2247,
-      44702,
+      2248,
+      44703,
       4899,
       32438,
       1106
@@ -102150,7 +102150,7 @@
     "day": "21",
     "ucenci_okuzbe_nove": {
       "Vrtec": 6,
-      "Osnovna_sola": 68,
+      "Osnovna_sola": 69,
       "Osnovna_sola_s_prilagojenim_programom": 5,
       "Glasbena_sola": 3,
       "Srednja_sola": 11,
@@ -102158,7 +102158,7 @@
       "Zavodi": 1
     },
     "zaposleni_okuzbe_nove": {
-      "Vrtec": 15,
+      "Vrtec": 16,
       "Osnovna_sola": 30,
       "Osnovna_sola_s_prilagojenim_programom": 1,
       "Glasbena_sola": 0,
@@ -102185,16 +102185,16 @@
       "Zavodi": 0
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 113,
-      "Osnovna_sola": 1305,
+      "Vrtec": 116,
+      "Osnovna_sola": 1309,
       "Osnovna_sola_s_prilagojenim_programom": 21,
       "Glasbena_sola": 70,
-      "Srednja_sola": 247,
+      "Srednja_sola": 246,
       "Dijaski_dom": 4,
       "Zavodi": 8
     },
     "zaposleni_okuzbe_aktivne": {
-      "Vrtec": 237,
+      "Vrtec": 238,
       "Osnovna_sola": 478,
       "Osnovna_sola_s_prilagojenim_programom": 23,
       "Glasbena_sola": 13,
@@ -102204,7 +102204,7 @@
     },
     "oddelki_v_karanteni_aktivne": {
       "Vrtec": 176,
-      "Osnovna_sola": 1004,
+      "Osnovna_sola": 1005,
       "Osnovna_sola_s_prilagojenim_programom": 23,
       "Glasbena_sola": 0,
       "Srednja_sola": 187,
@@ -102213,7 +102213,7 @@
     },
     "ucenci_v_karanteni_aktivne": {
       "Vrtec": 2776,
-      "Osnovna_sola": 20677,
+      "Osnovna_sola": 20698,
       "Osnovna_sola_s_prilagojenim_programom": 168,
       "Glasbena_sola": 0,
       "Srednja_sola": 4582,
@@ -102231,7 +102231,7 @@
     },
     "ucenci_okuzbe_nove_t2": {
       "Vrtec": 0,
-      "Osnovna_sola": 25,
+      "Osnovna_sola": 26,
       "Osnovna_sola_s_prilagojenim_programom": 1,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102285,7 +102285,7 @@
     },
     "ucenci_okuzbe_aktivne_t2": {
       "Vrtec": 0,
-      "Osnovna_sola": 487,
+      "Osnovna_sola": 490,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102294,7 +102294,7 @@
     },
     "ucenci_okuzbe_aktivne_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 417,
+      "Osnovna_sola": 418,
       "Osnovna_sola_s_prilagojenim_programom": 7,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102303,7 +102303,7 @@
     },
     "oddelki_v_karanteni_aktivne_t1": {
       "Vrtec": 0,
-      "Osnovna_sola": 299,
+      "Osnovna_sola": 300,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 0,
       "Srednja_sola": 2,
@@ -102330,7 +102330,7 @@
     },
     "zavodi_pouk_na_daljavo": {
       "Vrtec": 98,
-      "Osnovna_sola": 296,
+      "Osnovna_sola": 297,
       "Osnovna_sola_s_prilagojenim_programom": 14,
       "Glasbena_sola": 2,
       "Srednja_sola": 65,
@@ -102339,7 +102339,7 @@
     },
     "sum_karantena_ucenci_aktivni": {
       "Vrtec": 395,
-      "Osnovna_sola": 996,
+      "Osnovna_sola": 998,
       "Osnovna_sola_s_prilagojenim_programom": 53,
       "Glasbena_sola": 424,
       "Srednja_sola": 65,
@@ -102347,16 +102347,16 @@
       "Zavodi": 16
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.1356000000000004,
-      "Osnovna_sola": 0.6524999999999835,
+      "Vrtec": 0.1392000000000004,
+      "Osnovna_sola": 0.6544999999999833,
       "Osnovna_sola_s_prilagojenim_programom": 0.5250000000000001,
       "Glasbena_sola": 1.4000000000000008,
-      "Srednja_sola": 6.766199999999977,
+      "Srednja_sola": 6.737099999999978,
       "Dijaski_dom": 0.08,
       "Zavodi": 0.6631999999999999
     },
     "zaposleni_okuzbe_aktivne_delez": {
-      "Vrtec": 1.6827000000000096,
+      "Vrtec": 1.6898000000000097,
       "Osnovna_sola": 1.9597999999999969,
       "Osnovna_sola_s_prilagojenim_programom": 0.8440999999999996,
       "Glasbena_sola": 0.25999999999999995,
@@ -102367,7 +102367,7 @@
     "uradni_podatki_SLO": [
       "21.11.2021",
       1390,
-      44804,
+      44805,
       4928,
       32722,
       1126
@@ -102379,19 +102379,19 @@
     "day": "22",
     "ucenci_okuzbe_nove": {
       "Vrtec": 16,
-      "Osnovna_sola": 284,
+      "Osnovna_sola": 290,
       "Osnovna_sola_s_prilagojenim_programom": 1,
-      "Glasbena_sola": 11,
+      "Glasbena_sola": 13,
       "Srednja_sola": 42,
       "Dijaski_dom": 1,
       "Zavodi": 1
     },
     "zaposleni_okuzbe_nove": {
       "Vrtec": 40,
-      "Osnovna_sola": 81,
-      "Osnovna_sola_s_prilagojenim_programom": 3,
+      "Osnovna_sola": 83,
+      "Osnovna_sola_s_prilagojenim_programom": 4,
       "Glasbena_sola": 0,
-      "Srednja_sola": 14,
+      "Srednja_sola": 15,
       "Dijaski_dom": 3,
       "Zavodi": 2
     },
@@ -102414,26 +102414,26 @@
       "Zavodi": 29
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 119,
-      "Osnovna_sola": 1458,
+      "Vrtec": 122,
+      "Osnovna_sola": 1468,
       "Osnovna_sola_s_prilagojenim_programom": 20,
-      "Glasbena_sola": 75,
-      "Srednja_sola": 255,
+      "Glasbena_sola": 77,
+      "Srednja_sola": 254,
       "Dijaski_dom": 4,
       "Zavodi": 8
     },
     "zaposleni_okuzbe_aktivne": {
-      "Vrtec": 252,
-      "Osnovna_sola": 510,
-      "Osnovna_sola_s_prilagojenim_programom": 22,
+      "Vrtec": 253,
+      "Osnovna_sola": 512,
+      "Osnovna_sola_s_prilagojenim_programom": 23,
       "Glasbena_sola": 13,
-      "Srednja_sola": 91,
+      "Srednja_sola": 92,
       "Dijaski_dom": 4,
       "Zavodi": 20
     },
     "oddelki_v_karanteni_aktivne": {
       "Vrtec": 169,
-      "Osnovna_sola": 980,
+      "Osnovna_sola": 981,
       "Osnovna_sola_s_prilagojenim_programom": 28,
       "Glasbena_sola": 1,
       "Srednja_sola": 172,
@@ -102442,7 +102442,7 @@
     },
     "ucenci_v_karanteni_aktivne": {
       "Vrtec": 2576,
-      "Osnovna_sola": 20232,
+      "Osnovna_sola": 20253,
       "Osnovna_sola_s_prilagojenim_programom": 186,
       "Glasbena_sola": 7,
       "Srednja_sola": 4171,
@@ -102451,7 +102451,7 @@
     },
     "ucenci_okuzbe_nove_t1": {
       "Vrtec": 0,
-      "Osnovna_sola": 64,
+      "Osnovna_sola": 65,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102460,7 +102460,7 @@
     },
     "ucenci_okuzbe_nove_t2": {
       "Vrtec": 0,
-      "Osnovna_sola": 122,
+      "Osnovna_sola": 124,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102469,7 +102469,7 @@
     },
     "ucenci_okuzbe_nove_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 98,
+      "Osnovna_sola": 101,
       "Osnovna_sola_s_prilagojenim_programom": 1,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102505,7 +102505,7 @@
     },
     "ucenci_okuzbe_aktivne_t1": {
       "Vrtec": 0,
-      "Osnovna_sola": 431,
+      "Osnovna_sola": 432,
       "Osnovna_sola_s_prilagojenim_programom": 5,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102514,7 +102514,7 @@
     },
     "ucenci_okuzbe_aktivne_t2": {
       "Vrtec": 0,
-      "Osnovna_sola": 558,
+      "Osnovna_sola": 563,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102523,7 +102523,7 @@
     },
     "ucenci_okuzbe_aktivne_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 469,
+      "Osnovna_sola": 473,
       "Osnovna_sola_s_prilagojenim_programom": 8,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102532,7 +102532,7 @@
     },
     "oddelki_v_karanteni_aktivne_t1": {
       "Vrtec": 0,
-      "Osnovna_sola": 289,
+      "Osnovna_sola": 290,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 0,
       "Srednja_sola": 2,
@@ -102559,7 +102559,7 @@
     },
     "zavodi_pouk_na_daljavo": {
       "Vrtec": 90,
-      "Osnovna_sola": 291,
+      "Osnovna_sola": 292,
       "Osnovna_sola_s_prilagojenim_programom": 17,
       "Glasbena_sola": 4,
       "Srednja_sola": 63,
@@ -102570,33 +102570,33 @@
       "Vrtec": 393,
       "Osnovna_sola": 1072,
       "Osnovna_sola_s_prilagojenim_programom": 47,
-      "Glasbena_sola": 438,
+      "Glasbena_sola": 443,
       "Srednja_sola": 65,
       "Dijaski_dom": 63,
       "Zavodi": 13
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.14280000000000043,
-      "Osnovna_sola": 0.7289999999999751,
+      "Vrtec": 0.14640000000000045,
+      "Osnovna_sola": 0.7339999999999746,
       "Osnovna_sola_s_prilagojenim_programom": 0.5000000000000001,
-      "Glasbena_sola": 1.5000000000000009,
-      "Srednja_sola": 6.998999999999975,
+      "Glasbena_sola": 1.540000000000001,
+      "Srednja_sola": 6.969899999999975,
       "Dijaski_dom": 0.08,
       "Zavodi": 0.6631999999999999
     },
     "zaposleni_okuzbe_aktivne_delez": {
-      "Vrtec": 1.7892000000000112,
-      "Osnovna_sola": 2.0910000000000015,
-      "Osnovna_sola_s_prilagojenim_programom": 0.8073999999999997,
+      "Vrtec": 1.7963000000000113,
+      "Osnovna_sola": 2.099200000000002,
+      "Osnovna_sola_s_prilagojenim_programom": 0.8440999999999996,
       "Glasbena_sola": 0.25999999999999995,
-      "Srednja_sola": 0.9730000000000009,
+      "Srednja_sola": 0.9838000000000009,
       "Dijaski_dom": 0.08,
       "Zavodi": 0.4000000000000001
     },
     "uradni_podatki_SLO": [
       "22.11.2021",
-      3397,
-      44854,
+      3399,
+      44857,
       5008,
       33447,
       1162
@@ -102608,16 +102608,16 @@
     "day": "23",
     "ucenci_okuzbe_nove": {
       "Vrtec": 10,
-      "Osnovna_sola": 136,
+      "Osnovna_sola": 140,
       "Osnovna_sola_s_prilagojenim_programom": 5,
-      "Glasbena_sola": 5,
+      "Glasbena_sola": 6,
       "Srednja_sola": 23,
       "Dijaski_dom": 0,
       "Zavodi": 0
     },
     "zaposleni_okuzbe_nove": {
       "Vrtec": 20,
-      "Osnovna_sola": 22,
+      "Osnovna_sola": 24,
       "Osnovna_sola_s_prilagojenim_programom": 1,
       "Glasbena_sola": 0,
       "Srednja_sola": 10,
@@ -102625,7 +102625,7 @@
       "Zavodi": 0
     },
     "oddelki_v_karanteni_novi": {
-      "Vrtec": 11,
+      "Vrtec": 12,
       "Osnovna_sola": 109,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
@@ -102634,7 +102634,7 @@
       "Zavodi": 4
     },
     "ucenci_v_karanteni_novi": {
-      "Vrtec": 123,
+      "Vrtec": 141,
       "Osnovna_sola": 2288,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
@@ -102643,26 +102643,26 @@
       "Zavodi": 10
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 122,
-      "Osnovna_sola": 1492,
+      "Vrtec": 125,
+      "Osnovna_sola": 1506,
       "Osnovna_sola_s_prilagojenim_programom": 25,
-      "Glasbena_sola": 73,
-      "Srednja_sola": 257,
+      "Glasbena_sola": 76,
+      "Srednja_sola": 256,
       "Dijaski_dom": 4,
       "Zavodi": 8
     },
     "zaposleni_okuzbe_aktivne": {
-      "Vrtec": 245,
-      "Osnovna_sola": 495,
-      "Osnovna_sola_s_prilagojenim_programom": 20,
+      "Vrtec": 246,
+      "Osnovna_sola": 499,
+      "Osnovna_sola_s_prilagojenim_programom": 21,
       "Glasbena_sola": 12,
-      "Srednja_sola": 92,
+      "Srednja_sola": 93,
       "Dijaski_dom": 4,
       "Zavodi": 20
     },
     "oddelki_v_karanteni_aktivne": {
-      "Vrtec": 170,
-      "Osnovna_sola": 1058,
+      "Vrtec": 171,
+      "Osnovna_sola": 1059,
       "Osnovna_sola_s_prilagojenim_programom": 25,
       "Glasbena_sola": 1,
       "Srednja_sola": 186,
@@ -102670,8 +102670,8 @@
       "Zavodi": 11
     },
     "ucenci_v_karanteni_aktivne": {
-      "Vrtec": 2551,
-      "Osnovna_sola": 21948,
+      "Vrtec": 2569,
+      "Osnovna_sola": 21969,
       "Osnovna_sola_s_prilagojenim_programom": 167,
       "Glasbena_sola": 7,
       "Srednja_sola": 4501,
@@ -102698,7 +102698,7 @@
     },
     "ucenci_okuzbe_nove_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 46,
+      "Osnovna_sola": 50,
       "Osnovna_sola_s_prilagojenim_programom": 1,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102734,7 +102734,7 @@
     },
     "ucenci_okuzbe_aktivne_t1": {
       "Vrtec": 0,
-      "Osnovna_sola": 441,
+      "Osnovna_sola": 442,
       "Osnovna_sola_s_prilagojenim_programom": 7,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102743,7 +102743,7 @@
     },
     "ucenci_okuzbe_aktivne_t2": {
       "Vrtec": 0,
-      "Osnovna_sola": 572,
+      "Osnovna_sola": 577,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102752,7 +102752,7 @@
     },
     "ucenci_okuzbe_aktivne_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 479,
+      "Osnovna_sola": 487,
       "Osnovna_sola_s_prilagojenim_programom": 9,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102761,7 +102761,7 @@
     },
     "oddelki_v_karanteni_aktivne_t1": {
       "Vrtec": 0,
-      "Osnovna_sola": 313,
+      "Osnovna_sola": 314,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 0,
       "Srednja_sola": 2,
@@ -102787,8 +102787,8 @@
       "Zavodi": 2
     },
     "zavodi_pouk_na_daljavo": {
-      "Vrtec": 88,
-      "Osnovna_sola": 297,
+      "Vrtec": 89,
+      "Osnovna_sola": 298,
       "Osnovna_sola_s_prilagojenim_programom": 16,
       "Glasbena_sola": 3,
       "Srednja_sola": 64,
@@ -102799,33 +102799,33 @@
       "Vrtec": 387,
       "Osnovna_sola": 1078,
       "Osnovna_sola_s_prilagojenim_programom": 63,
-      "Glasbena_sola": 433,
+      "Glasbena_sola": 439,
       "Srednja_sola": 66,
       "Dijaski_dom": 63,
       "Zavodi": 14
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.14640000000000045,
-      "Osnovna_sola": 0.7459999999999732,
+      "Vrtec": 0.15000000000000047,
+      "Osnovna_sola": 0.7529999999999725,
       "Osnovna_sola_s_prilagojenim_programom": 0.6250000000000002,
-      "Glasbena_sola": 1.4600000000000009,
-      "Srednja_sola": 7.0852999999999735,
+      "Glasbena_sola": 1.520000000000001,
+      "Srednja_sola": 7.056199999999974,
       "Dijaski_dom": 0.08,
       "Zavodi": 0.6631999999999999
     },
     "zaposleni_okuzbe_aktivne_delez": {
-      "Vrtec": 1.7395000000000105,
-      "Osnovna_sola": 2.0294999999999983,
-      "Osnovna_sola_s_prilagojenim_programom": 0.7339999999999998,
+      "Vrtec": 1.7466000000000106,
+      "Osnovna_sola": 2.045899999999999,
+      "Osnovna_sola_s_prilagojenim_programom": 0.7706999999999997,
       "Glasbena_sola": 0.23999999999999996,
-      "Srednja_sola": 0.9838000000000009,
+      "Srednja_sola": 0.9946000000000009,
       "Dijaski_dom": 0.08,
       "Zavodi": 0.4000000000000001
     },
     "uradni_podatki_SLO": [
       "23.11.2021",
       3143,
-      43514,
+      43517,
       5090,
       34004,
       1153
@@ -102836,10 +102836,10 @@
     "month": "11",
     "day": "24",
     "ucenci_okuzbe_nove": {
-      "Vrtec": 11,
-      "Osnovna_sola": 139,
+      "Vrtec": 13,
+      "Osnovna_sola": 144,
       "Osnovna_sola_s_prilagojenim_programom": 3,
-      "Glasbena_sola": 3,
+      "Glasbena_sola": 4,
       "Srednja_sola": 24,
       "Dijaski_dom": 3,
       "Zavodi": 0
@@ -102855,61 +102855,61 @@
     },
     "oddelki_v_karanteni_novi": {
       "Vrtec": 17,
-      "Osnovna_sola": 85,
+      "Osnovna_sola": 86,
       "Osnovna_sola_s_prilagojenim_programom": 2,
       "Glasbena_sola": 0,
-      "Srednja_sola": 18,
+      "Srednja_sola": 19,
       "Dijaski_dom": 0,
       "Zavodi": 3
     },
     "ucenci_v_karanteni_novi": {
       "Vrtec": 298,
-      "Osnovna_sola": 1694,
+      "Osnovna_sola": 1714,
       "Osnovna_sola_s_prilagojenim_programom": 14,
       "Glasbena_sola": 0,
-      "Srednja_sola": 472,
+      "Srednja_sola": 498,
       "Dijaski_dom": 0,
       "Zavodi": 6
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 125,
-      "Osnovna_sola": 1567,
+      "Vrtec": 130,
+      "Osnovna_sola": 1586,
       "Osnovna_sola_s_prilagojenim_programom": 27,
-      "Glasbena_sola": 70,
-      "Srednja_sola": 267,
+      "Glasbena_sola": 74,
+      "Srednja_sola": 266,
       "Dijaski_dom": 7,
       "Zavodi": 8
     },
     "zaposleni_okuzbe_aktivne": {
-      "Vrtec": 251,
-      "Osnovna_sola": 505,
-      "Osnovna_sola_s_prilagojenim_programom": 21,
+      "Vrtec": 252,
+      "Osnovna_sola": 509,
+      "Osnovna_sola_s_prilagojenim_programom": 22,
       "Glasbena_sola": 13,
-      "Srednja_sola": 90,
+      "Srednja_sola": 91,
       "Dijaski_dom": 4,
       "Zavodi": 17
     },
     "oddelki_v_karanteni_aktivne": {
-      "Vrtec": 187,
-      "Osnovna_sola": 1136,
+      "Vrtec": 188,
+      "Osnovna_sola": 1138,
       "Osnovna_sola_s_prilagojenim_programom": 27,
       "Glasbena_sola": 1,
-      "Srednja_sola": 203,
+      "Srednja_sola": 204,
       "Dijaski_dom": 0,
       "Zavodi": 14
     },
     "ucenci_v_karanteni_aktivne": {
-      "Vrtec": 2849,
-      "Osnovna_sola": 23483,
+      "Vrtec": 2867,
+      "Osnovna_sola": 23524,
       "Osnovna_sola_s_prilagojenim_programom": 181,
       "Glasbena_sola": 7,
-      "Srednja_sola": 4946,
+      "Srednja_sola": 4972,
       "Dijaski_dom": 0,
       "Zavodi": 62
     },
     "ucenci_okuzbe_nove_t1": {
       "Vrtec": 0,
-      "Osnovna_sola": 42,
+      "Osnovna_sola": 43,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102918,7 +102918,7 @@
     },
     "ucenci_okuzbe_nove_t2": {
       "Vrtec": 0,
-      "Osnovna_sola": 65,
+      "Osnovna_sola": 67,
       "Osnovna_sola_s_prilagojenim_programom": 1,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102927,7 +102927,7 @@
     },
     "ucenci_okuzbe_nove_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 32,
+      "Osnovna_sola": 34,
       "Osnovna_sola_s_prilagojenim_programom": 1,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102954,7 +102954,7 @@
     },
     "oddelki_v_karanteni_novi_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 26,
+      "Osnovna_sola": 27,
       "Osnovna_sola_s_prilagojenim_programom": 2,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102963,7 +102963,7 @@
     },
     "ucenci_okuzbe_aktivne_t1": {
       "Vrtec": 0,
-      "Osnovna_sola": 467,
+      "Osnovna_sola": 469,
       "Osnovna_sola_s_prilagojenim_programom": 7,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102972,7 +102972,7 @@
     },
     "ucenci_okuzbe_aktivne_t2": {
       "Vrtec": 0,
-      "Osnovna_sola": 611,
+      "Osnovna_sola": 618,
       "Osnovna_sola_s_prilagojenim_programom": 4,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102981,7 +102981,7 @@
     },
     "ucenci_okuzbe_aktivne_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 489,
+      "Osnovna_sola": 499,
       "Osnovna_sola_s_prilagojenim_programom": 9,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -102990,7 +102990,7 @@
     },
     "oddelki_v_karanteni_aktivne_t1": {
       "Vrtec": 0,
-      "Osnovna_sola": 336,
+      "Osnovna_sola": 337,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 0,
       "Srednja_sola": 2,
@@ -103008,7 +103008,7 @@
     },
     "oddelki_v_karanteni_aktivne_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 377,
+      "Osnovna_sola": 378,
       "Osnovna_sola_s_prilagojenim_programom": 11,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103016,8 +103016,8 @@
       "Zavodi": 2
     },
     "zavodi_pouk_na_daljavo": {
-      "Vrtec": 93,
-      "Osnovna_sola": 307,
+      "Vrtec": 94,
+      "Osnovna_sola": 308,
       "Osnovna_sola_s_prilagojenim_programom": 17,
       "Glasbena_sola": 3,
       "Srednja_sola": 66,
@@ -103025,36 +103025,36 @@
       "Zavodi": 4
     },
     "sum_karantena_ucenci_aktivni": {
-      "Vrtec": 377,
-      "Osnovna_sola": 1126,
+      "Vrtec": 376,
+      "Osnovna_sola": 1133,
       "Osnovna_sola_s_prilagojenim_programom": 63,
-      "Glasbena_sola": 458,
+      "Glasbena_sola": 476,
       "Srednja_sola": 68,
       "Dijaski_dom": 78,
       "Zavodi": 17
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.15000000000000047,
-      "Osnovna_sola": 0.7834999999999691,
+      "Vrtec": 0.1560000000000005,
+      "Osnovna_sola": 0.7929999999999681,
       "Osnovna_sola_s_prilagojenim_programom": 0.6750000000000003,
-      "Glasbena_sola": 1.4000000000000008,
-      "Srednja_sola": 7.432499999999969,
+      "Glasbena_sola": 1.4800000000000009,
+      "Srednja_sola": 7.403399999999969,
       "Dijaski_dom": 0.14,
       "Zavodi": 0.6631999999999999
     },
     "zaposleni_okuzbe_aktivne_delez": {
-      "Vrtec": 1.7821000000000111,
-      "Osnovna_sola": 2.0705000000000005,
-      "Osnovna_sola_s_prilagojenim_programom": 0.7706999999999997,
+      "Vrtec": 1.7892000000000112,
+      "Osnovna_sola": 2.0869000000000013,
+      "Osnovna_sola_s_prilagojenim_programom": 0.8073999999999997,
       "Glasbena_sola": 0.25999999999999995,
-      "Srednja_sola": 0.9622000000000008,
+      "Srednja_sola": 0.9730000000000009,
       "Dijaski_dom": 0.08,
       "Zavodi": 0.34
     },
     "uradni_podatki_SLO": [
       "24.11.2021",
       2670,
-      42611,
+      42614,
       5152,
       34549,
       1168
@@ -103065,11 +103065,11 @@
     "month": "11",
     "day": "25",
     "ucenci_okuzbe_nove": {
-      "Vrtec": 11,
-      "Osnovna_sola": 79,
+      "Vrtec": 12,
+      "Osnovna_sola": 85,
       "Osnovna_sola_s_prilagojenim_programom": 0,
-      "Glasbena_sola": 2,
-      "Srednja_sola": 24,
+      "Glasbena_sola": 3,
+      "Srednja_sola": 25,
       "Dijaski_dom": 2,
       "Zavodi": 0
     },
@@ -103101,44 +103101,44 @@
       "Zavodi": 6
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 124,
-      "Osnovna_sola": 1483,
+      "Vrtec": 129,
+      "Osnovna_sola": 1508,
       "Osnovna_sola_s_prilagojenim_programom": 25,
-      "Glasbena_sola": 63,
+      "Glasbena_sola": 68,
       "Srednja_sola": 261,
       "Dijaski_dom": 8,
       "Zavodi": 7
     },
     "zaposleni_okuzbe_aktivne": {
-      "Vrtec": 224,
-      "Osnovna_sola": 475,
-      "Osnovna_sola_s_prilagojenim_programom": 17,
+      "Vrtec": 225,
+      "Osnovna_sola": 479,
+      "Osnovna_sola_s_prilagojenim_programom": 18,
       "Glasbena_sola": 12,
-      "Srednja_sola": 87,
+      "Srednja_sola": 88,
       "Dijaski_dom": 4,
       "Zavodi": 14
     },
     "oddelki_v_karanteni_aktivne": {
-      "Vrtec": 177,
-      "Osnovna_sola": 1078,
+      "Vrtec": 178,
+      "Osnovna_sola": 1080,
       "Osnovna_sola_s_prilagojenim_programom": 26,
       "Glasbena_sola": 1,
-      "Srednja_sola": 199,
+      "Srednja_sola": 200,
       "Dijaski_dom": 0,
       "Zavodi": 15
     },
     "ucenci_v_karanteni_aktivne": {
-      "Vrtec": 2662,
-      "Osnovna_sola": 22086,
+      "Vrtec": 2680,
+      "Osnovna_sola": 22127,
       "Osnovna_sola_s_prilagojenim_programom": 174,
       "Glasbena_sola": 7,
-      "Srednja_sola": 4818,
+      "Srednja_sola": 4844,
       "Dijaski_dom": 0,
       "Zavodi": 64
     },
     "ucenci_okuzbe_nove_t1": {
       "Vrtec": 0,
-      "Osnovna_sola": 20,
+      "Osnovna_sola": 22,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103147,7 +103147,7 @@
     },
     "ucenci_okuzbe_nove_t2": {
       "Vrtec": 0,
-      "Osnovna_sola": 24,
+      "Osnovna_sola": 25,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103156,7 +103156,7 @@
     },
     "ucenci_okuzbe_nove_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 35,
+      "Osnovna_sola": 38,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103192,7 +103192,7 @@
     },
     "ucenci_okuzbe_aktivne_t1": {
       "Vrtec": 0,
-      "Osnovna_sola": 445,
+      "Osnovna_sola": 449,
       "Osnovna_sola_s_prilagojenim_programom": 6,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103201,7 +103201,7 @@
     },
     "ucenci_okuzbe_aktivne_t2": {
       "Vrtec": 0,
-      "Osnovna_sola": 566,
+      "Osnovna_sola": 574,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103210,7 +103210,7 @@
     },
     "ucenci_okuzbe_aktivne_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 472,
+      "Osnovna_sola": 485,
       "Osnovna_sola_s_prilagojenim_programom": 9,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103219,7 +103219,7 @@
     },
     "oddelki_v_karanteni_aktivne_t1": {
       "Vrtec": 1,
-      "Osnovna_sola": 327,
+      "Osnovna_sola": 328,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 0,
       "Srednja_sola": 2,
@@ -103237,7 +103237,7 @@
     },
     "oddelki_v_karanteni_aktivne_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 351,
+      "Osnovna_sola": 352,
       "Osnovna_sola_s_prilagojenim_programom": 11,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103245,8 +103245,8 @@
       "Zavodi": 2
     },
     "zavodi_pouk_na_daljavo": {
-      "Vrtec": 94,
-      "Osnovna_sola": 312,
+      "Vrtec": 95,
+      "Osnovna_sola": 313,
       "Osnovna_sola_s_prilagojenim_programom": 17,
       "Glasbena_sola": 3,
       "Srednja_sola": 68,
@@ -103254,36 +103254,36 @@
       "Zavodi": 4
     },
     "sum_karantena_ucenci_aktivni": {
-      "Vrtec": 362,
-      "Osnovna_sola": 1051,
+      "Vrtec": 364,
+      "Osnovna_sola": 1057,
       "Osnovna_sola_s_prilagojenim_programom": 61,
-      "Glasbena_sola": 447,
+      "Glasbena_sola": 466,
       "Srednja_sola": 65,
       "Dijaski_dom": 92,
       "Zavodi": 20
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.14880000000000046,
-      "Osnovna_sola": 0.7414999999999737,
+      "Vrtec": 0.1548000000000005,
+      "Osnovna_sola": 0.7539999999999724,
       "Osnovna_sola_s_prilagojenim_programom": 0.6250000000000002,
-      "Glasbena_sola": 1.2600000000000007,
+      "Glasbena_sola": 1.3600000000000008,
       "Srednja_sola": 7.28599999999997,
       "Dijaski_dom": 0.16,
       "Zavodi": 0.5802999999999999
     },
     "zaposleni_okuzbe_aktivne_delez": {
-      "Vrtec": 1.5904000000000083,
-      "Osnovna_sola": 1.947499999999997,
-      "Osnovna_sola_s_prilagojenim_programom": 0.6238999999999999,
+      "Vrtec": 1.5975000000000084,
+      "Osnovna_sola": 1.9638999999999969,
+      "Osnovna_sola_s_prilagojenim_programom": 0.6605999999999999,
       "Glasbena_sola": 0.23999999999999996,
-      "Srednja_sola": 0.9298000000000007,
+      "Srednja_sola": 0.9406000000000008,
       "Dijaski_dom": 0.08,
       "Zavodi": 0.27999999999999997
     },
     "uradni_podatki_SLO": [
       "25.11.2021",
       2365,
-      41540,
+      41543,
       5219,
       34967,
       1145
@@ -103295,25 +103295,25 @@
     "day": "26",
     "ucenci_okuzbe_nove": {
       "Vrtec": 6,
-      "Osnovna_sola": 97,
+      "Osnovna_sola": 113,
       "Osnovna_sola_s_prilagojenim_programom": 0,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 19,
+      "Glasbena_sola": 1,
+      "Srednja_sola": 24,
       "Dijaski_dom": 0,
       "Zavodi": 0
     },
     "zaposleni_okuzbe_nove": {
-      "Vrtec": 11,
-      "Osnovna_sola": 25,
+      "Vrtec": 15,
+      "Osnovna_sola": 26,
       "Osnovna_sola_s_prilagojenim_programom": 1,
       "Glasbena_sola": 2,
-      "Srednja_sola": 2,
+      "Srednja_sola": 4,
       "Dijaski_dom": 0,
       "Zavodi": 0
     },
     "oddelki_v_karanteni_novi": {
-      "Vrtec": 23,
-      "Osnovna_sola": 87,
+      "Vrtec": 26,
+      "Osnovna_sola": 99,
       "Osnovna_sola_s_prilagojenim_programom": 5,
       "Glasbena_sola": 0,
       "Srednja_sola": 14,
@@ -103321,8 +103321,8 @@
       "Zavodi": 2
     },
     "ucenci_v_karanteni_novi": {
-      "Vrtec": 340,
-      "Osnovna_sola": 1763,
+      "Vrtec": 373,
+      "Osnovna_sola": 2001,
       "Osnovna_sola_s_prilagojenim_programom": 20,
       "Glasbena_sola": 0,
       "Srednja_sola": 309,
@@ -103330,44 +103330,44 @@
       "Zavodi": 8
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 110,
-      "Osnovna_sola": 1391,
+      "Vrtec": 114,
+      "Osnovna_sola": 1432,
       "Osnovna_sola_s_prilagojenim_programom": 24,
-      "Glasbena_sola": 54,
-      "Srednja_sola": 245,
+      "Glasbena_sola": 60,
+      "Srednja_sola": 250,
       "Dijaski_dom": 8,
       "Zavodi": 5
     },
     "zaposleni_okuzbe_aktivne": {
-      "Vrtec": 214,
-      "Osnovna_sola": 432,
-      "Osnovna_sola_s_prilagojenim_programom": 15,
+      "Vrtec": 219,
+      "Osnovna_sola": 437,
+      "Osnovna_sola_s_prilagojenim_programom": 16,
       "Glasbena_sola": 12,
-      "Srednja_sola": 82,
+      "Srednja_sola": 85,
       "Dijaski_dom": 4,
       "Zavodi": 9
     },
     "oddelki_v_karanteni_aktivne": {
-      "Vrtec": 174,
-      "Osnovna_sola": 962,
+      "Vrtec": 178,
+      "Osnovna_sola": 976,
       "Osnovna_sola_s_prilagojenim_programom": 27,
       "Glasbena_sola": 1,
-      "Srednja_sola": 186,
+      "Srednja_sola": 187,
       "Dijaski_dom": 0,
       "Zavodi": 15
     },
     "ucenci_v_karanteni_aktivne": {
-      "Vrtec": 2612,
-      "Osnovna_sola": 19778,
+      "Vrtec": 2663,
+      "Osnovna_sola": 20057,
       "Osnovna_sola_s_prilagojenim_programom": 156,
       "Glasbena_sola": 7,
-      "Srednja_sola": 4444,
+      "Srednja_sola": 4470,
       "Dijaski_dom": 0,
       "Zavodi": 59
     },
     "ucenci_okuzbe_nove_t1": {
       "Vrtec": 0,
-      "Osnovna_sola": 31,
+      "Osnovna_sola": 37,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103376,7 +103376,7 @@
     },
     "ucenci_okuzbe_nove_t2": {
       "Vrtec": 0,
-      "Osnovna_sola": 28,
+      "Osnovna_sola": 29,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103385,7 +103385,7 @@
     },
     "ucenci_okuzbe_nove_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 38,
+      "Osnovna_sola": 47,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103394,7 +103394,7 @@
     },
     "oddelki_v_karanteni_novi_t1": {
       "Vrtec": 0,
-      "Osnovna_sola": 32,
+      "Osnovna_sola": 36,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103403,7 +103403,7 @@
     },
     "oddelki_v_karanteni_novi_t2": {
       "Vrtec": 0,
-      "Osnovna_sola": 22,
+      "Osnovna_sola": 25,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103412,7 +103412,7 @@
     },
     "oddelki_v_karanteni_novi_t3": {
       "Vrtec": 1,
-      "Osnovna_sola": 32,
+      "Osnovna_sola": 37,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103421,7 +103421,7 @@
     },
     "ucenci_okuzbe_aktivne_t1": {
       "Vrtec": 0,
-      "Osnovna_sola": 409,
+      "Osnovna_sola": 419,
       "Osnovna_sola_s_prilagojenim_programom": 6,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103430,7 +103430,7 @@
     },
     "ucenci_okuzbe_aktivne_t2": {
       "Vrtec": 0,
-      "Osnovna_sola": 529,
+      "Osnovna_sola": 538,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103439,7 +103439,7 @@
     },
     "ucenci_okuzbe_aktivne_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 453,
+      "Osnovna_sola": 475,
       "Osnovna_sola_s_prilagojenim_programom": 9,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103448,7 +103448,7 @@
     },
     "oddelki_v_karanteni_aktivne_t1": {
       "Vrtec": 1,
-      "Osnovna_sola": 292,
+      "Osnovna_sola": 297,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 0,
       "Srednja_sola": 2,
@@ -103457,7 +103457,7 @@
     },
     "oddelki_v_karanteni_aktivne_t2": {
       "Vrtec": 0,
-      "Osnovna_sola": 356,
+      "Osnovna_sola": 359,
       "Osnovna_sola_s_prilagojenim_programom": 4,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103466,7 +103466,7 @@
     },
     "oddelki_v_karanteni_aktivne_t3": {
       "Vrtec": 1,
-      "Osnovna_sola": 312,
+      "Osnovna_sola": 318,
       "Osnovna_sola_s_prilagojenim_programom": 11,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103474,8 +103474,8 @@
       "Zavodi": 2
     },
     "zavodi_pouk_na_daljavo": {
-      "Vrtec": 94,
-      "Osnovna_sola": 302,
+      "Vrtec": 96,
+      "Osnovna_sola": 305,
       "Osnovna_sola_s_prilagojenim_programom": 15,
       "Glasbena_sola": 3,
       "Srednja_sola": 65,
@@ -103483,36 +103483,36 @@
       "Zavodi": 4
     },
     "sum_karantena_ucenci_aktivni": {
-      "Vrtec": 306,
-      "Osnovna_sola": 951,
-      "Osnovna_sola_s_prilagojenim_programom": 58,
-      "Glasbena_sola": 414,
+      "Vrtec": 310,
+      "Osnovna_sola": 958,
+      "Osnovna_sola_s_prilagojenim_programom": 57,
+      "Glasbena_sola": 442,
       "Srednja_sola": 70,
       "Dijaski_dom": 85,
       "Zavodi": 19
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.13200000000000037,
-      "Osnovna_sola": 0.6954999999999788,
+      "Vrtec": 0.1368000000000004,
+      "Osnovna_sola": 0.7159999999999765,
       "Osnovna_sola_s_prilagojenim_programom": 0.6000000000000002,
-      "Glasbena_sola": 1.0800000000000005,
-      "Srednja_sola": 6.904699999999974,
+      "Glasbena_sola": 1.2000000000000006,
+      "Srednja_sola": 7.050199999999973,
       "Dijaski_dom": 0.16,
       "Zavodi": 0.4145
     },
     "zaposleni_okuzbe_aktivne_delez": {
-      "Vrtec": 1.5194000000000072,
-      "Osnovna_sola": 1.7711999999999972,
-      "Osnovna_sola_s_prilagojenim_programom": 0.5505,
+      "Vrtec": 1.5549000000000077,
+      "Osnovna_sola": 1.7916999999999972,
+      "Osnovna_sola_s_prilagojenim_programom": 0.5871999999999999,
       "Glasbena_sola": 0.23999999999999996,
-      "Srednja_sola": 0.8758000000000006,
+      "Srednja_sola": 0.9082000000000007,
       "Dijaski_dom": 0.08,
       "Zavodi": 0.18
     },
     "uradni_podatki_SLO": [
       "26.11.2021",
-      2224,
-      40097,
+      2226,
+      40102,
       5296,
       35394,
       1137
@@ -103524,19 +103524,19 @@
     "day": "27",
     "ucenci_okuzbe_nove": {
       "Vrtec": 5,
-      "Osnovna_sola": 49,
+      "Osnovna_sola": 52,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 1,
-      "Srednja_sola": 12,
+      "Srednja_sola": 13,
       "Dijaski_dom": 0,
       "Zavodi": 1
     },
     "zaposleni_okuzbe_nove": {
-      "Vrtec": 9,
-      "Osnovna_sola": 6,
-      "Osnovna_sola_s_prilagojenim_programom": 2,
+      "Vrtec": 11,
+      "Osnovna_sola": 7,
+      "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 0,
-      "Srednja_sola": 3,
+      "Srednja_sola": 4,
       "Dijaski_dom": 1,
       "Zavodi": 1
     },
@@ -103559,44 +103559,44 @@
       "Zavodi": 0
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 107,
-      "Osnovna_sola": 1215,
+      "Vrtec": 111,
+      "Osnovna_sola": 1259,
       "Osnovna_sola_s_prilagojenim_programom": 21,
-      "Glasbena_sola": 43,
-      "Srednja_sola": 226,
+      "Glasbena_sola": 49,
+      "Srednja_sola": 232,
       "Dijaski_dom": 6,
       "Zavodi": 6
     },
     "zaposleni_okuzbe_aktivne": {
-      "Vrtec": 195,
-      "Osnovna_sola": 364,
-      "Osnovna_sola_s_prilagojenim_programom": 15,
+      "Vrtec": 202,
+      "Osnovna_sola": 370,
+      "Osnovna_sola_s_prilagojenim_programom": 17,
       "Glasbena_sola": 9,
-      "Srednja_sola": 70,
+      "Srednja_sola": 74,
       "Dijaski_dom": 4,
       "Zavodi": 10
     },
     "oddelki_v_karanteni_aktivne": {
-      "Vrtec": 149,
-      "Osnovna_sola": 714,
+      "Vrtec": 153,
+      "Osnovna_sola": 727,
       "Osnovna_sola_s_prilagojenim_programom": 17,
       "Glasbena_sola": 1,
-      "Srednja_sola": 143,
+      "Srednja_sola": 144,
       "Dijaski_dom": 0,
       "Zavodi": 15
     },
     "ucenci_v_karanteni_aktivne": {
-      "Vrtec": 2231,
-      "Osnovna_sola": 14574,
+      "Vrtec": 2282,
+      "Osnovna_sola": 14832,
       "Osnovna_sola_s_prilagojenim_programom": 91,
       "Glasbena_sola": 7,
-      "Srednja_sola": 3459,
+      "Srednja_sola": 3485,
       "Dijaski_dom": 0,
       "Zavodi": 59
     },
     "ucenci_okuzbe_nove_t1": {
       "Vrtec": 0,
-      "Osnovna_sola": 10,
+      "Osnovna_sola": 12,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103605,7 +103605,7 @@
     },
     "ucenci_okuzbe_nove_t2": {
       "Vrtec": 0,
-      "Osnovna_sola": 19,
+      "Osnovna_sola": 21,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103614,7 +103614,7 @@
     },
     "ucenci_okuzbe_nove_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 20,
+      "Osnovna_sola": 19,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103650,7 +103650,7 @@
     },
     "ucenci_okuzbe_aktivne_t1": {
       "Vrtec": 0,
-      "Osnovna_sola": 355,
+      "Osnovna_sola": 367,
       "Osnovna_sola_s_prilagojenim_programom": 6,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103659,8 +103659,466 @@
     },
     "ucenci_okuzbe_aktivne_t2": {
       "Vrtec": 0,
-      "Osnovna_sola": 455,
+      "Osnovna_sola": 466,
       "Osnovna_sola_s_prilagojenim_programom": 3,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_aktivne_t3": {
+      "Vrtec": 0,
+      "Osnovna_sola": 426,
+      "Osnovna_sola_s_prilagojenim_programom": 8,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 1
+    },
+    "oddelki_v_karanteni_aktivne_t1": {
+      "Vrtec": 1,
+      "Osnovna_sola": 221,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 2,
+      "Dijaski_dom": 0,
+      "Zavodi": 6
+    },
+    "oddelki_v_karanteni_aktivne_t2": {
+      "Vrtec": 0,
+      "Osnovna_sola": 261,
+      "Osnovna_sola_s_prilagojenim_programom": 3,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 1
+    },
+    "oddelki_v_karanteni_aktivne_t3": {
+      "Vrtec": 1,
+      "Osnovna_sola": 243,
+      "Osnovna_sola_s_prilagojenim_programom": 7,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 2
+    },
+    "zavodi_pouk_na_daljavo": {
+      "Vrtec": 87,
+      "Osnovna_sola": 270,
+      "Osnovna_sola_s_prilagojenim_programom": 10,
+      "Glasbena_sola": 3,
+      "Srednja_sola": 60,
+      "Dijaski_dom": 0,
+      "Zavodi": 4
+    },
+    "sum_karantena_ucenci_aktivni": {
+      "Vrtec": 263,
+      "Osnovna_sola": 798,
+      "Osnovna_sola_s_prilagojenim_programom": 28,
+      "Glasbena_sola": 343,
+      "Srednja_sola": 67,
+      "Dijaski_dom": 82,
+      "Zavodi": 19
+    },
+    "ucenci_okuzbe_aktivne_delez": {
+      "Vrtec": 0.13320000000000037,
+      "Osnovna_sola": 0.6294999999999861,
+      "Osnovna_sola_s_prilagojenim_programom": 0.5250000000000001,
+      "Glasbena_sola": 0.9800000000000005,
+      "Srednja_sola": 6.554499999999977,
+      "Dijaski_dom": 0.12000000000000001,
+      "Zavodi": 0.49739999999999995
+    },
+    "zaposleni_okuzbe_aktivne_delez": {
+      "Vrtec": 1.434200000000006,
+      "Osnovna_sola": 1.5169999999999977,
+      "Osnovna_sola_s_prilagojenim_programom": 0.6238999999999999,
+      "Glasbena_sola": 0.18,
+      "Srednja_sola": 0.7796000000000003,
+      "Dijaski_dom": 0.08,
+      "Zavodi": 0.19999999999999998
+    },
+    "uradni_podatki_SLO": [
+      "27.11.2021",
+      1480,
+      39214,
+      5330,
+      35655,
+      1120
+    ]
+  },
+  {
+    "year": "2021",
+    "month": "11",
+    "day": "28",
+    "ucenci_okuzbe_nove": {
+      "Vrtec": 1,
+      "Osnovna_sola": 38,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 1,
+      "Srednja_sola": 14,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "zaposleni_okuzbe_nove": {
+      "Vrtec": 9,
+      "Osnovna_sola": 15,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 1,
+      "Srednja_sola": 1,
+      "Dijaski_dom": 0,
+      "Zavodi": 1
+    },
+    "oddelki_v_karanteni_novi": {
+      "Vrtec": 0,
+      "Osnovna_sola": 10,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_v_karanteni_novi": {
+      "Vrtec": 0,
+      "Osnovna_sola": 218,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_aktivne": {
+      "Vrtec": 100,
+      "Osnovna_sola": 1153,
+      "Osnovna_sola_s_prilagojenim_programom": 15,
+      "Glasbena_sola": 44,
+      "Srednja_sola": 226,
+      "Dijaski_dom": 6,
+      "Zavodi": 6
+    },
+    "zaposleni_okuzbe_aktivne": {
+      "Vrtec": 192,
+      "Osnovna_sola": 341,
+      "Osnovna_sola_s_prilagojenim_programom": 14,
+      "Glasbena_sola": 10,
+      "Srednja_sola": 66,
+      "Dijaski_dom": 3,
+      "Zavodi": 11
+    },
+    "oddelki_v_karanteni_aktivne": {
+      "Vrtec": 138,
+      "Osnovna_sola": 622,
+      "Osnovna_sola_s_prilagojenim_programom": 15,
+      "Glasbena_sola": 1,
+      "Srednja_sola": 123,
+      "Dijaski_dom": 0,
+      "Zavodi": 15
+    },
+    "ucenci_v_karanteni_aktivne": {
+      "Vrtec": 2012,
+      "Osnovna_sola": 12796,
+      "Osnovna_sola_s_prilagojenim_programom": 72,
+      "Glasbena_sola": 7,
+      "Srednja_sola": 2956,
+      "Dijaski_dom": 0,
+      "Zavodi": 59
+    },
+    "ucenci_okuzbe_nove_t1": {
+      "Vrtec": 0,
+      "Osnovna_sola": 11,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_nove_t2": {
+      "Vrtec": 0,
+      "Osnovna_sola": 18,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_nove_t3": {
+      "Vrtec": 0,
+      "Osnovna_sola": 9,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "oddelki_v_karanteni_novi_t1": {
+      "Vrtec": 0,
+      "Osnovna_sola": 5,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "oddelki_v_karanteni_novi_t2": {
+      "Vrtec": 0,
+      "Osnovna_sola": 2,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "oddelki_v_karanteni_novi_t3": {
+      "Vrtec": 0,
+      "Osnovna_sola": 3,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_aktivne_t1": {
+      "Vrtec": 0,
+      "Osnovna_sola": 325,
+      "Osnovna_sola_s_prilagojenim_programom": 4,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 1
+    },
+    "ucenci_okuzbe_aktivne_t2": {
+      "Vrtec": 0,
+      "Osnovna_sola": 436,
+      "Osnovna_sola_s_prilagojenim_programom": 3,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_aktivne_t3": {
+      "Vrtec": 0,
+      "Osnovna_sola": 392,
+      "Osnovna_sola_s_prilagojenim_programom": 4,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 1
+    },
+    "oddelki_v_karanteni_aktivne_t1": {
+      "Vrtec": 1,
+      "Osnovna_sola": 194,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 2,
+      "Dijaski_dom": 0,
+      "Zavodi": 6
+    },
+    "oddelki_v_karanteni_aktivne_t2": {
+      "Vrtec": 0,
+      "Osnovna_sola": 222,
+      "Osnovna_sola_s_prilagojenim_programom": 3,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 1
+    },
+    "oddelki_v_karanteni_aktivne_t3": {
+      "Vrtec": 1,
+      "Osnovna_sola": 205,
+      "Osnovna_sola_s_prilagojenim_programom": 5,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 2
+    },
+    "zavodi_pouk_na_daljavo": {
+      "Vrtec": 80,
+      "Osnovna_sola": 256,
+      "Osnovna_sola_s_prilagojenim_programom": 8,
+      "Glasbena_sola": 3,
+      "Srednja_sola": 56,
+      "Dijaski_dom": 0,
+      "Zavodi": 4
+    },
+    "sum_karantena_ucenci_aktivni": {
+      "Vrtec": 200,
+      "Osnovna_sola": 691,
+      "Osnovna_sola_s_prilagojenim_programom": 25,
+      "Glasbena_sola": 293,
+      "Srednja_sola": 59,
+      "Dijaski_dom": 54,
+      "Zavodi": 18
+    },
+    "ucenci_okuzbe_aktivne_delez": {
+      "Vrtec": 0.1200000000000003,
+      "Osnovna_sola": 0.5764999999999919,
+      "Osnovna_sola_s_prilagojenim_programom": 0.37500000000000006,
+      "Glasbena_sola": 0.8800000000000004,
+      "Srednja_sola": 6.464199999999979,
+      "Dijaski_dom": 0.12000000000000001,
+      "Zavodi": 0.49739999999999995
+    },
+    "zaposleni_okuzbe_aktivne_delez": {
+      "Vrtec": 1.3632000000000049,
+      "Osnovna_sola": 1.398099999999998,
+      "Osnovna_sola_s_prilagojenim_programom": 0.5138,
+      "Glasbena_sola": 0.19999999999999998,
+      "Srednja_sola": 0.6932,
+      "Dijaski_dom": 0.06,
+      "Zavodi": 0.21999999999999997
+    },
+    "uradni_podatki_SLO": [
+      "28.11.2021",
+      1035,
+      38430,
+      5356,
+      35829,
+      1140
+    ]
+  },
+  {
+    "year": "2021",
+    "month": "11",
+    "day": "29",
+    "ucenci_okuzbe_nove": {
+      "Vrtec": 10,
+      "Osnovna_sola": 158,
+      "Osnovna_sola_s_prilagojenim_programom": 8,
+      "Glasbena_sola": 4,
+      "Srednja_sola": 23,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "zaposleni_okuzbe_nove": {
+      "Vrtec": 8,
+      "Osnovna_sola": 37,
+      "Osnovna_sola_s_prilagojenim_programom": 3,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 8,
+      "Dijaski_dom": 0,
+      "Zavodi": 1
+    },
+    "oddelki_v_karanteni_novi": {
+      "Vrtec": 3,
+      "Osnovna_sola": 67,
+      "Osnovna_sola_s_prilagojenim_programom": 5,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 21,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_v_karanteni_novi": {
+      "Vrtec": 57,
+      "Osnovna_sola": 1402,
+      "Osnovna_sola_s_prilagojenim_programom": 33,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 517,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_aktivne": {
+      "Vrtec": 94,
+      "Osnovna_sola": 1156,
+      "Osnovna_sola_s_prilagojenim_programom": 23,
+      "Glasbena_sola": 36,
+      "Srednja_sola": 219,
+      "Dijaski_dom": 6,
+      "Zavodi": 4
+    },
+    "zaposleni_okuzbe_aktivne": {
+      "Vrtec": 177,
+      "Osnovna_sola": 317,
+      "Osnovna_sola_s_prilagojenim_programom": 16,
+      "Glasbena_sola": 8,
+      "Srednja_sola": 65,
+      "Dijaski_dom": 3,
+      "Zavodi": 7
+    },
+    "oddelki_v_karanteni_aktivne": {
+      "Vrtec": 107,
+      "Osnovna_sola": 546,
+      "Osnovna_sola_s_prilagojenim_programom": 17,
+      "Glasbena_sola": 1,
+      "Srednja_sola": 112,
+      "Dijaski_dom": 0,
+      "Zavodi": 15
+    },
+    "ucenci_v_karanteni_aktivne": {
+      "Vrtec": 1552,
+      "Osnovna_sola": 11196,
+      "Osnovna_sola_s_prilagojenim_programom": 85,
+      "Glasbena_sola": 7,
+      "Srednja_sola": 2702,
+      "Dijaski_dom": 0,
+      "Zavodi": 59
+    },
+    "ucenci_okuzbe_nove_t1": {
+      "Vrtec": 0,
+      "Osnovna_sola": 48,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_nove_t2": {
+      "Vrtec": 0,
+      "Osnovna_sola": 47,
+      "Osnovna_sola_s_prilagojenim_programom": 3,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_nove_t3": {
+      "Vrtec": 0,
+      "Osnovna_sola": 63,
+      "Osnovna_sola_s_prilagojenim_programom": 4,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "oddelki_v_karanteni_novi_t1": {
+      "Vrtec": 0,
+      "Osnovna_sola": 17,
+      "Osnovna_sola_s_prilagojenim_programom": 1,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "oddelki_v_karanteni_novi_t2": {
+      "Vrtec": 0,
+      "Osnovna_sola": 29,
+      "Osnovna_sola_s_prilagojenim_programom": 2,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "oddelki_v_karanteni_novi_t3": {
+      "Vrtec": 0,
+      "Osnovna_sola": 21,
+      "Osnovna_sola_s_prilagojenim_programom": 1,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_aktivne_t1": {
+      "Vrtec": 0,
+      "Osnovna_sola": 317,
+      "Osnovna_sola_s_prilagojenim_programom": 4,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 1
+    },
+    "ucenci_okuzbe_aktivne_t2": {
+      "Vrtec": 0,
+      "Osnovna_sola": 434,
+      "Osnovna_sola_s_prilagojenim_programom": 6,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
       "Dijaski_dom": 0,
@@ -103677,16 +104135,16 @@
     },
     "oddelki_v_karanteni_aktivne_t1": {
       "Vrtec": 1,
-      "Osnovna_sola": 217,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Osnovna_sola": 157,
+      "Osnovna_sola_s_prilagojenim_programom": 1,
       "Glasbena_sola": 0,
-      "Srednja_sola": 2,
+      "Srednja_sola": 0,
       "Dijaski_dom": 0,
       "Zavodi": 6
     },
     "oddelki_v_karanteni_aktivne_t2": {
       "Vrtec": 0,
-      "Osnovna_sola": 258,
+      "Osnovna_sola": 200,
       "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -103695,474 +104153,16 @@
     },
     "oddelki_v_karanteni_aktivne_t3": {
       "Vrtec": 1,
-      "Osnovna_sola": 237,
-      "Osnovna_sola_s_prilagojenim_programom": 7,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 2
-    },
-    "zavodi_pouk_na_daljavo": {
-      "Vrtec": 85,
-      "Osnovna_sola": 268,
-      "Osnovna_sola_s_prilagojenim_programom": 10,
-      "Glasbena_sola": 3,
-      "Srednja_sola": 60,
-      "Dijaski_dom": 0,
-      "Zavodi": 4
-    },
-    "sum_karantena_ucenci_aktivni": {
-      "Vrtec": 257,
-      "Osnovna_sola": 786,
-      "Osnovna_sola_s_prilagojenim_programom": 29,
-      "Glasbena_sola": 315,
-      "Srednja_sola": 66,
-      "Dijaski_dom": 82,
-      "Zavodi": 19
-    },
-    "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.12840000000000035,
-      "Osnovna_sola": 0.6074999999999885,
-      "Osnovna_sola_s_prilagojenim_programom": 0.5250000000000001,
-      "Glasbena_sola": 0.8600000000000004,
-      "Srednja_sola": 6.379899999999979,
-      "Dijaski_dom": 0.12000000000000001,
-      "Zavodi": 0.49739999999999995
-    },
-    "zaposleni_okuzbe_aktivne_delez": {
-      "Vrtec": 1.3845000000000052,
-      "Osnovna_sola": 1.4923999999999977,
-      "Osnovna_sola_s_prilagojenim_programom": 0.5505,
-      "Glasbena_sola": 0.18,
-      "Srednja_sola": 0.7364000000000002,
-      "Dijaski_dom": 0.08,
-      "Zavodi": 0.19999999999999998
-    },
-    "uradni_podatki_SLO": [
-      "27.11.2021",
-      1480,
-      39209,
-      5330,
-      35655,
-      1120
-    ]
-  },
-  {
-    "year": "2021",
-    "month": "11",
-    "day": "28",
-    "ucenci_okuzbe_nove": {
-      "Vrtec": 1,
-      "Osnovna_sola": 29,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 9,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "zaposleni_okuzbe_nove": {
-      "Vrtec": 9,
-      "Osnovna_sola": 11,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
-      "Glasbena_sola": 1,
-      "Srednja_sola": 1,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "oddelki_v_karanteni_novi": {
-      "Vrtec": 0,
-      "Osnovna_sola": 8,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "ucenci_v_karanteni_novi": {
-      "Vrtec": 0,
-      "Osnovna_sola": 166,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "ucenci_okuzbe_aktivne": {
-      "Vrtec": 96,
-      "Osnovna_sola": 1100,
-      "Osnovna_sola_s_prilagojenim_programom": 15,
-      "Glasbena_sola": 37,
-      "Srednja_sola": 215,
-      "Dijaski_dom": 6,
-      "Zavodi": 6
-    },
-    "zaposleni_okuzbe_aktivne": {
-      "Vrtec": 185,
-      "Osnovna_sola": 331,
-      "Osnovna_sola_s_prilagojenim_programom": 12,
-      "Glasbena_sola": 10,
-      "Srednja_sola": 62,
-      "Dijaski_dom": 3,
-      "Zavodi": 10
-    },
-    "oddelki_v_karanteni_aktivne": {
-      "Vrtec": 134,
-      "Osnovna_sola": 607,
-      "Osnovna_sola_s_prilagojenim_programom": 15,
-      "Glasbena_sola": 1,
-      "Srednja_sola": 122,
-      "Dijaski_dom": 0,
-      "Zavodi": 15
-    },
-    "ucenci_v_karanteni_aktivne": {
-      "Vrtec": 1961,
-      "Osnovna_sola": 12486,
-      "Osnovna_sola_s_prilagojenim_programom": 72,
-      "Glasbena_sola": 7,
-      "Srednja_sola": 2930,
-      "Dijaski_dom": 0,
-      "Zavodi": 59
-    },
-    "ucenci_okuzbe_nove_t1": {
-      "Vrtec": 0,
-      "Osnovna_sola": 8,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "ucenci_okuzbe_nove_t2": {
-      "Vrtec": 0,
-      "Osnovna_sola": 13,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "ucenci_okuzbe_nove_t3": {
-      "Vrtec": 0,
-      "Osnovna_sola": 8,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "oddelki_v_karanteni_novi_t1": {
-      "Vrtec": 0,
-      "Osnovna_sola": 4,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "oddelki_v_karanteni_novi_t2": {
-      "Vrtec": 0,
-      "Osnovna_sola": 1,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "oddelki_v_karanteni_novi_t3": {
-      "Vrtec": 0,
-      "Osnovna_sola": 3,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "ucenci_okuzbe_aktivne_t1": {
-      "Vrtec": 0,
-      "Osnovna_sola": 310,
-      "Osnovna_sola_s_prilagojenim_programom": 4,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 1
-    },
-    "ucenci_okuzbe_aktivne_t2": {
-      "Vrtec": 0,
-      "Osnovna_sola": 420,
-      "Osnovna_sola_s_prilagojenim_programom": 3,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "ucenci_okuzbe_aktivne_t3": {
-      "Vrtec": 0,
-      "Osnovna_sola": 370,
-      "Osnovna_sola_s_prilagojenim_programom": 4,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 1
-    },
-    "oddelki_v_karanteni_aktivne_t1": {
-      "Vrtec": 1,
-      "Osnovna_sola": 189,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 2,
-      "Dijaski_dom": 0,
-      "Zavodi": 6
-    },
-    "oddelki_v_karanteni_aktivne_t2": {
-      "Vrtec": 0,
-      "Osnovna_sola": 218,
-      "Osnovna_sola_s_prilagojenim_programom": 3,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 1
-    },
-    "oddelki_v_karanteni_aktivne_t3": {
-      "Vrtec": 1,
-      "Osnovna_sola": 199,
-      "Osnovna_sola_s_prilagojenim_programom": 5,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 2
-    },
-    "zavodi_pouk_na_daljavo": {
-      "Vrtec": 78,
-      "Osnovna_sola": 254,
-      "Osnovna_sola_s_prilagojenim_programom": 8,
-      "Glasbena_sola": 3,
-      "Srednja_sola": 56,
-      "Dijaski_dom": 0,
-      "Zavodi": 4
-    },
-    "sum_karantena_ucenci_aktivni": {
-      "Vrtec": 192,
-      "Osnovna_sola": 676,
-      "Osnovna_sola_s_prilagojenim_programom": 26,
-      "Glasbena_sola": 265,
-      "Srednja_sola": 58,
-      "Dijaski_dom": 54,
-      "Zavodi": 18
-    },
-    "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.11520000000000027,
-      "Osnovna_sola": 0.5499999999999948,
-      "Osnovna_sola_s_prilagojenim_programom": 0.37500000000000006,
-      "Glasbena_sola": 0.7400000000000003,
-      "Srednja_sola": 6.144099999999982,
-      "Dijaski_dom": 0.12000000000000001,
-      "Zavodi": 0.49739999999999995
-    },
-    "zaposleni_okuzbe_aktivne_delez": {
-      "Vrtec": 1.313500000000004,
-      "Osnovna_sola": 1.357099999999998,
-      "Osnovna_sola_s_prilagojenim_programom": 0.44040000000000007,
-      "Glasbena_sola": 0.19999999999999998,
-      "Srednja_sola": 0.6499999999999999,
-      "Dijaski_dom": 0.06,
-      "Zavodi": 0.19999999999999998
-    },
-    "uradni_podatki_SLO": [
-      "28.11.2021",
-      1034,
-      38424,
-      5356,
-      35829,
-      1140
-    ]
-  },
-  {
-    "year": "2021",
-    "month": "11",
-    "day": "29",
-    "ucenci_okuzbe_nove": {
-      "Vrtec": 3,
-      "Osnovna_sola": 115,
-      "Osnovna_sola_s_prilagojenim_programom": 2,
-      "Glasbena_sola": 2,
-      "Srednja_sola": 14,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "zaposleni_okuzbe_nove": {
-      "Vrtec": 5,
-      "Osnovna_sola": 26,
-      "Osnovna_sola_s_prilagojenim_programom": 1,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 5,
-      "Dijaski_dom": 0,
-      "Zavodi": 1
-    },
-    "oddelki_v_karanteni_novi": {
-      "Vrtec": 2,
-      "Osnovna_sola": 50,
-      "Osnovna_sola_s_prilagojenim_programom": 2,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 15,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "ucenci_v_karanteni_novi": {
-      "Vrtec": 37,
-      "Osnovna_sola": 1056,
-      "Osnovna_sola_s_prilagojenim_programom": 14,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 349,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "ucenci_okuzbe_aktivne": {
-      "Vrtec": 83,
-      "Osnovna_sola": 1060,
-      "Osnovna_sola_s_prilagojenim_programom": 17,
-      "Glasbena_sola": 27,
-      "Srednja_sola": 198,
-      "Dijaski_dom": 6,
-      "Zavodi": 4
-    },
-    "zaposleni_okuzbe_aktivne": {
-      "Vrtec": 167,
-      "Osnovna_sola": 295,
-      "Osnovna_sola_s_prilagojenim_programom": 12,
-      "Glasbena_sola": 8,
-      "Srednja_sola": 58,
-      "Dijaski_dom": 3,
-      "Zavodi": 6
-    },
-    "oddelki_v_karanteni_aktivne": {
-      "Vrtec": 102,
-      "Osnovna_sola": 514,
-      "Osnovna_sola_s_prilagojenim_programom": 14,
-      "Glasbena_sola": 1,
-      "Srednja_sola": 105,
-      "Dijaski_dom": 0,
-      "Zavodi": 15
-    },
-    "ucenci_v_karanteni_aktivne": {
-      "Vrtec": 1481,
-      "Osnovna_sola": 10540,
-      "Osnovna_sola_s_prilagojenim_programom": 66,
-      "Glasbena_sola": 7,
-      "Srednja_sola": 2508,
-      "Dijaski_dom": 0,
-      "Zavodi": 59
-    },
-    "ucenci_okuzbe_nove_t1": {
-      "Vrtec": 0,
-      "Osnovna_sola": 29,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "ucenci_okuzbe_nove_t2": {
-      "Vrtec": 0,
-      "Osnovna_sola": 38,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "ucenci_okuzbe_nove_t3": {
-      "Vrtec": 0,
-      "Osnovna_sola": 48,
-      "Osnovna_sola_s_prilagojenim_programom": 2,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "oddelki_v_karanteni_novi_t1": {
-      "Vrtec": 0,
-      "Osnovna_sola": 12,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "oddelki_v_karanteni_novi_t2": {
-      "Vrtec": 0,
-      "Osnovna_sola": 24,
-      "Osnovna_sola_s_prilagojenim_programom": 1,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "oddelki_v_karanteni_novi_t3": {
-      "Vrtec": 0,
-      "Osnovna_sola": 14,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "ucenci_okuzbe_aktivne_t1": {
-      "Vrtec": 0,
-      "Osnovna_sola": 283,
-      "Osnovna_sola_s_prilagojenim_programom": 4,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 1
-    },
-    "ucenci_okuzbe_aktivne_t2": {
-      "Vrtec": 0,
-      "Osnovna_sola": 409,
-      "Osnovna_sola_s_prilagojenim_programom": 3,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "ucenci_okuzbe_aktivne_t3": {
-      "Vrtec": 0,
-      "Osnovna_sola": 368,
+      "Osnovna_sola": 188,
       "Osnovna_sola_s_prilagojenim_programom": 6,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
       "Dijaski_dom": 0,
-      "Zavodi": 1
-    },
-    "oddelki_v_karanteni_aktivne_t1": {
-      "Vrtec": 1,
-      "Osnovna_sola": 147,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 6
-    },
-    "oddelki_v_karanteni_aktivne_t2": {
-      "Vrtec": 0,
-      "Osnovna_sola": 191,
-      "Osnovna_sola_s_prilagojenim_programom": 2,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 1
-    },
-    "oddelki_v_karanteni_aktivne_t3": {
-      "Vrtec": 1,
-      "Osnovna_sola": 175,
-      "Osnovna_sola_s_prilagojenim_programom": 5,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
       "Zavodi": 2
     },
     "zavodi_pouk_na_daljavo": {
-      "Vrtec": 62,
-      "Osnovna_sola": 244,
+      "Vrtec": 65,
+      "Osnovna_sola": 248,
       "Osnovna_sola_s_prilagojenim_programom": 6,
       "Glasbena_sola": 3,
       "Srednja_sola": 53,
@@ -104170,36 +104170,36 @@
       "Zavodi": 4
     },
     "sum_karantena_ucenci_aktivni": {
-      "Vrtec": 164,
-      "Osnovna_sola": 691,
-      "Osnovna_sola_s_prilagojenim_programom": 26,
-      "Glasbena_sola": 197,
-      "Srednja_sola": 61,
+      "Vrtec": 204,
+      "Osnovna_sola": 734,
+      "Osnovna_sola_s_prilagojenim_programom": 41,
+      "Glasbena_sola": 228,
+      "Srednja_sola": 62,
       "Dijaski_dom": 53,
       "Zavodi": 17
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.09960000000000019,
-      "Osnovna_sola": 0.529999999999997,
-      "Osnovna_sola_s_prilagojenim_programom": 0.4250000000000001,
-      "Glasbena_sola": 0.5400000000000001,
-      "Srednja_sola": 5.677499999999987,
+      "Vrtec": 0.11280000000000026,
+      "Osnovna_sola": 0.5779999999999917,
+      "Osnovna_sola_s_prilagojenim_programom": 0.5750000000000002,
+      "Glasbena_sola": 0.7200000000000003,
+      "Srednja_sola": 6.28859999999998,
       "Dijaski_dom": 0.12000000000000001,
       "Zavodi": 0.3316
     },
     "zaposleni_okuzbe_aktivne_delez": {
-      "Vrtec": 1.1857000000000022,
-      "Osnovna_sola": 1.2094999999999982,
-      "Osnovna_sola_s_prilagojenim_programom": 0.44040000000000007,
+      "Vrtec": 1.2567000000000033,
+      "Osnovna_sola": 1.299699999999998,
+      "Osnovna_sola_s_prilagojenim_programom": 0.5871999999999999,
       "Glasbena_sola": 0.16,
-      "Srednja_sola": 0.5969999999999998,
+      "Srednja_sola": 0.6726,
       "Dijaski_dom": 0.06,
-      "Zavodi": 0.12000000000000001
+      "Zavodi": 0.14
     },
     "uradni_podatki_SLO": [
       "29.11.2021",
       2482,
-      37138,
+      37144,
       5419,
       36314,
       1156
@@ -104210,114 +104210,78 @@
     "month": "11",
     "day": "30",
     "ucenci_okuzbe_nove": {
-      "Vrtec": 0,
-      "Osnovna_sola": 8,
+      "Vrtec": 1,
+      "Osnovna_sola": 41,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
-      "Srednja_sola": 3,
+      "Srednja_sola": 12,
       "Dijaski_dom": 0,
       "Zavodi": 0
     },
     "zaposleni_okuzbe_nove": {
-      "Vrtec": 0,
-      "Osnovna_sola": 3,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Vrtec": 1,
+      "Osnovna_sola": 8,
+      "Osnovna_sola_s_prilagojenim_programom": 2,
       "Glasbena_sola": 0,
-      "Srednja_sola": 0,
+      "Srednja_sola": 4,
       "Dijaski_dom": 0,
       "Zavodi": 0
     },
     "oddelki_v_karanteni_novi": {
-      "Vrtec": 2,
-      "Osnovna_sola": 17,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Vrtec": 3,
+      "Osnovna_sola": 30,
+      "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 0,
-      "Srednja_sola": 5,
+      "Srednja_sola": 9,
       "Dijaski_dom": 0,
       "Zavodi": 0
     },
     "ucenci_v_karanteni_novi": {
-      "Vrtec": 48,
-      "Osnovna_sola": 354,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Vrtec": 69,
+      "Osnovna_sola": 607,
+      "Osnovna_sola_s_prilagojenim_programom": 12,
       "Glasbena_sola": 0,
-      "Srednja_sola": 122,
+      "Srednja_sola": 232,
       "Dijaski_dom": 0,
       "Zavodi": 0
     },
     "ucenci_okuzbe_aktivne": {
-      "Vrtec": 71,
-      "Osnovna_sola": 980,
-      "Osnovna_sola_s_prilagojenim_programom": 16,
-      "Glasbena_sola": 25,
-      "Srednja_sola": 180,
+      "Vrtec": 82,
+      "Osnovna_sola": 1107,
+      "Osnovna_sola_s_prilagojenim_programom": 22,
+      "Glasbena_sola": 34,
+      "Srednja_sola": 210,
       "Dijaski_dom": 6,
       "Zavodi": 4
     },
     "zaposleni_okuzbe_aktivne": {
-      "Vrtec": 156,
-      "Osnovna_sola": 273,
-      "Osnovna_sola_s_prilagojenim_programom": 11,
+      "Vrtec": 167,
+      "Osnovna_sola": 302,
+      "Osnovna_sola_s_prilagojenim_programom": 17,
       "Glasbena_sola": 7,
-      "Srednja_sola": 51,
+      "Srednja_sola": 63,
       "Dijaski_dom": 3,
-      "Zavodi": 5
+      "Zavodi": 6
     },
     "oddelki_v_karanteni_aktivne": {
-      "Vrtec": 98,
-      "Osnovna_sola": 515,
-      "Osnovna_sola_s_prilagojenim_programom": 14,
+      "Vrtec": 104,
+      "Osnovna_sola": 560,
+      "Osnovna_sola_s_prilagojenim_programom": 20,
       "Glasbena_sola": 1,
-      "Srednja_sola": 105,
+      "Srednja_sola": 116,
       "Dijaski_dom": 0,
       "Zavodi": 15
     },
     "ucenci_v_karanteni_aktivne": {
-      "Vrtec": 1416,
-      "Osnovna_sola": 10535,
-      "Osnovna_sola_s_prilagojenim_programom": 66,
+      "Vrtec": 1508,
+      "Osnovna_sola": 11444,
+      "Osnovna_sola_s_prilagojenim_programom": 97,
       "Glasbena_sola": 7,
-      "Srednja_sola": 2487,
+      "Srednja_sola": 2791,
       "Dijaski_dom": 0,
       "Zavodi": 59
     },
     "ucenci_okuzbe_nove_t1": {
-      "Vrtec": 0,
-      "Osnovna_sola": 3,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "ucenci_okuzbe_nove_t2": {
-      "Vrtec": 0,
-      "Osnovna_sola": 2,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "ucenci_okuzbe_nove_t3": {
-      "Vrtec": 0,
-      "Osnovna_sola": 3,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "oddelki_v_karanteni_novi_t1": {
-      "Vrtec": 0,
-      "Osnovna_sola": 2,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
-      "Glasbena_sola": 0,
-      "Srednja_sola": 0,
-      "Dijaski_dom": 0,
-      "Zavodi": 0
-    },
-    "oddelki_v_karanteni_novi_t2": {
       "Vrtec": 0,
       "Osnovna_sola": 10,
       "Osnovna_sola_s_prilagojenim_programom": 0,
@@ -104326,9 +104290,45 @@
       "Dijaski_dom": 0,
       "Zavodi": 0
     },
-    "oddelki_v_karanteni_novi_t3": {
+    "ucenci_okuzbe_nove_t2": {
+      "Vrtec": 0,
+      "Osnovna_sola": 16,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_nove_t3": {
+      "Vrtec": 0,
+      "Osnovna_sola": 15,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "oddelki_v_karanteni_novi_t1": {
       "Vrtec": 0,
       "Osnovna_sola": 5,
+      "Osnovna_sola_s_prilagojenim_programom": 1,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "oddelki_v_karanteni_novi_t2": {
+      "Vrtec": 0,
+      "Osnovna_sola": 14,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "oddelki_v_karanteni_novi_t3": {
+      "Vrtec": 0,
+      "Osnovna_sola": 11,
       "Osnovna_sola_s_prilagojenim_programom": 0,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -104337,7 +104337,7 @@
     },
     "ucenci_okuzbe_aktivne_t1": {
       "Vrtec": 0,
-      "Osnovna_sola": 266,
+      "Osnovna_sola": 307,
       "Osnovna_sola_s_prilagojenim_programom": 4,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
@@ -104346,8 +104346,8 @@
     },
     "ucenci_okuzbe_aktivne_t2": {
       "Vrtec": 0,
-      "Osnovna_sola": 368,
-      "Osnovna_sola_s_prilagojenim_programom": 2,
+      "Osnovna_sola": 407,
+      "Osnovna_sola_s_prilagojenim_programom": 5,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
       "Dijaski_dom": 0,
@@ -104355,8 +104355,8 @@
     },
     "ucenci_okuzbe_aktivne_t3": {
       "Vrtec": 0,
-      "Osnovna_sola": 346,
-      "Osnovna_sola_s_prilagojenim_programom": 6,
+      "Osnovna_sola": 393,
+      "Osnovna_sola_s_prilagojenim_programom": 8,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
       "Dijaski_dom": 0,
@@ -104364,8 +104364,8 @@
     },
     "oddelki_v_karanteni_aktivne_t1": {
       "Vrtec": 1,
-      "Osnovna_sola": 148,
-      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Osnovna_sola": 161,
+      "Osnovna_sola_s_prilagojenim_programom": 2,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
       "Dijaski_dom": 0,
@@ -104373,8 +104373,8 @@
     },
     "oddelki_v_karanteni_aktivne_t2": {
       "Vrtec": 0,
-      "Osnovna_sola": 191,
-      "Osnovna_sola_s_prilagojenim_programom": 2,
+      "Osnovna_sola": 204,
+      "Osnovna_sola_s_prilagojenim_programom": 3,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
       "Dijaski_dom": 0,
@@ -104382,16 +104382,16 @@
     },
     "oddelki_v_karanteni_aktivne_t3": {
       "Vrtec": 1,
-      "Osnovna_sola": 175,
-      "Osnovna_sola_s_prilagojenim_programom": 5,
+      "Osnovna_sola": 194,
+      "Osnovna_sola_s_prilagojenim_programom": 6,
       "Glasbena_sola": 0,
       "Srednja_sola": 0,
       "Dijaski_dom": 0,
       "Zavodi": 2
     },
     "zavodi_pouk_na_daljavo": {
-      "Vrtec": 60,
-      "Osnovna_sola": 235,
+      "Vrtec": 64,
+      "Osnovna_sola": 242,
       "Osnovna_sola_s_prilagojenim_programom": 6,
       "Glasbena_sola": 3,
       "Srednja_sola": 53,
@@ -104399,34 +104399,263 @@
       "Zavodi": 4
     },
     "sum_karantena_ucenci_aktivni": {
-      "Vrtec": 145,
-      "Osnovna_sola": 660,
-      "Osnovna_sola_s_prilagojenim_programom": 25,
-      "Glasbena_sola": 159,
-      "Srednja_sola": 58,
-      "Dijaski_dom": 52,
+      "Vrtec": 188,
+      "Osnovna_sola": 732,
+      "Osnovna_sola_s_prilagojenim_programom": 41,
+      "Glasbena_sola": 192,
+      "Srednja_sola": 62,
+      "Dijaski_dom": 60,
       "Zavodi": 17
     },
     "ucenci_okuzbe_aktivne_delez": {
-      "Vrtec": 0.08520000000000011,
-      "Osnovna_sola": 0.4900000000000004,
-      "Osnovna_sola_s_prilagojenim_programom": 0.4000000000000001,
-      "Glasbena_sola": 0.5000000000000001,
-      "Srednja_sola": 5.181799999999993,
+      "Vrtec": 0.09840000000000018,
+      "Osnovna_sola": 0.5534999999999944,
+      "Osnovna_sola_s_prilagojenim_programom": 0.5500000000000002,
+      "Glasbena_sola": 0.6800000000000003,
+      "Srednja_sola": 6.054799999999983,
       "Dijaski_dom": 0.12000000000000001,
       "Zavodi": 0.3316
     },
     "zaposleni_okuzbe_aktivne_delez": {
-      "Vrtec": 1.107600000000001,
-      "Osnovna_sola": 1.1192999999999984,
-      "Osnovna_sola_s_prilagojenim_programom": 0.40370000000000006,
+      "Vrtec": 1.1857000000000022,
+      "Osnovna_sola": 1.2381999999999982,
+      "Osnovna_sola_s_prilagojenim_programom": 0.6238999999999999,
       "Glasbena_sola": 0.14,
-      "Srednja_sola": 0.5213999999999995,
+      "Srednja_sola": 0.6509999999999999,
       "Dijaski_dom": 0.06,
-      "Zavodi": 0.1
+      "Zavodi": 0.12000000000000001
     },
     "uradni_podatki_SLO": [
-      "30.11.2021"
+      "30.11.2021",
+      2257,
+      35119,
+      5487,
+      36720,
+      1128
+    ]
+  },
+  {
+    "year": "2021",
+    "month": "12",
+    "day": "01",
+    "ucenci_okuzbe_nove": {
+      "Vrtec": 0,
+      "Osnovna_sola": 15,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 1,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "zaposleni_okuzbe_nove": {
+      "Vrtec": 0,
+      "Osnovna_sola": 2,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 1,
+      "Dijaski_dom": 0,
+      "Zavodi": 1
+    },
+    "oddelki_v_karanteni_novi": {
+      "Vrtec": 0,
+      "Osnovna_sola": 19,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 4,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_v_karanteni_novi": {
+      "Vrtec": 0,
+      "Osnovna_sola": 381,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 111,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_aktivne": {
+      "Vrtec": 77,
+      "Osnovna_sola": 1023,
+      "Osnovna_sola_s_prilagojenim_programom": 21,
+      "Glasbena_sola": 30,
+      "Srednja_sola": 198,
+      "Dijaski_dom": 6,
+      "Zavodi": 3
+    },
+    "zaposleni_okuzbe_aktivne": {
+      "Vrtec": 145,
+      "Osnovna_sola": 251,
+      "Osnovna_sola_s_prilagojenim_programom": 16,
+      "Glasbena_sola": 5,
+      "Srednja_sola": 54,
+      "Dijaski_dom": 2,
+      "Zavodi": 7
+    },
+    "oddelki_v_karanteni_aktivne": {
+      "Vrtec": 102,
+      "Osnovna_sola": 575,
+      "Osnovna_sola_s_prilagojenim_programom": 20,
+      "Glasbena_sola": 1,
+      "Srednja_sola": 120,
+      "Dijaski_dom": 0,
+      "Zavodi": 15
+    },
+    "ucenci_v_karanteni_aktivne": {
+      "Vrtec": 1483,
+      "Osnovna_sola": 11751,
+      "Osnovna_sola_s_prilagojenim_programom": 97,
+      "Glasbena_sola": 7,
+      "Srednja_sola": 2902,
+      "Dijaski_dom": 0,
+      "Zavodi": 59
+    },
+    "ucenci_okuzbe_nove_t1": {
+      "Vrtec": 0,
+      "Osnovna_sola": 4,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_nove_t2": {
+      "Vrtec": 0,
+      "Osnovna_sola": 5,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_nove_t3": {
+      "Vrtec": 0,
+      "Osnovna_sola": 6,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "oddelki_v_karanteni_novi_t1": {
+      "Vrtec": 0,
+      "Osnovna_sola": 8,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "oddelki_v_karanteni_novi_t2": {
+      "Vrtec": 0,
+      "Osnovna_sola": 8,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "oddelki_v_karanteni_novi_t3": {
+      "Vrtec": 0,
+      "Osnovna_sola": 3,
+      "Osnovna_sola_s_prilagojenim_programom": 0,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_aktivne_t1": {
+      "Vrtec": 0,
+      "Osnovna_sola": 289,
+      "Osnovna_sola_s_prilagojenim_programom": 4,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_aktivne_t2": {
+      "Vrtec": 0,
+      "Osnovna_sola": 377,
+      "Osnovna_sola_s_prilagojenim_programom": 5,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 0
+    },
+    "ucenci_okuzbe_aktivne_t3": {
+      "Vrtec": 0,
+      "Osnovna_sola": 357,
+      "Osnovna_sola_s_prilagojenim_programom": 8,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 1
+    },
+    "oddelki_v_karanteni_aktivne_t1": {
+      "Vrtec": 1,
+      "Osnovna_sola": 168,
+      "Osnovna_sola_s_prilagojenim_programom": 2,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 6
+    },
+    "oddelki_v_karanteni_aktivne_t2": {
+      "Vrtec": 0,
+      "Osnovna_sola": 211,
+      "Osnovna_sola_s_prilagojenim_programom": 3,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 1
+    },
+    "oddelki_v_karanteni_aktivne_t3": {
+      "Vrtec": 1,
+      "Osnovna_sola": 195,
+      "Osnovna_sola_s_prilagojenim_programom": 6,
+      "Glasbena_sola": 0,
+      "Srednja_sola": 0,
+      "Dijaski_dom": 0,
+      "Zavodi": 2
+    },
+    "zavodi_pouk_na_daljavo": {
+      "Vrtec": 63,
+      "Osnovna_sola": 245,
+      "Osnovna_sola_s_prilagojenim_programom": 6,
+      "Glasbena_sola": 1,
+      "Srednja_sola": 54,
+      "Dijaski_dom": 0,
+      "Zavodi": 4
+    },
+    "sum_karantena_ucenci_aktivni": {
+      "Vrtec": 181,
+      "Osnovna_sola": 725,
+      "Osnovna_sola_s_prilagojenim_programom": 43,
+      "Glasbena_sola": 183,
+      "Srednja_sola": 59,
+      "Dijaski_dom": 59,
+      "Zavodi": 17
+    },
+    "ucenci_okuzbe_aktivne_delez": {
+      "Vrtec": 0.09240000000000015,
+      "Osnovna_sola": 0.5114999999999991,
+      "Osnovna_sola_s_prilagojenim_programom": 0.5250000000000001,
+      "Glasbena_sola": 0.6000000000000002,
+      "Srednja_sola": 5.705599999999987,
+      "Dijaski_dom": 0.12000000000000001,
+      "Zavodi": 0.2487
+    },
+    "zaposleni_okuzbe_aktivne_delez": {
+      "Vrtec": 1.0294999999999999,
+      "Osnovna_sola": 1.0290999999999986,
+      "Osnovna_sola_s_prilagojenim_programom": 0.5871999999999999,
+      "Glasbena_sola": 0.1,
+      "Srednja_sola": 0.5537999999999996,
+      "Dijaski_dom": 0.04,
+      "Zavodi": 0.14
+    },
+    "uradni_podatki_SLO": [
+      "01.12.2021"
     ]
   }
 ]
