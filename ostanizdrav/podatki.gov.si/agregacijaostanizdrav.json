@@ -1,35 +1,7 @@
-[
-  {
-    "update_timestamp": "2021-12-20T00:30:01,246538", 
-    "effective_date": "2021-12-19", 
-    "app_downloads_daily": 1, 
-    "app_downloads_cumulated": 1, 
-    "app_downloads_7days_sum": 1, 
-    "app_downloads_7days_avg": 1, 
-    "app_downloads_7days_avg_growthrate": 1, 
-    "app_downloads_7days_avg_trend_5percent": 1, 
-    "persons_who_shared_keys_daily": 14, 
-    "persons_who_shared_keys_cumulated": 8018, 
-    "persons_who_shared_keys_7days_sum": 213, 
-    "persons_who_shared_keys_7days_avg": 30.428571428571427, 
-    "persons_who_shared_keys_7days_avg_growthrate": -5.0000000000000036, 
-    "persons_who_shared_keys_7days_avg_trend_5percent": -1, 
-    "tests_total_daily": 0.0, 
-    "labs_registered_cumulated": 1, 
-    "labs_connected_cumulated": 1, 
-    "seven_day_incidence_1st_reported_daily": 1, 
-    "seven_day_incidence_1st_reported_growthrate": 1, 
-    "seven_day_incidence_1st_reported_trend_1percent": 1, 
-    "infections_effective_daily": 1, 
-    "infections_effective_cumulated": 1, 
-    "infections_effective_7days_avg": 1, 
-    "infections_effective_7days_avg_growthrate": 1, 
-    "infections_effective_7days_avg_trend_5percent": -1, 
-    "seven_day_r_value_published_daily": 1, 
-    "seven_day_r_value_published_growthrate": 1, 
-    "seven_day_r_value_published_trend_1percent": -1, 
-    "seven_day_r_value_1st_reported_daily": 1, 
-    "seven_day_r_value_1st_reported_growthrate": 1, 
-    "seven_day_r_value_1st_reported_trend_1percent": -1
-  }
-]
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.16.1</center>
+</body>
+</html>
