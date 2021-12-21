@@ -214,7 +214,8 @@ def import_nijz_dash_vacc_by_age():
 
     # map cepimose regions to sledilnik regions, preserving previous order
     ageGroups = {
-        cepimose.data.AgeGroup.GROUP_0_17: "0-17",
+        cepimose.data.AgeGroup.GROUP_0_11: "0-11",
+        cepimose.data.AgeGroup.GROUP_12_17: "12-17",
         cepimose.data.AgeGroup.GROUP_18_24: "18-24",
         cepimose.data.AgeGroup.GROUP_25_29: "25-29",
         cepimose.data.AgeGroup.GROUP_30_34: "30-34",
