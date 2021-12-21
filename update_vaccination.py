@@ -256,6 +256,16 @@ def import_nijz_dash_vacc_by_age():
     print(df)
     print(df.describe())
 
+    # TEMPORARY join 2 new age groups, TODO: remove
+    df.insert(0, 'vaccination.age.0-17.1st.todate', 0)
+    df['vaccination.age.0-17.1st.todate']=df["vaccination.age.0-11.1st.todate"] + df["vaccination.age.12-17.1st.todate"]
+    df.insert(1, 'vaccination.age.0-17.2nd.todate', 0)
+    df['vaccination.age.0-17.2nd.todate']=df["vaccination.age.0-11.2nd.todate"] + df["vaccination.age.12-17.2nd.todate"]
+    df.insert(2, 'vaccination.age.0-17.3rd.todate', 0)
+    df['vaccination.age.0-17.3rd.todate']=df["vaccination.age.0-11.3rd.todate"] + df["vaccination.age.12-17.3rd.todate"]
+    df.drop(columns=["vaccination.age.0-11.1st.todate","vaccination.age.12-17.1st.todate","vaccination.age.0-11.2nd.todate","vaccination.age.12-17.2nd.todate","vaccination.age.0-11.3rd.todate","vaccination.age.12-17.3rd.todate"], inplace=True)
+    # /TEMPORARY
+
     old_hash = sha1sum(filename)
     df.astype('Int64').replace({0:None}).to_csv(filename, date_format='%Y-%m-%d')
     write_timestamp_file(filename, old_hash)
