@@ -21,7 +21,7 @@ stats_weekly_sorted_fields = [
     'week.from.uzb', 'week.from.bwa', 'week.from.gnq', 'week.from.gmb', 'week.from.ala', 'week.from.lux',
     'week.from.abw', 'week.from.wlf', 'week.from.sur', 'week.from.isr', 'week.from.nor', 'week.from.pyf',
     'week.from.pan', 'week.from.per', 'week.from.zwe', 'week.from.jor', 'week.from.ltu', 'week.from.syc',
-    'week.from.ecu', 'week.from.ven'
+    'week.from.ecu', 'week.from.ven', 'week.from.smr'
 ]
 
 mapping = {
@@ -91,6 +91,7 @@ mapping = {
     'Romunija': 'rou',
     'Ruanda': 'rwa',
     'Ruska federacija': 'rus',
+    'San Marino': 'smr',
     'Sejšeli': 'syc',
     'Slovaška': 'svk',
     'Slovenija': 'svn',
