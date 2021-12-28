@@ -21,7 +21,8 @@ stats_weekly_sorted_fields = [
     'week.from.uzb', 'week.from.bwa', 'week.from.gnq', 'week.from.gmb', 'week.from.ala', 'week.from.lux',
     'week.from.abw', 'week.from.wlf', 'week.from.sur', 'week.from.isr', 'week.from.nor', 'week.from.pyf',
     'week.from.pan', 'week.from.per', 'week.from.zwe', 'week.from.jor', 'week.from.ltu', 'week.from.syc',
-    'week.from.ecu', 'week.from.ven', 'week.from.smr'
+    'week.from.ecu', 'week.from.ven', 'week.from.smr', 'week.from.cod', 'week.from.ken', 'week.from.sau',
+    'week.from.swz'
 ]
 
 mapping = {
@@ -41,6 +42,7 @@ mapping = {
     'Češka': 'cze',
     'Črna Gora': 'mne',
     'Danska': 'dnk',
+    'Demokratična republika Kongo': 'cod',
     'Džibuti': 'jib',
     'Dominikanska republika': 'dom',
     'Egipt': 'egy',
@@ -61,6 +63,7 @@ mapping = {
     'Južna afrika': 'jar',
     'Katar': 'qat',
     'Kazahstan': 'kaz',
+    'Kenija':'ken',
     'Kirgizistan (Kirgizija)': 'kgz',
     'Kosovo': 'xkx',
     'Kuba': 'cub',
@@ -92,10 +95,12 @@ mapping = {
     'Ruanda': 'rwa',
     'Ruska federacija': 'rus',
     'San Marino': 'smr',
+    'Savdska Arabija': 'sau',
     'Sejšeli': 'syc',
     'Slovaška': 'svk',
     'Slovenija': 'svn',
     'Surinam': 'sur',
+    'Svazi': 'swz',
     'Španija': 'esp',
     'Srbija': 'srb',
     'Švedska': 'swe',
