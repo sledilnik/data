@@ -33,6 +33,13 @@ def computeVaccinatedCases(update_time):
     print("Processing", filename)
     df_old_hash = sha1sum(filename)
     vaccination_column_name = 'Potrjeni zasciteni s cepljenjem'
+
+    def multiformatDateParser(date_string):
+        try:
+            return pd.to_datetime(date_string, format="%d.%m.%Y") #31.05.2020
+        except (ValueError, TypeError):
+            return pd.to_datetime(date_string, format="%d-%b-%Y") #01-JUN-2020
+
     df_vaccination_cases = pd.read_csv('csv/vaccination-confirmed-cases-opsi.csv',
         sep=';',
         decimal=',',
@@ -40,7 +47,7 @@ def computeVaccinatedCases(update_time):
         usecols=['Datum', vaccination_column_name],
         index_col='Datum',
         parse_dates=['Datum'],
-        date_parser=lambda date_string: pd.to_datetime(date_string, format="%d.%m.%Y"),
+        date_parser=lambda date_string: multiformatDateParser(date_string),
         dtype={vaccination_column_name: 'int64'})
     df_vaccination_cases['cases.vaccinated.confirmed.todate'] = df_vaccination_cases[vaccination_column_name].cumsum().astype('Int64')
     df_vaccination_cases = df_vaccination_cases [[ 'cases.vaccinated.confirmed.todate' ]]
