@@ -9,11 +9,17 @@ on:
     branches: [ master ]
     paths:
     - '.github/workflows/ostanizdrav.yml'
+    - 'update_ostanizdrav.py'
+    - 'transform/utils.py'
+    - 'requirements.txt'
     - 'ostanizdrav/**.sh'
   pull_request:
     branches: [ master ]
     paths:
     - '.github/workflows/ostanizdrav.yml'
+    - 'update_ostanizdrav.py'
+    - 'transform/utils.py'
+    - 'requirements.txt'
     - 'ostanizdrav/**.sh'
   schedule:
     # * is a special character in YAML so you have to quote this string
@@ -34,13 +40,39 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+
+    - name: Cache pip
+      uses: actions/cache@v2.1.7
+      with:
+        # This path is specific to Ubuntu
+        path: ~/.cache/pip
+        # Look to see if there is a cache hit for the corresponding requirements file
+        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+          ${{ runner.os }}-
+
+    - name: Install python dependencies
+      run: pip install -U -r requirements.txt
+
+    - name: "Run lab tests update update_ostanizdrav.py"
+      run: | 
+        python update_ostanizdrav.py 
+
     # Runs a single command using the runners shell
-    - name: Run OstaniZdrav update
+    - name: Run legacy OstaniZdrav update script
       run: cd ostanizdrav && ./update-ostanizdrav.sh
 
     # Runs a set of commands using the runners shell
     - name: Check git diff
       run: |
+        ls -la csv/ostanizdrav*
+        git status csv/ostanizdrav*
+        git diff csv/ostanizdrav*
         ls -la ostanizdrav/
         git status ostanizdrav/
         git diff ostanizdrav/
@@ -54,6 +86,6 @@ jobs:
         push-branch: 'master'
         commit-message: 'OstaniZdrav Data update 🤖'
         rebase: 'true' # pull and rebase before commit
-        files: ostanizdrav/
+        files: csv/ostanizdrav.* ostanizdrav/
         name: Sledilnik data scrape bot 🤖
         email: info@sledilnik.org
