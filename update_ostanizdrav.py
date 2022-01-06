@@ -109,7 +109,6 @@ def merge_ostanizdrav():
 
     merged = merged.join(df_tan_entered, how='outer').fillna(0)
     merged['tan.ratio_entered_issued'] = merged['tan.entered'] / merged['tan.issued']
-    merged.replace(inf, nan, inplace=True) #remove infinity from period before we have data for tan.issued
 
 
     df_cases = pd.read_csv('csv/cases.csv',
@@ -120,7 +119,7 @@ def merge_ostanizdrav():
         ).sort_index()
     # print(df_cases)
 
-    merged = merged.join(df_cases, how='inner').fillna(0)
+    merged = merged.join(df_cases).fillna(0)
     merged['tan.ratio_entered_cases'] = merged['tan.entered'] / merged['cases.confirmed']
     merged['tan.ratio_issued_cases'] = merged['tan.issued'] / merged['cases.confirmed']
 
@@ -150,7 +149,7 @@ def merge_ostanizdrav():
         })
     # print(merged)
 
-    merged.replace({0: None}).to_csv(filename)
+    merged.replace({0: None, inf: None}).to_csv(filename)
     write_timestamp_file(filename=filename, old_hash=old_file_hash)
 
 
