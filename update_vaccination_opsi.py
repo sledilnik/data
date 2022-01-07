@@ -38,9 +38,9 @@ def computeVaccinatedCases(update_time):
         try:
             return pd.to_datetime(date_string, format="%d.%m.%Y") #31.05.2020
         except (ValueError, TypeError):
-            date_string.replace("maj", "may") # sometimes even in Slovenian: 01-maj-2020
-            date_string.replace("avg", "aug")
-            date_string.replace("okt", "oct")
+            date_string = date_string.replace("maj", "may") # sometimes even in Slovenian: 01-maj-2020
+            date_string = date_string.replace("avg", "aug")
+            date_string = date_string.replace("okt", "oct")
             return pd.to_datetime(date_string, format="%d-%b-%Y") #01-JUN-2020
 
     df_vaccination_cases = pd.read_csv('csv/vaccination-confirmed-cases-opsi.csv',
