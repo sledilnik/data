@@ -66,12 +66,12 @@ def reformat_dates(date_columns, row):
     """
     for i in date_columns:
         date = dateutil.parser.parse(row[i], dayfirst=True).date()
-        # fix errornous "0020" year entries
-        if date.year == 20:
-            date = datetime(2020, date.month, date.day)
+        # fix errornous "0020" millenium-typo year entries
+        if date.year >= 20 and date.year <= 22:
+            date = datetime(2000 + date.year, date.month, date.day)
 
-        if date.year < 2020 or date.year > 2021:
-            logger.warning("Suspicious date found in line: \n{}\n".format(row))
+        if date.year < 2020 or date.year > 2022:
+            logger.warning(f"Suspicious date {date} found in line: \n{row}\n")
 
         if date.year == 3021 or date.year == 2201 or date.year == 2022:
             date = datetime(2021, date.month, date.day)
