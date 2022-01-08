@@ -12,7 +12,6 @@
 Visualized at [COVID-19 Sledilnik Home Page](https://covid-19.sledilnik.org) 
 
 Collecting and organising data as they come in from various sources. 
-Master tables are at https://tinyurl.com/sledilnik-gdocs
 
 This repository is for organising our collaboration better: wikis, issues etc.
 
@@ -24,7 +23,7 @@ Vaccination update depends on [py-cepimose](https://github.com/sledilnik/py-cepi
 ## How to run scripts
 ___
 In this folder run:
-1. `python3.8 -m venv venv` or `virtualenv -p python3.8 venv`
+1. `python3 -m venv venv` or `virtualenv -p python3.8 venv`
 1. `source venv/bin/activate`
 1. `pip install -r requirements.txt`
 1. `export COVID_DATA_PATH=<the location of the COVID-DATA folder>`
