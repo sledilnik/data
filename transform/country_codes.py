@@ -22,7 +22,7 @@ stats_weekly_sorted_fields = [
     'week.from.abw', 'week.from.wlf', 'week.from.sur', 'week.from.isr', 'week.from.nor', 'week.from.pyf',
     'week.from.pan', 'week.from.per', 'week.from.zwe', 'week.from.jor', 'week.from.ltu', 'week.from.syc',
     'week.from.ecu', 'week.from.ven', 'week.from.smr', 'week.from.cod', 'week.from.ken', 'week.from.sau',
-    'week.from.swz', 'week.from.isl', 'week.from.caf', 'week.from.tha'
+    'week.from.swz', 'week.from.isl', 'week.from.caf', 'week.from.tha', 'week.from.bra', 'week.from.civ'
 ]
 
 mapping = {
@@ -38,6 +38,7 @@ mapping = {
     'Bocvana': 'bwa',
     'Bolgarija': 'bgr',
     'Bosna in Hercegovina': 'bih',
+    'Brazilija': 'bra',
     'Ciper': 'cyp',
     'Češka': 'cze',
     'Črna Gora': 'mne',
@@ -98,6 +99,7 @@ mapping = {
     'San Marino': 'smr',
     'Savdska Arabija': 'sau',
     'Sejšeli': 'syc',
+    'Slonokoščena obala': 'civ',
     'Slovaška': 'svk',
     'Slovenija': 'svn',
     'Srednjeafriška republika': 'caf',
