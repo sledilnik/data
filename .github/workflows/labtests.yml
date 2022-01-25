@@ -21,7 +21,7 @@ on:
     - 'requirements.txt'
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '5,10,15,20,40 8,9 * * *' # increased frequency for morning update
+    - cron:  '10,15,20,40 8,9 * * *' # increased frequency for morning update
     #- cron:  '35 */1 * * *' # periodic hourly update otherwise
   workflow_dispatch:
 
