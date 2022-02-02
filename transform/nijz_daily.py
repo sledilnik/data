@@ -216,7 +216,7 @@ df_1 = df_1.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows
     'tests.regular.performed',
     'tests.hagt.performed'
 ]]
-df_1['tests.performed'] = df_1['tests.regular.performed'] # total performed is same as regular
+df_1['tests.performed'] = df_1['tests.regular.performed'] # total positive is same as regular
 df_1 = df_1[df_1.index > "2021-02-12"] # drop data about tests after switch to HAT+ validation with PCR
 df_lab_tests.update(df_1)
 
@@ -231,7 +231,6 @@ df_2 = df_2.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows
     'tests.regular.positive',
     'tests.hagt.positive'
 ]]
-df_2['tests.positive'] = df_2['tests.regular.positive'] # total positive is same as regular
 df_2 = df_2[df_2.index >= "2022-02-01"] # drop data about tests before PCR+HAT
 df_lab_tests.update(df_2)
 
