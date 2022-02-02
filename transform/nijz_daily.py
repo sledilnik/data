@@ -208,21 +208,31 @@ df_lab_tests = pd.read_csv(os.path.join(CSV_FOLDER, 'lab-tests.csv'), index_col=
 df_1 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 1', skiprows=[0]) \
     .rename(mapper={
         'Datum izvida': 'date',
-        'SKUPAJ': 'tests.regular.positive',
         'Dnevno število testiranih oseb s PCR': 'tests.regular.performed',
         'Dnevno število testiranih oseb s HAGT': 'tests.hagt.performed'
     }, axis='columns').set_index('date')
 df_1.drop('SKUPAJ', axis='rows', inplace=True)
 df_1 = df_1.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')[[
-    'tests.regular.positive',
     'tests.regular.performed',
     'tests.hagt.performed'
 ]]
 df_1['tests.performed'] = df_1['tests.regular.performed'] # total positive is same as regular
-df_1['tests.positive'] = df_1['tests.regular.positive'] # total positive is same as regular
 df_1 = df_1[df_1.index > "2021-02-12"] # drop data about tests after switch to HAT+ validation with PCR
-
 df_lab_tests.update(df_1)
+
+df_2 = pd.read_excel(io=SOURCE_FILE, sheet_name='Tabela 2', skiprows=[0]) \
+    .rename(mapper={
+        'Datum izvida': 'date',
+        'PCR': 'tests.regular.positive',
+        'HAGT': 'tests.hagt.positive'
+    }, axis='columns').set_index('date')
+df_2.drop('SKUPAJ', axis='rows', inplace=True)
+df_2 = df_2.rename(mapper=lambda x: datetime.strptime(x, '%d.%m.%Y'), axis='rows')[[
+    'tests.regular.positive',
+    'tests.hagt.positive'
+]]
+df_2 = df_2[df_2.index >= "2022-02-01"] # drop data about tests before PCR+HAT
+df_lab_tests.update(df_2)
 
 # recalculate .todate fields after updates
 df_lab_tests['tests.positive.todate'] = df_lab_tests['tests.positive'].fillna(0).cumsum()
