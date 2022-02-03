@@ -127,7 +127,7 @@ def computeRegionCases(update_time):
     write_timestamp_file(filename=filename, old_hash=old_hash)
 
 
-def computeCases(update_time):
+def computeCasesWithCount(update_time, last_day_confirmed):
     filename = 'csv/cases.csv'
     print("Processing", filename)
 
@@ -147,7 +147,7 @@ def computeCases(update_time):
         date = date_diff[0]  # equals index of -1
 
         # only manipulate last row
-        df_cases.at[date, 'cases.confirmed'] = df_lab_tests.at[date, 'tests.positive']
+        df_cases.at[date, 'cases.confirmed'] = last_day_confirmed  # PCR+HAT # df_lab_tests.at[date, 'tests.positive']
         df_cases.at[date, 'cases.confirmed.todate'] = df_cases.iloc[-2, df_cases.columns.get_loc('cases.confirmed.todate')] + df_cases.at[date, 'cases.confirmed']
 
         df_cases['cases.active.temp'] = df_cases['cases.confirmed'].rolling(window=14).sum()
@@ -175,6 +175,8 @@ def computeCases(update_time):
     df_cases.replace({0: None}).astype('Int64').to_csv(filename, line_terminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=df_cases_old_hash)
 
+def computeCases(update_time):
+    computeCasesWithCount(update_time, None)
 
 if __name__ == "__main__":
     update_time = int(time.time())

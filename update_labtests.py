@@ -3,7 +3,7 @@
 import time
 import pandas as pd
 import cepimose
-from update_stats import computeStats, computeCases
+from update_stats import computeStats, computeCasesWithCount
 
 from transform.utils import sha1sum, write_timestamp_file
 
@@ -19,11 +19,11 @@ def import_nijz_dash_labtests():
     # copy last row structure, with None values:
     day_data = dict.fromkeys(df_existing.tail(1), None)
     day_data['tests.regular.performed'] = cepimose.lab_PCR_tests_performed() 
-    day_data['tests.regular.positive'] = cepimose.lab_cases_confirmed()
+    # PCR+HAT day_data['tests.regular.positive'] = cepimose.lab_cases_confirmed()
     day_data['tests.hagt.performed'] = cepimose.lab_HAT_tests_performed()
 
     day_data['tests.performed'] = day_data['tests.regular.performed']
-    day_data['tests.positive'] = day_data['tests.regular.positive']
+    # PCR+HAT day_data['tests.positive'] = day_data['tests.regular.positive']
 
     df_day_data = pd.DataFrame([day_data], index=[d])
     df_day_data.index.name = 'date'
@@ -49,10 +49,12 @@ def import_nijz_dash_labtests():
     df_updated.to_csv(filenameByDay, date_format='%Y-%m-%d',line_terminator='\r\n')
     write_timestamp_file(filenameByDay, old_hash)
 
+    return cepimose.lab_cases_confirmed()  # PCR+HAT positive is confirmed cases
+
 
 if __name__ == "__main__":
     update_time = int(time.time())
 
-    import_nijz_dash_labtests()
-    computeCases(update_time)
+    last_day_cases = import_nijz_dash_labtests()
+    computeCasesWithCount(update_time, last_day_cases)
     computeStats(update_time)
