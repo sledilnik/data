@@ -56,16 +56,15 @@ jobs:
           ${{ runner.os }}-pip-
           ${{ runner.os }}-
 
+    - name: Run legacy OstaniZdrav update script
+      run: cd ostanizdrav && ./update-ostanizdrav.sh
+
     - name: Install python dependencies
       run: pip install -U -r requirements.txt
 
     - name: "Run lab tests update update_ostanizdrav.py"
       run: | 
         python update_ostanizdrav.py 
-
-    # Runs a single command using the runners shell
-    - name: Run legacy OstaniZdrav update script
-      run: cd ostanizdrav && ./update-ostanizdrav.sh
 
     # Runs a set of commands using the runners shell
     - name: Check git diff
