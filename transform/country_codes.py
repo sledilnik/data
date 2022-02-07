@@ -27,7 +27,7 @@ stats_weekly_sorted_fields = [
 ]
 
 mapping = {
-    ' NEZNANO': 'unknown',
+    'NEZNANO': 'unknown',
     'Afganistan': 'afg',
     'Alandski otoki': 'ala',
     'Albanija': 'alb',
