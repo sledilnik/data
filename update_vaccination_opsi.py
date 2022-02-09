@@ -126,7 +126,7 @@ def computeStatsWeekly(update_time):
 if __name__ == "__main__":
     update_time = int(time.time())
 
-    import_opsi_vaccination_effects()
+    # DISABLED: import_opsi_vaccination_effects()
 
     computeVaccinatedCases(update_time)
     computeVaccinatedCasesWeekly(update_time)
