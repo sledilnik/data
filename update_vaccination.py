@@ -30,10 +30,13 @@ def computeVaccination(update_time):
         merged['vaccination.az.delivered'].fillna(0).cumsum().replace({0: None}).astype('Int64')
     merged['vaccination.janssen.delivered.todate'] = \
         merged['vaccination.janssen.delivered'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+    merged['vaccination.novavax.delivered.todate'] = \
+        merged['vaccination.novavax.delivered'].fillna(0).cumsum().replace({0: None}).astype('Int64')
     merged['vaccination.delivered.todate'] = merged['vaccination.pfizer.delivered.todate'] \
         .add(merged['vaccination.moderna.delivered.todate'], fill_value=0) \
         .add(merged['vaccination.az.delivered.todate'], fill_value=0) \
-        .add(merged['vaccination.janssen.delivered.todate'], fill_value=0).astype('Int64')
+        .add(merged['vaccination.janssen.delivered.todate'], fill_value=0).astype('Int64') \
+        .add(merged['vaccination.novavax.delivered.todate'], fill_value=0).astype('Int64')
 
     merged = merged.reindex([  # sort
         'vaccination.administered', 'vaccination.administered.todate',
@@ -44,11 +47,13 @@ def computeVaccination(update_time):
         'vaccination.moderna.used.todate',
         'vaccination.az.used.todate',
         'vaccination.janssen.used.todate',
+        'vaccination.novavax.used.todate',
         'vaccination.delivered.todate',
         'vaccination.pfizer.delivered', 'vaccination.pfizer.delivered.todate',
         'vaccination.moderna.delivered', 'vaccination.moderna.delivered.todate',
         'vaccination.az.delivered', 'vaccination.az.delivered.todate',
         'vaccination.janssen.delivered', 'vaccination.janssen.delivered.todate',
+        'vaccination.novavax.delivered', 'vaccination.novavax.delivered.todate',
         'vaccination.age.0-11.1st.todate','vaccination.age.0-11.2nd.todate','vaccination.age.0-11.3rd.todate',
         'vaccination.age.12-17.1st.todate','vaccination.age.12-17.2nd.todate','vaccination.age.12-17.3rd.todate',
         'vaccination.age.18-24.1st.todate','vaccination.age.18-24.2nd.todate','vaccination.age.18-24.3rd.todate',
@@ -117,7 +122,8 @@ def import_nijz_dash_vacc_used_by_manufacturer():
         'pfizer': 'vaccination.pfizer.used',
         'moderna': 'vaccination.moderna.used',
         'az': 'vaccination.az.used',
-        'janssen': 'vaccination.janssen.used'
+        'janssen': 'vaccination.janssen.used',
+        'novavax': 'vaccination.novavax.used'
     }).astype('Int64')
 
     df['vaccination.pfizer.used.todate'] = \
@@ -128,13 +134,16 @@ def import_nijz_dash_vacc_used_by_manufacturer():
         df['vaccination.az.used'].fillna(0).cumsum().replace({0: None}).astype('Int64')
     df['vaccination.janssen.used.todate'] = \
         df['vaccination.janssen.used'].fillna(0).cumsum().replace({0: None}).astype('Int64')
+    df['vaccination.novavax.used.todate'] = \
+        df['vaccination.novavax.used'].fillna(0).cumsum().replace({0: None}).astype('Int64')
 
     # calculate used vaccine doeses used total
     df['vaccination.used'] = \
         df['vaccination.pfizer.used'].fillna(0) + \
         df['vaccination.moderna.used'].fillna(0) + \
         df['vaccination.az.used'].fillna(0) + \
-        df['vaccination.janssen.used'].fillna(0)
+        df['vaccination.janssen.used'].fillna(0) + \
+        df['vaccination.novavax.used'].fillna(0)
     df['vaccination.used.todate'] = \
         df['vaccination.used'].fillna(0).cumsum().replace({0: None}).astype('Int64')
     df = df.astype('Int64')
@@ -151,6 +160,8 @@ def import_nijz_dash_vacc_used_by_manufacturer():
         'vaccination.az.used.todate',
         'vaccination.janssen.used',
         'vaccination.janssen.used.todate',
+        'vaccination.novavax.used',
+        'vaccination.novavax.used.todate',
     ]]
     df = df.replace({0: None}).astype('Int64')
 
@@ -174,6 +185,7 @@ def import_nijz_dash_vacc_delivered():
         "moderna": cepimose.data.Manufacturer.MODERNA,
         "az":      cepimose.data.Manufacturer.AZ,
         "janssen": cepimose.data.Manufacturer.JANSSEN,
+        "novavax": cepimose.data.Manufacturer.NOVAVAX,
     }
 
     columns=[]
