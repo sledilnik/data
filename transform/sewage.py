@@ -15,6 +15,7 @@ CSV_FOLDER = os.path.join(os.path.dirname(__file__), '../csv')
 
 # https://docs.google.com/spreadsheets/d/14L8wBpkHQij8LKu6TH5BEimPYpnlMDIM
 r = requests.get('https://drive.google.com/uc?export=download&id=14L8wBpkHQij8LKu6TH5BEimPYpnlMDIM')
+r.raise_for_status()
 with tempfile.NamedTemporaryFile() as tf:
     with open(tf.name, 'wb') as f:
         f.write(r.content)
