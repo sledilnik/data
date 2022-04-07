@@ -47,7 +47,7 @@ def import_nijz_dash_labtests():
 
     print(df_updated)
 
-    yesterday = date.today() - timedelta(days=0)
+    yesterday = date.today() - timedelta(days=1)
     if d.date() < yesterday:
         print(f"ABORTING update with too old date {d.date()} ({d}). Now is {datetime.now()}")
         exit(1)
