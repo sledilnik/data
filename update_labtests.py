@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import time
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 import pandas as pd
 import cepimose
 from update_stats import computeStats, computeCasesWithCount
@@ -15,10 +15,6 @@ def import_nijz_dash_labtests():
     df_existing = pd.read_csv(filenameByDay, index_col='date', parse_dates=['date'])
     print(df_existing)
     d = cepimose.lab_end_timestamp()
-    yesterday = date.today() - timedelta(days=1)
-    if d.date() < yesterday:
-        print(f"ABORTING update with too old date {d.date()}")
-        exit(1)
 
     print(f"Adding/updating lab test data for {d.date()}")
 
@@ -50,6 +46,11 @@ def import_nijz_dash_labtests():
         df_updated['tests.positive'].fillna(0).cumsum().replace({0: None}).astype('Int64')
 
     print(df_updated)
+
+    yesterday = date.today() - timedelta(days=0)
+    if d.date() < yesterday:
+        print(f"ABORTING update with too old date {d.date()} ({d}). Now is {datetime.now()}")
+        exit(1)
 
     old_hash = sha1sum(filenameByDay)
     df_updated.to_csv(filenameByDay, date_format='%Y-%m-%d',line_terminator='\r\n')
