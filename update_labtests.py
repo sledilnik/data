@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import time
+from datetime import date, timedelta
 import pandas as pd
 import cepimose
 from update_stats import computeStats, computeCasesWithCount
@@ -14,6 +15,11 @@ def import_nijz_dash_labtests():
     df_existing = pd.read_csv(filenameByDay, index_col='date', parse_dates=['date'])
     print(df_existing)
     d = cepimose.lab_end_timestamp()
+    yesterday = date.today() - timedelta(days=1)
+    if d.date() < yesterday:
+        print(f"ABORTING update with too old date {d.date()}")
+        exit(1)
+
     print(f"Adding/updating lab test data for {d.date()}")
 
     # copy last row structure, with None values:
