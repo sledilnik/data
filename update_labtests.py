@@ -50,6 +50,7 @@ def import_nijz_dash_labtests():
     yesterday = date.today() - timedelta(days=1)
     if d.date() < yesterday:
         print(f"ABORTING update with too old date {d.date()} ({d}). Now is {datetime.now()}")
+        print(f"Cases {cepimose.lab_cases_confirmed()}, PCR: {cepimose.lab_PCR_tests_performed()} HAT: {cepimose.lab_HAT_tests_performed()}")
         exit(1)
 
     old_hash = sha1sum(filenameByDay)
