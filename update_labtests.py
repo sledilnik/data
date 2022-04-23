@@ -14,7 +14,7 @@ def import_nijz_dash_labtests():
 
     df_existing = pd.read_csv(filenameByDay, index_col='date', parse_dates=['date'])
     print(df_existing)
-    d = cepimose.lab_end_timestamp()
+    d = cepimose.lab_end_timestamp() + timedelta(days=1)
 
     print(f"Adding/updating lab test data for {d.date()}")
 
@@ -51,7 +51,7 @@ def import_nijz_dash_labtests():
     if d.date() < yesterday:
         print(f"ABORTING update with too old date {d.date()} ({d}). Now is {datetime.now()}")
         print(f"Cases {cepimose.lab_cases_confirmed()}, PCR: {cepimose.lab_PCR_tests_performed()} HAT: {cepimose.lab_HAT_tests_performed()}")
-        exit(1)
+        #exit(1)
 
     old_hash = sha1sum(filenameByDay)
     df_updated.to_csv(filenameByDay, date_format='%Y-%m-%d',line_terminator='\r\n')
