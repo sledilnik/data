@@ -36,7 +36,7 @@ def computeStats(update_time):
         'cases.hs.employee.confirmed.todate', 'cases.rh.employee.confirmed.todate', 'cases.rh.occupant.confirmed.todate',
         'cases.vaccinated.confirmed.todate'
     ]]
-    merged = df_phases.join(df_patients).join(dfRegions).join(dfAgeC).join(dfAgeD).join(dfRhD).join(df_lab_tests).join(df_cases).join(dfVaccination)
+    merged = df_phases.join(df_patients).join(df_lab_tests).join(df_cases, how='outer').join(dfRegions).join(dfAgeC).join(dfAgeD).join(dfRhD).join(dfVaccination)
     merged['cases.unclassified.confirmed.todate'] = merged['cases.confirmed.todate'] \
         .sub(merged['cases.hs.employee.confirmed.todate'], fill_value=0) \
         .sub(merged['cases.rh.employee.confirmed.todate'], fill_value=0) \
