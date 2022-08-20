@@ -42,6 +42,7 @@ def computeVaccination(update_time):
         'vaccination.administered', 'vaccination.administered.todate',
         'vaccination.administered2nd', 'vaccination.administered2nd.todate',
         'vaccination.administered3rd', 'vaccination.administered3rd.todate',
+        # 'vaccination.administered4th', 'vaccination.administered4th.todate',
         'vaccination.used.todate',
         'vaccination.pfizer.used.todate',
         'vaccination.moderna.used.todate',
@@ -54,23 +55,23 @@ def computeVaccination(update_time):
         'vaccination.az.delivered', 'vaccination.az.delivered.todate',
         'vaccination.janssen.delivered', 'vaccination.janssen.delivered.todate',
         'vaccination.novavax.delivered', 'vaccination.novavax.delivered.todate',
-        'vaccination.age.0-11.1st.todate','vaccination.age.0-11.2nd.todate','vaccination.age.0-11.3rd.todate',
-        'vaccination.age.12-17.1st.todate','vaccination.age.12-17.2nd.todate','vaccination.age.12-17.3rd.todate',
-        'vaccination.age.18-24.1st.todate','vaccination.age.18-24.2nd.todate','vaccination.age.18-24.3rd.todate',
-        'vaccination.age.25-29.1st.todate','vaccination.age.25-29.2nd.todate','vaccination.age.25-29.3rd.todate',
-        'vaccination.age.30-34.1st.todate','vaccination.age.30-34.2nd.todate','vaccination.age.30-34.3rd.todate',
-        'vaccination.age.35-39.1st.todate','vaccination.age.35-39.2nd.todate','vaccination.age.35-39.3rd.todate',
-        'vaccination.age.40-44.1st.todate','vaccination.age.40-44.2nd.todate','vaccination.age.40-44.3rd.todate',
-        'vaccination.age.45-49.1st.todate','vaccination.age.45-49.2nd.todate','vaccination.age.45-49.3rd.todate',
-        'vaccination.age.50-54.1st.todate','vaccination.age.50-54.2nd.todate','vaccination.age.50-54.3rd.todate',
-        'vaccination.age.55-59.1st.todate','vaccination.age.55-59.2nd.todate','vaccination.age.55-59.3rd.todate',
-        'vaccination.age.60-64.1st.todate','vaccination.age.60-64.2nd.todate','vaccination.age.60-64.3rd.todate',
-        'vaccination.age.65-69.1st.todate','vaccination.age.65-69.2nd.todate','vaccination.age.65-69.3rd.todate',
-        'vaccination.age.70-74.1st.todate','vaccination.age.70-74.2nd.todate','vaccination.age.70-74.3rd.todate',
-        'vaccination.age.75-79.1st.todate','vaccination.age.75-79.2nd.todate','vaccination.age.75-79.3rd.todate',
-        'vaccination.age.80-84.1st.todate','vaccination.age.80-84.2nd.todate','vaccination.age.80-84.3rd.todate',
-        'vaccination.age.85-89.1st.todate','vaccination.age.85-89.2nd.todate','vaccination.age.85-89.3rd.todate',
-        'vaccination.age.90+.1st.todate','vaccination.age.90+.2nd.todate','vaccination.age.90+.3rd.todate'
+        'vaccination.age.0-11.1st.todate' ,'vaccination.age.0-11.2nd.todate' ,'vaccination.age.0-11.3rd.todate' ,#'vaccination.age.0-11.4th.todate',
+        'vaccination.age.12-17.1st.todate','vaccination.age.12-17.2nd.todate','vaccination.age.12-17.3rd.todate',#'vaccination.age.12-17.4th.todate',
+        'vaccination.age.18-24.1st.todate','vaccination.age.18-24.2nd.todate','vaccination.age.18-24.3rd.todate',#'vaccination.age.18-24.4th.todate',
+        'vaccination.age.25-29.1st.todate','vaccination.age.25-29.2nd.todate','vaccination.age.25-29.3rd.todate',#'vaccination.age.25-29.4th.todate',
+        'vaccination.age.30-34.1st.todate','vaccination.age.30-34.2nd.todate','vaccination.age.30-34.3rd.todate',#'vaccination.age.30-34.4th.todate',
+        'vaccination.age.35-39.1st.todate','vaccination.age.35-39.2nd.todate','vaccination.age.35-39.3rd.todate',#'vaccination.age.35-39.4th.todate',
+        'vaccination.age.40-44.1st.todate','vaccination.age.40-44.2nd.todate','vaccination.age.40-44.3rd.todate',#'vaccination.age.40-44.4th.todate',
+        'vaccination.age.45-49.1st.todate','vaccination.age.45-49.2nd.todate','vaccination.age.45-49.3rd.todate',#'vaccination.age.45-49.4th.todate',
+        'vaccination.age.50-54.1st.todate','vaccination.age.50-54.2nd.todate','vaccination.age.50-54.3rd.todate',#'vaccination.age.50-54.4th.todate',
+        'vaccination.age.55-59.1st.todate','vaccination.age.55-59.2nd.todate','vaccination.age.55-59.3rd.todate',#'vaccination.age.55-59.4th.todate',
+        'vaccination.age.60-64.1st.todate','vaccination.age.60-64.2nd.todate','vaccination.age.60-64.3rd.todate',#'vaccination.age.60-64.4th.todate',
+        'vaccination.age.65-69.1st.todate','vaccination.age.65-69.2nd.todate','vaccination.age.65-69.3rd.todate',#'vaccination.age.65-69.4th.todate',
+        'vaccination.age.70-74.1st.todate','vaccination.age.70-74.2nd.todate','vaccination.age.70-74.3rd.todate',#'vaccination.age.70-74.4th.todate',
+        'vaccination.age.75-79.1st.todate','vaccination.age.75-79.2nd.todate','vaccination.age.75-79.3rd.todate',#'vaccination.age.75-79.4th.todate',
+        'vaccination.age.80-84.1st.todate','vaccination.age.80-84.2nd.todate','vaccination.age.80-84.3rd.todate',#'vaccination.age.80-84.4th.todate',
+        'vaccination.age.85-89.1st.todate','vaccination.age.85-89.2nd.todate','vaccination.age.85-89.3rd.todate',#'vaccination.age.85-89.4th.todate',
+        'vaccination.age.90+.1st.todate'  ,'vaccination.age.90+.2nd.todate'  ,'vaccination.age.90+.3rd.todate'   #,'vaccination.age.90+.4th.todate'
     ], axis='columns')
     merged.to_csv(filename, float_format='%.0f', line_terminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=old_hash)
@@ -82,7 +83,8 @@ def import_nijz_dash_vacc_administred():
     df = pd.DataFrame.from_dict(cepimose.vaccinations_by_day()).set_index('date').rename(columns={
         'first_dose': 'vaccination.administered.todate',
         'second_dose': 'vaccination.administered2nd.todate',
-        'third_dose': 'vaccination.administered3rd.todate'
+        'third_dose': 'vaccination.administered3rd.todate'#,
+        # 'fourth_dose': 'vaccination.administered4th.todate'
     })
 
     # dummy row for diff calculation remowed afterwards
@@ -90,14 +92,16 @@ def import_nijz_dash_vacc_administred():
     dummy_row = pd.DataFrame({
         'vaccination.administered.todate': 0,
         'vaccination.administered2nd.todate': 0,
-        'vaccination.administered3rd.todate': 0
+        'vaccination.administered3rd.todate': 0#,
+        # 'vaccination.administered4th.todate': 0
     }, index=[dummy_date])
 
     # calculate diffs from cumulative values (vaccinations per day)
     df_diff = pd.concat([dummy_row, df]).diff().drop(labels=[dummy_date]).rename(columns={
         'vaccination.administered.todate': 'vaccination.administered',
         'vaccination.administered2nd.todate': 'vaccination.administered2nd',
-        'vaccination.administered3rd.todate': 'vaccination.administered3rd'
+        'vaccination.administered3rd.todate': 'vaccination.administered3rd'#,
+        # 'vaccination.administered4th.todate': 'vaccination.administered4th'
     }).astype('Int64')
 
     # merge dataframes (cumulative and per day)
@@ -106,7 +110,8 @@ def import_nijz_dash_vacc_administred():
     # sort cols
     df = df[['vaccination.administered', 'vaccination.administered.todate',
              'vaccination.administered2nd', 'vaccination.administered2nd.todate',
-             'vaccination.administered3rd', 'vaccination.administered3rd.todate']]
+             'vaccination.administered3rd', 'vaccination.administered3rd.todate']]#,
+            #  'vaccination.administered4th', 'vaccination.administered4th.todate']]
     df = df.astype('Int64')
 
     # write csv
@@ -251,6 +256,7 @@ def import_nijz_dash_vacc_by_age():
     for ag in vByAgeGroups:
         print(f"Joining {ageGroups[ag]} ({ag}): {len(vByAgeGroups[ag])} rows:")
         agData = pd.DataFrame.from_dict(vByAgeGroups[ag]).set_index('date')
+        agData.drop(columns=['fourth_dose'], inplace=True) # TODO: remove
         # agData["first_diff"] = agData["first_dose"].diff()
         # agData["second_diff"] = agData["second_dose"].diff()
         # agData = agData[['first_diff', 'first_dose', 'second_diff', 'second_dose']]
@@ -261,6 +267,8 @@ def import_nijz_dash_vacc_by_age():
             'second_dose': f'vaccination.age.{ageGroups[ag]}.2nd.todate',
             # 'third_diff': f'vaccination.region.{ageGroups[ag]}.3rd',
             'third_dose': f'vaccination.age.{ageGroups[ag]}.3rd.todate',
+            # 'fourth_diff': f'vaccination.region.{ageGroups[ag]}.4th',
+            # 'fourth_dose': f'vaccination.age.{ageGroups[ag]}.4th.todate',
         })
         print(agData)
         print(agData.describe())
@@ -303,7 +311,8 @@ def import_nijz_dash_vacc_by_region():
         regData["first_diff"] = regData["first_dose"].diff()
         regData["second_diff"] = regData["second_dose"].diff()
         regData["third_diff"] = regData["third_dose"].diff()
-        regData = regData[['first_diff', 'first_dose', 'second_diff', 'second_dose', 'third_diff', 'third_dose']]
+        # regData["fourth_diff"] = regData["fourth_dose"].diff()
+        regData = regData[['first_diff', 'first_dose', 'second_diff', 'second_dose', 'third_diff', 'third_dose']]#, 'fourth_diff', 'fourth_dose']]
         regData.rename(inplace=True, columns={
             'first_diff': 'vaccination.region.{}.1st'.format(regions[reg]),
             'first_dose': 'vaccination.region.{}.1st.todate'.format(regions[reg]),
@@ -311,6 +320,8 @@ def import_nijz_dash_vacc_by_region():
             'second_dose': 'vaccination.region.{}.2nd.todate'.format(regions[reg]),
             'third_diff': 'vaccination.region.{}.3rd'.format(regions[reg]),
             'third_dose': 'vaccination.region.{}.3rd.todate'.format(regions[reg]),
+            # 'fourth_diff': 'vaccination.region.{}.4th'.format(regions[reg]),
+            # 'fourth_dose': 'vaccination.region.{}.4th.todate'.format(regions[reg]),
         })
         print(regData)
         print(regData.describe())
