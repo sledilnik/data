@@ -45,7 +45,7 @@ def computeVaccinatedCases(update_time):
     df_vaccination_cases = df_vaccination_cases [[ 'cases.vaccinated.confirmed.todate' ]]
     df_vaccination_cases.index.names = ['date']
 
-    df_vaccination_cases.replace({0: None}).astype('Int64').dropna().to_csv(filename, line_terminator='\r\n')
+    df_vaccination_cases.replace({0: None}).astype('Int64').dropna().to_csv(filename, lineterminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=df_old_hash)
 
 
@@ -84,7 +84,7 @@ def computeVaccinatedCasesWeekly(update_time):
     merged = df_hospitalized_cases.join(df_icu_cases, how='outer')
     merged.index.name = 'week'
 
-    merged.astype('Int64').dropna(thresh=1).to_csv(filename, line_terminator='\r\n')
+    merged.astype('Int64').dropna(thresh=1).to_csv(filename, lineterminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=df_old_hash)
 
 
@@ -108,7 +108,7 @@ def computeStatsWeekly(update_time):
     for field in stats_weekly_sorted_fields[2:]:
         merged[field] = merged[field].astype('Int64')
 
-    merged.to_csv(filename, line_terminator='\r\n')
+    merged.to_csv(filename, lineterminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=df_old_hash)
 
 

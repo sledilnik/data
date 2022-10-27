@@ -54,7 +54,7 @@ def import_nijz_dash_labtests():
         exit(1)
 
     old_hash = sha1sum(filenameByDay)
-    df_updated.to_csv(filenameByDay, date_format='%Y-%m-%d',line_terminator='\r\n')
+    df_updated.to_csv(filenameByDay, date_format='%Y-%m-%d',lineterminator='\r\n')
     write_timestamp_file(filenameByDay, old_hash)
 
     return cepimose.lab_cases_confirmed()  # PCR+HAT positive is confirmed cases

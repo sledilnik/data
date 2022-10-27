@@ -173,7 +173,7 @@ merged = pd.concat([df_archive, merged]).reindex(stats_weekly_sorted_fields, axi
 def export_dataframe_to_csv(name: str, dataframe):
     filename = os.path.join(CSV_FOLDER, f'{name}.csv')
     old_hash = sha1sum(filename)
-    dataframe.to_csv(filename, line_terminator='\r\n')
+    dataframe.to_csv(filename, lineterminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=old_hash)
 
 

@@ -28,7 +28,7 @@ CSV_FOLDER = os.path.join(os.path.dirname(__file__), '../csv')
 def export_dataframe_to_csv(name: str, dataframe):
     filename = os.path.join(CSV_FOLDER, f'{name}.csv')
     old_hash = sha1sum(filename)
-    dataframe.replace({0: None}).astype('Int64').to_csv(filename, line_terminator='\r\n')
+    dataframe.replace({0: None}).astype('Int64').to_csv(filename, lineterminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=old_hash)
 
 

@@ -72,7 +72,7 @@ def computeVaccination(update_time):
         'vaccination.age.85-89.1st.todate','vaccination.age.85-89.2nd.todate','vaccination.age.85-89.3rd.todate',
         'vaccination.age.90+.1st.todate','vaccination.age.90+.2nd.todate','vaccination.age.90+.3rd.todate'
     ], axis='columns')
-    merged.to_csv(filename, float_format='%.0f', line_terminator='\r\n')
+    merged.to_csv(filename, float_format='%.0f', lineterminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=old_hash)
 
 
@@ -200,7 +200,7 @@ def import_nijz_dash_vacc_delivered():
     # write csv
     old_hash = sha1sum(filename)
     # force integer type
-    df.fillna(0).round().astype('Int64').replace({0:None}).dropna(thresh=1).to_csv(filename, date_format="%Y-%m-%d", line_terminator='\r\n')
+    df.fillna(0).round().astype('Int64').replace({0:None}).dropna(thresh=1).to_csv(filename, date_format="%Y-%m-%d", lineterminator='\r\n')
     write_timestamp_file(filename, old_hash)
 
 def adjust_vacc_delivered(df):
@@ -322,7 +322,7 @@ def import_nijz_dash_vacc_by_region():
     # write csv
     old_hash = sha1sum(filename)
     # force integer type
-    df.fillna(0).round().astype('Int64').replace({0:None}).to_csv(filename, date_format="%Y-%m-%d", line_terminator='\r\n')
+    df.fillna(0).round().astype('Int64').replace({0:None}).to_csv(filename, date_format="%Y-%m-%d", lineterminator='\r\n')
     write_timestamp_file(filename, old_hash)
 
 def import_nijz_dash_vacc_by_municipalities():

@@ -81,7 +81,7 @@ def computeStats(update_time):
         'vaccination.used.todate', 'vaccination.delivered.todate'
     ], axis='columns')
 
-    merged.to_csv(filename, float_format='%.0f', line_terminator='\r\n')
+    merged.to_csv(filename, float_format='%.0f', lineterminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=old_hash)
 
 def computeMunicipalityCases(update_time):
@@ -172,7 +172,7 @@ def computeCasesWithCount(update_time, last_day_confirmed):
     ], axis='columns')
 
 
-    df_cases.replace({0: None}).astype('Int64').to_csv(filename, line_terminator='\r\n')
+    df_cases.replace({0: None}).astype('Int64').to_csv(filename, lineterminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=df_cases_old_hash)
 
 def computeCases(update_time):
