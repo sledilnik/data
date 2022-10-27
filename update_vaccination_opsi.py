@@ -6,19 +6,8 @@ import pandas as pd
 
 from update_stats import sha1sum, write_timestamp_file, computeCases, computeStats
 from transform.country_codes import stats_weekly_sorted_fields
+from transform.utils import saveurl
 
-def saveurl(url, filename, expectedContentType):
-    print("Downloading ", url)
-    r = requests.get(url, allow_redirects=True)
-    r.raise_for_status()
-
-    actualContentType = r.headers['Content-Type']
-
-    if actualContentType == expectedContentType:
-        open(filename, 'wb').write(r.content)
-        print("Saved", filename)
-    else:
-        raise Exception("Unexpected content-type:", actualContentType)
 
 def import_opsi_vaccination_effects():
     # https://podatki.gov.si/dataset/potrjeni-primeri-covid-19-po-cepljenju

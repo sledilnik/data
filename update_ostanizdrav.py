@@ -6,7 +6,7 @@ from pandas.core.indexes.base import Index
 import pandas as pd
 
 from update_stats import sha1sum, write_timestamp_file #, computeStats
-from update_vaccination_opsi import saveurl
+from transform.utils import saveurl 
 
 
 def import_opsi_ostanizdrav():
