@@ -408,7 +408,7 @@ def import_nijz_dash_vacc_by_municipalities():
 
 
 def import_opsi_vaccination():
-    # https://podatki.gov.si/dataset/potrjeni-primeri-covid-19-po-cepljenju
+    # https://podatki.gov.si/dataset/precepljenost-proti-covid19
     saveurl("https://podatki.gov.si/dataset/3634ebb7-605b-412a-8145-96b714c1e72b/resource/639e2e1a-7d4b-4b10-8cdc-f2f8b0258ea0/download/vwlusycepljenje.csv", "csv/vaccination-opsi.csv", "text/csv")
 
 
