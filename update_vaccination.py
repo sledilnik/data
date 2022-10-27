@@ -6,7 +6,7 @@ import pandas as pd
 import cepimose
 from update_stats import computeMunicipalityCases, computeRegionCases, computeStats
 
-from transform.utils import sha1sum, write_timestamp_file
+from transform.utils import sha1sum, write_timestamp_file, saveurl
 
 def computeVaccination(update_time):
     filename = 'csv/vaccination.csv'
@@ -406,15 +406,24 @@ def import_nijz_dash_vacc_by_municipalities():
     df_updated.to_csv(filenameByDay, date_format='%Y-%m-%d')
     write_timestamp_file(filenameByDay, old_hash)
 
+
+def import_opsi_vaccination():
+    # https://podatki.gov.si/dataset/potrjeni-primeri-covid-19-po-cepljenju
+    saveurl("https://podatki.gov.si/dataset/3634ebb7-605b-412a-8145-96b714c1e72b/resource/639e2e1a-7d4b-4b10-8cdc-f2f8b0258ea0/download/vwlusycepljenje.csv", "csv/vaccination-opsi.csv", "text/csv")
+
+
 if __name__ == "__main__":
     update_time = int(time.time())
 
-    import_nijz_dash_vacc_administred()
-    import_nijz_dash_vacc_used_by_manufacturer()
-    import_nijz_dash_vacc_delivered()
-    import_nijz_dash_vacc_by_age()
-    import_nijz_dash_vacc_by_region()
-    import_nijz_dash_vacc_by_municipalities()
+    import_opsi_vaccination()
+
+    # TODO: use files from OPSI:
+    # import_nijz_dash_vacc_administred()
+    # import_nijz_dash_vacc_used_by_manufacturer()
+    # import_nijz_dash_vacc_delivered()
+    # import_nijz_dash_vacc_by_age()
+    # import_nijz_dash_vacc_by_region()
+    # import_nijz_dash_vacc_by_municipalities()
 
     computeVaccination(update_time)
     computeMunicipalityCases(update_time)
