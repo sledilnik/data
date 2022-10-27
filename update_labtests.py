@@ -6,7 +6,7 @@ import pandas as pd
 import cepimose
 from update_stats import computeStats, computeCasesWithCount
 
-from transform.utils import sha1sum, write_timestamp_file
+from transform.utils import sha1sum, write_timestamp_file, saveurl 
 
 def import_nijz_dash_labtests():
     filenameByDay = "csv/lab-tests.csv"
@@ -59,9 +59,15 @@ def import_nijz_dash_labtests():
 
     return cepimose.lab_cases_confirmed()  # PCR+HAT positive is confirmed cases
 
+def import_opsi_labtests():
+    # https://podatki.gov.si/dataset/dnevno-spremljanje-okuzb-covid-19
+    saveurl("https://podatki.gov.si/dataset/56a1a649-5201-46d2-b503-03c6b36a6ee7/resource/9f297da4-1a93-4f62-8c14-cfff5c5d7377/download/vwlusyokuzeni.csv", "csv/cases-opsi.csv", "text/csv")
+
 
 if __name__ == "__main__":
     update_time = int(time.time())
+
+    import_opsi_labtests()
 
     last_day_cases = import_nijz_dash_labtests()
     computeCasesWithCount(update_time, last_day_cases)
