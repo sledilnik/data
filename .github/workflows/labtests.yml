@@ -68,6 +68,7 @@ jobs:
         ls -la csv/lab-tests.*
         ls -la csv/stats.*
         ls -la csv/cases.*
+        ls -la csv/cases-opsi.*
         git status
         git diff
 
@@ -80,6 +81,6 @@ jobs:
         push-branch: 'master'
         commit-message: 'NIJZ Lab tests data update 🤖'
         rebase: 'true' # pull and rebase before commit
-        files: csv/lab-tests.* csv/stats.* csv/cases.*
+        files: csv/lab-tests.* csv/stats.* csv/cases.* csv/cases-opsi.*
         name: Sledilnik data scrape bot 🤖
         email: info@sledilnik.org
