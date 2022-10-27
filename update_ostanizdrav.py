@@ -3,23 +3,10 @@ import time
 from datetime import date
 from numpy import int64, inf, nan
 from pandas.core.indexes.base import Index 
-import requests
 import pandas as pd
 
 from update_stats import sha1sum, write_timestamp_file #, computeStats
-
-def saveurl(url, filename, expectedContentType):
-    print("Downloading ", url)
-    r = requests.get(url, allow_redirects=True)
-    r.raise_for_status()
-
-    actualContentType = r.headers['Content-Type']
-
-    if actualContentType == expectedContentType:
-        open(filename, 'wb').write(r.content)
-        print("Saved", filename)
-    else:
-        raise Exception("Unexpected content-type:", actualContentType)
+from update_vaccination_opsi import saveurl
 
 
 def import_opsi_ostanizdrav():
