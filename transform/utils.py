@@ -63,7 +63,7 @@ def download_nijz_xslx_file(download_folder: str, search_for: str):
 
 def saveurl(url: str, filename: str, expectedContentType: str):
     print("Downloading ", url)
-    r = requests.get(url, allow_redirects=True)
+    r = requests.get(url, allow_redirects=True, verify=False)
     r.raise_for_status()
 
     actualContentType = r.headers['Content-Type']
