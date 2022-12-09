@@ -67,7 +67,7 @@ def saveurl(url: str, filename: str, expectedContentType: str):
     r.raise_for_status()
 
     actualContentType = r.headers['Content-Type']
-
+    print(actualContentType)
     if actualContentType == expectedContentType:
         open(filename, 'wb').write(r.content)
         print("Saved", filename)
