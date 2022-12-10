@@ -67,7 +67,7 @@ def import_opsi_labtests():
 if __name__ == "__main__":
     update_time = int(time.time())
 
-    #import_opsi_labtests()
+    import_opsi_labtests()
 
     last_day_cases = import_nijz_dash_labtests()
     computeCasesWithCount(update_time, last_day_cases)
