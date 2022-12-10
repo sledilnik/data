@@ -18,7 +18,7 @@ def import_opsi_ostanizdrav():
     saveurl("https://podatki.gov.si/dataset/d3e718b3-01f0-40bd-93b0-b56d3bb4e97f/resource/3710deae-85c9-41e5-ab27-cb06f6f74533/download/agregacijaostanizdrav.json", "ostanizdrav/podatki.gov.si/agregacijaostanizdrav.json", "application/json")
 
     # https://www.gov.si/teme/koronavirus-sars-cov-2/mobilna-aplikacija-ostanizdrav
-    saveurl("https://www.gov.si/assets/ministrstva/MJU/devices.csv", "ostanizdrav/gov.si/devices.csv", "text/csv")
+    #saveurl("https://www.gov.si/assets/ministrstva/MJU/devices.csv", "ostanizdrav/gov.si/devices.csv", "text/csv")
 
 
 def merge_ostanizdrav():
