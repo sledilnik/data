@@ -18,7 +18,7 @@ logger = logging.getLogger(__file__)
 covid_data_path = os.getenv('COVID_DATA_PATH')
 assert covid_data_path, 'COVID_DATA_PATH env variable must be set. (The location of the COVID-DATA folder)'
 
-download_nijz_xslx_file(download_folder=os.path.join(covid_data_path, 'EPI'), search_for='dnevni_prikazi')
+download_nijz_xslx_file(download_folder=os.path.join(covid_data_path, 'EPI'), search_for='DNEVNI-PRIKAZI')
 
 SOURCE_FILE = max(glob.glob(os.path.join(covid_data_path, 'EPI') + '/dnevni_prikazi*.xlsx'))  # take latest
 logger.info(f'SOURCE_FILE: {SOURCE_FILE}')

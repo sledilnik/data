@@ -16,8 +16,8 @@ logger = logging.getLogger(__file__)
 covid_data_path = os.getenv('COVID_DATA_PATH')
 assert covid_data_path, 'COVID_DATA_PATH env variable must be set. (The location of the COVID-DATA folder)'
 
-download_nijz_xslx_file(download_folder=os.path.join(covid_data_path, 'EPI'), search_for='tedenski_prikaz_okuzeni')
-download_nijz_xslx_file(download_folder=os.path.join(covid_data_path, 'EPI'), search_for='tedenski_prikaz_umrli')
+download_nijz_xslx_file(download_folder=os.path.join(covid_data_path, 'EPI'), search_for='TEDENSKI-PRIKAZ-OKUZENI')
+download_nijz_xslx_file(download_folder=os.path.join(covid_data_path, 'EPI'), search_for='TEDENSKI-PRIKAZ-UMRLI')
 
 SOURCE_FILE_INFECTED = max(glob.glob(os.path.join(covid_data_path, 'EPI') + '/tedenski_prikaz_okuzeni*.xlsx'))  # take latest
 logger.info(f'SOURCE_FILE okuzeni: {SOURCE_FILE_INFECTED}')
