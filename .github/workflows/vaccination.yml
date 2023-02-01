@@ -47,7 +47,7 @@ jobs:
         python-version: '3.8'
 
     - name: Cache pip
-      uses: actions/cache@v3.2.2
+      uses: actions/cache@v3.2.4
       with:
         # This path is specific to Ubuntu
         path: ~/.cache/pip
