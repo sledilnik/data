@@ -1,7 +1,7 @@
 [
   {
-    "update_timestamp": "2023-04-03T00:30:01,689255", 
-    "effective_date": "2023-04-02", 
+    "update_timestamp": "2023-04-04T00:30:01,795111", 
+    "effective_date": "2023-04-03", 
     "app_downloads_daily": 1, 
     "app_downloads_cumulated": 1, 
     "app_downloads_7days_sum": 1, 
@@ -10,9 +10,9 @@
     "app_downloads_7days_avg_trend_5percent": 1, 
     "persons_who_shared_keys_daily": 0, 
     "persons_who_shared_keys_cumulated": 28866, 
-    "persons_who_shared_keys_7days_sum": 38, 
-    "persons_who_shared_keys_7days_avg": 5.428571428571429, 
-    "persons_who_shared_keys_7days_avg_growthrate": 0.0, 
+    "persons_who_shared_keys_7days_sum": 25, 
+    "persons_who_shared_keys_7days_avg": 3.5714285714285716, 
+    "persons_who_shared_keys_7days_avg_growthrate": -2.285714285714285, 
     "persons_who_shared_keys_7days_avg_trend_5percent": -1, 
     "tests_total_daily": 0.0, 
     "labs_registered_cumulated": 1, 
