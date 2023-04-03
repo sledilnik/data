@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 import time
 from datetime import date
-import requests
 import pandas as pd
 
 from update_stats import sha1sum, write_timestamp_file
