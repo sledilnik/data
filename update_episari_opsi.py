@@ -73,26 +73,20 @@ def update_episari_weekly(update_time):
         'episari.covid.deceased.age.75-84',
         'episari.covid.deceased.age.85+' ]
     df_opsi['episari.week'] = df_opsi['episari.week'].str.replace('_','-')
-    df_opsi[['year', 'month']] = df_opsi['episari.week'].str.split('-', 1, expand=True)
+    df_opsi[['year', 'month']] = df_opsi['episari.week'].str.split(pat='-', n=1, expand=True)
     df_opsi['episari.date.from'] = df_opsi.apply(lambda row: date.fromisocalendar(int(row['year']), int(row['month']), 1).isoformat(), axis='columns') 
     df_opsi['episari.date.to'] = df_opsi.apply(lambda row: date.fromisocalendar(int(row['year']), int(row['month']), 7).isoformat(), axis='columns')
     df_opsi.drop(['year', 'month'], axis='columns', inplace=True)
     df_opsi['episari.source'] = 'csv'
-    df_opsi.drop(df_opsi.loc[df_opsi['episari.date.from'] < '2022-09-26'].index, inplace=True)
-
-    print(df_opsi.dtypes)
-    print(df_opsi)
-
+    print("OPSI: ", df_opsi)
     
     df_weekly = pd.read_csv(episari_weekly_csv, sep=',') #, index_col='episari.week')
+    print("OLD: ", df_weekly)
+
+    df_opsi.drop(df_opsi.loc[df_opsi['episari.date.from'] < '2022-09-26'].index, inplace=True)
     df_weekly.drop(df_weekly.loc[df_weekly['episari.date.from'] >= '2022-09-26'].index, inplace=True)
 
-    print(df_weekly)
-
     merged = pd.concat([df_weekly, df_opsi], ignore_index=True).set_index('episari.date.from')
-
-    print(merged)
-
     merged.to_csv(
         episari_weekly_csv,
         float_format='%.0f',
@@ -168,8 +162,8 @@ def update_episari_weekly(update_time):
             'episari.covid.in.vacc',
             'episari.covid.in.notvacc',
             'episari.covid.in.vacc.age.65+'])
-    print(merged)
     write_timestamp_file(episari_weekly_csv, df_old_hash)
+    print("NEW", merged)
 
 
 if __name__ == "__main__":
