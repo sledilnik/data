@@ -7,6 +7,7 @@
 [![Vaccination OPSI update](https://github.com/sledilnik/data/actions/workflows/vaccination_opsi.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/vaccination_opsi.yml)
 [![Lab tests update](https://github.com/sledilnik/data/actions/workflows/labtests.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/labtests.yml)
 [![EPISARI OPSI data update](https://github.com/sledilnik/data/actions/workflows/episari.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/episari.yml)
+[![Sewage OPSI data update](https://github.com/sledilnik/data/actions/workflows/sewage-opsi.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/sewage-opsi.yml)
 
 # Slovenia COVID-19 Data Collection - Sledilnik.org
 
