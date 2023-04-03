@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: EPISARI OPSI data update
+name: Sewage OPSI data update
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -59,7 +59,7 @@ jobs:
         git diff
 
     # Git commit + push, see https://github.com/github-actions-x/commit
-    - name: Publish EPISARI changes to git
+    - name: Publish sewage changes to git
       if: github.ref == 'refs/heads/master'
       uses: github-actions-x/commit@v2.9
       with:
