@@ -170,6 +170,7 @@ def update_episari_weekly(update_time):
             'episari.covid.in.notvacc',
             'episari.covid.in.vacc.age.65+'])
     print(merged)
+    write_timestamp_file(episari_weekly_csv, df_old_hash)
 
 
 if __name__ == "__main__":
