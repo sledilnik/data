@@ -67,6 +67,6 @@ jobs:
         push-branch: 'master'
         commit-message: 'EPISARI data update 🤖'
         rebase: 'true' # pull and rebase before commit
-        files: episari_nijz_src/episari-opsi.csv csv/episari*
+        files: sources/opsi/episari/episari* csv/episari*
         name: Sledilnik data scrape bot 🤖
         email: info@sledilnik.org

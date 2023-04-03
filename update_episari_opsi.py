@@ -7,7 +7,7 @@ from update_stats import sha1sum, write_timestamp_file
 from transform.utils import saveurl
 
 opsi_episari_url="https://podatki.gov.si/dataset/7d73b91a-b551-4783-bb2c-8e4c8953a974/resource/7716561d-3c4e-4522-be4c-493cce35510a/download/episaricsv.csv"
-opsi_episari_csv="episari_nijz_src/episari-opsi.csv"
+opsi_episari_csv="sources/opsi/episari/episari-opsi.csv"
 episari_weekly_csv="csv/episari-nijz-weekly.csv"
 
 
