@@ -308,6 +308,18 @@ sewage.date,sewage.station,sewage.genome,sewage.ratio,sewage.region
 2023-02-26,CČN Ljubljana,Omikron,0.4868,lj
 2023-02-26,ČN Koper,Omikron,0.1136,kp
 2023-02-26,ČN Maribor,Omikron,0.6392,mb
+2023-03-27,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.7384,sg
+2023-03-26,ČN Koper,Omikron,0.0412,kp
+2023-03-26,ČN Maribor,Omikron,0.1048,mb
+2023-03-26,CČN Postojna,Omikron,0.0,po
+2023-03-26,ČN Nova Gorica,Omikron,0.1063,ng
+2023-03-26,ČN Domžale Kamnik,Omikron,0.4164,lj
+2023-03-26,ČN Kranj,Omikron,0.491,kr
+2023-03-27,OČN Šaleške doline,Omikron,0.0963,ce
+2023-03-27,CČN Zagorje,Omikron,0.0935,za
+2023-03-27,ČN Novo mesto,Omikron,0.2193,nm
+2023-03-26,CČN Ljubljana,Omikron,0.0863,lj
+2023-03-26,CČN Murska Sobota,Omikron,0.0244,ms
 2022-09-12,CČN Murska Sobota,Omikron,0.0016,ms
 2022-09-11,ČN Nova Gorica,Omikron,0.1316,ng
 2022-09-12,CČN Zagorje,Omikron,0.0333,za
@@ -606,6 +618,18 @@ sewage.date,sewage.station,sewage.genome,sewage.ratio,sewage.region
 2023-02-26,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.3146,lj
 2023-02-26,ČN Koper,BQ.1* Omikron BQ.1.X,0.1018,kp
 2023-02-26,ČN Maribor,BA.5* Omikron BA.5.X,0.2071,mb
+2023-03-27,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.1667,sg
+2023-03-26,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.1931,kp
+2023-03-26,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.1958,mb
+2023-03-26,CČN Postojna,BA.5* Omikron BA.5.X,0.1527,po
+2023-03-26,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.1574,ng
+2023-03-26,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.2057,lj
+2023-03-26,ČN Kranj,BA.5* Omikron BA.5.X,0.4995,kr
+2023-03-27,OČN Šaleške doline,BA.2.75* Omikron BA.2.75.X,0.1122,ce
+2023-03-27,CČN Zagorje,BA.5* Omikron BA.5.X,0.0126,za
+2023-03-27,ČN Novo mesto,BA.5* Omikron BA.5.X,0.027,nm
+2023-03-26,CČN Ljubljana,BA.5* Omikron BA.5.X,0.0155,lj
+2023-03-26,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.1756,ms
 2022-09-12,CČN Murska Sobota,Drugo,0.001,ms
 2022-09-11,ČN Nova Gorica,Drugo,0.0021,ng
 2022-09-12,CČN Zagorje,Drugo,0.0011,za
@@ -860,6 +884,16 @@ sewage.date,sewage.station,sewage.genome,sewage.ratio,sewage.region
 2023-02-26,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.1986,lj
 2023-02-26,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.0417,kp
 2023-02-26,ČN Maribor,BQ.1* Omikron BQ.1.X,0.1262,mb
+2023-03-27,CČN Slovenj Gradec,Omikron,0.0098,sg
+2023-03-26,ČN Koper,BA.5* Omikron BA.5.X,0.0586,kp
+2023-03-26,ČN Maribor,BQ.1* Omikron BQ.1.X,0.1231,mb
+2023-03-26,CČN Postojna,BQ.1* Omikron BQ.1.X,0.0465,po
+2023-03-26,ČN Nova Gorica,Drugo,0.0035,ng
+2023-03-26,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.0166,lj
+2023-03-27,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.0532,ce
+2023-03-27,CČN Zagorje,Drugo,0.0034,za
+2023-03-27,ČN Novo mesto,Drugo,0.0021,nm
+2023-03-26,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.0061,lj
 2022-09-12,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.001,za
 2022-09-19,CČN Trbovlje,Drugo,0.0032,za
 2022-09-19,CČN Litija in Šmartno pri Litiji,Omikron,0.002,za
@@ -1051,6 +1085,13 @@ sewage.date,sewage.station,sewage.genome,sewage.ratio,sewage.region
 2023-02-27,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.0811,nm
 2023-02-26,ČN Koper,Drugo,0.0085,kp
 2023-02-26,ČN Maribor,Drugo,0.0275,mb
+2023-03-26,ČN Koper,Drugo,0.0028,kp
+2023-03-26,ČN Maribor,BA.5* Omikron BA.5.X,0.103,mb
+2023-03-26,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.0033,ng
+2023-03-27,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.0303,ce
+2023-03-27,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.0016,za
+2023-03-27,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.002,nm
+2023-03-26,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.0031,lj
 2022-09-26,CČN Litija in Šmartno pri Litiji,Drugo,0.0027,za
 2022-09-26,ČN Celje,Drugo,0.0017,ce
 2022-10-10,ČN Nova Gorica,Drugo,0.0011,ng
@@ -1150,6 +1191,8 @@ sewage.date,sewage.station,sewage.genome,sewage.ratio,sewage.region
 2023-02-26,ČN Kranj,BA.5* Omikron BA.5.X,0.0044,kr
 2023-02-27,ČN Novo mesto,Drugo,0.0256,nm
 2023-02-26,ČN Koper,BA.5* Omikron BA.5.X,0.0064,kp
+2023-03-26,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.0032,ng
+2023-03-27,OČN Šaleške doline,Drugo,0.0032,ce
 2023-02-05,ČN Domžale Kamnik,XBB.1.5* Omikron XBB.1.5.X,0.4595,lj
 2023-02-06,CČN Trbovlje,XBB.1.5* Omikron XBB.1.5.X,0.2667,za
 2023-02-13,CČN Zagorje,XBB.1.5* Omikron XBB.1.5.X,0.557,za
@@ -1202,6 +1245,15 @@ sewage.date,sewage.station,sewage.genome,sewage.ratio,sewage.region
 2023-02-26,ČN Kranj,XBB.1.5* Omikron XBB.1.5.X,0.8993,kr
 2023-02-27,ČN Novo mesto,XBB.1.5* Omikron XBB.1.5.X,0.359,nm
 2023-02-26,ČN Koper,XBB.1.5* Omikron XBB.1.5.X,0.7276,kp
+2023-03-26,ČN Koper,XBB.1.5* Omikron XBB.1.5.X,0.7028,kp
+2023-03-26,ČN Maribor,XBB.1.5* Omikron XBB.1.5.X,0.4733,mb
+2023-03-26,CČN Postojna,XBB.1.5* Omikron XBB.1.5.X,0.8,po
+2023-03-26,ČN Nova Gorica,XBB.1.5* Omikron XBB.1.5.X,0.725,ng
+2023-03-27,OČN Šaleške doline,XBB.1.5* Omikron XBB.1.5.X,0.7045,ce
+2023-03-27,CČN Zagorje,XBB.1.5* Omikron XBB.1.5.X,0.8889,za
+2023-03-27,ČN Novo mesto,XBB.1.5* Omikron XBB.1.5.X,0.7479,nm
+2023-03-26,CČN Ljubljana,XBB.1.5* Omikron XBB.1.5.X,0.8883,lj
+2023-03-26,CČN Murska Sobota,XBB.1.5* Omikron XBB.1.5.X,0.8,ms
 2023-02-05,ČN Kranj,XBB.1.5* Omikron XBB.1.5.X,0.2113,kr
 2023-02-12,ČN Maribor,XBB.1.5* Omikron XBB.1.5.X,0.1544,mb
 2023-02-13,CČN Trbovlje,XBB.1.5* Omikron XBB.1.5.X,0.1261,za
@@ -1213,14 +1265,17 @@ sewage.date,sewage.station,sewage.genome,sewage.ratio,sewage.region
 2023-03-06,ČN Maribor,XBB.1.5* Omikron XBB.1.5.X,0.2165,mb
 2023-03-20,OČN Šaleške doline,XBB.1.5* Omikron XBB.1.5.X,0.3183,ce
 2023-03-19,ČN Maribor,XBB.1.5* Omikron XBB.1.5.X,0.1708,mb
+2023-03-26,ČN Domžale Kamnik,XBB.1.5* Omikron XBB.1.5.X,0.3613,lj
 2023-02-13,ČN Novo mesto,XBB.1.5* Omikron XBB.1.5.X,0.0593,nm
 2023-02-20,CČN Slovenj Gradec,XBB.1.5* Omikron XBB.1.5.X,0.1825,sg
 2023-03-20,CČN Slovenj Gradec,XBB.1.5* Omikron XBB.1.5.X,0.2597,sg
 2023-03-20,ČN Novo mesto,XBB.1.5* Omikron XBB.1.5.X,0.0052,nm
+2023-03-26,ČN Kranj,XBB.1.5* Omikron XBB.1.5.X,0.009,kr
 2023-01-23,CČN Litija in Šmartno pri Litiji,XBB.1.5* Omikron XBB.1.5.X,0.0324,za
 2023-01-22,CČN Ljubljana,XBB.1.5* Omikron XBB.1.5.X,0.0902,lj
 2023-02-13,CČN Postojna,XBB.1.5* Omikron XBB.1.5.X,0.0164,po
 2023-03-07,CČN Trbovlje,XBB.1.5* Omikron XBB.1.5.X,0.0252,za
+2023-03-27,CČN Slovenj Gradec,XBB.1.5* Omikron XBB.1.5.X,0.0847,sg
 2022-12-26,CČN Slovenj Gradec,XBB.1.5* Omikron XBB.1.5.X,0.0943,sg
 2023-01-08,CČN Ljubljana,XBB.1.5* Omikron XBB.1.5.X,0.0266,lj
 2022-12-26,ČN Domžale Kamnik,XBB.1.5* Omikron XBB.1.5.X,0.0391,lj
