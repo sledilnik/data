@@ -33,7 +33,7 @@ def download_nijz_xslx_file(download_folder: str, search_for: str):
 
     def get_nijz_xlsx_url(search_for: str):
         pq = pyquery.PyQuery(requests.get(
-            url='https://nijz.si/nalezljive-bolezni/koronavirus/dnevno-spremljanje-okuzb-s-sars-cov-2-covid-19/',
+            url='https://nijz.si/nalezljive-bolezni/koronavirus/spremljanje-okuzb-s-sars-cov-2-covid-19/',
             headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0'}
         ).text)
         for x in pq('a').items():
