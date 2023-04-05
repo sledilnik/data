@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.com/sledilnik/data.svg?branch=master)](https://travis-ci.com/sledilnik/data)
 [![GSheets update](https://github.com/sledilnik/data/actions/workflows/gsheets.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/gsheets.yml)
 [![OstaniZdrav update](https://github.com/sledilnik/data/actions/workflows/ostanizdrav.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/ostanizdrav.yml)
 [![Schools update](https://github.com/sledilnik/data/actions/workflows/schools.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/schools.yml)
@@ -35,9 +34,6 @@ In this folder run:
 # Updating data
 
 Most GitHub:octocat: workflows are scheduled to be ran periodically and can also be triggered manually on the [Actions](https://github.com/sledilnik/data/actions) page.
-
-Old alternative:
-Trigger rebuild at [Travis CI](https://travis-ci.com/github/sledilnik/data)
 
 
 ## Changelog
