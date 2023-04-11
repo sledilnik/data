@@ -67,7 +67,7 @@ def update_sewage_cases(update_time):
     df_opsi['sewage.station'] = df_opsi['sewage.station'].apply(underscore_to_space)
     df_opsi['sewage.region'] = df_opsi['sewage.region'].apply(convert_region)
     df_opsi['sewage.coverage-ratio'] = df_opsi['sewage.coverage-ratio'].apply(fix_ratio)
-    df_opsi = df_opsi.set_index(['sewage.date', 'sewage.station'])
+    df_opsi = df_opsi.set_index(['sewage.date', 'sewage.station'], verify_integrity=True)
     df_opsi = df_opsi.sort_values(by=['sewage.date','sewage.station'], ascending=True)
 
     print("CASES: ", df_opsi)
@@ -90,7 +90,7 @@ def update_sewage_genome(update_time):
     df_opsi['sewage.station'] = df_opsi['sewage.station'].apply(underscore_to_space)
     df_opsi['sewage.region'] = df_opsi['sewage.region'].apply(convert_region)
     df_opsi['sewage.ratio'] = df_opsi['sewage.ratio'].apply(fix_ratio)
-    df_opsi = df_opsi.set_index(['sewage.date', 'sewage.station', 'sewage.genome'])
+    df_opsi = df_opsi.set_index(['sewage.date', 'sewage.station', 'sewage.genome'], verify_integrity=True)
     df_opsi = df_opsi.sort_values(by=['sewage.date', 'sewage.station', 'sewage.genome'], ascending=True)
 
     print("GENOME: ", df_opsi)
