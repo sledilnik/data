@@ -1,1270 +1,1270 @@
 sewage.date,sewage.station,sewage.genome,sewage.ratio,sewage.region
-2022-09-12,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.9954,ce
-2022-09-12,ČN Novo mesto,BA.5* Omikron BA.5.X,0.001,nm
-2022-09-12,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.9926,ms
-2022-09-11,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.8663,ng
-2022-09-12,CČN Zagorje,BA.5* Omikron BA.5.X,0.9637,za
+2022-09-04,ČN Maribor,BA.5* Omikron BA.5.X,0.9927,mb
+2022-09-04,ČN Maribor,BQ.1* Omikron BQ.1.X,0.0019,mb
+2022-09-04,ČN Maribor,Drugo,0.0024,mb
+2022-09-05,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.9497,sg
+2022-09-05,CČN Slovenj Gradec,Drugo,0.0018,sg
+2022-09-05,CČN Slovenj Gradec,Omikron,0.0439,sg
+2022-09-05,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.9636,ce
+2022-09-05,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.0061,ce
+2022-09-05,OČN Šaleške doline,Omikron,0.0303,ce
+2022-09-05,ČN Koper,BA.5* Omikron BA.5.X,0.9947,kp
+2022-09-05,ČN Koper,Drugo,0.0013,kp
+2022-09-05,ČN Koper,Omikron,0.0029,kp
+2022-09-05,ČN Novo mesto,BA.5* Omikron BA.5.X,0.9972,nm
+2022-09-05,ČN Novo mesto,Drugo,0.0013,nm
 2022-09-11,CČN Ljubljana,BA.5* Omikron BA.5.X,0.9987,lj
-2022-09-12,ČN Koper,BA.5* Omikron BA.5.X,0.9962,kp
-2022-09-12,CČN Brežice,BA.5* Omikron BA.5.X,0.9971,kk
 2022-09-11,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.9812,lj
+2022-09-11,ČN Domžale Kamnik,Omikron,0.0185,lj
+2022-09-11,ČN Kranj,BA.5* Omikron BA.5.X,0.001,kr
+2022-09-11,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.8663,ng
+2022-09-11,ČN Nova Gorica,Drugo,0.0021,ng
+2022-09-11,ČN Nova Gorica,Omikron,0.1316,ng
+2022-09-12,CČN Brežice,BA.5* Omikron BA.5.X,0.9971,kk
+2022-09-12,CČN Brežice,Drugo,0.0014,kk
+2022-09-12,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.9926,ms
+2022-09-12,CČN Murska Sobota,Drugo,0.001,ms
+2022-09-12,CČN Murska Sobota,Omikron,0.0016,ms
 2022-09-12,CČN Postojna,BA.5* Omikron BA.5.X,0.9991,po
 2022-09-12,CČN Trbovlje,BA.5* Omikron BA.5.X,0.9976,za
-2022-09-11,ČN Kranj,BA.5* Omikron BA.5.X,0.001,kr
-2022-09-19,CČN Trbovlje,BA.5* Omikron BA.5.X,0.9559,za
-2022-09-19,ČN Novo mesto,BA.5* Omikron BA.5.X,0.9946,nm
-2022-09-19,CČN Zagorje,BA.5* Omikron BA.5.X,0.9971,za
-2022-09-19,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.9887,za
-2022-09-19,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.9868,sg
-2022-09-18,CČN Ljubljana,BA.5* Omikron BA.5.X,0.9545,lj
-2022-09-18,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.9917,lj
-2022-09-19,ČN Koper,BA.5* Omikron BA.5.X,0.001,kp
-2022-09-18,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.9574,ng
-2022-09-26,ČN Koper,BA.5* Omikron BA.5.X,0.9981,kp
-2022-09-26,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.7207,za
-2022-09-25,ČN Maribor,BA.5* Omikron BA.5.X,0.9986,mb
-2022-09-25,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.9983,ms
-2022-09-26,CČN Trbovlje,BA.5* Omikron BA.5.X,0.9958,za
-2022-09-25,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.9853,ng
-2022-09-25,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.9497,lj
-2022-09-26,CČN Brežice,BA.5* Omikron BA.5.X,0.9986,kk
-2022-09-26,CČN Zagorje,BA.5* Omikron BA.5.X,0.9761,za
-2022-09-26,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.982,ce
-2022-09-25,ČN Kranj,BA.5* Omikron BA.5.X,0.9406,kr
-2022-09-26,ČN Celje,BA.5* Omikron BA.5.X,0.9564,ce
-2022-09-26,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.9808,sg
-2022-09-25,CČN Ljubljana,BA.5* Omikron BA.5.X,0.9513,lj
-2022-09-04,ČN Maribor,BA.5* Omikron BA.5.X,0.9927,mb
-2022-09-05,ČN Novo mesto,BA.5* Omikron BA.5.X,0.9972,nm
-2022-09-05,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.9497,sg
-2022-09-05,ČN Koper,BA.5* Omikron BA.5.X,0.9947,kp
-2022-09-05,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.9636,ce
-2022-10-09,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.9924,lj
-2022-10-09,ČN Maribor,BA.5* Omikron BA.5.X,0.9977,mb
-2022-10-10,CČN Trbovlje,BA.5* Omikron BA.5.X,0.9907,za
-2022-10-10,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.964,ng
-2022-10-10,CČN Zagorje,BA.5* Omikron BA.5.X,0.9535,za
-2022-10-10,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.9758,ce
-2022-10-09,CČN Postojna,BA.5* Omikron BA.5.X,0.9933,po
-2022-10-09,CČN Ljubljana,BA.5* Omikron BA.5.X,0.986,lj
-2022-10-17,ČN Celje,BA.5* Omikron BA.5.X,0.9772,ce
-2022-10-17,ČN Novo mesto,BA.5* Omikron BA.5.X,0.9619,nm
-2022-10-16,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.9621,ms
-2022-10-16,ČN Koper,BA.5* Omikron BA.5.X,0.9759,kp
-2022-10-16,CČN Ljubljana,BA.5* Omikron BA.5.X,0.9674,lj
-2022-10-16,ČN Maribor,BA.5* Omikron BA.5.X,0.9698,mb
-2022-10-16,ČN Kranj,BA.5* Omikron BA.5.X,0.9725,kr
-2022-10-17,CČN Trbovlje,BA.5* Omikron BA.5.X,0.9587,za
-2022-10-17,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.9759,ce
-2022-10-17,CČN Brežice,BA.5* Omikron BA.5.X,0.9889,kk
-2022-10-16,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.9674,ng
-2022-10-17,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.9739,sg
-2022-10-17,CČN Zagorje,BA.5* Omikron BA.5.X,0.9758,za
-2022-10-16,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.9714,lj
-2022-10-23,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.9358,ng
-2022-10-24,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.9926,ce
-2022-10-24,CČN Zagorje,BA.5* Omikron BA.5.X,0.9948,za
-2022-10-24,ČN Celje,BA.5* Omikron BA.5.X,0.9179,ce
-2022-10-23,ČN Kranj,BA.5* Omikron BA.5.X,0.781,kr
-2022-10-23,ČN Maribor,BA.5* Omikron BA.5.X,0.9698,mb
-2022-10-24,CČN Brežice,BA.5* Omikron BA.5.X,0.9968,kk
-2022-10-23,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.9895,ms
-2022-10-23,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.9806,lj
-2022-10-23,ČN Koper,BA.5* Omikron BA.5.X,0.9971,kp
-2022-10-23,CČN Ljubljana,BA.5* Omikron BA.5.X,0.001,lj
-2022-10-24,CČN Trbovlje,BA.5* Omikron BA.5.X,0.8001,za
-2022-10-24,ČN Novo mesto,BA.5* Omikron BA.5.X,0.9591,nm
-2022-10-23,CČN Postojna,BA.5* Omikron BA.5.X,0.9952,po
-2022-10-02,CČN Ljubljana,BA.5* Omikron BA.5.X,0.9643,lj
-2022-10-03,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.7262,za
-2022-10-02,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.9317,lj
-2022-10-02,ČN Kranj,BA.5* Omikron BA.5.X,0.001,kr
-2022-10-03,ČN Maribor,BA.5* Omikron BA.5.X,0.9983,mb
-2022-10-03,CČN Trbovlje,BA.5* Omikron BA.5.X,0.9568,za
-2022-10-03,CČN Zagorje,BA.5* Omikron BA.5.X,0.986,za
-2022-10-03,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.9802,sg
-2022-10-03,CČN Brežice,BA.5* Omikron BA.5.X,0.9986,kk
-2022-10-02,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.995,ng
-2022-10-03,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.9834,ce
-2022-10-03,ČN Novo mesto,BA.5* Omikron BA.5.X,0.9956,nm
-2022-11-07,ČN Celje,BA.5* Omikron BA.5.X,0.001,ce
-2022-11-06,ČN Kranj,BA.5* Omikron BA.5.X,0.9851,kr
-2022-11-06,CČN Postojna,BA.5* Omikron BA.5.X,0.001,po
-2022-11-06,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.9933,ng
-2022-11-07,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.9504,sg
-2022-11-07,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.9888,za
-2022-11-07,CČN Trbovlje,BA.5* Omikron BA.5.X,0.8492,za
-2022-11-14,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.9901,sg
-2022-11-14,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.86,za
-2022-11-14,CČN Trbovlje,BA.5* Omikron BA.5.X,0.9359,za
-2022-11-13,CČN Ljubljana,BA.5* Omikron BA.5.X,0.9639,lj
-2022-11-13,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.9042,lj
-2022-11-13,ČN Kranj,BA.5* Omikron BA.5.X,0.001,kr
-2022-11-20,ČN Kranj,BA.5* Omikron BA.5.X,0.5711,kr
-2022-11-21,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.6168,ms
-2022-11-21,ČN Celje,BA.5* Omikron BA.5.X,0.8968,ce
-2022-11-20,ČN Koper,BQ.1* Omikron BQ.1.X,0.6707,kp
-2022-11-21,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.7187,ce
-2022-11-21,CČN Zagorje,BA.5* Omikron BA.5.X,0.7221,za
-2022-11-20,CČN Postojna,BA.5* Omikron BA.5.X,0.7143,po
-2022-11-21,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.6522,nm
-2022-11-14,CČN Brežice,BA.5* Omikron BA.5.X,0.9931,kk
-2022-11-20,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.6791,ng
-2022-11-21,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.5307,za
-2022-11-20,CČN Ljubljana,BA.5* Omikron BA.5.X,0.5107,lj
-2022-11-21,CČN Trbovlje,BA.5* Omikron BA.5.X,0.7048,za
-2022-11-20,ČN Maribor,BA.5* Omikron BA.5.X,0.7011,mb
-2022-11-02,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.9962,za
-2022-11-01,CČN Ljubljana,BA.5* Omikron BA.5.X,0.9838,lj
-2022-11-02,CČN Trbovlje,BA.5* Omikron BA.5.X,0.6738,za
-2022-12-12,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.9365,sg
-2022-12-11,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.5406,lj
-2022-12-11,ČN Kranj,BA.5* Omikron BA.5.X,0.8421,kr
-2022-12-12,ČN Celje,BA.5* Omikron BA.5.X,0.796,ce
-2022-12-12,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.4945,ce
-2022-12-11,CČN Ljubljana,BA.5* Omikron BA.5.X,0.4447,lj
-2022-12-12,CČN Zagorje,BA.5* Omikron BA.5.X,0.6432,za
-2022-12-11,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.9385,ms
-2022-12-11,CČN Postojna,BA.5* Omikron BA.5.X,0.9299,po
-2022-12-11,ČN Maribor,BA.5* Omikron BA.5.X,0.7094,mb
-2022-12-12,CČN Brežice,BA.5* Omikron BA.5.X,0.8505,kk
-2022-12-12,ČN Novo mesto,BA.5* Omikron BA.5.X,0.9688,nm
-2022-12-12,CČN Trbovlje,BA.5* Omikron BA.5.X,0.8246,za
-2022-11-28,ČN Novo mesto,BA.5* Omikron BA.5.X,0.4823,nm
-2022-11-27,ČN Koper,BQ.1* Omikron BQ.1.X,0.4364,kp
-2022-11-27,ČN Maribor,BA.5* Omikron BA.5.X,0.6177,mb
-2022-11-27,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.5318,lj
-2022-11-28,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.8332,za
-2022-11-27,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.4896,lj
-2022-11-28,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.6,sg
-2022-11-27,CČN Postojna,BQ.1* Omikron BQ.1.X,0.7115,po
-2022-11-27,ČN Kranj,BA.5* Omikron BA.5.X,0.9833,kr
-2022-11-28,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.516,za
-2022-11-28,ČN Celje,BA.5* Omikron BA.5.X,0.414,ce
-2022-12-19,ČN Celje,BQ.1* Omikron BQ.1.X,0.5304,ce
-2022-12-19,CČN Trbovlje,Omikron,0.3185,za
-2022-12-19,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.5426,ng
-2022-12-18,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.6441,lj
-2022-12-19,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.5658,nm
-2022-12-19,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.5427,ce
-2022-12-18,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.4286,ms
-2022-12-18,ČN Kranj,BQ.1* Omikron BQ.1.X,0.5158,kr
-2022-12-19,CČN Zagorje,BA.2.75* Omikron BA.2.75.X,0.4772,za
-2022-12-19,CČN Brežice,BA.5* Omikron BA.5.X,0.5043,kk
-2022-12-19,CČN Postojna,Omikron,0.585,po
-2022-12-19,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.7439,sg
-2022-12-27,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.7308,ce
-2022-12-26,ČN Kranj,BQ.1* Omikron BQ.1.X,0.4658,kr
-2022-12-26,ČN Koper,BQ.1* Omikron BQ.1.X,0.5033,kp
-2022-12-26,CČN Postojna,BQ.1* Omikron BQ.1.X,0.5886,po
-2022-12-26,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.3362,ms
-2022-12-28,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.5932,nm
-2022-12-27,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.4521,za
-2022-12-28,CČN Brežice,BA.5* Omikron BA.5.X,0.7088,kk
-2022-12-26,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.4043,sg
-2022-12-26,ČN Maribor,BA.5* Omikron BA.5.X,0.5616,mb
-2022-12-27,ČN Celje,BQ.1* Omikron BQ.1.X,0.5366,ce
-2022-12-26,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.5728,ng
-2022-12-26,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.5164,lj
-2022-12-26,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.5816,lj
-2022-12-27,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.4599,za
-2022-12-27,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.3458,za
-2022-12-05,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.5496,sg
-2022-12-05,CČN Brežice,BA.5* Omikron BA.5.X,0.6251,kk
-2022-12-05,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.5821,ce
-2022-12-05,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.8274,za
-2022-12-04,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.4907,lj
-2022-12-04,CČN Postojna,BA.5* Omikron BA.5.X,0.7559,po
-2022-12-05,CČN Zagorje,BA.5* Omikron BA.5.X,0.8062,za
-2022-12-04,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.7892,ms
-2022-12-05,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.6383,nm
-2022-12-04,ČN Koper,BQ.1* Omikron BQ.1.X,0.6158,kp
-2022-12-05,CČN Trbovlje,BA.5* Omikron BA.5.X,0.5848,za
-2022-12-04,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.4591,lj
-2022-12-04,ČN Kranj,BA.5* Omikron BA.5.X,0.5189,kr
-2022-12-04,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.7087,ng
-2022-12-05,ČN Celje,BA.5* Omikron BA.5.X,0.5083,ce
-2022-12-04,ČN Maribor,BA.5* Omikron BA.5.X,0.5338,mb
-2023-01-09,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.4355,za
-2023-01-09,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.4798,za
-2023-01-09,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.6298,sg
-2023-01-08,ČN Maribor,BQ.1* Omikron BQ.1.X,0.4327,mb
-2023-01-08,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.6017,ng
-2023-01-09,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.7683,ce
-2023-01-09,CČN Brežice,BQ.1* Omikron BQ.1.X,0.5052,kk
-2023-01-09,ČN Koper,BA.5* Omikron BA.5.X,0.4848,kp
-2023-01-09,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.4219,po
-2023-01-08,CČN Murska Sobota,BA.2.75* Omikron BA.2.75.X,0.6784,ms
-2023-01-08,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.4758,lj
-2023-01-09,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.4,za
-2023-01-16,CČN Zagorje,BA.5* Omikron BA.5.X,0.5949,za
-2023-01-16,CČN Postojna,BA.5* Omikron BA.5.X,0.6232,po
-2023-01-15,CČN Ljubljana,BA.5* Omikron BA.5.X,0.6058,lj
-2023-01-15,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.4807,lj
-2023-01-16,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.6944,za
-2023-01-23,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.4472,nm
-2023-01-23,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.7897,za
-2023-01-22,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.5695,lj
-2023-01-23,CČN Postojna,BA.5* Omikron BA.5.X,0.5194,po
-2023-01-22,ČN Maribor,BA.5* Omikron BA.5.X,0.4812,mb
-2023-01-22,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.6839,ng
-2023-01-22,ČN Kranj,BA.5* Omikron BA.5.X,0.5281,kr
-2023-01-23,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.5187,ce
-2023-01-22,CČN Ljubljana,BA.5* Omikron BA.5.X,0.3776,lj
-2023-01-02,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.5686,ng
-2023-01-04,CČN Brežice,BQ.1* Omikron BQ.1.X,0.8459,kk
-2023-01-02,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.5699,lj
-2023-01-03,CČN Murska Sobota,BA.2.75* Omikron BA.2.75.X,0.4196,ms
-2023-01-02,ČN Koper,BQ.1* Omikron BQ.1.X,0.4036,kp
-2023-01-02,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.49,lj
-2023-01-03,CČN Zagorje,BA.2.75* Omikron BA.2.75.X,0.5311,za
-2023-01-04,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.7359,nm
-2023-02-05,CČN Postojna,Omikron,0.5009,po
-2023-02-05,CČN Ljubljana,Omikron,0.6071,lj
-2023-02-06,ČN Celje,BA.5* Omikron BA.5.X,0.6772,ce
-2023-02-05,ČN Domžale Kamnik,Omikron,0.6576,lj
-2023-02-06,CČN Trbovlje,Omikron,0.3923,za
-2023-02-05,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.5526,ng
-2023-02-06,OČN Šaleške doline,Omikron,0.503,ce
-2023-02-06,ČN Novo mesto,BA.5* Omikron BA.5.X,0.5269,nm
-2023-02-05,ČN Koper,Omikron,0.5829,kp
-2023-02-06,CČN Zagorje,Omikron,0.4715,za
-2023-02-05,ČN Kranj,BA.2.75* Omikron BA.2.75.X,0.7129,kr
-2023-02-12,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.5096,ms
-2023-02-12,ČN Maribor,BQ.1* Omikron BQ.1.X,0.4083,mb
-2023-02-13,CČN Brežice,BA.5* Omikron BA.5.X,0.6164,kk
-2023-02-13,CČN Zagorje,Omikron,0.6329,za
-2023-02-12,CČN Ljubljana,Omikron,0.5494,lj
-2023-02-13,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.5489,sg
-2023-02-12,ČN Kranj,Omikron,0.9748,kr
-2023-02-13,CČN Trbovlje,BA.2.75* Omikron BA.2.75.X,0.6492,za
-2023-02-13,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.671,nm
-2023-02-13,CČN Postojna,Omikron,0.8123,po
-2023-02-13,CČN Litija in Šmartno pri Litiji,Omikron,0.6038,za
-2023-02-12,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.646,lj
-2023-01-29,ČN Kranj,BA.5* Omikron BA.5.X,0.6487,kr
-2023-01-30,ČN Novo mesto,BA.5* Omikron BA.5.X,0.6148,nm
-2023-01-30,CČN Zagorje,BA.5* Omikron BA.5.X,0.9087,za
-2023-01-29,CČN Postojna,BA.5* Omikron BA.5.X,0.7031,po
-2023-02-20,ČN Celje,Omikron,0.4951,ce
-2023-02-19,ČN Kranj,Omikron,0.3632,kr
-2023-02-19,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.3333,lj
-2023-02-20,ČN Nova Gorica,Omikron,0.5555,ng
-2023-02-19,ČN Maribor,Omikron,0.4913,mb
-2023-02-20,CČN Brežice,Omikron,0.3837,kk
-2023-02-20,CČN Slovenj Gradec,BA.2.75* Omikron BA.2.75.X,0.448,sg
-2023-02-19,CČN Murska Sobota,Omikron,0.6759,ms
-2023-02-20,OČN Šaleške doline,Omikron,0.4717,ce
-2023-02-20,CČN Trbovlje,Omikron,0.4199,za
-2023-02-19,CČN Postojna,Omikron,0.4182,po
-2023-02-20,CČN Zagorje,Omikron,0.4435,za
-2023-02-19,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.3845,lj
-2023-02-19,ČN Koper,Omikron,0.3778,kp
-2023-02-20,CČN Litija in Šmartno pri Litiji,Omikron,0.3778,za
-2023-03-06,ČN Domžale Kamnik,Omikron,0.712,lj
-2023-03-07,OČN Šaleške doline,Omikron,0.7681,ce
-2023-03-06,CČN Ljubljana,Omikron,0.6678,lj
-2023-03-06,ČN Maribor,Omikron,0.6555,mb
-2023-03-06,ČN Nova Gorica,Omikron,0.9521,ng
-2023-03-07,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.5092,za
-2023-03-07,CČN Slovenj Gradec,Omikron,0.739,sg
-2023-03-06,ČN Koper,Omikron,0.6869,kp
-2023-03-06,CČN Postojna,BA.5* Omikron BA.5.X,0.3538,po
-2023-03-07,CČN Zagorje,Omikron,0.983,za
-2023-03-06,CČN Murska Sobota,Omikron,0.98,ms
-2023-03-12,CČN Ljubljana,Omikron,0.8589,lj
-2023-03-12,ČN Domžale Kamnik,Omikron,0.9886,lj
-2023-03-13,CČN Postojna,Omikron,0.849,po
-2023-03-12,ČN Kranj,Omikron,0.7613,kr
-2023-03-13,ČN Koper,Omikron,0.5392,kp
-2023-03-12,CČN Murska Sobota,Omikron,0.9269,ms
-2023-03-13,ČN Novo mesto,Omikron,0.963,nm
-2023-03-13,CČN Brežice,Omikron,0.867,kk
-2023-03-12,ČN Nova Gorica,Omikron,0.9814,ng
-2023-03-13,CČN Litija in Šmartno pri Litiji,Omikron,0.9882,za
-2023-03-12,ČN Maribor,Omikron,0.6164,mb
-2023-03-13,CČN Zagorje,Omikron,0.5551,za
-2023-03-13,CČN Trbovlje,Omikron,0.7458,za
-2023-03-20,CČN Slovenj Gradec,Omikron,0.996,sg
-2023-03-19,CČN Postojna,Omikron,0.9489,po
-2023-03-20,ČN Novo mesto,Omikron,0.997,nm
-2023-03-20,CČN Brežice,Omikron,0.9279,kk
-2023-03-20,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.9972,za
-2023-03-20,OČN Šaleške doline,Omikron,0.7108,ce
-2023-03-19,CČN Ljubljana,Omikron,0.7693,lj
-2023-03-20,CČN Trbovlje,Omikron,0.5241,za
-2023-03-19,ČN Domžale Kamnik,Omikron,0.7197,lj
-2023-03-19,ČN Koper,Omikron,0.7051,kp
-2023-03-19,ČN Kranj,Omikron,0.9796,kr
-2023-03-20,CČN Zagorje,Omikron,0.9467,za
-2023-03-19,ČN Maribor,Omikron,0.9965,mb
-2023-02-27,CČN Brežice,Omikron,0.7635,kk
-2023-02-27,ČN Celje,Omikron,0.6914,ce
-2023-02-26,ČN Nova Gorica,Omikron,0.5247,ng
-2023-02-26,CČN Murska Sobota,Omikron,0.8385,ms
-2023-02-27,OČN Šaleške doline,Omikron,0.5983,ce
-2023-02-26,ČN Kranj,Omikron,0.9529,kr
-2023-02-27,ČN Novo mesto,Omikron,0.5254,nm
-2023-02-26,CČN Ljubljana,Omikron,0.4868,lj
-2023-02-26,ČN Koper,Omikron,0.8412,kp
-2023-02-26,ČN Maribor,Omikron,0.6392,mb
-2023-03-27,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.7384,sg
-2023-03-26,ČN Koper,Omikron,0.744,kp
-2023-03-26,ČN Maribor,Omikron,0.5781,mb
-2023-03-26,CČN Postojna,Omikron,0.8,po
-2023-03-26,ČN Nova Gorica,Omikron,0.8313,ng
-2023-03-26,ČN Domžale Kamnik,Omikron,0.7777,lj
-2023-03-26,ČN Kranj,Omikron,0.5,kr
-2023-03-27,OČN Šaleške doline,Omikron,0.8008,ce
-2023-03-27,CČN Zagorje,Omikron,0.9824,za
-2023-03-27,ČN Novo mesto,Omikron,0.9672,nm
-2023-03-26,CČN Ljubljana,Omikron,0.9746,lj
-2023-03-26,CČN Murska Sobota,Omikron,0.8244,ms
-2023-04-03,ČN Celje,XBB.1.5* Omikron XBB.1.5.X,0.4629,ce
-2023-04-03,CČN Slovenj Gradec,Omikron,0.5542,sg
-2023-04-03,CČN Brežice,XBB.1.5* Omikron XBB.1.5.X,0.4533,kk
-2023-04-02,CČN Ljubljana,XBB.1.5* Omikron XBB.1.5.X,0.6037,lj
-2023-04-02,CČN Postojna,Omikron,0.7086,po
-2023-04-03,CČN Litija in Šmartno pri Litiji,XBB.1.5* Omikron XBB.1.5.X,0.5951,za
-2023-04-02,CČN Murska Sobota,Omikron,0.3404,ms
-2023-04-03,ČN Novo mesto,Omikron,0.5232,nm
-2023-04-03,CČN Trbovlje,Omikron,0.5098,za
-2023-04-02,ČN Domžale Kamnik,Omikron,0.7162,lj
-2023-04-02,ČN Kranj,Omikron,0.8246,kr
-2023-04-02,ČN Nova Gorica,Omikron,0.5128,ng
-2023-04-02,ČN Maribor,Omikron,0.9375,mb
-2023-04-03,OČN Šaleške doline,Omikron,0.448,ce
-2023-04-02,ČN Koper,Omikron,0.863,kp
-2022-09-12,CČN Murska Sobota,Omikron,0.0016,ms
-2022-09-11,ČN Nova Gorica,Omikron,0.1316,ng
-2022-09-12,CČN Zagorje,Omikron,0.0333,za
-2022-09-12,ČN Koper,Omikron,0.0038,kp
-2022-09-12,CČN Brežice,Drugo,0.0014,kk
-2022-09-11,ČN Domžale Kamnik,Omikron,0.0185,lj
 2022-09-12,CČN Trbovlje,Drugo,0.0014,za
-2022-09-19,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.0328,za
-2022-09-19,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.0023,nm
-2022-09-19,CČN Zagorje,Drugo,0.0024,za
-2022-09-19,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.0056,za
-2022-09-19,CČN Slovenj Gradec,Omikron,0.0099,sg
-2022-09-18,CČN Ljubljana,Omikron,0.0394,lj
-2022-09-18,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.0083,lj
-2022-09-18,ČN Nova Gorica,Omikron,0.0426,ng
-2022-09-26,ČN Koper,BQ.1* Omikron BQ.1.X,0.0017,kp
-2022-09-26,CČN Litija in Šmartno pri Litiji,Omikron,0.211,za
-2022-09-25,ČN Maribor,Drugo,0.0014,mb
-2022-09-25,CČN Murska Sobota,Drugo,0.0014,ms
-2022-09-26,CČN Trbovlje,Omikron,0.0026,za
-2022-09-25,ČN Nova Gorica,Omikron,0.0099,ng
-2022-09-25,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.0476,lj
-2022-09-26,CČN Brežice,Drugo,0.0014,kk
-2022-09-26,CČN Zagorje,Omikron,0.0129,za
-2022-09-26,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.018,ce
-2022-09-25,ČN Kranj,BQ.1* Omikron BQ.1.X,0.0441,kr
-2022-09-26,ČN Celje,BQ.1* Omikron BQ.1.X,0.0185,ce
-2022-09-26,CČN Slovenj Gradec,Omikron,0.0169,sg
-2022-09-25,CČN Ljubljana,Omikron,0.0269,lj
-2022-09-04,ČN Maribor,Drugo,0.0024,mb
-2022-09-05,ČN Novo mesto,Drugo,0.0013,nm
-2022-09-05,CČN Slovenj Gradec,Omikron,0.0439,sg
-2022-09-05,ČN Koper,Omikron,0.0029,kp
-2022-09-05,OČN Šaleške doline,Omikron,0.0303,ce
-2022-10-09,ČN Domžale Kamnik,Drugo,0.004,lj
-2022-10-09,ČN Maribor,Drugo,0.0023,mb
-2022-10-10,CČN Trbovlje,Omikron,0.0069,za
-2022-10-10,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.0219,ng
-2022-10-10,CČN Zagorje,Omikron,0.0429,za
-2022-10-10,OČN Šaleške doline,Omikron,0.0178,ce
-2022-10-09,CČN Postojna,Omikron,0.0027,po
-2022-10-09,CČN Ljubljana,Omikron,0.0106,lj
-2022-10-17,ČN Celje,Omikron,0.0228,ce
-2022-10-17,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.0307,nm
-2022-10-16,CČN Murska Sobota,Omikron,0.0379,ms
-2022-10-16,ČN Koper,Omikron,0.0108,kp
-2022-10-16,CČN Ljubljana,Omikron,0.0276,lj
-2022-10-16,ČN Maribor,Omikron,0.0259,mb
-2022-10-16,ČN Kranj,Omikron,0.0236,kr
-2022-10-17,CČN Trbovlje,Omikron,0.0349,za
-2022-10-17,OČN Šaleške doline,Omikron,0.0152,ce
-2022-10-17,CČN Brežice,Omikron,0.0082,kk
-2022-10-16,ČN Nova Gorica,Omikron,0.0296,ng
-2022-10-17,CČN Slovenj Gradec,Omikron,0.0234,sg
-2022-10-17,CČN Zagorje,Omikron,0.0197,za
-2022-10-16,ČN Domžale Kamnik,Omikron,0.021,lj
-2022-10-23,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.0405,ng
-2022-10-24,OČN Šaleške doline,Omikron,0.002,ce
-2022-10-24,CČN Zagorje,Omikron,0.0021,za
-2022-10-24,ČN Celje,BQ.1* Omikron BQ.1.X,0.0756,ce
-2022-10-23,ČN Kranj,Omikron,0.1967,kr
-2022-10-23,ČN Maribor,Omikron,0.0294,mb
-2022-10-24,CČN Brežice,BQ.1* Omikron BQ.1.X,0.0017,kk
-2022-10-23,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.0067,ms
-2022-10-23,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.0087,lj
-2022-10-23,ČN Koper,Drugo,0.0014,kp
-2022-10-24,CČN Trbovlje,Omikron,0.1218,za
-2022-10-24,ČN Novo mesto,Omikron,0.0369,nm
-2022-10-23,CČN Postojna,Drugo,0.0028,po
-2022-10-02,CČN Ljubljana,Omikron,0.021,lj
-2022-10-03,CČN Litija in Šmartno pri Litiji,Omikron,0.209,za
-2022-10-02,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.0555,lj
-2022-10-03,ČN Maribor,Drugo,0.0015,mb
-2022-10-03,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.0182,za
-2022-10-03,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.0087,za
-2022-10-03,CČN Slovenj Gradec,Omikron,0.0181,sg
-2022-10-03,CČN Brežice,Drugo,0.0014,kk
-2022-10-02,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.0014,ng
-2022-10-03,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.0093,ce
-2022-10-03,ČN Novo mesto,Drugo,0.0029,nm
-2022-11-06,ČN Kranj,Omikron,0.0075,kr
-2022-11-06,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.0047,ng
-2022-11-07,CČN Slovenj Gradec,Omikron,0.0442,sg
-2022-11-07,CČN Litija in Šmartno pri Litiji,Drugo,0.0057,za
-2022-11-07,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.1127,za
-2022-11-14,CČN Slovenj Gradec,Omikron,0.0099,sg
-2022-11-14,CČN Litija in Šmartno pri Litiji,BA.2.75* Omikron BA.2.75.X,0.1119,za
-2022-11-14,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.0333,za
-2022-11-13,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.0204,lj
-2022-11-13,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.0457,lj
-2022-11-20,ČN Kranj,BQ.1* Omikron BQ.1.X,0.4219,kr
-2022-11-21,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.3488,ms
-2022-11-21,ČN Celje,Omikron,0.0977,ce
-2022-11-20,ČN Koper,BA.5* Omikron BA.5.X,0.2112,kp
-2022-11-21,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.2812,ce
-2022-11-21,CČN Zagorje,Omikron,0.2673,za
-2022-11-20,CČN Postojna,BQ.1* Omikron BQ.1.X,0.2857,po
-2022-11-21,ČN Novo mesto,BA.5* Omikron BA.5.X,0.2878,nm
-2022-11-14,CČN Brežice,BQ.1* Omikron BQ.1.X,0.0065,kk
-2022-11-20,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.302,ng
-2022-11-21,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.4693,za
-2022-11-20,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.4301,lj
-2022-11-21,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.293,za
-2022-11-20,ČN Maribor,BQ.1* Omikron BQ.1.X,0.2989,mb
-2022-11-02,CČN Litija in Šmartno pri Litiji,Drugo,0.0032,za
-2022-11-01,CČN Ljubljana,Omikron,0.0094,lj
-2022-11-02,CČN Trbovlje,Omikron,0.2857,za
-2022-12-12,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.0449,sg
-2022-12-11,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.3333,lj
-2022-12-11,ČN Kranj,BQ.1* Omikron BQ.1.X,0.1579,kr
-2022-12-12,ČN Celje,BQ.1* Omikron BQ.1.X,0.1805,ce
-2022-12-12,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.4369,ce
-2022-12-11,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.4403,lj
-2022-12-12,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.3275,za
-2022-12-11,CČN Murska Sobota,BA.2.75* Omikron BA.2.75.X,0.0392,ms
-2022-12-11,CČN Postojna,Omikron,0.0285,po
-2022-12-11,ČN Maribor,BQ.1* Omikron BQ.1.X,0.1951,mb
-2022-12-12,CČN Brežice,BQ.1* Omikron BQ.1.X,0.1389,kk
-2022-12-12,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.0292,nm
-2022-12-12,CČN Trbovlje,Omikron,0.1096,za
-2022-11-28,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.3333,nm
-2022-11-27,ČN Koper,BA.5* Omikron BA.5.X,0.4239,kp
-2022-11-27,ČN Maribor,Omikron,0.2134,mb
-2022-11-27,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.4682,lj
-2022-11-28,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.1176,za
-2022-11-27,CČN Ljubljana,BA.5* Omikron BA.5.X,0.2419,lj
-2022-11-28,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.4,sg
-2022-11-27,CČN Postojna,BA.5* Omikron BA.5.X,0.2428,po
-2022-11-27,ČN Kranj,BQ.1* Omikron BQ.1.X,0.0101,kr
-2022-11-28,CČN Trbovlje,BA.5* Omikron BA.5.X,0.484,za
-2022-11-28,ČN Celje,BQ.1* Omikron BQ.1.X,0.3844,ce
-2022-12-19,ČN Celje,BA.5* Omikron BA.5.X,0.4072,ce
-2022-12-19,CČN Trbovlje,BA.5* Omikron BA.5.X,0.2998,za
-2022-12-19,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.4294,ng
-2022-12-18,CČN Ljubljana,BA.5* Omikron BA.5.X,0.277,lj
-2022-12-19,ČN Novo mesto,BA.5* Omikron BA.5.X,0.3442,nm
-2022-12-19,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.4534,ce
-2022-12-18,CČN Murska Sobota,BA.2.75* Omikron BA.2.75.X,0.2196,ms
-2022-12-18,ČN Kranj,BA.5* Omikron BA.5.X,0.2548,kr
-2022-12-19,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.3286,za
-2022-12-19,CČN Brežice,BQ.1* Omikron BQ.1.X,0.4957,kk
-2022-12-19,CČN Postojna,BA.5* Omikron BA.5.X,0.2639,po
-2022-12-19,CČN Slovenj Gradec,BA.2.75* Omikron BA.2.75.X,0.2561,sg
-2022-12-27,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.2662,ce
-2022-12-26,ČN Kranj,BA.5* Omikron BA.5.X,0.2721,kr
-2022-12-26,ČN Koper,BA.5* Omikron BA.5.X,0.3962,kp
-2022-12-26,CČN Postojna,Omikron,0.2601,po
-2022-12-26,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.2425,ms
-2022-12-28,ČN Novo mesto,BA.5* Omikron BA.5.X,0.2209,nm
-2022-12-27,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.3958,za
-2022-12-28,CČN Brežice,BQ.1* Omikron BQ.1.X,0.2827,kk
-2022-12-26,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.3776,sg
-2022-12-26,ČN Maribor,BQ.1* Omikron BQ.1.X,0.2343,mb
-2022-12-27,ČN Celje,BA.5* Omikron BA.5.X,0.453,ce
-2022-12-26,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.1992,ng
-2022-12-26,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.2313,lj
-2022-12-26,CČN Ljubljana,BA.5* Omikron BA.5.X,0.2122,lj
-2022-12-27,CČN Zagorje,Omikron,0.1983,za
-2022-12-27,CČN Trbovlje,BA.5* Omikron BA.5.X,0.3313,za
-2022-12-05,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.3094,sg
-2022-12-05,CČN Brežice,BQ.1* Omikron BQ.1.X,0.2391,kk
-2022-12-05,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.4106,ce
-2022-12-05,CČN Litija in Šmartno pri Litiji,BA.2.75* Omikron BA.2.75.X,0.1523,za
-2022-12-04,CČN Ljubljana,BA.5* Omikron BA.5.X,0.2999,lj
-2022-12-04,CČN Postojna,BQ.1* Omikron BQ.1.X,0.2384,po
-2022-12-05,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.1389,za
-2022-12-04,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.2059,ms
-2022-12-05,ČN Novo mesto,BA.5* Omikron BA.5.X,0.3498,nm
-2022-12-04,ČN Koper,BA.5* Omikron BA.5.X,0.2917,kp
-2022-12-05,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.2857,za
-2022-12-04,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.3004,lj
-2022-12-04,ČN Kranj,BQ.1* Omikron BQ.1.X,0.4799,kr
-2022-12-04,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.1515,ng
-2022-12-05,ČN Celje,BQ.1* Omikron BQ.1.X,0.4667,ce
-2022-12-04,ČN Maribor,BQ.1* Omikron BQ.1.X,0.2804,mb
-2023-01-09,CČN Trbovlje,BA.5* Omikron BA.5.X,0.377,za
-2023-01-09,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.3204,za
-2023-01-09,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.3081,sg
-2023-01-08,ČN Maribor,BA.5* Omikron BA.5.X,0.4244,mb
-2023-01-08,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.3808,ng
-2023-01-09,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.1119,ce
-2023-01-09,CČN Brežice,BA.5* Omikron BA.5.X,0.3191,kk
-2023-01-09,ČN Koper,BQ.1* Omikron BQ.1.X,0.458,kp
-2023-01-09,CČN Postojna,BQ.1* Omikron BQ.1.X,0.3046,po
-2023-01-08,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.2562,ms
-2023-01-08,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.2691,lj
-2023-01-09,CČN Zagorje,BA.5* Omikron BA.5.X,0.3645,za
-2023-01-16,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.2263,za
-2023-01-16,CČN Postojna,BQ.1* Omikron BQ.1.X,0.2137,po
-2023-01-15,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.2201,lj
-2023-01-15,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.2754,lj
-2023-01-16,CČN Litija in Šmartno pri Litiji,Omikron,0.3026,za
-2023-01-23,ČN Novo mesto,BA.5* Omikron BA.5.X,0.3734,nm
-2023-01-23,CČN Litija in Šmartno pri Litiji,Omikron,0.2,za
-2023-01-22,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.2467,lj
-2023-01-23,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.3254,po
-2023-01-22,ČN Maribor,BQ.1* Omikron BQ.1.X,0.262,mb
-2023-01-22,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.2931,ng
-2023-01-22,ČN Kranj,BA.2.75* Omikron BA.2.75.X,0.283,kr
-2023-01-23,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.3567,ce
-2023-01-22,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.2492,lj
-2023-01-02,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.1617,ng
-2023-01-04,CČN Brežice,Omikron,0.0868,kk
-2023-01-02,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.4301,lj
-2023-01-03,CČN Murska Sobota,Omikron,0.3227,ms
-2023-01-02,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.3019,kp
-2023-01-02,CČN Ljubljana,BA.5* Omikron BA.5.X,0.448,lj
-2023-01-03,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.4641,za
-2023-01-04,ČN Novo mesto,BA.5* Omikron BA.5.X,0.2641,nm
-2023-02-05,CČN Postojna,BQ.1* Omikron BQ.1.X,0.4117,po
-2023-02-05,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.3333,lj
-2023-02-06,ČN Celje,BQ.1* Omikron BQ.1.X,0.2227,ce
-2023-02-05,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.2064,lj
-2023-02-06,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.3545,za
-2023-02-05,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.4444,ng
-2023-02-06,OČN Šaleške doline,BA.2.75* Omikron BA.2.75.X,0.4645,ce
-2023-02-06,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.3213,nm
-2023-02-05,ČN Koper,BQ.1* Omikron BQ.1.X,0.2842,kp
-2023-02-06,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.2872,za
-2023-02-05,ČN Kranj,Omikron,0.258,kr
-2023-02-12,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.2794,ms
-2023-02-12,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.2725,mb
-2023-02-13,CČN Brežice,BQ.1* Omikron BQ.1.X,0.3836,kk
-2023-02-13,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.3671,za
-2023-02-12,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.2931,lj
-2023-02-13,CČN Slovenj Gradec,Omikron,0.4486,sg
-2023-02-12,ČN Kranj,BQ.1* Omikron BQ.1.X,0.0252,kr
-2023-02-13,CČN Trbovlje,Omikron,0.25,za
-2023-02-13,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.2161,nm
-2023-02-13,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.1565,po
-2023-02-13,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.3677,za
-2023-02-12,ČN Domžale Kamnik,Omikron,0.2402,lj
-2023-01-29,ČN Kranj,Omikron,0.1653,kr
-2023-01-30,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.3459,nm
-2023-01-30,CČN Zagorje,Omikron,0.0824,za
-2023-01-29,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.2585,po
-2023-02-20,ČN Celje,BA.2.75* Omikron BA.2.75.X,0.2366,ce
-2023-02-19,ČN Kranj,BA.2.75* Omikron BA.2.75.X,0.336,kr
-2023-02-19,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.329,lj
-2023-02-20,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.1777,ng
-2023-02-19,ČN Maribor,BQ.1* Omikron BQ.1.X,0.2663,mb
-2023-02-20,CČN Brežice,BQ.1* Omikron BQ.1.X,0.25,kk
-2023-02-20,CČN Slovenj Gradec,Omikron,0.2616,sg
-2023-02-19,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.2902,ms
-2023-02-20,OČN Šaleške doline,BA.2.75* Omikron BA.2.75.X,0.2517,ce
-2023-02-20,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.3077,za
-2023-02-19,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.2818,po
-2023-02-20,CČN Zagorje,BA.2.75* Omikron BA.2.75.X,0.2857,za
-2023-02-19,ČN Domžale Kamnik,Omikron,0.3149,lj
-2023-02-19,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.2222,kp
-2023-02-20,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.266,za
-2023-03-06,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.1841,lj
-2023-03-07,OČN Šaleške doline,BA.2.75* Omikron BA.2.75.X,0.1142,ce
-2023-03-06,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.2273,lj
-2023-03-06,ČN Maribor,BA.5* Omikron BA.5.X,0.2318,mb
-2023-03-06,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.0263,ng
-2023-03-07,CČN Trbovlje,BA.2.75* Omikron BA.2.75.X,0.4264,za
-2023-03-07,CČN Slovenj Gradec,BA.2.75* Omikron BA.2.75.X,0.1424,sg
-2023-03-06,ČN Koper,BQ.1* Omikron BQ.1.X,0.1225,kp
-2023-03-06,CČN Postojna,Omikron,0.2827,po
-2023-03-07,CČN Zagorje,BA.5* Omikron BA.5.X,0.0127,za
-2023-03-06,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.0132,ms
-2023-03-12,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.0988,lj
-2023-03-12,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.0066,lj
-2023-03-13,CČN Postojna,BQ.1* Omikron BQ.1.X,0.1136,po
-2023-03-12,ČN Kranj,BA.2.75* Omikron BA.2.75.X,0.2174,kr
-2023-03-13,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.3141,kp
-2023-03-12,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.035,ms
-2023-03-13,ČN Novo mesto,BA.5* Omikron BA.5.X,0.0247,nm
-2023-03-13,CČN Brežice,BA.2.75* Omikron BA.2.75.X,0.1258,kk
-2023-03-12,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.005,ng
-2023-03-13,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.0046,za
-2023-03-12,ČN Maribor,BQ.1* Omikron BQ.1.X,0.2087,mb
-2023-03-13,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.224,za
-2023-03-13,CČN Trbovlje,BA.2.75* Omikron BA.2.75.X,0.1852,za
-2023-03-20,CČN Slovenj Gradec,Drugo,0.0039,sg
-2023-03-19,CČN Postojna,BA.5* Omikron BA.5.X,0.0402,po
-2023-03-20,ČN Novo mesto,Drugo,0.0027,nm
-2023-03-20,CČN Brežice,BA.5* Omikron BA.5.X,0.0676,kk
-2023-03-20,CČN Litija in Šmartno pri Litiji,Omikron,0.0028,za
-2023-03-20,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.2864,ce
-2023-03-19,CČN Ljubljana,BA.5* Omikron BA.5.X,0.2261,lj
-2023-03-20,CČN Trbovlje,BA.5* Omikron BA.5.X,0.4685,za
-2023-03-19,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.2771,lj
-2023-03-19,ČN Koper,BQ.1* Omikron BQ.1.X,0.1778,kp
-2023-03-19,ČN Kranj,BA.5* Omikron BA.5.X,0.0124,kr
-2023-03-20,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.0487,za
-2023-03-19,ČN Maribor,Drugo,0.0031,mb
-2023-02-27,CČN Brežice,BA.2.75* Omikron BA.2.75.X,0.1886,kk
-2023-02-27,ČN Celje,BQ.1* Omikron BQ.1.X,0.2377,ce
-2023-02-26,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.2382,ng
-2023-02-26,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.1552,ms
-2023-02-27,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.2398,ce
-2023-02-26,ČN Kranj,BA.2.75* Omikron BA.2.75.X,0.0226,kr
-2023-02-27,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.2273,nm
-2023-02-26,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.3146,lj
-2023-02-26,ČN Koper,BQ.1* Omikron BQ.1.X,0.1018,kp
-2023-02-26,ČN Maribor,BA.5* Omikron BA.5.X,0.2071,mb
-2023-03-27,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.1667,sg
-2023-03-26,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.1931,kp
-2023-03-26,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.1958,mb
-2023-03-26,CČN Postojna,BA.5* Omikron BA.5.X,0.1527,po
-2023-03-26,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.1574,ng
-2023-03-26,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.2057,lj
-2023-03-26,ČN Kranj,BA.5* Omikron BA.5.X,0.4995,kr
-2023-03-27,OČN Šaleške doline,BA.2.75* Omikron BA.2.75.X,0.1122,ce
-2023-03-27,CČN Zagorje,BA.5* Omikron BA.5.X,0.0126,za
-2023-03-27,ČN Novo mesto,BA.5* Omikron BA.5.X,0.027,nm
-2023-03-26,CČN Ljubljana,BA.5* Omikron BA.5.X,0.0155,lj
-2023-03-26,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.1756,ms
-2023-04-03,ČN Celje,Omikron,0.337,ce
-2023-04-03,CČN Slovenj Gradec,XBB.1.5* Omikron XBB.1.5.X,0.2111,sg
-2023-04-03,CČN Brežice,Omikron,0.2025,kk
-2023-04-02,CČN Ljubljana,Omikron,0.3446,lj
-2023-04-02,CČN Postojna,XBB.1.5* Omikron XBB.1.5.X,0.2114,po
-2023-04-03,CČN Litija in Šmartno pri Litiji,Omikron,0.1993,za
-2023-04-02,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.3144,ms
-2023-04-03,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.2897,nm
-2023-04-03,CČN Trbovlje,XBB.1.5* Omikron XBB.1.5.X,0.4615,za
-2023-04-02,ČN Domžale Kamnik,XBB.1.5* Omikron XBB.1.5.X,0.2695,lj
-2023-04-02,ČN Kranj,BA.5* Omikron BA.5.X,0.1001,kr
-2023-04-02,ČN Nova Gorica,XBB.1.5* Omikron XBB.1.5.X,0.4282,ng
-2023-04-02,ČN Maribor,BQ.1* Omikron BQ.1.X,0.0388,mb
-2023-04-03,OČN Šaleške doline,XBB.1.5* Omikron XBB.1.5.X,0.2663,ce
-2023-04-02,ČN Koper,XBB.1.5* Omikron XBB.1.5.X,0.1063,kp
-2022-09-12,CČN Murska Sobota,Drugo,0.001,ms
-2022-09-11,ČN Nova Gorica,Drugo,0.0021,ng
-2022-09-12,CČN Zagorje,Drugo,0.0011,za
-2022-09-19,CČN Trbovlje,Omikron,0.0081,za
-2022-09-19,ČN Novo mesto,Drugo,0.0017,nm
-2022-09-19,CČN Litija in Šmartno pri Litiji,Drugo,0.0028,za
-2022-09-19,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.0014,sg
-2022-09-18,CČN Ljubljana,Drugo,0.0022,lj
-2022-09-26,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.0503,za
-2022-09-26,CČN Trbovlje,Drugo,0.0016,za
-2022-09-25,ČN Nova Gorica,Drugo,0.002,ng
-2022-09-25,ČN Domžale Kamnik,Drugo,0.0018,lj
-2022-09-26,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.0091,za
-2022-09-25,ČN Kranj,Omikron,0.0106,kr
-2022-09-26,ČN Celje,BA.2.75* Omikron BA.2.75.X,0.0145,ce
-2022-09-26,CČN Slovenj Gradec,Drugo,0.0014,sg
-2022-09-25,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.0192,lj
-2022-09-04,ČN Maribor,BQ.1* Omikron BQ.1.X,0.0019,mb
-2022-09-05,CČN Slovenj Gradec,Drugo,0.0018,sg
-2022-09-05,ČN Koper,Drugo,0.0013,kp
-2022-09-05,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.0061,ce
-2022-10-09,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.0029,lj
-2022-10-10,CČN Trbovlje,Drugo,0.0019,za
-2022-10-10,ČN Nova Gorica,Omikron,0.01,ng
-2022-10-10,CČN Zagorje,Drugo,0.001,za
-2022-10-10,OČN Šaleške doline,Drugo,0.0024,ce
-2022-10-09,CČN Postojna,Drugo,0.0015,po
-2022-10-09,CČN Ljubljana,Drugo,0.0022,lj
-2022-10-17,ČN Novo mesto,Omikron,0.0047,nm
-2022-10-16,ČN Koper,BQ.1* Omikron BQ.1.X,0.0084,kp
-2022-10-16,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.005,lj
-2022-10-16,ČN Maribor,Drugo,0.0036,mb
-2022-10-16,ČN Kranj,Drugo,0.0039,kr
-2022-10-17,CČN Trbovlje,Drugo,0.0059,za
-2022-10-17,OČN Šaleške doline,Drugo,0.0085,ce
-2022-10-17,CČN Brežice,Drugo,0.0029,kk
-2022-10-16,ČN Nova Gorica,Drugo,0.0024,ng
-2022-10-17,CČN Slovenj Gradec,Drugo,0.0026,sg
-2022-10-17,CČN Zagorje,Drugo,0.0035,za
-2022-10-16,ČN Domžale Kamnik,Drugo,0.004,lj
-2022-10-23,ČN Nova Gorica,Omikron,0.0203,ng
-2022-10-24,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.0016,ce
-2022-10-24,CČN Zagorje,Drugo,0.0015,za
-2022-10-24,ČN Celje,Drugo,0.0032,ce
-2022-10-23,ČN Kranj,BQ.1* Omikron BQ.1.X,0.0168,kr
-2022-10-24,CČN Brežice,Drugo,0.0015,kk
-2022-10-23,CČN Murska Sobota,Drugo,0.0038,ms
-2022-10-23,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.0054,lj
-2022-10-24,CČN Trbovlje,BA.2.75* Omikron BA.2.75.X,0.0432,za
-2022-10-24,ČN Novo mesto,Drugo,0.0028,nm
-2022-10-23,CČN Postojna,Omikron,0.0013,po
-2022-10-02,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.0079,lj
-2022-10-03,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.0469,za
-2022-10-02,ČN Domžale Kamnik,Omikron,0.0089,lj
-2022-10-03,CČN Trbovlje,BA.2.75* Omikron BA.2.75.X,0.0143,za
-2022-10-03,CČN Zagorje,Omikron,0.0037,za
-2022-10-03,CČN Slovenj Gradec,Drugo,0.0014,sg
-2022-10-02,ČN Nova Gorica,Drugo,0.0012,ng
-2022-10-03,OČN Šaleške doline,Omikron,0.0051,ce
-2022-11-06,ČN Kranj,BQ.1* Omikron BQ.1.X,0.0074,kr
-2022-11-06,ČN Nova Gorica,Omikron,0.002,ng
-2022-11-07,CČN Slovenj Gradec,Drugo,0.0031,sg
-2022-11-07,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.0037,za
-2022-11-07,CČN Trbovlje,Omikron,0.0345,za
-2022-11-14,CČN Litija in Šmartno pri Litiji,Omikron,0.0204,za
-2022-11-14,CČN Trbovlje,Omikron,0.0252,za
-2022-11-13,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.0125,lj
-2022-11-13,ČN Domžale Kamnik,Omikron,0.0396,lj
-2022-11-20,ČN Kranj,Omikron,0.0046,kr
-2022-11-21,CČN Murska Sobota,Drugo,0.0221,ms
-2022-11-21,ČN Celje,BQ.1* Omikron BQ.1.X,0.0037,ce
-2022-11-20,ČN Koper,Omikron,0.1051,kp
-2022-11-21,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.0072,za
-2022-11-21,ČN Novo mesto,Omikron,0.06,nm
-2022-11-20,ČN Nova Gorica,Omikron,0.0162,ng
-2022-11-20,CČN Ljubljana,Omikron,0.0555,lj
-2022-11-21,CČN Trbovlje,Drugo,0.0023,za
-2022-11-01,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.0053,lj
-2022-11-02,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.0352,za
-2022-12-12,CČN Slovenj Gradec,Omikron,0.0154,sg
-2022-12-11,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.1013,lj
-2022-12-12,ČN Celje,Omikron,0.0235,ce
-2022-12-12,OČN Šaleške doline,BA.2.75* Omikron BA.2.75.X,0.0526,ce
-2022-12-11,CČN Ljubljana,Omikron,0.0919,lj
-2022-12-12,CČN Zagorje,Omikron,0.011,za
-2022-12-11,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.0169,ms
-2022-12-11,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.0247,po
-2022-12-11,ČN Maribor,Drugo,0.0425,mb
-2022-12-12,CČN Brežice,Omikron,0.01,kk
-2022-12-12,ČN Novo mesto,Drugo,0.0019,nm
-2022-12-12,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.0658,za
-2022-11-28,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.1408,nm
-2022-11-27,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.134,kp
-2022-11-27,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.1594,mb
-2022-11-28,CČN Litija in Šmartno pri Litiji,Omikron,0.0469,za
-2022-11-27,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.1623,lj
-2022-11-27,CČN Postojna,Omikron,0.0457,po
-2022-11-28,ČN Celje,BA.2.75* Omikron BA.2.75.X,0.16,ce
-2022-12-19,ČN Celje,Omikron,0.0548,ce
-2022-12-19,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.2795,za
-2022-12-19,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.0184,ng
-2022-12-18,CČN Ljubljana,Omikron,0.0502,lj
-2022-12-19,ČN Novo mesto,Omikron,0.0648,nm
-2022-12-19,OČN Šaleške doline,Drugo,0.0026,ce
-2022-12-18,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.1746,ms
-2022-12-18,ČN Kranj,BA.2.75* Omikron BA.2.75.X,0.1283,kr
-2022-12-19,CČN Zagorje,BA.5* Omikron BA.5.X,0.1909,za
-2022-12-19,CČN Postojna,BQ.1* Omikron BQ.1.X,0.1475,po
-2022-12-27,OČN Šaleške doline,Drugo,0.0021,ce
-2022-12-26,ČN Kranj,BA.2.75* Omikron BA.2.75.X,0.1816,kr
-2022-12-26,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.0965,kp
-2022-12-26,CČN Postojna,BA.5* Omikron BA.5.X,0.1155,po
-2022-12-26,CČN Murska Sobota,BA.2.75* Omikron BA.2.75.X,0.235,ms
-2022-12-28,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.157,nm
-2022-12-27,CČN Litija in Šmartno pri Litiji,Omikron,0.0723,za
-2022-12-28,CČN Brežice,Omikron,0.0085,kk
-2022-12-26,CČN Slovenj Gradec,Omikron,0.1161,sg
-2022-12-26,ČN Maribor,Omikron,0.1634,mb
-2022-12-27,ČN Celje,Omikron,0.0072,ce
-2022-12-26,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.194,ng
-2022-12-26,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.1541,lj
-2022-12-26,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.1683,lj
-2022-12-27,CČN Zagorje,BA.5* Omikron BA.5.X,0.1792,za
-2022-12-27,CČN Trbovlje,BA.2.75* Omikron BA.2.75.X,0.1855,za
-2022-12-05,CČN Slovenj Gradec,Omikron,0.0724,sg
-2022-12-05,CČN Brežice,BA.2.75* Omikron BA.2.75.X,0.0955,kk
-2022-12-05,OČN Šaleške doline,Omikron,0.0047,ce
-2022-12-05,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.0088,za
-2022-12-04,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.1236,lj
-2022-12-04,CČN Postojna,Omikron,0.0027,po
-2022-12-05,CČN Zagorje,BA.2.75* Omikron BA.2.75.X,0.0353,za
-2022-12-04,CČN Murska Sobota,Drugo,0.0031,ms
-2022-12-05,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.0068,nm
-2022-12-04,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.0682,kp
-2022-12-05,CČN Trbovlje,Omikron,0.1243,za
-2022-12-04,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.2011,lj
-2022-12-04,ČN Kranj,Drugo,0.0012,kr
-2022-12-04,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.1221,ng
-2022-12-05,ČN Celje,Omikron,0.0203,ce
-2022-12-04,ČN Maribor,Omikron,0.1228,mb
-2023-01-09,CČN Trbovlje,Omikron,0.1319,za
-2023-01-09,CČN Litija in Šmartno pri Litiji,BA.2.75* Omikron BA.2.75.X,0.1282,za
-2023-01-09,CČN Slovenj Gradec,BA.2.75* Omikron BA.2.75.X,0.04,sg
-2023-01-08,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.0962,mb
-2023-01-08,ČN Nova Gorica,Omikron,0.0115,ng
-2023-01-09,OČN Šaleške doline,Omikron,0.0764,ce
-2023-01-09,CČN Brežice,BA.2.75* Omikron BA.2.75.X,0.1534,kk
-2023-01-09,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.0539,kp
-2023-01-09,CČN Postojna,BA.5* Omikron BA.5.X,0.2677,po
-2023-01-08,CČN Murska Sobota,Omikron,0.0444,ms
-2023-01-08,CČN Ljubljana,BA.5* Omikron BA.5.X,0.2206,lj
-2023-01-09,CČN Zagorje,Omikron,0.1273,za
-2023-01-16,CČN Zagorje,Omikron,0.1729,za
-2023-01-16,CČN Postojna,Omikron,0.1202,po
-2023-01-15,CČN Ljubljana,Omikron,0.1715,lj
-2023-01-15,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.2088,lj
-2023-01-16,CČN Litija in Šmartno pri Litiji,Drugo,0.0029,za
-2023-01-23,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.1748,nm
-2023-01-23,CČN Litija in Šmartno pri Litiji,Drugo,0.0034,za
-2023-01-22,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.0999,lj
-2023-01-23,CČN Postojna,BQ.1* Omikron BQ.1.X,0.1108,po
-2023-01-22,ČN Maribor,Omikron,0.2132,mb
-2023-01-22,ČN Nova Gorica,Omikron,0.0198,ng
-2023-01-22,ČN Kranj,Omikron,0.14,kr
-2023-01-23,OČN Šaleške doline,Omikron,0.1231,ce
-2023-01-22,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.2368,lj
-2023-01-02,ČN Nova Gorica,Omikron,0.1447,ng
-2023-01-04,CČN Brežice,BA.5* Omikron BA.5.X,0.0673,kk
-2023-01-03,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.1728,ms
-2023-01-02,ČN Koper,BA.5* Omikron BA.5.X,0.237,kp
-2023-01-02,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.0581,lj
-2023-01-03,CČN Zagorje,Omikron,0.0047,za
-2023-02-05,CČN Postojna,BA.5* Omikron BA.5.X,0.0457,po
-2023-02-05,CČN Ljubljana,BA.5* Omikron BA.5.X,0.0493,lj
-2023-02-06,ČN Celje,Omikron,0.083,ce
-2023-02-05,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.1268,lj
-2023-02-06,CČN Trbovlje,BA.2.75* Omikron BA.2.75.X,0.1781,za
-2023-02-05,ČN Nova Gorica,Omikron,0.003,ng
-2023-02-06,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.0273,ce
-2023-02-06,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.1516,nm
-2023-02-05,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.1329,kp
-2023-02-06,CČN Zagorje,BA.5* Omikron BA.5.X,0.2379,za
-2023-02-05,ČN Kranj,BQ.1* Omikron BQ.1.X,0.0278,kr
-2023-02-12,CČN Murska Sobota,Omikron,0.2092,ms
-2023-02-12,ČN Maribor,Omikron,0.1746,mb
-2023-02-12,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.1524,lj
-2023-02-13,CČN Slovenj Gradec,Drugo,0.0025,sg
-2023-02-13,CČN Trbovlje,BA.5* Omikron BA.5.X,0.0991,za
-2023-02-13,ČN Novo mesto,Omikron,0.1056,nm
-2023-02-13,CČN Postojna,BQ.1* Omikron BQ.1.X,0.0195,po
-2023-02-13,CČN Litija in Šmartno pri Litiji,BA.2.75* Omikron BA.2.75.X,0.0242,za
-2023-02-12,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.1112,lj
-2023-01-29,ČN Kranj,BA.2.75* Omikron BA.2.75.X,0.1117,kr
-2023-01-30,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.0211,nm
-2023-01-30,CČN Zagorje,Drugo,0.005,za
-2023-01-29,CČN Postojna,Omikron,0.0326,po
-2023-02-20,ČN Celje,BQ.1* Omikron BQ.1.X,0.2,ce
-2023-02-19,ČN Kranj,BA.5* Omikron BA.5.X,0.2475,kr
-2023-02-19,CČN Ljubljana,Omikron,0.2567,lj
-2023-02-20,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.1544,ng
-2023-02-19,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.219,mb
-2023-02-20,CČN Brežice,BA.2.75* Omikron BA.2.75.X,0.1963,kk
-2023-02-20,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.2536,sg
-2023-02-19,CČN Murska Sobota,BA.2.75* Omikron BA.2.75.X,0.0302,ms
-2023-02-20,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.2222,ce
-2023-02-20,CČN Trbovlje,BA.2.75* Omikron BA.2.75.X,0.2354,za
-2023-02-19,CČN Postojna,BQ.1* Omikron BQ.1.X,0.1905,po
-2023-02-20,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.1515,za
-2023-02-19,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.2258,lj
-2023-02-19,ČN Koper,BQ.1* Omikron BQ.1.X,0.2,kp
-2023-02-20,CČN Litija in Šmartno pri Litiji,BA.2.75* Omikron BA.2.75.X,0.2,za
-2023-03-06,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.0733,lj
-2023-03-07,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.1125,ce
-2023-03-06,CČN Ljubljana,BA.5* Omikron BA.5.X,0.1014,lj
-2023-03-06,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.1074,mb
-2023-03-06,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.0195,ng
-2023-03-07,CČN Trbovlje,BA.5* Omikron BA.5.X,0.0346,za
-2023-03-07,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.113,sg
-2023-03-06,ČN Koper,BA.5* Omikron BA.5.X,0.1019,kp
-2023-03-06,CČN Postojna,BQ.1* Omikron BQ.1.X,0.1857,po
-2023-03-07,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.0029,za
-2023-03-06,CČN Murska Sobota,Drugo,0.0036,ms
-2023-03-12,CČN Ljubljana,BA.5* Omikron BA.5.X,0.0396,lj
-2023-03-12,ČN Domžale Kamnik,Drugo,0.0037,lj
-2023-03-13,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.0327,po
-2023-03-12,ČN Kranj,BQ.1* Omikron BQ.1.X,0.0146,kr
-2023-03-13,ČN Koper,BQ.1* Omikron BQ.1.X,0.1395,kp
-2023-03-12,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.0347,ms
-2023-03-13,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.0041,nm
-2023-03-13,CČN Brežice,BQ.1* Omikron BQ.1.X,0.0045,kk
-2023-03-12,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.0049,ng
-2023-03-13,CČN Litija in Šmartno pri Litiji,Drugo,0.0042,za
-2023-03-12,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.1503,mb
-2023-03-13,CČN Zagorje,BA.2.75* Omikron BA.2.75.X,0.2179,za
-2023-03-13,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.0385,za
-2023-03-19,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.0036,po
-2023-03-20,CČN Brežice,BQ.1* Omikron BQ.1.X,0.0016,kk
-2023-03-20,OČN Šaleške doline,Drugo,0.001,ce
-2023-03-19,CČN Ljubljana,Drugo,0.0027,lj
-2023-03-20,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.0023,za
-2023-03-19,ČN Domžale Kamnik,Drugo,0.0015,lj
-2023-03-19,ČN Koper,BA.5* Omikron BA.5.X,0.1113,kp
-2023-03-19,ČN Kranj,BQ.1* Omikron BQ.1.X,0.002,kr
-2023-03-20,CČN Zagorje,Drugo,0.0031,za
-2023-02-27,CČN Brežice,BA.5* Omikron BA.5.X,0.0339,kk
-2023-02-27,ČN Celje,BA.5* Omikron BA.5.X,0.0526,ce
-2023-02-26,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.2141,ng
-2023-02-26,CČN Murska Sobota,Drugo,0.0045,ms
-2023-02-27,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.1036,ce
-2023-02-26,ČN Kranj,BQ.1* Omikron BQ.1.X,0.0113,kr
-2023-02-27,ČN Novo mesto,BA.5* Omikron BA.5.X,0.1406,nm
-2023-02-26,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.1986,lj
-2023-02-26,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.0417,kp
-2023-02-26,ČN Maribor,BQ.1* Omikron BQ.1.X,0.1262,mb
-2023-03-27,CČN Slovenj Gradec,Omikron,0.0945,sg
-2023-03-26,ČN Koper,BA.5* Omikron BA.5.X,0.0586,kp
-2023-03-26,ČN Maribor,BQ.1* Omikron BQ.1.X,0.1231,mb
-2023-03-26,CČN Postojna,BQ.1* Omikron BQ.1.X,0.0465,po
-2023-03-26,ČN Nova Gorica,Drugo,0.0035,ng
-2023-03-26,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.0166,lj
-2023-03-27,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.0532,ce
-2023-03-27,CČN Zagorje,Drugo,0.0034,za
-2023-03-27,ČN Novo mesto,Drugo,0.0021,nm
-2023-03-26,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.0061,lj
-2023-04-03,ČN Celje,BA.2.75* Omikron BA.2.75.X,0.1814,ce
-2023-04-03,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.2001,sg
-2023-04-03,CČN Brežice,BQ.1* Omikron BQ.1.X,0.1562,kk
-2023-04-02,CČN Ljubljana,BA.5* Omikron BA.5.X,0.0408,lj
-2023-04-02,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.0276,po
-2023-04-03,CČN Litija in Šmartno pri Litiji,BA.2.75* Omikron BA.2.75.X,0.158,za
-2023-04-02,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.1694,ms
-2023-04-03,ČN Novo mesto,XBB.1.5* Omikron XBB.1.5.X,0.1506,nm
-2023-04-03,CČN Trbovlje,BA.2.75* Omikron BA.2.75.X,0.0145,za
-2023-04-02,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.0054,lj
-2023-04-02,ČN Kranj,BA.2.75* Omikron BA.2.75.X,0.0504,kr
-2023-04-02,ČN Nova Gorica,Drugo,0.0422,ng
-2023-04-02,ČN Maribor,BA.5* Omikron BA.5.X,0.0237,mb
-2023-04-03,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.1703,ce
-2023-04-02,ČN Koper,BA.5* Omikron BA.5.X,0.0147,kp
+2022-09-12,CČN Zagorje,BA.5* Omikron BA.5.X,0.9637,za
 2022-09-12,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.001,za
-2022-09-19,CČN Trbovlje,Drugo,0.0032,za
-2022-09-19,CČN Litija in Šmartno pri Litiji,Omikron,0.002,za
-2022-09-19,CČN Slovenj Gradec,Drugo,0.0013,sg
+2022-09-12,CČN Zagorje,Drugo,0.0011,za
+2022-09-12,CČN Zagorje,Omikron,0.0333,za
+2022-09-12,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.9954,ce
+2022-09-12,ČN Koper,BA.5* Omikron BA.5.X,0.9962,kp
+2022-09-12,ČN Koper,Omikron,0.0038,kp
+2022-09-12,ČN Novo mesto,BA.5* Omikron BA.5.X,0.001,nm
+2022-09-18,CČN Ljubljana,BA.5* Omikron BA.5.X,0.9545,lj
 2022-09-18,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.0022,lj
-2022-09-26,CČN Litija in Šmartno pri Litiji,BA.2.75* Omikron BA.2.75.X,0.0142,za
-2022-09-26,CČN Zagorje,Drugo,0.0017,za
-2022-09-25,ČN Kranj,Drugo,0.0016,kr
-2022-09-26,ČN Celje,Omikron,0.0071,ce
+2022-09-18,CČN Ljubljana,Drugo,0.0022,lj
+2022-09-18,CČN Ljubljana,Omikron,0.0394,lj
+2022-09-18,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.9917,lj
+2022-09-18,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.0083,lj
+2022-09-18,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.9574,ng
+2022-09-18,ČN Nova Gorica,Omikron,0.0426,ng
+2022-09-19,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.9887,za
+2022-09-19,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.0056,za
+2022-09-19,CČN Litija in Šmartno pri Litiji,Drugo,0.0028,za
+2022-09-19,CČN Litija in Šmartno pri Litiji,Omikron,0.002,za
+2022-09-19,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.9868,sg
+2022-09-19,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.0014,sg
+2022-09-19,CČN Slovenj Gradec,Drugo,0.0013,sg
+2022-09-19,CČN Slovenj Gradec,Omikron,0.0099,sg
+2022-09-19,CČN Trbovlje,BA.5* Omikron BA.5.X,0.9559,za
+2022-09-19,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.0328,za
+2022-09-19,CČN Trbovlje,Drugo,0.0032,za
+2022-09-19,CČN Trbovlje,Omikron,0.0081,za
+2022-09-19,CČN Zagorje,BA.5* Omikron BA.5.X,0.9971,za
+2022-09-19,CČN Zagorje,Drugo,0.0024,za
+2022-09-19,ČN Koper,BA.5* Omikron BA.5.X,0.001,kp
+2022-09-19,ČN Novo mesto,BA.5* Omikron BA.5.X,0.9946,nm
+2022-09-19,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.0023,nm
+2022-09-19,ČN Novo mesto,Drugo,0.0017,nm
+2022-09-25,CČN Ljubljana,BA.5* Omikron BA.5.X,0.9513,lj
+2022-09-25,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.0192,lj
 2022-09-25,CČN Ljubljana,Drugo,0.0018,lj
-2022-10-10,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.0013,ng
-2022-10-17,ČN Novo mesto,Drugo,0.0018,nm
-2022-10-16,ČN Koper,Drugo,0.0032,kp
-2022-10-16,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.0036,lj
-2022-10-23,ČN Nova Gorica,Drugo,0.0023,ng
-2022-10-24,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.0013,za
-2022-10-24,ČN Celje,Omikron,0.0011,ce
-2022-10-23,ČN Kranj,Drugo,0.0018,kr
-2022-10-23,ČN Domžale Kamnik,Drugo,0.0025,lj
-2022-10-24,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.0317,za
+2022-09-25,CČN Ljubljana,Omikron,0.0269,lj
+2022-09-25,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.9983,ms
+2022-09-25,CČN Murska Sobota,Drugo,0.0014,ms
+2022-09-25,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.9497,lj
+2022-09-25,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.0476,lj
+2022-09-25,ČN Domžale Kamnik,Drugo,0.0018,lj
+2022-09-25,ČN Kranj,BA.5* Omikron BA.5.X,0.9406,kr
+2022-09-25,ČN Kranj,BQ.1* Omikron BQ.1.X,0.0441,kr
+2022-09-25,ČN Kranj,Drugo,0.0016,kr
+2022-09-25,ČN Kranj,Omikron,0.0106,kr
+2022-09-25,ČN Maribor,BA.5* Omikron BA.5.X,0.9986,mb
+2022-09-25,ČN Maribor,Drugo,0.0014,mb
+2022-09-25,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.9853,ng
+2022-09-25,ČN Nova Gorica,Drugo,0.002,ng
+2022-09-25,ČN Nova Gorica,Omikron,0.0099,ng
+2022-09-26,CČN Brežice,BA.5* Omikron BA.5.X,0.9986,kk
+2022-09-26,CČN Brežice,Drugo,0.0014,kk
+2022-09-26,CČN Litija in Šmartno pri Litiji,BA.2.75* Omikron BA.2.75.X,0.0142,za
+2022-09-26,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.7207,za
+2022-09-26,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.0503,za
+2022-09-26,CČN Litija in Šmartno pri Litiji,Drugo,0.0027,za
+2022-09-26,CČN Litija in Šmartno pri Litiji,Omikron,0.211,za
+2022-09-26,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.9808,sg
+2022-09-26,CČN Slovenj Gradec,Drugo,0.0014,sg
+2022-09-26,CČN Slovenj Gradec,Omikron,0.0169,sg
+2022-09-26,CČN Trbovlje,BA.5* Omikron BA.5.X,0.9958,za
+2022-09-26,CČN Trbovlje,Drugo,0.0016,za
+2022-09-26,CČN Trbovlje,Omikron,0.0026,za
+2022-09-26,CČN Zagorje,BA.5* Omikron BA.5.X,0.9761,za
+2022-09-26,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.0091,za
+2022-09-26,CČN Zagorje,Drugo,0.0017,za
+2022-09-26,CČN Zagorje,Omikron,0.0129,za
+2022-09-26,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.982,ce
+2022-09-26,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.018,ce
+2022-09-26,ČN Celje,BA.2.75* Omikron BA.2.75.X,0.0145,ce
+2022-09-26,ČN Celje,BA.5* Omikron BA.5.X,0.9564,ce
+2022-09-26,ČN Celje,BQ.1* Omikron BQ.1.X,0.0185,ce
+2022-09-26,ČN Celje,Drugo,0.0017,ce
+2022-09-26,ČN Celje,Omikron,0.0071,ce
+2022-09-26,ČN Koper,BA.5* Omikron BA.5.X,0.9981,kp
+2022-09-26,ČN Koper,BQ.1* Omikron BQ.1.X,0.0017,kp
 2022-10-02,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.0024,lj
-2022-10-03,CČN Litija in Šmartno pri Litiji,BA.2.75* Omikron BA.2.75.X,0.0142,za
+2022-10-02,CČN Ljubljana,BA.5* Omikron BA.5.X,0.9643,lj
+2022-10-02,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.0079,lj
+2022-10-02,CČN Ljubljana,Omikron,0.021,lj
+2022-10-02,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.9317,lj
+2022-10-02,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.0555,lj
 2022-10-02,ČN Domžale Kamnik,Drugo,0.0015,lj
+2022-10-02,ČN Domžale Kamnik,Omikron,0.0089,lj
+2022-10-02,ČN Kranj,BA.5* Omikron BA.5.X,0.001,kr
+2022-10-02,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.995,ng
+2022-10-02,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.0014,ng
+2022-10-02,ČN Nova Gorica,Drugo,0.0012,ng
+2022-10-03,CČN Brežice,BA.5* Omikron BA.5.X,0.9986,kk
+2022-10-03,CČN Brežice,Drugo,0.0014,kk
+2022-10-03,CČN Litija in Šmartno pri Litiji,BA.2.75* Omikron BA.2.75.X,0.0142,za
+2022-10-03,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.7262,za
+2022-10-03,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.0469,za
+2022-10-03,CČN Litija in Šmartno pri Litiji,Drugo,0.0028,za
+2022-10-03,CČN Litija in Šmartno pri Litiji,Omikron,0.209,za
+2022-10-03,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.9802,sg
+2022-10-03,CČN Slovenj Gradec,Drugo,0.0014,sg
+2022-10-03,CČN Slovenj Gradec,Omikron,0.0181,sg
+2022-10-03,CČN Trbovlje,BA.2.75* Omikron BA.2.75.X,0.0143,za
+2022-10-03,CČN Trbovlje,BA.5* Omikron BA.5.X,0.9568,za
+2022-10-03,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.0182,za
+2022-10-03,CČN Trbovlje,Drugo,0.0016,za
 2022-10-03,CČN Trbovlje,Omikron,0.0092,za
+2022-10-03,CČN Zagorje,BA.5* Omikron BA.5.X,0.986,za
+2022-10-03,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.0087,za
 2022-10-03,CČN Zagorje,Drugo,0.0014,za
+2022-10-03,CČN Zagorje,Omikron,0.0037,za
+2022-10-03,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.9834,ce
+2022-10-03,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.0093,ce
+2022-10-03,OČN Šaleške doline,Omikron,0.0051,ce
+2022-10-03,ČN Maribor,BA.5* Omikron BA.5.X,0.9983,mb
+2022-10-03,ČN Maribor,Drugo,0.0015,mb
+2022-10-03,ČN Novo mesto,BA.5* Omikron BA.5.X,0.9956,nm
+2022-10-03,ČN Novo mesto,Drugo,0.0029,nm
+2022-10-09,CČN Ljubljana,BA.5* Omikron BA.5.X,0.986,lj
+2022-10-09,CČN Ljubljana,Drugo,0.0022,lj
+2022-10-09,CČN Ljubljana,Omikron,0.0106,lj
+2022-10-09,CČN Postojna,BA.5* Omikron BA.5.X,0.9933,po
+2022-10-09,CČN Postojna,Drugo,0.0015,po
+2022-10-09,CČN Postojna,Omikron,0.0027,po
+2022-10-09,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.9924,lj
+2022-10-09,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.0029,lj
+2022-10-09,ČN Domžale Kamnik,Drugo,0.004,lj
+2022-10-09,ČN Maribor,BA.5* Omikron BA.5.X,0.9977,mb
+2022-10-09,ČN Maribor,Drugo,0.0023,mb
+2022-10-10,CČN Trbovlje,BA.5* Omikron BA.5.X,0.9907,za
+2022-10-10,CČN Trbovlje,Drugo,0.0019,za
+2022-10-10,CČN Trbovlje,Omikron,0.0069,za
+2022-10-10,CČN Zagorje,BA.5* Omikron BA.5.X,0.9535,za
+2022-10-10,CČN Zagorje,Drugo,0.001,za
+2022-10-10,CČN Zagorje,Omikron,0.0429,za
+2022-10-10,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.9758,ce
+2022-10-10,OČN Šaleške doline,Drugo,0.0024,ce
+2022-10-10,OČN Šaleške doline,Omikron,0.0178,ce
+2022-10-10,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.0013,ng
+2022-10-10,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.964,ng
+2022-10-10,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.0219,ng
+2022-10-10,ČN Nova Gorica,Drugo,0.0011,ng
+2022-10-10,ČN Nova Gorica,Omikron,0.01,ng
+2022-10-16,CČN Ljubljana,BA.5* Omikron BA.5.X,0.9674,lj
+2022-10-16,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.005,lj
+2022-10-16,CČN Ljubljana,Omikron,0.0276,lj
+2022-10-16,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.9621,ms
+2022-10-16,CČN Murska Sobota,Omikron,0.0379,ms
+2022-10-16,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.9714,lj
+2022-10-16,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.0036,lj
+2022-10-16,ČN Domžale Kamnik,Drugo,0.004,lj
+2022-10-16,ČN Domžale Kamnik,Omikron,0.021,lj
+2022-10-16,ČN Koper,BA.5* Omikron BA.5.X,0.9759,kp
+2022-10-16,ČN Koper,BQ.1* Omikron BQ.1.X,0.0084,kp
+2022-10-16,ČN Koper,Drugo,0.0032,kp
+2022-10-16,ČN Koper,Omikron,0.0108,kp
+2022-10-16,ČN Kranj,BA.5* Omikron BA.5.X,0.9725,kr
+2022-10-16,ČN Kranj,Drugo,0.0039,kr
+2022-10-16,ČN Kranj,Omikron,0.0236,kr
+2022-10-16,ČN Maribor,BA.5* Omikron BA.5.X,0.9698,mb
+2022-10-16,ČN Maribor,Drugo,0.0036,mb
+2022-10-16,ČN Maribor,Omikron,0.0259,mb
+2022-10-16,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.9674,ng
+2022-10-16,ČN Nova Gorica,Drugo,0.0024,ng
+2022-10-16,ČN Nova Gorica,Omikron,0.0296,ng
+2022-10-17,CČN Brežice,BA.5* Omikron BA.5.X,0.9889,kk
+2022-10-17,CČN Brežice,Drugo,0.0029,kk
+2022-10-17,CČN Brežice,Omikron,0.0082,kk
+2022-10-17,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.9739,sg
+2022-10-17,CČN Slovenj Gradec,Drugo,0.0026,sg
+2022-10-17,CČN Slovenj Gradec,Omikron,0.0234,sg
+2022-10-17,CČN Trbovlje,BA.5* Omikron BA.5.X,0.9587,za
+2022-10-17,CČN Trbovlje,Drugo,0.0059,za
+2022-10-17,CČN Trbovlje,Omikron,0.0349,za
+2022-10-17,CČN Zagorje,BA.5* Omikron BA.5.X,0.9758,za
+2022-10-17,CČN Zagorje,Drugo,0.0035,za
+2022-10-17,CČN Zagorje,Omikron,0.0197,za
+2022-10-17,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.9759,ce
+2022-10-17,OČN Šaleške doline,Drugo,0.0085,ce
+2022-10-17,OČN Šaleške doline,Omikron,0.0152,ce
+2022-10-17,ČN Celje,BA.5* Omikron BA.5.X,0.9772,ce
+2022-10-17,ČN Celje,Omikron,0.0228,ce
+2022-10-17,ČN Novo mesto,BA.5* Omikron BA.5.X,0.9619,nm
+2022-10-17,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.0307,nm
+2022-10-17,ČN Novo mesto,Drugo,0.0018,nm
+2022-10-17,ČN Novo mesto,Omikron,0.0047,nm
+2022-10-23,CČN Ljubljana,BA.5* Omikron BA.5.X,0.001,lj
+2022-10-23,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.9895,ms
+2022-10-23,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.0067,ms
+2022-10-23,CČN Murska Sobota,Drugo,0.0038,ms
+2022-10-23,CČN Postojna,BA.5* Omikron BA.5.X,0.9952,po
+2022-10-23,CČN Postojna,Drugo,0.0028,po
+2022-10-23,CČN Postojna,Omikron,0.0013,po
+2022-10-23,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.0054,lj
+2022-10-23,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.9806,lj
+2022-10-23,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.0087,lj
+2022-10-23,ČN Domžale Kamnik,Drugo,0.0025,lj
+2022-10-23,ČN Koper,BA.5* Omikron BA.5.X,0.9971,kp
+2022-10-23,ČN Koper,Drugo,0.0014,kp
+2022-10-23,ČN Kranj,BA.5* Omikron BA.5.X,0.781,kr
+2022-10-23,ČN Kranj,BQ.1* Omikron BQ.1.X,0.0168,kr
+2022-10-23,ČN Kranj,Drugo,0.0018,kr
+2022-10-23,ČN Kranj,Omikron,0.1967,kr
+2022-10-23,ČN Maribor,BA.5* Omikron BA.5.X,0.9698,mb
+2022-10-23,ČN Maribor,Omikron,0.0294,mb
+2022-10-23,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.9358,ng
+2022-10-23,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.0405,ng
+2022-10-23,ČN Nova Gorica,Drugo,0.0023,ng
+2022-10-23,ČN Nova Gorica,Omikron,0.0203,ng
+2022-10-24,CČN Brežice,BA.5* Omikron BA.5.X,0.9968,kk
+2022-10-24,CČN Brežice,BQ.1* Omikron BQ.1.X,0.0017,kk
+2022-10-24,CČN Brežice,Drugo,0.0015,kk
+2022-10-24,CČN Trbovlje,BA.2.75* Omikron BA.2.75.X,0.0432,za
+2022-10-24,CČN Trbovlje,BA.5* Omikron BA.5.X,0.8001,za
+2022-10-24,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.0317,za
+2022-10-24,CČN Trbovlje,Drugo,0.001,za
+2022-10-24,CČN Trbovlje,Omikron,0.1218,za
+2022-10-24,CČN Zagorje,BA.5* Omikron BA.5.X,0.9948,za
+2022-10-24,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.0013,za
+2022-10-24,CČN Zagorje,Drugo,0.0015,za
+2022-10-24,CČN Zagorje,Omikron,0.0021,za
+2022-10-24,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.9926,ce
+2022-10-24,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.0016,ce
+2022-10-24,OČN Šaleške doline,Omikron,0.002,ce
+2022-10-24,ČN Celje,BA.5* Omikron BA.5.X,0.9179,ce
+2022-10-24,ČN Celje,BQ.1* Omikron BQ.1.X,0.0756,ce
+2022-10-24,ČN Celje,Drugo,0.0032,ce
+2022-10-24,ČN Celje,Omikron,0.0011,ce
+2022-10-24,ČN Novo mesto,BA.5* Omikron BA.5.X,0.9591,nm
+2022-10-24,ČN Novo mesto,Drugo,0.0028,nm
+2022-10-24,ČN Novo mesto,Omikron,0.0369,nm
+2022-11-01,CČN Ljubljana,BA.5* Omikron BA.5.X,0.9838,lj
+2022-11-01,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.0053,lj
+2022-11-01,CČN Ljubljana,Drugo,0.0012,lj
+2022-11-01,CČN Ljubljana,Omikron,0.0094,lj
+2022-11-02,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.9962,za
+2022-11-02,CČN Litija in Šmartno pri Litiji,Drugo,0.0032,za
+2022-11-02,CČN Trbovlje,BA.5* Omikron BA.5.X,0.6738,za
+2022-11-02,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.0352,za
+2022-11-02,CČN Trbovlje,Drugo,0.0052,za
+2022-11-02,CČN Trbovlje,Omikron,0.2857,za
+2022-11-06,CČN Postojna,BA.5* Omikron BA.5.X,0.001,po
+2022-11-06,ČN Kranj,BA.5* Omikron BA.5.X,0.9851,kr
+2022-11-06,ČN Kranj,BQ.1* Omikron BQ.1.X,0.0074,kr
+2022-11-06,ČN Kranj,Omikron,0.0075,kr
+2022-11-06,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.9933,ng
+2022-11-06,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.0047,ng
+2022-11-06,ČN Nova Gorica,Omikron,0.002,ng
+2022-11-07,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.9888,za
+2022-11-07,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.0037,za
+2022-11-07,CČN Litija in Šmartno pri Litiji,Drugo,0.0057,za
+2022-11-07,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.9504,sg
+2022-11-07,CČN Slovenj Gradec,Drugo,0.0031,sg
+2022-11-07,CČN Slovenj Gradec,Omikron,0.0442,sg
+2022-11-07,CČN Trbovlje,BA.5* Omikron BA.5.X,0.8492,za
+2022-11-07,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.1127,za
 2022-11-07,CČN Trbovlje,Drugo,0.0036,za
-2022-11-14,CČN Litija in Šmartno pri Litiji,Drugo,0.0039,za
-2022-11-14,CČN Trbovlje,Drugo,0.0019,za
+2022-11-07,CČN Trbovlje,Omikron,0.0345,za
+2022-11-07,ČN Celje,BA.5* Omikron BA.5.X,0.001,ce
+2022-11-13,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.0204,lj
+2022-11-13,CČN Ljubljana,BA.5* Omikron BA.5.X,0.9639,lj
+2022-11-13,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.0125,lj
 2022-11-13,CČN Ljubljana,Omikron,0.0023,lj
 2022-11-13,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.0055,lj
-2022-11-20,ČN Kranj,Drugo,0.0023,kr
-2022-11-21,CČN Murska Sobota,Omikron,0.0112,ms
-2022-11-21,ČN Celje,Drugo,0.0018,ce
-2022-11-20,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.0095,kp
-2022-11-21,CČN Zagorje,Drugo,0.0033,za
-2022-11-20,ČN Nova Gorica,Drugo,0.0016,ng
+2022-11-13,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.9042,lj
+2022-11-13,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.0457,lj
+2022-11-13,ČN Domžale Kamnik,Drugo,0.0036,lj
+2022-11-13,ČN Domžale Kamnik,Omikron,0.0396,lj
+2022-11-13,ČN Kranj,BA.5* Omikron BA.5.X,0.001,kr
+2022-11-14,CČN Brežice,BA.5* Omikron BA.5.X,0.9931,kk
+2022-11-14,CČN Brežice,BQ.1* Omikron BQ.1.X,0.0065,kk
+2022-11-14,CČN Litija in Šmartno pri Litiji,BA.2.75* Omikron BA.2.75.X,0.1119,za
+2022-11-14,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.86,za
+2022-11-14,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.0018,za
+2022-11-14,CČN Litija in Šmartno pri Litiji,Drugo,0.0039,za
+2022-11-14,CČN Litija in Šmartno pri Litiji,Omikron,0.0204,za
+2022-11-14,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.9901,sg
+2022-11-14,CČN Slovenj Gradec,Omikron,0.0099,sg
+2022-11-14,CČN Trbovlje,BA.5* Omikron BA.5.X,0.9359,za
+2022-11-14,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.0333,za
+2022-11-14,CČN Trbovlje,Drugo,0.0019,za
+2022-11-14,CČN Trbovlje,Omikron,0.0252,za
+2022-11-20,CČN Ljubljana,BA.5* Omikron BA.5.X,0.5107,lj
+2022-11-20,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.4301,lj
 2022-11-20,CČN Ljubljana,Drugo,0.0014,lj
-2022-11-01,CČN Ljubljana,Drugo,0.0012,lj
-2022-11-02,CČN Trbovlje,Drugo,0.0052,za
-2022-12-12,CČN Slovenj Gradec,Drugo,0.0032,sg
-2022-12-11,ČN Domžale Kamnik,Omikron,0.02,lj
-2022-12-12,OČN Šaleške doline,Omikron,0.014,ce
-2022-12-11,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.0192,lj
-2022-12-12,CČN Zagorje,BA.2.75* Omikron BA.2.75.X,0.0107,za
-2022-12-11,CČN Murska Sobota,Omikron,0.0053,ms
-2022-12-11,CČN Postojna,BQ.1* Omikron BQ.1.X,0.0169,po
-2022-12-11,ČN Maribor,Omikron,0.0315,mb
-2022-11-28,ČN Novo mesto,Omikron,0.0384,nm
-2022-11-27,ČN Koper,Drugo,0.0036,kp
-2022-11-27,ČN Maribor,BQ.1* Omikron BQ.1.X,0.0095,mb
-2022-11-28,CČN Litija in Šmartno pri Litiji,Drugo,0.0022,za
+2022-11-20,CČN Ljubljana,Omikron,0.0555,lj
+2022-11-20,CČN Postojna,BA.5* Omikron BA.5.X,0.7143,po
+2022-11-20,CČN Postojna,BQ.1* Omikron BQ.1.X,0.2857,po
+2022-11-20,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.0095,kp
+2022-11-20,ČN Koper,BA.5* Omikron BA.5.X,0.2112,kp
+2022-11-20,ČN Koper,BQ.1* Omikron BQ.1.X,0.6707,kp
+2022-11-20,ČN Koper,Drugo,0.0014,kp
+2022-11-20,ČN Koper,Omikron,0.1051,kp
+2022-11-20,ČN Kranj,BA.5* Omikron BA.5.X,0.5711,kr
+2022-11-20,ČN Kranj,BQ.1* Omikron BQ.1.X,0.4219,kr
+2022-11-20,ČN Kranj,Drugo,0.0023,kr
+2022-11-20,ČN Kranj,Omikron,0.0046,kr
+2022-11-20,ČN Maribor,BA.5* Omikron BA.5.X,0.7011,mb
+2022-11-20,ČN Maribor,BQ.1* Omikron BQ.1.X,0.2989,mb
+2022-11-20,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.6791,ng
+2022-11-20,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.302,ng
+2022-11-20,ČN Nova Gorica,Drugo,0.0016,ng
+2022-11-20,ČN Nova Gorica,Omikron,0.0162,ng
+2022-11-21,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.4693,za
+2022-11-21,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.5307,za
+2022-11-21,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.6168,ms
+2022-11-21,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.3488,ms
+2022-11-21,CČN Murska Sobota,Drugo,0.0221,ms
+2022-11-21,CČN Murska Sobota,Omikron,0.0112,ms
+2022-11-21,CČN Trbovlje,BA.5* Omikron BA.5.X,0.7048,za
+2022-11-21,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.293,za
+2022-11-21,CČN Trbovlje,Drugo,0.0023,za
+2022-11-21,CČN Zagorje,BA.5* Omikron BA.5.X,0.7221,za
+2022-11-21,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.0072,za
+2022-11-21,CČN Zagorje,Drugo,0.0033,za
+2022-11-21,CČN Zagorje,Omikron,0.2673,za
+2022-11-21,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.7187,ce
+2022-11-21,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.2812,ce
+2022-11-21,ČN Celje,BA.5* Omikron BA.5.X,0.8968,ce
+2022-11-21,ČN Celje,BQ.1* Omikron BQ.1.X,0.0037,ce
+2022-11-21,ČN Celje,Drugo,0.0018,ce
+2022-11-21,ČN Celje,Omikron,0.0977,ce
+2022-11-21,ČN Novo mesto,BA.5* Omikron BA.5.X,0.2878,nm
+2022-11-21,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.6522,nm
+2022-11-21,ČN Novo mesto,Omikron,0.06,nm
+2022-11-27,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.1623,lj
+2022-11-27,CČN Ljubljana,BA.5* Omikron BA.5.X,0.2419,lj
+2022-11-27,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.4896,lj
+2022-11-27,CČN Ljubljana,Drugo,0.0021,lj
 2022-11-27,CČN Ljubljana,Omikron,0.1041,lj
+2022-11-27,CČN Postojna,BA.5* Omikron BA.5.X,0.2428,po
+2022-11-27,CČN Postojna,BQ.1* Omikron BQ.1.X,0.7115,po
+2022-11-27,CČN Postojna,Omikron,0.0457,po
+2022-11-27,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.4682,lj
+2022-11-27,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.5318,lj
+2022-11-27,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.134,kp
+2022-11-27,ČN Koper,BA.5* Omikron BA.5.X,0.4239,kp
+2022-11-27,ČN Koper,BQ.1* Omikron BQ.1.X,0.4364,kp
+2022-11-27,ČN Koper,Drugo,0.0036,kp
+2022-11-27,ČN Koper,Omikron,0.0022,kp
+2022-11-27,ČN Kranj,BA.5* Omikron BA.5.X,0.9833,kr
+2022-11-27,ČN Kranj,BQ.1* Omikron BQ.1.X,0.0101,kr
+2022-11-27,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.1594,mb
+2022-11-27,ČN Maribor,BA.5* Omikron BA.5.X,0.6177,mb
+2022-11-27,ČN Maribor,BQ.1* Omikron BQ.1.X,0.0095,mb
+2022-11-27,ČN Maribor,Omikron,0.2134,mb
+2022-11-28,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.8332,za
+2022-11-28,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.1176,za
+2022-11-28,CČN Litija in Šmartno pri Litiji,Drugo,0.0022,za
+2022-11-28,CČN Litija in Šmartno pri Litiji,Omikron,0.0469,za
+2022-11-28,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.6,sg
+2022-11-28,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.4,sg
+2022-11-28,CČN Trbovlje,BA.5* Omikron BA.5.X,0.484,za
+2022-11-28,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.516,za
+2022-11-28,ČN Celje,BA.2.75* Omikron BA.2.75.X,0.16,ce
+2022-11-28,ČN Celje,BA.5* Omikron BA.5.X,0.414,ce
+2022-11-28,ČN Celje,BQ.1* Omikron BQ.1.X,0.3844,ce
+2022-11-28,ČN Celje,Drugo,0.0023,ce
 2022-11-28,ČN Celje,Omikron,0.0383,ce
-2022-12-19,ČN Celje,BA.2.75* Omikron BA.2.75.X,0.0028,ce
-2022-12-19,CČN Trbovlje,BA.2.75* Omikron BA.2.75.X,0.0999,za
-2022-12-19,ČN Nova Gorica,Omikron,0.0052,ng
-2022-12-18,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.0257,lj
-2022-12-19,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.0191,nm
-2022-12-18,CČN Murska Sobota,Omikron,0.1736,ms
-2022-12-18,ČN Kranj,Omikron,0.097,kr
-2022-12-19,CČN Zagorje,Drugo,0.0032,za
-2022-12-19,CČN Postojna,Drugo,0.0026,po
-2022-12-26,ČN Kranj,Omikron,0.0778,kr
-2022-12-26,ČN Koper,Drugo,0.003,kp
-2022-12-26,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.0336,po
-2022-12-26,CČN Murska Sobota,Omikron,0.1848,ms
-2022-12-28,ČN Novo mesto,Omikron,0.025,nm
-2022-12-27,CČN Litija in Šmartno pri Litiji,Drugo,0.0568,za
-2022-12-26,CČN Slovenj Gradec,BA.2.75* Omikron BA.2.75.X,0.0976,sg
-2022-12-26,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.0334,mb
-2022-12-27,ČN Celje,Drugo,0.0029,ce
-2022-12-26,ČN Nova Gorica,Omikron,0.0291,ng
-2022-12-26,ČN Domžale Kamnik,Omikron,0.0936,lj
-2022-12-26,CČN Ljubljana,Omikron,0.0238,lj
-2022-12-27,CČN Zagorje,BA.2.75* Omikron BA.2.75.X,0.1594,za
-2022-12-27,CČN Trbovlje,Omikron,0.1333,za
-2022-12-05,CČN Slovenj Gradec,BA.2.75* Omikron BA.2.75.X,0.0662,sg
-2022-12-05,CČN Brežice,Omikron,0.0376,kk
-2022-12-05,OČN Šaleške doline,Drugo,0.0016,ce
-2022-12-05,CČN Litija in Šmartno pri Litiji,Omikron,0.0085,za
+2022-11-28,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.1408,nm
+2022-11-28,ČN Novo mesto,BA.5* Omikron BA.5.X,0.4823,nm
+2022-11-28,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.3333,nm
+2022-11-28,ČN Novo mesto,Drugo,0.0043,nm
+2022-11-28,ČN Novo mesto,Omikron,0.0384,nm
+2022-12-04,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.1236,lj
+2022-12-04,CČN Ljubljana,BA.5* Omikron BA.5.X,0.2999,lj
+2022-12-04,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.4907,lj
+2022-12-04,CČN Ljubljana,Drugo,0.0024,lj
 2022-12-04,CČN Ljubljana,Omikron,0.0803,lj
-2022-12-04,CČN Postojna,Drugo,0.0023,po
-2022-12-05,CČN Zagorje,Omikron,0.0165,za
+2022-12-04,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.7892,ms
+2022-12-04,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.2059,ms
+2022-12-04,CČN Murska Sobota,Drugo,0.0031,ms
 2022-12-04,CČN Murska Sobota,Omikron,0.0016,ms
-2022-12-05,ČN Novo mesto,Omikron,0.0027,nm
-2022-12-04,ČN Koper,Omikron,0.02,kp
-2022-12-05,CČN Trbovlje,Drugo,0.0016,za
+2022-12-04,CČN Postojna,BA.5* Omikron BA.5.X,0.7559,po
+2022-12-04,CČN Postojna,BQ.1* Omikron BQ.1.X,0.2384,po
+2022-12-04,CČN Postojna,Drugo,0.0023,po
+2022-12-04,CČN Postojna,Omikron,0.0027,po
+2022-12-04,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.2011,lj
+2022-12-04,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.3004,lj
+2022-12-04,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.4591,lj
+2022-12-04,ČN Domžale Kamnik,Drugo,0.0035,lj
 2022-12-04,ČN Domžale Kamnik,Omikron,0.0341,lj
-2022-12-04,ČN Nova Gorica,Omikron,0.0136,ng
-2022-12-05,ČN Celje,Drugo,0.0039,ce
+2022-12-04,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.0682,kp
+2022-12-04,ČN Koper,BA.5* Omikron BA.5.X,0.2917,kp
+2022-12-04,ČN Koper,BQ.1* Omikron BQ.1.X,0.6158,kp
+2022-12-04,ČN Koper,Drugo,0.0016,kp
+2022-12-04,ČN Koper,Omikron,0.02,kp
+2022-12-04,ČN Kranj,BA.5* Omikron BA.5.X,0.5189,kr
+2022-12-04,ČN Kranj,BQ.1* Omikron BQ.1.X,0.4799,kr
+2022-12-04,ČN Kranj,Drugo,0.0012,kr
 2022-12-04,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.056,mb
-2023-01-09,CČN Trbovlje,BA.2.75* Omikron BA.2.75.X,0.0556,za
-2023-01-09,CČN Litija in Šmartno pri Litiji,Omikron,0.0715,za
-2023-01-09,CČN Slovenj Gradec,Omikron,0.0197,sg
+2022-12-04,ČN Maribor,BA.5* Omikron BA.5.X,0.5338,mb
+2022-12-04,ČN Maribor,BQ.1* Omikron BQ.1.X,0.2804,mb
+2022-12-04,ČN Maribor,Drugo,0.0024,mb
+2022-12-04,ČN Maribor,Omikron,0.1228,mb
+2022-12-04,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.1221,ng
+2022-12-04,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.7087,ng
+2022-12-04,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.1515,ng
+2022-12-04,ČN Nova Gorica,Drugo,0.0028,ng
+2022-12-04,ČN Nova Gorica,Omikron,0.0136,ng
+2022-12-05,CČN Brežice,BA.2.75* Omikron BA.2.75.X,0.0955,kk
+2022-12-05,CČN Brežice,BA.5* Omikron BA.5.X,0.6251,kk
+2022-12-05,CČN Brežice,BQ.1* Omikron BQ.1.X,0.2391,kk
+2022-12-05,CČN Brežice,Drugo,0.0012,kk
+2022-12-05,CČN Brežice,Omikron,0.0376,kk
+2022-12-05,CČN Litija in Šmartno pri Litiji,BA.2.75* Omikron BA.2.75.X,0.1523,za
+2022-12-05,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.8274,za
+2022-12-05,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.0088,za
+2022-12-05,CČN Litija in Šmartno pri Litiji,Drugo,0.003,za
+2022-12-05,CČN Litija in Šmartno pri Litiji,Omikron,0.0085,za
+2022-12-05,CČN Slovenj Gradec,BA.2.75* Omikron BA.2.75.X,0.0662,sg
+2022-12-05,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.5496,sg
+2022-12-05,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.3094,sg
+2022-12-05,CČN Slovenj Gradec,Drugo,0.0024,sg
+2022-12-05,CČN Slovenj Gradec,Omikron,0.0724,sg
+2022-12-05,CČN Trbovlje,BA.5* Omikron BA.5.X,0.5848,za
+2022-12-05,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.2857,za
+2022-12-05,CČN Trbovlje,Drugo,0.0016,za
+2022-12-05,CČN Trbovlje,Omikron,0.1243,za
+2022-12-05,CČN Zagorje,BA.2.75* Omikron BA.2.75.X,0.0353,za
+2022-12-05,CČN Zagorje,BA.5* Omikron BA.5.X,0.8062,za
+2022-12-05,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.1389,za
+2022-12-05,CČN Zagorje,Drugo,0.002,za
+2022-12-05,CČN Zagorje,Omikron,0.0165,za
+2022-12-05,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.4106,ce
+2022-12-05,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.5821,ce
+2022-12-05,OČN Šaleške doline,Drugo,0.0016,ce
+2022-12-05,OČN Šaleške doline,Omikron,0.0047,ce
+2022-12-05,ČN Celje,BA.5* Omikron BA.5.X,0.5083,ce
+2022-12-05,ČN Celje,BQ.1* Omikron BQ.1.X,0.4667,ce
+2022-12-05,ČN Celje,Drugo,0.0039,ce
+2022-12-05,ČN Celje,Omikron,0.0203,ce
+2022-12-05,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.0068,nm
+2022-12-05,ČN Novo mesto,BA.5* Omikron BA.5.X,0.3498,nm
+2022-12-05,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.6383,nm
+2022-12-05,ČN Novo mesto,Drugo,0.0012,nm
+2022-12-05,ČN Novo mesto,Omikron,0.0027,nm
+2022-12-11,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.0192,lj
+2022-12-11,CČN Ljubljana,BA.5* Omikron BA.5.X,0.4447,lj
+2022-12-11,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.4403,lj
+2022-12-11,CČN Ljubljana,Drugo,0.0039,lj
+2022-12-11,CČN Ljubljana,Omikron,0.0919,lj
+2022-12-11,CČN Murska Sobota,BA.2.75* Omikron BA.2.75.X,0.0392,ms
+2022-12-11,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.9385,ms
+2022-12-11,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.0169,ms
+2022-12-11,CČN Murska Sobota,Omikron,0.0053,ms
+2022-12-11,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.0247,po
+2022-12-11,CČN Postojna,BA.5* Omikron BA.5.X,0.9299,po
+2022-12-11,CČN Postojna,BQ.1* Omikron BQ.1.X,0.0169,po
+2022-12-11,CČN Postojna,Omikron,0.0285,po
+2022-12-11,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.1013,lj
+2022-12-11,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.5406,lj
+2022-12-11,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.3333,lj
+2022-12-11,ČN Domžale Kamnik,Drugo,0.0048,lj
+2022-12-11,ČN Domžale Kamnik,Omikron,0.02,lj
+2022-12-11,ČN Kranj,BA.5* Omikron BA.5.X,0.8421,kr
+2022-12-11,ČN Kranj,BQ.1* Omikron BQ.1.X,0.1579,kr
+2022-12-11,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.0207,mb
+2022-12-11,ČN Maribor,BA.5* Omikron BA.5.X,0.7094,mb
+2022-12-11,ČN Maribor,BQ.1* Omikron BQ.1.X,0.1951,mb
+2022-12-11,ČN Maribor,Drugo,0.0425,mb
+2022-12-11,ČN Maribor,Omikron,0.0315,mb
+2022-12-12,CČN Brežice,BA.5* Omikron BA.5.X,0.8505,kk
+2022-12-12,CČN Brežice,BQ.1* Omikron BQ.1.X,0.1389,kk
+2022-12-12,CČN Brežice,Omikron,0.01,kk
+2022-12-12,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.9365,sg
+2022-12-12,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.0449,sg
+2022-12-12,CČN Slovenj Gradec,Drugo,0.0032,sg
+2022-12-12,CČN Slovenj Gradec,Omikron,0.0154,sg
+2022-12-12,CČN Trbovlje,BA.5* Omikron BA.5.X,0.8246,za
+2022-12-12,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.0658,za
+2022-12-12,CČN Trbovlje,Omikron,0.1096,za
+2022-12-12,CČN Zagorje,BA.2.75* Omikron BA.2.75.X,0.0107,za
+2022-12-12,CČN Zagorje,BA.5* Omikron BA.5.X,0.6432,za
+2022-12-12,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.3275,za
+2022-12-12,CČN Zagorje,Drugo,0.0072,za
+2022-12-12,CČN Zagorje,Omikron,0.011,za
+2022-12-12,OČN Šaleške doline,BA.2.75* Omikron BA.2.75.X,0.0526,ce
+2022-12-12,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.4945,ce
+2022-12-12,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.4369,ce
+2022-12-12,OČN Šaleške doline,Drugo,0.002,ce
+2022-12-12,OČN Šaleške doline,Omikron,0.014,ce
+2022-12-12,ČN Celje,BA.5* Omikron BA.5.X,0.796,ce
+2022-12-12,ČN Celje,BQ.1* Omikron BQ.1.X,0.1805,ce
+2022-12-12,ČN Celje,Omikron,0.0235,ce
+2022-12-12,ČN Novo mesto,BA.5* Omikron BA.5.X,0.9688,nm
+2022-12-12,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.0292,nm
+2022-12-12,ČN Novo mesto,Drugo,0.0019,nm
+2022-12-18,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.0257,lj
+2022-12-18,CČN Ljubljana,BA.5* Omikron BA.5.X,0.277,lj
+2022-12-18,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.6441,lj
+2022-12-18,CČN Ljubljana,Drugo,0.003,lj
+2022-12-18,CČN Ljubljana,Omikron,0.0502,lj
+2022-12-18,CČN Murska Sobota,BA.2.75* Omikron BA.2.75.X,0.2196,ms
+2022-12-18,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.1746,ms
+2022-12-18,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.4286,ms
+2022-12-18,CČN Murska Sobota,Drugo,0.0037,ms
+2022-12-18,CČN Murska Sobota,Omikron,0.1736,ms
+2022-12-18,ČN Kranj,BA.2.75* Omikron BA.2.75.X,0.1283,kr
+2022-12-18,ČN Kranj,BA.5* Omikron BA.5.X,0.2548,kr
+2022-12-18,ČN Kranj,BQ.1* Omikron BQ.1.X,0.5158,kr
+2022-12-18,ČN Kranj,Drugo,0.0032,kr
+2022-12-18,ČN Kranj,Omikron,0.097,kr
+2022-12-19,CČN Brežice,BA.5* Omikron BA.5.X,0.5043,kk
+2022-12-19,CČN Brežice,BQ.1* Omikron BQ.1.X,0.4957,kk
+2022-12-19,CČN Postojna,BA.5* Omikron BA.5.X,0.2639,po
+2022-12-19,CČN Postojna,BQ.1* Omikron BQ.1.X,0.1475,po
+2022-12-19,CČN Postojna,Drugo,0.0026,po
+2022-12-19,CČN Postojna,Omikron,0.585,po
+2022-12-19,CČN Slovenj Gradec,BA.2.75* Omikron BA.2.75.X,0.2561,sg
+2022-12-19,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.7439,sg
+2022-12-19,CČN Trbovlje,BA.2.75* Omikron BA.2.75.X,0.0999,za
+2022-12-19,CČN Trbovlje,BA.5* Omikron BA.5.X,0.2998,za
+2022-12-19,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.2795,za
+2022-12-19,CČN Trbovlje,Drugo,0.0024,za
+2022-12-19,CČN Trbovlje,Omikron,0.3185,za
+2022-12-19,CČN Zagorje,BA.2.75* Omikron BA.2.75.X,0.4772,za
+2022-12-19,CČN Zagorje,BA.5* Omikron BA.5.X,0.1909,za
+2022-12-19,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.3286,za
+2022-12-19,CČN Zagorje,Drugo,0.0032,za
+2022-12-19,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.5427,ce
+2022-12-19,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.4534,ce
+2022-12-19,OČN Šaleške doline,Drugo,0.0026,ce
+2022-12-19,ČN Celje,BA.2.75* Omikron BA.2.75.X,0.0028,ce
+2022-12-19,ČN Celje,BA.5* Omikron BA.5.X,0.4072,ce
+2022-12-19,ČN Celje,BQ.1* Omikron BQ.1.X,0.5304,ce
+2022-12-19,ČN Celje,Drugo,0.0012,ce
+2022-12-19,ČN Celje,Omikron,0.0548,ce
+2022-12-19,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.0184,ng
+2022-12-19,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.4294,ng
+2022-12-19,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.5426,ng
+2022-12-19,ČN Nova Gorica,Drugo,0.0038,ng
+2022-12-19,ČN Nova Gorica,Omikron,0.0052,ng
+2022-12-19,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.0191,nm
+2022-12-19,ČN Novo mesto,BA.5* Omikron BA.5.X,0.3442,nm
+2022-12-19,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.5658,nm
+2022-12-19,ČN Novo mesto,Drugo,0.0038,nm
+2022-12-19,ČN Novo mesto,Omikron,0.0648,nm
+2022-12-26,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.1683,lj
+2022-12-26,CČN Ljubljana,BA.5* Omikron BA.5.X,0.2122,lj
+2022-12-26,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.5816,lj
+2022-12-26,CČN Ljubljana,Drugo,0.0128,lj
+2022-12-26,CČN Ljubljana,Omikron,0.0238,lj
+2022-12-26,CČN Murska Sobota,BA.2.75* Omikron BA.2.75.X,0.235,ms
+2022-12-26,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.3362,ms
+2022-12-26,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.2425,ms
+2022-12-26,CČN Murska Sobota,Drugo,0.0015,ms
+2022-12-26,CČN Murska Sobota,Omikron,0.1848,ms
+2022-12-26,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.0336,po
+2022-12-26,CČN Postojna,BA.5* Omikron BA.5.X,0.1155,po
+2022-12-26,CČN Postojna,BQ.1* Omikron BQ.1.X,0.5886,po
+2022-12-26,CČN Postojna,Drugo,0.0013,po
+2022-12-26,CČN Postojna,Omikron,0.2601,po
+2022-12-26,CČN Slovenj Gradec,BA.2.75* Omikron BA.2.75.X,0.0976,sg
+2022-12-26,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.3776,sg
+2022-12-26,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.4043,sg
+2022-12-26,CČN Slovenj Gradec,Drugo,0.0037,sg
+2022-12-26,CČN Slovenj Gradec,Omikron,0.1161,sg
+2022-12-26,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.2313,lj
+2022-12-26,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.1541,lj
+2022-12-26,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.5164,lj
+2022-12-26,ČN Domžale Kamnik,Drugo,0.0033,lj
+2022-12-26,ČN Domžale Kamnik,Omikron,0.0936,lj
+2022-12-26,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.0965,kp
+2022-12-26,ČN Koper,BA.5* Omikron BA.5.X,0.3962,kp
+2022-12-26,ČN Koper,BQ.1* Omikron BQ.1.X,0.5033,kp
+2022-12-26,ČN Koper,Drugo,0.003,kp
+2022-12-26,ČN Kranj,BA.2.75* Omikron BA.2.75.X,0.1816,kr
+2022-12-26,ČN Kranj,BA.5* Omikron BA.5.X,0.2721,kr
+2022-12-26,ČN Kranj,BQ.1* Omikron BQ.1.X,0.4658,kr
+2022-12-26,ČN Kranj,Drugo,0.0018,kr
+2022-12-26,ČN Kranj,Omikron,0.0778,kr
+2022-12-26,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.0334,mb
+2022-12-26,ČN Maribor,BA.5* Omikron BA.5.X,0.5616,mb
+2022-12-26,ČN Maribor,BQ.1* Omikron BQ.1.X,0.2343,mb
+2022-12-26,ČN Maribor,Drugo,0.0063,mb
+2022-12-26,ČN Maribor,Omikron,0.1634,mb
+2022-12-26,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.1992,ng
+2022-12-26,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.194,ng
+2022-12-26,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.5728,ng
+2022-12-26,ČN Nova Gorica,Drugo,0.002,ng
+2022-12-26,ČN Nova Gorica,Omikron,0.0291,ng
+2022-12-27,CČN Litija in Šmartno pri Litiji,BA.2.75* Omikron BA.2.75.X,0.0229,za
+2022-12-27,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.3958,za
+2022-12-27,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.4521,za
+2022-12-27,CČN Litija in Šmartno pri Litiji,Drugo,0.0568,za
+2022-12-27,CČN Litija in Šmartno pri Litiji,Omikron,0.0723,za
+2022-12-27,CČN Trbovlje,BA.2.75* Omikron BA.2.75.X,0.1855,za
+2022-12-27,CČN Trbovlje,BA.5* Omikron BA.5.X,0.3313,za
+2022-12-27,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.3458,za
+2022-12-27,CČN Trbovlje,Drugo,0.0038,za
+2022-12-27,CČN Trbovlje,Omikron,0.1333,za
+2022-12-27,CČN Zagorje,BA.2.75* Omikron BA.2.75.X,0.1594,za
+2022-12-27,CČN Zagorje,BA.5* Omikron BA.5.X,0.1792,za
+2022-12-27,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.4599,za
+2022-12-27,CČN Zagorje,Drugo,0.0027,za
+2022-12-27,CČN Zagorje,Omikron,0.1983,za
+2022-12-27,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.2662,ce
+2022-12-27,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.7308,ce
+2022-12-27,OČN Šaleške doline,Drugo,0.0021,ce
+2022-12-27,ČN Celje,BA.5* Omikron BA.5.X,0.453,ce
+2022-12-27,ČN Celje,BQ.1* Omikron BQ.1.X,0.5366,ce
+2022-12-27,ČN Celje,Drugo,0.0029,ce
+2022-12-27,ČN Celje,Omikron,0.0072,ce
+2022-12-28,CČN Brežice,BA.5* Omikron BA.5.X,0.7088,kk
+2022-12-28,CČN Brežice,BQ.1* Omikron BQ.1.X,0.2827,kk
+2022-12-28,CČN Brežice,Omikron,0.0085,kk
+2022-12-28,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.157,nm
+2022-12-28,ČN Novo mesto,BA.5* Omikron BA.5.X,0.2209,nm
+2022-12-28,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.5932,nm
+2022-12-28,ČN Novo mesto,Drugo,0.0026,nm
+2022-12-28,ČN Novo mesto,Omikron,0.025,nm
+2023-01-02,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.0581,lj
+2023-01-02,CČN Ljubljana,BA.5* Omikron BA.5.X,0.448,lj
+2023-01-02,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.49,lj
+2023-01-02,CČN Ljubljana,Drugo,0.0034,lj
+2023-01-02,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.4301,lj
+2023-01-02,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.5699,lj
+2023-01-02,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.3019,kp
+2023-01-02,ČN Koper,BA.5* Omikron BA.5.X,0.237,kp
+2023-01-02,ČN Koper,BQ.1* Omikron BQ.1.X,0.4036,kp
+2023-01-02,ČN Koper,Drugo,0.0042,kp
+2023-01-02,ČN Koper,Omikron,0.0533,kp
+2023-01-02,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.1617,ng
+2023-01-02,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.1212,ng
+2023-01-02,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.5686,ng
+2023-01-02,ČN Nova Gorica,Drugo,0.0029,ng
+2023-01-02,ČN Nova Gorica,Omikron,0.1447,ng
+2023-01-03,CČN Murska Sobota,BA.2.75* Omikron BA.2.75.X,0.4196,ms
+2023-01-03,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.0813,ms
+2023-01-03,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.1728,ms
+2023-01-03,CČN Murska Sobota,Drugo,0.0036,ms
+2023-01-03,CČN Murska Sobota,Omikron,0.3227,ms
+2023-01-03,CČN Zagorje,BA.2.75* Omikron BA.2.75.X,0.5311,za
+2023-01-03,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.4641,za
+2023-01-03,CČN Zagorje,Omikron,0.0047,za
+2023-01-04,CČN Brežice,BA.5* Omikron BA.5.X,0.0673,kk
+2023-01-04,CČN Brežice,BQ.1* Omikron BQ.1.X,0.8459,kk
+2023-01-04,CČN Brežice,Omikron,0.0868,kk
+2023-01-04,ČN Novo mesto,BA.5* Omikron BA.5.X,0.2641,nm
+2023-01-04,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.7359,nm
+2023-01-08,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.2691,lj
+2023-01-08,CČN Ljubljana,BA.5* Omikron BA.5.X,0.2206,lj
+2023-01-08,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.4758,lj
+2023-01-08,CČN Ljubljana,Omikron,0.0335,lj
+2023-01-08,CČN Murska Sobota,BA.2.75* Omikron BA.2.75.X,0.6784,ms
+2023-01-08,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.0191,ms
+2023-01-08,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.2562,ms
+2023-01-08,CČN Murska Sobota,Drugo,0.0014,ms
+2023-01-08,CČN Murska Sobota,Omikron,0.0444,ms
+2023-01-08,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.0962,mb
+2023-01-08,ČN Maribor,BA.5* Omikron BA.5.X,0.4244,mb
+2023-01-08,ČN Maribor,BQ.1* Omikron BQ.1.X,0.4327,mb
 2023-01-08,ČN Maribor,Omikron,0.0467,mb
 2023-01-08,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.0034,ng
-2023-01-09,OČN Šaleške doline,BA.2.75* Omikron BA.2.75.X,0.0417,ce
-2023-01-09,CČN Brežice,Omikron,0.0202,kk
-2023-01-09,ČN Koper,Drugo,0.0033,kp
-2023-01-09,CČN Postojna,Omikron,0.003,po
-2023-01-08,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.0191,ms
-2023-01-08,CČN Ljubljana,Omikron,0.0335,lj
-2023-01-09,CČN Zagorje,BA.2.75* Omikron BA.2.75.X,0.1068,za
-2023-01-16,CČN Zagorje,Drugo,0.0029,za
-2023-01-16,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.0404,po
-2023-01-15,CČN Ljubljana,Drugo,0.0017,lj
-2023-01-15,ČN Domžale Kamnik,Drugo,0.0228,lj
-2023-01-23,ČN Novo mesto,Omikron,0.0018,nm
-2023-01-23,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.0028,za
-2023-01-22,ČN Domžale Kamnik,Omikron,0.0801,lj
-2023-01-23,CČN Postojna,Omikron,0.0411,po
-2023-01-22,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.0401,mb
-2023-01-22,ČN Nova Gorica,Drugo,0.0028,ng
-2023-01-22,ČN Kranj,BQ.1* Omikron BQ.1.X,0.045,kr
-2023-01-23,OČN Šaleške doline,Drugo,0.0014,ce
-2023-01-22,CČN Ljubljana,Omikron,0.1346,lj
-2023-01-02,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.1212,ng
-2023-01-03,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.0813,ms
-2023-01-02,ČN Koper,Omikron,0.0533,kp
-2023-01-02,CČN Ljubljana,Drugo,0.0034,lj
-2023-02-05,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.0417,po
-2023-02-05,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.0071,lj
-2023-02-06,ČN Celje,BA.2.75* Omikron BA.2.75.X,0.0156,ce
-2023-02-05,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.0061,lj
-2023-02-06,CČN Trbovlje,BA.5* Omikron BA.5.X,0.0719,za
-2023-02-06,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.0052,ce
-2023-02-06,CČN Zagorje,BA.2.75* Omikron BA.2.75.X,0.0012,za
-2023-02-05,ČN Kranj,Drugo,0.0013,kr
-2023-02-12,CČN Murska Sobota,Drugo,0.0018,ms
-2023-02-12,ČN Maribor,BA.5* Omikron BA.5.X,0.1427,mb
-2023-02-12,CČN Ljubljana,BA.5* Omikron BA.5.X,0.003,lj
-2023-02-13,ČN Novo mesto,Drugo,0.0033,nm
-2023-02-13,CČN Postojna,BA.5* Omikron BA.5.X,0.0072,po
-2023-02-13,CČN Litija in Šmartno pri Litiji,Drugo,0.0041,za
-2023-02-12,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.0025,lj
-2023-01-29,ČN Kranj,BQ.1* Omikron BQ.1.X,0.0724,kr
-2023-01-30,ČN Novo mesto,Omikron,0.0137,nm
-2023-01-30,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.0039,za
-2023-01-29,CČN Postojna,Drugo,0.003,po
-2023-02-20,ČN Celje,BA.5* Omikron BA.5.X,0.0683,ce
-2023-02-19,ČN Kranj,BQ.1* Omikron BQ.1.X,0.0513,kr
-2023-02-19,CČN Ljubljana,BA.5* Omikron BA.5.X,0.0799,lj
-2023-02-20,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.1097,ng
-2023-02-19,ČN Maribor,BA.5* Omikron BA.5.X,0.0229,mb
-2023-02-20,CČN Brežice,BA.5* Omikron BA.5.X,0.17,kk
-2023-02-20,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.0325,sg
-2023-02-19,CČN Murska Sobota,Drugo,0.0011,ms
-2023-02-20,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.0544,ce
-2023-02-20,CČN Trbovlje,BA.5* Omikron BA.5.X,0.037,za
-2023-02-19,CČN Postojna,BA.5* Omikron BA.5.X,0.1058,po
-2023-02-20,CČN Zagorje,BA.5* Omikron BA.5.X,0.1193,za
-2023-02-19,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.0742,lj
-2023-02-19,ČN Koper,BA.5* Omikron BA.5.X,0.2,kp
-2023-02-20,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.1562,za
-2023-03-06,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.0236,lj
-2023-03-07,OČN Šaleške doline,Drugo,0.0025,ce
-2023-03-06,CČN Ljubljana,Drugo,0.0031,lj
-2023-03-06,ČN Maribor,Drugo,0.0038,mb
-2023-03-06,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.0021,ng
-2023-03-07,CČN Trbovlje,Omikron,0.0252,za
-2023-03-07,CČN Slovenj Gradec,Drugo,0.0034,sg
-2023-03-06,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.0834,kp
-2023-03-06,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.172,po
-2023-03-07,CČN Zagorje,BA.2.75* Omikron BA.2.75.X,0.0014,za
-2023-03-06,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.0025,ms
-2023-03-12,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.0026,lj
-2023-03-13,CČN Postojna,Drugo,0.0026,po
-2023-03-12,ČN Kranj,BA.5* Omikron BA.5.X,0.0045,kr
-2023-03-13,ČN Koper,Drugo,0.0043,kp
-2023-03-12,CČN Murska Sobota,Drugo,0.0034,ms
-2023-03-13,ČN Novo mesto,Drugo,0.0033,nm
-2023-03-13,CČN Brežice,Drugo,0.0019,kk
-2023-03-12,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.0037,ng
-2023-03-13,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.0027,za
-2023-03-12,ČN Maribor,BA.5* Omikron BA.5.X,0.0221,mb
-2023-03-13,CČN Zagorje,Drugo,0.0022,za
-2023-03-13,CČN Trbovlje,BA.5* Omikron BA.5.X,0.0305,za
-2023-03-19,CČN Postojna,BQ.1* Omikron BQ.1.X,0.0035,po
-2023-03-20,CČN Brežice,Drugo,0.0016,kk
-2023-03-20,CČN Trbovlje,Drugo,0.0011,za
-2023-03-19,ČN Koper,Drugo,0.0014,kp
-2023-03-19,ČN Kranj,Drugo,0.0016,kr
-2023-03-20,CČN Zagorje,BA.5* Omikron BA.5.X,0.0016,za
-2023-02-27,CČN Brežice,BQ.1* Omikron BQ.1.X,0.0079,kk
-2023-02-27,ČN Celje,BA.2.75* Omikron BA.2.75.X,0.0149,ce
-2023-02-26,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.017,ng
-2023-02-27,OČN Šaleške doline,BA.2.75* Omikron BA.2.75.X,0.0534,ce
-2023-02-26,ČN Kranj,Drugo,0.0072,kr
-2023-02-27,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.0811,nm
-2023-02-26,ČN Koper,Drugo,0.0085,kp
-2023-02-26,ČN Maribor,Drugo,0.0275,mb
-2023-03-26,ČN Koper,Drugo,0.0028,kp
-2023-03-26,ČN Maribor,BA.5* Omikron BA.5.X,0.103,mb
-2023-03-26,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.0033,ng
-2023-03-27,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.0303,ce
-2023-03-27,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.0016,za
-2023-03-27,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.002,nm
-2023-03-26,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.0031,lj
-2023-04-03,ČN Celje,BA.5* Omikron BA.5.X,0.0122,ce
-2023-04-03,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.024,sg
-2023-04-03,CČN Brežice,BA.5* Omikron BA.5.X,0.1426,kk
-2023-04-02,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.0077,lj
-2023-04-02,CČN Postojna,BA.5* Omikron BA.5.X,0.0268,po
-2023-04-03,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.0476,za
-2023-04-02,CČN Murska Sobota,XBB.1.5* Omikron XBB.1.5.X,0.1129,ms
-2023-04-03,ČN Novo mesto,BA.5* Omikron BA.5.X,0.0263,nm
-2023-04-03,CČN Trbovlje,BA.5* Omikron BA.5.X,0.0077,za
-2023-04-02,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.005,lj
-2023-04-02,ČN Kranj,BQ.1* Omikron BQ.1.X,0.0249,kr
-2023-04-02,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.0092,ng
-2023-04-03,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.1154,ce
-2023-04-02,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.0102,kp
-2022-09-26,CČN Litija in Šmartno pri Litiji,Drugo,0.0027,za
-2022-09-26,ČN Celje,Drugo,0.0017,ce
-2022-10-10,ČN Nova Gorica,Drugo,0.0011,ng
-2022-10-24,CČN Trbovlje,Drugo,0.001,za
-2022-10-03,CČN Litija in Šmartno pri Litiji,Drugo,0.0028,za
-2022-10-03,CČN Trbovlje,Drugo,0.0016,za
-2022-11-14,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.0018,za
-2022-11-13,ČN Domžale Kamnik,Drugo,0.0036,lj
-2022-11-20,ČN Koper,Drugo,0.0014,kp
-2022-12-11,ČN Domžale Kamnik,Drugo,0.0048,lj
-2022-12-12,OČN Šaleške doline,Drugo,0.002,ce
-2022-12-11,CČN Ljubljana,Drugo,0.0039,lj
-2022-12-12,CČN Zagorje,Drugo,0.0072,za
-2022-12-11,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.0207,mb
-2022-11-28,ČN Novo mesto,Drugo,0.0043,nm
-2022-11-27,ČN Koper,Omikron,0.0022,kp
-2022-11-27,CČN Ljubljana,Drugo,0.0021,lj
-2022-11-28,ČN Celje,Drugo,0.0023,ce
-2022-12-19,ČN Celje,Drugo,0.0012,ce
-2022-12-19,CČN Trbovlje,Drugo,0.0024,za
-2022-12-19,ČN Nova Gorica,Drugo,0.0038,ng
-2022-12-18,CČN Ljubljana,Drugo,0.003,lj
-2022-12-19,ČN Novo mesto,Drugo,0.0038,nm
-2022-12-18,CČN Murska Sobota,Drugo,0.0037,ms
-2022-12-18,ČN Kranj,Drugo,0.0032,kr
-2022-12-26,ČN Kranj,Drugo,0.0018,kr
-2022-12-26,CČN Postojna,Drugo,0.0013,po
-2022-12-26,CČN Murska Sobota,Drugo,0.0015,ms
-2022-12-28,ČN Novo mesto,Drugo,0.0026,nm
-2022-12-27,CČN Litija in Šmartno pri Litiji,BA.2.75* Omikron BA.2.75.X,0.0229,za
-2022-12-26,CČN Slovenj Gradec,Drugo,0.0037,sg
-2022-12-26,ČN Maribor,Drugo,0.0063,mb
-2022-12-26,ČN Nova Gorica,Drugo,0.002,ng
-2022-12-26,ČN Domžale Kamnik,Drugo,0.0033,lj
-2022-12-26,CČN Ljubljana,Drugo,0.0128,lj
-2022-12-27,CČN Zagorje,Drugo,0.0027,za
-2022-12-27,CČN Trbovlje,Drugo,0.0038,za
-2022-12-05,CČN Slovenj Gradec,Drugo,0.0024,sg
-2022-12-05,CČN Brežice,Drugo,0.0012,kk
-2022-12-05,CČN Litija in Šmartno pri Litiji,Drugo,0.003,za
-2022-12-04,CČN Ljubljana,Drugo,0.0024,lj
-2022-12-05,CČN Zagorje,Drugo,0.002,za
-2022-12-05,ČN Novo mesto,Drugo,0.0012,nm
-2022-12-04,ČN Koper,Drugo,0.0016,kp
-2022-12-04,ČN Domžale Kamnik,Drugo,0.0035,lj
-2022-12-04,ČN Nova Gorica,Drugo,0.0028,ng
-2022-12-04,ČN Maribor,Drugo,0.0024,mb
-2023-01-09,CČN Slovenj Gradec,Drugo,0.0023,sg
+2023-01-08,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.3808,ng
+2023-01-08,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.6017,ng
 2023-01-08,ČN Nova Gorica,Drugo,0.0016,ng
-2023-01-09,OČN Šaleške doline,Drugo,0.0015,ce
+2023-01-08,ČN Nova Gorica,Omikron,0.0115,ng
+2023-01-09,CČN Brežice,BA.2.75* Omikron BA.2.75.X,0.1534,kk
+2023-01-09,CČN Brežice,BA.5* Omikron BA.5.X,0.3191,kk
+2023-01-09,CČN Brežice,BQ.1* Omikron BQ.1.X,0.5052,kk
 2023-01-09,CČN Brežice,Drugo,0.0015,kk
+2023-01-09,CČN Brežice,Omikron,0.0202,kk
+2023-01-09,CČN Litija in Šmartno pri Litiji,BA.2.75* Omikron BA.2.75.X,0.1282,za
+2023-01-09,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.3204,za
+2023-01-09,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.4798,za
+2023-01-09,CČN Litija in Šmartno pri Litiji,Omikron,0.0715,za
+2023-01-09,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.4219,po
+2023-01-09,CČN Postojna,BA.5* Omikron BA.5.X,0.2677,po
+2023-01-09,CČN Postojna,BQ.1* Omikron BQ.1.X,0.3046,po
 2023-01-09,CČN Postojna,Drugo,0.0028,po
-2023-01-08,CČN Murska Sobota,Drugo,0.0014,ms
+2023-01-09,CČN Postojna,Omikron,0.003,po
+2023-01-09,CČN Slovenj Gradec,BA.2.75* Omikron BA.2.75.X,0.04,sg
+2023-01-09,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.3081,sg
+2023-01-09,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.6298,sg
+2023-01-09,CČN Slovenj Gradec,Drugo,0.0023,sg
+2023-01-09,CČN Slovenj Gradec,Omikron,0.0197,sg
+2023-01-09,CČN Trbovlje,BA.2.75* Omikron BA.2.75.X,0.0556,za
+2023-01-09,CČN Trbovlje,BA.5* Omikron BA.5.X,0.377,za
+2023-01-09,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.4355,za
+2023-01-09,CČN Trbovlje,Omikron,0.1319,za
+2023-01-09,CČN Zagorje,BA.2.75* Omikron BA.2.75.X,0.1068,za
+2023-01-09,CČN Zagorje,BA.5* Omikron BA.5.X,0.3645,za
+2023-01-09,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.4,za
 2023-01-09,CČN Zagorje,Drugo,0.0015,za
-2023-01-16,CČN Postojna,Drugo,0.0021,po
+2023-01-09,CČN Zagorje,Omikron,0.1273,za
+2023-01-09,OČN Šaleške doline,BA.2.75* Omikron BA.2.75.X,0.0417,ce
+2023-01-09,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.1119,ce
+2023-01-09,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.7683,ce
+2023-01-09,OČN Šaleške doline,Drugo,0.0015,ce
+2023-01-09,OČN Šaleške doline,Omikron,0.0764,ce
+2023-01-09,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.0539,kp
+2023-01-09,ČN Koper,BA.5* Omikron BA.5.X,0.4848,kp
+2023-01-09,ČN Koper,BQ.1* Omikron BQ.1.X,0.458,kp
+2023-01-09,ČN Koper,Drugo,0.0033,kp
+2023-01-15,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.2201,lj
+2023-01-15,CČN Ljubljana,BA.5* Omikron BA.5.X,0.6058,lj
+2023-01-15,CČN Ljubljana,Drugo,0.0017,lj
+2023-01-15,CČN Ljubljana,Omikron,0.1715,lj
+2023-01-15,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.2088,lj
+2023-01-15,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.4807,lj
+2023-01-15,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.2754,lj
+2023-01-15,ČN Domžale Kamnik,Drugo,0.0228,lj
 2023-01-15,ČN Domžale Kamnik,Omikron,0.0102,lj
-2023-01-23,ČN Novo mesto,Drugo,0.0013,nm
-2023-01-23,CČN Litija in Šmartno pri Litiji,BA.2.75* Omikron BA.2.75.X,0.0028,za
-2023-01-22,ČN Domžale Kamnik,Drugo,0.0034,lj
-2023-01-23,CČN Postojna,Drugo,0.003,po
-2023-01-22,ČN Maribor,Drugo,0.0031,mb
-2023-01-22,ČN Kranj,Drugo,0.0024,kr
+2023-01-16,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.6944,za
+2023-01-16,CČN Litija in Šmartno pri Litiji,Drugo,0.0029,za
+2023-01-16,CČN Litija in Šmartno pri Litiji,Omikron,0.3026,za
+2023-01-16,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.0404,po
+2023-01-16,CČN Postojna,BA.5* Omikron BA.5.X,0.6232,po
+2023-01-16,CČN Postojna,BQ.1* Omikron BQ.1.X,0.2137,po
+2023-01-16,CČN Postojna,Drugo,0.0021,po
+2023-01-16,CČN Postojna,Omikron,0.1202,po
+2023-01-16,CČN Zagorje,BA.5* Omikron BA.5.X,0.5949,za
+2023-01-16,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.2263,za
+2023-01-16,CČN Zagorje,Drugo,0.0029,za
+2023-01-16,CČN Zagorje,Omikron,0.1729,za
+2023-01-22,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.2368,lj
+2023-01-22,CČN Ljubljana,BA.5* Omikron BA.5.X,0.3776,lj
+2023-01-22,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.2492,lj
 2023-01-22,CČN Ljubljana,Drugo,0.0017,lj
-2023-01-02,ČN Nova Gorica,Drugo,0.0029,ng
-2023-01-03,CČN Murska Sobota,Drugo,0.0036,ms
-2023-01-02,ČN Koper,Drugo,0.0042,kp
-2023-02-05,CČN Ljubljana,Drugo,0.003,lj
-2023-02-05,ČN Domžale Kamnik,Drugo,0.0012,lj
-2023-02-06,CČN Trbovlje,Drugo,0.0012,za
-2023-02-12,ČN Maribor,Drugo,0.0018,mb
-2023-02-13,ČN Novo mesto,BA.5* Omikron BA.5.X,0.0031,nm
-2023-02-13,CČN Postojna,Drugo,0.0044,po
-2023-01-29,ČN Kranj,Drugo,0.0012,kr
-2023-01-30,ČN Novo mesto,Drugo,0.0031,nm
+2023-01-22,CČN Ljubljana,Omikron,0.1346,lj
+2023-01-22,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.0999,lj
+2023-01-22,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.5695,lj
+2023-01-22,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.2467,lj
+2023-01-22,ČN Domžale Kamnik,Drugo,0.0034,lj
+2023-01-22,ČN Domžale Kamnik,Omikron,0.0801,lj
+2023-01-22,ČN Kranj,BA.2.75* Omikron BA.2.75.X,0.283,kr
+2023-01-22,ČN Kranj,BA.5* Omikron BA.5.X,0.5281,kr
+2023-01-22,ČN Kranj,BQ.1* Omikron BQ.1.X,0.045,kr
+2023-01-22,ČN Kranj,Drugo,0.0024,kr
+2023-01-22,ČN Kranj,Omikron,0.14,kr
+2023-01-22,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.0401,mb
+2023-01-22,ČN Maribor,BA.5* Omikron BA.5.X,0.4812,mb
+2023-01-22,ČN Maribor,BQ.1* Omikron BQ.1.X,0.262,mb
+2023-01-22,ČN Maribor,Drugo,0.0031,mb
+2023-01-22,ČN Maribor,Omikron,0.2132,mb
+2023-01-22,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.2931,ng
+2023-01-22,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.6839,ng
+2023-01-22,ČN Nova Gorica,Drugo,0.0028,ng
+2023-01-22,ČN Nova Gorica,Omikron,0.0198,ng
+2023-01-23,CČN Litija in Šmartno pri Litiji,BA.2.75* Omikron BA.2.75.X,0.0028,za
+2023-01-23,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.7897,za
+2023-01-23,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.0028,za
+2023-01-23,CČN Litija in Šmartno pri Litiji,Drugo,0.0034,za
+2023-01-23,CČN Litija in Šmartno pri Litiji,Omikron,0.2,za
+2023-01-23,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.3254,po
+2023-01-23,CČN Postojna,BA.5* Omikron BA.5.X,0.5194,po
+2023-01-23,CČN Postojna,BQ.1* Omikron BQ.1.X,0.1108,po
+2023-01-23,CČN Postojna,Drugo,0.003,po
+2023-01-23,CČN Postojna,Omikron,0.0411,po
+2023-01-23,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.5187,ce
+2023-01-23,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.3567,ce
+2023-01-23,OČN Šaleške doline,Drugo,0.0014,ce
+2023-01-23,OČN Šaleške doline,Omikron,0.1231,ce
+2023-01-23,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.1748,nm
+2023-01-23,ČN Novo mesto,BA.5* Omikron BA.5.X,0.3734,nm
+2023-01-23,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.4472,nm
+2023-01-23,ČN Novo mesto,Drugo,0.0013,nm
+2023-01-23,ČN Novo mesto,Omikron,0.0018,nm
+2023-01-29,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.2585,po
+2023-01-29,CČN Postojna,BA.5* Omikron BA.5.X,0.7031,po
 2023-01-29,CČN Postojna,BQ.1* Omikron BQ.1.X,0.0023,po
-2023-02-19,ČN Kranj,Drugo,0.001,kr
+2023-01-29,CČN Postojna,Drugo,0.003,po
+2023-01-29,CČN Postojna,Omikron,0.0326,po
+2023-01-29,ČN Kranj,BA.2.75* Omikron BA.2.75.X,0.1117,kr
+2023-01-29,ČN Kranj,BA.5* Omikron BA.5.X,0.6487,kr
+2023-01-29,ČN Kranj,BQ.1* Omikron BQ.1.X,0.0724,kr
+2023-01-29,ČN Kranj,Drugo,0.0012,kr
+2023-01-29,ČN Kranj,Omikron,0.1653,kr
+2023-01-30,CČN Zagorje,BA.5* Omikron BA.5.X,0.9087,za
+2023-01-30,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.0039,za
+2023-01-30,CČN Zagorje,Drugo,0.005,za
+2023-01-30,CČN Zagorje,Omikron,0.0824,za
+2023-01-30,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.3459,nm
+2023-01-30,ČN Novo mesto,BA.5* Omikron BA.5.X,0.6148,nm
+2023-01-30,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.0211,nm
+2023-01-30,ČN Novo mesto,Drugo,0.0031,nm
+2023-01-30,ČN Novo mesto,Omikron,0.0137,nm
+2023-02-05,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.3333,lj
+2023-02-05,CČN Ljubljana,BA.5* Omikron BA.5.X,0.0493,lj
+2023-02-05,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.0071,lj
+2023-02-05,CČN Ljubljana,Drugo,0.003,lj
+2023-02-05,CČN Ljubljana,Omikron,0.6071,lj
+2023-02-05,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.0417,po
+2023-02-05,CČN Postojna,BA.5* Omikron BA.5.X,0.0457,po
+2023-02-05,CČN Postojna,BQ.1* Omikron BQ.1.X,0.4117,po
+2023-02-05,CČN Postojna,Omikron,0.5009,po
+2023-02-05,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.1268,lj
+2023-02-05,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.0061,lj
+2023-02-05,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.2064,lj
+2023-02-05,ČN Domžale Kamnik,Drugo,0.0012,lj
+2023-02-05,ČN Domžale Kamnik,Omikron,0.6576,lj
+2023-02-05,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.1329,kp
+2023-02-05,ČN Koper,BQ.1* Omikron BQ.1.X,0.2842,kp
+2023-02-05,ČN Koper,Omikron,0.5829,kp
+2023-02-05,ČN Kranj,BA.2.75* Omikron BA.2.75.X,0.7129,kr
+2023-02-05,ČN Kranj,BQ.1* Omikron BQ.1.X,0.0278,kr
+2023-02-05,ČN Kranj,Drugo,0.0013,kr
+2023-02-05,ČN Kranj,Omikron,0.258,kr
+2023-02-05,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.4444,ng
+2023-02-05,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.5526,ng
+2023-02-05,ČN Nova Gorica,Omikron,0.003,ng
+2023-02-06,CČN Trbovlje,BA.2.75* Omikron BA.2.75.X,0.1781,za
+2023-02-06,CČN Trbovlje,BA.5* Omikron BA.5.X,0.0719,za
+2023-02-06,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.3545,za
+2023-02-06,CČN Trbovlje,Drugo,0.0012,za
+2023-02-06,CČN Trbovlje,Omikron,0.3923,za
+2023-02-06,CČN Zagorje,BA.2.75* Omikron BA.2.75.X,0.0012,za
+2023-02-06,CČN Zagorje,BA.5* Omikron BA.5.X,0.2379,za
+2023-02-06,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.2872,za
+2023-02-06,CČN Zagorje,Omikron,0.4715,za
+2023-02-06,OČN Šaleške doline,BA.2.75* Omikron BA.2.75.X,0.4645,ce
+2023-02-06,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.0052,ce
+2023-02-06,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.0273,ce
+2023-02-06,OČN Šaleške doline,Omikron,0.503,ce
+2023-02-06,ČN Celje,BA.2.75* Omikron BA.2.75.X,0.0156,ce
+2023-02-06,ČN Celje,BA.5* Omikron BA.5.X,0.6772,ce
+2023-02-06,ČN Celje,BQ.1* Omikron BQ.1.X,0.2227,ce
+2023-02-06,ČN Celje,Omikron,0.083,ce
+2023-02-06,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.1516,nm
+2023-02-06,ČN Novo mesto,BA.5* Omikron BA.5.X,0.5269,nm
+2023-02-06,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.3213,nm
+2023-02-12,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.2931,lj
+2023-02-12,CČN Ljubljana,BA.5* Omikron BA.5.X,0.003,lj
+2023-02-12,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.1524,lj
+2023-02-12,CČN Ljubljana,Omikron,0.5494,lj
+2023-02-12,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.2794,ms
+2023-02-12,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.5096,ms
+2023-02-12,CČN Murska Sobota,Drugo,0.0018,ms
+2023-02-12,CČN Murska Sobota,Omikron,0.2092,ms
+2023-02-12,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.646,lj
+2023-02-12,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.1112,lj
+2023-02-12,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.0025,lj
+2023-02-12,ČN Domžale Kamnik,Omikron,0.2402,lj
+2023-02-12,ČN Kranj,BQ.1* Omikron BQ.1.X,0.0252,kr
+2023-02-12,ČN Kranj,Omikron,0.9748,kr
+2023-02-12,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.2725,mb
+2023-02-12,ČN Maribor,BA.5* Omikron BA.5.X,0.1427,mb
+2023-02-12,ČN Maribor,BQ.1* Omikron BQ.1.X,0.4083,mb
+2023-02-12,ČN Maribor,Drugo,0.0018,mb
+2023-02-12,ČN Maribor,Omikron,0.1746,mb
+2023-02-13,CČN Brežice,BA.5* Omikron BA.5.X,0.6164,kk
+2023-02-13,CČN Brežice,BQ.1* Omikron BQ.1.X,0.3836,kk
+2023-02-13,CČN Litija in Šmartno pri Litiji,BA.2.75* Omikron BA.2.75.X,0.0242,za
+2023-02-13,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.3677,za
+2023-02-13,CČN Litija in Šmartno pri Litiji,Drugo,0.0041,za
+2023-02-13,CČN Litija in Šmartno pri Litiji,Omikron,0.6038,za
+2023-02-13,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.1565,po
+2023-02-13,CČN Postojna,BA.5* Omikron BA.5.X,0.0072,po
+2023-02-13,CČN Postojna,BQ.1* Omikron BQ.1.X,0.0195,po
+2023-02-13,CČN Postojna,Drugo,0.0044,po
+2023-02-13,CČN Postojna,Omikron,0.8123,po
+2023-02-13,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.5489,sg
+2023-02-13,CČN Slovenj Gradec,Drugo,0.0025,sg
+2023-02-13,CČN Slovenj Gradec,Omikron,0.4486,sg
+2023-02-13,CČN Trbovlje,BA.2.75* Omikron BA.2.75.X,0.6492,za
+2023-02-13,CČN Trbovlje,BA.5* Omikron BA.5.X,0.0991,za
+2023-02-13,CČN Trbovlje,Omikron,0.25,za
+2023-02-13,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.3671,za
+2023-02-13,CČN Zagorje,Omikron,0.6329,za
+2023-02-13,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.671,nm
+2023-02-13,ČN Novo mesto,BA.5* Omikron BA.5.X,0.0031,nm
+2023-02-13,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.2161,nm
+2023-02-13,ČN Novo mesto,Drugo,0.0033,nm
+2023-02-13,ČN Novo mesto,Omikron,0.1056,nm
+2023-02-19,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.329,lj
+2023-02-19,CČN Ljubljana,BA.5* Omikron BA.5.X,0.0799,lj
+2023-02-19,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.3333,lj
 2023-02-19,CČN Ljubljana,Drugo,0.001,lj
-2023-02-20,ČN Nova Gorica,Drugo,0.002,ng
+2023-02-19,CČN Ljubljana,Omikron,0.2567,lj
+2023-02-19,CČN Murska Sobota,BA.2.75* Omikron BA.2.75.X,0.0302,ms
+2023-02-19,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.2902,ms
+2023-02-19,CČN Murska Sobota,Drugo,0.0011,ms
+2023-02-19,CČN Murska Sobota,Omikron,0.6759,ms
+2023-02-19,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.2818,po
+2023-02-19,CČN Postojna,BA.5* Omikron BA.5.X,0.1058,po
+2023-02-19,CČN Postojna,BQ.1* Omikron BQ.1.X,0.1905,po
+2023-02-19,CČN Postojna,Omikron,0.4182,po
+2023-02-19,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.3845,lj
+2023-02-19,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.0742,lj
+2023-02-19,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.2258,lj
+2023-02-19,ČN Domžale Kamnik,Omikron,0.3149,lj
+2023-02-19,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.2222,kp
+2023-02-19,ČN Koper,BA.5* Omikron BA.5.X,0.2,kp
+2023-02-19,ČN Koper,BQ.1* Omikron BQ.1.X,0.2,kp
+2023-02-19,ČN Koper,Omikron,0.3778,kp
+2023-02-19,ČN Kranj,BA.2.75* Omikron BA.2.75.X,0.336,kr
+2023-02-19,ČN Kranj,BA.5* Omikron BA.5.X,0.2475,kr
+2023-02-19,ČN Kranj,BQ.1* Omikron BQ.1.X,0.0513,kr
+2023-02-19,ČN Kranj,Drugo,0.001,kr
+2023-02-19,ČN Kranj,Omikron,0.3632,kr
+2023-02-19,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.219,mb
+2023-02-19,ČN Maribor,BA.5* Omikron BA.5.X,0.0229,mb
+2023-02-19,ČN Maribor,BQ.1* Omikron BQ.1.X,0.2663,mb
+2023-02-19,ČN Maribor,Omikron,0.4913,mb
+2023-02-20,CČN Brežice,BA.2.75* Omikron BA.2.75.X,0.1963,kk
+2023-02-20,CČN Brežice,BA.5* Omikron BA.5.X,0.17,kk
+2023-02-20,CČN Brežice,BQ.1* Omikron BQ.1.X,0.25,kk
+2023-02-20,CČN Brežice,Omikron,0.3837,kk
+2023-02-20,CČN Litija in Šmartno pri Litiji,BA.2.75* Omikron BA.2.75.X,0.2,za
+2023-02-20,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.1562,za
+2023-02-20,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.266,za
+2023-02-20,CČN Litija in Šmartno pri Litiji,Omikron,0.3778,za
+2023-02-20,CČN Slovenj Gradec,BA.2.75* Omikron BA.2.75.X,0.448,sg
+2023-02-20,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.0325,sg
+2023-02-20,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.2536,sg
 2023-02-20,CČN Slovenj Gradec,Drugo,0.0032,sg
-2023-03-06,ČN Domžale Kamnik,Drugo,0.0057,lj
-2023-03-06,ČN Maribor,BQ.1* Omikron BQ.1.X,0.0013,mb
-2023-03-07,CČN Trbovlje,Drugo,0.0035,za
-2023-03-07,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.0019,sg
-2023-03-06,ČN Koper,Drugo,0.0053,kp
-2023-03-06,CČN Postojna,Drugo,0.0054,po
-2023-03-13,CČN Postojna,BA.5* Omikron BA.5.X,0.0011,po
-2023-03-12,ČN Kranj,Drugo,0.0017,kr
-2023-03-13,ČN Koper,BA.5* Omikron BA.5.X,0.003,kp
-2023-03-13,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.003,nm
-2023-03-12,ČN Nova Gorica,Drugo,0.0031,ng
-2023-03-12,ČN Maribor,Drugo,0.0015,mb
-2023-03-19,CČN Postojna,Drugo,0.0025,po
-2023-02-27,CČN Brežice,Drugo,0.0052,kk
-2023-02-27,ČN Celje,Drugo,0.0034,ce
-2023-02-26,ČN Nova Gorica,Drugo,0.0056,ng
-2023-02-27,OČN Šaleške doline,Drugo,0.0048,ce
-2023-02-26,ČN Kranj,BA.5* Omikron BA.5.X,0.0044,kr
-2023-02-27,ČN Novo mesto,Drugo,0.0256,nm
+2023-02-20,CČN Slovenj Gradec,Omikron,0.2616,sg
+2023-02-20,CČN Trbovlje,BA.2.75* Omikron BA.2.75.X,0.2354,za
+2023-02-20,CČN Trbovlje,BA.5* Omikron BA.5.X,0.037,za
+2023-02-20,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.3077,za
+2023-02-20,CČN Trbovlje,Omikron,0.4199,za
+2023-02-20,CČN Zagorje,BA.2.75* Omikron BA.2.75.X,0.2857,za
+2023-02-20,CČN Zagorje,BA.5* Omikron BA.5.X,0.1193,za
+2023-02-20,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.1515,za
+2023-02-20,CČN Zagorje,Omikron,0.4435,za
+2023-02-20,OČN Šaleške doline,BA.2.75* Omikron BA.2.75.X,0.2517,ce
+2023-02-20,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.0544,ce
+2023-02-20,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.2222,ce
+2023-02-20,OČN Šaleške doline,Omikron,0.4717,ce
+2023-02-20,ČN Celje,BA.2.75* Omikron BA.2.75.X,0.2366,ce
+2023-02-20,ČN Celje,BA.5* Omikron BA.5.X,0.0683,ce
+2023-02-20,ČN Celje,BQ.1* Omikron BQ.1.X,0.2,ce
+2023-02-20,ČN Celje,Omikron,0.4951,ce
+2023-02-20,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.1777,ng
+2023-02-20,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.1097,ng
+2023-02-20,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.1544,ng
+2023-02-20,ČN Nova Gorica,Drugo,0.002,ng
+2023-02-20,ČN Nova Gorica,Omikron,0.5555,ng
+2023-02-26,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.1986,lj
+2023-02-26,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.3146,lj
+2023-02-26,CČN Ljubljana,Omikron,0.4868,lj
+2023-02-26,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.1552,ms
+2023-02-26,CČN Murska Sobota,Drugo,0.0045,ms
+2023-02-26,CČN Murska Sobota,Omikron,0.8385,ms
+2023-02-26,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.0417,kp
 2023-02-26,ČN Koper,BA.5* Omikron BA.5.X,0.0064,kp
+2023-02-26,ČN Koper,BQ.1* Omikron BQ.1.X,0.1018,kp
+2023-02-26,ČN Koper,Drugo,0.0085,kp
+2023-02-26,ČN Koper,Omikron,0.8412,kp
+2023-02-26,ČN Kranj,BA.2.75* Omikron BA.2.75.X,0.0226,kr
+2023-02-26,ČN Kranj,BA.5* Omikron BA.5.X,0.0044,kr
+2023-02-26,ČN Kranj,BQ.1* Omikron BQ.1.X,0.0113,kr
+2023-02-26,ČN Kranj,Drugo,0.0072,kr
+2023-02-26,ČN Kranj,Omikron,0.9529,kr
+2023-02-26,ČN Maribor,BA.5* Omikron BA.5.X,0.2071,mb
+2023-02-26,ČN Maribor,BQ.1* Omikron BQ.1.X,0.1262,mb
+2023-02-26,ČN Maribor,Drugo,0.0275,mb
+2023-02-26,ČN Maribor,Omikron,0.6392,mb
+2023-02-26,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.2141,ng
+2023-02-26,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.017,ng
+2023-02-26,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.2382,ng
+2023-02-26,ČN Nova Gorica,Drugo,0.0056,ng
+2023-02-26,ČN Nova Gorica,Omikron,0.5247,ng
+2023-02-27,CČN Brežice,BA.2.75* Omikron BA.2.75.X,0.1886,kk
+2023-02-27,CČN Brežice,BA.5* Omikron BA.5.X,0.0339,kk
+2023-02-27,CČN Brežice,BQ.1* Omikron BQ.1.X,0.0079,kk
+2023-02-27,CČN Brežice,Drugo,0.0052,kk
+2023-02-27,CČN Brežice,Omikron,0.7635,kk
+2023-02-27,OČN Šaleške doline,BA.2.75* Omikron BA.2.75.X,0.0534,ce
+2023-02-27,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.2398,ce
+2023-02-27,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.1036,ce
+2023-02-27,OČN Šaleške doline,Drugo,0.0048,ce
+2023-02-27,OČN Šaleške doline,Omikron,0.5983,ce
+2023-02-27,ČN Celje,BA.2.75* Omikron BA.2.75.X,0.0149,ce
+2023-02-27,ČN Celje,BA.5* Omikron BA.5.X,0.0526,ce
+2023-02-27,ČN Celje,BQ.1* Omikron BQ.1.X,0.2377,ce
+2023-02-27,ČN Celje,Drugo,0.0034,ce
+2023-02-27,ČN Celje,Omikron,0.6914,ce
+2023-02-27,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.2273,nm
+2023-02-27,ČN Novo mesto,BA.5* Omikron BA.5.X,0.1406,nm
+2023-02-27,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.0811,nm
+2023-02-27,ČN Novo mesto,Drugo,0.0256,nm
+2023-02-27,ČN Novo mesto,Omikron,0.5254,nm
+2023-03-06,CČN Ljubljana,BA.5* Omikron BA.5.X,0.1014,lj
+2023-03-06,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.2273,lj
+2023-03-06,CČN Ljubljana,Drugo,0.0031,lj
+2023-03-06,CČN Ljubljana,Omikron,0.6678,lj
+2023-03-06,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.0132,ms
+2023-03-06,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.0025,ms
+2023-03-06,CČN Murska Sobota,Drugo,0.0036,ms
+2023-03-06,CČN Murska Sobota,Omikron,0.98,ms
+2023-03-06,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.172,po
+2023-03-06,CČN Postojna,BA.5* Omikron BA.5.X,0.3538,po
+2023-03-06,CČN Postojna,BQ.1* Omikron BQ.1.X,0.1857,po
+2023-03-06,CČN Postojna,Drugo,0.0054,po
+2023-03-06,CČN Postojna,Omikron,0.2827,po
+2023-03-06,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.0733,lj
+2023-03-06,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.0236,lj
+2023-03-06,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.1841,lj
+2023-03-06,ČN Domžale Kamnik,Drugo,0.0057,lj
+2023-03-06,ČN Domžale Kamnik,Omikron,0.712,lj
+2023-03-06,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.0834,kp
+2023-03-06,ČN Koper,BA.5* Omikron BA.5.X,0.1019,kp
+2023-03-06,ČN Koper,BQ.1* Omikron BQ.1.X,0.1225,kp
+2023-03-06,ČN Koper,Drugo,0.0053,kp
+2023-03-06,ČN Koper,Omikron,0.6869,kp
+2023-03-06,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.1074,mb
+2023-03-06,ČN Maribor,BA.5* Omikron BA.5.X,0.2318,mb
+2023-03-06,ČN Maribor,BQ.1* Omikron BQ.1.X,0.0013,mb
+2023-03-06,ČN Maribor,Drugo,0.0038,mb
+2023-03-06,ČN Maribor,Omikron,0.6555,mb
+2023-03-06,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.0263,ng
+2023-03-06,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.0195,ng
+2023-03-06,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.0021,ng
+2023-03-06,ČN Nova Gorica,Omikron,0.9521,ng
+2023-03-07,CČN Slovenj Gradec,BA.2.75* Omikron BA.2.75.X,0.1424,sg
+2023-03-07,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.0019,sg
+2023-03-07,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.113,sg
+2023-03-07,CČN Slovenj Gradec,Drugo,0.0034,sg
+2023-03-07,CČN Slovenj Gradec,Omikron,0.739,sg
+2023-03-07,CČN Trbovlje,BA.2.75* Omikron BA.2.75.X,0.4264,za
+2023-03-07,CČN Trbovlje,BA.5* Omikron BA.5.X,0.0346,za
+2023-03-07,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.5092,za
+2023-03-07,CČN Trbovlje,Drugo,0.0035,za
+2023-03-07,CČN Trbovlje,Omikron,0.0252,za
+2023-03-07,CČN Zagorje,BA.2.75* Omikron BA.2.75.X,0.0014,za
+2023-03-07,CČN Zagorje,BA.5* Omikron BA.5.X,0.0127,za
+2023-03-07,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.0029,za
+2023-03-07,CČN Zagorje,Omikron,0.983,za
+2023-03-07,OČN Šaleške doline,BA.2.75* Omikron BA.2.75.X,0.1142,ce
+2023-03-07,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.1125,ce
+2023-03-07,OČN Šaleške doline,Drugo,0.0025,ce
+2023-03-07,OČN Šaleške doline,Omikron,0.7681,ce
+2023-03-12,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.0988,lj
+2023-03-12,CČN Ljubljana,BA.5* Omikron BA.5.X,0.0396,lj
+2023-03-12,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.0026,lj
+2023-03-12,CČN Ljubljana,Omikron,0.8589,lj
+2023-03-12,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.035,ms
+2023-03-12,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.0347,ms
+2023-03-12,CČN Murska Sobota,Drugo,0.0034,ms
+2023-03-12,CČN Murska Sobota,Omikron,0.9269,ms
+2023-03-12,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.0066,lj
+2023-03-12,ČN Domžale Kamnik,Drugo,0.0037,lj
+2023-03-12,ČN Domžale Kamnik,Omikron,0.9886,lj
+2023-03-12,ČN Kranj,BA.2.75* Omikron BA.2.75.X,0.2174,kr
+2023-03-12,ČN Kranj,BA.5* Omikron BA.5.X,0.0045,kr
+2023-03-12,ČN Kranj,BQ.1* Omikron BQ.1.X,0.0146,kr
+2023-03-12,ČN Kranj,Drugo,0.0017,kr
+2023-03-12,ČN Kranj,Omikron,0.7613,kr
+2023-03-12,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.1503,mb
+2023-03-12,ČN Maribor,BA.5* Omikron BA.5.X,0.0221,mb
+2023-03-12,ČN Maribor,BQ.1* Omikron BQ.1.X,0.2087,mb
+2023-03-12,ČN Maribor,Drugo,0.0015,mb
+2023-03-12,ČN Maribor,Omikron,0.6164,mb
+2023-03-12,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.0049,ng
+2023-03-12,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.0037,ng
+2023-03-12,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.005,ng
+2023-03-12,ČN Nova Gorica,Drugo,0.0031,ng
+2023-03-12,ČN Nova Gorica,Omikron,0.9814,ng
+2023-03-13,CČN Brežice,BA.2.75* Omikron BA.2.75.X,0.1258,kk
+2023-03-13,CČN Brežice,BQ.1* Omikron BQ.1.X,0.0045,kk
+2023-03-13,CČN Brežice,Drugo,0.0019,kk
+2023-03-13,CČN Brežice,Omikron,0.867,kk
+2023-03-13,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.0027,za
+2023-03-13,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.0046,za
+2023-03-13,CČN Litija in Šmartno pri Litiji,Drugo,0.0042,za
+2023-03-13,CČN Litija in Šmartno pri Litiji,Omikron,0.9882,za
+2023-03-13,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.0327,po
+2023-03-13,CČN Postojna,BA.5* Omikron BA.5.X,0.0011,po
+2023-03-13,CČN Postojna,BQ.1* Omikron BQ.1.X,0.1136,po
+2023-03-13,CČN Postojna,Drugo,0.0026,po
+2023-03-13,CČN Postojna,Omikron,0.849,po
+2023-03-13,CČN Trbovlje,BA.2.75* Omikron BA.2.75.X,0.1852,za
+2023-03-13,CČN Trbovlje,BA.5* Omikron BA.5.X,0.0305,za
+2023-03-13,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.0385,za
+2023-03-13,CČN Trbovlje,Omikron,0.7458,za
+2023-03-13,CČN Zagorje,BA.2.75* Omikron BA.2.75.X,0.2179,za
+2023-03-13,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.224,za
+2023-03-13,CČN Zagorje,Drugo,0.0022,za
+2023-03-13,CČN Zagorje,Omikron,0.5551,za
+2023-03-13,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.3141,kp
+2023-03-13,ČN Koper,BA.5* Omikron BA.5.X,0.003,kp
+2023-03-13,ČN Koper,BQ.1* Omikron BQ.1.X,0.1395,kp
+2023-03-13,ČN Koper,Drugo,0.0043,kp
+2023-03-13,ČN Koper,Omikron,0.5392,kp
+2023-03-13,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.003,nm
+2023-03-13,ČN Novo mesto,BA.5* Omikron BA.5.X,0.0247,nm
+2023-03-13,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.0041,nm
+2023-03-13,ČN Novo mesto,Drugo,0.0033,nm
+2023-03-13,ČN Novo mesto,Omikron,0.963,nm
+2023-03-19,CČN Ljubljana,BA.5* Omikron BA.5.X,0.2261,lj
+2023-03-19,CČN Ljubljana,Drugo,0.0027,lj
+2023-03-19,CČN Ljubljana,Omikron,0.7693,lj
+2023-03-19,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.0036,po
+2023-03-19,CČN Postojna,BA.5* Omikron BA.5.X,0.0402,po
+2023-03-19,CČN Postojna,BQ.1* Omikron BQ.1.X,0.0035,po
+2023-03-19,CČN Postojna,Drugo,0.0025,po
+2023-03-19,CČN Postojna,Omikron,0.9489,po
+2023-03-19,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.2771,lj
+2023-03-19,ČN Domžale Kamnik,Drugo,0.0015,lj
+2023-03-19,ČN Domžale Kamnik,Omikron,0.7197,lj
+2023-03-19,ČN Koper,BA.5* Omikron BA.5.X,0.1113,kp
+2023-03-19,ČN Koper,BQ.1* Omikron BQ.1.X,0.1778,kp
+2023-03-19,ČN Koper,Drugo,0.0014,kp
+2023-03-19,ČN Koper,Omikron,0.7051,kp
+2023-03-19,ČN Kranj,BA.5* Omikron BA.5.X,0.0124,kr
+2023-03-19,ČN Kranj,BQ.1* Omikron BQ.1.X,0.002,kr
+2023-03-19,ČN Kranj,Drugo,0.0016,kr
+2023-03-19,ČN Kranj,Omikron,0.9796,kr
+2023-03-19,ČN Maribor,Drugo,0.0031,mb
+2023-03-19,ČN Maribor,Omikron,0.9965,mb
+2023-03-20,CČN Brežice,BA.5* Omikron BA.5.X,0.0676,kk
+2023-03-20,CČN Brežice,BQ.1* Omikron BQ.1.X,0.0016,kk
+2023-03-20,CČN Brežice,Drugo,0.0016,kk
+2023-03-20,CČN Brežice,Omikron,0.9279,kk
+2023-03-20,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.9972,za
+2023-03-20,CČN Litija in Šmartno pri Litiji,Omikron,0.0028,za
+2023-03-20,CČN Slovenj Gradec,Drugo,0.0039,sg
+2023-03-20,CČN Slovenj Gradec,Omikron,0.996,sg
+2023-03-20,CČN Trbovlje,BA.5* Omikron BA.5.X,0.4685,za
+2023-03-20,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.0023,za
+2023-03-20,CČN Trbovlje,Drugo,0.0011,za
+2023-03-20,CČN Trbovlje,Omikron,0.5241,za
+2023-03-20,CČN Zagorje,BA.5* Omikron BA.5.X,0.0016,za
+2023-03-20,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.0487,za
+2023-03-20,CČN Zagorje,Drugo,0.0031,za
+2023-03-20,CČN Zagorje,Omikron,0.9467,za
+2023-03-20,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.2864,ce
+2023-03-20,OČN Šaleške doline,Drugo,0.001,ce
+2023-03-20,OČN Šaleške doline,Omikron,0.7108,ce
+2023-03-20,ČN Novo mesto,Drugo,0.0027,nm
+2023-03-20,ČN Novo mesto,Omikron,0.997,nm
+2023-03-26,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.0031,lj
+2023-03-26,CČN Ljubljana,BA.5* Omikron BA.5.X,0.0155,lj
+2023-03-26,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.0061,lj
+2023-03-26,CČN Ljubljana,Omikron,0.9746,lj
+2023-03-26,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.1756,ms
+2023-03-26,CČN Murska Sobota,Omikron,0.8244,ms
+2023-03-26,CČN Postojna,BA.5* Omikron BA.5.X,0.1527,po
+2023-03-26,CČN Postojna,BQ.1* Omikron BQ.1.X,0.0465,po
+2023-03-26,CČN Postojna,Omikron,0.8,po
+2023-03-26,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.2057,lj
+2023-03-26,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.0166,lj
+2023-03-26,ČN Domžale Kamnik,Omikron,0.7777,lj
+2023-03-26,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.1931,kp
+2023-03-26,ČN Koper,BA.5* Omikron BA.5.X,0.0586,kp
+2023-03-26,ČN Koper,Drugo,0.0028,kp
+2023-03-26,ČN Koper,Omikron,0.744,kp
+2023-03-26,ČN Kranj,BA.5* Omikron BA.5.X,0.4995,kr
+2023-03-26,ČN Kranj,Omikron,0.5,kr
+2023-03-26,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.1958,mb
+2023-03-26,ČN Maribor,BA.5* Omikron BA.5.X,0.103,mb
+2023-03-26,ČN Maribor,BQ.1* Omikron BQ.1.X,0.1231,mb
+2023-03-26,ČN Maribor,Omikron,0.5781,mb
+2023-03-26,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.0033,ng
+2023-03-26,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.1574,ng
 2023-03-26,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.0032,ng
+2023-03-26,ČN Nova Gorica,Drugo,0.0035,ng
+2023-03-26,ČN Nova Gorica,Omikron,0.8313,ng
+2023-03-27,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.7384,sg
+2023-03-27,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.1667,sg
+2023-03-27,CČN Slovenj Gradec,Omikron,0.0945,sg
+2023-03-27,CČN Zagorje,BA.5* Omikron BA.5.X,0.0126,za
+2023-03-27,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.0016,za
+2023-03-27,CČN Zagorje,Drugo,0.0034,za
+2023-03-27,CČN Zagorje,Omikron,0.9824,za
+2023-03-27,OČN Šaleške doline,BA.2.75* Omikron BA.2.75.X,0.1122,ce
+2023-03-27,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.0532,ce
+2023-03-27,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.0303,ce
 2023-03-27,OČN Šaleške doline,Drugo,0.0032,ce
-2023-04-03,ČN Celje,Drugo,0.0033,ce
-2023-04-03,CČN Slovenj Gradec,BA.2.75* Omikron BA.2.75.X,0.0105,sg
-2023-04-03,CČN Brežice,BA.2.75* Omikron BA.2.75.X,0.0455,kk
+2023-03-27,OČN Šaleške doline,Omikron,0.8008,ce
+2023-03-27,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.002,nm
+2023-03-27,ČN Novo mesto,BA.5* Omikron BA.5.X,0.027,nm
+2023-03-27,ČN Novo mesto,Drugo,0.0021,nm
+2023-03-27,ČN Novo mesto,Omikron,0.9672,nm
+2023-04-02,CČN Ljubljana,BA.5* Omikron BA.5.X,0.0408,lj
+2023-04-02,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.0077,lj
 2023-04-02,CČN Ljubljana,Drugo,0.0025,lj
-2023-04-02,CČN Postojna,BQ.1* Omikron BQ.1.X,0.0217,po
+2023-04-02,CČN Ljubljana,Omikron,0.3446,lj
+2023-04-02,CČN Ljubljana,XBB.1.5* Omikron XBB.1.5.X,0.6037,lj
 2023-04-02,CČN Murska Sobota,BA.2.75* Omikron BA.2.75.X,0.0575,ms
-2023-04-03,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.0086,nm
-2023-04-03,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.0058,za
-2023-04-02,ČN Domžale Kamnik,Drugo,0.0032,lj
-2023-04-02,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.0064,ng
-2023-04-02,ČN Koper,BQ.1* Omikron BQ.1.X,0.004,kp
-2023-04-03,ČN Celje,BQ.1* Omikron BQ.1.X,0.002,ce
-2023-04-02,CČN Postojna,Drugo,0.0039,po
+2023-04-02,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.1694,ms
+2023-04-02,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.3144,ms
 2023-04-02,CČN Murska Sobota,Drugo,0.001,ms
-2023-04-03,ČN Novo mesto,Drugo,0.0014,nm
+2023-04-02,CČN Murska Sobota,Omikron,0.3404,ms
+2023-04-02,CČN Murska Sobota,XBB.1.5* Omikron XBB.1.5.X,0.1129,ms
+2023-04-02,CČN Postojna,BA.2.75* Omikron BA.2.75.X,0.0276,po
+2023-04-02,CČN Postojna,BA.5* Omikron BA.5.X,0.0268,po
+2023-04-02,CČN Postojna,BQ.1* Omikron BQ.1.X,0.0217,po
+2023-04-02,CČN Postojna,Drugo,0.0039,po
+2023-04-02,CČN Postojna,Omikron,0.7086,po
+2023-04-02,CČN Postojna,XBB.1.5* Omikron XBB.1.5.X,0.2114,po
+2023-04-02,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.0054,lj
+2023-04-02,ČN Domžale Kamnik,BQ.1* Omikron BQ.1.X,0.005,lj
+2023-04-02,ČN Domžale Kamnik,Drugo,0.0032,lj
+2023-04-02,ČN Domžale Kamnik,Omikron,0.7162,lj
+2023-04-02,ČN Domžale Kamnik,XBB.1.5* Omikron XBB.1.5.X,0.2695,lj
+2023-04-02,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.0102,kp
+2023-04-02,ČN Koper,BA.5* Omikron BA.5.X,0.0147,kp
+2023-04-02,ČN Koper,BQ.1* Omikron BQ.1.X,0.004,kp
 2023-04-02,ČN Koper,Drugo,0.0018,kp
+2023-04-02,ČN Koper,Omikron,0.863,kp
+2023-04-02,ČN Koper,XBB.1.5* Omikron XBB.1.5.X,0.1063,kp
+2023-04-02,ČN Kranj,BA.2.75* Omikron BA.2.75.X,0.0504,kr
+2023-04-02,ČN Kranj,BA.5* Omikron BA.5.X,0.1001,kr
+2023-04-02,ČN Kranj,BQ.1* Omikron BQ.1.X,0.0249,kr
+2023-04-02,ČN Kranj,Omikron,0.8246,kr
+2023-04-02,ČN Maribor,BA.5* Omikron BA.5.X,0.0237,mb
+2023-04-02,ČN Maribor,BQ.1* Omikron BQ.1.X,0.0388,mb
+2023-04-02,ČN Maribor,Omikron,0.9375,mb
+2023-04-02,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.0092,ng
+2023-04-02,ČN Nova Gorica,BQ.1* Omikron BQ.1.X,0.0064,ng
+2023-04-02,ČN Nova Gorica,Drugo,0.0422,ng
+2023-04-02,ČN Nova Gorica,Omikron,0.5128,ng
+2023-04-02,ČN Nova Gorica,XBB.1.5* Omikron XBB.1.5.X,0.4282,ng
+2023-04-03,CČN Brežice,BA.2.75* Omikron BA.2.75.X,0.0455,kk
+2023-04-03,CČN Brežice,BA.5* Omikron BA.5.X,0.1426,kk
+2023-04-03,CČN Brežice,BQ.1* Omikron BQ.1.X,0.1562,kk
+2023-04-03,CČN Brežice,Omikron,0.2025,kk
+2023-04-03,CČN Brežice,XBB.1.5* Omikron XBB.1.5.X,0.4533,kk
+2023-04-03,CČN Litija in Šmartno pri Litiji,BA.2.75* Omikron BA.2.75.X,0.158,za
+2023-04-03,CČN Litija in Šmartno pri Litiji,BQ.1* Omikron BQ.1.X,0.0476,za
+2023-04-03,CČN Litija in Šmartno pri Litiji,Omikron,0.1993,za
+2023-04-03,CČN Litija in Šmartno pri Litiji,XBB.1.5* Omikron XBB.1.5.X,0.5951,za
+2023-04-03,CČN Slovenj Gradec,BA.2.75* Omikron BA.2.75.X,0.0105,sg
+2023-04-03,CČN Slovenj Gradec,BA.5* Omikron BA.5.X,0.2001,sg
+2023-04-03,CČN Slovenj Gradec,BQ.1* Omikron BQ.1.X,0.024,sg
+2023-04-03,CČN Slovenj Gradec,Omikron,0.5542,sg
+2023-04-03,CČN Slovenj Gradec,XBB.1.5* Omikron XBB.1.5.X,0.2111,sg
+2023-04-03,CČN Trbovlje,BA.2.75* Omikron BA.2.75.X,0.0145,za
+2023-04-03,CČN Trbovlje,BA.5* Omikron BA.5.X,0.0077,za
+2023-04-03,CČN Trbovlje,BQ.1* Omikron BQ.1.X,0.0058,za
+2023-04-03,CČN Trbovlje,Omikron,0.5098,za
+2023-04-03,CČN Trbovlje,XBB.1.5* Omikron XBB.1.5.X,0.4615,za
+2023-04-03,OČN Šaleške doline,BA.5* Omikron BA.5.X,0.1703,ce
+2023-04-03,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.1154,ce
+2023-04-03,OČN Šaleške doline,Omikron,0.448,ce
+2023-04-03,OČN Šaleške doline,XBB.1.5* Omikron XBB.1.5.X,0.2663,ce
+2023-04-03,ČN Celje,BA.2.75* Omikron BA.2.75.X,0.1814,ce
+2023-04-03,ČN Celje,BA.5* Omikron BA.5.X,0.0122,ce
+2023-04-03,ČN Celje,BQ.1* Omikron BQ.1.X,0.002,ce
+2023-04-03,ČN Celje,Drugo,0.0033,ce
+2023-04-03,ČN Celje,Omikron,0.337,ce
+2023-04-03,ČN Celje,XBB.1.5* Omikron XBB.1.5.X,0.4629,ce
+2023-04-03,ČN Novo mesto,BA.2.75* Omikron BA.2.75.X,0.2897,nm
+2023-04-03,ČN Novo mesto,BA.5* Omikron BA.5.X,0.0263,nm
+2023-04-03,ČN Novo mesto,BQ.1* Omikron BQ.1.X,0.0086,nm
+2023-04-03,ČN Novo mesto,Drugo,0.0014,nm
+2023-04-03,ČN Novo mesto,Omikron,0.5232,nm
+2023-04-03,ČN Novo mesto,XBB.1.5* Omikron XBB.1.5.X,0.1506,nm
