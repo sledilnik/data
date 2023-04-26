@@ -1,14 +1,16 @@
-[![GSheets update](https://github.com/sledilnik/data/actions/workflows/gsheets.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/gsheets.yml)
-[![OstaniZdrav update](https://github.com/sledilnik/data/actions/workflows/ostanizdrav.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/ostanizdrav.yml)
-[![Schools update](https://github.com/sledilnik/data/actions/workflows/schools.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/schools.yml)
-[![Sewage update](https://github.com/sledilnik/data/actions/workflows/sewage.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/sewage.yml)
+# Slovenia COVID-19 Data Collection - Sledilnik.org
+
 [![Vaccination update](https://github.com/sledilnik/data/actions/workflows/vaccination.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/vaccination.yml)
 [![Vaccination OPSI update](https://github.com/sledilnik/data/actions/workflows/vaccination_opsi.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/vaccination_opsi.yml)
 [![Lab tests update](https://github.com/sledilnik/data/actions/workflows/labtests.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/labtests.yml)
 [![EPISARI OPSI data update](https://github.com/sledilnik/data/actions/workflows/episari.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/episari.yml)
 [![Sewage OPSI data update](https://github.com/sledilnik/data/actions/workflows/sewage-opsi.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/sewage-opsi.yml)
 
-# Slovenia COVID-19 Data Collection - Sledilnik.org
+Disabled/obsolete workflows:
+[![GSheets update](https://github.com/sledilnik/data/actions/workflows/gsheets.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/gsheets.yml)
+[![OstaniZdrav update](https://github.com/sledilnik/data/actions/workflows/ostanizdrav.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/ostanizdrav.yml)
+[![Schools update](https://github.com/sledilnik/data/actions/workflows/schools.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/schools.yml)
+[![Sewage update](https://github.com/sledilnik/data/actions/workflows/sewage.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/sewage.yml)
 
 Visualized at [COVID-19 Sledilnik Home Page](https://covid-19.sledilnik.org) 
 
