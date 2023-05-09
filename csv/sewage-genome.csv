@@ -1325,3 +1325,50 @@ sewage.date,sewage.station,sewage.genome,sewage.ratio,sewage.region
 2023-04-17,OČN Šaleške doline,BQ.1* Omikron BQ.1.X,0.2408,ce
 2023-04-17,OČN Šaleške doline,Omikron,0.6358,ce
 2023-04-17,OČN Šaleške doline,XBB.1.5* Omikron XBB.1.5.X,0.1132,ce
+2023-04-24,CČN Ljubljana,BA.2.75* Omikron BA.2.75.X,0.033,lj
+2023-04-24,CČN Ljubljana,BA.5* Omikron BA.5.X,0.1021,lj
+2023-04-24,CČN Ljubljana,BQ.1* Omikron BQ.1.X,0.0068,lj
+2023-04-24,CČN Ljubljana,Drugo,0.0024,lj
+2023-04-24,CČN Ljubljana,Omikron,0.4674,lj
+2023-04-24,CČN Ljubljana,XBB.1.5* Omikron XBB.1.5.X,0.3846,lj
+2023-04-24,CČN Murska Sobota,BA.2.75* Omikron BA.2.75.X,0.0704,ms
+2023-04-24,CČN Murska Sobota,BA.5* Omikron BA.5.X,0.2637,ms
+2023-04-24,CČN Murska Sobota,BQ.1* Omikron BQ.1.X,0.0024,ms
+2023-04-24,CČN Murska Sobota,Drugo,0.0039,ms
+2023-04-24,CČN Murska Sobota,Omikron,0.5937,ms
+2023-04-24,CČN Murska Sobota,XBB.1.5* Omikron XBB.1.5.X,0.0649,ms
+2023-04-24,CČN Postojna,BA.5* Omikron BA.5.X,0.1218,po
+2023-04-24,CČN Postojna,Drugo,0.0015,po
+2023-04-24,CČN Postojna,Omikron,0.8767,po
+2023-04-24,CČN Zagorje,BA.2.75* Omikron BA.2.75.X,0.0523,za
+2023-04-24,CČN Zagorje,BA.5* Omikron BA.5.X,0.3464,za
+2023-04-24,CČN Zagorje,BQ.1* Omikron BQ.1.X,0.0033,za
+2023-04-24,CČN Zagorje,Drugo,0.0034,za
+2023-04-24,CČN Zagorje,Omikron,0.5847,za
+2023-04-24,CČN Zagorje,XBB.1.5* Omikron XBB.1.5.X,0.0057,za
+2023-04-24,ČN Domžale Kamnik,BA.2.75* Omikron BA.2.75.X,0.0039,lj
+2023-04-24,ČN Domžale Kamnik,BA.5* Omikron BA.5.X,0.2106,lj
+2023-04-24,ČN Domžale Kamnik,Drugo,0.003,lj
+2023-04-24,ČN Domžale Kamnik,Omikron,0.4424,lj
+2023-04-24,ČN Domžale Kamnik,XBB.1.5* Omikron XBB.1.5.X,0.3382,lj
+2023-04-24,ČN Koper,BA.2.75* Omikron BA.2.75.X,0.0926,kp
+2023-04-24,ČN Koper,BA.5* Omikron BA.5.X,0.1642,kp
+2023-04-24,ČN Koper,Drugo,0.0027,kp
+2023-04-24,ČN Koper,Omikron,0.5494,kp
+2023-04-24,ČN Koper,XBB.1.5* Omikron XBB.1.5.X,0.1904,kp
+2023-04-24,ČN Kranj,BA.2.75* Omikron BA.2.75.X,0.119,kr
+2023-04-24,ČN Kranj,BA.5* Omikron BA.5.X,0.1739,kr
+2023-04-24,ČN Kranj,Drugo,0.0037,kr
+2023-04-24,ČN Kranj,Omikron,0.4629,kr
+2023-04-24,ČN Kranj,XBB.1.5* Omikron XBB.1.5.X,0.2396,kr
+2023-04-24,ČN Maribor,BA.2.75* Omikron BA.2.75.X,0.0012,mb
+2023-04-24,ČN Maribor,BA.5* Omikron BA.5.X,0.0925,mb
+2023-04-24,ČN Maribor,BQ.1* Omikron BQ.1.X,0.019,mb
+2023-04-24,ČN Maribor,Drugo,0.0049,mb
+2023-04-24,ČN Maribor,Omikron,0.5207,mb
+2023-04-24,ČN Maribor,XBB.1.5* Omikron XBB.1.5.X,0.3607,mb
+2023-04-24,ČN Nova Gorica,BA.2.75* Omikron BA.2.75.X,0.29,ng
+2023-04-24,ČN Nova Gorica,BA.5* Omikron BA.5.X,0.0529,ng
+2023-04-24,ČN Nova Gorica,Drugo,0.0021,ng
+2023-04-24,ČN Nova Gorica,Omikron,0.4174,ng
+2023-04-24,ČN Nova Gorica,XBB.1.5* Omikron XBB.1.5.X,0.2318,ng
