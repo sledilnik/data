@@ -1,4 +1,4 @@
-# Slovenia COVID-19 Data Collection - Sledilnik.org
+# Slovenia COVID-19 Data Collection - Sledilnik.org [![DOI](https://zenodo.org/badge/248641685.svg)](https://zenodo.org/badge/latestdoi/248641685)
 
 [![Vaccination update](https://github.com/sledilnik/data/actions/workflows/vaccination.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/vaccination.yml)
 [![Vaccination OPSI update](https://github.com/sledilnik/data/actions/workflows/vaccination_opsi.yml/badge.svg)](https://github.com/sledilnik/data/actions/workflows/vaccination_opsi.yml)
