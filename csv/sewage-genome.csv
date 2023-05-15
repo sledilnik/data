@@ -1372,3 +1372,54 @@ sewage.date,sewage.station,sewage.genome,sewage.ratio,sewage.region
 2023-04-24,ČN Nova Gorica,Drugo,0.0021,ng
 2023-04-24,ČN Nova Gorica,Omikron,0.4174,ng
 2023-04-24,ČN Nova Gorica,XBB.1.5* Omikron XBB.1.5.X,0.2318,ng
+2023-05-02,CČN Ljubljana,Drugo,0.0043,lj
+2023-05-02,CČN Ljubljana,Omikron,0.8909,lj
+2023-05-02,CČN Ljubljana,XBB.1.5* Omikron XBB.1.5.X,0.1045,lj
+2023-05-02,CČN Murska Sobota,Omikron,0.6337,ms
+2023-05-02,CČN Murska Sobota,XBB.1.5* Omikron XBB.1.5.X,0.3663,ms
+2023-05-02,CČN Postojna,BA.5* Omikron BA.5.X,0.0036,po
+2023-05-02,CČN Postojna,Drugo,0.0087,po
+2023-05-02,CČN Postojna,Omikron,0.4025,po
+2023-05-02,CČN Postojna,XBB.1.5* Omikron XBB.1.5.X,0.584,po
+2023-05-02,ČN Koper,BA.5* Omikron BA.5.X,0.0028,kp
+2023-05-02,ČN Koper,BQ.1* Omikron BQ.1.X,0.0013,kp
+2023-05-02,ČN Koper,Drugo,0.0028,kp
+2023-05-02,ČN Koper,Omikron,0.8064,kp
+2023-05-02,ČN Koper,XBB.1.5* Omikron XBB.1.5.X,0.1843,kp
+2023-05-02,ČN Kranj,BA.2.75* Omikron BA.2.75.X,0.0193,kr
+2023-05-02,ČN Kranj,BA.5* Omikron BA.5.X,0.0035,kr
+2023-05-02,ČN Kranj,Drugo,0.0043,kr
+2023-05-02,ČN Kranj,Omikron,0.5689,kr
+2023-05-02,ČN Kranj,XBB.1.5* Omikron XBB.1.5.X,0.4022,kr
+2023-05-03,CČN Litija in Šmartno pri Litiji,BA.5* Omikron BA.5.X,0.0029,za
+2023-05-03,CČN Litija in Šmartno pri Litiji,Omikron,0.8964,za
+2023-05-03,CČN Litija in Šmartno pri Litiji,XBB.1.5* Omikron XBB.1.5.X,0.1007,za
+2023-05-03,CČN Trbovlje,BA.5* Omikron BA.5.X,0.0022,za
+2023-05-03,CČN Trbovlje,Drugo,0.0016,za
+2023-05-03,CČN Trbovlje,Omikron,0.1769,za
+2023-05-03,CČN Trbovlje,XBB.1.5* Omikron XBB.1.5.X,0.8177,za
+2023-05-03,CČN Zagorje,BA.2.75* Omikron BA.2.75.X,0.0046,za
+2023-05-03,CČN Zagorje,BA.5* Omikron BA.5.X,0.0011,za
+2023-05-03,CČN Zagorje,Drugo,0.0207,za
+2023-05-03,CČN Zagorje,Omikron,0.6996,za
+2023-05-03,CČN Zagorje,XBB.1.5* Omikron XBB.1.5.X,0.272,za
+2023-05-03,OČN Šaleške doline,Omikron,0.001,ce
+2023-05-08,CČN Ljubljana,Omikron,0.9993,lj
+2023-05-08,CČN Murska Sobota,Drugo,0.0018,ms
+2023-05-08,CČN Murska Sobota,Omikron,0.9976,ms
+2023-05-08,ČN Domžale Kamnik,Omikron,0.001,lj
+2023-05-08,ČN Koper,Drugo,0.0015,kp
+2023-05-08,ČN Koper,Omikron,0.9976,kp
+2023-05-08,ČN Maribor,Drugo,0.0042,mb
+2023-05-08,ČN Maribor,Omikron,0.9953,mb
+2023-05-09,CČN Brežice,Drugo,0.0032,kk
+2023-05-09,CČN Brežice,Omikron,0.9944,kk
+2023-05-09,CČN Litija in Šmartno pri Litiji,Drugo,0.0031,za
+2023-05-09,CČN Litija in Šmartno pri Litiji,Omikron,0.9967,za
+2023-05-09,CČN Slovenj Gradec,Drugo,0.0039,sg
+2023-05-09,CČN Slovenj Gradec,Omikron,0.9954,sg
+2023-05-09,CČN Trbovlje,Omikron,0.001,za
+2023-05-09,CČN Zagorje,Omikron,0.9993,za
+2023-05-09,OČN Šaleške doline,Drugo,0.0015,ce
+2023-05-09,OČN Šaleške doline,Omikron,0.9985,ce
+2023-05-09,ČN Novo mesto,Omikron,0.001,nm
