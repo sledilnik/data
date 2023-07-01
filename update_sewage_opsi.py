@@ -59,11 +59,13 @@ def update_sewage_cases(update_time):
         'sewage.n3-norm',
         'sewage.cases.estimated',
         'sewage.cases.active100k',
+        'sewage.protocol',
         'sewage.lat',
         'sewage.lon',
         'sewage.region',
         'sewage.population',
         'sewage.coverage-ratio']
+    df_opsi.drop(columns=['sewage.protocol'], inplace=True) # Drop new, unknown column for nicer diffs until we know what it means and how to use it
     df_opsi['sewage.station'] = df_opsi['sewage.station'].apply(underscore_to_space)
     df_opsi['sewage.region'] = df_opsi['sewage.region'].apply(convert_region)
     df_opsi['sewage.coverage-ratio'] = df_opsi['sewage.coverage-ratio'].apply(fix_ratio)
@@ -84,9 +86,10 @@ def update_sewage_genome(update_time):
     df_opsi.columns = [
         'sewage.date',
         'sewage.station',
+        'sewage.region',
         'sewage.genome',
-        'sewage.ratio',
-        'sewage.region']
+        'sewage.ratio']
+    df_opsi = df_opsi[['sewage.date', 'sewage.station', 'sewage.genome', 'sewage.ratio', 'sewage.region']] # reorder columns for readable diffs
     df_opsi['sewage.station'] = df_opsi['sewage.station'].apply(underscore_to_space)
     df_opsi['sewage.region'] = df_opsi['sewage.region'].apply(convert_region)
     df_opsi['sewage.ratio'] = df_opsi['sewage.ratio'].apply(fix_ratio)
