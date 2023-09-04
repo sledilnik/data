@@ -2,7 +2,7 @@ sheet2csv==1.0.7
 # git+https://github.com/sledilnik/sheet2csv.git@v1.0.2#egg=sheet2csv
 numpy==1.24.*
 openpyxl==3.0.*
-pandas==1.5.*
+pandas==2.1.*
 pyquery==2.0.*
 python-dateutil==2.8.*
 requests==2.31.*
