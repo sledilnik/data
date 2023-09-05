@@ -212,7 +212,7 @@ def adjust_vacc_delivered(df):
     print(df)
     print(df_adj)
 
-    dates = pd.DataFrame(df.index, columns = ['date']).append(pd.DataFrame(df_adj.index, columns = ['date'])).drop_duplicates('date').set_index('date').sort_index()
+    dates = pd.concat([pd.DataFrame(df.index, columns = ['date']), pd.DataFrame(df_adj.index, columns = ['date'])]).drop_duplicates('date').set_index('date').sort_index()
 
     df = dates.join(df).fillna(0)
     df_adj = dates.join(df_adj).fillna(0)

@@ -142,7 +142,7 @@ def computeCasesWithCount(update_time, last_day_confirmed):
     }]
     assert len(date_diff) <= 1, 'The date difference between lab-tests.csv and cases.csv is more than one day.'
     if len(date_diff) > 0:
-        df_cases = df_cases.append(pd.DataFrame(index=date_diff, columns=df_cases.columns))
+        df_cases = pd.concat([df_cases, pd.DataFrame(index=date_diff, columns=df_cases.columns)])
         df_cases.index.rename('date', inplace=True)  # name it explicitly otherwise it doesn't show up in csv
         date = date_diff[0]  # equals index of -1
 
