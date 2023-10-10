@@ -1902,13 +1902,6 @@
 2023-09-18,CČN_Trbovlje,XBB.1.5* [Omikron (XBB.1.5.X)],0.1992,Zasavska
 2023-09-18,CČN_Trbovlje,XBB* (XBB.X),0.0203,Zasavska
 2023-09-18,CČN_Trbovlje,Omikron,0.0132,Zasavska
-2023-09-24,CČN_Postojna,EG.5.1.4,0.00421941,Primorsko-notranjska
-2023-09-24,CČN_Postojna,XBB.2.3* [Omikron (XBB.2.3.X)],0.812,Primorsko-notranjska
-2023-09-24,CČN_Postojna,XBB* (XBB.X),0.1094,Primorsko-notranjska
-2023-09-24,CČN_Postojna,XBB.1.5* [Omikron (XBB.1.5.X)],0.0684,Primorsko-notranjska
-2023-09-24,CČN_Postojna,XBB.1.9* [Omikron (XBB.1.9.X)],-1.9410000000000087e-05,Primorsko-notranjska
-2023-09-24,CČN_Postojna,Drugo,0.0034,Primorsko-notranjska
-2023-09-24,CČN_Postojna,Omikron,0.0022,Primorsko-notranjska
 2023-09-25,CČN_Brežice,EG.5.1.3,0.00140056,Posavska
 2023-09-25,CČN_Brežice,XBB.1.9* [Omikron (XBB.1.9.X)],0.53549944,Posavska
 2023-09-25,CČN_Brežice,XBB.1.5* [Omikron (XBB.1.5.X)],0.1661,Posavska
@@ -1923,6 +1916,13 @@
 2023-09-25,CČN_Litija_in_Šmartno_pri_Litiji,XBB.1.5* [Omikron (XBB.1.5.X)],0.1612,Zasavska
 2023-09-25,CČN_Litija_in_Šmartno_pri_Litiji,Drugo,0.004,Zasavska
 2023-09-25,CČN_Litija_in_Šmartno_pri_Litiji,XBB* (XBB.X),0.0026,Zasavska
+2023-09-25,CČN_Postojna,EG.5.1.4,0.00421941,Primorsko-notranjska
+2023-09-25,CČN_Postojna,XBB.2.3* [Omikron (XBB.2.3.X)],0.812,Primorsko-notranjska
+2023-09-25,CČN_Postojna,XBB* (XBB.X),0.1094,Primorsko-notranjska
+2023-09-25,CČN_Postojna,XBB.1.5* [Omikron (XBB.1.5.X)],0.0684,Primorsko-notranjska
+2023-09-25,CČN_Postojna,XBB.1.9* [Omikron (XBB.1.9.X)],-1.9410000000000087e-05,Primorsko-notranjska
+2023-09-25,CČN_Postojna,Drugo,0.0034,Primorsko-notranjska
+2023-09-25,CČN_Postojna,Omikron,0.0022,Primorsko-notranjska
 2023-09-25,CČN_Zagorje,EG.5.1,0.47608661,Zasavska
 2023-09-25,CČN_Zagorje,EG.5.1.3,0.00557103,Zasavska
 2023-09-25,CČN_Zagorje,EG.5.1.4,0.00363636,Zasavska
@@ -1940,3 +1940,100 @@
 2023-09-25,ČN_Kranj,XBB.2.3* [Omikron (XBB.2.3.X)],0.0051,Gorenjska
 2023-09-25,ČN_Kranj,Drugo,0.0036,Gorenjska
 2023-09-25,ČN_Kranj,Omikron,0.0027,Gorenjska
+2023-10-02,CČN_Ljubljana,EG.5.1.3,0.186667,Osrednjeslovenska
+2023-10-02,CČN_Ljubljana,EG.5.1,0.10697299,Osrednjeslovenska
+2023-10-02,CČN_Ljubljana,EG.5.1.1,0.09759262,Osrednjeslovenska
+2023-10-02,CČN_Ljubljana,XBB.1.9* [Omikron (XBB.1.9.X)],0.47396739,Osrednjeslovenska
+2023-10-02,CČN_Ljubljana,XBB.1.16* [Omikron (XBB.1.16.X)],0.0714,Osrednjeslovenska
+2023-10-02,CČN_Ljubljana,XBB.1.5* [Omikron (XBB.1.5.X)],0.0514,Osrednjeslovenska
+2023-10-02,CČN_Ljubljana,XBB* (XBB.X),0.0119,Osrednjeslovenska
+2023-10-02,ČN_Kranj,EG.5.1,0.176463,Gorenjska
+2023-10-02,ČN_Kranj,EG.5.1.1,0.01377807,Gorenjska
+2023-10-02,ČN_Kranj,XBB.1.16* [Omikron (XBB.1.16.X)],0.4074,Gorenjska
+2023-10-02,ČN_Kranj,XBB.1.9* [Omikron (XBB.1.9.X)],0.16675892999999997,Gorenjska
+2023-10-02,ČN_Kranj,XBB* (XBB.X),0.2238,Gorenjska
+2023-10-02,ČN_Kranj,XBB.1.5* [Omikron (XBB.1.5.X)],0.0089,Gorenjska
+2023-10-02,ČN_Kranj,Drugo,0.0022,Gorenjska
+2023-10-02,ČN_Nova_Gorica,EG.5.1.3,0.0971035,Goriška
+2023-10-02,ČN_Nova_Gorica,EG.5.1.1,0.0040528,Goriška
+2023-10-02,ČN_Nova_Gorica,XBB.1.9* [Omikron (XBB.1.9.X)],0.2698437,Goriška
+2023-10-02,ČN_Nova_Gorica,XBB.1.16* [Omikron (XBB.1.16.X)],0.3163,Goriška
+2023-10-02,ČN_Nova_Gorica,XBB.2.3* [Omikron (XBB.2.3.X)],0.1141,Goriška
+2023-10-02,ČN_Nova_Gorica,CH.1.1* [Omikron (CH.1.1.X)],0.0867,Goriška
+2023-10-02,ČN_Nova_Gorica,XBB* (XBB.X),0.0406,Goriška
+2023-10-02,ČN_Nova_Gorica,XBB.1.5* [Omikron (XBB.1.5.X)],0.0385,Goriška
+2023-10-02,ČN_Nova_Gorica,Drugo,0.0296,Goriška
+2023-10-02,ČN_Nova_Gorica,Omikron,0.0018,Goriška
+2023-10-03,CČN_Brežice,EG.5.1,0.497738,Posavska
+2023-10-03,CČN_Brežice,XBB.1.9* [Omikron (XBB.1.9.X)],0.16596199999999994,Posavska
+2023-10-03,CČN_Brežice,XBB.1.5* [Omikron (XBB.1.5.X)],0.2028,Posavska
+2023-10-03,CČN_Brežice,XBB.1.16* [Omikron (XBB.1.16.X)],0.1111,Posavska
+2023-10-03,CČN_Brežice,XBB* (XBB.X),0.013,Posavska
+2023-10-03,CČN_Brežice,XBB.2.3* [Omikron (XBB.2.3.X)],0.0088,Posavska
+2023-10-03,CČN_Litija_in_Šmartno_pri_Litiji,EG.5.1.3,0.192641,Zasavska
+2023-10-03,CČN_Litija_in_Šmartno_pri_Litiji,EG.5.1,0.15809904,Zasavska
+2023-10-03,CČN_Litija_in_Šmartno_pri_Litiji,EG.5.1.4,0.0573477,Zasavska
+2023-10-03,CČN_Litija_in_Šmartno_pri_Litiji,EG.5.1.2,0.00298507,Zasavska
+2023-10-03,CČN_Litija_in_Šmartno_pri_Litiji,XBB.1.9* [Omikron (XBB.1.9.X)],0.16902718999999994,Zasavska
+2023-10-03,CČN_Litija_in_Šmartno_pri_Litiji,XBB.1.16* [Omikron (XBB.1.16.X)],0.212,Zasavska
+2023-10-03,CČN_Litija_in_Šmartno_pri_Litiji,XBB.1.5* [Omikron (XBB.1.5.X)],0.1382,Zasavska
+2023-10-03,CČN_Litija_in_Šmartno_pri_Litiji,XBB* (XBB.X),0.063,Zasavska
+2023-10-03,CČN_Litija_in_Šmartno_pri_Litiji,Drugo,0.0052,Zasavska
+2023-10-03,CČN_Murska_Sobota,XBB.1.16* [Omikron (XBB.1.16.X)],0.9799,Pomurska
+2023-10-03,CČN_Murska_Sobota,XBB.1.9* [Omikron (XBB.1.9.X)],0.0149,Pomurska
+2023-10-03,CČN_Murska_Sobota,Drugo,0.0028,Pomurska
+2023-10-03,CČN_Murska_Sobota,XBB.2.3* [Omikron (XBB.2.3.X)],0.0015,Pomurska
+2023-10-03,CČN_Postojna,EG.5.1,0.37343376,Primorsko-notranjska
+2023-10-03,CČN_Postojna,EG.5.1.6,0.00729927,Primorsko-notranjska
+2023-10-03,CČN_Postojna,EG.5.1.1,0.00212314,Primorsko-notranjska
+2023-10-03,CČN_Postojna,XBB.1.9* [Omikron (XBB.1.9.X)],0.006943829999999984,Primorsko-notranjska
+2023-10-03,CČN_Postojna,XBB* (XBB.X),0.2487,Primorsko-notranjska
+2023-10-03,CČN_Postojna,XBB.2.3* [Omikron (XBB.2.3.X)],0.2028,Primorsko-notranjska
+2023-10-03,CČN_Postojna,XBB.1.16* [Omikron (XBB.1.16.X)],0.0848,Primorsko-notranjska
+2023-10-03,CČN_Postojna,XBB.1.5* [Omikron (XBB.1.5.X)],0.0654,Primorsko-notranjska
+2023-10-03,CČN_Postojna,Drugo,0.0071,Primorsko-notranjska
+2023-10-03,CČN_Postojna,Omikron,0.0011,Primorsko-notranjska
+2023-10-03,CČN_Slovenj_Gradec,EG.5.1.6,0.06437747,Koroška
+2023-10-03,CČN_Slovenj_Gradec,EG.5.1.3,0.00190476,Koroška
+2023-10-03,CČN_Slovenj_Gradec,XBB.1.9* [Omikron (XBB.1.9.X)],0.26611777,Koroška
+2023-10-03,CČN_Slovenj_Gradec,XBB.1.5* [Omikron (XBB.1.5.X)],0.2814,Koroška
+2023-10-03,CČN_Slovenj_Gradec,XBB.1.16* [Omikron (XBB.1.16.X)],0.2481,Koroška
+2023-10-03,CČN_Slovenj_Gradec,XBB* (XBB.X),0.1064,Koroška
+2023-10-03,CČN_Slovenj_Gradec,Drugo,0.0311,Koroška
+2023-10-03,CČN_Trbovlje,EG.5.1.4,0.05614949,Zasavska
+2023-10-03,CČN_Trbovlje,EG.5,0.006656,Zasavska
+2023-10-03,CČN_Trbovlje,EG.5.1.3,0.0041841,Zasavska
+2023-10-03,CČN_Trbovlje,EG.5.1.2,0.00181159,Zasavska
+2023-10-03,CČN_Trbovlje,XBB.1.9* [Omikron (XBB.1.9.X)],0.36149882,Zasavska
+2023-10-03,CČN_Trbovlje,XBB.1.16* [Omikron (XBB.1.16.X)],0.361,Zasavska
+2023-10-03,CČN_Trbovlje,XBB.2.3* [Omikron (XBB.2.3.X)],0.1872,Zasavska
+2023-10-03,CČN_Trbovlje,XBB.1.5* [Omikron (XBB.1.5.X)],0.0194,Zasavska
+2023-10-03,CČN_Trbovlje,Drugo,0.0011,Zasavska
+2023-10-03,CČN_Zagorje,EG.5.1,0.16699199,Zasavska
+2023-10-03,CČN_Zagorje,EG.5,0.075419,Zasavska
+2023-10-03,CČN_Zagorje,EG.5.1.4,0.03184016,Zasavska
+2023-10-03,CČN_Zagorje,EG.5.1.1,0.00134682,Zasavska
+2023-10-03,CČN_Zagorje,XBB.1.9* [Omikron (XBB.1.9.X)],0.025802029999999976,Zasavska
+2023-10-03,CČN_Zagorje,XBB* (XBB.X),0.2802,Zasavska
+2023-10-03,CČN_Zagorje,XBB.1.16* [Omikron (XBB.1.16.X)],0.2405,Zasavska
+2023-10-03,CČN_Zagorje,XBB.2.3* [Omikron (XBB.2.3.X)],0.1669,Zasavska
+2023-10-03,CČN_Zagorje,XBB.1.5* [Omikron (XBB.1.5.X)],0.0077,Zasavska
+2023-10-03,CČN_Zagorje,Drugo,0.0016,Zasavska
+2023-10-03,OČN_Šaleške doline,EG.5.1.1,0.01867406,Savinjska
+2023-10-03,OČN_Šaleške doline,EG.5.1.3,0.00969443,Savinjska
+2023-10-03,OČN_Šaleške doline,EG.5.1.4,0.00117008,Savinjska
+2023-10-03,OČN_Šaleške doline,XBB* (XBB.X),0.266,Savinjska
+2023-10-03,OČN_Šaleške doline,XBB.1.16* [Omikron (XBB.1.16.X)],0.2591,Savinjska
+2023-10-03,OČN_Šaleške doline,XBB.1.9* [Omikron (XBB.1.9.X)],0.22596143000000002,Savinjska
+2023-10-03,OČN_Šaleške doline,XBB.1.5* [Omikron (XBB.1.5.X)],0.2106,Savinjska
+2023-10-03,OČN_Šaleške doline,Drugo,0.0035,Savinjska
+2023-10-03,OČN_Šaleške doline,XBB.2.3* [Omikron (XBB.2.3.X)],0.0021,Savinjska
+2023-10-03,OČN_Šaleške doline,Omikron,0.0013,Savinjska
+2023-10-03,ČN_Maribor,EG.5.1,0.2551721,Podravska
+2023-10-03,ČN_Maribor,EG.5.1.7,0.0659574,Podravska
+2023-10-03,ČN_Maribor,XBB.1.9* [Omikron (XBB.1.9.X)],0.1989705,Podravska
+2023-10-03,ČN_Maribor,XBB.1.16* [Omikron (XBB.1.16.X)],0.2241,Podravska
+2023-10-03,ČN_Maribor,XBB* (XBB.X),0.1925,Podravska
+2023-10-03,ČN_Maribor,XBB.2.3* [Omikron (XBB.2.3.X)],0.0563,Podravska
+2023-10-03,ČN_Maribor,Drugo,0.0036,Podravska
+2023-10-03,ČN_Maribor,XBB.1.5* [Omikron (XBB.1.5.X)],0.0027,Podravska
