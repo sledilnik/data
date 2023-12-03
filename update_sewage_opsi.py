@@ -93,6 +93,7 @@ def update_sewage_genome(update_time):
     df_opsi['sewage.station'] = df_opsi['sewage.station'].apply(underscore_to_space)
     df_opsi['sewage.region'] = df_opsi['sewage.region'].apply(convert_region)
     df_opsi['sewage.ratio'] = df_opsi['sewage.ratio'].apply(fix_ratio)
+    df_opsi = df_opsi.dropna(subset='sewage.date')
     df_opsi = df_opsi.set_index(['sewage.date', 'sewage.station', 'sewage.genome'], verify_integrity=True)
     df_opsi = df_opsi.sort_values(by=['sewage.date', 'sewage.station', 'sewage.genome'], ascending=True)
 
