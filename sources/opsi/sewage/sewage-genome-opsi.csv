@@ -2911,17 +2911,108 @@
 2023-11-20,ČN_Novo_mesto,XBB.1.16* [Omikron (XBB.1.16.X)],0.0504,Jugovzhodna Slovenija
 2023-11-20,ČN_Novo_mesto,XBB.2.3* [Omikron (XBB.2.3.X)],0.029,Jugovzhodna Slovenija
 2023-11-20,ČN_Novo_mesto,XBB* (XBB.X),0.0217,Jugovzhodna Slovenija
-,NC,EG.5.1.1,0.1394269,
-,NC,EG.5.1.2,0.0407437,
-,NC,EG.5.1,0.0407437,
-,NC,EG.5.1.4,0.0169646,
-,NC,BA.2.86.1,0.00588235,
-,NC,XBB.1.9* [Omikron (XBB.1.9.X)],0.6098,
-,NC,XBB* (XBB.X),0.2608,
-,NC,XBB.2.3* [Omikron (XBB.2.3.X)],0.1072,
-,NC,XBB.1.5* [Omikron (XBB.1.5.X)],0.0112,
-,NC,Omikron,0.0111,
-,NTC,EG.5.1.6,0.21875,
-,NTC,XBB.1.5* [Omikron (XBB.1.5.X)],0.7312,
-,NTC,XBB.1.9* [Omikron (XBB.1.9.X)],0.2571,
-,NTC,XBB.2.3* [Omikron (XBB.2.3.X)],0.0116,
+2023-11-26,CČN_Ljubljana,EG.5.1.3,0.0888467,Osrednjeslovenska
+2023-11-26,CČN_Ljubljana,BA.2.86,0.0840335,Osrednjeslovenska
+2023-11-26,CČN_Ljubljana,EG.5.1,0.0631768,Osrednjeslovenska
+2023-11-26,CČN_Ljubljana,BA.2.86.1,0.0588235,Osrednjeslovenska
+2023-11-26,CČN_Ljubljana,EG.5.1.4,0.0588235,Osrednjeslovenska
+2023-11-26,CČN_Ljubljana,EG.5.1.1,0.002963,Osrednjeslovenska
+2023-11-26,CČN_Ljubljana,XBB.1.9* [Omikron (XBB.1.9.X)],0.29329,Osrednjeslovenska
+2023-11-26,CČN_Ljubljana,Omikron,0.03364299999999998,Osrednjeslovenska
+2023-11-26,CČN_Ljubljana,XBB* (XBB.X),0.1435,Osrednjeslovenska
+2023-11-26,CČN_Ljubljana,XBB.2.3* [Omikron (XBB.2.3.X)],0.0741,Osrednjeslovenska
+2023-11-26,CČN_Ljubljana,XBB.1.16* [Omikron (XBB.1.16.X)],0.0588,Osrednjeslovenska
+2023-11-26,CČN_Ljubljana,XBB.1.5* [Omikron (XBB.1.5.X)],0.04,Osrednjeslovenska
+2023-11-26,ČN_Domžale_Kamnik,EG.5.1,0.1272564,Osrednjeslovenska
+2023-11-26,ČN_Domžale_Kamnik,BA.2.86.1,0.0875,Osrednjeslovenska
+2023-11-26,ČN_Domžale_Kamnik,BA.2.86,0.0375,Osrednjeslovenska
+2023-11-26,ČN_Domžale_Kamnik,EG.5.1.7,0.011236,Osrednjeslovenska
+2023-11-26,ČN_Domžale_Kamnik,XBB.1.16* [Omikron (XBB.1.16.X)],0.4915,Osrednjeslovenska
+2023-11-26,ČN_Domžale_Kamnik,XBB.1.9* [Omikron (XBB.1.9.X)],0.1282076,Osrednjeslovenska
+2023-11-26,ČN_Domžale_Kamnik,Omikron,0.0363,Osrednjeslovenska
+2023-11-26,ČN_Domžale_Kamnik,XBB* (XBB.X),0.036,Osrednjeslovenska
+2023-11-26,ČN_Domžale_Kamnik,XBB.2.3* [Omikron (XBB.2.3.X)],0.026,Osrednjeslovenska
+2023-11-26,ČN_Domžale_Kamnik,XBB.1.5* [Omikron (XBB.1.5.X)],0.0184,Osrednjeslovenska
+2023-11-26,ČN_Kranj,BA.2.86.1,0.157895,Gorenjska
+2023-11-26,ČN_Kranj,EG.5.1.3,0.1052668,Gorenjska
+2023-11-26,ČN_Kranj,EG.5.1.4,0.0180996,Gorenjska
+2023-11-26,ČN_Kranj,XBB.1.9* [Omikron (XBB.1.9.X)],0.3775336,Gorenjska
+2023-11-26,ČN_Kranj,Omikron,5.0000000000050004e-06,Gorenjska
+2023-11-26,ČN_Kranj,XBB.1.5* [Omikron (XBB.1.5.X)],0.1259,Gorenjska
+2023-11-26,ČN_Kranj,XBB.1.16* [Omikron (XBB.1.16.X)],0.0822,Gorenjska
+2023-11-26,ČN_Kranj,XBB.2.3* [Omikron (XBB.2.3.X)],0.0714,Gorenjska
+2023-11-26,ČN_Kranj,XBB* (XBB.X),0.0617,Gorenjska
+2023-11-26,ČN_Maribor,EG.5.1.3,0.125,Podravska
+2023-11-26,ČN_Maribor,EG.5.1.4,0.0952381,Podravska
+2023-11-26,ČN_Maribor,BA.2.86.1,0.0769231,Podravska
+2023-11-26,ČN_Maribor,BA.2.86,0.0659339,Podravska
+2023-11-26,ČN_Maribor,EG.5,0.01854,Podravska
+2023-11-26,ČN_Maribor,EG.5.1.7,0.011236,Podravska
+2023-11-26,ČN_Maribor,EG.5.1,0.0090019,Podravska
+2023-11-26,ČN_Maribor,XBB.1.9* [Omikron (XBB.1.9.X)],0.273084,Podravska
+2023-11-26,ČN_Maribor,XBB.1.5* [Omikron (XBB.1.5.X)],0.1842,Podravska
+2023-11-26,ČN_Maribor,Omikron,0.015043,Podravska
+2023-11-26,ČN_Maribor,XBB.2.3* [Omikron (XBB.2.3.X)],0.0921,Podravska
+2023-11-26,ČN_Maribor,XBB.1.16* [Omikron (XBB.1.16.X)],0.0336,Podravska
+2023-11-26,ČN_Nova_Gorica,EG.5.1,0.086433,Goriška
+2023-11-26,ČN_Nova_Gorica,BA.2.86.1,0.0526316,Goriška
+2023-11-26,ČN_Nova_Gorica,BA.2.86,0.0343249,Goriška
+2023-11-26,ČN_Nova_Gorica,EG.5.1.3,0.027027,Goriška
+2023-11-26,ČN_Nova_Gorica,XBB.1.9* [Omikron (XBB.1.9.X)],0.27114,Goriška
+2023-11-26,ČN_Nova_Gorica,XBB.1.5* [Omikron (XBB.1.5.X)],0.1611,Goriška
+2023-11-26,ČN_Nova_Gorica,XBB.1.16* [Omikron (XBB.1.16.X)],0.1585,Goriška
+2023-11-26,ČN_Nova_Gorica,Omikron,0.04634350000000001,Goriška
+2023-11-26,ČN_Nova_Gorica,XBB* (XBB.X),0.1279,Goriška
+2023-11-26,ČN_Nova_Gorica,XBB.2.3* [Omikron (XBB.2.3.X)],0.0345,Goriška
+2023-11-27,CČN_Litija_in_Šmartno_pri_Litiji,BA.2.86.1,0.542857,Zasavska
+2023-11-27,CČN_Litija_in_Šmartno_pri_Litiji,EG.5.1.3,0.0985915,Zasavska
+2023-11-27,CČN_Litija_in_Šmartno_pri_Litiji,BA.2.86,0.0637,Zasavska
+2023-11-27,CČN_Litija_in_Šmartno_pri_Litiji,EG.5.1,0.0386849,Zasavska
+2023-11-27,CČN_Litija_in_Šmartno_pri_Litiji,Omikron,0.021043000000000034,Zasavska
+2023-11-27,CČN_Litija_in_Šmartno_pri_Litiji,XBB.1.9* [Omikron (XBB.1.9.X)],0.04102359999999999,Zasavska
+2023-11-27,CČN_Litija_in_Šmartno_pri_Litiji,XBB.2.3* [Omikron (XBB.2.3.X)],0.125,Zasavska
+2023-11-27,CČN_Litija_in_Šmartno_pri_Litiji,XBB* (XBB.X),0.0506,Zasavska
+2023-11-27,CČN_Litija_in_Šmartno_pri_Litiji,XBB.1.16* [Omikron (XBB.1.16.X)],0.0185,Zasavska
+2023-11-27,CČN_Slovenj_Gradec,BA.2.86.1,0.285714,Koroška
+2023-11-27,CČN_Slovenj_Gradec,Omikron,0.08268599999999998,Koroška
+2023-11-27,CČN_Slovenj_Gradec,XBB.2.3* [Omikron (XBB.2.3.X)],0.2403,Koroška
+2023-11-27,CČN_Slovenj_Gradec,XBB.1.9* [Omikron (XBB.1.9.X)],0.2198,Koroška
+2023-11-27,CČN_Slovenj_Gradec,XBB.1.16* [Omikron (XBB.1.16.X)],0.087,Koroška
+2023-11-27,CČN_Slovenj_Gradec,XBB.1.5* [Omikron (XBB.1.5.X)],0.08,Koroška
+2023-11-27,CČN_Slovenj_Gradec,XBB* (XBB.X),0.0045,Koroška
+2023-11-27,CČN_Trbovlje,BA.2.86.1,0.1,Zasavska
+2023-11-27,CČN_Trbovlje,EG.5.1,0.0737192,Zasavska
+2023-11-27,CČN_Trbovlje,EG.5.1.2,0.0666667,Zasavska
+2023-11-27,CČN_Trbovlje,EG.5.1.3,0.0606061,Zasavska
+2023-11-27,CČN_Trbovlje,EG.5.1.1,0.0555556,Zasavska
+2023-11-27,CČN_Trbovlje,EG.5.1.4,0.0271064,Zasavska
+2023-11-27,CČN_Trbovlje,XBB.1.9* [Omikron (XBB.1.9.X)],0.33174599999999993,Zasavska
+2023-11-27,CČN_Trbovlje,XBB.1.5* [Omikron (XBB.1.5.X)],0.125,Zasavska
+2023-11-27,CČN_Trbovlje,Omikron,0.0016999999999999932,Zasavska
+2023-11-27,CČN_Trbovlje,XBB* (XBB.X),0.0654,Zasavska
+2023-11-27,CČN_Trbovlje,XBB.2.3* [Omikron (XBB.2.3.X)],0.0519,Zasavska
+2023-11-27,CČN_Trbovlje,XBB.1.16* [Omikron (XBB.1.16.X)],0.0405,Zasavska
+2023-11-27,CČN_Zagorje,BA.2.86,0.16666699,Zasavska
+2023-11-27,CČN_Zagorje,EG.5.1,0.150878,Zasavska
+2023-11-27,CČN_Zagorje,EG.5.1.1,0.149122,Zasavska
+2023-11-27,CČN_Zagorje,XBB.1.9* [Omikron (XBB.1.9.X)],0.44999999999999996,Zasavska
+2023-11-27,CČN_Zagorje,Omikron,0.05303301000000002,Zasavska
+2023-11-27,CČN_Zagorje,XBB.1.16* [Omikron (XBB.1.16.X)],0.0303,Zasavska
+2023-11-27,OČN_Šaleške doline,EG.5.1.1,0.25714294,Savinjska
+2023-11-27,OČN_Šaleške doline,BA.2.86,0.13398669,Savinjska
+2023-11-27,OČN_Šaleške doline,EG.5.1,0.13329956,Savinjska
+2023-11-27,OČN_Šaleške doline,BA.2.86.1,0.08823531,Savinjska
+2023-11-27,OČN_Šaleške doline,EG.5.1.3,0.04545448,Savinjska
+2023-11-27,OČN_Šaleške doline,XBB.1.9* [Omikron (XBB.1.9.X)],0.05000302000000001,Savinjska
+2023-11-27,OČN_Šaleške doline,Omikron,0.019978000000000024,Savinjska
+2023-11-27,OČN_Šaleške doline,XBB* (XBB.X),0.1451,Savinjska
+2023-11-27,OČN_Šaleške doline,XBB.1.16* [Omikron (XBB.1.16.X)],0.0833,Savinjska
+2023-11-27,OČN_Šaleške doline,XBB.2.3* [Omikron (XBB.2.3.X)],0.0435,Savinjska
+2023-11-27,ČN_Novo_mesto,BA.2.86.1,0.197531,Jugovzhodna Slovenija
+2023-11-27,ČN_Novo_mesto,EG.5.1.4,0.013492,Jugovzhodna Slovenija
+2023-11-27,ČN_Novo_mesto,XBB.1.16* [Omikron (XBB.1.16.X)],0.2735,Jugovzhodna Slovenija
+2023-11-27,ČN_Novo_mesto,Omikron,0.035969,Jugovzhodna Slovenija
+2023-11-27,ČN_Novo_mesto,XBB.2.3* [Omikron (XBB.2.3.X)],0.1703,Jugovzhodna Slovenija
+2023-11-27,ČN_Novo_mesto,XBB.1.9* [Omikron (XBB.1.9.X)],0.150408,Jugovzhodna Slovenija
+2023-11-27,ČN_Novo_mesto,XBB.1.5* [Omikron (XBB.1.5.X)],0.1538,Jugovzhodna Slovenija
+2023-11-27,ČN_Novo_mesto,XBB* (XBB.X),0.0049,Jugovzhodna Slovenija
