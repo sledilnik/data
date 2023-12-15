@@ -156,6 +156,21 @@ def computeCasesWithCount(update_time, last_day_confirmed):
 
         df_cases.at[date, 'cases.closed.todate'] = df_cases.at[date, 'cases.confirmed.todate'] - df_cases.at[date, 'cases.active']
 
+    # Update cases from cases-opsi to fill gaps done with dashboard
+    df_opsi = pd.read_csv("csv/cases-opsi.csv")
+    df_opsi.rename(columns={'datum_izvida': 'date'}, inplace=True)
+    print(df_opsi)
+    
+    df_updated = df_cases.merge(df_opsi[['date', 'stevilo_potrjenih_skupaj']], on='date', how='left')
+    df_updated['cases.confirmed'] = df_updated['stevilo_potrjenih_skupaj'].combine_first(df_updated['cases.confirmed'])
+    df_updated['cases.confirmed.todate'] = df_updated['cases.confirmed'].cumsum()
+    df_updated.drop(columns=['stevilo_potrjenih_skupaj'], inplace=True)
+    df_cases = df_updated
+    df_cases.set_index('date', inplace=True)
+    df_cases.index.rename('date', inplace=True)  # name it explicitly otherwise it doesn't show up in csv
+
+    print(df_cases)
+
 
     # HOS (10:30): cases.recovered.todate
     df_patients = pd.read_csv('csv/patients.csv', index_col='date')
