@@ -59,32 +59,38 @@ def import_nijz_dash_labtests():
 
     return cepimose.lab_cases_confirmed()  # PCR+HAT positive is confirmed cases
 
+
+
 def import_opsi_labtests():
     # https://podatki.gov.si/dataset/dnevno-spremljanje-okuzb-covid-19
     saveurl("https://podatki.gov.si/dataset/56a1a649-5201-46d2-b503-03c6b36a6ee7/resource/9f297da4-1a93-4f62-8c14-cfff5c5d7377/download/vwlusyokuzeni.csv", "csv/cases-opsi.csv", "text/csv")
 
-    filename = 'csv/cases.csv'
-    print("Processing", filename)
-
-    df_cases = pd.read_csv(filename, index_col='date')
-    df_cases_old_hash = sha1sum(filename)
-
     # Update cases from cases-opsi to fill gaps done with dashboard
     df_opsi = pd.read_csv("csv/cases-opsi.csv")
     df_opsi.rename(columns={'datum_izvida': 'date'}, inplace=True)
-    print(df_opsi)
     
+    filename = 'csv/cases.csv'
+    print("Processing", filename)
+    df_cases = pd.read_csv(filename, index_col='date')
+    df_cases_old_hash = sha1sum(filename)
+
     df_updated = df_cases.merge(df_opsi[['date', 'stevilo_potrjenih_skupaj']], on='date', how='left')
     df_updated['cases.confirmed'] = df_updated['stevilo_potrjenih_skupaj'].combine_first(df_updated['cases.confirmed'])
     df_updated['cases.confirmed.todate'] = df_updated['cases.confirmed'].cumsum()
     df_updated.drop(columns=['stevilo_potrjenih_skupaj'], inplace=True)
-    df_cases = df_updated
-    df_cases.set_index('date', inplace=True)
-    df_cases.index.rename('date', inplace=True)  # name it explicitly otherwise it doesn't show up in csv
-    print(df_cases)
-    df_cases.replace({0: None}).astype('Int64').to_csv(filename, lineterminator='\r\n')
+    df_updated.set_index('date', inplace=True)
+    df_updated.replace({0: None}).astype('Int64').to_csv(filename, lineterminator='\r\n')
 
     write_timestamp_file(filename=filename, old_hash=df_cases_old_hash)
+
+
+    filename = 'csv/lab-tests.csv'
+    print("Processing", filename)
+    df_tests = pd.read_csv(filename, index_col='date')
+    df_tests_old_hash = sha1sum(filename)
+
+    df_tests.to_csv(filename, date_format='%Y-%m-%d',lineterminator='\r\n')
+    write_timestamp_file(filename, df_tests_old_hash)
 
 
 if __name__ == "__main__":
