@@ -55,7 +55,7 @@ def import_nijz_dash_labtests():
 
     old_hash = sha1sum(filenameByDay)
     df_updated.to_csv(filenameByDay, date_format='%Y-%m-%d',lineterminator='\r\n')
-    write_timestamp_file(filenameByDay, old_hash)
+    write_timestamp_file(filename=filenameByDay, old_hash=old_hash)
 
     return cepimose.lab_cases_confirmed()  # PCR+HAT positive is confirmed cases
 
@@ -92,7 +92,7 @@ def import_opsi_labtests():
     df_updated.drop(columns=['stevilo_potrjenih_skupaj', 'stevilo_potrjenih_pcr', 'stevilo_potrjenih_hagt', 'stevilo_testiranj_skupaj', 'stevilo_testiranj_pcr', 'stevilo_testiranj_hagt'], inplace=True)
     df_updated.set_index('date', inplace=True)
     df_updated.replace({0: None}).astype('Int64').to_csv(filename, date_format='%Y-%m-%d',lineterminator='\r\n')
-    write_timestamp_file(filename, df_tests_old_hash)
+    write_timestamp_file(filename=filename, old_hash=df_tests_old_hash)
 
     filename = 'csv/cases.csv'
     print("Processing", filename)
