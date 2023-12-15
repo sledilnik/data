@@ -42,6 +42,15 @@ def computeStats(update_time):
         .sub(merged['cases.rh.employee.confirmed.todate'], fill_value=0) \
         .sub(merged['cases.rh.occupant.confirmed.todate'], fill_value=0)
 
+    dfOpsi = pd.read_csv('csv/cases-opsi.csv', parse_dates=['datum_izvida'])
+    dfOpsi.rename(columns={'datum_izvida': 'date'}, inplace=True)
+    dfOpsi.drop(dfOpsi.loc[dfOpsi['date'] < '2020-03-14'].index, inplace=True)
+    dfOpsi.set_index('date', inplace=True)
+
+    merged = merged.join(dfOpsi[['stevilo_umrlih']])
+    merged['deceased.todate'] = merged['stevilo_umrlih'].cumsum()
+    merged.drop(columns=['stevilo_umrlih'], inplace=True)
+
     merged.insert(loc=0, column='day', value=range(-8, -8 + len(merged)))
     merged.reset_index(inplace=True)
     merged.set_index('day', inplace=True)
