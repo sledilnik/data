@@ -68,7 +68,32 @@ def import_opsi_labtests():
     # Update cases from cases-opsi to fill gaps done with dashboard
     df_opsi = pd.read_csv("csv/cases-opsi.csv")
     df_opsi.rename(columns={'datum_izvida': 'date'}, inplace=True)
+    # drop tests before first positive cases: NIJZ counted all on that day, we have better data from IMI
+    df_opsi.drop(df_opsi.loc[df_opsi['date'] <= '2020-03-04'].index, inplace=True)
     
+    filename = 'csv/lab-tests.csv'
+    print("Processing", filename)
+    df_tests = pd.read_csv(filename, index_col='date')
+    df_tests_old_hash = sha1sum(filename)
+
+    df_updated = df_tests.merge(df_opsi[['date', 'stevilo_potrjenih_skupaj', 'stevilo_potrjenih_pcr', 'stevilo_potrjenih_hagt', 'stevilo_testiranj_skupaj', 'stevilo_testiranj_pcr', 'stevilo_testiranj_hagt']], on='date', how='left')
+    df_updated['tests.performed'] = df_updated['stevilo_testiranj_skupaj'].combine_first(df_updated['tests.performed'])
+    df_updated['tests.performed.todate'] = df_updated['tests.performed'].cumsum()
+    df_updated['tests.positive'] = df_updated['stevilo_potrjenih_skupaj'].combine_first(df_updated['tests.positive'])
+    df_updated['tests.positive.todate'] = df_updated['tests.positive'].cumsum()
+    df_updated['tests.regular.performed'] = df_updated['stevilo_testiranj_pcr'].combine_first(df_updated['tests.regular.performed'])
+    df_updated['tests.regular.performed.todate'] = df_updated['tests.regular.performed'].cumsum()
+    df_updated['tests.regular.positive'] = df_updated['stevilo_potrjenih_pcr'].combine_first(df_updated['tests.regular.positive'])
+    df_updated['tests.regular.positive.todate'] = df_updated['tests.regular.positive'].cumsum()
+    df_updated['tests.hagt.performed'] = df_updated['stevilo_testiranj_hagt'].combine_first(df_updated['tests.hagt.performed'])
+    df_updated['tests.hagt.performed.todate'] = df_updated['tests.hagt.performed'].cumsum()
+    df_updated['tests.hagt.positive'] = df_updated['stevilo_potrjenih_hagt'].combine_first(df_updated['tests.hagt.positive'])
+    df_updated['tests.hagt.positive.todate'] = df_updated['tests.hagt.positive'].cumsum()
+    df_updated.drop(columns=['stevilo_potrjenih_skupaj', 'stevilo_potrjenih_pcr', 'stevilo_potrjenih_hagt', 'stevilo_testiranj_skupaj', 'stevilo_testiranj_pcr', 'stevilo_testiranj_hagt'], inplace=True)
+    df_updated.set_index('date', inplace=True)
+    df_updated.replace({0: None}).astype('Int64').to_csv(filename, date_format='%Y-%m-%d',lineterminator='\r\n')
+    write_timestamp_file(filename, df_tests_old_hash)
+
     filename = 'csv/cases.csv'
     print("Processing", filename)
     df_cases = pd.read_csv(filename, index_col='date')
@@ -83,14 +108,6 @@ def import_opsi_labtests():
 
     write_timestamp_file(filename=filename, old_hash=df_cases_old_hash)
 
-
-    filename = 'csv/lab-tests.csv'
-    print("Processing", filename)
-    df_tests = pd.read_csv(filename, index_col='date')
-    df_tests_old_hash = sha1sum(filename)
-
-    df_tests.to_csv(filename, date_format='%Y-%m-%d',lineterminator='\r\n')
-    write_timestamp_file(filename, df_tests_old_hash)
 
 
 if __name__ == "__main__":
