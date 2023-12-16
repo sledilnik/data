@@ -24,7 +24,7 @@ def import_nijz_dash_labtests():
     # PCR+HAT day_data['tests.regular.positive'] = cepimose.lab_cases_confirmed()
     day_data['tests.hagt.performed'] = cepimose.lab_HAT_tests_performed()
 
-    day_data['tests.performed'] = cepimose.lab_PCR_tests_performed() + cepimose.lab_HAT_tests_performed()
+    day_data['tests.performed'] = cepimose.lab_PCR_tests_performed()
     # PCR+HAT day_data['tests.positive'] = day_data['tests.regular.positive']
 
     df_day_data = pd.DataFrame([day_data], index=[d])
@@ -76,10 +76,10 @@ def import_opsi_labtests():
     df_tests = pd.read_csv(filename, index_col='date')
     df_tests_old_hash = sha1sum(filename)
 
-    df_updated = df_tests.merge(df_opsi[['date', 'stevilo_potrjenih_skupaj', 'stevilo_potrjenih_pcr', 'stevilo_potrjenih_hagt', 'stevilo_testiranj_skupaj', 'stevilo_testiranj_pcr', 'stevilo_testiranj_hagt']], on='date', how='left')
-    df_updated['tests.performed'] = df_updated['stevilo_testiranj_skupaj'].combine_first(df_updated['tests.performed'])
+    df_updated = df_tests.merge(df_opsi[['date', 'stevilo_potrjenih_pcr', 'stevilo_potrjenih_hagt', 'stevilo_testiranj_pcr', 'stevilo_testiranj_hagt']], on='date', how='left')
+    df_updated['tests.performed'] = df_updated['stevilo_testiranj_pcr'].combine_first(df_updated['tests.performed'])
     df_updated['tests.performed.todate'] = df_updated['tests.performed'].cumsum()
-    df_updated['tests.positive'] = df_updated['stevilo_potrjenih_skupaj'].combine_first(df_updated['tests.positive'])
+    df_updated['tests.positive'] = df_updated['stevilo_potrjenih_pcr'].combine_first(df_updated['tests.positive'])
     df_updated['tests.positive.todate'] = df_updated['tests.positive'].cumsum()
     df_updated['tests.regular.performed'] = df_updated['stevilo_testiranj_pcr'].combine_first(df_updated['tests.regular.performed'])
     df_updated['tests.regular.performed.todate'] = df_updated['tests.regular.performed'].cumsum()
@@ -89,7 +89,7 @@ def import_opsi_labtests():
     df_updated['tests.hagt.performed.todate'] = df_updated['tests.hagt.performed'].cumsum()
     df_updated['tests.hagt.positive'] = df_updated['stevilo_potrjenih_hagt'].combine_first(df_updated['tests.hagt.positive'])
     df_updated['tests.hagt.positive.todate'] = df_updated['tests.hagt.positive'].cumsum()
-    df_updated.drop(columns=['stevilo_potrjenih_skupaj', 'stevilo_potrjenih_pcr', 'stevilo_potrjenih_hagt', 'stevilo_testiranj_skupaj', 'stevilo_testiranj_pcr', 'stevilo_testiranj_hagt'], inplace=True)
+    df_updated.drop(columns=['stevilo_potrjenih_pcr', 'stevilo_potrjenih_hagt', 'stevilo_testiranj_pcr', 'stevilo_testiranj_hagt'], inplace=True)
     df_updated.set_index('date', inplace=True)
     df_updated.replace({0: None}).astype('Int64').to_csv(filename, date_format='%Y-%m-%d',lineterminator='\r\n')
     write_timestamp_file(filename=filename, old_hash=df_tests_old_hash)
