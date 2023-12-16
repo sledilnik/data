@@ -24,7 +24,7 @@ def import_nijz_dash_labtests():
     # PCR+HAT day_data['tests.regular.positive'] = cepimose.lab_cases_confirmed()
     day_data['tests.hagt.performed'] = cepimose.lab_HAT_tests_performed()
 
-    day_data['tests.performed'] = day_data['tests.regular.performed']
+    day_data['tests.performed'] = cepimose.lab_PCR_tests_performed() + cepimose.lab_HAT_tests_performed()
     # PCR+HAT day_data['tests.positive'] = day_data['tests.regular.positive']
 
     df_day_data = pd.DataFrame([day_data], index=[d])
