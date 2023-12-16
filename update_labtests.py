@@ -49,9 +49,9 @@ def import_nijz_dash_labtests():
 
     yesterday = date.today() - timedelta(days=1)
     if d.date() < yesterday:
-        print(f"ABORTING update with too old date {d.date()} ({d}). Now is {datetime.now()}")
+        print(f"SKIP dashboard update: too old date {d.date()} ({d}). Now is {datetime.now()}")
         print(f"Cases {cepimose.lab_cases_confirmed()}, PCR: {cepimose.lab_PCR_tests_performed()} HAT: {cepimose.lab_HAT_tests_performed()}")
-        exit(1)
+        return None
 
     old_hash = sha1sum(filenameByDay)
     df_updated.to_csv(filenameByDay, date_format='%Y-%m-%d',lineterminator='\r\n')
@@ -114,10 +114,11 @@ def import_opsi_labtests():
 if __name__ == "__main__":
     update_time = int(time.time())
 
-
     last_day_cases = import_nijz_dash_labtests()
 
     import_opsi_labtests()
 
-    computeCasesWithCount(update_time, last_day_cases)
+    if last_day_cases: 
+        computeCasesWithCount(update_time, last_day_cases)
+
     computeStats(update_time)
