@@ -71,7 +71,8 @@ def update_episari_weekly(update_time):
         'episari.covid.deceased.age.55-64',
         'episari.covid.deceased.age.65-74',
         'episari.covid.deceased.age.75-84',
-        'episari.covid.deceased.age.85+' ]
+        'episari.covid.deceased.age.85+',
+        'episari.hospitals']
     df_opsi['episari.week'] = df_opsi['episari.week'].str.replace('_','-')
     df_opsi[['year', 'month']] = df_opsi['episari.week'].str.split(pat='-', n=1, expand=True)
     df_opsi['episari.date.from'] = df_opsi.apply(lambda row: date.fromisocalendar(int(row['year']), int(row['month']), 1).isoformat(), axis='columns') 
