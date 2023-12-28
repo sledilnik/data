@@ -86,9 +86,9 @@ def update_sewage_genome(update_time):
     df_opsi.columns = [
         'sewage.date',
         'sewage.station',
-        'sewage.region',
         'sewage.genome',
-        'sewage.ratio']
+        'sewage.ratio',
+        'sewage.region']
     df_opsi = df_opsi[['sewage.date', 'sewage.station', 'sewage.genome', 'sewage.ratio', 'sewage.region']] # reorder columns for readable diffs
     df_opsi['sewage.station'] = df_opsi['sewage.station'].apply(underscore_to_space)
     df_opsi['sewage.region'] = df_opsi['sewage.region'].apply(convert_region)
