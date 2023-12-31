@@ -49,22 +49,21 @@ def update_sewage_cases(update_time):
     print("Processing", sewage_cases_csv)
     df_old_hash = sha1sum(sewage_cases_csv)
 
-    df_opsi = pd.read_csv(opsi_sewage_csv, sep=',', decimal='.')
-    df_opsi.columns = [
-        'sewage.date',
-        'sewage.station',
-        'sewage.flow',
-        'sewage.n3-raw',
-        'sewage.cod',
-        'sewage.n3-norm',
-        'sewage.cases.estimated',
-        'sewage.cases.active100k',
-        'sewage.protocol',
-        'sewage.lat',
-        'sewage.lon',
-        'sewage.region',
-        'sewage.population',
-        'sewage.coverage-ratio']
+    df_opsi = pd.read_csv(opsi_sewage_csv, sep=',', decimal='.').rename(columns={
+        'datum': 'sewage.date',
+        'WWTP': 'sewage.station',
+        'flow': 'sewage.flow',
+        'conc_SARS_N3_raw': 'sewage.n3-raw',
+        'COD': 'sewage.cod',
+        'norm_vl_SARS_N3': 'sewage.n3-norm',
+        'estimated': 'sewage.cases.estimated',
+        'aktivni_100.000': 'sewage.cases.active100k',
+        'ime_protokol': 'sewage.protocol',
+        'lat': 'sewage.lat',
+        'lng': 'sewage.lon',
+        'Statistična_regija': 'sewage.region',
+        'preb_2022H2': 'sewage.population',
+        'Delež.preb..priključen.na.ČN': 'sewage.coverage-ratio'})
     df_opsi.drop(columns=['sewage.protocol'], inplace=True) # Drop new, unknown column for nicer diffs until we know what it means and how to use it
     df_opsi['sewage.station'] = df_opsi['sewage.station'].apply(underscore_to_space)
     df_opsi['sewage.region'] = df_opsi['sewage.region'].apply(convert_region)
@@ -82,13 +81,12 @@ def update_sewage_genome(update_time):
     print("Processing", sewage_genome_csv)
     df_old_hash = sha1sum(sewage_genome_csv)
 
-    df_opsi = pd.read_csv(opsi_genome_csv, sep=',', decimal='.')
-    df_opsi.columns = [
-        'sewage.date',
-        'sewage.station',
-        'sewage.genome',
-        'sewage.ratio',
-        'sewage.region']
+    df_opsi = pd.read_csv(opsi_genome_csv, sep=',', decimal='.').rename(columns={
+        'datum': 'sewage.date',
+        'WWTP': 'sewage.station',
+        'Različica.virusa': 'sewage.genome',
+        'Delež.različice': 'sewage.ratio',
+        'Statistična_regija': 'sewage.region'})
     df_opsi = df_opsi[['sewage.date', 'sewage.station', 'sewage.genome', 'sewage.ratio', 'sewage.region']] # reorder columns for readable diffs
     df_opsi['sewage.station'] = df_opsi['sewage.station'].apply(underscore_to_space)
     df_opsi['sewage.region'] = df_opsi['sewage.region'].apply(convert_region)
