@@ -3033,3 +3033,102 @@ sewage.date,sewage.station,sewage.genome,sewage.ratio,sewage.region
 2024-01-03,ČN Novo mesto,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.0029,nm
 2024-01-03,ČN Novo mesto,XBB.1.9.2* [Omikron (XBB.1.9.2.X)],0.0794,nm
 2024-01-03,ČN Novo mesto,XBB.2.3* (XBB.2.3X),0.0942,nm
+2024-01-07,CČN Ljubljana,BA.2.86* (BA.2.86X),0.6914,lj
+2024-01-07,CČN Ljubljana,Drugo,0.0026,lj
+2024-01-07,CČN Ljubljana,Omikron,0.0016,lj
+2024-01-07,CČN Ljubljana,XBB* (XBB.X),0.0777,lj
+2024-01-07,CČN Ljubljana,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.0277,lj
+2024-01-07,CČN Ljubljana,XBB.1.9.2* [Omikron (XBB.1.9.2.X)],0.1186,lj
+2024-01-07,CČN Ljubljana,XBB.2.3* (XBB.2.3X),0.0803,lj
+2024-01-07,CČN Murska Sobota,BA.2.86* (BA.2.86X),0.4545,ms
+2024-01-07,CČN Murska Sobota,Drugo,0.1579,ms
+2024-01-07,CČN Murska Sobota,Omikron,0.0401,ms
+2024-01-07,CČN Murska Sobota,XBB* (XBB.X),0.184,ms
+2024-01-07,CČN Murska Sobota,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.1481,ms
+2024-01-07,CČN Murska Sobota,XBB.1.9.2* [Omikron (XBB.1.9.2.X)],0.0049,ms
+2024-01-07,CČN Murska Sobota,XBB.2.3* (XBB.2.3X),0.0105,ms
+2024-01-07,ČN Domžale Kamnik,BA.2.86* (BA.2.86X),0.7516,lj
+2024-01-07,ČN Domžale Kamnik,Drugo,0.0046,lj
+2024-01-07,ČN Domžale Kamnik,EG.5* [Omikron (EG.5.X)],0.1338,lj
+2024-01-07,ČN Domžale Kamnik,XBB* (XBB.X),0.0695,lj
+2024-01-07,ČN Domžale Kamnik,XBB.1.5* [Omikron (XBB.1.5.X)],0.0224,lj
+2024-01-07,ČN Domžale Kamnik,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.0173,lj
+2024-01-07,ČN Kranj,BA.2.86* (BA.2.86X),0.6891,kr
+2024-01-07,ČN Kranj,Drugo,0.167,kr
+2024-01-07,ČN Kranj,EG.5* [Omikron (EG.5.X)],0.0234,kr
+2024-01-07,ČN Kranj,Omikron,0.0265,kr
+2024-01-07,ČN Kranj,XBB* (XBB.X),0.0263,kr
+2024-01-07,ČN Kranj,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.0138,kr
+2024-01-07,ČN Kranj,XBB.1.9.2* [Omikron (XBB.1.9.2.X)],0.0538,kr
+2024-01-07,ČN Maribor,BA.2.86* (BA.2.86X),0.6652,mb
+2024-01-07,ČN Maribor,Drugo,0.0085,mb
+2024-01-07,ČN Maribor,EG.5* [Omikron (EG.5.X)],0.2657,mb
+2024-01-07,ČN Maribor,Omikron,0.0049,mb
+2024-01-07,ČN Maribor,XBB* (XBB.X),0.0424,mb
+2024-01-07,ČN Maribor,XBB.1.16* [Omikron (XBB.1.16.X)],0.0018,mb
+2024-01-07,ČN Maribor,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.0115,mb
+2024-01-08,CČN Brežice,BA.2.86* (BA.2.86X),0.2663,kk
+2024-01-08,CČN Brežice,Drugo,0.0194,kk
+2024-01-08,CČN Brežice,EG.5* [Omikron (EG.5.X)],0.3289,kk
+2024-01-08,CČN Brežice,XBB* (XBB.X),0.1229,kk
+2024-01-08,CČN Brežice,XBB.1.5* [Omikron (XBB.1.5.X)],0.0403,kk
+2024-01-08,CČN Brežice,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.215,kk
+2024-01-08,CČN Brežice,XBB.2.3* (XBB.2.3X),0.0065,kk
+2024-01-08,CČN Litija in Šmartno pri Litiji,BA.2.86* (BA.2.86X),0.8308,za
+2024-01-08,CČN Litija in Šmartno pri Litiji,Drugo,0.0036,za
+2024-01-08,CČN Litija in Šmartno pri Litiji,EG.5* [Omikron (EG.5.X)],0.0484,za
+2024-01-08,CČN Litija in Šmartno pri Litiji,Omikron,0.0037,za
+2024-01-08,CČN Litija in Šmartno pri Litiji,XBB* (XBB.X),0.096,za
+2024-01-08,CČN Litija in Šmartno pri Litiji,XBB.2.3* (XBB.2.3X),0.0175,za
+2024-01-08,CČN Postojna,BA.2.86* (BA.2.86X),0.4063,po
+2024-01-08,CČN Postojna,EG.5* [Omikron (EG.5.X)],0.275,po
+2024-01-08,CČN Postojna,XBB* (XBB.X),0.0124,po
+2024-01-08,CČN Postojna,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.3063,po
+2024-01-08,CČN Slovenj Gradec,BA.2.86* (BA.2.86X),0.3396,sg
+2024-01-08,CČN Slovenj Gradec,EG.5* [Omikron (EG.5.X)],0.2593,sg
+2024-01-08,CČN Slovenj Gradec,Omikron,0.0108,sg
+2024-01-08,CČN Slovenj Gradec,XBB* (XBB.X),0.059,sg
+2024-01-08,CČN Slovenj Gradec,XBB.1.5* [Omikron (XBB.1.5.X)],0.2,sg
+2024-01-08,CČN Slovenj Gradec,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.1314,sg
+2024-01-08,CČN Trbovlje,BA.2.86* (BA.2.86X),0.226,za
+2024-01-08,CČN Trbovlje,Drugo,0.011,za
+2024-01-08,CČN Trbovlje,EG.5* [Omikron (EG.5.X)],0.4551,za
+2024-01-08,CČN Trbovlje,Omikron,0.0131,za
+2024-01-08,CČN Trbovlje,XBB* (XBB.X),0.1874,za
+2024-01-08,CČN Trbovlje,XBB.1.16* [Omikron (XBB.1.16.X)],0.0691,za
+2024-01-08,CČN Trbovlje,XBB.1.5* [Omikron (XBB.1.5.X)],0.0078,za
+2024-01-08,CČN Trbovlje,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.0115,za
+2024-01-08,CČN Trbovlje,XBB.2.3* (XBB.2.3X),0.019,za
+2024-01-08,CČN Zagorje,BA.2.86* (BA.2.86X),0.8788,za
+2024-01-08,CČN Zagorje,Drugo,0.0052,za
+2024-01-08,CČN Zagorje,EG.5* [Omikron (EG.5.X)],0.0893,za
+2024-01-08,CČN Zagorje,Omikron,0.0014,za
+2024-01-08,CČN Zagorje,XBB.1.16* [Omikron (XBB.1.16.X)],0.0012,za
+2024-01-08,CČN Zagorje,XBB.1.5* [Omikron (XBB.1.5.X)],0.004,za
+2024-01-08,CČN Zagorje,XBB.2.3* (XBB.2.3X),0.0162,za
+2024-01-08,OČN Šaleške doline,BA.2.86* (BA.2.86X),0.4687,ce
+2024-01-08,OČN Šaleške doline,EG.5* [Omikron (EG.5.X)],0.2545,ce
+2024-01-08,OČN Šaleške doline,XBB* (XBB.X),0.2767,ce
+2024-01-08,ČN Celje,BA.2.86* (BA.2.86X),0.5567,ce
+2024-01-08,ČN Celje,EG.5* [Omikron (EG.5.X)],0.1625,ce
+2024-01-08,ČN Celje,Omikron,0.08,ce
+2024-01-08,ČN Celje,XBB* (XBB.X),0.1146,ce
+2024-01-08,ČN Celje,XBB.1.5* [Omikron (XBB.1.5.X)],0.0862,ce
+2024-01-08,ČN Koper,BA.2.86* (BA.2.86X),0.8731,kp
+2024-01-08,ČN Koper,Drugo,0.0056,kp
+2024-01-08,ČN Koper,EG.5* [Omikron (EG.5.X)],0.0588,kp
+2024-01-08,ČN Koper,Omikron,0.0276,kp
+2024-01-08,ČN Koper,XBB* (XBB.X),0.0022,kp
+2024-01-08,ČN Koper,XBB.1.5* [Omikron (XBB.1.5.X)],0.0015,kp
+2024-01-08,ČN Koper,XBB.2.3* (XBB.2.3X),0.0311,kp
+2024-01-08,ČN Nova Gorica,BA.2.86* (BA.2.86X),0.7585,ng
+2024-01-08,ČN Nova Gorica,Drugo,0.0055,ng
+2024-01-08,ČN Nova Gorica,EG.5* [Omikron (EG.5.X)],0.1084,ng
+2024-01-08,ČN Nova Gorica,XBB* (XBB.X),0.0646,ng
+2024-01-08,ČN Nova Gorica,XBB.1.16* [Omikron (XBB.1.16.X)],0.0292,ng
+2024-01-08,ČN Nova Gorica,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.0338,ng
+2024-01-08,ČN Novo mesto,BA.2.86* (BA.2.86X),0.7904,nm
+2024-01-08,ČN Novo mesto,Drugo,0.003,nm
+2024-01-08,ČN Novo mesto,EG.5* [Omikron (EG.5.X)],0.1708,nm
+2024-01-08,ČN Novo mesto,XBB* (XBB.X),0.0085,nm
+2024-01-08,ČN Novo mesto,XBB.2.3* (XBB.2.3X),0.026,nm
