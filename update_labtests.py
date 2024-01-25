@@ -104,6 +104,7 @@ def import_opsi_labtests():
     df_updated['cases.confirmed'] = df_updated['stevilo_potrjenih_skupaj'].combine_first(df_updated['cases.confirmed'])
     df_updated['cases.confirmed.todate'] = df_updated['cases.confirmed'].cumsum()
     df_updated['cases.active'] = df_updated['cases.confirmed'].rolling(window=14).sum()
+    df_updated['cases.closed.todate'] = df_updated['cases.confirmed.todate'] - df_updated['cases.active']
     df_updated.drop(columns=['stevilo_potrjenih_skupaj'], inplace=True)
     df_updated.set_index('date', inplace=True)
     df_updated.replace({0: None}).astype('Int64').to_csv(filename, lineterminator='\r\n')
