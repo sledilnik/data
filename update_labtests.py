@@ -99,7 +99,8 @@ def import_opsi_labtests():
     df_cases = pd.read_csv(filename, index_col='date')
     df_cases_old_hash = sha1sum(filename)
 
-    df_updated = df_cases.merge(df_opsi[['date', 'stevilo_potrjenih_skupaj']], on='date', how='left')
+    df_updated = df_cases.merge(df_opsi[['date', 'stevilo_potrjenih_skupaj']], on='date', how='outer')
+    df_updated.sort_values(by='date', inplace=True)
     df_updated['cases.confirmed'] = df_updated['stevilo_potrjenih_skupaj'].combine_first(df_updated['cases.confirmed'])
     df_updated['cases.confirmed.todate'] = df_updated['cases.confirmed'].cumsum()
     df_updated['cases.active'] = df_updated['cases.confirmed'].rolling(window=14).sum()
