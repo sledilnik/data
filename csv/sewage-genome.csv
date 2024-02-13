@@ -3422,3 +3422,108 @@ sewage.date,sewage.station,sewage.genome,sewage.ratio,sewage.region
 2024-01-29,ČN Novo mesto,XBB* (XBB.X),0.04,nm
 2024-01-29,ČN Novo mesto,XBB.1.16* [Omikron (XBB.1.16.X)],0.0865,nm
 2024-01-29,ČN Novo mesto,XBB.1.9.2* [Omikron (XBB.1.9.2.X)],0.0071,nm
+2024-02-04,CČN Ljubljana,BA.2.86* (BA.2.86X),0.6552,lj
+2024-02-04,CČN Ljubljana,Drugo,0.3358,lj
+2024-02-04,CČN Ljubljana,EG.5* [Omikron (EG.5.X)],0.0074,lj
+2024-02-04,CČN Ljubljana,XBB* (XBB.X),0.0016,lj
+2024-02-04,CČN Murska Sobota,BA.2.86* (BA.2.86X),0.0196,ms
+2024-02-04,CČN Murska Sobota,Drugo,0.1272,ms
+2024-02-04,CČN Murska Sobota,EG.5* [Omikron (EG.5.X)],0.0041,ms
+2024-02-04,CČN Murska Sobota,Omikron,0.0487,ms
+2024-02-04,CČN Murska Sobota,XBB* (XBB.X),0.335,ms
+2024-02-04,CČN Murska Sobota,XBB.1.16* [Omikron (XBB.1.16.X)],0.4156,ms
+2024-02-04,CČN Murska Sobota,XBB.1.5* [Omikron (XBB.1.5.X)],0.0423,ms
+2024-02-04,CČN Murska Sobota,XBB.2.3* (XBB.2.3X),0.0075,ms
+2024-02-04,ČN Domžale Kamnik,BA.2.86* (BA.2.86X),0.7223,lj
+2024-02-04,ČN Domžale Kamnik,Drugo,0.0682,lj
+2024-02-04,ČN Domžale Kamnik,EG.5* [Omikron (EG.5.X)],0.1303,lj
+2024-02-04,ČN Domžale Kamnik,XBB* (XBB.X),0.0338,lj
+2024-02-04,ČN Domžale Kamnik,XBB.1.5* [Omikron (XBB.1.5.X)],0.0011,lj
+2024-02-04,ČN Domžale Kamnik,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.0443,lj
+2024-02-04,ČN Kranj,BA.2.86* (BA.2.86X),0.5035,kr
+2024-02-04,ČN Kranj,Drugo,0.1546,kr
+2024-02-04,ČN Kranj,EG.5* [Omikron (EG.5.X)],0.1093,kr
+2024-02-04,ČN Kranj,XBB* (XBB.X),0.0912,kr
+2024-02-04,ČN Kranj,XBB.1.16* [Omikron (XBB.1.16.X)],0.0038,kr
+2024-02-04,ČN Kranj,XBB.1.5* [Omikron (XBB.1.5.X)],0.0958,kr
+2024-02-04,ČN Kranj,XBB.1.9.2* [Omikron (XBB.1.9.2.X)],0.039,kr
+2024-02-04,ČN Kranj,XBB.2.3* (XBB.2.3X),0.0027,kr
+2024-02-04,ČN Maribor,BA.2.86* (BA.2.86X),0.5887,mb
+2024-02-04,ČN Maribor,Drugo,0.006,mb
+2024-02-04,ČN Maribor,EG.5* [Omikron (EG.5.X)],0.1447,mb
+2024-02-04,ČN Maribor,XBB* (XBB.X),0.2442,mb
+2024-02-04,ČN Maribor,XBB.1.5* [Omikron (XBB.1.5.X)],0.0039,mb
+2024-02-04,ČN Maribor,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.0028,mb
+2024-02-04,ČN Maribor,XBB.1.9.2* [Omikron (XBB.1.9.2.X)],0.0051,mb
+2024-02-04,ČN Maribor,XBB.2.3* (XBB.2.3X),0.0031,mb
+2024-02-05,CČN Brežice,BA.2.75* [Omikron (BA.2.75.X)],0.091,kk
+2024-02-05,CČN Brežice,BA.2.86* (BA.2.86X),0.2851,kk
+2024-02-05,CČN Brežice,CH.1.1* [Omikron (CH.1.1.X)],0.2939,kk
+2024-02-05,CČN Brežice,Drugo,0.0926,kk
+2024-02-05,CČN Brežice,EG.5* [Omikron (EG.5.X)],0.2074,kk
+2024-02-05,CČN Brežice,Omikron,0.0024,kk
+2024-02-05,CČN Brežice,XBB* (XBB.X),0.0039,kk
+2024-02-05,CČN Brežice,XBB.1.9.2* [Omikron (XBB.1.9.2.X)],0.0084,kk
+2024-02-05,CČN Brežice,XBB.2.3* (XBB.2.3X),0.013,kk
+2024-02-05,CČN Litija in Šmartno pri Litiji,BA.2.86* (BA.2.86X),0.0296,za
+2024-02-05,CČN Litija in Šmartno pri Litiji,Drugo,0.0075,za
+2024-02-05,CČN Litija in Šmartno pri Litiji,EG.5* [Omikron (EG.5.X)],0.4367,za
+2024-02-05,CČN Litija in Šmartno pri Litiji,XBB* (XBB.X),0.1121,za
+2024-02-05,CČN Litija in Šmartno pri Litiji,XBB.1.5* [Omikron (XBB.1.5.X)],0.4036,za
+2024-02-05,CČN Litija in Šmartno pri Litiji,XBB.1.9.2* [Omikron (XBB.1.9.2.X)],0.0034,za
+2024-02-05,CČN Litija in Šmartno pri Litiji,XBB.2.3* (XBB.2.3X),0.0065,za
+2024-02-05,CČN Postojna,BA.2.86* (BA.2.86X),0.6,po
+2024-02-05,CČN Postojna,EG.5* [Omikron (EG.5.X)],0.1034,po
+2024-02-05,CČN Postojna,Omikron,0.025,po
+2024-02-05,CČN Postojna,XBB* (XBB.X),0.2716,po
+2024-02-05,CČN Slovenj Gradec,BA.2.86* (BA.2.86X),0.7808,sg
+2024-02-05,CČN Slovenj Gradec,Drugo,0.0015,sg
+2024-02-05,CČN Slovenj Gradec,EG.5* [Omikron (EG.5.X)],0.0566,sg
+2024-02-05,CČN Slovenj Gradec,Omikron,0.01,sg
+2024-02-05,CČN Slovenj Gradec,XBB* (XBB.X),0.0753,sg
+2024-02-05,CČN Slovenj Gradec,XBB.1.9.2* [Omikron (XBB.1.9.2.X)],0.0147,sg
+2024-02-05,CČN Slovenj Gradec,XBB.2.3* (XBB.2.3X),0.059,sg
+2024-02-05,CČN Trbovlje,BA.2.86* (BA.2.86X),0.8889,za
+2024-02-05,CČN Trbovlje,CH.1.1* [Omikron (CH.1.1.X)],0.0036,za
+2024-02-05,CČN Trbovlje,Drugo,0.0076,za
+2024-02-05,CČN Trbovlje,EG.5* [Omikron (EG.5.X)],0.0175,za
+2024-02-05,CČN Trbovlje,Omikron,0.0018,za
+2024-02-05,CČN Trbovlje,XBB* (XBB.X),0.0446,za
+2024-02-05,CČN Trbovlje,XBB.1.5* [Omikron (XBB.1.5.X)],0.0018,za
+2024-02-05,CČN Trbovlje,XBB.2.3* (XBB.2.3X),0.0343,za
+2024-02-05,CČN Zagorje,BA.2.86* (BA.2.86X),0.9249,za
+2024-02-05,CČN Zagorje,Drugo,0.0446,za
+2024-02-05,CČN Zagorje,EG.5* [Omikron (EG.5.X)],0.0077,za
+2024-02-05,CČN Zagorje,XBB* (XBB.X),0.0059,za
+2024-02-05,CČN Zagorje,XBB.1.16* [Omikron (XBB.1.16.X)],0.0114,za
+2024-02-05,CČN Zagorje,XBB.2.3* (XBB.2.3X),0.0033,za
+2024-02-05,OČN Šaleške doline,BA.2.86* (BA.2.86X),0.9407,ce
+2024-02-05,OČN Šaleške doline,Drugo,0.006,ce
+2024-02-05,OČN Šaleške doline,EG.5* [Omikron (EG.5.X)],0.0238,ce
+2024-02-05,OČN Šaleške doline,Omikron,0.0024,ce
+2024-02-05,OČN Šaleške doline,XBB* (XBB.X),0.0189,ce
+2024-02-05,OČN Šaleške doline,XBB.1.5* [Omikron (XBB.1.5.X)],0.0011,ce
+2024-02-05,OČN Šaleške doline,XBB.2.3* (XBB.2.3X),0.0059,ce
+2024-02-05,ČN Celje,BA.2.86* (BA.2.86X),0.0226,ce
+2024-02-05,ČN Celje,Drugo,0.1058,ce
+2024-02-05,ČN Celje,EG.5* [Omikron (EG.5.X)],0.3077,ce
+2024-02-05,ČN Celje,Omikron,0.0051,ce
+2024-02-05,ČN Celje,XBB* (XBB.X),0.0667,ce
+2024-02-05,ČN Celje,XBB.1.16* [Omikron (XBB.1.16.X)],0.0059,ce
+2024-02-05,ČN Celje,XBB.1.5* [Omikron (XBB.1.5.X)],0.2323,ce
+2024-02-05,ČN Celje,XBB.1.9.2* [Omikron (XBB.1.9.2.X)],0.1265,ce
+2024-02-05,ČN Celje,XBB.2.3* (XBB.2.3X),0.126,ce
+2024-02-05,ČN Koper,BA.2.86* (BA.2.86X),0.3207,kp
+2024-02-05,ČN Koper,Drugo,0.0726,kp
+2024-02-05,ČN Koper,EG.5* [Omikron (EG.5.X)],0.1703,kp
+2024-02-05,ČN Koper,Omikron,0.0027,kp
+2024-02-05,ČN Koper,XBB* (XBB.X),0.0611,kp
+2024-02-05,ČN Koper,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.1986,kp
+2024-02-05,ČN Koper,XBB.2.3* (XBB.2.3X),0.174,kp
+2024-02-05,ČN Novo mesto,BA.2.86* (BA.2.86X),0.7953,nm
+2024-02-05,ČN Novo mesto,Drugo,0.0058,nm
+2024-02-05,ČN Novo mesto,EG.5* [Omikron (EG.5.X)],0.0751,nm
+2024-02-05,ČN Novo mesto,Omikron,0.0018,nm
+2024-02-05,ČN Novo mesto,XBB* (XBB.X),0.0987,nm
+2024-02-05,ČN Novo mesto,XBB.1.5* [Omikron (XBB.1.5.X)],0.0011,nm
+2024-02-05,ČN Novo mesto,XBB.2.3* (XBB.2.3X),0.02,nm
