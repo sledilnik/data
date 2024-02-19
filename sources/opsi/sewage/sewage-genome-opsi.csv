@@ -3472,6 +3472,15 @@
 2024-02-05,CČN_Litija_in_Šmartno_pri_Litiji,Zasavska,Drugo,0.0075
 2024-02-05,CČN_Litija_in_Šmartno_pri_Litiji,Zasavska,XBB.2.3* (XBB.2.3X),0.0065
 2024-02-05,CČN_Litija_in_Šmartno_pri_Litiji,Zasavska,XBB.1.9.2* [Omikron (XBB.1.9.2.X)],0.0034
+2024-02-05,CČN_Ljubljana,Osrednjeslovenska,BA.2.86* (BA.2.86X),0.3381
+2024-02-05,CČN_Ljubljana,Osrednjeslovenska,XBB.2.3* (XBB.2.3X),0.2949
+2024-02-05,CČN_Ljubljana,Osrednjeslovenska,XBB.1.9.2* [Omikron (XBB.1.9.2.X)],0.1573
+2024-02-05,CČN_Ljubljana,Osrednjeslovenska,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.0892
+2024-02-05,CČN_Ljubljana,Osrednjeslovenska,XBB.1.5* [Omikron (XBB.1.5.X)],0.0648
+2024-02-05,CČN_Ljubljana,Osrednjeslovenska,XBB* (XBB.X),0.0237
+2024-02-05,CČN_Ljubljana,Osrednjeslovenska,EG.5* [Omikron (EG.5.X)],0.0184
+2024-02-05,CČN_Ljubljana,Osrednjeslovenska,Drugo,0.0067
+2024-02-05,CČN_Ljubljana,Osrednjeslovenska,XBB.1.16* [Omikron (XBB.1.16.X)],0.0057
 2024-02-05,CČN_Postojna,Primorsko-notranjska,BA.2.86* (BA.2.86X),0.6
 2024-02-05,CČN_Postojna,Primorsko-notranjska,XBB* (XBB.X),0.2716
 2024-02-05,CČN_Postojna,Primorsko-notranjska,EG.5* [Omikron (EG.5.X)],0.1034
@@ -3520,6 +3529,15 @@
 2024-02-05,ČN_Koper,Obalno-kraška,Drugo,0.0726
 2024-02-05,ČN_Koper,Obalno-kraška,XBB* (XBB.X),0.0611
 2024-02-05,ČN_Koper,Obalno-kraška,Omikron,0.0027
+2024-02-05,ČN_Kranj,Gorenjska,BA.2.86* (BA.2.86X),0.4894
+2024-02-05,ČN_Kranj,Gorenjska,XBB.2.3* (XBB.2.3X),0.1904
+2024-02-05,ČN_Kranj,Gorenjska,XBB.1.5* [Omikron (XBB.1.5.X)],0.1157
+2024-02-05,ČN_Kranj,Gorenjska,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.0999
+2024-02-05,ČN_Kranj,Gorenjska,Drugo,0.045
+2024-02-05,ČN_Kranj,Gorenjska,EG.5* [Omikron (EG.5.X)],0.0224
+2024-02-05,ČN_Kranj,Gorenjska,XBB.1.9.2* [Omikron (XBB.1.9.2.X)],0.0187
+2024-02-05,ČN_Kranj,Gorenjska,XBB* (XBB.X),0.0103
+2024-02-05,ČN_Kranj,Gorenjska,XBB.1.16* [Omikron (XBB.1.16.X)],0.0082
 2024-02-05,ČN_Novo_mesto,Jugovzhodna Slovenija,BA.2.86* (BA.2.86X),0.7953
 2024-02-05,ČN_Novo_mesto,Jugovzhodna Slovenija,XBB* (XBB.X),0.0987
 2024-02-05,ČN_Novo_mesto,Jugovzhodna Slovenija,EG.5* [Omikron (EG.5.X)],0.0751
@@ -3527,3 +3545,71 @@
 2024-02-05,ČN_Novo_mesto,Jugovzhodna Slovenija,Drugo,0.0058
 2024-02-05,ČN_Novo_mesto,Jugovzhodna Slovenija,Omikron,0.0018
 2024-02-05,ČN_Novo_mesto,Jugovzhodna Slovenija,XBB.1.5* [Omikron (XBB.1.5.X)],0.0011
+2024-02-11,ČN_Domžale_Kamnik,Osrednjeslovenska,BA.2.86* (BA.2.86X),0.5515
+2024-02-11,ČN_Domžale_Kamnik,Osrednjeslovenska,XBB.1.5* [Omikron (XBB.1.5.X)],0.1669
+2024-02-11,ČN_Domžale_Kamnik,Osrednjeslovenska,XBB.2.3* (XBB.2.3X),0.1316
+2024-02-11,ČN_Domžale_Kamnik,Osrednjeslovenska,XBB.1.9.2* [Omikron (XBB.1.9.2.X)],0.0685
+2024-02-11,ČN_Domžale_Kamnik,Osrednjeslovenska,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.0566
+2024-02-11,ČN_Domžale_Kamnik,Osrednjeslovenska,XBB* (XBB.X),0.0078
+2024-02-11,ČN_Domžale_Kamnik,Osrednjeslovenska,XBB.1.16* [Omikron (XBB.1.16.X)],0.0053
+2024-02-11,ČN_Domžale_Kamnik,Osrednjeslovenska,Omikron,0.004
+2024-02-11,ČN_Domžale_Kamnik,Osrednjeslovenska,EG.5* [Omikron (EG.5.X)],0.0034
+2024-02-11,ČN_Domžale_Kamnik,Osrednjeslovenska,Drugo,0.0014
+2024-02-11,ČN_Maribor,Podravska,BA.2.86* (BA.2.86X),0.3045
+2024-02-11,ČN_Maribor,Podravska,XBB.1.5* [Omikron (XBB.1.5.X)],0.2189
+2024-02-11,ČN_Maribor,Podravska,XBB.2.3* (XBB.2.3X),0.1275
+2024-02-11,ČN_Maribor,Podravska,EG.5* [Omikron (EG.5.X)],0.123
+2024-02-11,ČN_Maribor,Podravska,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.0973
+2024-02-11,ČN_Maribor,Podravska,XBB* (XBB.X),0.0573
+2024-02-11,ČN_Maribor,Podravska,Drugo,0.0453
+2024-02-11,ČN_Maribor,Podravska,XBB.1.9.2* [Omikron (XBB.1.9.2.X)],0.0244
+2024-02-11,ČN_Nova_Gorica,Goriška,XBB.2.3* (XBB.2.3X),0.4004
+2024-02-11,ČN_Nova_Gorica,Goriška,BA.2.86* (BA.2.86X),0.2139
+2024-02-11,ČN_Nova_Gorica,Goriška,EG.5* [Omikron (EG.5.X)],0.17
+2024-02-11,ČN_Nova_Gorica,Goriška,XBB.1.5* [Omikron (XBB.1.5.X)],0.1606
+2024-02-11,ČN_Nova_Gorica,Goriška,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.0207
+2024-02-11,ČN_Nova_Gorica,Goriška,XBB.1.9.2* [Omikron (XBB.1.9.2.X)],0.0191
+2024-02-11,ČN_Nova_Gorica,Goriška,Drugo,0.01
+2024-02-11,ČN_Nova_Gorica,Goriška,XBB* (XBB.X),0.0053
+2024-02-11,ČN_Novo_mesto,Jugovzhodna Slovenija,BA.2.86* (BA.2.86X),0.5172
+2024-02-11,ČN_Novo_mesto,Jugovzhodna Slovenija,XBB* (XBB.X),0.1361
+2024-02-11,ČN_Novo_mesto,Jugovzhodna Slovenija,Drugo,0.1107
+2024-02-11,ČN_Novo_mesto,Jugovzhodna Slovenija,XBB.2.3* (XBB.2.3X),0.0887
+2024-02-11,ČN_Novo_mesto,Jugovzhodna Slovenija,XBB.1.9.2* [Omikron (XBB.1.9.2.X)],0.0732
+2024-02-11,ČN_Novo_mesto,Jugovzhodna Slovenija,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.0578
+2024-02-11,ČN_Novo_mesto,Jugovzhodna Slovenija,EG.5* [Omikron (EG.5.X)],0.016
+2024-02-12,CČN_Litija_in_Šmartno_pri_Litiji,Zasavska,EG.5* [Omikron (EG.5.X)],0.3077
+2024-02-12,CČN_Litija_in_Šmartno_pri_Litiji,Zasavska,XBB.1.9.2* [Omikron (XBB.1.9.2.X)],0.2565
+2024-02-12,CČN_Litija_in_Šmartno_pri_Litiji,Zasavska,XBB.2.3* (XBB.2.3X),0.2301
+2024-02-12,CČN_Litija_in_Šmartno_pri_Litiji,Zasavska,XBB* (XBB.X),0.1335
+2024-02-12,CČN_Litija_in_Šmartno_pri_Litiji,Zasavska,Drugo,0.0398
+2024-02-12,CČN_Litija_in_Šmartno_pri_Litiji,Zasavska,XBB.1.16* [Omikron (XBB.1.16.X)],0.0185
+2024-02-12,CČN_Litija_in_Šmartno_pri_Litiji,Zasavska,BA.2.86* (BA.2.86X),0.0118
+2024-02-12,CČN_Litija_in_Šmartno_pri_Litiji,Zasavska,Omikron,0.0018
+2024-02-12,CČN_Slovenj_Gradec,Koroška,BA.2.86* (BA.2.86X),0.3208
+2024-02-12,CČN_Slovenj_Gradec,Koroška,XBB.2.3* (XBB.2.3X),0.2025
+2024-02-12,CČN_Slovenj_Gradec,Koroška,EG.5* [Omikron (EG.5.X)],0.1582
+2024-02-12,CČN_Slovenj_Gradec,Koroška,XBB.1.5* [Omikron (XBB.1.5.X)],0.1269
+2024-02-12,CČN_Slovenj_Gradec,Koroška,XBB.1.9.2* [Omikron (XBB.1.9.2.X)],0.1086
+2024-02-12,CČN_Slovenj_Gradec,Koroška,XBB* (XBB.X),0.0364
+2024-02-12,CČN_Slovenj_Gradec,Koroška,Drugo,0.0194
+2024-02-12,CČN_Slovenj_Gradec,Koroška,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.0192
+2024-02-12,CČN_Slovenj_Gradec,Koroška,XBB.1.16* [Omikron (XBB.1.16.X)],0.0056
+2024-02-12,CČN_Zagorje,Zasavska,XBB.2.3* (XBB.2.3X),0.2949
+2024-02-12,CČN_Zagorje,Zasavska,EG.5* [Omikron (EG.5.X)],0.2125
+2024-02-12,CČN_Zagorje,Zasavska,BA.2.86* (BA.2.86X),0.158
+2024-02-12,CČN_Zagorje,Zasavska,XBB.1.9.2* [Omikron (XBB.1.9.2.X)],0.1511
+2024-02-12,CČN_Zagorje,Zasavska,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.0893
+2024-02-12,CČN_Zagorje,Zasavska,XBB* (XBB.X),0.0813
+2024-02-12,CČN_Zagorje,Zasavska,XBB.1.5* [Omikron (XBB.1.5.X)],0.0069
+2024-02-12,CČN_Zagorje,Zasavska,XBB.1.16* [Omikron (XBB.1.16.X)],0.0044
+2024-02-12,CČN_Zagorje,Zasavska,Drugo,0.0014
+2024-02-12,ČN_Koper,Obalno-kraška,XBB.2.3* (XBB.2.3X),0.2845
+2024-02-12,ČN_Koper,Obalno-kraška,XBB* (XBB.X),0.2295
+2024-02-12,ČN_Koper,Obalno-kraška,BA.2.86* (BA.2.86X),0.1663
+2024-02-12,ČN_Koper,Obalno-kraška,Omikron,0.1282
+2024-02-12,ČN_Koper,Obalno-kraška,XBB.1.5* [Omikron (XBB.1.5.X)],0.0792
+2024-02-12,ČN_Koper,Obalno-kraška,EG.5* [Omikron (EG.5.X)],0.0399
+2024-02-12,ČN_Koper,Obalno-kraška,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.0326
+2024-02-12,ČN_Koper,Obalno-kraška,Drugo,0.0308
+2024-02-12,ČN_Koper,Obalno-kraška,XBB.1.9.2* [Omikron (XBB.1.9.2.X)],0.0082
