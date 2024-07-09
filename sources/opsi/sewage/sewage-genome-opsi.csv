@@ -3817,3 +3817,74 @@
 2024-03-12,ČN_Celje,Savinjska,Omikron,0.0106
 2024-03-12,ČN_Celje,Savinjska,XBB.1.9.1* [Omikron (XBB.1.9.1.X)],0.0027
 2024-03-12,ČN_Celje,Savinjska,XBB.2.3* (XBB.2.3X),0.0024
+2024-06-16,CČN_Ljubljana,Osrednjeslovenska,BA.2.86* (BA.2.86.X),0.8718
+2024-06-16,CČN_Ljubljana,Osrednjeslovenska,KP.2* (KP.2.X),0.125
+2024-06-16,CČN_Ljubljana,Osrednjeslovenska,KP.3* (KP.3.X),0.0032
+2024-06-16,CČN_Murska_Sobota,Pomurska,BA.2.86* (BA.2.86.X),0.8409
+2024-06-16,CČN_Murska_Sobota,Pomurska,JN.1.18* (JN.1.18.X),0.1227
+2024-06-16,CČN_Murska_Sobota,Pomurska,KP.3* (KP.3.X),0.0164
+2024-06-16,CČN_Murska_Sobota,Pomurska,KP.2* (KP.2.X),0.0135
+2024-06-16,CČN_Murska_Sobota,Pomurska,Drugo,0.0033
+2024-06-16,ČN_Domžale_Kamnik,Osrednjeslovenska,KP.3* (KP.3.X),0.9854
+2024-06-16,ČN_Domžale_Kamnik,Osrednjeslovenska,BA.2.86* (BA.2.86.X),0.0093
+2024-06-16,ČN_Domžale_Kamnik,Osrednjeslovenska,KP.2* (KP.2.X),0.0019
+2024-06-16,ČN_Domžale_Kamnik,Osrednjeslovenska,Omikron,0.0017
+2024-06-16,ČN_Kranj,Gorenjska,JN.1.18* (JN.1.18.X),0.4186
+2024-06-16,ČN_Kranj,Gorenjska,BA.2.86* (BA.2.86.X),0.3778
+2024-06-16,ČN_Kranj,Gorenjska,KP.3* (KP.3.X),0.1248
+2024-06-16,ČN_Kranj,Gorenjska,KP.2* (KP.2.X),0.0776
+2024-06-16,ČN_Kranj,Gorenjska,Drugo,0.0012
+2024-06-16,ČN_Nova_Gorica,Goriška,BA.2.86* (BA.2.86.X),0.5041
+2024-06-16,ČN_Nova_Gorica,Goriška,KP.3* (KP.3.X),0.4857
+2024-06-16,ČN_Nova_Gorica,Goriška,KP.2* (KP.2.X),0.0081
+2024-06-16,ČN_Nova_Gorica,Goriška,Drugo,0.002
+2024-06-17,CČN_Postojna,Primorsko-notranjska,KP.2* (KP.2.X),0.4111
+2024-06-17,CČN_Postojna,Primorsko-notranjska,BA.2.86* (BA.2.86.X),0.3664
+2024-06-17,CČN_Postojna,Primorsko-notranjska,JN.1.18* (JN.1.18.X),0.208
+2024-06-17,CČN_Postojna,Primorsko-notranjska,KP.3* (KP.3.X),0.0088
+2024-06-17,CČN_Postojna,Primorsko-notranjska,Omikron,0.0056
+2024-06-17,CČN_Zagorje,Zasavska,BA.2.86* (BA.2.86.X),0.8515
+2024-06-17,CČN_Zagorje,Zasavska,KP.2* (KP.2.X),0.0931
+2024-06-17,CČN_Zagorje,Zasavska,KP.3* (KP.3.X),0.0505
+2024-06-17,CČN_Zagorje,Zasavska,Drugo,0.0013
+2024-06-17,OČN_Šaleške doline,Savinjska,BA.2.86* (BA.2.86.X),0.7295
+2024-06-17,OČN_Šaleške doline,Savinjska,KP.3* (KP.3.X),0.2623
+2024-06-17,OČN_Šaleške doline,Savinjska,KP.2* (KP.2.X),0.0051
+2024-06-17,OČN_Šaleške doline,Savinjska,Drugo,0.0013
+2024-06-23,CČN_Ljubljana,Osrednjeslovenska,BA.2.86* (BA.2.86.X),0.944
+2024-06-23,CČN_Ljubljana,Osrednjeslovenska,KP.2* (KP.2.X),0.052
+2024-06-23,CČN_Ljubljana,Osrednjeslovenska,Drugo,0.0014
+2024-06-23,ČN_Domžale_Kamnik,Osrednjeslovenska,BA.2.86* (BA.2.86.X),0.5553
+2024-06-23,ČN_Domžale_Kamnik,Osrednjeslovenska,KP.3* (KP.3.X),0.4278
+2024-06-23,ČN_Domžale_Kamnik,Osrednjeslovenska,KP.2* (KP.2.X),0.014
+2024-06-23,ČN_Domžale_Kamnik,Osrednjeslovenska,Drugo,0.0028
+2024-06-23,ČN_Kranj,Gorenjska,KP.2* (KP.2.X),0.6299
+2024-06-23,ČN_Kranj,Gorenjska,BA.2.86* (BA.2.86.X),0.3431
+2024-06-23,ČN_Kranj,Gorenjska,KP.3* (KP.3.X),0.0231
+2024-06-23,ČN_Kranj,Gorenjska,Drugo,0.0031
+2024-06-25,ČN_Koper,Obalno-kraška,BA.2.86* (BA.2.86.X),0.962
+2024-06-25,ČN_Koper,Obalno-kraška,KP.2* (KP.2.X),0.038
+2024-06-25,ČN_Nova_Gorica,Goriška,BA.2.86* (BA.2.86.X),0.7894
+2024-06-25,ČN_Nova_Gorica,Goriška,KP.3* (KP.3.X),0.2024
+2024-06-25,ČN_Nova_Gorica,Goriška,KP.2* (KP.2.X),0.0052
+2024-06-25,ČN_Nova_Gorica,Goriška,Drugo,0.0023
+2024-06-26,CČN_Slovenj_Gradec,Koroška,KP.3* (KP.3.X),0.6715
+2024-06-26,CČN_Slovenj_Gradec,Koroška,BA.2.86* (BA.2.86.X),0.322
+2024-06-26,CČN_Slovenj_Gradec,Koroška,KP.2* (KP.2.X),0.003
+2024-06-26,CČN_Slovenj_Gradec,Koroška,Drugo,0.002
+2024-06-26,CČN_Slovenj_Gradec,Koroška,Omikron,0.0013
+2024-06-26,CČN_Trbovlje,Zasavska,KP.2* (KP.2.X),0.9644
+2024-06-26,CČN_Trbovlje,Zasavska,BA.2.86* (BA.2.86.X),0.0171
+2024-06-26,CČN_Trbovlje,Zasavska,KP.3* (KP.3.X),0.0129
+2024-06-26,CČN_Trbovlje,Zasavska,Drugo,0.0038
+2024-06-26,CČN_Zagorje,Zasavska,BA.2.86* (BA.2.86.X),0.578
+2024-06-26,CČN_Zagorje,Zasavska,KP.3* (KP.3.X),0.4161
+2024-06-26,CČN_Zagorje,Zasavska,KP.2* (KP.2.X),0.0041
+2024-06-26,CČN_Zagorje,Zasavska,Drugo,0.0018
+2024-06-26,OČN_Šaleške doline,Savinjska,KP.3* (KP.3.X),0.5696
+2024-06-26,OČN_Šaleške doline,Savinjska,BA.2.86* (BA.2.86.X),0.426
+2024-06-26,OČN_Šaleške doline,Savinjska,Drugo,0.0023
+2024-06-26,OČN_Šaleške doline,Savinjska,KP.2* (KP.2.X),0.0016
+2024-06-26,ČN_Celje,Savinjska,BA.2.86* (BA.2.86.X),0.4512
+2024-06-26,ČN_Celje,Savinjska,KP.3* (KP.3.X),0.428
+2024-06-26,ČN_Celje,Savinjska,KP.2* (KP.2.X),0.1208
