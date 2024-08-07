@@ -3959,3 +3959,109 @@
 2024-07-08,ČN_Nova_Gorica,Goriška,BA.2.86* (BA.2.86.X),0.1798
 2024-07-08,ČN_Nova_Gorica,Goriška,JN.1.18* (JN.1.18.X),0.0179
 2024-07-08,ČN_Nova_Gorica,Goriška,KP.2* (KP.2.X),0.009
+2024-07-14,CČN_Ljubljana,Osrednjeslovenska,KP.2* (KP.2.X),0.354
+2024-07-14,CČN_Ljubljana,Osrednjeslovenska,KP.3* (KP.3.X),0.2348
+2024-07-14,CČN_Ljubljana,Osrednjeslovenska,BA.2.86* (BA.2.86.X),0.2332
+2024-07-14,CČN_Ljubljana,Osrednjeslovenska,Omikron,0.1779
+2024-07-14,CČN_Murska_Sobota,Pomurska,KP.2* (KP.2.X),0.4504
+2024-07-14,CČN_Murska_Sobota,Pomurska,KP.3* (KP.3.X),0.3308
+2024-07-14,CČN_Murska_Sobota,Pomurska,BA.2.86* (BA.2.86.X),0.2146
+2024-07-14,CČN_Murska_Sobota,Pomurska,Drugo,0.003
+2024-07-14,ČN_Domžale_Kamnik,Osrednjeslovenska,KP.3* (KP.3.X),0.6456
+2024-07-14,ČN_Domžale_Kamnik,Osrednjeslovenska,BA.2.86* (BA.2.86.X),0.2758
+2024-07-14,ČN_Domžale_Kamnik,Osrednjeslovenska,KP.2* (KP.2.X),0.0757
+2024-07-14,ČN_Domžale_Kamnik,Osrednjeslovenska,Drugo,0.0015
+2024-07-14,ČN_Kranj,Gorenjska,KP.3* (KP.3.X),0.6194
+2024-07-14,ČN_Kranj,Gorenjska,KP.2* (KP.2.X),0.2085
+2024-07-14,ČN_Kranj,Gorenjska,BA.2.86* (BA.2.86.X),0.166
+2024-07-14,ČN_Kranj,Gorenjska,Drugo,0.0019
+2024-07-14,ČN_Maribor,Podravska,KP.3* (KP.3.X),0.6562
+2024-07-14,ČN_Maribor,Podravska,BA.2.86* (BA.2.86.X),0.2049
+2024-07-14,ČN_Maribor,Podravska,KP.2* (KP.2.X),0.1365
+2024-07-14,ČN_Maribor,Podravska,Drugo,0.0012
+2024-07-15,CČN_Litija_in_Šmartno_pri_Litiji,Zasavska,BA.2.86* (BA.2.86.X),0.9083
+2024-07-15,CČN_Litija_in_Šmartno_pri_Litiji,Zasavska,KP.3* (KP.3.X),0.0867
+2024-07-15,CČN_Litija_in_Šmartno_pri_Litiji,Zasavska,Drugo,0.0033
+2024-07-15,CČN_Postojna,Primorsko-notranjska,BA.2.86* (BA.2.86.X),0.4085
+2024-07-15,CČN_Postojna,Primorsko-notranjska,KP.3* (KP.3.X),0.364
+2024-07-15,CČN_Postojna,Primorsko-notranjska,KP.2* (KP.2.X),0.2276
+2024-07-15,CČN_Slovenj_Gradec,Koroška,KP.3* (KP.3.X),0.6611
+2024-07-15,CČN_Slovenj_Gradec,Koroška,KP.2* (KP.2.X),0.188
+2024-07-15,CČN_Slovenj_Gradec,Koroška,BA.2.86* (BA.2.86.X),0.1197
+2024-07-15,CČN_Slovenj_Gradec,Koroška,Omikron,0.0311
+2024-07-15,CČN_Trbovlje,Zasavska,KP.3* (KP.3.X),0.4285
+2024-07-15,CČN_Trbovlje,Zasavska,KP.2* (KP.2.X),0.3972
+2024-07-15,CČN_Trbovlje,Zasavska,BA.2.86* (BA.2.86.X),0.172
+2024-07-15,CČN_Trbovlje,Zasavska,Drugo,0.0023
+2024-07-15,OČN_Šaleške doline,Savinjska,BA.2.86* (BA.2.86.X),0.61
+2024-07-15,OČN_Šaleške doline,Savinjska,KP.2* (KP.2.X),0.215
+2024-07-15,OČN_Šaleške doline,Savinjska,KP.3* (KP.3.X),0.1717
+2024-07-15,ČN_Celje,Savinjska,KP.3* (KP.3.X),0.5639
+2024-07-15,ČN_Celje,Savinjska,BA.2.86* (BA.2.86.X),0.4282
+2024-07-15,ČN_Celje,Savinjska,JN.1.18* (JN.1.18.X),0.0064
+2024-07-15,ČN_Celje,Savinjska,Drugo,0.0015
+2024-07-15,ČN_Koper,Obalno-kraška,KP.3* (KP.3.X),0.6677
+2024-07-15,ČN_Koper,Obalno-kraška,BA.2.86* (BA.2.86.X),0.2912
+2024-07-15,ČN_Koper,Obalno-kraška,JN.1.18* (JN.1.18.X),0.0256
+2024-07-15,ČN_Koper,Obalno-kraška,KP.2* (KP.2.X),0.0106
+2024-07-15,ČN_Koper,Obalno-kraška,Drugo,0.003
+2024-07-15,ČN_Nova_Gorica,Goriška,KP.3* (KP.3.X),0.7268
+2024-07-15,ČN_Nova_Gorica,Goriška,BA.2.86* (BA.2.86.X),0.1586
+2024-07-15,ČN_Nova_Gorica,Goriška,KP.2* (KP.2.X),0.1115
+2024-07-15,ČN_Nova_Gorica,Goriška,Drugo,0.0032
+2024-07-21,CČN_Ljubljana,Osrednjeslovenska,KP.3* (KP.3.X),0.4025
+2024-07-21,CČN_Ljubljana,Osrednjeslovenska,BA.2.86* (BA.2.86.X),0.3018
+2024-07-21,CČN_Ljubljana,Osrednjeslovenska,KP.2* (KP.2.X),0.2911
+2024-07-21,CČN_Ljubljana,Osrednjeslovenska,Drugo,0.0019
+2024-07-21,CČN_Ljubljana,Osrednjeslovenska,Omikron,0.0015
+2024-07-21,ČN_Domžale_Kamnik,Osrednjeslovenska,KP.3* (KP.3.X),0.4906
+2024-07-21,ČN_Domžale_Kamnik,Osrednjeslovenska,BA.2.86* (BA.2.86.X),0.4716
+2024-07-21,ČN_Domžale_Kamnik,Osrednjeslovenska,KP.2* (KP.2.X),0.0344
+2024-07-21,ČN_Domžale_Kamnik,Osrednjeslovenska,Drugo,0.0022
+2024-07-21,ČN_Kranj,Gorenjska,BA.2.86* (BA.2.86.X),0.8499
+2024-07-21,ČN_Kranj,Gorenjska,KP.3* (KP.3.X),0.1368
+2024-07-21,ČN_Kranj,Gorenjska,KP.2* (KP.2.X),0.0102
+2024-07-21,ČN_Kranj,Gorenjska,Drugo,0.003
+2024-07-21,ČN_Maribor,Podravska,KP.3* (KP.3.X),0.5729
+2024-07-21,ČN_Maribor,Podravska,Omikron,0.3128
+2024-07-21,ČN_Maribor,Podravska,BA.2.86* (BA.2.86.X),0.1088
+2024-07-21,ČN_Maribor,Podravska,Drugo,0.0034
+2024-07-21,ČN_Maribor,Podravska,KP.2* (KP.2.X),0.0014
+2024-07-21,ČN_Nova_Gorica,Goriška,KP.3* (KP.3.X),0.5205
+2024-07-21,ČN_Nova_Gorica,Goriška,KP.2* (KP.2.X),0.2486
+2024-07-21,ČN_Nova_Gorica,Goriška,BA.2.86* (BA.2.86.X),0.2277
+2024-07-21,ČN_Nova_Gorica,Goriška,Drugo,0.0024
+2024-07-22,CČN_Brežice,Posavska,BA.2.86* (BA.2.86.X),0.9754
+2024-07-22,CČN_Brežice,Posavska,KP.3* (KP.3.X),0.0108
+2024-07-22,CČN_Brežice,Posavska,KP.2* (KP.2.X),0.01
+2024-07-22,CČN_Brežice,Posavska,Drugo,0.0025
+2024-07-22,CČN_Brežice,Posavska,Omikron,0.0013
+2024-07-22,CČN_Postojna,Primorsko-notranjska,BA.2.86* (BA.2.86.X),0.5556
+2024-07-22,CČN_Postojna,Primorsko-notranjska,KP.2* (KP.2.X),0.4177
+2024-07-22,CČN_Postojna,Primorsko-notranjska,KP.3* (KP.3.X),0.0234
+2024-07-22,CČN_Postojna,Primorsko-notranjska,Omikron,0.0028
+2024-07-22,CČN_Slovenj_Gradec,Koroška,KP.3* (KP.3.X),0.8568
+2024-07-22,CČN_Slovenj_Gradec,Koroška,KP.2* (KP.2.X),0.1154
+2024-07-22,CČN_Slovenj_Gradec,Koroška,BA.2.86* (BA.2.86.X),0.0278
+2024-07-22,CČN_Trbovlje,Zasavska,KP.2* (KP.2.X),0.9357
+2024-07-22,CČN_Trbovlje,Zasavska,KP.3* (KP.3.X),0.0419
+2024-07-22,CČN_Trbovlje,Zasavska,BA.2.86* (BA.2.86.X),0.0178
+2024-07-22,CČN_Trbovlje,Zasavska,Drugo,0.0035
+2024-07-22,CČN_Zagorje,Zasavska,KP.3* (KP.3.X),0.7861
+2024-07-22,CČN_Zagorje,Zasavska,KP.2* (KP.2.X),0.1917
+2024-07-22,CČN_Zagorje,Zasavska,BA.2.86* (BA.2.86.X),0.0165
+2024-07-22,CČN_Zagorje,Zasavska,Drugo,0.0028
+2024-07-22,OČN_Šaleške doline,Savinjska,KP.3* (KP.3.X),0.6202
+2024-07-22,OČN_Šaleške doline,Savinjska,BA.2.86* (BA.2.86.X),0.2993
+2024-07-22,OČN_Šaleške doline,Savinjska,KP.2* (KP.2.X),0.078
+2024-07-22,ČN_Celje,Savinjska,KP.2* (KP.2.X),0.6738
+2024-07-22,ČN_Celje,Savinjska,KP.3* (KP.3.X),0.2857
+2024-07-22,ČN_Celje,Savinjska,BA.2.86* (BA.2.86.X),0.0294
+2024-07-22,ČN_Celje,Savinjska,JN.1.18* (JN.1.18.X),0.011
+2024-07-22,ČN_Koper,Obalno-kraška,KP.2* (KP.2.X),0.5384
+2024-07-22,ČN_Koper,Obalno-kraška,KP.3* (KP.3.X),0.2705
+2024-07-22,ČN_Koper,Obalno-kraška,BA.2.86* (BA.2.86.X),0.188
+2024-07-22,ČN_Koper,Obalno-kraška,Drugo,0.0024
+2024-07-22,ČN_Novo_mesto,Jugovzhodna Slovenija,BA.2.86* (BA.2.86.X),0.5127
+2024-07-22,ČN_Novo_mesto,Jugovzhodna Slovenija,KP.3* (KP.3.X),0.4714
+2024-07-22,ČN_Novo_mesto,Jugovzhodna Slovenija,KP.2* (KP.2.X),0.0159
