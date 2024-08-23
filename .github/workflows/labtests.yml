@@ -71,6 +71,6 @@ jobs:
         push-branch: 'master'
         commit-message: 'NIJZ Lab tests data update 🤖'
         rebase: 'true' # pull and rebase before commit
-        files: csv/lab-tests.* csv/stats.* csv/cases.* csv/cases-opsi.*
+        files: csv/lab-tests.* csv/stats.* csv/cases.* csv/cases-opsi.* csv/cases-opsi-light.*
         name: Sledilnik data scrape bot 🤖
         email: info@sledilnik.org
