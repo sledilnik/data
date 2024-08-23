@@ -64,6 +64,7 @@ def import_nijz_dash_labtests():
 def import_opsi_labtests():
     # https://podatki.gov.si/dataset/dnevno-spremljanje-okuzb-covid-19
     saveurl("https://podatki.gov.si/dataset/56a1a649-5201-46d2-b503-03c6b36a6ee7/resource/9f297da4-1a93-4f62-8c14-cfff5c5d7377/download/vwlusyokuzeni.csv", "csv/cases-opsi.csv", "text/csv")
+    saveurl("https://podatki.gov.si/dataset/56a1a649-5201-46d2-b503-03c6b36a6ee7/resource/b2fee4c1-f579-4f6d-8d54-7a1b8755e970/download/covid19potrjeniprimeri.csv", "csv/cases-opsi-light.csv", "text/csv")
 
     # Update cases from cases-opsi to fill gaps done with dashboard
     df_opsi = pd.read_csv("csv/cases-opsi.csv")
