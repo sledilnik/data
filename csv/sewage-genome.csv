@@ -4526,3 +4526,125 @@ sewage.date,sewage.station,sewage.genome,sewage.ratio,sewage.region
 2024-10-28,OČN Šaleške doline,Omikron,0.0614,ce
 2024-10-28,ČN Nova Gorica,KP.3* (KP.3.X),0.0208,ng
 2024-10-28,ČN Nova Gorica,Omikron,0.9792,ng
+2024-11-03,ČN Domžale Kamnik,BA.2.86* (BA.2.86.X),0.2788,lj
+2024-11-03,ČN Domžale Kamnik,KP.3* (KP.3.X),0.7212,lj
+2024-11-03,ČN Kranj,BA.2.86* (BA.2.86.X),0.0734,kr
+2024-11-03,ČN Kranj,Drugo,0.0063,kr
+2024-11-03,ČN Kranj,KP.3* (KP.3.X),0.9203,kr
+2024-11-03,ČN Maribor,BA.2.86* (BA.2.86.X),0.25,mb
+2024-11-03,ČN Maribor,KP.3* (KP.3.X),0.75,mb
+2024-11-04,CČN Trbovlje,BA.2.86* (BA.2.86.X),0.5909,za
+2024-11-04,CČN Trbovlje,KP.3* (KP.3.X),0.4091,za
+2024-11-04,CČN Zagorje,BA.2.86* (BA.2.86.X),0.0769,za
+2024-11-04,CČN Zagorje,KP.3* (KP.3.X),0.9231,za
+2024-11-04,OČN Šaleške doline,BA.2.86* (BA.2.86.X),0.1131,ce
+2024-11-04,OČN Šaleške doline,KP.3* (KP.3.X),0.8869,ce
+2024-11-10,CČN Ljubljana,BA.2.86* (BA.2.86.X),0.2234,lj
+2024-11-10,CČN Ljubljana,JN.1.18* (JN.1.18.X),0.0337,lj
+2024-11-10,CČN Ljubljana,KP.3* (KP.3.X),0.743,lj
+2024-11-10,CČN Murska Sobota,BA.2.86* (BA.2.86.X),0.188,ms
+2024-11-10,CČN Murska Sobota,KP.3* (KP.3.X),0.812,ms
+2024-11-10,ČN Domžale Kamnik,BA.2.86* (BA.2.86.X),0.2143,lj
+2024-11-10,ČN Domžale Kamnik,KP.3* (KP.3.X),0.7857,lj
+2024-11-10,ČN Kranj,BA.2.86* (BA.2.86.X),0.1303,kr
+2024-11-10,ČN Kranj,KP.3* (KP.3.X),0.8518,kr
+2024-11-10,ČN Kranj,Omikron,0.0179,kr
+2024-11-10,ČN Maribor,BA.2.86* (BA.2.86.X),0.4539,mb
+2024-11-10,ČN Maribor,KP.3* (KP.3.X),0.5461,mb
+2024-11-11,CČN Brežice,BA.2.86* (BA.2.86.X),0.0159,kk
+2024-11-11,CČN Brežice,KP.3* (KP.3.X),0.9841,kk
+2024-11-11,CČN Litija in Šmartno pri Litiji,BA.2.86* (BA.2.86.X),0.478,za
+2024-11-11,CČN Litija in Šmartno pri Litiji,JN.1.18* (JN.1.18.X),0.0192,za
+2024-11-11,CČN Litija in Šmartno pri Litiji,KP.3* (KP.3.X),0.5028,za
+2024-11-11,CČN Postojna,BA.2.86* (BA.2.86.X),0.096,po
+2024-11-11,CČN Postojna,KP.3* (KP.3.X),0.904,po
+2024-11-11,CČN Slovenj Gradec,BA.2.86* (BA.2.86.X),0.0208,sg
+2024-11-11,CČN Slovenj Gradec,KP.3* (KP.3.X),0.9792,sg
+2024-11-11,CČN Trbovlje,BA.2.86* (BA.2.86.X),0.1994,za
+2024-11-11,CČN Trbovlje,KP.3* (KP.3.X),0.8006,za
+2024-11-11,CČN Zagorje,BA.2.86* (BA.2.86.X),0.0459,za
+2024-11-11,CČN Zagorje,KP.3* (KP.3.X),0.9541,za
+2024-11-11,OČN Šaleške doline,BA.2.86* (BA.2.86.X),0.2577,ce
+2024-11-11,OČN Šaleške doline,KP.3* (KP.3.X),0.7423,ce
+2024-11-11,ČN Celje,BA.2.86* (BA.2.86.X),0.2899,ce
+2024-11-11,ČN Celje,KP.2* (KP.2.X),0.3077,ce
+2024-11-11,ČN Celje,KP.3* (KP.3.X),0.4024,ce
+2024-11-11,ČN Koper,BA.2.86* (BA.2.86.X),0.6226,kp
+2024-11-11,ČN Koper,KP.3* (KP.3.X),0.3774,kp
+2024-11-11,ČN Novo mesto,BA.2.86* (BA.2.86.X),0.1621,nm
+2024-11-11,ČN Novo mesto,KP.2* (KP.2.X),0.1429,nm
+2024-11-11,ČN Novo mesto,KP.3* (KP.3.X),0.695,nm
+2024-11-17,CČN Ljubljana,BA.2.86* (BA.2.86.X),0.5455,lj
+2024-11-17,CČN Ljubljana,JN.1.18* (JN.1.18.X),0.0305,lj
+2024-11-17,CČN Ljubljana,KP.3* (KP.3.X),0.424,lj
+2024-11-17,CČN Murska Sobota,KP.3* (KP.3.X),0.9975,ms
+2024-11-17,CČN Murska Sobota,Omikron,0.0025,ms
+2024-11-17,ČN Domžale Kamnik,BA.2.86* (BA.2.86.X),0.1971,lj
+2024-11-17,ČN Domžale Kamnik,KP.3* (KP.3.X),0.8029,lj
+2024-11-17,ČN Kranj,BA.2.86* (BA.2.86.X),0.3136,kr
+2024-11-17,ČN Kranj,KP.3* (KP.3.X),0.6864,kr
+2024-11-17,ČN Maribor,BA.2.86* (BA.2.86.X),0.1211,mb
+2024-11-17,ČN Maribor,KP.3* (KP.3.X),0.8789,mb
+2024-11-17,ČN Nova Gorica,BA.2.86* (BA.2.86.X),0.0036,ng
+2024-11-17,ČN Nova Gorica,KP.2* (KP.2.X),0.236,ng
+2024-11-17,ČN Nova Gorica,KP.3* (KP.3.X),0.7604,ng
+2024-11-18,CČN Brežice,BA.2.86* (BA.2.86.X),0.0284,kk
+2024-11-18,CČN Brežice,KP.3* (KP.3.X),0.9716,kk
+2024-11-18,CČN Litija in Šmartno pri Litiji,BA.2.86* (BA.2.86.X),0.7677,za
+2024-11-18,CČN Litija in Šmartno pri Litiji,JN.1.18* (JN.1.18.X),0.0204,za
+2024-11-18,CČN Litija in Šmartno pri Litiji,KP.3* (KP.3.X),0.2119,za
+2024-11-18,CČN Postojna,BA.2.86* (BA.2.86.X),0.7059,po
+2024-11-18,CČN Postojna,KP.2* (KP.2.X),0.0038,po
+2024-11-18,CČN Postojna,KP.3* (KP.3.X),0.2903,po
+2024-11-18,CČN Slovenj Gradec,BA.2.86* (BA.2.86.X),0.5,sg
+2024-11-18,CČN Slovenj Gradec,KP.2* (KP.2.X),0.094,sg
+2024-11-18,CČN Slovenj Gradec,KP.3* (KP.3.X),0.406,sg
+2024-11-18,CČN Trbovlje,BA.2.86* (BA.2.86.X),0.2548,za
+2024-11-18,CČN Trbovlje,KP.3* (KP.3.X),0.7452,za
+2024-11-18,CČN Zagorje,BA.2.86* (BA.2.86.X),0.0062,za
+2024-11-18,CČN Zagorje,KP.3* (KP.3.X),0.9931,za
+2024-11-18,OČN Šaleške doline,BA.2.86* (BA.2.86.X),0.1038,ce
+2024-11-18,OČN Šaleške doline,KP.3* (KP.3.X),0.8962,ce
+2024-11-18,ČN Celje,BA.2.86* (BA.2.86.X),0.3333,ce
+2024-11-18,ČN Celje,KP.3* (KP.3.X),0.6667,ce
+2024-11-18,ČN Koper,BA.2.86* (BA.2.86.X),0.4906,kp
+2024-11-18,ČN Koper,KP.3* (KP.3.X),0.5094,kp
+2024-11-18,ČN Novo mesto,BA.2.86* (BA.2.86.X),0.4018,nm
+2024-11-18,ČN Novo mesto,KP.2* (KP.2.X),0.0025,nm
+2024-11-18,ČN Novo mesto,KP.3* (KP.3.X),0.5956,nm
+2024-11-24,CČN Ljubljana,BA.2.86* (BA.2.86.X),0.3134,lj
+2024-11-24,CČN Ljubljana,KP.2* (KP.2.X),0.1071,lj
+2024-11-24,CČN Ljubljana,KP.3* (KP.3.X),0.5794,lj
+2024-11-24,CČN Murska Sobota,BA.2.86* (BA.2.86.X),0.0758,ms
+2024-11-24,CČN Murska Sobota,KP.3* (KP.3.X),0.9219,ms
+2024-11-24,CČN Murska Sobota,Omikron,0.0023,ms
+2024-11-24,ČN Domžale Kamnik,BA.2.86* (BA.2.86.X),0.1408,lj
+2024-11-24,ČN Domžale Kamnik,KP.3* (KP.3.X),0.8592,lj
+2024-11-24,ČN Kranj,BA.2.86* (BA.2.86.X),0.1182,kr
+2024-11-24,ČN Kranj,KP.2* (KP.2.X),0.1191,kr
+2024-11-24,ČN Kranj,KP.3* (KP.3.X),0.7051,kr
+2024-11-24,ČN Kranj,Omikron,0.0576,kr
+2024-11-24,ČN Maribor,BA.2.86* (BA.2.86.X),0.1305,mb
+2024-11-24,ČN Maribor,KP.3* (KP.3.X),0.8695,mb
+2024-11-24,ČN Nova Gorica,BA.2.86* (BA.2.86.X),0.0963,ng
+2024-11-24,ČN Nova Gorica,KP.3* (KP.3.X),0.9037,ng
+2024-11-25,CČN Brežice,BA.2.86* (BA.2.86.X),0.3351,kk
+2024-11-25,CČN Brežice,JN.1.18* (JN.1.18.X),0.0031,kk
+2024-11-25,CČN Brežice,KP.3* (KP.3.X),0.6618,kk
+2024-11-25,CČN Postojna,KP.3* (KP.3.X),0.001,po
+2024-11-25,CČN Slovenj Gradec,BA.2.86* (BA.2.86.X),0.3858,sg
+2024-11-25,CČN Slovenj Gradec,KP.3* (KP.3.X),0.6142,sg
+2024-11-25,CČN Trbovlje,BA.2.86* (BA.2.86.X),0.9873,za
+2024-11-25,CČN Trbovlje,KP.3* (KP.3.X),0.0127,za
+2024-11-25,CČN Zagorje,BA.2.86* (BA.2.86.X),0.2929,za
+2024-11-25,CČN Zagorje,KP.3* (KP.3.X),0.7071,za
+2024-11-25,OČN Šaleške doline,BA.2.86* (BA.2.86.X),0.2436,ce
+2024-11-25,OČN Šaleške doline,KP.3* (KP.3.X),0.4203,ce
+2024-11-25,OČN Šaleške doline,Omikron,0.3361,ce
+2024-11-25,ČN Celje,BA.2.86* (BA.2.86.X),0.1589,ce
+2024-11-25,ČN Celje,KP.2* (KP.2.X),0.1995,ce
+2024-11-25,ČN Celje,KP.3* (KP.3.X),0.6416,ce
+2024-11-25,ČN Koper,BA.2.86* (BA.2.86.X),0.3051,kp
+2024-11-25,ČN Koper,JN.1.18* (JN.1.18.X),0.0061,kp
+2024-11-25,ČN Koper,KP.3* (KP.3.X),0.6889,kp
+2024-11-25,ČN Novo mesto,KP.3* (KP.3.X),0.001,nm
